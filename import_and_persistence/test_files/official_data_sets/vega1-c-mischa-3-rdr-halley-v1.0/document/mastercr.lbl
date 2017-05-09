@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE  = FIXED_LENGTH                                                   
+RECORD_BYTES = 80                                                             
+FILE_RECORDS = 229                                                            
+                                                                              
+^ASCII_DOCUMENT  = "MASTERCR.ASC"                                             
+                                                                              
+DATA_SET_ID  = "VEGA1-SW-MISCHA-3-RDR-CRUISE-V1.0"                            
+PRODUCT_ID   = "MASTERCR.ASC"                                                 
+PRODUCT_CREATION_TIME = 2002-11-01                                            
+PRODUCT_NAME = "MASTER FILE (CRUISE) SPECIFICATIONS"                          
+                                                                              
+                                                                              
+DESCRIPTION           = "This file describes the contents of the Master file  
+                         for the cruise phase of the Vega missions."          
+                                                                              
+OBJECT     = ASCII_DOCUMENT                                                   
+  DOCUMENT_FORMAT     = TEXT                                                  
+  DOCUMENT_NAME       = "MASTER (CRUISE) GUIDELINES"                          
+  DOCUMENT_TOPIC_TYPE = "GUIDELINES"                                          
+  INTERCHANGE_FORMAT  = ASCII                                                 
+  PUBLICATION_DATE    = 1997-08-13                                            
+END_OBJECT = ASCII_DOCUMENT                                                   
+                                                                              
+END                                                                           
+                                                                              

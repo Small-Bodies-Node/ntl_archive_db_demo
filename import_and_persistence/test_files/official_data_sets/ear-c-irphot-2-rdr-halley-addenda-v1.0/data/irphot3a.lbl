@@ -1,0 +1,285 @@
+CCSD3ZF0000100000001NJPL3IF0PDSX00000001 = SFDU                               
+PDS_VERSION_ID                       = PDS3                                   
+RECORD_TYPE                          = FIXED_LENGTH                           
+RECORD_BYTES                         = 124                                    
+FILE_RECORDS                         = 47                                     
+^TABLE                               = "IRPHOT3A.TAB"                         
+                                                                              
+DATA_SET_ID = "EAR-C-IRPHOT-2-RDR-HALLEY-ADDENDA-V1.0"                        
+TARGET_NAME                          = "HALLEY"                               
+PRODUCT_ID                           = "IRPHOT3A.TAB"                         
+PRODUCT_NAME  = "0.7- to 23-MICROMETER PHOTOMETRIC Observation Parameters"    
+PRODUCT_CREATION_TIME                = 1997-02-21                             
+START_TIME                           = 1985-12-12                             
+STOP_TIME                            = 1986-05-06                             
+INSTRUMENT_NAME                      = "N/A"                                  
+                                                                              
+OBJECT                               = TABLE                                  
+ INTERCHANGE_FORMAT                  = ASCII                                  
+ ROWS                                = 47                                     
+ COLUMNS                             = 20                                     
+ ROW_BYTES                           = 124                                    
+ DESCRIPTION = "This file lists the observation parameters for each of the    
+                data files referenced."                                       
+ NOTE   = "Values of 999.9, 9.99 and 1.00E+32 indicate that the associated    
+           data were not available."                                          
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "OBS NUMBER"                           
+  COLUMN_NUMBER                      = 1                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 1                                      
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      OBS NUMBER = Chronological observation number"                          
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT DAY"                               
+  COLUMN_NUMBER                      = 2                                      
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 4                                      
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.2"                                 
+  DESCRIPTION                        = "                                      
+      UT DAY = UT observation day"                                            
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT MONTH"                             
+  COLUMN_NUMBER                      = 3                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 10                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT MONTH = UT observation month"                                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT YEAR"                              
+  COLUMN_NUMBER                      = 4                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 13                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT YEAR = Last 2 digits of the UT observation year"                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "JD"                                   
+  COLUMN_NUMBER                      = 5                                      
+  UNIT                               = "JULIAN DAYS"                          
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 16                                     
+  BYTES                              = 7                                      
+  FORMAT                             = "F7.2"                                 
+  DESCRIPTION                        = "                                      
+      JD = Julian date of the observation: 2,440,000+"                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "DAYS FROM PERIHELION"                 
+  COLUMN_NUMBER                      = 6                                      
+  UNIT                               = "DAYs"                                 
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 24                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  DESCRIPTION                        = "                                      
+      DAYS FROM PERIHELION = UT time of each observation in decimal days      
+                             with respect to perihelion passage (t=0):        
+                             negative values = pre-perihelion                 
+                             positive values = post-perihelion"               
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "OBS SYSTEM"                           
+  COLUMN_NUMBER                      = 7                                      
+  DATA_TYPE                          = CHARACTER                              
+  START_BYTE                         = 31                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "A4"                                   
+  DESCRIPTION                        = "                                      
+      OBS SYSTEM = Photometric system used for the observation:               
+                   MLOF = UM Mount Lemmon Observing Facility 1.52-m telescope 
+                   UM2  = UM O'Brien 0.76-m telescope                         
+                   WIRO = Wyoming Infrared Observatory"                       
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "R"                                    
+  COLUMN_NUMBER                      = 8                                      
+  UNIT                               = "AU"                                   
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 36                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      R = Heliocentric distance in AU"                                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "DELTA "                               
+  COLUMN_NUMBER                      = 9                                      
+  UNIT                               = "AU"                                   
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 41                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      DELTA = Geoocentric distance in AU"                                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "T BLACKBODY"                          
+  COLUMN_NUMBER                      = 10                                     
+  UNIT                               = "KELVIN"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 46                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  DESCRIPTION                        = ""                                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "T COLOR"                              
+  COLUMN_NUMBER                      = 11                                     
+  UNIT                               = "KELVIN"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 53                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 999.99                                 
+  DESCRIPTION                        = "                                      
+      T COLOR = Measured infrared color temperature of the comet's            
+                continuum emission"                                           
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "SUPERHEAT"                            
+  COLUMN_NUMBER                      = 12                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 60                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  INVALID_CONSTANT                   = 9.99                                   
+  DESCRIPTION                        = "                                      
+      SUPERHEAT = Superheat of the Continuum emission"                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "IR APPARENT MAX"                      
+  COLUMN_NUMBER                      = 13                                     
+  UNIT                               = "WATT/CM^2"                            
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 65                                     
+  BYTES                              = 9                                      
+  FORMAT                             = "E9.2"                                 
+  INVALID_CONSTANT                   = 1.00e+032                              
+  DESCRIPTION                        = "                                      
+      IR APPARENT MAX = Observed maximum emission from the infrared           
+                        continuum in Watt per cm^2"                           
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "SOLAR COMP APPARENT MAX"              
+  COLUMN_NUMBER                      = 14                                     
+  UNIT                               = "WATT/CM^2"                            
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 75                                     
+  BYTES                              = 9                                      
+  FORMAT                             = "E9.2"                                 
+  INVALID_CONSTANT                   = 1.00E+32                               
+  DESCRIPTION                        = "                                      
+      SOLAR COMP APPARENT MAX = Observed maximum emission from the            
+                                scattered solar component in Watt per cm^2"   
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "ALBEDO"                               
+  COLUMN_NUMBER                      = 15                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 85                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  INVALID_CONSTANT                   = 9.99                                   
+  DESCRIPTION                        = "                                      
+      ALBEDO = Albedo of the coma at the scattering angle"                    
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "BLACKBODY ANGULAR RADIUS"             
+  COLUMN_NUMBER                      = 16                                     
+  UNIT                               = "MILLIARCSEC"                          
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 90                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 999.9                                  
+  DESCRIPTION                        = "                                      
+      BLACKBODY ANGULAR RADIUS = Equivalent blackbody angular radius of       
+                                 the coma continuum; assumes all emission     
+                                 is  from a point-like nucleus with           
+                                 respect to the reference beam"               
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "NUCLEUS RADIUS"                       
+  COLUMN_NUMBER                      = 17                                     
+  UNIT                               = "KM"                                   
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 97                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 999.99                                 
+  DESCRIPTION                        = "                                      
+      NUCLEUS RADIUS = Upper limit to the radius of the nucleus; assumes      
+                       all emission is from a point-like nucleus with         
+                       respect to the reference beam"                         
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "SCALE FACTOR"                         
+  COLUMN_NUMBER                      = 18                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 104                                    
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+         SCALE FACTOR = Multiplier to correct observed coma emission to       
+                        R = 1 and DELTA = 1:   R^-4 * DELTA^-1"               
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "STANDARD BEAM MULTIPLIER"             
+  COLUMN_NUMBER                      = 19                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 109                                    
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      STANDARD BEAM MULTIPLIER = Multiplier giving the comma emission in      
+               a standard beam of 20-arcsec diameter corrected for            
+               emission into the reference beam:                              
+               BEAM DIAMETER MULTIPLIER * STANDARD BEAM MULTIPLIER"           
+END_OBJECT                                                                    
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "IR ACTIVITY INDEX"                    
+  COLUMN_NUMBER                      = 20                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 114                                    
+  BYTES                              = 9                                      
+  FORMAT                             = "E9.2"                                 
+  INVALID_CONSTANT                   = 1.00e+032                              
+  DESCRIPTION                        = "                                      
+         IR ACTIVITY INDEX = Total infrared emission corrected for            
+                             beam size, throw, and distance effects:          
+         IR APPARENT INDEX * SCALE FACTOR^-1 * STANDARD BEAM MULTIPLIER"      
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+END_OBJECT                           = TABLE                                  
+END                                                                           

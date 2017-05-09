@@ -1,0 +1,128 @@
+CCSD3ZF0000100000001NJPL3IF0PDS200000001 = SFDU_LABEL                         
+/*               File Format and Length                               */      
+PDS_VERSION_ID      = PDS3                                                    
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 56                                                      
+FILE_RECORDS        = 24799                                                   
+DATA_SET_ID         = "SAKIG-C-IMF-3-RDR-HALLEY-V1.0"                         
+OBSERVATION_ID      = "UNK"                                                   
+OBSERVATION_TIME    = "UNK"                                                   
+START_TIME          = 1986-03-10T19:40:17.000Z                                
+TARGET_NAME         = "HALLEY"                                                
+/*               Record Pointer to Object                             */      
+^TABLE              = "IMF00001.TAB"                                          
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 24799                                                   
+ ROW_BYTES          = 56                                                      
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ DESCRIPTION        = "The original Data Set Name was MST5IMF.   The          
+ 4 sec data was submitted by Dr. Oyama.  The data start/stop time             
+ are 19:40:17 on March 10, 1986 and 02:41:43 on March 13, 1986.   The         
+ magnetic field is defined in terms of solar ecliptic coordinates with        
+ spacecraft at the center and the x direction positive towards the Sun,       
+ the y direction in the ecliptic plane, and the z direction given by          
+ a right handed coordinate system.   The angles appear to be negatively       
+ defined as compared to the published results by Saito et al. (1986)."        
+ COLUMNS            = 11                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MONTH"                                                 
+  DATA_TYPE         = ASCII_INTEGER                                           
+  BYTES             = 1                                                       
+  START_BYTE        = 1                                                       
+  FORMAT            = I1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DAY"                                                   
+  DATA_TYPE         = ASCII_INTEGER                                           
+  BYTES             = 2                                                       
+  START_BYTE        = 2                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "HOUR"                                                  
+  DATA_TYPE         = ASCII_INTEGER                                           
+  BYTES             = 2                                                       
+  UNIT              = "HOUR"                                                  
+  START_BYTE        = 5                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MIN"                                                   
+  DATA_TYPE         = ASCII_INTEGER                                           
+  BYTES             = 2                                                       
+  UNIT              = "MIN"                                                   
+  START_BYTE        = 7                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SEC"                                                   
+  DATA_TYPE         = ASCII_INTEGER                                           
+  BYTES             = 2                                                       
+  START_BYTE        = 9                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "IMF_TOTAL_FORCE"                                       
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 6                                                       
+  START_BYTE        = 12                                                      
+  FORMAT            = "F6.3"                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "IMF_X_COMPONENT"                                       
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 6                                                       
+  UNIT              = "nanoTesla"                                             
+  START_BYTE        = 19                                                      
+  FORMAT            = "F6.3"                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "IMF_Y_COMPONENT"                                       
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 6                                                       
+  UNIT              = "nanoTesla"                                             
+  START_BYTE        = 26                                                      
+  FORMAT            = "F6.3"                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "IMF_Z_COMPONENT"                                       
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 6                                                       
+  UNIT              = "nanoTesla"                                             
+  START_BYTE        = 33                                                      
+  FORMAT            = "F6.3"                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PHI"                                                   
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 7                                                       
+  UNIT              = "DEG"                                                   
+  DESCRIPTION       = "ANGLE MEASURED FROM THE Y AXIS TO THE IMF VECTOR"      
+  START_BYTE        = 40                                                      
+  FORMAT            = "F7.2"                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "THETA"                                                 
+  DATA_TYPE         = ASCII_REAL                                              
+  BYTES             = 7                                                       
+  UNIT              = "DEG"                                                   
+  DESCRIPTION       = "ANGLE MEASURED FROM THE Z AXIS TO THE IMF VECTOR"      
+  START_BYTE        = 48                                                      
+  FORMAT            = "F7.2"                                                  
+ END_OBJECT                                                                   
+                                                                              
+END_OBJECT          = TABLE                                                   
+END                                                                           

@@ -1,0 +1,1154 @@
+***** File GIOHMC.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+The Giotto Halley Multicolour                                                                                                     
+Camera                                                                                                                            
+                                                                                                                                  
+                                                                                                                                  
+W. K. H.Schmidt, H.U. Keller, K. Wilhelm                                                                                          
+Max-Planck-Institut fur Aeronomie, Katlenburg-Lindau, Germany                                                                     
+                                                                                                                                  
+C. Arpigny                                                                                                                        
+Institut d'Astrophysique, Universite de Liege, Belgium                                                                            
+                                                                                                                                  
+C. Barbieri                                                                                                                       
+Instituto di Astronomia, Universita di Padova, Padova, Italy                                                                      
+                                                                                                                                  
+L. Biermann                                                                                                                       
+Max-Planck-Institut fur Physik und Astrophysik, Munchen, Germany                                                                  
+                                                                                                                                  
+R.M. Bonnet                                                                                                                       
+Institut d'Astrophysique, Universite de Liege, Belgium                                                                            
+and European Space Agency, Paris, France                                                                                          
+                                                                                                                                  
+S. Cazes                                                                                                                          
+Laboratoire de Physique Stellaire et Planetaire, Verrieres-le-Buisson, France                                                     
+                                                                                                                                  
+C.B. Cosmovici                                                                                                                    
+Deutsche Forschungs- und Versuchsanstalt fur Lufi- und Raumfahrt, Oberpfaffenhofen, Germany                                       
+and Istituto Fisica Spazio Interplanetario, Frascati, Italy                                                                       
+                                                                                                                                  
+W.A. Delamere                                                                                                                     
+Ball Aerospace Systems Division, Boulder, USA                                                                                     
+                                                                                                                                  
+W.F. Huebner                                                                                                                      
+Los Alamos Scientific Laboratory, Los Alamos, New Mexico, USA                                                                     
+                                                                                                                                  
+D.W. Hughes                                                                                                                       
+University of Sheffield, Sheffield, UK                                                                                            
+                                                                                                                                  
+C. Jamar, D. Malaise                                                                                                              
+Institut d'Astrophysique, Universite de Liege, Belgium                                                                            
+                                                                                                                                  
+H. Reitsema                                                                                                                       
+Ball Aerospace Systems Division, Boulder, USA                                                                                     
+                                                                                                                                  
+P. Seige                                                                                                                          
+Deutsche Forschungs- und Versuchsanstalt fur Lufi- und Raumfahrt, Oberpfaffenhofen, Germany                                       
+                                                                                                                                  
+F.L. Whipple                                                                                                                      
+Harvard College Observatory, Cambridge, Mass., USA                                                                                
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+  The Halley Multicolour Camera (HMC) is a Ritchey-Chretien type Cassegrain                                                       
+telescope (1000 mm focal length) with CCD imagers in the focal plane. It is mounted                                               
+on the experiment platform of the Giotto spacecraft and looks out via a 45deg turret mir-                                         
+ror. It is suspended in a revolving mount so that the centre of its field of view can be                                          
+moved freely in a half plane that contains the spin axis of the spacecraft. Together with                                         
+the spinning motion of the spacecraft, this mobility enables the HMC to image any part                                            
+of the whole 4 pi solid angle of the sky.                                                                                         
+  The line-scan imaging technique uses the spacecraft's spin for one dimension and                                                
+the length of the line for the other dimension of the image. Four line sensors with filters                                       
+of different colour bands take images almost simultaneously. Onboard electronics con-                                             
+trolled by three microprocessors operate the camera almost autonomously. The image                                                
+of the comet will be searched for at the beginning of encounter operations. Having                                                
+found it, the camera will switch to the imaging mode.                                                                             
+  The contents of the images are to be telemetered to ground in sections and at the same                                          
+time used onboard to update the parameters that describe the spacecraft's trajectory                                              
+relative to the cometary nucleus. With this information, the HMC's field of view will                                             
+be able to track the centre of the comet's image.                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+1 Introduction                                                                                                                    
+  In recent decades, Whipple's 'dirty snowball' picture of the cometary nucleus has                                               
+become widely, but not universally accepted. Proof of the nucleus' existence and study                                            
+of its properties require pictures in various colour bands, preferably together with other                                        
+information. Acquisition of these pictures is the task of Halley Multicolour Camera                                               
+(HMC), which has been designed and built by an international collaboration of scien-                                              
+tists and engineers.                                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+2. Scientific Objectives                                                                                                          
+  The aim of the HMC is to provide high-quality images of the comet's nucleus in four                                             
+colours with two polarizations, and of the coma in several filter bands. The generally                                            
+accepted Whipple model predicts an icy conglomerate nucleus composed of frozen                                                    
+molecules mixed with dust. Because of the lack of resolution of ground-based in-                                                  
+struments, a cometary nucleus has never been observed. Multicolour high-resolution                                                
+imaging of the nucleus will contribute to the investigation of its:                                                               
+-   size, shape, and volume                                                                                                       
+-   surface properties (structure, morphology, and inhomogeneities due to possible ac-                                            
+    tive regions)                                                                                                                 
+-   photometric properties (albedo as a function of wavelength and phase angle, for                                               
+    a better understanding of the chemical composition of the nucleus)                                                            
+-   large-scale asymmetries in the sublimation process related to the rotation of the                                             
+    nucleus, and the solar phase angle (thermal lag, jets, envelopes, etc.)                                                       
+-   rotation period and spin-axis direction                                                                                       
+-   mechanism of mass loss                                                                                                        
+-   energy balance on the surface (insolation/sublimation).                                                                       
+                                                                                                                                  
+In addition to studying the cometary nucleus, multicolour imaging of the coma will                                                
+permit investigation of:                                                                                                          
+-   the production and evolution of gas molecules and dust grains                                                                 
+-   the characteristic scale length of the interaction of the coma with the nucleus, the                                          
+    acceleration of the dust by the gas, and the dust density distribution from the                                               
+    nuclear surface outwards                                                                                                      
+-   dust-grain size distribution and physical properties from scattering and albedo                                               
+    measurements                                                                                                                  
+-   chemistry of inner gas coma                                                                                                   
+-   time-dependent properties of the dust-gas outflow (streamers)                                                                 
+-   the possible presence of an icy grain halo.                                                                                   
+                                                                                                                                  
+Simultaneous observations from the Earth will permit stereo views and determinations                                              
+of the three-dimensional geometry of the coma.                                                                                    
+                                                                                                                                  
+3. Overview                                                                                                                       
+3.1 The Camera                                                                                                                    
+  The scientific objectives are to be pursued with a 1000 cm focal length telescope.                                              
+designed to operate on a spin-stabilized platform. The shortest exposure times for off-                                           
+spin-axis observations near closest approach to the nucleus will be less than 20 micro s,                                         
+determined by the pixel crossing time of the rapidly moving image in the focal plane,                                             
+so that a mechanical shutter cannot be used. The field of view (FOV) of a telescope                                               
+with high resolving power/magnification is necessarily quite small, and as the aspect                                             
+angle of the cometary centre will change during the flyby from near 0deg to 180 deg the                                           
+telescope has to be articulated so that its FOV can follow it.                                                                    
+  The above considerations led to the basic design illustrated in Figures 1 to 5 (details                                         
+to be described in the following sections). A line-scanning imaging technique is                                                  
+employed whereby the spacecraft's rotation provides one spatial dimension and the                                                 
+linear dimension of the line detector provides the orthogonal dimension. A set of five                                            
+linescanning detectors - one for timing control and four for imaging in different                                                 
+colours - is used to provide colour images of the comet. Figure 4 illustrates how a                                               
+line-scan image of the target is taken at the proper angle and time, and Figure 5 shows                                           
+the arrangement of the line detectors in the focal plane.                                                                         
+ In order to be able to follow the target to large offset angles, the telescope is mounted                                        
+with its optical axis perpendicular to the spin axis of the spacecraft, and its FOV is                                            
+deflected by 90deg via a 45deg turret mirror. Rotating the telescope around its optical axis                                      
+by 180deg changes the centre direction of the FOV from alignment with the spin axis (at                                           
+the beginning of encounter operations) to the antiparallel direction. This rotational mo-                                         
+tion, together with the spacecraft's spinning motion, allows the HMC to image a target                                            
+                                                                                                                                  
+Figure 1. Cross-section through the Halley                                                                                        
+Multicolour Camera. The spacecraft                                                                                                
+experiment platform is at the lower edge. X, Z                                                                                    
+and X', Z', are HMC internal coordinate                                                                                           
+systems. In the position shown Z' is (within                                                                                      
+alignment errors) parallel to the +Z axis of the                                                                                  
+Giotto spacecraft                                                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+anywhere within the complete 4 pi solid angle of the sky.  A possible small 'blind spot'                                          
+near the spin axis due to misalignment is avoided by the possibility to tilt the deflecting                                       
+mirror by about 1deg in either direction from the 45deg centre position. This tilt capability                                     
+can also be used if the target should be found to be aligned exactly with the spin axis.                                          
+In that event there will be no linear motion of the image, which is needed to employ                                              
+the line-scanning technique; the scene will then be swept smoothly across the line                                                
+detector by tilting the deflecting mirror, thereby introducing an artificial linear move-                                         
+ment of the image ('on-axis-imaging' in HMC terminology).                                                                         
+  Three of the four line detectors are covered by permanent colour filters, while the                                             
+fourth (line C in Fig. 5) has an 11-position filter wheel in front of it (see Section 4).                                         
+This filter wheel contains narrow and wideband filters and polarizers, so that the dust                                           
+as well as the gas coma can be investigated, in addition to the cometary nucleus.                                                 
+  The search for the cometary nucleus here will be conducted by looking for the                                                   
+brightest spot in the FOV. This is the least model-dependent principle compared, for                                              
+instance, with the search for a contrast pattern or even negative contrast (dark nucleus                                          
+on light background). If the nucleus is visible at all, the dust cloud must be optically                                          
+thin, and chances are then high that the surface of the nucleus will be the brightest part                                        
+in the FOV. Should the reflectivities of the surface and the dust be so drastically dif-                                          
+ferent that the dust is brighter than the surface of the nucleus, then in the optically thin                                      
+case the brightest spot must still be very close to the nucleus, because the dust density                                         
+is highest there.                                                                                                                 
+  Only in the optically thick case, where the nucleus will be invisible anyway, is it like-                                       
+ly that the brightest spot will be far from the nucleus, and it is then still likely that                                         
+                                                                                                                                  
+Figure 2. The HMC with its electronics box on                                                                                     
+a laboratory support. The rotational position is                                                                                  
+the same as in Figure 1, i.e. looking towards                                                                                     
+the +Z axis of the spacecraft                                                                                                     
+                                                                                                                                  
+Figure 3. Schematic of the HMC and                                                                                                
+spacecraft interfaces                                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+the vicinity of the brightest spot will be the most interesting part of the whole scene.                                          
+  The data rate allotted to the HMC is 20058 bit/s. At 8 bit/pixel, this is sufficient                                            
+to transmit the content of an image section of 98X98 pixels, plus appropriate                                                     
+housekeeping information, to ground during each 4s spin period. The picture format                                                
+will be changed at times so that smaller and larger picture sections can be transmitted                                           
+alternately or interleaved.                                                                                                       
+  In order to transmit a maximum of information within the given data-rate con-                                                   
+straints, the analogue signal data are compressed by taking the square root of the                                                
+signal. In this way the digitization error or step width is proportional to the standard                                          
+deviation of the fluctuation distribution, with the actual signal as the assumed mean                                             
+value. Data compression is therefore naturally fitted to the inherent uncertainties of                                            
+the data to be gathered.                                                                                                          
+                                                                                                                                  
+3.2 operations                                                                                                                    
+  The HMC operates in four basic modes, called Acquisition, Coma, Nucleus and                                                     
+Observatory Modes.                                                                                                                
+                                                                                                                                  
+3.2.1 Acquisition                                                                                                                 
+  At the beginning of encounter operations, the image of the comet has to be found                                                
+and identified. A line detector 1.6deg wide in the focal plane of the HMC will be used                                            
+for this purpose. By tilting the deflecting mirror and rotating the barrel (telescope)                                            
+appropriately, a 4.4deg X 4.6deg field in front of the spacecraft centred on its nominal spin                                     
+axis will be searched. The image of an object in front of the spacecraft will move in                                             
+circles in the focal plane with the spin angular velocity. By sweeping the FOV across                                             
+the line detector, the moving image must cross the detector, and the time and place                                               
+of the detector crossing will be recorded. A sufficiently large search field has been                                             
+chosen that the full circle of the worst-case misaligned cometary image will be                                                   
+covered. After having recorded a sufficient number of crossings, the Digital Process-                                             
+ing Unit (DPU) will calculate the parameters of the image's movement: spin and nuta-                                              
+tion period, radius, and phase. It uses this information in the next operational mode                                             
+(Coma) to take pictures around the brightest spot in the FOV at the proper time.                                                  
+  At this time in the mission, the cometary nucleus is expected to be much smaller                                                
+than a pixel of the line detector (30 micrometer X 375 micrometer, l micrometer is equivalent                                     
+to 1 microradian). The signal on one of the large pixels is therefore expected to be                                              
+dominated by the coma of the comet, because it will project an extended image into the focal                                      
+plane. The algorithm will therefore search for an extended object in the scene.                                                   
+                                                                                                                                  
+Figure 4. Principle of line-scan imaging from a                                                                                   
+spin-stabilized spacecraft                                                                                                        
+                                                                                                                                  
+3.2.2 Coma Mode                                                                                                                   
+  For most of the mission, the circle that the image describes in the focal plane will                                            
+be so small that it is expected to cross only one line detector safely. For circle radii                                          
+rho <0.8deg, the on-axis-imaging technique (see Section 3.1) will be used. The geometry                                           
+for data acquisition has been chosen such that the cometary image crosses one detector                                            
+line (line C, Fig. 5) at right angles. Only this detector line will be used for picture                                           
+taking during Coma Mode.                                                                                                          
+  There will be >= 3 h between completion of the acquisition and closest approach.                                                
+During this period a large number of pictures will be taken in various formats and us-                                            
+ing all of the filters. This will yield data on the innermost coma with varying FOV                                               
+and resolution; the largest picture transmitted will be the full CCD area of 292 pixels                                           
+(height) by 390 pixels (width).                                                                                                   
+                                                                                                                                  
+3.2.3 Nucleus Mode                                                                                                                
+  Depending on the final flyby distance, some 9 min or less before closest approach,                                  :           
+the radius of the cometary image's track in the focal plane will exceed 1.6 deg. The circle                                       
+will then be so large that all four imaging line detectors will be crossed by the image                                           
+nearly perpendicularly. This is therefore the threshold for switching to Nucleus Mode.                                            
+Image sections of 76 X 76 pixels from all four detectors will be transmitted to ground                                            
+once during each spin period. The resolution on the surface of the nucleus will be bet-                                           
+ter than 800 m per pixel from this distance.                                                                                      
+ The line detectors have different filters in front of them (Fig. 5 and Table 1). Line                                            
+B has a red filter, line C an orange or polarizing filter, line D a blue filter, and line                                         
+E is the clear channel integrating over the whole spectrum (see spectral responsivity                                             
+of the CCDs, Fig. 9). The clear channel will be read out at full resolution, the col-                                             
+oured channels at half resolution, i.e. 38 X 38 pixels of double linear size each. With                                           
+this information, a colour picture of 76 X 76 pixels of the highest obtainable resolution                                         
+can be constructed just before loss of tracking or loss of the mission.                                                           
+                                                                                                                                  
+3.2.4 Observatory Mode                                                                                                            
+  In order to take pictures anywhere in the sky at will, an operational mode has been                                             
+included that permits imaging at arbitrary separation angles (i.e. telescope                                                      
+rotation angles) and spin phases without the need for tracking (see below).                                                       
+                                                                                                                                  
+Figure 5. Image plane (virtual focal plane, see                                                                                   
+text) showing the arrangement of the four                                                                                         
+CCD imager lines and the double-line diode                                                                                        
+array (top). The complete circle shows the                                                                                        
+outer boundary of the unvignetted field of                                                                                        
+view. The circular arc indicates the track of                                                                                     
+of the target's image through the image plane                                                                                     
+when the target's aspect w.r.t. the spin axis is                                                                                  
+1.6deg                                                                                                                            
+                                                                                                                                  
+3.2.5 Tracking of the comet                                                                                                       
+ As pointed out above, the movement of the cometary image in the focal plane of                                                   
+the telescope will initially be determined during Acquisition Mode. Later, in Coma                                                
+Mode these parameters will be used to rotate the telescope and time the detector                                                  
+clocking properly, so that the predicted location of the image will be in the centre                                              
+the active CCD area. In addition to being telemetered to ground, the actual location                                              
+of the centroid of brightness compared with the predicted one will be used to update                                              
+                                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Table 1. Filter configurations for the four imaging line detectors                                                                
+                                                                                                                                  
+Filter no.  Filter                      Characteristic        Cut-on wavelength  Cutoff wavelength  Transmission (peak)           
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+ 1        C1    shutter                 shutter               N/A                N/A                <10**-9                       
+ 2        C2    clear                   wide band, full CCD   <300 nm            >1100 nm            >0.95                        
+                                        response                                                                                  
+ 2        E     clear                                                                                                             
+ 3        C3    red                     wide band             700+/-5 nm         >1100 nm            >0.85                        
+ 3        B     red                                                                                                               
+ 4        C4    orange                  wide band             580+/-5 nm         700+/-5 nm          >0.85                        
+ 5        C5    blue                    wide band             < 360 nm           490+/-5 nm          >0.85                        
+ 5        D     blue                                                                                                              
+ 6        C6    P(par)(polarizer, clear)wide band-polarizer   <300 nm            > 1100 nm           >0.30                        
+ 7        C7    P(perpen)               wide band-polarizer   <300 nm            > 1100 nm           >0.30                        
+ 8        C8    cont. 1                 dust, narrow band     440+/-2 nm         456+/-2 nm          >0.50                        
+ 9        C9    cont.  2                dust, narrow band     716+/-2 nm         742+/-2 nm          >0.50                        
+10        c10   OH                      gas, narrow band      302+/-2 nm         320+/-2 nm          >0.50                        
+11        C11   C3                      gas, narrow band      398+/-2 nm         416+/-2 nm          >0.50                        
+12        c12   C2                      gas, narrow band      500+/-2 nm         520+/-2 nm          >0.50                        
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+* Wavelengths with tolerances refer to 50% of peak transmission points; other wavelengths refer to 90% of peak transmission points
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+knowledge of the image's movement as seen from the HMC. These 'tracking calcula-                                                  
+tions' will predict the flyby geometry all the way through closest approach. At the                                               
+beginning of the encounter operations, the tracking algorithm makes use of the                                                    
+estimated time to closest approach as transmitted from the ground; when the separa-                                               
+tion angle has changed noticeably, the onboard software will determine all parameters,                                            
+including the time to closest approach, autonomously, so that the FOV of the telescope                                            
+can follow the position of the cometary nucleus accurately on the sky. As a byproduct,                                            
+the high-accuracy flyby parameters will be available at the ground station in near-                                               
+real-time.                                                                                                                        
+                                                                                                                                  
+3.2.6 In-flight performance                                                                                                       
+  As the Giotto spacecraft is now well on its way to Halley's Comet, the HMC system                                               
+has already been tested in space and found to be working with only minor deviations                                               
+from its expected behaviour.                                                                                                      
+  The camera's imaging capability and quality was demonstrated when, for test pur-                                                
+poses, it was turned last October to look back towards the Earth. Pictures taken on                                               
+18 and 23 October 1985 from a distance of 2.1 X 10**7 km have been published in ESA                                               
+Bulletin No. 44 (cover and pp. 96 and 97). The distance was too great to pick out                                                 
+details of the Earth's surface (ground resolution ~= 500 km per resolution element),                                              
+but the large-scale bright cloud pattern could be clearly recognized, demonstrating                                               
+satisfactory imaging performance.                                                                                                 
+                                                                                                                                  
+4.  The Instrument                                                                                                                
+4.1 Overall Design                                                                                                                
+4.1.1 Mission and instrument constraints                                                                                          
+  The spacecraft for the Giotto mission was designed to be a spinning body, and the                                               
+flyby geometry calls for the spin axis to be parallel to the spacecraft-comet relative                                            
+velocity vector. The intended very close encounter with the comet immediately impos-                                              
+ed a number of constraints on the basic camera design:                                                                            
+(a) The cometary image is always moving (on circles); this would cause a smearing                                                 
+    of the image if the exposure time were longer than that needed for a point image                                              
+    to cross a basic resolution element (smearing time). The smearing time depends                                                
+    on the separation angle rho between the spin vector and the direction towards the                                             
+    target, and is obviously shortest for rho=90deg.                                                                              
+(b) The separation angle rho changes during the mission. This necessitated some kind                                              
+    of articulation for the FOV between small and large rho.                                                                      
+(c) Dust will be encountered near the comet, so that the most sensitive parts of an                                               
+    instrument had to be protected by the dust shield against high-velocity (69 km/s)                                             
+    dust impacts                                                                                                                  
+(d) CCDs were selected as image sensors, which need a cooled environment to                                                       
+    avoid excessive dark-signal integration.                                                                                      
+                                                                                                                                  
+4.1.2 Basic design                                                                                                                
+  To comply with the above constraints, the basic HMC design was developed as                                                     
+follows. The main body of the telescope, including optics, image detectors, and elec-                                             
+tronics, has been mounted on the experiment platform of the spacecraft, behind the                                                
+dust shield. Viewing directions other than 90deg w.r.t. the spin axis are obtained by                                             
+means of a rotating turret mirror. Cooling is achieved by radiating heat to space, and                                            
+the short exposure times which would not be possible with mechanical shutters                                                     
+(shortest smearing time for this particular design is 14.2 micro s) are achieved by line-scan                                     
+imaging.                                                                                                                          
+  Line-scan imaging leads to undistorted imaging only for a 90deg separation angle; at                                            
+other angles the image is not only moving linearly in the focal plane of the telescope,                                           
+but also rotating. This causes a particular distortion when scanning it by a line detec-                                          
+tor, but the data can be deconvolved. The limiting case in which the target appears                                               
+to be exactly on the spin axis would cause some deconvolution problems, because here                                              
+the image only rotates and has no linear movement. In this case (for separation angles                                            
+smaller than 0.8 deg) 'on-axis-imaging' will be achieved by tilting the deflecting mirror                                         
+(see Section 3.1). A particular problem with a line-scan camera on a spinning platform                                            
+is the potential 'blind spot' if the target is on the spin axis, and the spin axis and the                                        
+optical axis (after deflection by the mirror) are not perfectly parallel; this problem is                                         
+overcome when the image is moved artificially by tilting the mirror.                                                              
+  The basic design of the HMC is illustrated by Figures 1 to 4. In Figure 1, which                                                
+is a cross-sectional schematic of the camera, the optics of the telescope and the focal                                           
+plane, as well as the detectors, are situated behind the dust shield. The 45deg deflecting                                        
+turret mirror allows the FOV to be parallel to the spacecraft's spin axis (rho=0deg)                                              
+The turret mirror allows the HMC to reach rho= 180deg (i.e. the position shown in Fig. 1)                                         
+by rotation about the optical axis and this together with the spinning motion of the                                              
+spacecraft, makes it possible to cover the whole sky.                                                                             
+  With the turret-mirror design, the detector line has always to be parallel to the                                               
+deflecting mirror plane, which implies that the detector line has to be turned in the                                             
+same way as the turret mirror. As a result, the whole camera - telescope, focal-plane                                             
+detectors, deflecting mirror and baffle - has been designed to rotate as a unit. The                                              
+detectors need cooling and so it was decided to use the 'knee' that houses the deflecting                                         
+mirror as a radiator, and to use the 'barrel' that houses the telescope as a heat conduc-                                         
+tor between the Focal Plane Unit (FPU) and the radiator.                                                                          
+  The mechanical connections between the moving camera and the experiment plat-                                                   
+form (bearing, rotation drive mechanism and cabling) were all designed so as to                                                   
+minimize heat conduction from the spacecraft into the camera. The original design                                                 
+goal was to achieve -30degC in the FPU; the final construction yielded >=  -20degC,                                               
+which the detectors can readily cope with.                                                                                        
+  Figure 3 is a schematic of the telescope system and associated electronics.                                                     
+  In order to help visualize the operation of the HMC, Figure 4 is an attempt to il-                                              
+lustrate the taking of a picture. Because of the spinning motion of the spacecraft, the                                           
+FOV of the HMC covers an annulus on the sky with radius rho during the course of                                                  
+one spin period. If the target (comet) happens to be within this strip as seen from the                                           
+spacecraft, proper triggering and timing allows the HMC to take image data of just                                                
+that part of the strip that is centred on the comet.                                                                              
+                                                                                                                                  
+4.2 Structure and thermal system                                                                                                  
+4.2.1 Mechanical design                                                                                                           
+  As mentioned in the last section, the optical telescope, with FPU, deflecting mirror                                            
+(except for its small tilt capability) and baffle, is a mechanically rigid unit. Two sup-                                         
+port structures, each containing three bearings, and attached to the experiment plat-                                             
+form, hold the barrel and allow it to rotate about its axis, which is also the optical axis                                       
+of the telescope. Two additional bearings control the axial position of the barrel.                                               
+  The cabling posed a particular problem. From the detectors, the filter wheel, the                                               
+mirror motor and the position encoders, there are a total of ~ 100 connections between                                            
+the rotating camera unit and the static part of the system, with all the mechanical and                                           
+thermal constraints. The solution employed is shown in Figure 6. The wires are the                                                
+thinnest allowed by ESA specifications, in order to keep the heat input to the rotating                                           
+unit at 200 mW.                                                                                                                   
+  In order to avoid the camera's rotation having any influence on the spacecraft's spin                                           
+period, its nonsymmetric rotating parts (deflecting mirror plus drive and baffle) had                                             
+to be balanced so that the moments of inertia w.r.t. two axes perpendicular to the                                                
+rotating axis are equal, to better than 10**-5. This required two protrusions at 120deg to                                        
+the baffle, which can be clearly seen in Figure 2.                                                                                
+  During Giotto's Ariane-l launch the moving portion of the HMC had to be clamped                                                 
+with two metal strings so that it could not rotate erratically. A pyroelectric cutter was                                         
+used to release the HMC 39 days after launch.                                                                                     
+                                                                                                                                  
+Figure 6. Cabling between the fixed structure                                                                                     
+and the rotating part of the HMC, viewing                                                                                         
+towards the back of the telescope (FPU  =                                                                                         
+Focal Plane Unit)                                                                                                                 
+                                                                                                                                  
+4.2.2 Thermal design                                                                                                              
+ The thermal design called for a cooled telescope focal plane, which is achieved by                                               
+radiating heat to space from a surface covered with second-surface-mirror material                                                
+(alpha/epsilon ~0.3). The surface radiating to space is approximately 600 cm**2. The attached                                     
+baffle is painted with white Astral PCBZ paint, and it is sufficiently cold for a negli-                                          
+gible amount of heat to be conducted to the knee. The barrel is made from 0.8 mm                                                  
+thick aluminium and conducts the heat from the focal plane to the radiator. The whole                                             
+rotating unit is coupled conductively to the spacecraft only by the 8 titanium bearings,                                          
+the worm gear drive and the wiring to the FPU. Radiative coupling to the spacecraft                                               
+has been minimized by covering the barrel with multi-layer insulation. All aluminium                                              
+parts have an iridite surface finish. Having thermally insulated the rotating unit, it is                                         
+obviously of paramount importance to keep the latter's electrical power dissipation to                                            
+a minimum. As a result, most of the detector circuitry - except for preamplifiers -                                               
+is in the electronics box, well separated from the focal plane.                                                                   
+  With this thermal design it is possible to cool the camera by passive means despite                                             
+the fact that (because of the spinning spacecraft) the radiator is periodically exposed                                           
+to sunlight.                                                                                                                      
+  A 26-node thermal model of the HMC was developed to verify first estimates and                                                  
+help in the design. This model clearly demonstrated the feasibility of our design. The                                            
+FPU temperature is expected to vary between -38degC and -18degC during the mission,                                               
+as the solar aspect angle varies. The predicted FPU temperature at encounter is                                                   
+-25degC and it will rise during the 4 h of operation by  ~ 4degC, due to the electrical                                           
+power dissipation.                                                                                                                
+                                                                                                                                  
+4.3 Mechanisms                                                                                                                    
+  As indicated earlier, the HMC has three separate moving subsystems: the telescope                                               
+assembly as a whole, the deflecting mirror, and the filter wheel. Stepper motors are                                              
+used to drive the different mechanisms and the overall operation of the HMC is based                                              
+on counting the step drive pulses transmitted to the motors with the proper sign.                                                 
+Angular position encoders (two potentiometers and one optical/digital) are used on all                                            
+mechanisms for housekeeping information, so that the user can assess the performance                                              
+of the mechanisms.                                                                                                                
+                                                                                                                                  
+ 4.3.1 Rotation drive                                                                                                             
+  The rotation mechanism is a worm-gear drive with the wheel mounted directly on                                                  
+the barrel and the worm pushed against it by a spring-loaded lever to prevent backlash.                                           
+Power is transmitted from the stepper-motor assembly to the worm shaft via a toothed                                              
+belt. To monitor the rotation movements of the barrel, a high-precision potentiometer                                             
+strip encoder (read out by a 12-bit ADC) is included in the design. The resistive strip                                           
+is bonded to the outer surface of the barrel, and the wiper, with associated electronics,                                         
+is integrated into the foot structure.                                                                                            
+  Each full step rotates the barrel by 1/100 deg, which is then the basic resolution of the                                       
+rotation drive. A fixed drive frequency of 1000 full steps per second results in a cons-                                          
+ant rotational speed of 10deg per second. This frequency was chosen to allow the HMC                                              
+to follow the apparent cometary motion for flyby distances of 500 km and larger. For                                              
+closer flybys, there is a point some time before closest approach at which the cometary                                           
+image will be lost and only regained some time after flyby at rho>90deg, i.e. looking                                             
+backwards w.r.t. the relative-velocity vector.                                                                                    
+ A reference position indicator and safety end switches complete the rotation drive                                               
+mechanism. The reference indicator is an LVDT with voltage zero detection; its mov-                                               
+ing core is actuated by the rotating barrel. The resolution of this device is better than                                         
+0.01deg, which is adequate. The safety end-of-range switches are Reed relays, which                                               
+cause the electrical driver circuitry to reverse the polarity of the pulses fed to the motor                                      
+windings; this action is not controlled by the Motor-Control Processor, but rather by                                             
+the Reed switches only.                                                                                                           
+                                                                                                                                  
+4.3.2 Deflecting mirror mechanism                                                                                                 
+ The mirror drive consists of a stepper motor and a worm drive gear that drives a                                                 
+high-precision cam made from a titanium alloy. A lever rigidly connected to the moun-                                             
+ting flange of the mirror rides on the polished surface of this cam. The mirror in turn                                           
+is suspended by two flexural pivots, their centre line being the tilting axis. As the cam                                         
+turns, the lever follows its outer edge surface and thereby tilts the mirror slowly, the                                          
+allowed tilt range being 2.2deg around the 45deg position w.r.t. the optical axis. Software                                       
+limits watched over by the DPU ensure that the lever cannot slide across the steep part                                           
+of the cam.                                                                                                                       
+ Speeds of 11.2 and 5.6 mrad/s, selectable via software by the DPU, are available                                                 
+corresponding to stepper-motor frequencies of 1000 Hz and 500 Hz, respectively.                                                   
+One step has been chosen to correspond to a distance of 22.4 microradians (~= 4.8") in the                                        
+focal plane of the telescope, which is the size of a pixel for the CCD image detectors                                            
+used. This was done so that images can be obtained without smearing. The faster mir-                                              
+ror speed is to be used for on-axis imaging, while the slow speed will be used for                                                
+acquiring the target (comet) at the beginning of the encounter operations (Acquisition                                            
+Mode). A zero-position reference indicator completes the design of this mechanism.                                                
+It is an LVDT device similar to the one used in the barrel rotation mechanism.                                                    
+ The angular-position encoder for housekeeping purposes is again a high-precision                                                 
+conductive plastic potentiometer; its wiper is rigidly fixed to the rotating cam. The                                             
+potentiometer is again read out by a 12-bit ADC.                                                                                  
+                                                                                                                                  
+4.3.3 Filter-wheel mechanism                                                                                                      
+ The filter wheel, with its 12 positions, is moved via a spur gear drive by a stepper                                             
+motor. Four steps are necessary to change from one filter position to the next. A four-                                           
+channel optical encoder (holes in the filter wheel) reads the correct filter-wheel posi-                                          
+tions, with a fifth channel (data valid) to indicate erroneous positions between filters.                                         
+                                                                                                                                  
+4.3.4 Motor drive circuitry                                                                                                       
+ As motor currents are high and the stepper pulse shapes can cause a lot of ripple                                                
+on the supply voltage, the HMC has been allotted two lines from the main power bus,                                               
+one for the analogue and digital electronics and a separate one for the motors. The                                               
+motor power line feeds the drive circuits for the motors directly. A filter and a current                                         
+limiter on the motor line are used to keep inrush current and ripple feedback onto the                                            
+main bus to acceptable levels. Coupling between the motor control electronics,                                                    
+powered by the converter line, and the motor drive electronics is achieved with opto-                                             
+couplers. Only one set of control and drive electronics is used, as only one motor is                                             
+allowed to operate at any one time.                                                                                               
+                                                                                                                                  
+4.4 Optics and baffle                                                                                                             
+ The optics consist of two pans, namely the telescope itself and the deflecting mirror.                                           
+As we have to expect small dust particles to hit the deflecting mirror long before                                                
+closest approach to the comet, it is necessary to avoid direct sunlight or that reflected                                         
+from parts of the spacecraft striking the mirror. This would cause a significant stray-                                           
+light background to the images and a baffle had therefore to be added.                                                            
+                                                                                                                                  
+4.4.1 Telescope                                                                                                                   
+ The telescope is mounted as a unit to the backplate of the barrel (Fig. 1). It is a                                              
+modified Ritchey-Chretien design with a correcting field lens and a focal length of                                               
+1000 mm. The active diameter of the primary mirror is 166 mm, the maximum com-                                                    
+patible wth the HMC's basic design and the spacecraft constraints. The nonspherical                                               
+primary and secondary mirrors are 246 mm apart. The secondary mirror is supported                                                 
+by a mu-metal tube and four struts and has no mechanical interface with the barrel                                                
+(Fig. 1). The geometric focal ratio is F/6.25, and the effective ratio is F/7.7, taking                                           
+into account the obscuration by the secondary mirror, the support struts and reflection                                           
+losses at the lens. Taking into account all components, together with alignment errors                                            
+and the diameter of the Airy disc, we arrived at an estimated width of about two pixels                                           
+for a point-source image, which has essentially been confirmed since launch.                                                      
+                                                                                                                                  
+4.4.2 Deflecting mirror                                                                                                           
+  As the 160 mm diameter telescope's entrance pupil is situated near the deflecting                                               
+mirror, the latter has to be elliptical, with minimum dimensions of 160 X226 mm**2. A                                             
+polygonical figure slightly larger than the minimum ellipse was therefore chosen. The                                             
+conflicting needs of achieving a good optical figure and keeping the weight quite small                                           
+(<=650 g) led to a highly unusual design. Starting from a solid slab of aluminium (alloy                                          
+7075), material was removed by means of two series of mutually perpendicular holes                                                
+drilled in parallel to and between the two flat faces of the slab. Structural analysis of                                         
+this shape was carried out, including the simulation of particle bombardment (Angrilli                                            
+et al., 1984). The final product has outside dimensions of 244X l90X 17.5 mm**3 and                                               
+weighs only 658 g.                                                                                                                
+  Particle bombardment studies were also carried out on a number of candidate                                                     
+substrate materials, using explosive charges at the premises of Difesa e Spazio at Col-                                           
+leferro in Rome, and dust particles at the linear accelerator of the University of Kent                                           
+(Coradini et al., 1982; 1984). One result of these studies was that the usual technique                                           
+of covering the aluminium surface with a hard layer of nickel-chromium (Kanigen)                                                  
+could not be employed, as the bombardment tests showed that large pieces of Kanigen                                               
+could be removed by a particle impact. The pure aluminium surface had therefore to                                                
+be used, with only a thin protective layer of MgF2.                                                                               
+  The final quality of the mirror surface was measured in the optical workshops of                                                
+the European Southern Observatory, with the following results: at 632 nm, 100% of                                                 
+the active surface has a planarity of better than Lambda/5, 94% of better than Lambda/6; 80% of                                   
+the reflected energy is enclosed in a cone of 20 microradian diameter, closely matching the                                       
+pixel size of the detector.                                                                                                       
+  The reflectivity was measured at both normal and 45deg incidence in the spectral range                                          
+from 300 to 1000 nm; the results are shown in Figure 7 for both polarization states.                                              
+                                                                                                                                  
+Figure 7. Reflectivity of the deflecting mirror:                                                                                  
+The surface is polished aluminium, with a thin                                                                                    
+layer of MgF2                                                                                                                     
+                                                                                                                                  
+4.4.3 Baffle                                                                                                                      
+  The entire baffle system was designed using adapted versions of both the APART                                                  
+and GUERAP software programs, the latter kindly being made available by                                                           
+ESA/ESTEC. Details of this design have been reported by Brunello (1983).                                                          
+  The external cylinder is made from kevlar fibre and the attenuating rings from                                                  
+aluminium. The internal finish is ASTRAL/S2 paint, and the flight model is coated                                                 
+externally with a conductive white paint. The attenuation of the cylinder, whose main                                             
+limitation is the unfavourable length-to-width ratio as dictated by spacecraft con-                                               
+straints, exceeds the specifications (Fig. 8).                                                                                    
+                                                                                                                                  
+4.5 Focal-Plane Unit                                                                                                              
+  The Focal-Plane Unit (FPU) is made up of the image detectors and associated op-                                                 
+tical, mechanical and electronic support components, and the filter-wheel assembly.                                               
+The filter-wheel mechanism has been described in Section 4.3; a description of the                                                
+filters and their arrangement is more appropriately included here.                                                                
+                                                                                                                                  
+4.5.1 The detectors and their readout principle                                                                                   
+  Two types of photon detectors are used in the HMC: CCD imagers and a double-line                                                
+photodiode array (reticon). The tasks of the two different detector types and their                                               
+readout principles are quite different.                                                                                           
+                                                                                                                                  
+4.5.1.1 CCD detectors                                                                                                             
+  The CCDs are virtual phase devices made by Texas Instruments Inc. for portable                                                  
+television cameras. Our special devices were made without the normal anti-blooming                                                
+drain in the image section. The total sensitive area is organized in 584 lines, made up                                           
+of 390 pixels, each 22.35 micrometer square.                                                                                      
+  The operating principle is as follows. An area detector is covered with an opaque                                               
+mask containing a window that leaves a few lines of pixels uncovered. The slit is                                                 
+located near the 'top' of the area, i.e. the edge parallel to but furthest from the readout                                       
+register. If an image moves perpendicularly across the slit, the CCD is clocked syn-                                              
+chronously, which means that the charge packets are physically moved at the same                                                  
+average speed as the image. The charge pattern under the mask is representative of                                                
+the image simultaneously displayed on the top surface of the mask. It is essentially                                              
+the principle of a slit-shutter camera, the difference being that here the image and the                                          
+'detector' (charge pattern) are moving in synchronism while the slit is stationary w.r.t.                                         
+the optics; in the slit shutter camera, the slit moves across the detector plane while                                            
+it is illuminated by a 'still' picture.                                                                                           
+  Electronically speaking, the masked area CCD is a line detector with an analogue                                                
+storage area attached to it. Once clocking has been stopped, other parts of the image                                             
+may move across the slit without contaminating the part of the picture under the mask.                                            
+                                                                                                                                  
+Figure 8. Stray light propagated through the                                                                                      
+baffle as a function of incident-light-beam                                                                                       
+angle theta. A  = transmitted stray light/incident                                                                                
+light                                                                                                                             
+                                                                                                                                  
+The reason for using this intermediate data storage is that lower noise readout is possi-                                         
+ble at slower than real-time readout rates. Real-time readout in our case would require                                           
+a maximum of 2.7 X 10**7 pixels per second. By contrast, in the system flown the total                                            
+area is read out in 3.2 s, leaving some time for overhead within the 4 s spin period.                                             
+The data rate is 73 pixels/s (or 13.75 micro s per pixel), allowing low-noise readout and                                         
+easier data handling even with a 12-bit ADC. On the other hand, the long residence                                                
+time of the pixel charges allows dark current to accumulate and therefore the device                                              
+has to be cooled mildly, in our case to less than -20 deg C.                                                                      
+  An additional advantage of using masked-area detectors as line detectors is the                                                 
+potential use of a TDI (Time Delay and Integrate) technique for fine tuning or optimiz-                                           
+ing exposure times. If several lines of pixels are exposed under a slit, and the image                                            
+and the charge pattern move on average in synchronism along the columns, then the                                                 
+smearing time is governed by the individual pixel height (because of the incremental                                              
+movement of the charge packets), but the exposure time is governed by the total height                                            
+of the exposed column of pixels and therefore can be longer than the smearing time.                                               
+If lateral movements of the image are included, however, as in our case of the rotating                                           
+image for rho << 90deg, then another smearing time across the columns has to be taken into                                        
+account.                                                                                                                          
+  In the actual flight detectors, two groups of 292 lines each can be clocked in-                                                 
+dependently and both read out through the same readout register. In television applica-                                           
+tions, the upper area is used for imaging, and the lower area for intermediate analogue                                           
+data storage and readout whilst the next picture is being integrated in the upper area.                                           
+Our specially fabricated detectors have a uniform layout and gate structure so that both                                          
+areas can be used for line imaging and storage in the same way. The only difference                                               
+between the two areas is that the image stored in the upper one has to wait at rest until                                         
+the lower one has been read out. Only then is the upper charge pattern shifted into                                               
+the lower section before read out. The upper area will therefore accumulate somewhat                                              
+more dark signal than the lower one.                                                                                              
+  The virtual phase CCDs have the advantage that the thermal dark charge generation                                               
+rate is greatly reduced - as much as an order of magnitude compared with conven-                                                  
+tional multiphase devices - so that testing with several seconds of integration/readout                                           
+time can conveniently be conducted at room temperature.  As a side effect, however,                                               
+another type of dark signal that has been termed 'spurious charge' is generated which                                             
+depends on clocking amplitudes and wave forms rather than integration time. In addi-                                              
+tion, noise in these devices is somewhat larger than in other CCD devices, because                                                
+the output amplifier has been optimized for high gain and speed (for easy TV applica-                                             
+tions) rather than for low noise.                                                                                                 
+  Figure 9 shows the spectral response of the virtual-phase CCD. A special                                                        
+characteristic of this device is that its gate structure covers only half of each pixel,                                          
+the other half being covered by a 0.1 micrometer SiO2 protective layer only. Therefore, in                                        
+contrast to other CCDs, some sensitivity at Lambda<400 nm is preserved. The multiple                                              
+peak structure in the response is caused by interference in the uniformly very thin gate                                          
+structure.                                                                                                                        
+                                                                                                                                  
+4.5.1.2 Line detector diode array                                                                                                 
+ An additional line detector placed in 'front' of the CCDs, in the sense of the moving                                            
+image in the focal plane, performs two functions: it will be used for finding the com-                                            
+etary image at the beginning of encounter operations, and for timing the picture-taking                                           
+correctly even in the presence of spacecraft attitude disturbances near the cometary                                              
+nucleus. In both cases near-real-time readout and fast data processing will be required.                                          
+This detector line has to be longer than the CCD lines, and as high a sensitivity as                                              
+possible is required.                                                                                                             
+  The detector chosen is a CP 1001 reticon diode array, which consists of two rows                                                
+each of 936 pixels, without dead area between. The pixel size along the row is 30 micrometers,                                    
+and the pixel height across the row is 375 micrometers. The total sensitive area is therefore                                     
+                                                                                                                                  
+Figure 9.  Spectral response of a CCD.  Points                                                                                    
+for Lambda>400 nm are from the supplier and those                                                                                 
+for Lambda<400 nm from our own measurements                                                                                       
+(line E, clear channel)                                                                                                           
+                                                                                                                                  
+28.08 mm X 0.75 mm. The double row was chosen to guard against the cometary                                                       
+coma being rather faint at the beginning of encounter operations. This needs a large                                              
+detector, which in turn will be hit frequently by cosmic rays, causing spurious events.                                           
+  As the image of a celestial object moves across the double line, it will cause a response                                       
+of at least two opposite pixels, one in each row. Almost point-like cosmic-ray events,                                            
+however, can cause coincident signals in opposite pixels only if they impact very close                                           
+to the dividing borderline, and therefore the requirement of coincident signals keeps                                             
+the sensitive area for cosmic-ray-induced events small while offering the full height                                             
+of the pixels for a moving image.                                                                                                 
+  The detector can be read out in either of two modes, 'slow' or 'fast'. The need to                                              
+drive this detector at vastly different pixel readout rates caused some headaches. Nor-                                           
+mally, the fixed pattern of offsets can be minimized by lowering the clock amplitude.                                             
+However, since safe fast (MHz) operation can only be achieved with high amplitudes                                                
+( >= 11 V), this feature could not be used to our advantage. Fortunately, it turned out                                           
+(for our method of clocking and driving the clock lines) that a relative minimum in fixed-                                        
+pattern amplitude could be achieved for both clocking speeds at the same clock                                                    
+amplitude. With onboard fixed-pattern determination and subtraction, this finally did                                             
+not cause a major problem.                                                                                                        
+                                                                                                                                  
+4.5.2 Mechanical arrangement                                                                                                      
+4.5.2.1 Detector arrangement - virtual focal plane                                                                                
+  As has been pointed out, the image data are gathered by a line-scanning technique.                                              
+In order to obtain several colours almost simultaneously for pictures, four CCD                                                   
+detector lines with different colour filters superposed are placed in parallel in the focal                                       
+plane so that the image crosses all four of them in succession. The path of the image                                             
+in the focal plane will generally be a circular arc due to the spinning motion of the                                             
+spacecraft, the radius being the tangent of the separation angle rho. The virtual focal                                           
+plane is illustrated in Figure 5.                                                                                                 
+  If rho is sufficiently large, all four detector lines are crossed and, once the data have                                       
+been properly deconvolved and matched, a colour picture can be constructed. As there                                              
+is some uncertainty in the movement of the image due to spacecraft nutation and, in                                               
+the late phase of the encounter, dust impacts on the spacecraft, another wider line                                               
+detector has been added in front of the four colour lines so that the image crosses the                                           
+wide detector first. Very fast readout and real-time analysis of this detector's signals                                          
+will be used for 'triggering' the instrument. Rho and the spin period define the speed of                                         
+the image, and when the image's crossing has been recognized by the wide line, the                                                
+timing of the data acquisition of the colour lines is adjusted so that image data around                                          
+the centroid of brightness are gathered and stored for subsequent transmission to the                                             
+ground station. The width perpendicular to the direction of motion of the image of the                                            
+triggering detector is larger than for the other detector lines, so that triggering will                                          
+not be lost if the cometary image 'jumps' occasionally due to dust impacts. In addition,                                          
+the wide line will be used during the 'Acquisition' phase of encounter operations to                                              
+search for the cometary image in a 4.4deg X 4.6deg field, and compute the parameters of                                           
+its movement in the focal plane. Thereafter, data acquisition can be placed accurately                                            
+in space and time centred on the cometary image.                                                                                  
+                                                                                                                                  
+4.5.2.2 Detector arrangement - actual focal plane                                                                                 
+  As the housing of a detector (CCD and diode array) usually takes up significantly                                               
+more space than the detector chip itself, it proved impossible to get two CCDs and                                                
+the line array sufficiently close together to make an image plane of practical size                                               
+without a special CCD development programme. Two plane mirrors were therefore                                                     
+introduced in front of the focus so that the two CCDs could be physically well                                                    
+separated, with their sensitive lines nevertheless close together in the virtual focal                                            
+plane. A schematic cross-section through the FPU (Fig. 10) shows the arrangement                                                  
+of the individual detectors and the filter wheel, and how a converging beam of a mov-                                             
+ing star-like image successively crosses detector lines A to E.                                                                   
+                                                                                                                                  
+                                                                                                                                  
+4.5.2.3 Filters                                                                                                                   
+  The CCDs are covered by different filters, as already mentioned. Care has been                                                  
+taken to compensate for the different filter-glass refractive indices and light                                                   
+wavelengths by choosing the thicknesses such that the focus through all filters lies on                                           
+the CCD surface, and the heights of the windows in the CCD masks differ in order                                                  
+                                                                                                                                  
+Figure 10. Schematic of detector arrangement                                                                                      
+in the Focal Plane Unit. The path of a                                                                                            
+converging beam from a pointlike image                                                                                            
+through the field of view is also shown                                                                                           
+                                                                                                                                  
+to compensate somewhat for the differences in expected signals.                                                                   
+  In addition to the wideband filters for acquiring near-simultaneous pictures in dif-                                            
+ferent colours on different detectors, in front of one of the detectors there is a filter                                         
+wheel with 10 different narrowband and polarization filters, a clear filter, and a shutter                                        
+which can be changed from one spin period to the next. These filters are intended                                                 
+mainly for the observation of gas and dust in the cometary coma when the spacecraft                                               
+is still far from the nucleus. All available filters, fixed and exchangeable, are listed                                          
+in Table 1.                                                                                                                       
+                                                                                                                                  
+4.5.3 Detector electronics                                                                                                        
+  The detector electronics are mainly housed in the electronics box, which also con-                                              
+tains all the electronics for the digital processing unit, motor-drive circuitry and DC-                                          
+DC converter. The preamplifiers for the detectors are housed within the FPU. The                                                  
+FPU housing is electrically insulated from the structure and the telescope barrel, and                                            
+connected to the signal ground of the most interference sensitive detector, the diode                                             
+array. The CCD circuitry return lines are connected to signal ground inside the elec-                                             
+tronics box. This has resulted in acceptable performance for all detectors. The detector                                          
+electronics have been described elsewhere (Kramm & Keller, 1985; Meyer et al.,                                                    
+1985) and a short description should therefore suffice here.                                                                      
+                                                                                                                                  
+4.5.3.1 CCD electronics                                                                                                           
+  The CCDs are read out by Correlated Double Sampling (CDS), a method widely                                                      
+used for low-noise readout, and the signals are digitized in a 12-bit ADC. In order                                               
+to improve on dynamic range, a factor 4 gain switch has been included, so that the                                                
+total dynamic range is equivalent to a 14-bit word length. Each step in the low-gain                                              
+range contains 150 electrons, so that the full range of signals (up to 5 X 10**5 elec-                                            
+trons full well capacity of the CCDs) is covered. The clamping time of the CDS cir-                                               
+cuitry is 1.25 micro s, and the clamp-to-sample time is 3.25 micro s. The total cycle time per                                    
+pixel is 13.75 micro s, and as both CCDs are read out in parallel (staggered so that a digitiz-                                   
+ed signal is transferred to the DPU every ~ 7 micro s), the total readout time for twice 584                                      
+lines each with 390 pixels is 3.2 s. If only half of a CCD is read out, or 'super pixel'                                          
+readout is used (one of which is generally the case), this total time is even shorter                                             
+leaving sufficient time for calculations and repositioning of the telescope within one                                            
+spin period of the spacecraft.  The term 'super pixel' applies when charge packets of                                             
+several pixels are summed physically on the charge sensing node of the output gate                                                
+of the CCD, thereby effectively increasing the size of the resolution element on the                                              
+CCD. As signal noise is dominated by the noise of the first stage of the output                                                   
+amplifier, the super-pixel readout results in higher sensitivity (and at the same time                                            
+a larger field of view) at the expense of spatial resolution. Readout noise levels of 25                                          
+electrons equivalent r.m.s. on the laboratory bench and 75 electrons equivalent r.m.s.                                            
+within the full working HMC electronics system have been achieved. The latter value                                               
+was confirmed during post-launch spacecraft operations but there appears to be some                                               
+interference from other experiments on board Giotto.                                                                              
+  The clocking of the CCDs has to be rather versatile. The typical sequence of clock-                                             
+ing during one spin period consists of: (a) dumping of dark or other parasite charges,                                            
+(b) acquisition of data, and (c) readout.                                                                                         
+(a) The charge dumping is achieved by clocking the lines at 13.75 micro s per line and                                            
+    the serial readout register at 0.625 micro s per pixel, the highest available clocking                                        
+    frequency. Square waves with somewhat 'softened' edges between about -17 V                                                    
+    and +1 V are used.                                                                                                            
+(b) Data-taking speed has to be synchronized with the speed at which the image                                                    
+    crosses the window in the mask. Periods of 1 ms per line (for 'on-axis-                                                       
+    imaging'), and 14.23 micro s per line when the comet's aspect angle is 90deg, have to                                         
+    be accommodated. This clocking is done by 'tri-level-clocking' , in which the                                                 
+    positive- (+1 V) and negative-going parts (-17 V) of a bipolar pulse for shift-                                               
+    ing the charge packets are about 7 micro s each, and in the variable interval between                                         
+    two successive bipolar pulses the 'mid level' of approximately -6 V is main-                                                  
+    tained. With this type of clocking, the virtual-phase CCD generates increased                                                 
+    dark current (like other 'regular' CCDs), but little spurious charge, provided the                                            
+    interval between the negative-going pulse followed by the positive-going pulse                                                
+    is 50 micro s or longer. For shorter intervals, increased spurious charge cannot be                                           
+    avoided.                                                                                                                      
+(c) During readout, the potential of the gates in the imaging area is held negative                                               
+    during most of the period in which the serial register is being read out. During                                              
+    this 5.4 ms, the rate of dark charge generation is low. About 50 micro s prior to the                                         
+    next shifting of a line of charge packets into the serial register, the gate voltage                                          
+    is raised to the mid level of -6 V, followed by a 7 micro s positive pulse, the trailing                                      
+    edge of which goes to the negative level of -17 V again. During the 50 micro s at                                             
+    mid-level the dark charge generation is normal, which is not a problem due to                                                 
+    the low duty cycle. The spurious-charge generation during line shifting is held                                               
+    to a minimum because the time between negative and positive levels is sufficient-                                             
+    ly long. With this type of 'mixed mode' clocking, the spurious-charge genera-                                                 
+    tion during readout is restricted to less than 500 electrons per pixel, while with                                            
+    bi-level clocking (without the 50 micro s mid level pedestal) the same devices                                                
+    generate up to 10**4 electrons of spurious charge, per pixel.                                                                 
+                                                                                                                                  
+4.5.3.2 Diode-array electronics                                                                                                   
+  The two lines of the diode array are each connected to two video lines. During comet                                            
+acquisition, the whole array will be used, and the readout order is cyclical w.r.t. all                                           
+four video lines (slow readout). During nucleus imaging, only one array is to be used                                             
+(fast readout). A particular complication is that the analogue circuitry's frequency                                              
+response had to be sufficiently wide to accommodate the two switchable frequencies                                                
+of about 10.9 k pixels/s and 2 M pixels/s (both per video line). This has been achieved                                           
+by actually switching the preamplifier bandwidth, and using two separate signal chains                                            
+thereafter.                                                                                                                       
+  Slow readout is the high-sensitivity, low-noise readout mode. All four video lines                                              
+are read out cyclically, each with a 92 micro s repetition period. The video line is connected                                    
+to the virtual ground input of the preamplifier. There the charge pulse is converted                                              
+to a voltage pulse, decaying with a time constant of about 20 micro s via a 39 Mohm feedback                                      
+resistor and its associated parasitic capacitance. Any influence of a not fully decayed                                           
+pulse on the next one is removed by Correlated Double Sampling (CDS). The CDS                                                     
+integrator takes a dark sample just prior to the arrival of a pulse and stores it in a                                            
+capacitor on one input of an operational amplifier; thereafter, part of the pulse is in-                                          
+tegrated on the other input of the operational amplifier. The output of the integrator                                            
+is fed via a four-channel analogue multiplexer into a 12-bit ADC. The 'fixed pattern'                                             
+of offsets inherent in the diode array's operation is subtracted after digitization in the                                        
+DPU. The offset pattern is recorded onboard just prior to any operation of the HMC,                                               
+so that long-term changes do not play a role.                                                                                     
+ Noise levels of 1300 electrons equivalent r.m.s. on the laboratory bench and 3000                                                
+electrons r.m.s. within the fully operating HMC system have been achieved. The noise                                              
+on the bench was dominated by the particular switchable fast pulse preamplifier that                                              
+we have to use. A quick check with a slow, low-noise preamplifier in its place showed                                             
+that the system is capable of as low as 600 electron equivalent r.m.s.                                                            
+ Fast readout is used during Nucleus Mode. The object is to read out the array so                                                 
+fast that its output can be assessed before the part of the image that is being evaluated                                         
+has reached the end of the uppermost CCD area, which is the storage area of line B.                                               
+This time interval can be as short as 6 ms.                                                                                       
+ To speed up the readout, only one of the two lines is used, the other one being                                                  
+available for backup on command. Furthermore, pixels are grouped in pairs by summ-                                                
+ing the signals of the two video lines for simultaneous readout. This results in 468                                              
+double pixels per single array, which is read out at 2 M pixels/s. For this fast opera-                                           
+tion, the bandwidth of the preamplifier on each video line has been increased by shunt-                                           
+ing the 39 Mohm feedback resistor by a network of 1.5 kohm and 4.7 pF in parallel. The                                            
+charge pulses on the video lines are thus converted into fast voltage pulses, summed                                              
+in pairs, further amplified and fed to a 7-bit flash ADC with a response time of a few                                            
+nanoseconds (made from two 6-bit interated-circuit flash type AD 3000 ADCs from                                                   
+RCA). Fixed-pattern offset correction is again effected by the DPU, after having                                                  
+recorded the pattern just prior to any operation.  Noise levels less than 15000 electrons                                         
+equivalent r.m.s. within the fully operational HMC system are achieved in this way.                                               
+                                                                                                                                  
+4.6 Digital Processing Unit                                                                                                       
+ The Digital Processing Unit (DPU) can be divided into four 'levels':                                                             
+(i)  interface to sensor electronics                                                                                              
+(ii) the fast-event-driven preprocessing of sensor data by special hardware pro-                                                  
+     cessors, which are supported by one of the microprocessors (signal processor)                                                
+(iii) two universal microprocessors (Experiment Control Processor and Motor Con-                                                  
+     trol Processor) for                                                                                                          
+     -  evaluation and formatting of measured data                                                                                
+     -  servicing of Spacecraft interfaces                                                                                        
+     -  servicing of status and command interfaces to sensor electronics and drives                                               
+(iv)  the interfaces to the Spacecraft.                                                                                           
+                                                                                                                                  
+The requirements of levels (ii) and (iii) differ basically in their response time to critical                                     
+requests (microseconds as opposed to milliseconds).                                                                               
+ Figure 11 shows the structure of the DPU. In level (ii), the sensor data first pass                                              
+the preprocessors (PP) to reduce the data rate for subsequent processing by the signal                                            
+processor (SP). Special features of the SP are the support of the NSC 800                                                         
+microprocessor by a hardware multiply/divide unit and the special interrupt service                                               
+routines with their five hierarchical levels.                                                                                     
+ In parallel with the extraction of some specific parameters from the sensor data in                                              
+the block acquisition preprocessor (ACQ PP), tracking preprocessor (TRACK PP) and                                                 
+signal processor (SP), the original CCD data are stored in their entirety in the mass                                             
+memory after word-length shortening by a square-root function (SQR COMP, basic-                                                   
+ally a 12-bit to 8-bit lookup table). It is possible to store part of the image in the empty                                      
+half of the telemetry buffer. The size and allocation of this small image (max. 16 k                                              
+pixels) can be selected by the SP.                                                                                                
+ The level (iii) tasks are assigned to two NSC 800 microprocessor systems. The Ex-                                                
+periment Control Processor (ECP) controls the data transfer to telemetry, receives the                                            
+telecommands and is responsible for the image sequences. In some particular spin                                                  
+phases, control data have to be sent to the diode array electronics and the CCD elec-                                             
+tronics, as well as to the drives for telescope rotation, mirror tilting and filter-wheel                                         
+positioning. The pulse generation for the stepper motors and control of the movements                                             
+                                                                                                                                  
+Figure 11. Schematic of the Digital Processing                                                                                    
+Unit                                                                                                                              
+                                                                                                                                  
+performed are the responsibility of the second NCS 800 system (Motor Control Pro-                                                 
+cessor = MCP).                                                                                                                    
+  The three microprocessor systems communicate with each other via mailboxes bet-                                                 
+ween the SPU bus and the ECP bus, and the ECP bus and MCP bus.                                                                    
+                                                                                                                                  
+ 4.6.1 Acquisition Preprocessor                                                                                                   
+  Figure 12 shows the structure of the Acquisition Preprocessory During the acquisi-                                              
+tion phase, a 4.4deg X 4.6deg field of view is searched completely by the diode-array line                                        
+detector. Each extended object produces a stripe of bright pixels. The ACQ PP                                                     
+generates five characteristics parameters for each hit:                                                                           
+ -   the address of the last pixel                                                                                                
+ -   the stripe length in pixels                                                                                                  
+ -   the number of the line in that scan (= mirror position)                                                                      
+ -   the number of the scan                                                                                                       
+ -   the hit time.                                                                                                                
+                                                                                                                                  
+The task of the 'Fixed Pattern Correction', 'Threshold' and 'Single Spot Rejection'                                               
+blocks is to clean the real diode-array signal of noise and offsets and to compress it                                            
+into single-bit information (dark/bright). The resulting hit is only accepted for further                                         
+calculations if its extent is at least 2 pixels in the horizontal and vertical directions.                                        
+  The 'CCD Trigger Delay' is used to stop the clocking of the CCD a well-defined                                                  
+time after the comet's image has crossed the diode array (used in Nucleus and Obser-                                              
+vatory Modes). This delay time depends on the transit speed of the cometary image.                                                
+  The Acquisition Preprocessor reduces the data rate from l pixel per 23 micro s to about 1                                       
+byte per 2 ms, because the readout of hits is limited to five hits per line, equal to                                             
+25 bytes per 50 ms. The data rate is therefore reduced by a factor of about 100.                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 12. Schematic of the Preprocessing unit                                                                                    
+for diode array data (Acquisition Unit)                                                                                           
+                                                                                                                                  
+Figure 13. Schematic of the preprocessing unit                                                                                    
+for imager data (Tracking Unit)                                                                                                   
+                                                                                                                                  
+4.6.2 Tracking Preprocessor                                                                                                       
+  The task of the Tracking Preprocessor (Fig. 13) is to determine the intensity centre                                            
+of the CCD image. This point is the input variable to the tracking program and also                                               
+the centre of the small image section that is transmitted to ground. The telemetry rate                                           
+of 20 kbit/s = 10 kbyte/spin allows transmission of only 98 X 98 pixels.                                                          
+  To determine the brightest area of the picture, the full image is divided into 24 X 20                                          
+elements ('bins') of 16 X 14 pixels each, and the intensity of these 224 pixels is                                                
+accumulated for each bin. The sum is stored in the 'Bin Intensity RAM'. The SP                                                    
+searches for the brightest bin in this memory and requests the ECP to transfer an image                                           
+area of 32 X 28 pixels around this central element from the mass memory to the SPU.                                               
+This area is used to calculate the centroid of brightness. Its coordinates and the hit time                                       
+constitute input parameters for the tracking program.                                                                             
+  The three anterior blocks are intended for the correction of defective columns of the                                           
+CCD, by replacing them by their respective adjacent column, as well as the noise sup-                                             
+pression. At the time of writing, no badly defective columns requiring this correction                                            
+have been found.                                                                                                                  
+                                                                                                                                  
+4.6.3 Mass Memory                                                                                                                 
+  The Mass Memory is able to store a full four colour image of the four CCD sections.                                             
+After compression of the CCD data into 1 byte, there is a net capacity of                                                         
+4 X 391 X 292 X 8 = 3.65 Mbit necessary, which increases to a total of about 6 Mbit                                               
+due to the use of Hamming correction. This has been implemented by using 96 X 64 k                                                
+DMOS devices. The minimum cycle time is 4 micro s, which is associated with a maximum                                             
+power dissipation of 4.6 W. This relatively low consumption can be achieved by                                                    
+'power strobing' of the peripheral electronics.                                                                                   
+                                                                                                                                  
+4.6.4 Structure of the SPU sofware                                                                                                
+ Figure 14 shows the SPU software's structure. All routines that communicate direct-                                              
+ly with the hardware are included in the 'operating software' block.                                                              
+                                                                                                                                  
+  The hardware-oriented 'operating software' surrounds the software kernel that                                                   
+contains the mathematical algorithms for calculating the acquisition and tracking                                                 
+parameters like a shell. These programs are exclusively software interfaced to the                                                
+outer shell and could be written and tested without knowledge of the hardware. The                                                
+'acquisition' and 'tracking' programs, which are activated in sequence, contain a set                                             
+of common subroutines for floating-point operations, coordinate transformations,                                                  
+averaging, trigonometrical functions, their inverse functions, etc.                                                               
+ The program request service is controlled by the 'interrupt service routine', whilst                                             
+the 'abbreviated functional test' program automatically checks the hardware function                                              
+after switch-on. The result is transmitted to ground via telemetry. This test provides                                            
+quick information about the status of the instrument.                                                                             
+                                                                                                                                  
+Figure 14. Overall structure of the Signal                                                                                        
+Processing Unit's software                                                                                                        
+                                                                                                                                  
+5. Ground-Support                                                                                                                 
+Equipment                                                                                                                         
+  The role of the ground-support equipment was to simulate the various subsystems                                                 
+and the HMC as a whole as an aid in their development. Part of the Electrical Ground-                                             
+Support Equipment (EGSE) has also been used at the European Space Operations Cen-                                                 
+tre (ESOC) in Darmstadt for quick-look and preliminary-data-evaluation purposes.                                                  
+                                                                                                                                  
+5.1 Electrical Ground-Support Equipment                                                                                           
+  The various functions of the EGSE during the development of the HMC are shown                                                   
+schematically in Figure 15:                                                                                                       
+(a)  First of all, the EGSE provided correct spacecraft interface simulation to the                                               
+     Digital Processing Unit (DPU).                                                                                               
+(b)  Wherever the HMC had to be operated without the help of the DPU, the EGSE                                                    
+     provided a correct simulation of the interface between the sensor electronics and                                            
+     the DPU, so that the HMC could be actuated, and data could be retrieved for                                                  
+     evaluation.                                                                                                                  
+(c)  To test the DPU in the absence of individual detector or analogue electronics                                                
+     idiosyncrasies, the EGSE provided a simulated sensor electronics interface.                                                  
+     Here the EGSE calculated 'images' of the comet, simulating their apparent                                                    
+     movement during a complete encounter scenario so that both the DPU functions                                                 
+     and the acquisition and tracking algorithms could be tested.                                                                 
+(d)  The EGSE was also used as a spacecraft simulator and quick-look facility for                                                 
+     testing the whole system realistically with the opto-mechanical ground support                                               
+     equipment, which simulated an encounter scenario by projecting optical images                                                
+     into the HMC.                                                                                                                
+(e)  The EGSE is still being used as a quick-look instrument during flight.                                                       
+                                                                                                                                  
+  The EGSE hardware consists of two computers, each with specific characteristics                                                 
+which determined its choice. The central or host computer is an LSI 11/23 mini                                                    
+computer with hard-disk and tape storage and various peripheral interfaces. It pro-                                               
+vides the user interface to the EGSE, because of its programming comfort and flex-                                                
+ibility. It has been used to develop software, execute test routines, store data, manage                                          
+the operation of the EGSE and communicate with the spacecraft checkout equipment.                                                 
+                                                                                                                                  
+Figure 15. The Electrical Ground Support                                                                                          
+Equipment (EGSE) and its uses in different                                                                                        
+configurations with the HMC system                                                                                                
+                                                                                                                                  
+The software is written in Pascal and all programs requiring user modification during                                             
+development of the camera, such as monitoring of telemetry data, generation of test                                               
+routines and calculation of spacecraft motion and images for the dynamic simulation,                                              
+are resident in this computer. Uncorrected quick-look image display and the genera-                                               
+tion of synthetic images for simulation are provided by this computer. Communication                                              
+between the host computer and the variety of asynchronous 'real-time' camera inter-                                               
+faces is performed by the interface computer, which is connected to the host by means                                             
+of a bi-directional Direct Memory Access (DMA).                                                                                   
+  The interface computer contains all of the 'real-time' interfaces, which closely                                                
+simulate the electrical characteristics of the spacecraft, as seen by the HMC, such as                                            
+voltages, impedances, timing and logic. It also provides preprocessing of telemetry                                               
+data before transmission to the host for subsequent display and storage. All interfaces                                           
+are serviced by the MC 68000 microprocessor-based interface computer under the                                                    
+control of the host machine (Fig. 16).                                                                                            
+  Dynamic closed-loop simulation is provided by combining motion control output                                                   
+from the HMC microprocessors in the form of demanded telescope rotation and mirror                                                
+tilt angles with simulated spacecraft body motion to generate the focal-plane dynamics                                            
+in free space. The fact that the HMC focal-plane interface involves high-resolution im-                                           
+ages of several hundred thousand pixels of motion-corrected images for a single 4 s                                               
+revolution of the spacecraft limited the practical simulation to small-area comet shapes                                          
+with a constant background. Even so, the large amount of computation necessary for                                                
+the geometrical distortion, motion and image generation, permits only quasi-real-time                                             
+dynamic simulation. This is achieved with the use of halt states for the flight computer,                                         
+while the EGSE calculates new images. Simulation is controlled by the host computer,                                              
+which calculates the relative trajectory of the comet, the spacecraft body motion and                                             
+the attitude of the Sun. Considerable effort was expended on the acceleration of                                                  
+simulation and reduction of halt time, by simplification of the motion algorithm and                                              
+elimination of redundant image generation. This has resulted in a run-time factor of                                              
+approximately 4 X real time for the most complex Nucleus-Mode simulation.                                                         
+  The development of the HMC EGSE has served to demonstrate the feasibility of                                                    
+quasi-real-time closed-loop dynamic simulation of complex image-input systems by                                                  
+the appropriate combination of fast microcomputer-controlled hardware interfaces and                                              
+a general-purpose minicomputer.                                                                                                   
+                                                                                                                                  
+5.2 Opto-Mechanical Ground Support Equipment                                                                                      
+  An opto-mechanical simulator facility was built at the IAL in Liege, Belgium to                                                 
+simulate the encounter scenario by actually projecting a moving cometary image into                                               
+                                                                                                                                  
+                                                                                                                                  
+Figure 16. Simplified block diagram of the                                                                                        
+Electrical Ground Support Equipment (EGSE)                                                                                        
+                                                                                                                                  
+the HMC. The movements of the image (spin motion, nutation, change of aspect and                                                  
+spin phase) were simulated by using a turntable and articulated mirror. Large aspect                                              
+angles were achieved by having the HMC itself mounted on a turntable, so that large                                               
+camera rotational movements were compensated by counter-rotating the turntable.                                                   
+The whole simulator was set up in a vacuum chamber, and a liquid-nitrogen-cooled                                                  
+heat-sink plate was installed opposite the radiator plate of the HMC for realistic                                                
+simulation of its radiative cooling.                                                                                              
+  For extended room-temperature testing in air during the development of the soft-                                                
+ware, a small opto-mechanical simulator was constructed at MPAe in Katlenburg-                                                    
+Lindau, which also used a turntable to compensate for large HMC rotation angles, and                                              
+a moving spot on an oscilloscope as a cometary object.                                                                            
+                                                                                                                                  
+                                                                                                                                  
+6. Data Evaluation                                                                                                                
+  The specific nature of the images to be taken by the Halley Multicolour Camera dur-                                             
+ing the Giotto mission called for the design and installation of a dedicated image-                                               
+processing system by DFVLR. The cometary images are taken by CCD sensors with                                                     
+non-uniform pixel response. The motion of the rotating and nutating spacecraft results                                            
+in geometrical distortion and the image-processing system had therefore to be design-                                             
+ed to correct for sensor and motion effects, as well as to enhance and analyze images                                             
+of as yet unknown content.                                                                                                        
+  The HMC image-processing system has been designed as a flexible configuration                                                   
+based on:                                                                                                                         
+-   reliable standard hardware (32-bit processor)                                                                                 
+-   proven multi-user operating system                                                                                            
+-   independent multi-workstation concept                                                                                         
+-   image database and powerful image engineering tools                                                                           
+-   a high-level image interpreter language as the principal user interface.                                                      
+                                                                                                                                  
+A user can run existing software or develop his own algorithms. This is especially                                                
+useful if different image processing methods have to be compared, such as time-delay-                                             
+integration effects, readout noise or blurring caused by motion.                                                                  
+  The internal hierarchy of the image processing system is depicted in Figure 17.                                                 
+  The resulting structure is characterized by an image database with uniform storage                                              
+and access conventions and an image-processing library which provides routines for                                                
+the database access, device I/0 support and a toolbox of image-processing                                                         
+subroutines.                                                                                                                      
+                                                                                                                                  
+Figure 17. Internal hierarchy of the HMC's                                                                                        
+image-processing system                                                                                                           
+                                                                                                                                  
+  The application package contain programs for:                                                                                   
+-   telemetry and calibration data input                                                                                          
+-   validation of images                                                                                                          
+-   radiometric correction of images                                                                                              
+-   restoration of pixels                                                                                                         
+-   geometric rectification                                                                                                       
+-   enhancement                                                                                                                   
+-   image registration                                                                                                            
+-   scientific-evaluation support                                                                                                 
+                                                                                                                                  
+The extensive resources at the disposal of users of the image-processing system in-                                               
+clude colour-slide production and various hardcopy facilities.                                                                    
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+Very many people have collaborated in putting the HMC together and thereby con-                                                   
+tributed to the success of this experiment. Aside from their hardware and software                                                
+contributions, J. Turner, G. Scwarz and E. Krahn contributed to the writing of this                                               
+paper. For their numerous contributions to instrument hardware and software,                                                      
+we would also like to thank F. Angrilli, C. Becker, G.A. Bianchini, P. Bouyries,                                                  
+P.F. Brunello,  W.  Curdt,  M.  Coradini,  A.  Cucchiaro,  W.  Degenhardt,                                                        
+J. Degewij, W. Engelhardt, F. Gliem, M. Gull, H. Hartwig, J. Koyro, R. Kramm,                                                     
+A. Loidl, J.P. Macau, D. Macau-Hercot, H.J. Meyer, H. Michalik, E. Mikush,                                                        
+E. Prager, E. Ress, H. Reffel, P. Rober, P. Ruffer, E. Schmidt, H.P. Schmidt,                                                     
+H.U. Schmidt, K. Schmidt, R. Schmidt, R. Seifert, P. Stelter, K. Vo1k, B. Wand and                                                
+U. Zahoransky.                                                                                                                    
+  Last but not least, we wish to thank all the technical and administrative personnel                                             
+at the various contributing institutes and companies without whose active support it                                              
+would have been impossible to complete this novel project.                                                                        
+                                                                                                                                  
+                                                                                                                                  
+References                                                                                                                        
+Angrilli F, Bianchini G & Fanti G 1984, Dynamic analysis of a pierced plate under                                                 
+    impulsive loading. In: Numerical Methods for Transient and Coupled Problems,                                                  
+     2nd Int. Conference on Numerical Methods, Venice, July 1984.                                                                 
+Brunello P F 1983, Conceptual Design and Stray Radiation Analysis of Baffling                                                     
+    Systems for Space Applications, Istituto Fisica Tecnica Report 114, Univ.                                                     
+    Padova, Italy.                                                                                                                
+Coradini M, Flamini E, Hurren P, Martelli G & Smith P N 1982, The effects of                                                      
+    microparticle hypervelocity impacts on various surfaces etc. In: Comparative                                                  
+    Studies of the Planets, D. Reidel Publ. Co., Dordrecht & Boston, 367-387.                                                     
+Coradini M, Etenardi A, Flamini, Hurren P, Martelli G, Smith G N 1984, Modifica-                                                  
+    tion of the optical properties of several materials following microbombardment,                                               
+    Anna l. Geophysica 2, 1,47-52.                                                                                                
+Kramm l R & Keller H U 1985, Getting more by taking less: A method of summing                                                     
+    up pixels on a CCD Imager, Adv. Electr. Electron Physics 64, 193.                                                             
+Meyer H l, Schmidt W K H & Rosenbauer H 1985, Reticon Detector Electronics for                                                    
+    the Halley Multicolour Camera, Adv. Electr. Electron Physics, 64, 223.                                                        
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  

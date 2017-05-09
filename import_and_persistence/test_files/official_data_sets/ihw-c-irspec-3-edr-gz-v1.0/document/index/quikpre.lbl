@@ -1,0 +1,156 @@
+NJPL1I00PDS100012460 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 198                                                     
+FILE_RECORDS        = 2619                                                    
+/*               Record Pointer to Object                             */      
+^TABLE              = "QUIKPRE.IDX"                                           
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 2619                                                    
+ ROW_BYTES          = 198                                                     
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 17                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DATE-OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  UNIT              = 'DD/MM/YY'                                              
+  START_BYTE        = 2                                                       
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TIME-OBS"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DAY_FRACTION'                                          
+  START_BYTE        = 12                                                      
+  FORMAT            = 'F6.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILE_NUMBER"                                           
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 19                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBJECT"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 18                                                      
+  START_BYTE        = 27                                                      
+  FORMAT            = A18                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LONG-OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 9                                                       
+  START_BYTE        = 48                                                      
+  FORMAT            = A9                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LAT--OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 9                                                       
+  START_BYTE        = 60                                                      
+  FORMAT            = A9                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SYSTEM"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 72                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVER"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 24                                                      
+  START_BYTE        = 83                                                      
+  FORMAT            = A24                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DAT-TYPE"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 110                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SPECIAL_EVENT"                                         
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 121                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BITPIX"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  UNIT              = 'BITS'                                                  
+  START_BYTE        = 124                                                     
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS"                                                 
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 1                                                       
+  START_BYTE        = 127                                                     
+  FORMAT            = I1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS1"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 129                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS2"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 134                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS3"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 139                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PATHNAME"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 44                                                      
+  START_BYTE        = 145                                                     
+  FORMAT            = A44                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILE_EXT"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 4                                                       
+  START_BYTE        = 192                                                     
+  FORMAT            = A4                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

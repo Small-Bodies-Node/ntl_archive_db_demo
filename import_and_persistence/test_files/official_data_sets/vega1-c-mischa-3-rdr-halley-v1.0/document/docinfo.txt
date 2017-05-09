@@ -1,0 +1,32 @@
+PDS_VERSION_ID                 = PDS3                                         
+RECORD_TYPE                    = STREAM                                       
+OBJECT                         = TEXT                                         
+   PUBLICATION_DATE            = 2002-12-04                                   
+   NOTE                        = "                                            
+    This file describes the content of the DOCUMENT directory                 
+"                                                                             
+END_OBJECT                     = TEXT                                         
+END                                                                           
+                                                                              
+         DOCINFO.TXT                   This file listing directory contents   
+         MASTERCR.ASC                  Description of master form of data     
+         MASTERFB.ASC                  Description of master form of data     
+         NAM_CON.ASC                   Name conventions for all forms of data 
+         SURVEYCR.ASC                  Description of survey form of data     
+         S0FBT1SE.ASC                  Description of T1 survey form of data  
+         S0FBT2SE.ASC                  Description of T2 survey form of data  
+         CALIB/*.GIF                   Digitized IWF9003 (process description)
+         PLOT/V*.GIF                   Sample plots from vega 1 (SE) in 1986  
+         PROCESS/DATACONV/EXAMPLE.ASC  Flat-file data fromat example          
+                          DATACONV.ASC List of file used in data conversion   
+                          FLATTEST*    Example processed file with ASCII data 
+                          FLATSPEC.*   Flat-file format specifications        
+         PROCESS/OFFSET/B01OFFSE.ASC   List of OFFSETs for Vega 1 times       
+                                                                              
+                        B0OFFSET.ASC   Outline of calibration process and ref 
+                        B0SPIN.ASC     List of spinning session for Vega 1/2  
+         PROCESS/POSITION/V1FLYBY*     Spacecraft position during flyby (V1)  
+                                                                              
+                          VEG1POS*     Spacecraft position during cruise (V1) 
+                                                                              
+                                                                              

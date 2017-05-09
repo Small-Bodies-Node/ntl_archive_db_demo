@@ -1,0 +1,12 @@
+"FILENAME ","C", 8,0                                                          
+"FILE_EXT ","C", 3,0                                                          
+"FILE_VERS","N", 2,0                                                          
+"DATE_OBS ","C", 9,0                                                          
+"TIME_OBS ","N", 7,5                                                          
+"VOL_NAME ","C", 8,0                                                          
+"SUBDIR_1 ","C", 8,0                                                          
+"SUBDIR_2 ","C", 8,0                                                          
+"SUBDIR_3 ","C", 8,0                                                          
+"SUBDIR_4 ","C", 8,0                                                          
+"SUBDIR_5 ","C", 8,0                                                          
+"PATH     ","C",67,0                                                          

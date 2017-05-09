@@ -1,0 +1,68 @@
+NJPL1I00PDS100005420 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 82                                                      
+FILE_RECORDS        = 127                                                     
+/*               Record Pointer to Object                             */      
+^TABLE              = "OBSCODES.IDX"                                          
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 127                                                     
+ ROW_BYTES          = 82                                                      
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 6                                                       
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SYSTEM_CODE"                                           
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 2                                                       
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVATORY"                                           
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 43                                                      
+  START_BYTE        = 13                                                      
+  FORMAT            = A43                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LONGITUDE"                                             
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 58                                                      
+  FORMAT            = 'F6.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LATITUDE"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 65                                                      
+  FORMAT            = 'F6.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PARALLAX_DELTA_XY"                                     
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = '0.0000001 AU'                                          
+  START_BYTE        = 72                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PARALLAX_DELTA_Z"                                      
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = '0.0000001 AU'                                          
+  START_BYTE        = 77                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

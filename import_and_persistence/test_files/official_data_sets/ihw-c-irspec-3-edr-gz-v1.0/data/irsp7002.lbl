@@ -1,0 +1,18 @@
+NJPL1I00PDS100001420         = SFDU_LABEL                                     
+/*          File Format and Length                                   */       
+RECORD_TYPE                  = FIXED_LENGTH                                   
+RECORD_BYTES                 = 8                                              
+FILE_RECORDS                 = 77                                             
+/*          Record Pointer to Major Object                           */       
+^SPECTRUM                    = 'IRSP7002.DAT'                                 
+/*          Description of Object in File                            */       
+OBJECT                       = SPECTRUM                                       
+ FORMAT                      = BINARY                                         
+ ROWS                        = 77                                             
+ ROW_COLUMNS                 = 2                                              
+ COLUMN_NAME                 = (WAVELENGTH, FLUX)                             
+ COLUMN_TYPE                 = (MSB_INTEGER, MSB_INTEGER)                     
+ COLUMN_BITS                 = (32,32)                                        
+ NOTE                        = "IR STUDIES, WAVELENGTH-FLUX TABLE"            
+END_OBJECT                                                                    
+END                                                                           

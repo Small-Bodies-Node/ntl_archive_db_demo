@@ -1,0 +1,15 @@
+PDS_VERSION_ID      = PDS3                                                    
+LABEL_REVISION_NOTE = "                                                       
+  2011-06-13   A.C.Raugh   Creation                                           
+  "                                                                           
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "GEHRZ&NEY1986"                                          
+  REFERENCE_DESC   = "                                                        
+    Gehrz, R.D. and Ney, E.P., 1986, Infrared temporal development of         
+    P/Halley, ESA Proceedings of the 20th ESLAP Symposiu, on the              
+    Exploration of Halley's Comet, Volume 2: Dust and Nucleus,                
+    ESP SP-250, pp. 101-105."                                                 
+END_OBJECT = REFERENCE                                                        
+                                                                              
+END                                                                           

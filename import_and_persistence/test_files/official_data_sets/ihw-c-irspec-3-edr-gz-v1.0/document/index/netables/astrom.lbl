@@ -1,0 +1,110 @@
+NJPL1I00PDS100008780 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 117                                                     
+FILE_RECORDS        = 1300                                                    
+/*               Record Pointer to Object                             */      
+^TABLE              = "ASTROM.IDX"                                            
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 1300                                                    
+ ROW_BYTES          = 117                                                     
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 11                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DATE-OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 2                                                       
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TIME-OBS"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DAY-FRACTION'                                          
+  START_BYTE        = 12                                                      
+  FORMAT            = 'F6.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "AN-NUM"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 19                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA"                                                    
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 11                                                      
+  UNIT              = 'HH:MM:SS'                                              
+  START_BYTE        = 27                                                      
+  FORMAT            = A11                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC"                                                   
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 11                                                      
+  UNIT              = 'DD:MM:SS'                                              
+  START_BYTE        = 41                                                      
+  FORMAT            = A11                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MAG_TOTAL"                                             
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'MAGNITUDE'                                             
+  START_BYTE        = 54                                                      
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MAG_NUCLEUS"                                           
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'MAGNITUDE'                                             
+  START_BYTE        = 59                                                      
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SYSTEM"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 65                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVER"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 24                                                      
+  START_BYTE        = 76                                                      
+  FORMAT            = A24                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NOTE_FLAG"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 103                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILENAME"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 107                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

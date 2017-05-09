@@ -1,0 +1,176 @@
+PDS_VERSION_ID                = PDS3                                          
+RECORD_TYPE                   = FIXED_LENGTH                                  
+RECORD_BYTES                  = 158                                           
+FILE_RECORDS                  = 5200                                          
+^TABLE                        = "S1FBT2SE.TAB"                                
+DATA_SET_ID                   = "VEGA1-C-MISCHA-3-RDR-HALLEY-V1.0"            
+INSTRUMENT_HOST_NAME          = "VEGA 1"                                      
+INSTRUMENT_NAME               = "FLUXGATE MAGNETOMETER"                       
+TARGET_NAME                   = "1P/HALLEY 1 (1682 Q1)"                       
+START_TIME                    = 1986-03-04T04:40:30                           
+STOP_TIME                     = 1986-03-08T08:33:18                           
+MISSION_PHASE_NAME            = "HALLEY FLYBY"                                
+PRODUCT_ID                    = "S1FBT2SE.TAB"                                
+PRODUCT_CREATION_TIME         = 2002-10-02T11:09:06                           
+SPACECRAFT_CLOCK_START_COUNT  = "UNK"                                         
+SPACECRAFT_CLOCK_STOP_COUNT   = "UNK"                                         
+OBJECT                        = TABLE                                         
+  INTERCHANGE_FORMAT          = ASCII                                         
+  ROWS                        = 5200                                          
+  COLUMNS                     = 13                                            
+  ROW_BYTES                   = 158                                           
+  DESCRIPTION                 = "                                             
+    VEGA-1 HALLEY FLYBY PHASE MISCHA (FLUXGATE MAGNETOMETER) DATA."           
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "UT"                                          
+    COLUMN_NUMBER             = 1                                             
+    DATA_TYPE                 = TIME                                          
+    START_BYTE                = 1                                             
+    BYTES                     = 24                                            
+    FORMAT                    = "A24"                                         
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "XH_SE 1950"                                  
+    COLUMN_NUMBER             = 2                                             
+    UNIT                      = "KILOMETER"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 26                                            
+    BYTES                     = 14                                            
+    MISSING_CONSTANT          = -999999999.999                                
+    FORMAT                    = "F14.3"                                       
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "YH_SE 1950"                                  
+    COLUMN_NUMBER             = 3                                             
+    UNIT                      = "KILOMETER"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 41                                            
+    BYTES                     = 14                                            
+    MISSING_CONSTANT          = -999999999.999                                
+    FORMAT                    = "F14.3"                                       
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "ZH_SE 1950"                                  
+    COLUMN_NUMBER             = 4                                             
+    UNIT                      = "KILOMETER"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 56                                            
+    BYTES                     = 14                                            
+    MISSING_CONSTANT          = -999999999.999                                
+    FORMAT                    = "F14.3"                                       
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "RH_SE 1950"                                  
+    COLUMN_NUMBER             = 5                                             
+    UNIT                      = "KILOMETER"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 71                                            
+    BYTES                     = 14                                            
+    MISSING_CONSTANT          = -999999999.999                                
+    FORMAT                    = "F14.3"                                       
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "BXSE"                                        
+    COLUMN_NUMBER             = 6                                             
+    UNIT                      = "NANOTESLA"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 86                                            
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "BYSE"                                        
+    COLUMN_NUMBER             = 7                                             
+    UNIT                      = "NANOTESLA"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 95                                            
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "BZSE"                                        
+    COLUMN_NUMBER             = 8                                             
+    UNIT                      = "NANOTESLA"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 104                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "BTSE"                                        
+    COLUMN_NUMBER             = 9                                             
+    UNIT                      = "NANOTESLA"                                   
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 113                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "Q_OFFSET"                                    
+    COLUMN_NUMBER             = 10                                            
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 122                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "Q_POSITION"                                  
+    COLUMN_NUMBER             = 11                                            
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 131                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "Q_ATTITUDE"                                  
+    COLUMN_NUMBER             = 12                                            
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 140                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+  OBJECT                      = COLUMN                                        
+    NAME                      = "Q_FLAG"                                      
+    COLUMN_NUMBER             = 13                                            
+    DATA_TYPE                 = ASCII_REAL                                    
+    START_BYTE                = 149                                           
+    BYTES                     = 8                                             
+    MISSING_CONSTANT          = -999.999                                      
+    FORMAT                    = "F8.3"                                        
+    DESCRIPTION               = "VEGA-1 MISCHA"                               
+  END_OBJECT                  = COLUMN                                        
+                                                                              
+END_OBJECT                    = TABLE                                         
+END                                                                           

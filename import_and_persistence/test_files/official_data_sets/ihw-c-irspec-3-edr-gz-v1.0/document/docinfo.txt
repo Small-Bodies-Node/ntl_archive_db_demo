@@ -1,0 +1,51 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-18                                               
+  NOTE             = "DOCUMENT/ directory"                                    
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+DOCUMENT/ Directory                                                           
+===================                                                           
+This directory two files::                                                    
+                                                                              
+   docinfo.txt        This file                                               
+   ihwnet_pdsid.txt   A mapping of IHW Network file prefixes to PDS           
+                      DATA_SET_ID values                                      
+                                                                              
+and two subdirectories:                                                       
+                                                                              
+   common/     Most of the original HAL_0024/DOCUMENT directory (see below)   
+   index/      The entire original HAL_0024/INDEX directory                   
+                                                                              
+                                                                              
+COMMON/                                                                       
+-------                                                                       
+This directory and its contents have been copied over from the HAL_0024 disk  
+unaltered, with the following exceptions:                                     
+                                                                              
+  1. The CROMMELN/ subdirectory has been deleted as irrelevant (it is         
+     included in the data sets targetting Comet Crommelin); and               
+  2. This file has been added.                                                
+                                                                              
+Files that relate directly to the orginal CD structure will be of limited     
+usefulness, as that directory structure was not preserved in this data set.   
+The CDTREE.TXT file, however, does have very brief descriptions for many      
+of the other files in this directory.  The INTRODUC.TXT and GZGUIDE.TXT       
+files may also prove helpful in getting an overview of the sort of data       
+included and problems that might be encountered with formats.                 
+                                                                              
+INDEX/                                                                        
+------                                                                        
+This directory contains several different types if index into the contents    
+of the original HAL_0024 disk, which contained observations of both Comets    
+Crommelin and Giacobini-Zinner.  It is included as documentation rather than  
+indices because the directory structure of that volume is not reproduced in   
+the present data set; but there are useful tables showing key FITS header     
+values across the entire archive, and any named file can be found fairly      
+intuitively be noting the observation date listed here and following the      
+hierarchy under the DATA/ directory (where one exists) for the particular     
+data set in question.                                                         

@@ -1,0 +1,32 @@
+***** File DIGITIZE.DOC                                                       
+                                                                              
+                       Digitization Conventions                               
+                       for the ESA Articles                                   
+                                                                              
+A number of conventions were introduced in the IHW articles referenced as     
+the COMET HALLEY SUMMARY VOLUME (Sekanina, Z. 1991) to express mathematical   
+symbols, chemical formulae, greek letters, scientific notation, physical      
+units, and special printing symbols (such as italics).  These Archive         
+conventions followed those generally found in the literature  and were used   
+in the digitization of the series of articles from ESA SP-1066 and SP-1077.   
+A short summary of these conventions follows:                                 
+                                                                              
+01. No capitals are allowed for Greek letters, which are spelled in English   
+02. Symbols for parallel, perpendicular are written fully                     
+03. Approximation signs are given by one tilde                                
+04. Units are given as abbreviations, e.g., deg                               
+05. Vector notation is written out specifically, e.g., momentum vector        
+06. Chemical subscripts and superscipts (as prefix or suffix) are ascii       
+07. Powers are indicated by **, with a negative power indicated by "-"        
+08. Multiplication is shown by *, except in scientific notation               
+09. Functional dependence is indicated by closed parentheses                  
+10. Abbreviations for milli, mega, nano are written fully                     
+11. Derivatives are given by symbols d/dt of a variable                       
+12. Integrals and summations are written out, as are limits                   
+13. Nested functional dependence is indicated by brackets                     
+                                                                              
+In addition, the citation of references and author credits was standardized   
+to conform to ESA SP-1066.   The abbreviations for instruments or experiments 
+were taken from ESA SP-1077 and SP-1066 articles; alternate names for the     
+experiments, e.g.,  PLASMAG for PM-1, are alternate names listed in VOLINFO.  
+                                                                              

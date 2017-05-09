@@ -1,0 +1,100 @@
+***** File GIODAT.TXT                                                         
+                                                                              
+Mission: GIOTTO                                                               
+Program: giodat.f                                                             
+Submission: epgiotto.doc text file                                            
+                                                                              
+                                                                              
+Original Format                                                               
+                                                                              
+	The original form of the source code for the FORTRAN subroutine,             
+	GIODAT, and the attendant ephemeris data file, POSITION, were                
+	received as part of the text file, epgiotto.doc.                             
+                                                                              
+Reformatting at SBN                                                           
+                                                                              
+	The following was done to access the subroutine:                             
+	                                                                             
+	 o The text file epgiotto.doc was edited to separate the parts               
+	   which contained the ephemeris data file, POSITION, and the                
+	   source code for the subroutine, GIODAT, into individual files             
+	   for use.                                                                  
+                                                                              
+	 o The trailing control characters at the end of each line were              
+	   removed so that the position data file could be used normally,            
+	   and the subroutine, GIODAT could be compiled.                             
+                                                                              
+	 o A FORTRAN program, epgiotto.f, was then written to access the             
+	   position data file via calls to GIODAT.                                   
+                                                                              
+	 o Numerous tests against known ephemeris data from various                  
+	   sources were then done to test the accuracy of the values                 
+	   returned by GIODAT.                                                       
+                                                                              
+                                                                              
+                                                                              
+Known Anomalies/Problems:                                                     
+                                                                              
+	 o Ephemeris data held in the data file POSITION, as stated in               
+	   epgiotto.doc, are stored as double precision floating point               
+	   numbers with 11 significant digits. However, GIODAT will only             
+	   return values with 8 significant digits. Redefining the size              
+	   of the variables read from POSITION by GIODAT would solve                 
+	   this anomaly.                                                             
+                                                                              
+	 o GIODAT returns the position and velocity vectors for some                 
+	   specified time, TUTC, in rectangular, barycentric, M.E.S.                 
+	   1950 coordinates. Care must be taken when comparing to known              
+	   sources that the proper conversions be made from the                      
+	   coordinates used in the source to those of GIODAT.                        
+                                                                              
+	 o The velocity vectors for Comet Halley returned by GIODAT,                 
+	   when compared to known data from the file ephem.tab, were                 
+	   severely in error. It is still unknown why this is so.                    
+                                                                              
+	   The following chart is taken from the comparison of the output            
+	   of GIODAT with the ephemeris values given in the file,                    
+	   ephem.tab, on CDROM HAL_0019.                                             
+                                                                              
+                                                                              
+   Data From Ephem.tab	    | From Subroutine Giodat|       ERRORS	  |         
+ TIME       DELDOT   RDOT   | TUTC  GeoVel  HelioVel|Geocentric| Heliocent|   
+(Julian)    (KM/S)  (KM/S)  |(1950  (KM/S)  (KM/S)  |  (KM/S)  |  (KM/S)  |   
+			    | EME)	            |          |          |                             
+----------------------------+-----------------------+----------+----------+   
+2446494.5 -39.4056  23.0952 | 13212 44.6541 47.3377 | -84.0597 | -24.2425 |   
+2446495.5 -40.0354  23.4968 | 13213 45.2591 46.9228 | -85.2945 | -23.4260 |   
+2446496.5 -40.6201  23.8643 | 13214 45.8436 46.5117 | -86.4637 | -22.6474 |   
+2446497.5 -41.1600  24.2001 | 13215 46.4080 46.1051 | -87.5680 | -21.9050 |   
+2446498.5 -41.6551  24.5061 | 13216 46.9526 45.7034 | -88.6077 | -21.1973 |   
+2446499.5 -42.1054  24.7845 | 13217 47.4779 45.3071 | -89.5833 | -20.5226 |   
+2446500.5 -42.5104  25.0372 | 13218 47.9843 44.9166 | -90.4947 | -19.8794 |   
+2446501.5 -42.8694  25.2660 | 13219 48.4725 44.5320 | -91.3419 | -19.2660 |   
+2446502.5 -43.1814  25.4726 | 13220 48.9427 44.1536 | -92.1241 | -18.6810 |   
+2446503.5 -43.4450  25.6587 | 13221 49.3957 43.7816 | -92.8407 | -18.1219 |   
+2446504.5 -43.6585  25.8257 | 13222 49.8318 43.4160 | -93.4903 | -17.5903 |   
+2446505.5 -43.8195  25.9751 | 13223 50.2519 43.0570 | -94.0714 | -17.0819 |   
+----------------------------+-----------------------+----------+----------+   
+where: 	TIME(julian) = the time according to the Julian calendar              
+	DELDOT(KM/S)= the Geocentric velocity magnitude of Comet Halley,             
+		as taken from ephem.tab                                                     
+	RDOT(KM/S)=  the Heliocentric velocity magnitude of Comet Halley,            
+		as taken from ephem.tab                                                     
+	TUTC(1950 EME)= the same as TIME, converted to days since 1950               
+		for use in the subroutine Giodat                                            
+	GeoVel(KM/S)= the Geocentric velocity magnitude of Comet Halley,             
+		as returned by Giodat                                                       
+	HelioVel(KM/S)= the Heliocentric velocity magnitude of Comet Halley,         
+		as returned by Giodat                                                       
+                                                                              
+                                                                              
+	                                                                             
+	                                                                             
+                                                                              
+                                                                              
+Giodat uses TUTC instead of TDT                                               
+	(in March 86, TDT was 55.184 seconds greater than TUTC )                     
+                                                                              
+                                                                              
+The POSITION data file covers data from TUTC 13212 (March 5, 1986) to         
+TUTC 13224 ( March 17,1986)                                                   

@@ -1,0 +1,198 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "BOBROVNIKOFF1931"                                       
+  REFERENCE_DESC   = "                                                        
+    Bobrovnikoff, N.T., Publications of the Lick Observatory,                 
+    17, 305, 1931."                                                           
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "BRANDTETAL1980"                                         
+  REFERENCE_DESC   = "                                                        
+    Brandt, J.C., R.L. Newburn, and L.D. Friedman,                            
+    'The International Halley Watch, Report of the Science                    
+    Working Group,' NASA TM 82181, 1980."                                     
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "BRANDTETAL1992"                                         
+  REFERENCE_DESC   = "                                                        
+    Brandt, J.C., M.B. Niedner, Jr., and J. Rahe, 'The                        
+    International Halley Watch Atlas of Large-Scale Phenomena',               
+    University of Colorado-Boulder, Laboratory for Atmospheric                
+    and Space Physics, Boulder, Colorado, April 1992."                        
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "HANNER&TOKUNAGA1991"                                    
+  REFERENCE_DESC   = "                                                        
+    Hanner, M.S., and A.T. Tokunaga, 'Infrared Techniques                     
+    for Comet Observations', In 'Comets in the Post-Halley Era,               
+    Newburn, R. L., Neugebauer, M., and Rahe, J. (eds.), Kluwer               
+    Academic Publishers, Dordrecht, pp. 67-91, 1991."                         
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "HOLDENRIED&CRULL1986"                                   
+  REFERENCE_DESC   = "                                                        
+    Holdenried, E.R., and H.E. Crull, 'U. S. Naval                            
+    Observatory Halley Watch Astrometric Catalog', Astronomical               
+    Journal, 92, pp. 1191-1200, 1986."                                        
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "JPL D-400-450"                                          
+  REFERENCE_DESC   = "                                                        
+    Sekanina, Zdenek (ed.), 'The Comet Halley Archive Summary                 
+    Volume', Jet Propulsion Laboratory, California Institute of               
+    Technology, Pasadena, California, JPL D-400-450, August                   
+    1991."                                                                    
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "LARSON&MINTON1972"                                      
+  REFERENCE_DESC   = "                                                        
+    Larson, S.M., and R.B. Minton, 'In Comets: Scientific Data                
+    and Missions, Kuiper, G.P. and Roemer, E. (Eds.),                         
+    University of Arizona, Tucson, pp. 183, 1972."                            
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "MARSDENETAL1973"                                        
+  REFERENCE_DESC   = "                                                        
+    Marsden, B.G., Z. Sekanina, and D.K. Yeomans, 'Comets                     
+    and nongravitational forces', Astronomical Journal, 78,                   
+    pp. 211-225, 1973."                                                       
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "OSBORNETAL1990"                                         
+  REFERENCE_DESC   = "                                                        
+    Osborn, W.H., M.F. A'Hearn, U. Carsenty, R.L. Millis, D.G. Schleicher,    
+    P.V. Birch, H. Moreno, and A. Gutierrez-Moreno, Standard Stars for        
+    Photometry of Comets, Icarus, 88, 288, 1990."                             
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "RAHEETAL1969"                                           
+  REFERENCE_DESC   = "                                                        
+    Rahe, J., B. Donn, and K. Wurm, 'Atlas of Cometary Forms',                
+    NASA SP-198, U.S. Government Printing Office, Washington                  
+    D.C., 128 pp., 1969."                                                     
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "ROESER1984"                                             
+  REFERENCE_DESC   = "                                                        
+    Roeser, S.F., 'Study into the accuracy of astrometric                     
+    observations of comets', ESOC Contract No.                                
+    5759/83/D/IM(SC), Final Report, May 31, 1984."                            
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "ROESER1987"                                             
+  REFERENCE_DESC   = "                                                        
+    Roeser, S.F., 'Catalogue of astrometric observations of                   
+    comet P/Halley at its apparition 1909-1911', Astronomy and                
+    Astrophysics Journal, Supplement, Series 71, pp. 363-395,                 
+    1987."                                                                    
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "SEKANINA1979"                                           
+  REFERENCE_DESC   = "                                                        
+    Sekanina, Zedenek, Icarus, 37, 420, 1979."                                
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "SEKANINA1981A"                                          
+  REFERENCE_DESC   = "                                                        
+    Sekanina, Zedenek, Annual Review of Earth and Planetary                   
+    Science, 9, 113, 1981."                                                   
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "SEKANINA1981B"                                          
+  REFERENCE_DESC   = "                                                        
+    Sekanina, Zedenek, Astronomical Journal, 86, 1741, 1981."                 
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "THUAN&GUNN1976"                                         
+  REFERENCE_DESC   = "                                                        
+    Thuan, T.X., and J.E. Gunn, Publication of the                            
+    Astronomical Society of the Pacific, 88, 543, 1976."                      
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "TOKUNAGA1987"                                           
+  REFERENCE_DESC   = "                                                        
+    Tokunaga, A.T., 'Infrared Telescope Facility Photometry                   
+    Manual', Institute for Astronomy, University of Hawaii,                   
+    1987."                                                                    
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "WADEETAL1979"                                           
+  REFERENCE_DESC   = "                                                        
+    Wade, R.A., J.G. Hoessel, J.H. Elias, and J.P. Huchra,                    
+    Publication of the Astronomical Society of the Pacific,                   
+    91, 35, 1979."                                                            
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "WHIPPLE1978"                                            
+  REFERENCE_DESC   = "                                                        
+    Whipple, F.L., Nature, 273, 134, 1978."                                   
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "WHIPPLE1980"                                            
+  REFERENCE_DESC   = "                                                        
+    Whipple, F.L., Astronomical Journal, 85, 305, 1980."                      
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "WISNIEWSKI&ZELL1985"                                    
+  REFERENCE_DESC   = "                                                        
+    Wisniewski, W. and B. Zellner, Standard stars for cometary                
+    photometry, Icarus, 63, 333-338, 1985."                                   
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "YEOMANS1977"                                            
+  REFERENCE_DESC   = "                                                        
+    Yeomans, D.K., 'Comet Halley: The orbital motion',                        
+    Astronomical Journal, 82, pp. 435-440, 1977."                             
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "YEOMANS1981"                                            
+  REFERENCE_DESC   = "                                                        
+    Yeomans, D.K., 'The Comet Halley Handbook', Jet Propulsion                
+    Laboratory, California Institute of Technology, Pasadena,                 
+    California, JPL D-400-91, 1981."                                          
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "YEOMANS1983"                                            
+  REFERENCE_DESC   = "                                                        
+    Yeomans, D.K., 'The Comet Halley Handbook', 2nd edition,                  
+    Jet Propulsion Laboratory, California Institute of                        
+    Technology, Pasadena, California, JPL D-400-91, Rev. 1,                   
+    1983."                                                                    
+END_OBJECT = REFERENCE                                                        
+                                                                              
+OBJECT     = REFERENCE                                                        
+  REFERENCE_KEY_ID = "YEOMANSETAL1984"                                        
+  REFERENCE_DESC   = "                                                        
+    Yeomans, D.K., R.M. West, R.S. Harrington, and B.G.                       
+    Marsden, 'Cometary Astrometry: Proceedings of a                           
+    workshop held June 18-19, 1984, at the European                           
+    Southern Observatory Headquarters', Jet Propulsion                        
+    Laboratory, California Institute of Technology,                           
+    Pasadena, California, JPL D-84-82, 1984."                                 
+END_OBJECT = REFERENCE                                                        
+                                                                              
+END                                                                           

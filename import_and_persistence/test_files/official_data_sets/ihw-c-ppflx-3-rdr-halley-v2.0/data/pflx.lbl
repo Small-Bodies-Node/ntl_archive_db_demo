@@ -1,0 +1,269 @@
+PDS_VERSION_ID        = PDS3                                                  
+                                                                              
+RECORD_TYPE           = "FIXED_LENGTH"                                        
+RECORD_BYTES          = 172                                                   
+FILE_RECORDS          = 18547                                                 
+                                                                              
+DATA_SET_ID           = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                       
+PRODUCT_ID            = "PFLX.TAB"                                            
+PRODUCT_NAME          = "IHW NARROW BAND PHOTOMETRY - MERGED TABLE"           
+PRODUCT_CREATION_TIME = 2006-10-17                                            
+                                                                              
+INSTRUMENT_HOST_NAME  = "IHW PHOTOMETRY AND POLARIMETRY NETWORK"              
+INSTRUMENT_HOST_ID    = "PPN"                                                 
+INSTRUMENT_NAME       = "PHOTOMETRIC FLUX DATA"                               
+INSTRUMENT_ID         = "PPFLX"                                               
+TARGET_NAME           = "1P/HALLEY 1 (1682 Q1)"                               
+START_TIME            = 1985-08-24T22:38:38                                   
+STOP_TIME             = 1987-03-04T08:55:58                                   
+                                                                              
+DESCRIPTION           = "                                                     
+  This table is a chronological compilation of all rows in all                
+  the original submission, many of which were edited by SBN personnel         
+  after initial archiving.  In addition, 24 rows from three files             
+  are omitted entirely because the observing aperture was not included        
+  in the original submission.  One record from one file was also              
+  omitted because it was missed in the re-reduction process due to a          
+  bad NAXIS2 value in the original FITS header.                               
+  "                                                                           
+                                                                              
+^TABLE                = "PFLX.TAB"                                            
+                                                                              
+OBJECT     = TABLE                                                            
+  INTERCHANGE_FORMAT = "ASCII"                                                
+  ROW_BYTES          = 172                                                    
+  ROWS               = 18547                                                  
+  COLUMNS            = 19                                                     
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 1                                                         
+    NAME          = "OBSERVATION_TIME"                                        
+    START_BYTE    = 1                                                         
+    BYTES         = 19                                                        
+    DATA_TYPE     = "TIME"                                                    
+    FORMAT        = "A19"                                                     
+    DESCRIPTION   = "The observation time was reported originally as the      
+      date and a day fraction, almost always to four significant digits       
+      (five in a very small number of cases).  These have been converted      
+      the to ISO standard time format.  Note that time are only accurate      
+      to about +/- 9 seconds."                                                
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 2                                                         
+    NAME          = "FILTER_NAME"                                             
+    START_BYTE    = 21                                                        
+    BYTES         = 4                                                         
+    DATA_TYPE     = "CHARACTER"                                               
+    FORMAT        = "A4"                                                      
+    DESCRIPTION   = "Name of the filter used"                                 
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 3                                                         
+    NAME          = "CENTER_WAVELENGTH"                                       
+    START_BYTE    = 26                                                        
+    BYTES         = 4                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I4"                                                      
+    UNIT          = "ANGSTROM"                                                
+    DESCRIPTION   = "Center wavelength of the specific filter used.  This     
+      can vary slightly among filters with the same name, depending on        
+      filter manufacturer."                                                   
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 4                                                         
+    NAME          = "BANDPASS"                                                
+    START_BYTE    = 31                                                        
+    BYTES         = 3                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I3"                                                      
+    UNIT          = "ANGSTROM"                                                
+    DESCRIPTION   = "Full width at half maximum.  This may vary slightly      
+      among filters with the same name, depending on filter manufacturer."    
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 5                                                      
+    NAME             = "LIMIT_FLAG"                                           
+    START_BYTE       = 35                                                     
+    BYTES            = 1                                                      
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A1"                                                   
+    MISSING_CONSTANT = " "                                                    
+    DESCRIPTION      = "This field contains the character '<' if the          
+      log flux value following is an upper limit."                            
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 6                                                         
+    NAME          = "LOG_FLUX"                                                
+    START_BYTE    = 37                                                        
+    BYTES         = 7                                                         
+    DATA_TYPE     = "ASCII_REAL"                                              
+    FORMAT        = "F7.3"                                                    
+    UNIT          = "ERG/SEC/CM**2/ANGSTROM"                                  
+    DESCRIPTION   = "Log (base 10) of the observed flux"                      
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 7                                                      
+    NAME             = "FLUX_ERROR"                                           
+    START_BYTE       = 45                                                     
+    BYTES            = 5                                                      
+    DATA_TYPE        = "ASCII_REAL"                                           
+    FORMAT           = "F5.3"                                                 
+    MISSING_CONSTANT = -.999                                                  
+    DESCRIPTION      = "Error (log10) in the preceding flux"                  
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 8                                                      
+    NAME             = "OBSERVING_APERTURE"                                   
+    START_BYTE       = 51                                                     
+    BYTES            = 5                                                      
+    DATA_TYPE        = "ASCII_REAL"                                           
+    FORMAT           = "F5.1"                                                 
+    UNIT             = "ARCSECOND"                                            
+    MISSING_CONSTANT = -99.9                                                  
+    DESCRIPTION      = "Diameter of the observing aperture"                   
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 9                                                         
+    NAME          = "RHO"                                                     
+    START_BYTE    = 57                                                        
+    BYTES         = 4                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I4"                                                      
+    UNIT          = "ARCSECOND"                                               
+    DESCRIPTION   = "Radial distance from the center of the                   
+      aperture and the peak brightness of the comet"                          
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 10                                                        
+    NAME          = "THETA"                                                   
+    START_BYTE    = 62                                                        
+    BYTES         = 3                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I3"                                                      
+    UNIT          = "DEGREE"                                                  
+    DESCRIPTION   = "Angular direction of the radius vector to                
+      the center of the aperture from the peak in brightness,                 
+      measured eastward from north"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 11                                                     
+    NAME             = "INTEGRATION_TIME"                                     
+    START_BYTE       = 66                                                     
+    BYTES            = 2                                                      
+    DATA_TYPE        = "ASCII_INTEGER"                                        
+    FORMAT           = "I2"                                                   
+    UNIT             = "SECOND"                                               
+    MISSING_CONSTANT = -9                                                     
+    DESCRIPTION      = "Integration time"                                     
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 12                                                        
+    NAME          = "AIRMASS"                                                 
+    START_BYTE    = 69                                                        
+    BYTES         = 5                                                         
+    DATA_TYPE     = "ASCII_REAL"                                              
+    FORMAT        = "F5.3"                                                    
+    UNIT          = "AIRMASS"                                                 
+    DESCRIPTION   = "Airmass calculated at the midpoint time of the           
+      observation"                                                            
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 13                                                        
+    NAME          = "OBSERVATORY"                                             
+    START_BYTE    = 75                                                        
+    BYTES         = 25                                                        
+    DATA_TYPE     = "CHARACTER"                                               
+    FORMAT        = "A25"                                                     
+    DESCRIPTION   = "Name of the observatory, as identified in the            
+      original FITS header"                                                   
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 14                                                     
+    NAME             = "TELESCOPE"                                            
+    START_BYTE       = 101                                                    
+    BYTES            = 17                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A17"                                                  
+    MISSING_CONSTANT = "---"                                                  
+    DESCRIPTION      = "Identification of the telescope, as supplied in       
+      the original FITS header (if any)"                                      
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 15                                                     
+    NAME             = "TELESCOPE_APERTURE"                                   
+    START_BYTE       = 119                                                    
+    BYTES            = 4                                                      
+    DATA_TYPE        = "ASCII_REAL"                                           
+    FORMAT           = "F4.2"                                                 
+    MISSING_CONSTANT = -.99                                                   
+    UNIT             = "METER"                                                
+    DESCRIPTION      = "Telescope aperture"                                   
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 16                                                        
+    NAME          = "OBSERVER"                                                
+    START_BYTE    = 124                                                       
+    BYTES         = 26                                                        
+    DATA_TYPE     = "CHARACTER"                                               
+    FORMAT        = "A26"                                                     
+    DESCRIPTION   = "Name(s) of the observer(s)"                              
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 17                                                        
+    NAME          = "SYSTEM_CODE"                                             
+    START_BYTE    = 151                                                       
+    BYTES         = 8                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I8"                                                      
+    DESCRIPTION   = "IHW system code corresponding to the observatory,        
+      telescope and instrument used"                                          
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 18                                                     
+    NAME             = "FILE_NAME"                                            
+    START_BYTE       = 160                                                    
+    BYTES            = 8                                                      
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A8"                                                   
+    MISSING_CONSTANT = "pflx9999"                                             
+    DESCRIPTION      = "File name (without extension) of the original FITS    
+      file from which the information in this record came.  Records that      
+      were part of the addenda collected after the initial archive was        
+      created are identified by the file name 'pflx9999'.  No source FITS     
+      files were available for these observations."                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER    = 19                                                     
+    NAME             = "NOTE_CODE"                                            
+    START_BYTE       = 169                                                    
+    BYTES            = 2                                                      
+    DATA_TYPE        = "ASCII_INTEGER"                                        
+    FORMAT           = "I2"                                                   
+    MISSING_CONSTANT = -9                                                     
+    DESCRIPTION      = "Data coming from files reprocessed at the Small       
+      Bodies Node will have a number between 1 and 40 in this column,         
+      corresponding to the explanatory note included in the 'notes.tab'       
+      file included in this data set."                                        
+  END_OBJECT = COLUMN                                                         
+                                                                              
+END_OBJECT = TABLE                                                            
+                                                                              
+END                                                                           

@@ -1,0 +1,471 @@
+                        NEAR NUCLEUS STUDIES NETWORK                                                                              
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+        For both comets P/Halley and P/Giacobini-Zinner, the Near Nucleus                                                         
+Studies Network (NNSN) objectives were to advocate, coordinate, standardize,                                                      
+and archive high resolution groundbased images. The members of the NNSN team                                                      
+of discipline specialists are listed in Table I. For P/Giacobini-Zinner most                                                      
+of the activities were carried out through the already established IHW NNSN,                                                      
+and details of the observing circumstances were communicated to network mem-                                                      
+bers in a series of newsletters. A primary justification for the international                                                    
+Giacobini-Zinner campaign was to provide groundbased support for the Inter-                                                       
+national Cometary Explorer (ICE) which passed through the middle of the plasma                                                    
+tail 7800 km from the nucleus at 11:02 UT on September 11, 1985 (von Rosenvinge                                                   
+et al. 1986). Originally designed for studies of the solar wind environment up-                                                   
+stream from the Earth, the ICE spacecraft did not carry an imaging experiment,                                                    
+and was thus dependent upon groundbased imaging to provide information on the                                                     
+morphology of the flyby region to correlate with the in-situ fields and par-                                                      
+ticles data. The groundbased imaging also permits comparison of the activity                                                      
+of P/Giacobini-Zinner with that of other comets, in particular P/Halley. For                                                      
+many observers, P/Giacobini-Zinner also offered an opportunity to refine their                                                    
+observing techniques in preparation for P/Halley later in 1985.                                                                   
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Near Nucleus Studies Network                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member           Affiliation                          Responsibility                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Stephen M. Larson     Lunar and Planetary Laboratory       Discipline Specialist                                                  
+                      University of Arizona                                                                                       
+                      Tucson, AZ 85721                                                                                            
+                      U.S.A.                                                                                                      
+                                                                                                                                  
+Zdenek Sekanina       Earth & Space Sciences Division      Discipline Specialist                                                  
+                      Jet Propulsion Laboratory                                                                                   
+                      California Institute of Technology                                                                          
+                      Pasadena, CA 91109                                                                                          
+                      U.S.A.                                                                                                      
+                                                                                                                                  
+Juergen Rahe          Dr. Remeis Sternwarte                Discipline Specialist                                                  
+                      Universitat Nurnberg-Erlangen                                                                               
+                      D-8600 Bamberg                                                                                              
+                      Federal Republic of Germany                                                                                 
+                                                                                                                                  
+David H. Levy         Lunar and Planetary Laboratory       Assistant Discipline                                                   
+                      University of Arizona                  Specialist                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+II. FILTERS                                                                                                                       
+                                                                                                                                  
+        To aid the standardization of spectrally selective imaging, the NNSN                                                      
+distributed 15 sets of 35mm circular imaging quality filters manufactured by                                                      
+Barr Associates, Inc., Westford, MA, whose bandpasses matched closely those                                                       
+of the eight IAU standard cometary filters used by the Photometry and Polar-                                                      
+imetry Network. The characteristics of the IAU standard cometary filters are                                                      
+given in greater detail in the Photometry and Polarimetry Network appendix.                                                       
+Some observers used other filters that were available to them, or that were                                                       
+suitable for other emissions. The characteristics of the filters used in the                                                      
+archived data are listed in Table II, where each filter is characterized by                                                       
+its band center, its full width at half-maximum response (FWHM), the dominant                                                     
+source (continuum or emission band or bands), and comments.  The tabulated                                                        
+values refer to the filters only and they do not reflect the effective                                                            
+bandpasses of the detectors and effects of atmospheric extinction, unless                                                         
+explicitly indicated in the comments.                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+Table II.  Filter Bandpass Characteristics                                                                                        
+__________________________________________________________________                                                                
+                                                                                                                                  
+Filter  Band center   FWHM      Dominant        Comments                                                                          
+            [A]        [A]      source(s)                                                                                         
+__________________________________________________________________                                                                
+                                                                                                                                  
+365BC      3650         80      continuum       IAU comet standard                                                                
+387CN      3871         50      CN(0-0)         IAU comet standard                                                                
+406C3      4060         70      C3(3-3)         IAU comet standard                                                                
+GG385      4250        110      CN,C3,C2,CO+    with Kodak IIa-O                                                                  
+426CO+     4260         70      CO+(2-0)        IAU comet standard                                                                
+B          4400       1070      CN,C3,C2,CO+    nominal Johnson B                                                                 
+457CO+     4570         45      CO+(1-0)                                                                                          
+485MC      4845         65      continuum       IAU comet standard                                                                
+514C2      5139         90      C2(0-0)         IAU comet standard                                                                
+V          5480       1130      C2, CO+, NH2    nominal Johnson V                                                                 
+BVR        5650       3300      continuum, C2                                                                                     
+598NH2     5980         40      NH2(0-9-0)                                                                                        
+600NH2     5995        102      NH2(0-9-0)      KPNO No. 1047                                                                     
+619H2O+    6185         40      H2O+(0-8-0)                                                                                       
+625CONT    6250         30      continuum                                                                                         
+630TLT     6294          5      continuum       KPNO No. 794                                                                      
+630OI      6300          5      OI              KPNO No. 794                                                                      
+RG610      6450        700      continuum       with Kodak 098-04                                                                 
+MOULD R    6450       1540      continuum       KPNO                                                                              
+R          6500       1200      continuum                                                                                         
+684RC      6840         90      continuum       IAU comet standard                                                                
+703H2O+    7025         23      H2O+(0-6-0)     IAU comet standard                                                                
+I          8250       1920      continuum                                                                                         
+852CONT    8520        511      continuum       KPNO No. 916                                                                      
+860CONT    8600        120      continuum                                                                                         
+918CN      9180        120      CN(1-0)                                                                                           
+928CN      9280        235      CN(1-0)         KPNO No. 918                                                                      
+_________________________________________________________________                                                                 
+                                                                                                                                  
+                                                                                                                                  
+III. DISCUSSION OF THE RESULTS                                                                                                    
+                                                                                                                                  
+        The 197 NNSN images in this archive (Table III) include the recovery                                                      
+observations of April 3, 1984 and the observations from 22 days in the interval                                                   
+May 17 to November 4, 1985. Most observations refer to dates close to the time                                                    
+of the ICE encounter and were made by a group of the NNSN members who usually                                                     
+observe comets as part of their research activity. Some of the NNSN observers                                                     
+were preoccupied with preparing their observing campaigns for P/Halley, while                                                     
+others used P/Giacobini-Zinner to experiment with new detectors or filters, and                                                   
+elected not to submit their data.                                                                                                 
+                                                                                                                                  
+        The primary purpose of high-resolution groundbased images was to relate                                                   
+the observed spatial and temporal distribution of charged particles with the in-                                                  
+situ fields and particles data from the ICE. For visible to near-infrared wave-                                                   
+lengths, this usually meant observing the CO+ or H2O+ ions. The charge-coupled                                                    
+device (CCD) images through the 703H2O+ filter obtained by Goldberg et al. with                                                   
+the Canada-France-Hawaii Telescope (NNSN##498341-498347) some 3.6 hours after                                                     
+the ICE flyby were analyzed by Slavin et al. (1986). It was found that the tail                                                   
+widths measured from the ICE and CCD images were consistent if the ion emission                                                   
+observed from the ground originated in a slab-shaped plasma sheet whose orien-                                                    
+tation was controlled by the direction of the interplanetary magnetic field.                                                      
+                                                                                                                                  
+        A major scientific objective of the near nucleus studies was to obtain                                                    
+images of the cometary coma with sufficient spatial and temporal resolution to                                                    
+determine some fundamental properties of the unresolved nucleus. Since the coma                                                   
+is a temporary atmosphere, a changing anisotropic pattern of ejected material                                                     
+obviously reflects the distribution of outgassing and the motion of the nucleus.                                                  
+For example, by digitally enhancing photographs of P/Halley taken in 1910, it                                                     
+was demonstrated that the patterns of dust jets could be explained by emission                                                    
+of dust from discrete active areas on the sunlit part of the rotating nucleus                                                     
+(Sekanina and Larson 1984, 1986). As subsequent direct spacecraft observations                                                    
+showed, the dust emission from P/Halley did indeed come from several vents in a                                                   
+largely inert mantle. However, P/Halley may not be typical and a wide variety                                                     
+of coma morphology and time variable activity could exist among periodic comets.                                                  
+For P/Giacobini-Zinner, the production rate of dust was much lower than that of                                                   
+P/Halley, and the absence of prominent jets gave the appearance of a relatively                                                   
+stationary and featureless coma. It should be noted, however, that as of this                                                     
+writing, almost no effort has been made to enhance the images to bring out very                                                   
+low contrast features. Ten-micron images of P/Giacobini-Zinner by Telesco et al.                                                  
+(1986) and by Hayward and Grasdalen (1987) show variable structure of the type                                                    
+that might be detected in the archived images after appropriate enhancement                                                       
+procedures have been applied.                                                                                                     
+                                                                                                                                  
+                                                                                                                                  
+IV. IMAGE SELECTION CRITERIA                                                                                                      
+                                                                                                                                  
+        Of the 218 images submitted for possible inclusion in the archive, 197                                                    
+images (90%) met our selection criteria. These included (1) our ability to read                                                   
+them as standard FITS files, (2) a significant signal, and (3) adequate spatial                                                   
+resolution. The factors affecting the resolution included focussing, seeing,                                                      
+and guiding. In all but five cases, the images were taken with CCD cameras of                                                     
+various array sizes. These flat fielded images were not usually flux calibrated                                                   
+and are thus in units of relative intensity. Users requiring photometrically                                                      
+calibrated images are urged to contact the observers since many have standard                                                     
+star frames but did not have time to go through the decalibration process. Five                                                   
+digitized photographs are in units proportional to density.                                                                       
+                                                                                                                                  
+                                                                                                                                  
+Table III.  Distribution of the NNSN Observations of P/Giacobini-Zinner                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date UT   Observer(s)                 Location/Aperture  Filter(s)                                                                
+________________________________________________________________________________                                                  
+                                                                                                                                  
+1984                                                                                                                              
+Apr.  3   Djorgovsky, S., Spinrad,    Kitt Peak/4.0m     Mould R                                                                  
+            H., and Will, G.                                                                                                      
+1985                                                                                                                              
+May  17   Dacosta, G.                 Kitt Peak/.9m      Mould R                                                                  
+Jun. 18   Schultz, A., Fink, U.,      Catalina/1.5m      B,V,R,I,485MC,514C2,                                                     
+            and DiSanti, M.                                684RC,703H2O+                                                          
+Jun. 19   Fink, U., DiSanti, M.,      Catalina/1.5m      600NH2,630TLT,630OI,                                                     
+            and Schultz, A.                                852CONT,928CN                                                          
+Jun. 21   DiSanti, M., Fink, U.,      Catalina/1.5m      600NH2,852CONT                                                           
+            Marcialis, R., and                                                                                                    
+            Schultz, A.                                                                                                           
+Jul. 20   Green, J., and Barker, E.   McDonald/2.1m      387CN,406C3,485MC,514C2                                                  
+Jul. 21   Marcialis, R., Fink, U.,    Catalina/1.5m      B,V,R,I                                                                  
+            and Schultz, A.                                                                                                       
+Jul. 26   DiSanti, M., and            Catalina/1.5m      B,V,R,I                                                                  
+            Schultz, A.                                                                                                           
+Aug.  5   Marcialis, R., and          Catalina/1.5m      600NH2,630OI,852CONT,                                                    
+            DiSanti, M.                                    928CN                                                                  
+Aug. 17   Larson, S., and Hoban, S.   Catalina/1.5m      NONE,684RC,703H2O+                                                       
+Aug. 22   Fink, U., DiSanti, M.,      Catalina/1.5m      B,V,R,I                                                                  
+            Fink, R., and Sill, G.                                                                                                
+Aug. 31   Barker, E.                  McDonald/.76m      387CN,426CO+,485MC,                                                      
+                                                           514C2,B,V,R                                                            
+Sept. 1   Barker, E.                  McDonald/.76m      387CN,426CO+,485MC,                                                      
+                                                           514C2                                                                  
+Sept. 9   Larson, S., and Levy, D.    Catalina/1.5m      NONE,684RC,703H2O+                                                       
+Sept.10   Levy, D.                    Catalina/1.5m      NONE,485MC,514C2,684RC,                                                  
+                                                           703H2O+                                                                
+          Goldberg, B., Halliday,     Mauna Kea/3.6m     514C2,684RC,703H2O+                                                      
+            I., and Aikman, C.                                                                                                    
+Sept.11   Goldberg, B., Halliday,     Mauna Kea/3.6m     684RC,703H2O+                                                            
+            I., and Aikman, C.                                                                                                    
+Sept.12   Levy, D.                    Catalina/1.5m      NONE,485MC,512C2,684RC,                                                  
+                                                           703H2O+                                                                
+          Majewski, S.                Kitt Peak/4.0m     GG385,RG610                                                              
+Sept.13   Schultz, A., and Fink, U.   Catalina/1.5m      B,V,R,I                                                                  
+Sept.21   Wells, K., and DiSanti, M.  Catalina/1.5m      B,R,I                                                                    
+Sept.22   Fink, U., and DiSanti, M.   Catalina/1.5m      457CO+,514C2,598NH2,                                                     
+                                                           600NH2,619H2O+,                                                        
+                                                           625CONT,852CONT,                                                       
+                                                           860CONT,918CN,928CN                                                    
+Sept.23   Fink, U.                    Catalina/1.5m      514C2,619H2O+,625CONT                                                    
+Oct. 18   Schultz, A., and            Catalina/1.5m      B,V,R,I                                                                  
+            Wisniewski, W.                                                                                                        
+Oct. 19   DiSanti, M., Fink, U.,      Catalina/1.5m      B,V,R                                                                    
+            and Schultz, A.                                                                                                       
+Nov.  3   Green, J., and Barker, E.   McDonald/.91m      365BC,387CN,406C3,                                                       
+                                                           485MC,514C2                                                            
+Nov.  4   Green, J., and Barker, E.   McDonald/.91m      485MC,684RC,703H2O+                                                      
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+        The archivist cannot fully anticipate all potential uses of the images,                                                   
+nor the future users' ability to correct for small guiding errors, or imperfect                                                   
+focussing. Because of the somewhat limited sample of images available, we have                                                    
+relaxed our selection standards in a few cases in the interest of a more com-                                                     
+plete temporal coverage. The user should be aware of the possible range of res-                                                   
+olution between and within the data sets when identifying intrinsic changes in                                                    
+the comet.                                                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+V. ARCHIVE PREPARATION PROCEDURE                                                                                                  
+                                                                                                                                  
+        After receiving the digitized images on a magnetic tape, we read them                                                     
+into a VAX 780 computer and displayed them to assess their eligibility for ar-                                                    
+chiving. We then verified the maximum comet and minimum sky count levels, the                                                     
+sense and orientation, and rated the quality for each frame. These and the other                                                  
+data provided by the observers were entered into a database computer code which                                                   
+checked for formal consistency and calculated other entries, including the air-                                                   
+mass. The airmass at mid-exposure (AIRM-MID) was determined from the comet's                                                      
+apparent equatorial coordinates (ra, dec) and from the observatory coordinates                                                    
+(long, lat):                                                                                                                      
+                                                                                                                                  
+        AIRM-MID = sec Z + 0.0018167 (1-sec Z) - 0.002875 (1-sec Z)**2                                                            
+                                                     + 0.0008083 (1-sec Z)**3,                                                    
+where the apparent zenith distance Z is given by                                                                                  
+                                                                                                                                  
+        sec Z = 1/[sin(lat)*sin(dec) + cos(lat)*cos(dec)*cos(local hour angle)].                                                  
+                                                                                                                                  
+        The completed database was assembled into a report having the format                                                      
+of the extended NNSN FITS headers (including comments) and then combined with                                                     
+the images and written onto a tape that was sent to the Lead Center. It often                                                     
+was necessary to contact the observers in order to obtain missing information                                                     
+or to clarify uncertain or ambiguous data. We proofread the headers several                                                       
+times before being satisfied that they were correct, but users are advised to                                                     
+follow up any apparent inconsistency they may find. After the images were sent                                                    
+to the Lead Center, hard copy images were produced for the printed archive as                                                     
+described below.                                                                                                                  
+                                                                                                                                  
+        The quality rating is only a rough, qualitative guide that includes the                                                   
+effects of seeing, focussing, guiding, the signal-to-noise ratio, and decalibra-                                                  
+tion. The four rating categories are excellent, good, fair, and poor: excellent                                                   
+refers to images with no obvious flaws and poor denotes images included only                                                      
+because of the lack of better ones on that day. The user will have to gain some                                                   
+experience to know what to expect from the different grades.                                                                      
+                                                                                                                                  
+                                                                                                                                  
+VI. PRINTED ARCHIVE ENTRIES                                                                                                       
+                                                                                                                                  
+        For each image in the digital archive, there is a corresponding entry                                                     
+in the printed archive that includes information necessary for the users to                                                       
+determine whether that image will satisfy their needs. All items are derived                                                      
+from the NNSN FITS header keywords. Below is a description of each entry item.                                                    
+The relevant system codes are listed in Table V.                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table IV.  Entries in the Printed Archive                                                                                         
+________________________________________________________________________                                                          
+                                                                                                                                  
+Heading       Description                                                                                                         
+________________________________________________________________________                                                          
+                                                                                                                                  
+Date(UT)      Date (day & fraction of day) of middle of observation                                                               
+NNSN#         Near Nucleus Studies Network file number                                                                            
+Filter        Filter used (see Table II)                                                                                          
+Detector      Detector used                                                                                                       
+Field         Angular field of axes (arcmin) derived from the array size                                                          
+                and platescale. The field may actually be smaller due to                                                          
+                field stops or vignetting.                                                                                        
+PAx           Position angle (N through E) of NAXIS1 (deg)                                                                        
+ExpS          Exposure duration (s)                                                                                               
+Pixel         Angular scale of picture element (arcsec)                                                                           
+Ap            Telescope aperture size (m)                                                                                         
+Scale         Effective plate scale at the detector (arcsec per mm)                                                               
+System        Observing system code (see system codes Table V)                                                                    
+Observer(s)   Name(s) of observers                                                                                                
+Notes         Notes from HISTORY or COMMENT keywords in the FITS header                                                           
+                (see Table VI) as space permits                                                                                   
+________________________________________________________________________                                                          
+                                                                                                                                  
+                                                                                                                                  
+Table V.  System Codes Used for P/Giacobini-Zinner                                                                                
+________________________________________________________________________________                                                  
+                                                                                                                                  
+System  Array Size  Longobs    Lat-obs   Elev Observatory Aper  Detector Filter                                                   
+         [pixels] [deg/min/s][deg/min/s]  [m]              [m]                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+46930101  320x512  249/16/05  +32/25/01  2510  Catalina   1.54  RCA CCD  NONE                                                     
+46930106  320x512  249/16/05  +32/25/01  2510  Catalina   1.54  RCA CCD  485MC                                                    
+46930107  320x512  249/16/05  +32/25/01  2510  Catalina   1.54  RCA CCD  514C2                                                    
+46930108  320x512  249/16/05  +32/25/01  2510  Catalina   1.54  RCA CCD  684RC                                                    
+46930109  320x512  249/16/05  +32/25/01  2510  Catalina   1.54  RCA CCD  703H2O+                                                  
+46930120  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   B                                                        
+46930121  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   V                                                        
+46930122  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   R                                                        
+46930123  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   I                                                        
+46930124  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   457CO+                                                   
+46930125  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   598NH2                                                   
+46930126  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   600NH2                                                   
+46930127  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   619H2O+                                                  
+46930128  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   625CONT                                                  
+46930129  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   630OI                                                    
+46930130  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   630TLT                                                   
+46930131  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   852CONT                                                  
+46930132  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   860CONT                                                  
+46930133  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   918CN                                                    
+46930134  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   928CN                                                    
+46930139  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   514C2                                                    
+46930140  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   684RC                                                    
+46930141  500x500  249/16/05  +32/25/01  2510  Catalina   1.54  TI CCD   703H2O+                                                  
+46950101  800x800  248/24/02  +31/57/50  2120  Kitt Peak  4.00  TI CCD   MOULD R                                                  
+46950502  312x500  248/24/00  +31/57/29  2091  Kitt Peak   .91  RCA CCD  MOULD R                                                  
+46950503  320x512  248/24/00  +31/57/29  2091  Kitt Peak   .91  RCA CCD  MOULD R                                                  
+46950504  316x508  248/24/00  +31/57/29  2091  Kitt Peak   .91  RCA CCD  MOULD R                                                  
+46950505  800x800  248/24/00  +31/57/29  2091  Kitt Peak   .91  TI CCD   703H2O+                                                  
+46950506  800x800  248/24/00  +31/57/29  2091  Kitt Peak   .91  TI CCD   MOULD B                                                  
+46950107  512x512  248/24/02  +31/57/50  2120  Kitt Peak  4.00  IIA-O    GG385                                                    
+46950108  512x512  248/24/02  +31/57/50  2120  Kitt Peak  4.00  098-04   RG610                                                    
+47110202  192x256  255/58/42  +30/40/17  2073  McDonald   2.08  RCA CCD  387CN                                                    
+47110203  192x256  255/58/42  +30/40/17  2073  McDonald   2.08  RCA CCD  406C3                                                    
+47110205  192x256  255/58/42  +30/40/17  2073  McDonald   2.08  RCA CCD  485MC                                                    
+47110206  192x256  255/58/42  +30/40/17  2073  McDonald   2.08  RCA CCD  514C2                                                    
+47110401  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  365BC                                                    
+47110402  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  387CN                                                    
+47110403  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  406C3                                                    
+47110405  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  485MC                                                    
+47110406  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  514C2                                                    
+47110407  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  684RC                                                    
+47110408  192x256  255/58/42  +30/40/17  2073  McDonald    .91  RCA CCD  703H2O+                                                  
+47110502  192x256  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  387CN                                                    
+47110504  192x256  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  426CO+                                                   
+47110505  192x256  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  485MC                                                    
+47110506  192x256  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  514C2                                                    
+47110512  352x512  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  387CN                                                    
+47110514  352x512  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  426CO+                                                   
+47110515  352x512  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  485MC                                                    
+47110516  352x512  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  514C2                                                    
+47110519  352x512  255/58/42  +30/40/17  2073  McDonald    .76  RCA CCD  BVR                                                      
+45680203  325x525  204/31/40  +19/49/35  4125  Mauna Kea  3.60  RCA CCD  684RC                                                    
+45680204  325x525  204/31/40  +19/49/35  4125  Mauna Kea  3.60  RCA CCD  703H2O+                                                  
+45680213  325x525  204/31/40  +19/49/35  4125  Mauna Kea  3.60  RCA CCD  514C2                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+VII. PRINTED ARCHIVE IMAGES                                                                                                       
+                                                                                                                                  
+        The printed archive contains one representative halftone image per                                                        
+day to give the user a general idea of the appearance of the comet. The NNSN                                                      
+file number is printed at the top of each frame for easy correlation with the                                                     
+printed entries following. The images are reproduced with the same orientation                                                    
+(north up, east to the left) and scale (100,000 km on a side at the comet). To                                                    
+permit greater visibility of the near nucleus region as well as some of the                                                       
+outer coma, the base 10 logarithm of the counts are displayed. The final prints                                                   
+have similar densities and contrasts to maximize visibility of the comet, but                                                     
+the halftone process degrades the dynamic range of the prints. For detailed                                                       
+study, the user should use images from the digital archive.                                                                       
+                                                                                                                                  
+                                                                                                                                  
+VIII. NNSN FITS HEADERS                                                                                                           
+                                                                                                                                  
+        The digital archive presents extended FITS headers which contain addi-                                                    
+tional information, not included in the printed archive entries. Table VI lists                                                   
+the header keywords and their short descriptions.                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+Table VI.  Keywords in the FITS headers                                                                                           
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+Keyword   Type  Format   Description                                                                                              
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+SIMPLE     L             Always "T" since they conform to standard FITS format                                                    
+BITPIX     I             Always "16"-bit integer data                                                                             
+NAXIS      I             Always "2" in our two dimensional images                                                                 
+NAXIS1     I    I4       Number of pixels in X axis, samples                                                                      
+NAXIS2     I    I4       Number of pixels in Y axis, rows                                                                         
+OBJECT     C             Object name, 'P/GIACOBINI-ZINNER' in this archive                                                        
+FILE-NUM   I    I6       Unique file number where 498XXX = NNSN P/G-Z, and                                                        
+                           XXX are running numbers within data sets                                                               
+DATE-OBS   C    A8       UT date of observation, dd/mm/yy                                                                         
+TIME-OBS   R    F6.5     Decimal fraction of mid-UT date of observation                                                           
+DATE-REL   C    A8       Date released to archive, dd/mm/yy                                                                       
+DISCIPLN   C    A12      'NEAR NUCLEUS' for our network                                                                           
+LONG-OBS   C    A9       Observatory longitude ddd/mm/ss (positive to east)                                                       
+LAT--OBS   C    A9       Observatory latitude sdd/mm/ss (s = + or -)                                                              
+SYSTEM     C    A8       Observing system code 4NNNXXYY, where 4 denotes the                                                      
+                           Near Nucleus Studies Network, NNN the IAU observatory                                                  
+                           code, XX the telescope, and YY the detector/filter                                                     
+                           (see Table V)                                                                                          
+OBSERVER   C    A        Observer(s) name(s)                                                                                      
+SUBMITTR   C    A        Submitter(s) name(s)                                                                                     
+SPEC-EVT   L    T or F   Special event in image if T (F for all P/G-Z images)                                                     
+DAT-FORM   C    A8       "STANDARD" type of data                                                                                  
+OBSVTORY   C    A        Observatory name                                                                                         
+ELEV-OBS   I    I4       Elevation of observatory [m]                                                                             
+TELESCOP   C    A        Telescope used                                                                                           
+APERTURE   R    F4.2     Telescope aperture [m]                                                                                   
+TELEFL     R    F5.3     Effective focal length [m]                                                                               
+PLTSCALE   R    F5.2     Plate scale [arcsec/mm]                                                                                  
+CROTA1     R    F5.1     Position angle of sample axis [deg] north through east                                                   
+SENSE      L    T or F   Position angle counterclockwise (T) or clockwise (F)                                                     
+DETECTOR   C    A        Detector used                                                                                            
+DIGITIZE   C    A        Type of digitizer used if not detector                                                                   
+APSIZE     R    F5.3     Original pixel size of detector/digitizer                                                                
+FILTER     C    A7       Filter used (see Table II)                                                                               
+EXPOSURE   R    F6.1     Exposure duration [s]                                                                                    
+AIRM-MID   R    F5.3     Calculated airmass at mid-exposure                                                                       
+QUALITY    C    A9       Quality of image (excellent, good, fair, poor)                                                           
+DATE-WRT   C    A8       Date this file was written                                                                               
+ORIGIN     C    A        Institution from which data were sent to NNSN center                                                     
+BUNIT      C    A        Units of the digital numbers. Note that in all cases                                                     
+                           that the FITS keywords BSCALE = 1 and BZERO = 0. In                                                    
+                           most cases, the units are relative intensity                                                           
+COMETMAX   I    I5       Maximum count in comet image. COMETMAX and SKYMIN are                                                    
+                           intended to be a guide for setting display parameters                                                  
+SKYMIN     I    I5       Approximate sky brightness                                                                               
+COMMENT    C    A72      Comments relating to the contents of the image or addi-                                                  
+                           tional observers or submitters                                                                         
+HISTORY    C    A72      Comments relating to the reduction process                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+ACKNOWLEDGEMENTS                                                                                                                  
+                                                                                                                                  
+        The contribution of the Near Nucleus Studies Network to the P/Giacobini-                                                  
+Zinner archive is a result of the hard work and dedication of the Network mem-                                                    
+bers. Participation in the NNSN has been strictly voluntary. The effort benefits                                                  
+cometary and space science and has helped foster international cooperation. We                                                    
+thank B.A. Smith (Lunar and Planetary Laboratory; LPL) and R. Lynds (National                                                     
+Optical Astronomy Observatory; NOAO) for use of the ST VAX780 computer at NOAO.                                                   
+S. Movafah (LPL), E. O'Neil (NOAO), and J. Gotobed (LPL) provided assistance                                                      
+with the VAX. M. Aronsson of the Lead Center (Jet Propulsion Laboratory, Cali-                                                    
+fornia Institute of Technology) offered much needed help. M. Guengerich (LPL)                                                     
+did an extraordinary job helping to construct the FITS headers.                                                                   
+                                                                                                                                  
+REFERENCES                                                                                                                        
+                                                                                                                                  
+Hayward, T.L., and Grasdalen, G.L. (1987).  Astron. J. 94, 1339.                                                                  
+Sekanina, Z., and Larson, S.M. (1984).  Astron. J. 89, 1408.                                                                      
+Sekanina, Z., and Larson, S.M. (1986).  Astron. J. 92, 462.                                                                       
+Slavin, J.A., Goldberg, B.A., Smith, E.J., McComas, D.J., Bame, S.J., Strauss,                                                    
+        M.A., and Spinrad, H. (1986).  Geophys. Res. Lett. 13, 1085.                                                              
+Telesco, C.M., Decher, R., Baugher, C., Campins, H., Mozurkewich, D., Thronson,                                                   
+        H.A., Criukshank, D.P., Hammel, H.B., Larson, S., and Sekanina, Z.                                                        
+        (1986).  Astrophys. J. 310, L61.                                                                                          
+von Rosenvinge, T.T., Brandt, J.C., and Farquhar, R.W. (1986).  Science 232,                                                      
+        353.                                                                                                                      
+                                                                                                                                  

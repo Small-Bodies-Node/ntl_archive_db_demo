@@ -1,0 +1,73 @@
+"BITPIX    ","N", 2,0                                                         
+"NAXIS     ","N", 2,0                                                         
+"NAXIS1    ","N", 4,0                                                         
+"NAXIS2    ","N", 4,0                                                         
+"FILENUM   ","N", 6,0                                                         
+"DATE_OBS  ","C", 8,0                                                         
+"TIME_OBS  ","N", 7,5                                                         
+"LONGITUDE ","C", 9,0                                                         
+"LATITUDE  ","C", 9,0                                                         
+"SYSTEM    ","C", 8,0                                                         
+"OBSERVER  ","C",30,0                                                         
+"ADD_OBS   ","C",60,0                                                         
+"SUBMITTER ","C",24,0                                                         
+"SPEC_EVENT","C", 1,0                                                         
+"DAT_TYPE  ","C", 8,0                                                         
+"LSPNSEQ   ","N", 6,0                                                         
+"OBSERVATOR","C",40,0                                                         
+"LOCATION  ","C",45,0                                                         
+"TELESCOPE ","C",30,0                                                         
+"APERTURE  ","N", 4,2                                                         
+"F_RATIO   ","N", 4,1                                                         
+"FOV1      ","N", 4,1                                                         
+"FOV2      ","N", 4,1                                                         
+"PLATESIZE1","N", 5,2                                                         
+"PLATESIZE2","N", 5,2                                                         
+"PLATE_SCAL","N", 7,2                                                         
+"CAL_AVAIL ","C", 1,0                                                         
+"HYPERSENSE","C", 1,0                                                         
+"EMULSION  ","C",20,0                                                         
+"FILTER    ","C",20,0                                                         
+"PLATE_TYPE","C", 1,0                                                         
+"EXPOSURE  ","N", 7,1                                                         
+"OBSLOG    ","C",22,0                                                         
+"BUNIT     ","C", 8,0                                                         
+"CTYPE1    ","C", 8,0                                                         
+"CTYPE2    ","C", 8,0                                                         
+"CRVAL1    ","N", 9,4                                                         
+"CRVAL1_EXP","N", 3,0                                                         
+"CRVAL2    ","N", 9,4                                                         
+"CRVAL2_EXP","N", 3,0                                                         
+"CRPIX1    ","N", 9,2                                                         
+"CRPIX1_EXP","N", 3,0                                                         
+"CRPIX2    ","N", 9,2                                                         
+"CRPIX2_EXP","N", 3,0                                                         
+"CDELT1    ","N", 9,5                                                         
+"CDELT1_EXP","N", 3,0                                                         
+"CDELT2    ","N", 9,5                                                         
+"CDELT2_EXP","N", 3,0                                                         
+"CROTA1    ","N", 9,3                                                         
+"CROTA1_EXP","N", 3,0                                                         
+"CROTA2    ","N", 9,3                                                         
+"CROTA2_EXP","N", 3,0                                                         
+"RA_PL_CENT","N", 9,4                                                         
+"RA_PC_EXP ","N", 3,0                                                         
+"DEC_PL_CEN","N", 9,4                                                         
+"DEC_PC_EXP","N", 3,0                                                         
+"RA_COMET  ","N", 9,4                                                         
+"RA_COMET_X","N", 3,0                                                         
+"DEC_COMET ","N", 9,4                                                         
+"DEC_COMETX","N", 3,0                                                         
+"SCAN_APER ","N", 4,0                                                         
+"SCAN_STEP ","N", 4,0                                                         
+"SKY_DENSIT","N", 4,0                                                         
+"SKY_UNIFOR","C", 4,0                                                         
+"DATE_SCAN ","C", 8,0                                                         
+"DATE_PROC ","C", 8,0                                                         
+"QUALITY   ","C", 5,0                                                         
+"YEAR      ","C", 5,0                                                         
+"MONTH     ","C", 3,0                                                         
+"DAY       ","C", 3,0                                                         
+"HOUR      ","C", 3,0                                                         
+"OBJECT    ","C",20,0                                                         
+"FILENAME  ","C", 8,0                                                         

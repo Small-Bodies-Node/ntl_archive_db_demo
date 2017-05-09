@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:aop="http://www.springframework.org/schema/aop" 
+    xmlns:tx="http://www.springframework.org/schema/tx" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+                        http://www.springframework.org/schema/tx 
+                        http://www.springframework.org/schema/tx/spring-tx.xsd 
+                        http://www.springframework.org/schema/aop 
+                        http://www.springframework.org/schema/aop/spring-aop.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+  <context:property-placeholder location="classpath:application.properties"/>
+
+  <bean id="log4jLogger" class="org.apache.log4j.Logger" factory-method="getLogger">
+    <constructor-arg value="myLogger"/>
+  </bean>
+
+  <bean id="logger" class="com.topcoder.util.log.log4j.Log4jLog">
+    <constructor-arg index="0">
+      <value>myLogger</value>
+    </constructor-arg>
+    <constructor-arg index="1">
+      <value>false</value>
+    </constructor-arg>
+  </bean>
+
+  <bean id="myDataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+    <property name="driverClass" value="${jdbc.driverClassName}"/>
+    <property name="url" value="${jdbc.url}"/>
+    <property name="username" value="${jdbc.username}"/>
+    <property name="password" value="${jdbc.password}"/>
+  </bean>
+
+  <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    <property name="dataSource" ref="myDataSource"/>
+  </bean>
+
+  <bean id="conversionPersistence" class="gov.nasa.pds.services.impl.JDBCConversionPersistence">
+    <property name="jdbcTemplate" ref="jdbcTemplate" />
+    <property name="logger" ref="logger" />
+  </bean>
+
+  <bean id="dataDictionaryImportPersistence" class="gov.nasa.pds.services.impl.JDBCDataDictionaryImportPersistence">
+    <property name="jdbcTemplate" ref="jdbcTemplate" />
+    <property name="logger" ref="logger" />
+  </bean>
+
+  <bean id="dataSetService" class="gov.nasa.pds.services.impl.JDBCDataSetService">
+    <property name="jdbcTemplate" ref="jdbcTemplate" />
+    <property name="logger" ref="logger" />
+    <property name="whiteSpotRatingThreshold" value="3.3" />
+    <property name="whiteSpotRatingPercentThreshold" value="2.2" />
+    <property name="popularQueryRetrievalThreshold" value="10" />
+  </bean>
+
+  <bean id="metadataValidationManager" class="gov.nasa.pds.services.impl.JDBCMetadataValidationManager">
+    <property name="jdbcTemplate" ref="jdbcTemplate" />
+    <property name="logger" ref="logger" />
+    <property name="misspelledConflictPercentage" value="0.5" />
+  </bean>
+
+  <!-- transaction management configuration -->
+
+  <tx:advice id="txAdvice" transaction-manager="txManager">
+    <tx:attributes>
+      <tx:method name="insertDataIntoTable" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertVolume" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertInstrumentHost" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertInstrument" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertMission" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertTarget" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertDataSet" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertProduct" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertProductDocument" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertDataSetDocument" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertObjectAliases" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertElementAliases" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertUnitAliases" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertTargetTypes" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertElementDefinitions" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertObjectDefinitions" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertValidationRules" rollback-for="DataSetProcessingException"/>
+      <tx:method name="insertCassiniObservationInfo" rollback-for="DataSetProcessingException"/>
+    </tx:attributes>
+  </tx:advice>
+
+  <aop:config>
+    <aop:pointcut id="nasapdsServiceMethods"
+      expression="execution(* gov.nasa.pds.services.impl.*Persistence.*(..))"/>
+    <aop:advisor advice-ref="txAdvice" pointcut-ref="nasapdsServiceMethods"/>
+  </aop:config>
+
+  <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">  
+    <property name="dataSource" ref="myDataSource" />
+  </bean>
+
+  <tx:annotation-driven transaction-manager="txManager" />
+</beans>

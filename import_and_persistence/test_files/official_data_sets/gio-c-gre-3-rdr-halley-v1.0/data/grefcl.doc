@@ -1,0 +1,41 @@
+SIMPLE  =                    T          / STANDARD FITS                       
+BITPIX  =                   32          / 4-BYTE TWO'S COMPLEMENT INTEGERS    
+COMMENT DATA SENT AS ASCII CHARACTERS NOT 32 BYTE INTEGERS * MA *             
+NAXIS   =                    1          / NO. AXES                            
+NAXIS1  =                14400          / NO. POINTS                          
+OBJECT  = 'P/HALLEY'                    / SOURCE NAME                         
+FILE-NUM=               080003          / SEQUENTIAL FILE NUMBER              
+DATE-OBS= '14/03/86'                    / ENCOUNTER DATE                      
+TIME-OBS=               .00833          / MID-TIME OF OBS.                    
+DATE-REL= '15/09/89'                    / RELEASE DATE OF DATA                
+DISCIPLN= 'GIOTTO/GRE'                  / GIOTTO RADIO-SCI EXPERIMENT         
+LONG-OBS= '148/58/48'                   / STATION GEODETIC LONGITUDE          
+LAT--OBS= '-35/24/14'                   / STATION GEODETIC LATITUDE           
+SYSTEM  = '05009980'                    / IHW SYSTEM CODE                     
+OBSERVER= 'EDENHOFER,P/ET AL.'          / PRINCIPAL INVESTIGATOR ET AL.       
+SUBMITTR= 'BIRD,M.K'                    / SUBMITTER NAME                      
+SPEC-EVT=                    F          / NO SPECIAL EVENT                    
+DAT-FORM= 'STANDARD'                    / DATA: 32-BIT INTEGERS (SEE ABOVE)   
+COMMENT   DATA TYPE: GIOTTO RESIDUAL FREQUENCY AT HALLEY ENCOUNTER            
+COMMENT   START TIME: 73:00:00:00 (dd/hh/mm/ss)                               
+COMMENT   STOP TIME:  73:00:24:00 (dd/hh/mm/ss)                               
+COMMENT   EPHEMERIS TAPE (EXPSUP5) DOCUMENTED IF FILE EPGIOTTO.DOC            
+COMMENT   X-BAND MEASUREMENTS AT 8428463000.0 HZ                              
+BSCALE  =                0.001          / REAL = TAPE*BSCALE + BZERO          
+BZERO   =                  0.0          / REFERENCE FREQUENCY                 
+BUNIT   = 'HZ       '                   / FREQUENCY IN HERTZ                  
+CRVAL1  =                  0.0          / SECONDS PAST MIDNIGHT               
+CRPIX1  =                  1.0          / TIME OF FIRST DATA POINT            
+CTYPE1  = 'TIME     '                   / COORDINATE TYPE                     
+CDELT1  =                  0.1          / SAMPLE TIME                         
+COMMENT   ADD KEYWORDS DESCRIBING OBSERVATIONS:                               
+OBSVTORY= 'NASA DEEP SPACE NETWORK'     / OBSERVATION NETWORK                 
+TELESCOP= 'DSS 43 (64-M)'               / ENCOUNTER TRACKING STATION          
+LOCATION= 'TIDBINBILLA, AUSTRALIA'      / STATION LOCATION                    
+INSTRUME= 'TRACKING CLOSED LOOP'        / TRACKING RECEIVER SYSTEM            
+DATE    = '15/05/89'                    / DATA SUBMISSION DATE                
+ORIGIN  = 'RADIOASTR. INST. UNIV. BONN' / SUBMITTER INSTITUTE                 
+COMMENT   ADD OBS. BIRD,M.K/BUSCHERT,H/PAETZOLD,M/PORSCHE,H/VOLLAND,H         
+COMMENT   REFERENCE  EDENHOFER,P/ET AL., NATURE 321, 355, 1986.               
+COMMENT   REFERENCE  EDENHOFER,P/ET AL., ASTRON. ASTROPHYS. 187, 712, 1987.   
+END                                                                           

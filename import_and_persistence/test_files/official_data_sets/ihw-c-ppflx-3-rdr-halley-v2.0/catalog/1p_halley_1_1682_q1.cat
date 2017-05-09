@@ -1,0 +1,46 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "                                         
+  2005-02-10 A.C.Raugh     Corrected ROTATION_DIRECTION                       
+  2005-10-11 A.C.Raugh     Corrected PRIMARY_BODY_NAME                        
+  "                                                                           
+                                                                              
+OBJECT                            = TARGET                                    
+  TARGET_NAME                     = "1P/HALLEY 1 (1682 Q1)"                   
+                                                                              
+  OBJECT                          = TARGET_INFORMATION                        
+    TARGET_TYPE                   = "COMET"                                   
+    PRIMARY_BODY_NAME             = "SUN"                                     
+    ORBIT_DIRECTION               = "RETROGRADE"                              
+    ROTATION_DIRECTION            = "N/A"                                     
+    TARGET_DESCRIPTION            = "                                         
+                                                                              
+RIPTION                                                                       
+                                                                              
+    Target Description                                                        
+    ==================                                                        
+        Note that this comet is also found in the PDS archive listed as       
+        the target name 'HALLEY'.                                             
+                                                                              
+      Target Parameters                                                       
+      =================                                                       
+      A_AXIS_RADIUS:                    3.500000                              
+      B_AXIS_RADIUS:                    4.000000                              
+      BOND_ALBEDO  :                    0.027000                              
+      C_AXIS_RADIUS:                    7.500000                              
+      REVOLUTION_PERIOD       :         27854.764000                          
+      ORBITAL_ECCENTRICITY    :         0.967810                              
+      ORBITAL_INCLINATION     :         162.239250                            
+      ORBITAL_SEMIMAJOR_AXIS  :         2670000000.000000                     
+      ASCENDING_NODE_LONGITUDE:         58.142500                             
+      PERIAPSIS_ARGUMENT_ANGLE:         111.843450                            
+                                                                              
+      The nucleus of this comet is in an excited rotational state."           
+                                                                              
+  END_OBJECT                      = TARGET_INFORMATION                        
+                                                                              
+  OBJECT                          = TARGET_REFERENCE_INFORMATION              
+    REFERENCE_KEY_ID              = "N/A"                                     
+  END_OBJECT                      = TARGET_REFERENCE_INFORMATION              
+END_OBJECT                        = TARGET                                    
+END                                                                           

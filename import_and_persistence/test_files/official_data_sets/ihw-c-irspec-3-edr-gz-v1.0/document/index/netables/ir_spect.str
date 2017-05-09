@@ -1,0 +1,13 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"IRSN_NUM   ","N", 6,0                                                        
+"CALIBRATION","C", 1,0                                                        
+"RESOLUTION ","C", 5,0                                                        
+"RANGE_LO   ","N", 7,3                                                        
+"RANGE_HI   ","N", 8,3                                                        
+"APER_DIAM  ","N", 5,0                                                        
+"APER_POSN  ","C", 7,0                                                        
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"NOTE_FLAG  ","C", 1,0                                                        
+"FILENAME   ","C", 8,0                                                        

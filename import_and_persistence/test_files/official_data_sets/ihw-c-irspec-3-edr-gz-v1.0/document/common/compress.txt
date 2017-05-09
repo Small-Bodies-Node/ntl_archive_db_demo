@@ -1,0 +1,30 @@
+***** File COMPRESS.TXT                                                       
+                                                                              
+              PREVIOUS PIXEL ALGORITHM                                        
+        WITH DIFFERENCE FLAG AS SEPARATE BYTE                                 
+                                                                              
+DECOMPRESSION:                                                                
+                                                                              
+READ first record                                                             
+Verify that first byte is 255                                                 
+Set first value to be PREVPIXEL                                               
+Load first value into output record                                           
+DO UNTIL no more data on input                                                
+    IF input buffer is empty THEN read next record                            
+    Get CURRENTBYTE from input buffer                                         
+    IF CURRENTBYTE is not equal to 255 (is a difference) THEN                 
+         NEWPIXEL = PREVPIXEL + CURRENTBYTE - 127                             
+         Load NEWPIXEL into output record                                     
+         IF output record full, WRITE out record                              
+    ELSE IF CURRENTBYTE = 255 THEN                                            
+         IF input buffer has < 2 bytes left THEN read next record             
+         Set NEWPIXEL to the next 2 bytes in the input buffer                 
+         Load NEWPIXEL into output record                                     
+         IF output record full, WRITE out record                              
+    ENDIF                                                                     
+    Set PREVPIXEL equal to NEWPIXEL                                           
+ENDDO                                                                         
+IF partially filled output buffer remains THEN                                
+    Blank to the end of the buffer                                            
+    WRITE out final (partial) record                                          
+ENDIF                                                                         

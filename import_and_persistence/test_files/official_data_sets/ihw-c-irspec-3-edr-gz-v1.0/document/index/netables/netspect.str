@@ -1,0 +1,62 @@
+"BITPIX    ","N", 2,0                                                         
+"NAXIS     ","N", 2,0                                                         
+"NAXIS1    ","N", 4,0                                                         
+"NAXIS2    ","N", 4,0                                                         
+"OBJECT    ","C",20,0                                                         
+"FILENUM   ","N", 6,0                                                         
+"DATE_OBS  ","C", 8,0                                                         
+"TIME_OBS  ","N", 7,5                                                         
+"LONGITUDE ","C", 9,0                                                         
+"LATITUDE  ","C", 9,0                                                         
+"SYSTEM    ","C", 8,0                                                         
+"OBSERVER  ","C",24,0                                                         
+"SUBMITTER ","C",24,0                                                         
+"DAT_FORM  ","C", 8,0                                                         
+"DAT_TYPE  ","C",15,0                                                         
+"DIS_CODE  ","C", 9,0                                                         
+"OBSERVATOR","C",68,0                                                         
+"ELEVATION ","N", 7,1                                                         
+"TELESCOPE ","C",68,0                                                         
+"INSTRUMENT","C",68,0                                                         
+"RESOLUTION","C", 5,0                                                         
+"SPECT_RANG","C",10,0                                                         
+"EXPOSURE  ","N",10,2                                                         
+"APERTURE  ","C",68,0                                                         
+"AIRMASS_BE","N", 8,5                                                         
+"AIRMASS_EN","N", 8,5                                                         
+"AIRMASS_MI","N", 8,5                                                         
+"AIRMASS_AV","N", 8,5                                                         
+"SEPAR_NUCL","N", 6,1                                                         
+"ORIENTATIO","N", 6,1                                                         
+"SLIT_POSAN","N", 6,1                                                         
+"PIXSCALE  ","N", 8,3                                                         
+"QUALITY   ","C", 9,0                                                         
+"CTYPE1    ","C", 8,0                                                         
+"CTYPE2    ","C", 8,0                                                         
+"BUNIT     ","C", 9,0                                                         
+"CRVAL1    ","N", 9,6                                                         
+"CRVAL1_EXP","N", 3,0                                                         
+"CRVAL2    ","N", 9,6                                                         
+"CRVAL2_EXP","N", 3,0                                                         
+"CRPIX1    ","N", 9,6                                                         
+"CRPIX1_EXP","N", 3,0                                                         
+"CRPIX2    ","N", 9,6                                                         
+"CRPIX2_EXP","N", 3,0                                                         
+"CDELT1    ","N", 9,6                                                         
+"CDELT1_EXP","N", 3,0                                                         
+"CDELT2    ","N", 9,6                                                         
+"CDELT2_EXP","N", 3,0                                                         
+"DATAMAX   ","N", 9,6                                                         
+"DATAMAX_EX","N", 3,0                                                         
+"DATAMIN   ","N", 9,6                                                         
+"DATAMIN_EX","N", 3,0                                                         
+"BSCALE    ","N", 9,6                                                         
+"BSCALE_EXP","N", 3,0                                                         
+"BZERO     ","N", 9,6                                                         
+"BZERO_EXPO","N", 3,0                                                         
+"VOLUME    ","C", 8,0                                                         
+"YEAR      ","C", 5,0                                                         
+"MONTH     ","C", 3,0                                                         
+"DAY       ","C", 3,0                                                         
+"HOUR      ","C", 3,0                                                         
+"FILENAME  ","C", 8,0                                                         

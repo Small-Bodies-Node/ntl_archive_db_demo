@@ -1,0 +1,188 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "NULL"                                    
+                                                                              
+OBJECT                            = INSTRUMENT                                
+  INSTRUMENT_HOST_ID              = "IRSN"                                    
+  INSTRUMENT_ID                   = "IRSPEC"                                  
+                                                                              
+  OBJECT                          = INSTRUMENT_INFORMATION                    
+    INSTRUMENT_NAME               = "IHW INFRARED SPECTROSCOPY DATA"          
+    INSTRUMENT_TYPE               = "INFRARED SPECTROMETER"                   
+    INSTRUMENT_DESC               = "                                         
+                                                                              
+    Instrument Overview                                                       
+    ===================                                                       
+    Before comet Halley, the only infrared spectra of comets                  
+    were circular variable filter (CVF) data longward of 2                    
+    microns at resolving powers of 50 to 100, and some high                   
+    resolution Fourier transform spectra (FTS) shortward of 2                 
+    microns. Much new spectroscopy was won in the comet Halley                
+    apparition. The many spectacular VEGA 1 spectra (with a                   
+    resolving power of about 50) resulted in the discovery of                 
+    several new molecules and provided spatial resolution within              
+    the coma. Ground-based and airborne observers obtained many               
+    spectra with resolving powers ranging from 50 to 500, and                 
+    extending farther into the infrared than before.                          
+                                                                              
+         Infrared spectroscopy was in transition during the                   
+    Halley apparition. Most spectroscopy employed scanning                    
+    spectrometers, but new array detectors were changing                      
+    infrared spectroscopy and imaging with enormous sensitivity               
+    improvements. Early models of these spectrometers became                  
+    operational as Halley appeared. Had Halley returned just a                
+    few months later, we could have achieved much better                      
+    sensitivities!                                                            
+                                                                              
+         The NASA Kuiper Airborne Observatory (KAO) flew                      
+    numerous missions to observe comet Halley, including a                    
+    special expedition to the southern hemisphere. It obtained                
+    high resolution FTS observations (2.5-3.5 microns) and                    
+    intermediate (5-8 microns) to long wavelength (15-60                      
+    microns) spectra.                                                         
+                                                                              
+         There were not many simultaneous photometric and                     
+    spectroscopic programs, although many observers saw to it                 
+    that photometry supported specific spectroscopy. It seemed                
+    just too hard for observers to coordinate different                       
+    instruments, telescopes, and observing teams. However, there              
+    is photometry near most of the spectroscopy, and in any                   
+    event, the photometric and spectroscopic observations                     
+    addressed different questions. There is extensive                         
+    ground-based spectroscopy around the spacecraft encounter                 
+    times.                                                                    
+                                                                              
+         In hindsight, more spectra in the 10-micron region                   
+    would have been useful, particularly because the spectra                  
+    that we do have show that the Halley silicates are different              
+    from what we expected based on comets Kohoutek and West.                  
+    Future comets have to be targeted for the 10-micron                       
+    spectroscopy.                                                             
+                                                                              
+    Details on the instrument system are given in the table                   
+    below:                                                                    
+                                                                              
+             Sub-Discipline: SPECTROSCOPY (IRSP)                              
+                                                                              
+    ___________________________________________________________               
+    SYSTEM OBSERVATORY   INSTRUMENT             TELESCOPE                     
+    ___________________________________________________________               
+    25001600 NASA KAO     FAINT OBJECT             0.9-M                      
+                          GRATING SPECTROMETER                                
+    25009800 NASA KAO     CORNELL U. 7-CHANNEL     0.9-M                      
+                          SPECTROPHOTOMETER                                   
+    25000800 OAO          8-ELEMENT COOLED         1.88-M                     
+                          GRATING SPECTROPHOTOMETER                           
+    25001500 SSO          8-ELEMENT COOLED         1.00-M                     
+                          GRATING SPECTROPHOTOMETER                           
+    24130100 AAO          IR PHOT-SPECTROMETER     3.9-M                      
+    25680300 NASA IRTF    CVF SPECTROMETER         3-M                        
+    25680200 CFHT         FOURIER TRANSFORM        3.6-M                      
+                          SPECTROMETER                                        
+    25680100 UKIRT        CVF SPECTROMETER         3.8-M                      
+    26620200 LICK         FAINT OBJECT             1-M                        
+                          GRATING SPECTROMETER                                
+    28070200 CTIO         8-CHANNEL INFRARED       1.5-M                      
+                          SPECTROMETER                                        
+    28090400 ESO          INSB PHOT                1-M                        
+    28090100 ESO          IR PHOTOMETER            3.6-M                      
+    ___________________________________________________________               
+                                                                              
+                                                                              
+                                                                              
+    Scientific Objectives                                                     
+    =====================                                                     
+         In the early 1980's, infrared studies of comets were                 
+    still a relatively young field although observations had                  
+    been made in the previous one and a half decades. These                   
+    included broad-band photometric measurements, selected                    
+    intermediate-resolution spectroscopy (resolving powers                    
+    of 50-100), and some spatial measurements of infrared                     
+    emission from the coma and tails (Wilkening 1982). The                    
+    observations had established a base of information on the                 
+    infrared properties of comets (primarily dust) by 1982 when               
+    the IHW was organized. The number of telescopes with                      
+    infrared capability and the number of infrared astronomers                
+    had increased about tenfold in the previous decade, and                   
+    infrared instrumentation had dramatically advanced. Thus it               
+    was clear that a concerted effort of infrared observations                
+    of comet Halley could help us learn much about comets.                    
+                                                                              
+         The IHW assigned all infrared (loosely defined as                    
+    1-1000 microns) observations to the Infrared Studies                      
+    Network. This meant that the IR Network had to deal with                  
+    photometry, spectroscopy, polarimetry, and imaging.                       
+    Obviously, these areas had somewhat different goals and                   
+    problems, which were reflected in the organization of the                 
+    observations and the data archiving.                                      
+                                                                              
+       Relatively few infrared astronomers had observed comets                
+    extensively before the IHW. This put demands on them to                   
+    become familiar with the issues and methods of cometary                   
+    science, and sometimes raised questions about observing                   
+    techniques (fortunately only rarely after the fact). Of                   
+    course, it was an objective of the IHW to advocate and                    
+    encourage comet science, and maybe we succeeded. Probably,                
+    however, comet Halley itself and the accompanying excitement              
+    deserve most of the credit for the present interest in                    
+    comets.                                                                   
+                                                                              
+       Some of the data will probably not appear elsewhere, but               
+    much of the material has been published in some form in the               
+    scientific literature. However, even for published material,              
+    the archive often contains unique data or information. For                
+    example, some observers chose to publish averaged magnitudes              
+    or fluxes of several observations taken in a night. When the              
+    data were available, the archive includes all the                         
+    measurements rather than just the averaged values. The                    
+    archive also provides information about apertures, filters,               
+    air masses, and miscellaneous material that might not be                  
+    published.                                                                
+                                                                              
+       When photometry data appeared in the literature and the                
+    authors submitted nothing to the IHW (a few cases), we                    
+    entered the published data to make the archive as complete                
+    as possible. In all these cases, the archive files contain                
+    the references.                                                           
+                                                                              
+       Polarimetry files follow the same format as photometry,                
+    that is, ASCII tables with wavelength (filter), polarization              
+    magnitude, polarization direction, and ancillary                          
+    information. Most of the data do not appear in digital form               
+    in the published literature.                                              
+                                                                              
+       The spectroscopy and imaging files are usually in the                  
+    STANDARD format FITS files. Since published spectroscopy and              
+    image data appear largely in graphical form, the digital                  
+    data in the archive are the unique resource in most cases.                
+    Many image data sets contain calibration images and                       
+    comparison star information.                                              
+                                                                              
+       To make the archive as complete as possible, we created                
+    files for those dates when we knew of scheduled                           
+    observations, even if we could not get the data. These files              
+    contain keyword information and references to assist archive              
+    users in tracking down material. The amount of missing                    
+    material known to us is small (a few percent of all the data              
+    taken, including photometry, spectroscopy, and imaging). Of               
+    course, published material is not lost. However, the data in              
+    digital form that the archive contains will be a resource                 
+    for future researchers. We urge those who did not submit                  
+    their data to consider publishing them in extended form or                
+    including them in the Planetary Data System Archive.                      
+                                                                              
+       The result is nearly 600 files including the filter                    
+    files. We estimate, however, that all of it will occupy only              
+    about 1% of the space of a compact disk."                                 
+                                                                              
+  END_OBJECT                      = INSTRUMENT_INFORMATION                    
+                                                                              
+  OBJECT                          = INSTRUMENT_REFERENCE_INFO                 
+    REFERENCE_KEY_ID              = "JPL D-400-450"                           
+  END_OBJECT                      = INSTRUMENT_REFERENCE_INFO                 
+                                                                              
+  OBJECT                          = INSTRUMENT_REFERENCE_INFO                 
+    REFERENCE_KEY_ID              = "WILKENING1982"                           
+  END_OBJECT                      = INSTRUMENT_REFERENCE_INFO                 
+END_OBJECT                        = INSTRUMENT                                
+END                                                                           

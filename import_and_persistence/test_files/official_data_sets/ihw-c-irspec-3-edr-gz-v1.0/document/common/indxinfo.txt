@@ -1,0 +1,75 @@
+*****  FILE INDXINFO.TXT                                                      
+                                                                              
+                                                                              
+                            Index File Information                            
+                                                                              
+                                                                              
+                                                                              
+     This file contains a description of the index files created for the      
+Quicklook tables and from the P/Giacobini-Zinner printed archive. The         
+Quicklook tables are in this directory, while the printed archive tables are  
+in the PRNTARCH subdirectory below this one.  There is also a list of         
+contributing observatories for P/Giacobini-Zinner data.                       
+                                                                              
+     There are fourteen files in this directory (besides this file). The first
+five (OBSCODES.DBF, OBSCODES.IDX, OBSCODES.HDR, OBSCODES.LBL and OBSCODES.STR)
+are the database, index and structure files of IHW codes for the contributing 
+observatories. Two (QWIKPRE.IDX and QWIKPOST.IDX) are delimited tables        
+containing the values, in chronological order, of the IHW mandatory keywords  
+for all disciplines. The tables contain information from pre-perihelion and   
+post-perihelion respectively. Two (QWIKPRE.DBF and QWIKPOST.DBF) are dBASE    
+III+ compatible database files, containing no records.  Similarly, *.HDR and  
+*.LBL are associated FITS header and PDS label files, respectively.  The last 
+file (QWIK.STR) is a structure file describing the fields present in the .IDX 
+files. See the following description of the printed archive tables for more   
+complete details.                                                             
+                                                                              
+     The PRNTARCH subdirectory contains all of the printed archive index      
+tables. Some disciplines have more than one kind of table in the printed      
+archive, corresponding to the different subnetworks. Each of the distinct     
+types of table included in the printed archive have been translated into a    
+machine readable index file in this directory.                                
+                                                                              
+     There are six types of files in the PRNTARCH subdirectory, distinguished 
+by the extensions on the file names. The filenames themselves identify the    
+discipline and subnet which was used to produce each index. The types of files
+are:                                                                          
+                                                                              
+        *.HDR - These are complete FITS headers for the data tables.  A       
+                fully-qualified FITS table may be created from the data table 
+                by appending the .IDX file to the associated .HDR file, then  
+                adjusting the length of the resulting file with the program   
+                FITSXTND.                                                     
+                                                                              
+        *.LBL - These are PDS labels describing the data tables.  They already
+                contain pointers to the data tables, so no further steps are  
+                required to make them accessible to PDS table-processing      
+                software.                                                     
+                                                                              
+        *.DBF - These are dBASE III+ compatible database files. They do not   
+                contain any data records, only the structure of the           
+                corresponding database. The data records may be appended from 
+                the data tables (in the .IDX files). Many database management 
+                systems can import databases from .DBF files.                 
+                                                                              
+        *.IDX - These files contain the actual data records from each table.  
+                They are delimited tables. Numeric fields are delimited by    
+                commas (,) and ASCII text fields are contained in quotes (")  
+                and also delimited with commas. Each line ends with the       
+                characters <CR><LF> (ASCII 13 and 10 respectively). All fields
+                in the tables are fixed width to facilitate their use in that 
+                format, as well. These files may be appended to the end of an 
+                empty database structure to create the full index database.   
+                                                                              
+        *.STR - These are "structure" files. They contain information, in     
+                delimited format, on the number, names and widths of the      
+                fields in each database. They can used by dBASE III for       
+                creating the printed archive index tables, and also document  
+                the structure of each table.                                  
+                                                                              
+     There is one additional file (STRUCT.DBF) in this subdirectory. This is  
+the database used to create all the other databases. It consists of 4 fields, 
+FIELD_NAME, FIELD_TYPE, FIELD_LEN and FIELD_DEC, which document the structure 
+of the index tables. When the appropriate .STR file is appended to this       
+structure database, dBASE III+ can create the corresponding printed archive   
+index database.                                                               

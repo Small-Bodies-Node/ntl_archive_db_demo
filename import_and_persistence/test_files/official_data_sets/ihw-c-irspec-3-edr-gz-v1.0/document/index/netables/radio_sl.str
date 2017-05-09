@@ -1,0 +1,24 @@
+"DATE_OBS     ","C", 8,0                                                      
+"TIME_OBS     ","N", 7,5                                                      
+"RSN_NUM      ","N", 6,0                                                      
+"MOLECULE     ","C", 5,0                                                      
+"DAT_TYPE     ","C", 1,0                                                      
+"CENTER_FREQ  ","N", 6,0                                                      
+"RESOLUTION   ","N", 4,0                                                      
+"SYSTEM_TEMP  ","N", 5,0                                                      
+"BEAM_EFFIC   ","N", 2,0                                                      
+"BEAMSIZE     ","N", 4,0                                                      
+"BEAMSHAPE    ","C", 1,0                                                      
+"OFFSET_RHO   ","N", 4,0                                                      
+"OFFSET_THETA ","N", 3,0                                                      
+"LINE_LT      ","C", 1,0                                                      
+"LINEPEAK     ","N", 6,3                                                      
+"LINEPEAK_ERR ","N", 5,3                                                      
+"LINEWIDTH    ","N", 6,3                                                      
+"LINEWIDTH_ERR","N", 4,2                                                      
+"LINE_VELOCITY","N", 5,2                                                      
+"LINE_VEL_ERR ","N", 4,2                                                      
+"SYSTEM       ","C", 8,0                                                      
+"OBSERVER     ","C",24,0                                                      
+"NOTE_FLAG    ","C", 1,0                                                      
+"FILENAME     ","C", 8,0                                                      

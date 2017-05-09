@@ -1,0 +1,203 @@
+***** File BACKGRND.TXT                                                       
+                                                                              
+                                                                              
+                     CD-ROM Background                                        
+                                                                              
+As the International Halley Watch (IHW) became a reality during 1980-81,      
+it became obvious that distribution of images in any digital form would       
+be a problem because of the enormous amount of data involved.  If we          
+were half as successful as expected, a single copy of the Halley Archive      
+would require several hundred tapes, making it bulky, expensive and not       
+readily useable.  We began to explore optical storage, a technique which      
+offers much denser packing than the more well known forms of magnetic         
+storage.                                                                      
+                                                                              
+Since the IHW was producing an archive, there was no need to use a            
+medium that the could be overwritten.  What was needed were longevity,        
+accuracy, speedy access, and a standardized format for which cheap            
+playback equipment was readily available.  Cost and ease of production        
+were clearly factors as well.  We were leaning toward CD-ROM (Compact         
+Disc Read Only Memory) already in August 1985 when M. Martin of the           
+Pilot Planetary Data System (now the PDS) gave a complete rundown on the      
+status of various optical media for data storage at one of our general        
+meetings.  Clearly CD-ROM was the only medium likely to meet our needs        
+in the appropriate time frame. Data transfer was a bit slow and the disk      
+held only 680 MBytes each, but the technology was in place, being             
+standardized and rapidly coming down in cost.  We chose the CD-ROM for        
+the IHW Archive at that time.                                                 
+                                                                              
+The early 1980's had seen the introduction of optical techniques, i.e.,       
+the encoding of digital signals with a laser beam onto a plastic medium       
+for storage purposes.  These techniques were usually called laser video,      
+in part due to the popularity of a commercial venture to record movies.       
+The CAV (constant angular velocity) structure of the disk was similar to      
+magnetic media but the laser beam recorded pits (or bubbles) to               
+represent digital information.  The early attempts at using this              
+approach were done in a publishing mode, e.g., the digital data was sent      
+to a mastering facility for recording onto plastic replicas.                  
+Originally, the information on the laser disc was read back as analog         
+signals for display on TV or similar bandwidth monitors.  This approach       
+was investigated by JPL to hold planetary images with the added               
+condition that the data remain in digital form.  The limited resolution       
+and proprietary nature of the digital technique made this approach            
+unworkable.                                                                   
+                                                                              
+At about the same time, commercial products were emerging that allowed        
+the scientist to directly encode the data onto the optical media.  This       
+approach was generally known as write-once, read-many or WORM technology.     
+These platters ranged in size from 5.25" to 14" with corresponding            
+storage capacities from 300 - 1000 MBytes per side.  These optical discs      
+are often double sided.  Some now use the CLV (constant linear velocity)      
+recording format to increase packing of the data up to 1600 MBytes per        
+side.  A problem with this technology was that the encoding process,          
+physical format, and platter size were never standardized.                    
+Nevertheless, the longevity of this medium (>30 years) is a prime factor      
+for its use as in-house archives.                                             
+                                                                              
+Commercial laser discs soon used this same CLV technique for "extended        
+play". Algorithms had been developed to use the change in reflection          
+(pit versus land) to indicate digital data so that information is stored      
+as a channel bit. In addition, a smaller size (4.72" or 12 cm) was            
+promoted for the audio market. In looking at the failure of the laser         
+disc to compete with videotape, vendors saw the need to standardize on a      
+physical format.  Early in the production of audio CDs, Philips and SONY      
+reached an agreement on the physical structure of discs.  The so-called       
+Red Book described the size of the disc, placement of center hole,            
+useable area, and encoding of the data In one "frame", there are 588          
+channel bits which are converted to 24 bytes of data using a look-up          
+table termed an eight to fourteen modulation (EFM). A total of 98 frames      
+make up a data sector or 2352 bytes of information.                           
+                                                                              
+This agreement meant that all CDs could be read on any player and             
+consequently standardized the player rotation (230-500 rpm) and transfer      
+speed (174 KB/s). The physical coding followed the CLV technique and was      
+along one spiral; data could be located according to a                        
+minute:second:sector scheme.  Random access to any part of the data was       
+allowed and the terminology of tracks was introduced to identify              
+individual files.  The original Red Book agreement permitted up to 79         
+minutes of audio, i.e., 728 MBytes of storage but typically only 60           
+minutes is mastered.  Since there are 75 sectors per second, then a           
+typical storage for 60 minutes is quoted as 540 MBytes of available           
+data. The CD audio explosion of the mid-1980s showed the wisdom of this       
+approach.                                                                     
+                                                                              
+SONY and Philips also realized the potential for this medium to store         
+other digital data for distribution if the error correction could be          
+improved. Using a layered EDC/ECC scheme to improve upon the standard         
+error correction code called CIRC (Cross Interleaved Reed-Solomon             
+Correction) by 10000 times meant that character, tabular, and image data      
+could be archived on CD-ROM. Eventually, a Yellow Book to describe the        
+physical encoding of this data was promoted having the same structure as      
+audio CDs, i.e., 2048 bytes blocks with 304 bytes for housekeeping.           
+Typical error rates indicate only one lost bit per 2000 disks.                
+                                                                              
+The use of the CLV recording format provides maximum data packing but         
+has the disadvantage of slow access times when compared to other media        
+using the CAV approach.  Access time usually includes the changing speed      
+for the disk, the radial movement of the laser diode which requires a         
+settling time, and the location procedure that often demands a full           
+rotation of the disk.  Current players have reduced the access times to       
+under 400 msec, or a factor of 4 slower than typical magnetic hard            
+disks.  Coupled with the low transfer rates set by the audio                  
+requirements (150 KB/s of useful data) means that the placement of data       
+on the CD-ROM requires a strategy for efficient use.  These                   
+disadvantages are outweighed by the low cost of this medium and its           
+longevity as an archiving tool.                                               
+                                                                              
+When the CD-ROM technique became accepted as a digital storage medium, a      
+number of vendors attempted to write application software, primarily for      
+PCs.  This resulted in proprietary formats which quickly became non-          
+standard.  At about this time, Microsoft organized an informal working        
+group that developed a logical structure then called the High Sierra          
+proposal. Eventually, this resolution was modified and has been               
+documented as the International Standards Organization 9660 format.  At       
+this writing, even those vendors with propietary formats such as UNIFILE      
+(DEC) and HFS (APPLE) have announced there support of that standard.  In      
+the PC market, Microsoft has supported an extension to MS-DOS which is        
+supplied in its 4.0 operating system.                                         
+                                                                              
+The main advantage of this logical structure is that there are well           
+defined rules for volume descriptors, placement of files, record              
+structures and nested levels of interchange.  Specifically, the Volume        
+Table of Contents (VTOC) must come first and provide information about        
+the volume (compact disc). Descriptors in the data area identify the          
+volume, establish a character set, locate the path table, and indicate        
+the presence of boot records.  Data is located by logical sectors (2048       
+byte blocks) or a finer division into logical blocks (minimum 512             
+bytes).  The path table provides a quick means to point at data since         
+the structure is hierarchical as in MS-DOS.  Finally, Extended Attribute      
+Records (XAR) are defined to carry associated information about the           
+record structure, key dates, global permission, and hidden files.             
+                                                                              
+The key to this standard is its three levels of interchange which span        
+various machines and operating systems.  In the lowest, Level 1, a file       
+is a continuous byte stream spanning only one section.  Directory and         
+file names are restricted to 8 characters with a 3 character file             
+extension allowed.  This level is designed for PC style machines but          
+must be acceptable to drivers for higher levels.  At Level 2, a mixed         
+mode of data is allowed, primarily to support a possible media extension      
+termed CD-I or its competing format CD-V.  Finally, Level 3 includes          
+features for detailed file names or directories up to 31 characters and       
+full support of XARs.  It is this latter provision which permits              
+developers of UNIX and VMS operating systems to make use of this storage      
+medium.                                                                       
+                                                                              
+The advent of these standards has proved to be a major advantage to           
+archivists. The low cost of the media, players, and widespread                
+applications insures that the data can be widely distributed; the             
+longevity for optical media is considerably greater than more volatile        
+magnetic storage and could rival such media as photographic plates.  But      
+there are disadvantages to this approach.                                     
+                                                                              
+The CD-ROM is really a "publishing" media.  In the data preparation           
+phase, the archivist has complete control over integrity and structure.       
+In order to produce the CD-ROM, this data needs to be shipped to a            
+commercial vendor for actual replication.  To insure that the                 
+organization of the data follows archivist's standards, the "pre-             
+mastering" phase is often done in-house. In this way, the directories,        
+path table, and layout of the disc, as well as customized application         
+programs can be tested on the complete data set.  Once the integrity of       
+the data is secure then final tapes in the ISO format are sent to a           
+mastering facility.  There the actual EDC/ECC is supplied, along with         
+synch information to complete the pre-mastering phase.                        
+                                                                              
+In a typical mastering process, a laser etches the pits into a                
+photoresistant glass disk which is developed and silvered for testing;        
+in some plants, two masters are produced so that the costly data              
+encoding process is not repeated. Once the glass master has been              
+verified by comparison with the original tapes, a metal stamper is            
+formed; it is the stamper that is used to create the plastic replicas by      
+a process called injection molding.  In some cases, the stamper itself        
+is read as part of the testing procedure.  Once the replicas have been        
+given a reflective coating, the artwork is silk screened onto the label       
+area.  The production run of compact discs is given a rigorous quality        
+check that may include testing all discs for portions of the data.  Most      
+vendors offer a warranty against defects within a storage range, e.g.,        
+680 MBytes. The final plastic replica is dust and scratch resistant.  It      
+is placed into a plastic container termed a jewel box, which is usually       
+sealed in a shrink wrapper for shipping.  Most data discs have software       
+resident on an accompanying floppy, although the entire package               
+including command file can be specified, and therefore made to be self        
+booting on the user delivery system.                                          
+                                                                              
+Creation of the IHW Archive has required several advances in data             
+formatting and handling.  Astronomical data transfer began to be              
+standardized with acceptance by the International Astronomical Union of       
+a system called FITS (Flexible Image Transport System).  The IHW adopted      
+this format including an extension to FITS generated for tabular              
+material.  The IHW has now proposed and is using a further extension for      
+compressed data.  In the meantime, the PDS has developed an independent       
+system of formatting data which has some advantages over FITS.  The IHW       
+and the PDS have cooperated by including detached PDS "header" records        
+for the Archive so either data format can be accessed.  The National          
+Space Science Data Center (NSSDC), with some help from the IHW, has           
+installed a CD-ROM pre-master station which has been used to prepare          
+this test CD-ROM for the IHW and ultimately will premaster the entire IHW     
+Archive. Techniques for indexing CD-ROMs are being developed by the           
+NSSDC and IHW for the database comprised of the Comet Giacobini-Zinner        
+ground-based and space observations.  The software required to read           
+CD-ROM stored data has been continuously developed by the PDS and has         
+been made available to the IHW and NSSDC. Additional software will be         
+developed, if necessary, to permit access to all IHW data formats.  The       
+present Archive would not have been possible without the close and            
+enthusiastic cooperation of the IHW, the NSSDC, and the PDS.                  

@@ -1,0 +1,129 @@
+***** File INTRODUC.TXT                                                       
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                  INTRODUCTION                                
+                                                                              
+                                                                              
+          The Archive of Periodic Comet Giacobini-Zinner has been completed in
+two versions, the digital and the printed, regardless of whether or not the   
+latter will be distributed. The comet's reduced observations belong to one of 
+the following disciplines or networks:                                        
+                                                                              
+          1. Astrometry.                                                      
+          2. Infrared Studies.                                                
+          3. Large-Scale Phenomena.                                           
+          4. Near Nucleus Studies.                                            
+          5. Photometry and Polarimetry.                                      
+          6. Radio Studies.                                                   
+          7. Spectroscopy and Spectrophotometry.                              
+          8. Amateur Observations.                                            
+                                                                              
+          The P/Giacobini-Zinner campaign has not involved the Meteor Streams 
+Studies Network. The Infrared Studies Network, the Photometry and Polarimetry 
+Network, the Radio Studies Network, and the Amateur Observations Network are  
+organized into the following subnetworks:                                     
+                                                                              
+          Infrared Studies Subnetworks:                                       
+          2.1. Infrared Photometry.                                           
+          2.2. Infrared Polarimetry.                                          
+          2.3. Infrared Spectroscopy.                                         
+          2.4. Infrared Imaging.                                              
+                                                                              
+          Photometry and Polarimetry Subnetworks:                             
+          5.1. Broadband Photometry.                                          
+          5.2. Narrowband Photometry.                                         
+          5.3. Polarimetry.                                                   
+                                                                              
+          Radio Studies Subnetworks:                                          
+          6.1. Hydroxyl Feature at 18 cm.                                     
+          6.2. Spectral Line.                                                 
+          6.3. Continuum.                                                     
+          6.4. Occultation.                                                   
+                                                                              
+          Amateur Observations Subnetworks:                                   
+          8.1. Visual-Appearance Descriptions.                                
+          8.2. Drawings.                                                      
+          8.3. Photographs.                                                   
+                                                                              
+          The digital version of the Archive, stored on a CD-ROM, includes a  
+number of subdirectories, each of which contains one or more files with       
+relevant explanations. One of the subdirectories, called EPHEM, provides the  
+comet's geocentric ephemeris (equinox and mean equator 1950.0) for midnight   
+Universal Time of each day, covering the interval of observations. In the     
+printed version of the Archive the reduced observations are integrated        
+chronologically by date and by network for each date. The ephemeris is in this
+version listed with the observations for each date, preceding the data of the 
+first network that was active.                                                
+                                                                              
+          The digital Archive is written in the Flexible Image Transport      
+System (FITS) format (Wells, Greisen, and Harten, Astron. Astrophys. Suppl.   
+Ser. 44, 363-370, 1981; Greisen and Harten, Astron. Astrophys. Suppl. Ser. 44,
+371-374, 1981; Grosbol, Harten, Greisen, and Wells, Astron. Astrophys. Suppl. 
+Ser. 73, 359-364, 1988; Harten, Grosbol, Greisen, and Wells, Astron.          
+Astrophys. Suppl. Ser. 73, 365-372, 1988). The data appear either as part of  
+FITS headers or in FITS data records or in table extensions. The FITS         
+headers consist of keywords, some of which are mandatory (dictated by use of  
+the FITS format or stipulated by IHW), while others were selected, as         
+needed, by the Discipline Specialist Team and apply only to specific          
+networks. With the exception of the digitized images supplied by the          
+Large-Scale Phenomena Network, the data are combined into a number of         
+subdirectories. The large-scale images appear both uncompressed and           
+compressed and they are included in separate subdirectories. The digital      
+Archive is also accompanied by three types of indices: quick-look, printed-   
+archive, and network-specific (see subdirectories DOCUMENT and INDEX for      
+additional information).                                                      
+                                                                              
+          The evaluation of submitted observations and their selection for the
+Archive has primarily been the responsibility of the Discipline Specialist    
+Teams in charge of the networks. To expound the process of evaluation,        
+reduction, and formatting of the database, each Discipline Specialist Team has
+provided network by network, an outline and a data-organization description   
+of both the digital and the printed versions of the Archive. This             
+documentation follows the Introduction. It is supplied to facilitate the      
+user's orientation in the Archive and to furnish information on the reduction 
+procedures employed to obtain the archived results from the measured data.    
+Table I of each network's section lists the names, affiliations, and          
+responsibilities of the members of the Discipline Specialist Team.            
+                                                                              
+          Appended to the descriptive section of the Archive is a table of the
+observatories and instruments, the 8-digit system codes, and the geographic   
+coordinates; and a table of country codes. The observatories with and without 
+the IAU assigned codes are listed separately. The countries are tabulated both
+alphabetically and by code. In addition, the printed version of the Archive   
+displays histograms of the distributions of each network's observations.      
+                                                                              
+          This Archive is a result of major efforts on the part of a large    
+number of individuals, from the observers to the Discipline Specialist Teams  
+to the personnel of the two Lead Centers. The user has in his hands           
+information that in the absence of this Archive would either remain           
+unpublished or would have to be acquired through a time-consuming search in   
+the literature. We therefore consider it fair to request the users that       
+this document be acknowledged in the references of any of their publications  
+that employ the data presented here.                                          
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                            Zdenek Sekanina                   
+                                            Editor                            
+                                            Jet Propulsion Laboratory         
+                                            California Institute of Technology
+                                            4800 Oak Grove Drive              
+                                            Pasadena, California 91109        
+                                            U.S.A.                            
+                                                                              
+                                                                              
+                                                                              
+Pasadena, March 1989                                                          
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              

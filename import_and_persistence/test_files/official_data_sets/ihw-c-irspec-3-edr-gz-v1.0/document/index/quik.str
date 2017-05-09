@@ -1,0 +1,17 @@
+"DATE_OBS","C", 8,0                                                           
+"TIME_OBS","N", 7,5                                                           
+"FILE_NUM","N", 6,0                                                           
+"OBJECT  ","C",18,0                                                           
+"LONG_OBS","C", 9,0                                                           
+"LAT__OBS","C", 9,0                                                           
+"SYSTEM  ","C", 8,0                                                           
+"OBSERVER","C",24,0                                                           
+"DAT_TYPE","C", 8,0                                                           
+"SPEC_EVT","C", 1,0                                                           
+"BITPIX  ","N", 2,0                                                           
+"NAXIS   ","N", 2,0                                                           
+"NAXIS1  ","N", 4,0                                                           
+"NAXIS2  ","N", 4,0                                                           
+"NAXIS3  ","N", 4,0                                                           
+"PATHNAME","C",44,0                                                           
+"FILE_EXT","C", 4,0                                                           

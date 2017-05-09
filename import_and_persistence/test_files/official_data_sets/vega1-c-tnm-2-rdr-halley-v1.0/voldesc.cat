@@ -1,0 +1,42 @@
+PDS_VERSION_ID               = PDS3                                           
+                                                                              
+OBJECT                       = VOLUME                                         
+  VOLUME_SERIES_NAME           = "INTERNATIONAL HALLEY WATCH"                 
+  VOLUME_SET_NAME              = "COMET HALLEY ARCHIVE"                       
+  VOLUME_SET_ID                = "USA_NASA_IHW_IHWORG_00XX"                   
+  VOLUMES                      = 1                                            
+  VOLUME_NAME   = "VEGA1 TUNDE-M DATA FOR COMET 1P/HALLEY"                    
+  VOLUME_ID                    = IHWORG_0054                                  
+  VOLUME_VERSION_ID            = "VERSION 1"                                  
+  VOLUME_FORMAT                = "ISO-9660_LEVEL2"                            
+  MEDIUM_TYPE                  = "ELECTRONIC"                                 
+  DATA_SET_ID                  = "VEGA1-C-TNM-2-RDR-HALLEY-V1.0"              
+  PUBLICATION_DATE             = 2011-06                                      
+  DESCRIPTION                  = "                                            
+  Data extracted from the HAL_0026 volume, reorganized into single            
+  data set volumes but otherwise untouched.  Directories common               
+  to all the original data sets are included here as appropriate.             
+                                                                              
+  The DATA_PRODUCER listed below prepared the reorganized volumes.            
+  "                                                                           
+                                                                              
+  OBJECT                       = DATA_PRODUCER                                
+   FULL_NAME                   = "ANNE RAUGH"                                 
+   INSTITUTION_NAME            = "UNIVERSITY OF MARYLAND"                     
+   FACILITY_NAME               = "PDS SMALL BODIES NODE"                      
+   ADDRESS_TEXT                = "DEPARTMENT OF ASTROMONY                     
+                                  UNIVERSITY OF MARYLAND                      
+                                  COLLEGE PARK, MD 20742-2421 USA"            
+  END_OBJECT                   = DATA_PRODUCER                                
+                                                                              
+  OBJECT                       = CATALOG                                      
+    ^MISSION_CATALOG           = "VEGA1_MISSION.CAT"                          
+    ^INSTRUMENT_HOST_CATALOG   = "VEGA1.CAT"                                  
+    ^INSTRUMENT_CATALOG        = "TNM.CAT"                                    
+    ^DATA_SET_CATALOG          = "DATASET.CAT"                                
+    ^REFERENCE_CATALOG         = "REFERENCE.CAT"                              
+  END_OBJECT                   = CATALOG                                      
+                                                                              
+END_OBJECT                   = VOLUME                                         
+                                                                              
+END                                                                           

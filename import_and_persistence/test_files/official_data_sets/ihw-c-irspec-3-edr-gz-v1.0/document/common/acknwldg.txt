@@ -1,0 +1,48 @@
+***** File ACKNWLDG.TXT                                                       
+                                                                              
+This compact disc (CD-ROM) of IHW data on comet P/Giacobini-Zinner is the     
+result of the dedicated efforts of many individuals and institutions.  Thanks 
+go, perhaps most obviously, to the astronomers around the world who "joined"  
+the IHW and who contributed their data, much of it in advance of publication. 
+                                                                              
+The list of such contributors is much too large to provide here, and in any   
+case would duplicate observer/institution information provided in various     
+indices and FITS headers already contained on the disc.  Nonetheless, as a    
+group, it is a pleasure to thank the IHW observers here.                      
+                                                                              
+The archiving steps following the submission of data by the various IHW       
+Discipline Specialists to the (IHW) Lead Center, and preceding the mastering  
+of the total dataset for deposit on CD-ROM, are what are collectively known   
+as either "CD-ROM data preparation" or, in IHW parlance, "Lead Center Work".  
+Whichever of these terms one cares to use, the following individuals worked   
+long and diligently to produce this disc, and it is fitting to cite them here:
+                                                                              
+                    M. Aronsson (JPL)                                         
+                    E. Grayzeck (UNIV OF MARYLAND AND NASA/GSFC)              
+                    D. Klinglesmith (NASA/GSFC)                               
+                    A. Warnock (NASA/GSFC)                                    
+                                                                              
+The support of the National Space Science Data Center (NSSDC) at NASA/GSFC is 
+gratefully acknowledged, in particular that rendered by J. King.  It was at   
+the NSSDC's CD-ROM premastering workstation that this disc was assembled,     
+and it was Dr. King who gave his assent to much of our work at NSSDC.         
+                                                                              
+We thank the management of the NASA/GSFC Laboratory for Astronomy and Solar   
+Physics (LASP) for allowing the use of generous amounts of magnetic disk space
+as a "staging area" for (final) file transfer to the NSSDC premastering       
+workstation.  Special thanks go to LASP's E. Sullivan, whose voice was        
+instrumental in making these arrangements.                                    
+                                                                              
+The undersigned would like to make special mention of C. Tart, the procurement
+officer at NASA/GSFC who worked extremely diligently in the contract selection
+exercise for IHW CD-ROM mastering services.                                   
+                                                                              
+                                                                              
+                                                                              
+Malcolm B. Niedner, Jr.                                                       
+IHW Discipline Specialist for                                                 
+   Large-Scale Phenomena                                                      
+NASA/Goddard Space Flight Center                                              
+                                                                              
+February 11, 1991                                                             
+                                                                              

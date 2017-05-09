@@ -1,0 +1,70 @@
+***** File HDRFORM.TXT                                                        
+                                                                              
+                         FITS Header Descriptions                             
+                                                                              
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual disciplines to the Lead       
+Center using the FITS format.  When the decision was made to distribute       
+this information on CD-ROM, it was determined that the data had to have       
+even broader accessibility.  For this reason, the original FITS files,        
+with contiguous headers and data, were split into separate files. The         
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.   PDS labels were constructed to allow     
+definition of the data files for the Planetary Data System.   For each        
+original data input there must always be a file indicating a FITS header.     
+                                                                              
+     The convention for naming files on the CD-ROM was proposed by the        
+IHW Lead Center to include a unique data qualifier for the data.   A          
+specific set of rules was established to identify the net and subnet for      
+each discipline (given by a letter code).  A CD-ROM running number relates    
+the information contained in the various indices to the files containing      
+the actual data.  A short list of this convention by discipline and           
+subnet (or experiment) is given below:                                        
+                                                                              
+  PDS Object              FITS   Discipline         Subnet    File Ext        
+ (description)         NAXIS =                       Code                     
+                                                                              
+text                       1     Astrometry        ASTR        .hdr           
+fits_label (no data)       0     IR Stduies        IRIM        .hdr           
+table (filter)             0,2   IR    "           IRFT        .hdr           
+table(photometry)          0,2   IR    "           IRPH        .hdr           
+table(polarimetry)         0,2   IR    "           IRPOL       .hdr           
+spectrum                   2     IR    "           IRSP        .hdr           
+image                      2     IR    "           IRIM        .hdr           
+fits_label (no data)       0     Large Scale Phen  LSPN        .hdr           
+image(compressed)          1     Large     "       LSPN        .hdr           
+image(browse)              2     Large     "       LSPN        .hdr           
+image                      2     Near Nucleus      NNSN        .hdr           
+table (broad band)         0,2   Photometry Polar  PMAG        .hdr           
+table (narrow band)        0,2       "             PFLX        .hdr           
+table (polarization)       0,2       "             PPOL        .hdr           
+fits_label (no data)       0     Radio Studies     RSCN,SL     .hdr           
+spectrum                   1         "             RSOH        .hdr           
+spectrum(multiple)         2         "             RSOH        .hdr           
+image(multiple)            3         "             RSOC        .hdr           
+spectrum                   1     Spectroscopy      SPEC        .hdr           
+image                      2         "             SPEC        .hdr           
+fits_label (no data)       0     Amateur           AMDR,PG     .hdr           
+table (magnitude)          0,2       "             AMV         .hdr           
+                                                                              
+Note that the Subnet coding (explained in the Filenaming Conventions)         
+is one way to distinguish file extension and content.                         
+                                                                              
+     The file extensions follow suggestions by the Planetary Data System      
+(SPIDS v1.1) for tabular and image data.    In addition, for IHW FITS, the    
+original headers and data were split into separate files, with filename       
+extensions as listed below.                                                   
+                                                                              
+                 .HDR - FITS header records                                   
+                                                                              
+     We have conformed with the PDS definition of a specific keyword to       
+indicate the presence of a FITS header (the keyword TYPE = FITS) when the     
+"data" object is a foreign label (FITS_LABEL).   In FITS, if NAXIS=0,         
+then no data records need follow, as in the case of an upper limit.   The     
+"dataless" headers can be recognized by the NAXIS value or the IHW keyword    
+DAT-FORM = NODATA in the FITS HEADER.   The PDS label (with same filename     
+but differring extension) points at the HEADER file as its data object.       
+As shown in the above table, the "dataless" header can occur for different    
+types of data: images (LSPNNNN or IRIMNNNN), and spectra which can be ordered 
+groups (IRSPNNNN) or multiple spectra (RSSLNNNN).                             

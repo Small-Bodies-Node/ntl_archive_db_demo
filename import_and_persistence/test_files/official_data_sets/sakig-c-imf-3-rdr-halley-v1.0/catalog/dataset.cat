@@ -1,0 +1,79 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "NULL"                                    
+                                                                              
+OBJECT                            = DATA_SET                                  
+  DATA_SET_ID                     = "SAKIG-C-IMF-3-RDR-HALLEY-V1.0"           
+                                                                              
+  OBJECT                          = DATA_SET_INFORMATION                      
+    DATA_SET_NAME                 = "SAKIGAKE INTERPLANETARY MAGNETIC FIELD   
+                                      DATA V 1.0"                             
+    DATA_SET_COLLECTION_MEMBER_FLG= "Y"                                       
+    ARCHIVE_STATUS                = "ARCHIVED"                                
+    DATA_OBJECT_TYPE              = "TABLE"                                   
+    START_TIME                    = 1986-03-10T19:40:17.000                   
+    STOP_TIME                     = 1986-03-13T02:41:43.000                   
+    DATA_SET_RELEASE_DATE         = UNK                                       
+    PRODUCER_FULL_NAME            = "INTERNATIONAL HALLEY WATCH"              
+    DETAILED_CATALOG_FLAG         = "N"                                       
+    DATA_SET_TERSE_DESC           = "Sakigake satellite magnetic field data   
+                                      from the encounter with 1P/Halley"      
+    ABSTRACT_DESC                 = "                                         
+The original Data Set Name was MST5IMF.  The data was delivered               
+personally by Oyama.  The component values indicate a crossing of             
+the neutral sheet.  The magnetic field is defined in terms of solar           
+ecliptic coordinates with spacecraft at the center and the x direction        
+positive towards the Sun, the y direction in the ecliptic plane,              
+and the z direction given by a left handed coordinate system.  A              
+total force value is also given."                                             
+                                                                              
+    CITATION_DESC                 = "                                         
+Oyama K. I., SAKIGAKE INTERPLANETARY MAGNETIC FIELD DATA V 1.0,               
+SAKIG-C-IMF-3-RDR-HALLEY-V1.0, NASA Planetary Data System, 1995"              
+                                                                              
+    DATA_SET_DESC                 = "                                         
+                                                                              
+Data Set Overview                                                             
+=================                                                             
+                                                                              
+    The original Data Set Name was MST5IMF.  The data was                     
+    delivered personally by Oyama.  The component values                      
+    indicate a crossing of the neutral sheet.  The                            
+    magnetic field is defined in terms of solar ecliptic                      
+    coordinates with spacecraft at the center and the x                       
+    direction positive towards the Sun, the y direction                       
+    in the ecliptic plane, and the z direction given by a                     
+    left handed coordinate system.  A total force value                       
+    is also given."                                                           
+                                                                              
+    CONFIDENCE_LEVEL_NOTE         = "                                         
+                                                                              
+    Confidence Level Note                                                     
+    =====================                                                     
+                                                                              
+    N/A"                                                                      
+                                                                              
+  END_OBJECT                      = DATA_SET_INFORMATION                      
+                                                                              
+  OBJECT                          = DATA_SET_TARGET                           
+    TARGET_NAME                   = "HALLEY"                                  
+  END_OBJECT                      = DATA_SET_TARGET                           
+                                                                              
+  OBJECT                          = DATA_SET_MISSION                          
+    MISSION_NAME                  = "SAKIGAKE"                                
+  END_OBJECT                      = DATA_SET_MISSION                          
+                                                                              
+  OBJECT                          = DATA_SET_HOST                             
+    INSTRUMENT_HOST_ID            = "SAKIG"                                   
+    INSTRUMENT_ID                 = "IMF"                                     
+  END_OBJECT                      = DATA_SET_HOST                             
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "ESA-SP1066"                              
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "NATURE321"                               
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+END_OBJECT                        = DATA_SET                                  
+END                                                                           

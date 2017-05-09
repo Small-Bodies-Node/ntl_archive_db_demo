@@ -1,0 +1,1037 @@
+                              ASTROMETRY NETWORK                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+        A total of 1300 astrometric observations of comet Giacobini-Zinner that                                                   
+cover the interval from January 28, 1984 through March 31, 1987, were reported                                                    
+to the Astrometry Network of the International Halley Watch.  These observations                                                  
+resulted from efforts by 199 observers working at 81 observatories throughout                                                     
+the world.  Lists of the participating observers and observatories are given in                                                   
+Sec. IV.  Astrometric observations were received at the Astrometry data pro-                                                      
+cessing center at the Jet Propulsion Laboratory, California Institute of Techno-                                                  
+logy, either directly from the observers or from B.G. Marsden and D.W.E. Green                                                    
+of the Minor Planet Center at the Harvard-Smithsonian Center for Astrophysics,                                                    
+who were unfailing in their efforts to relay the data expeditiously.  At JPL,                                                     
+the data were received, verified, and added to the master data file. Observa-                                                     
+tions with orbit residuals smaller than three standard deviations (3-sigma) of                                                    
+the root mean square (RMS) residual were given an accept code (A) and employed                                                    
+in the weighted least squares differential correction procedure that was used                                                     
+to update the comet's existing orbit.  Data with residuals greater than 3-sigma                                                   
+were given a delete code (D) and, if they retained this code during subsequent                                                    
+orbital updates, they were not included in these updates.  Data with residuals                                                    
+exceeding 10 arcsec were not included in the master data file.  Once verified,                                                    
+the data were put into the proper format (Sec. II) and added to the master data                                                   
+file.  Observations were also sent to the Center for Astrophysics if they had                                                     
+not been relayed to us from there.  Updated orbital information was sent elec-                                                    
+tronically to the NASA-Goddard Space Flight Center so that it could be used in                                                    
+the navigation of the International Cometary Explorer (ICE) spacecraft that flew                                                  
+through the tail of comet Giacobini-Zinner on September 11, 1985.  The members                                                    
+of the Discipline Specialist Team of the Astrometry Network are listed in Table                                                   
+I.  Modern techniques and  procedures for making and reducing astrometric obser-                                                  
+vations are described in the reference.                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Astrometry Network                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member           Affiliation                          Responsibility                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Donald K. Yeomans     Systems Division                     Discipline Specialist                                                  
+                      Jet Propulsion Laboratory                                                                                   
+                      California Institute of Technology                                                                          
+                      Pasadena, CA 91109                                                                                          
+                      U.S.A.                                                                                                      
+                                                                                                                                  
+Richard M. West       European Southern Observatory        Discipline Specialist                                                  
+                      D-8046 Garching bei Munchen                                                                                 
+                      Federal Republic of Germany                                                                                 
+                                                                                                                                  
+Robert S. Harrington  U.S. Naval Observatory               Discipline Specialist                                                  
+                      Washington, DC 20392                                                                                        
+                      U.S.A.                                                                                                      
+                                                                                                                                  
+Brian G. Marsden      Harvard-Smithsonian Center           Discipline Specialist                                                  
+                        for Astrophysics                                                                                          
+                      Cambridge, MA 02138                                                                                         
+                      U.S.A.                                                                                                      
+                                                                                                                                  
+Paul W. Chodas        Systems Division                     Computer Software                                                      
+                      Jet Propulsion Laboratory              Assistant                                                            
+                                                                                                                                  
+Michael S. Keesey     Systems Division                     Data Reduction                                                         
+                      Jet Propulsion Laboratory              Assistant                                                            
+                                                                                                                                  
+Ravenel N. Wimberly   Systems Division                     Communications                                                         
+                      Jet Propulsion Laboratory              Assistant                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+II. FITS HEADER DESCRIPTION AND DATA RECORD FORMAT                                                                                
+                                                                                                                                  
+        Once complete, the comet Giacobini-Zinner master data file was written                                                    
+onto a tape using the FITS format in which each observation is represented by                                                     
+one file that includes header information followed by the data themselves.  A                                                     
+hypothetical header record is used as an example in Table II below.                                                               
+                                                                                                                                  
+                                                                                                                                  
+Table II.  Header Keyword Information                                                                                             
+__________________________________________                                                                                        
+                                                                                                                                  
+Keyword and Its Content                                                                                                           
+__________________________________________                                                                                        
+                                                                                                                                  
+SIMPLE  =                    T                                                                                                    
+BITPIX  =                    8                                                                                                    
+NAXIS   =                    1                                                                                                    
+NAXIS1  =                 2880                                                                                                    
+OBJECT  = 'P/GIACOBINI-ZINNER'                                                                                                    
+FILE-NUM=               102008                                                                                                    
+DATE-OBS= '21/ 7/84'                                                                                                              
+TIME-OBS=              0.02708                                                                                                    
+DATE-REL= '26/ 9/88'                                                                                                              
+DISCIPLN= 'ASTROMETRY'                                                                                                            
+LONG-OBS= '289/11/23'                                                                                                             
+LAT--OBS= '-30/09/43'                                                                                                             
+SYSTEM  = '18070000'                                                                                                              
+OBSERVER= 'CLARKE,J.T/ET AL.'                                                                                                     
+SUBMITTR= 'WIMBERLY,R.N'                                                                                                          
+SPEC-EVT=                    F                                                                                                    
+DAT-FORM= 'ASCII   '                                                                                                              
+COMMENT  ADD. OBS.:    BRODIE,J/MCCARTHY,P                                                                                        
+COMMENT  NOTES: VERY FAINT IMAGE                                                                                                  
+END                                                                                                                               
+__________________________________________                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+        The header key words SIMPLE, BITPIX, NAXIS, NAXIS1, OBJECT, DISCIPLN,                                                     
+SUBMITTR, SPEC-EVT, and DAT-FORM do not change from record to record for the                                                      
+Astrometry Network data.  SIMPLE is a logical type (L) and conforms to basic                                                      
+FITS standards.  BITPIX, NAXIS, NAXIS1 are integers (I) denoting, respectively,                                                   
+the number of bits per pixel in the data record, the number of axes in the data                                                   
+record and the number of pixels in the first axis row.  OBJECT is a character                                                     
+field (C) giving the name of the object.  FILE-NUM (I) begins with the integer                                                    
+1 that identifies the Astrometry Network.  The following five digits represent                                                    
+a unique sequential number used to identify the file.  DATE-OBS (C) and TIME-OBS                                                  
+(real variable) give, respectively, the UT date (dd/mm/yy) and decimal fraction                                                   
+of a day.  DATE-REL (C) is the date when the data were released to the IHW Lead                                                   
+Center and DISCIPLN (C) denotes the IHW discipline reporting the data.                                                            
+                                                                                                                                  
+        LONG-OBS and LAT--OBS give the east longitude (ddd/mm/ss) of the obser-                                                   
+vatory and its geographic (geodetic) latitude (sdd/mm/ss).  When the geographic                                                   
+latitude was not available, we computed it from the parallax factors listed in                                                    
+each of our observation records. However, the parallax factors carry only enough                                                  
+significant figures to allow the geographic latitude to be computed to a few                                                      
+arcmin so that, in this case, we have rounded off the latitude to the nearest                                                     
+arcmin and placed zeros in the arcsec location.                                                                                   
+                                                                                                                                  
+        SYSTEM (C) is the system code in which the leading digit (1) identifies                                                   
+the Astrometry Network and the following three digits are a unique code for the                                                   
+reporting observatory (see Table V).  The trailing four digits are zeroes for                                                     
+the Astrometry Network.  OBSERVER (C) gives the name(s) of the observer(s), last                                                  
+name first followed by the initial(s) of their first (and middle) name(s) (see                                                    
+Tables V and VI).  The observers are separated by a slash (/), whereas ET AL.                                                     
+indicates that additional observers (ADD. OBS.) are listed after the COMMENT                                                      
+keyword.  Problems with the observation or data reduction process also are iden-                                                  
+tified after a COMMENT keyword.  SUBMITTR (C) is R.N. Wimberly as the person                                                      
+who prepared the original data archive tape and submitted it to the IHW Lead                                                      
+Center at JPL.  The SPEC-EVT (L) keyword is not used in the Astrometry Network.                                                   
+DAT-FORM (C) describes the format of the FITS data record which, for Astrometry,                                                  
+is to be interpreted as logical records of 80 ASCII characters.                                                                   
+                                                                                                                                  
+        Following each FITS header record, there are five rows for each astro-                                                    
+metric position reported.  The first line lists the time (Julian date in ephem-                                                   
+eris time) of the observation and the reported right ascension (hr, min, s) and                                                   
+the declination (deg, arcmin, arcsec).  The first character of the second line                                                    
+is either an A or D, indicating whether the observation was accepted for, or                                                      
+deleted from, the final orbit solution.  The second column of the second line                                                     
+contains either a blank or a code indicating the image quality. This code--C, D,                                                  
+S, and T--specifies whether the image is centrally condensed, diffuse, stellar,                                                   
+or trailed.  An X code indicates that the observation is semi-accurate.  The                                                      
+quality code is followed by the reported observation time (calendar date, UTC),                                                   
+by the ET-UTC correction in tenths of a second (see Table VII), and by the right                                                  
+ascension and declination that are corrected for the small effects of elliptic                                                    
+aberration. The right ascension and declination are referred to the mean equator                                                  
+and equinox of 1950.0.  Next on the second line is the observatory code (see                                                      
+Table V) followed by the observatory's east longitude (deg) and by the parallax                                                   
+factors used to convert the computed geocentric positions to the topocentric                                                      
+observed positions.  The last two entries on the second line are the 1-sigma                                                      
+standard deviations of the measurement noise (arcsec) for the right ascension                                                     
+and declination; these values are used to form weights in the orbit determina-                                                    
+tion process.  The third line in the data record contains the name(s) of the                                                      
+observer(s), the name of the observatory, and the reported values for the total                                                   
+and nuclear magnitudes.  When no magnitude was reported, a value of 99.0 fills                                                    
+this field.  The fourth line in the data record begins with a reference which                                                     
+specifies how, or from whom, the data were obtained.  The remainder of line four                                                  
+and all of line five contain further information on the observation, including                                                    
+any problems encountered, as well as additional observers involved whose names                                                    
+were not listed on line three.  An example in Table III illustrates the five-                                                     
+line Astrometry format, which is described in Table IV.                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table III.  Example of Astrometry Data Record                                                                                     
+__________________________________________________________________________                                                        
+                                                                                                                                  
+2445902.52771        135731.56+ 44348.1                                                                                           
+AS1984 721.02708 542 135731.57+ 44348.2 807 289.19-369 213    1.0    1.0                                                          
+  CLARKE,J.T ET AL.        CERRO TOLOLO OBSERVATORY, LA SERENA  99.00 23.0                                                        
+  LETTER DATED 9/13/84, IAUC 3979, 4M, CCD, REDUCED W/R TO AGK3 STARS                                                             
+  ADDITIONAL OBSERVERS: BRODIE,J/MCCARTHY,P ;!VERY FAINT IMAGE!                                                                   
+__________________________________________________________________________                                                        
+                                                                                                                                  
+                                                                                                                                  
+Table IV.  Five-line Astrometry format                                                                                            
+________________________________________________________________________                                                          
+                                                                                                                                  
+Columns   Description                                                                                                             
+________________________________________________________________________                                                          
+                                                                                                                                  
+Line 1:                                                                                                                           
+                                                                                                                                  
+  1-13    Julian ephemeris day: xxxxxxx.xxxxx (Field length = 13, number                                                          
+            of decimal places = 5)                                                                                                
+ 14-21    Blank                                                                                                                   
+ 22-30    Right ascension (hr, min, s), hhmmss.ss                                                                                 
+ 31-39    Declination (sign, deg, arcmin, arcsec), sddmmss.s                                                                      
+                                                                                                                                  
+Line 2:                                                                                                                           
+                                                                                                                                  
+  1       Accept code (A for accept, or D for delete)                                                                             
+  2       Image quality code                                                                                                      
+  3-16    UTC time of observation, yyyymmdd.ddddd                                                                                 
+ 17       Blank                                                                                                                   
+ 18-20    ET-UTC, nnn (542 = 54.2 s)                                                                                              
+ 21       Blank                                                                                                                   
+ 22-30    Right ascension, hhmmss.ss                                                                                              
+ 31-39    Declination, sddmmss.s                                                                                                  
+ 40       Blank                                                                                                                   
+ 41-43    Observatory code, nnn                                                                                                   
+ 44       Blank                                                                                                                   
+ 45-50    East longitude of observatory, ddd.dd                                                                                   
+ 51-58    Observatory parallax factors delta(xy) and deltaZ, snnnsnnn (cf. Note)                                                  
+ 59       Blank                                                                                                                   
+ 60-65    Right ascension data RMS in arcsec, ssss.s                                                                              
+ 66       Blank                                                                                                                   
+ 67-72    Declination data RMS in arcsec, ssss.s                                                                                  
+                                                                                                                                  
+Line 3:                                                                                                                           
+                                                                                                                                  
+  1- 2    Blank                                                                                                                   
+  3-26    Name(s) of observer(s)                                                                                                  
+ 27       Blank                                                                                                                   
+ 28-63    Name of observatory                                                                                                     
+ 64       Blank                                                                                                                   
+ 65-69    Total visual magnitude estimate, xx.xx                                                                                  
+ 70       Blank                                                                                                                   
+ 71-74    Nuclear magnitude estimate, xx.x                                                                                        
+                                                                                                                                  
+Lines 4 and 5:                                                                                                                    
+                                                                                                                                  
+  1- 2    Blank                                                                                                                   
+  3-80    Supplemental information, character field of width 78                                                                   
+________________________________________________________________________                                                          
+                                                                                                                                  
+Note: The parallax factors listed on line 2 are denoted delta(xy) and deltaZ and                                                  
+are used to transform the Earth-Sun vector from a geocentric origin to one that                                                   
+is topocentric:                                                                                                                   
+                                                                                                                                  
+        delta(xy) = -426.35E-07 * RHO * cos(LAT),                                                                                 
+        deltaZ = -426.35E-07 * RHO * sin(LAT),                                                                                    
+                                                                                                                                  
+where 426.35E-07 is the Earth's mean equatorial radius in AU, RHO the geocentric                                                  
+distance of the observatory in units of mean equatorial radii, and LAT the geo-                                                   
+centric latitude of the observatory.                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+III. PRINTED ARCHIVE                                                                                                              
+                                                                                                                                  
+          Contained in the printed version of the G-Z archive is a one-line sum-                                                  
+mary for each of the observations.  Its format is described in Table V.                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table V.  Entries in the Printed Archive                                                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Heading             Description                                                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date(UT)            Date (day & fraction of day) of middle of observation                                                         
+AN#                 Astrometry Network number--a unique number for each observa-                                                  
+                      tion.  (The lead digit 1 indicates that the Discipline is                                                   
+                      Astrometry)                                                                                                 
+RA (1950.0) Dec     Right ascension and declination corrected for the small                                                       
+                      effects of elliptical aberration (referred to the mean                                                      
+                      equator and equinox of 1950.0)                                                                              
+m1                  Total magnitude                                                                                               
+m2                  Nuclear magnitude                                                                                             
+System              Observing System Code                                                                                         
+Observer(s)         Name(s) of the observer(s)                                                                                    
+Notes               Note reference(s)                                                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+IV. OBSERVERS AND OBSERVATORIES PROVIDING ASTROMETRIC OBSERVATIONS                                                                
+                                                                                                                                  
+        Observatories that provided astrometric data for comet Giacobini-Zinner                                                   
+are listed in Table VI.  Following the numeric code number of each observatory                                                    
+is its name and the total number of observations received.  Under each observa-                                                   
+tory name is an alphabetical list of the observers and the total number of ob-                                                    
+servations in which they participated.  In Table VII the observers are listed in                                                  
+alphabetical order followed by the codes of the relevant observatories and by                                                     
+the total number of observations they made.  Differences between the ephemeris                                                    
+time (ET) and the UTC time applied to the observations of comet Giacobini-Zinner                                                  
+are presented in Table VIII. The first column shows the date on which the ET-UTC                                                  
+differences changed values by +1 s.                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+Table VI.  Observer List by Observatory                                                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Observatory                                    Total Number of Observations Made                                                  
+   Code       Observatory and Observers        ---------------------------------                                                  
+                                                 At Observatory    By Observer                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+     6        Fabra Observatory                        46                                                                         
+              Barcelona, Spain                                                                                                    
+                                                                                                                                  
+                  Codina, J.M.                                          37                                                        
+                  Nunez, J.                                             19                                                        
+                  Sanchez, F.                                            1                                                        
+                  Torras, N.                                            11                                                        
+                                                                                                                                  
+    12        Uccle Observatory                         1                                                                         
+              Uccle, Brussels, Belgium                                                                                            
+                                                                                                                                  
+                  Debehogne, H.                                          1                                                        
+                  Pauwels, T.                                            1                                                        
+                                                                                                                                  
+    17        Hoher List Observatory                   21                                                                         
+              Hoher List, Federal Republic of                                                                                     
+                Germany                                                                                                           
+                                                                                                                                  
+                  Decker, F.                                            21                                                        
+                  Geffert, M.                                           21                                                        
+                  Sterken, C.                                           21                                                        
+                                                                                                                                  
+    22        Pino Torinese                            24                                                                         
+              Torino, Italy                                                                                                       
+                                                                                                                                  
+                  Ferreri, W.                                           10                                                        
+                  Massone, G.                                           22                                                        
+                                                                                                                                  
+    24        State Observatory at Konigstuhl           4                                                                         
+              Heidelberg, Federal Republic of                                                                                     
+                Germany                                                                                                           
+                                                                                                                                  
+                  Bastian, U.                                            4                                                        
+                  Gorze, U.                                              4                                                        
+                  Klare, G.                                              2                                                        
+                  Mandel, H.                                             4                                                        
+                  Roser, S.                                              4                                                        
+                                                                                                                                  
+    26        Berne-Zimmerwald                         12                                                                         
+              Berne, Switzerland                                                                                                  
+                                                                                                                                  
+                  Wild, P.                                              12                                                        
+                                                                                                                                  
+    43        Asiago Astrophysical Observatory          7                                                                         
+              Padua, Italy                                                                                                        
+                                                                                                                                  
+                  Barbieri, C.                                           7                                                        
+                  Kranjc, A.                                             7                                                        
+                  Scardia, M.                                            7                                                        
+                                                                                                                                  
+    46        Klet Observatory                         78                                                                         
+              Ceske Budejovice, Czechoslovakia                                                                                    
+                                                                                                                                  
+                  Mrkos, A.                                             78                                                        
+                  Vavrova, Z.                                           72                                                        
+                                                                                                                                  
+    49        Uppsala-Kvistaberg                        2                                                                         
+              Uppsala, Sweden                                                                                                     
+                                                                                                                                  
+                  Lagerkvist, C.I.                                       2                                                        
+                  Oja, T.                                                2                                                        
+                                                                                                                                  
+    51        Cape of Good Hope, South Africa           2                                                                         
+                                                                                                                                  
+                  Churms, J.                                             2                                                        
+                                                                                                                                  
+    56        Skalnate Pleso Observatory               62                                                                         
+              Skalnate Pleso, Czechoslovakia                                                                                      
+                                                                                                                                  
+                  Cervak, G.                                            31                                                        
+                  Kornos, L.                                            11                                                        
+                  Rychtarcik, P.                                        53                                                        
+                  Svoren, J.                                             3                                                        
+                                                                                                                                  
+    57        Belgrade, Yugoslavia                      7                                                                         
+                                                                                                                                  
+                  Olevic, D.                                             1                                                        
+                  Protitch-Benishek, V.                                  6                                                        
+                                                                                                                                  
+    61        Uzhgorod, U.S.S.R.                       36                                                                         
+                                                                                                                                  
+                  Goroshchak, I.I.                                      36                                                        
+                                                                                                                                  
+    63        Turku-Tuorla, Finland                     5                                                                         
+                                                                                                                                  
+                  Haarala, S.                                            5                                                        
+                  Lappalainen, T.                                        5                                                        
+                  Niemi, A.                                              5                                                        
+                  Piironen, J.                                           5                                                        
+                  Sillanpaa, A.                                          5                                                        
+                                                                                                                                  
+    69        Baldone (near Riga), U.S.S.R.            20                                                                         
+                                                                                                                                  
+                  Alksnis, A.K.                                          4                                                        
+                  Eglitis, I.E.                                          2                                                        
+                  Ozolinya, V.                                          14                                                        
+                                                                                                                                  
+    71        Sofia, Bulgaria                          34                                                                         
+                                                                                                                                  
+                  Bonev, T.                                             16                                                        
+                  Geffert, M.                                            6                                                        
+                  Georgieva, A.                                         34                                                        
+                  Ivanova, V.                                           34                                                        
+                  Kirova, H.                                             2                                                        
+                  Radeva, V.                                            14                                                        
+                  Shkodrov, V.                                          28                                                        
+                                                                                                                                  
+    83        Central Astrophysical Observatory        11                                                                         
+              Golosseevo-Kiev, U.S.S.R.                                                                                           
+                                                                                                                                  
+                  Izhakevich, E.M.                                       5                                                        
+                  Kaltygina, S.                                          3                                                        
+                  Ledovskaya, I.                                         2                                                        
+                  Major, S.P.                                            1                                                        
+                  Sereda, E.                                             3                                                        
+                  Shatokhina, S.V.                                       1                                                        
+                                                                                                                                  
+    84        Pulkovo Observatory                      13                                                                         
+              Leningrad, U.S.S.R.                                                                                                 
+                                                                                                                                  
+                  Bronikova, N.M.                                        9                                                        
+                  Ipatova, I.A.                                          1                                                        
+                  Kiseleva, T.P.                                         1                                                        
+                  Koroleva, L.S.                                         8                                                        
+                  Narizhnaya, N.V.                                       6                                                        
+                  Nikiforov, I.I.                                        6                                                        
+                                                                                                                                  
+    85        Kiev University Observatory              21                                                                         
+              Kiev, U.S.S.R.                                                                                                      
+                                                                                                                                  
+                  Churyumov, K.                                         19                                                        
+                  Izhakevich, E.M.                                       2                                                        
+                  Sizonenko, Y.                                          2                                                        
+                  Smirnova, K.                                           7                                                        
+                                                                                                                                  
+    87        Helwan, Egypt                             2                                                                         
+                                                                                                                                  
+                  Bagus, B.B.                                            2                                                        
+                  Bakhtigaraev, N.S.                                     2                                                        
+                  El-Khilali, Y.                                         2                                                        
+                  Tovadrus, M.Y.                                         2                                                        
+                                                                                                                                  
+    94        Crimea-Simeis, U.S.S.R.                   6                                                                         
+                                                                                                                                  
+                  Fokanov, S.V.                                          6                                                        
+                  Merezhina, L.S.                                        6                                                        
+                  Shcherbanovskij, A.L.                                  6                                                        
+                                                                                                                                  
+    95        Crimea-Nauchnij, U.S.S.R.                26                                                                         
+                                                                                                                                  
+                  Chernykh, N.S.                                        20                                                        
+                  D'yakonova, V.D.                                       6                                                        
+                  Karachkina, L.G.                                       6                                                        
+                                                                                                                                  
+    96        Merate, Italy                            11                                                                         
+                                                                                                                                  
+                  Barbieri, C.                                          11                                                        
+                  Kranjc, A.                                            11                                                        
+                  Scardia, M.                                           11                                                        
+                                                                                                                                  
+    98        Cima Ekar, Asiago Astrophysical          11                                                                         
+                Observatory                                                                                                       
+              Padua, Italy                                                                                                        
+                                                                                                                                  
+                  Barbieri, C.                                          11                                                        
+                  Kranjc, A.                                            11                                                        
+                  Scardia, M.                                           11                                                        
+                                                                                                                                  
+   102        Zvenigorod, U.S.S.R.                     32                                                                         
+                                                                                                                                  
+                  Lyukhanov, K.B.                                       32                                                        
+                  Osipenko, V.P.                                        32                                                        
+                  Rusin, Y.V.                                           32                                                        
+                  Yurevich, V.A.                                        32                                                        
+                                                                                                                                  
+   114        Engelhardt Observatory, Zelenchuk        32                                                                         
+                Station, U.S.S.R.                                                                                                 
+                                                                                                                                  
+                  Kitkin, V.N.                                          32                                                        
+                  Zelishchev, I.E.                                      32                                                        
+                  Zelishchev, I.G.                                      32                                                        
+                                                                                                                                  
+   129        Ordubad, U.S.S.R.                         1                                                                         
+                                                                                                                                  
+                  Kiseleva, T.P.                                         1                                                        
+                                                                                                                                  
+   168        Kourovskaya, U.S.S.R.                    20                                                                         
+                                                                                                                                  
+                  Tearo, A.R.                                           20                                                        
+                  Timofeyev, S.N.                                       20                                                        
+                                                                                                                                  
+   186        Kitab, U.S.S.R.                          83                                                                         
+                                                                                                                                  
+                  Mirmakhmudov, E.                                      47                                                        
+                  Pattakhov, E.                                         27                                                        
+                  Rakhmatov, E.                                         83                                                        
+                                                                                                                                  
+   190        Gissar, U.S.S.R.                         18                                                                         
+                                                                                                                                  
+                  Gerasimenko, S.I.                                     18                                                        
+                                                                                                                                  
+   191        Dushanbe, U.S.S.R.                        3                                                                         
+                                                                                                                                  
+                  Gerasimenko, S.I.                                      3                                                        
+                                                                                                                                  
+   293        Burlington (Remote Site),                 7                                                                         
+                New Jersey, U.S.A.                                                                                                
+                                                                                                                                  
+                  Handley, T.                                            7                                                        
+                                                                                                                                  
+   323        Perth Observatory, Bickley               34                                                                         
+              Western Australia, Australia                                                                                        
+                                                                                                                                  
+                  Candy, M.P.                                           15                                                        
+                  Jekabsons, P.                                         25                                                        
+                  John, A.                                              13                                                        
+                  Johnston, J.                                          11                                                        
+                  Kinnear, G.                                           26                                                        
+                                                                                                                                  
+   330        Purple Mountain Observatory              17                                                                         
+              Nanking, China                                                                                                      
+                                                                                                                                  
+                  Lu, J.H.                                               4                                                        
+                  Wang, D.C.                                             7                                                        
+                  Wang, Q.                                               5                                                        
+                  Wei, S.L.                                              9                                                        
+                  Yang, J.X.                                            11                                                        
+                                                                                                                                  
+   337        Zo-Se, China                              1                                                                         
+                                                                                                                                  
+                  Zhao, J.L.                                             1                                                        
+                                                                                                                                  
+   372        Geisei, Japan                             2                                                                         
+                                                                                                                                  
+                  Seki, T.                                               2                                                        
+                                                                                                                                  
+   376        Uenohara, Japan                           2                                                                         
+                                                                                                                                  
+                  Kawasato, N.                                           2                                                        
+                                                                                                                                  
+   381        Tokyo-Kiso, Japan                         2                                                                         
+                                                                                                                                  
+                  Kosai, H.                                              2                                                        
+                  Yamagata, T.                                           2                                                        
+                                                                                                                                  
+   391        Sendai Observatory, Ayashi Station       17                                                                         
+              Ayashi, Japan                                                                                                       
+                                                                                                                                  
+                  Hozono, K.                                            14                                                        
+                  Koishikawa, M.                                        17                                                        
+                  Kurosu, K.                                            14                                                        
+                  Sato, T.                                              14                                                        
+                                                                                                                                  
+   392        JCPM Sapporo Station                      5                                                                         
+              Sapporo, Japan                                                                                                      
+                                                                                                                                  
+                  Kaneda, H.                                             4                                                        
+                  Watanabe, K.                                           1                                                        
+                                                                                                                                  
+   397        Sapporo Science Center                   17                                                                         
+              Sapporo, Japan                                                                                                      
+                                                                                                                                  
+                  Watanabe, K.                                          17                                                        
+                                                                                                                                  
+   415        Kambah (near Canberra)                    2                                                                         
+              New South Wales, Australia                                                                                          
+                                                                                                                                  
+                  Herald, D.                                             2                                                        
+                                                                                                                                  
+   474        Mount John Observatory                   10                                                                         
+              Lake Tekapo, New Zealand                                                                                            
+                                                                                                                                  
+                  Gilmore, A.C.                                         10                                                        
+                                                                                                                                  
+   482        St. Andrews, Scotland,                    4                                                                         
+                United Kingdom                                                                                                    
+                                                                                                                                  
+                  Stapleton, J.R.                                        4                                                        
+                                                                                                                                  
+   490        Wimborne Minster, England,                2                                                                         
+                United Kingdom                                                                                                    
+                                                                                                                                  
+                  Swan, M.                                               2                                                        
+                                                                                                                                  
+   491        Centro Astronomico De Yebes              18                                                                         
+              Yebes, Spain                                                                                                        
+                                                                                                                                  
+                  Cabanas, C.                                           18                                                        
+                  De Pascual, M.                                        18                                                        
+                  Garcia, J.                                            18                                                        
+                  Martin-Pintado, J.                                     4                                                        
+                  Sanchez, F.                                           14                                                        
+                                                                                                                                  
+   493        Estacion Astronomica De Calar Alto        8                                                                         
+              Calar Alto, Spain                                                                                                   
+                                                                                                                                  
+                  Kohoutek, L.                                           8                                                        
+                                                                                                                                  
+   494        Stakenbridge, England,                   13                                                                         
+                United Kingdom                                                                                                    
+                                                                                                                                  
+                  Manning, B.                                           13                                                        
+                                                                                                                                  
+   502        Colchester, England, United Kingdom       7                                                                         
+                                                                                                                                  
+                  Hendrie, M.J.                                          7                                                        
+                                                                                                                                  
+   552        Osservatorio San Vittore                 15                                                                         
+              Bologna, Italy                                                                                                      
+                                                                                                                                  
+                  Colombini, E.                                         15                                                        
+                  Goretti, V.                                           11                                                        
+                  Sassi, G.                                             15                                                        
+                  Vacchi, C.                                            15                                                        
+                                                                                                                                  
+   553        Chorzow, Poland                          11                                                                         
+                                                                                                                                  
+                  Firszt, T.                                             6                                                        
+                  Szczepanski, M.                                        6                                                        
+                  Wlodarczyk, I.                                        11                                                        
+                                                                                                                                  
+   555        Cracow-Fort Skala, Poland               133                                                                         
+                                                                                                                                  
+                  Kurpinska-Winiarska, M.                              113                                                        
+                  Kus, M.                                               94                                                        
+                  Lapeta, A.                                            92                                                        
+                  Waniak, W.                                            93                                                        
+                  Winiarski, M.                                        111                                                        
+                  Zola, S.                                              92                                                        
+                                                                                                                                  
+   556        Reintal (near Munich), Federal            6                                                                         
+                Republic of Germany                                                                                               
+                                                                                                                                  
+                  Seiler, F.                                             6                                                        
+                                                                                                                                  
+   562        Figl Observatory                         22                                                                         
+              Vienna, Austria                                                                                                     
+                                                                                                                                  
+                  Schnell, A.                                           22                                                        
+                  Stockenhuber, H.                                      22                                                        
+                                                                                                                                  
+   564        Herrsching (near Munich), Federal         3                                                                         
+                Republic of Germany                                                                                               
+                                                                                                                                  
+                  Stattmayer, P.                                         3                                                        
+                                                                                                                                  
+   565        Brescia, Italy                           25                                                                         
+                                                                                                                                  
+                  Marinello, V.                                         25                                                        
+                  Quadri, U.                                            25                                                        
+                                                                                                                                  
+   567        Chaonis, Italy                            2                                                                         
+                                                                                                                                  
+                  Baur, C.R.                                             2                                                        
+                  Baur, J.M.                                             2                                                        
+                                                                                                                                  
+   571        Cavriana, Italy                           5                                                                         
+                                                                                                                                  
+                  Lai, L.                                                5                                                        
+                  Ronchetti, I.                                          5                                                        
+                  Ruzza, M.                                              5                                                        
+                  Vesentini, G.                                          5                                                        
+                                                                                                                                  
+   574        Gottolengo, Italy                         2                                                                         
+                                                                                                                                  
+                  Mattarozzi, G.                                         2                                                        
+                  Quadri, U.                                             2                                                        
+                                                                                                                                  
+   575        La Chaux Des Fonds, Switzerland           3                                                                         
+                                                                                                                                  
+                  Behrend, A.                                            3                                                        
+                  Behrend, R.                                            3                                                        
+                                                                                                                                  
+   580        Graz, Austria                             2                                                                         
+                                                                                                                                  
+                  Ornig, C.W.                                            2                                                        
+                                                                                                                                  
+   657        Victoria, British Columbia, Canada       69                                                                         
+                                                                                                                                  
+                  Balam, D.D.                                           65                                                        
+                  Lowe, T.B.                                            20                                                        
+                  Rychtarcik, P.                                         1                                                        
+                  Tatum, J.B.                                           60                                                        
+                                                                                                                                  
+   662        Lick Observatory                         16                                                                         
+              Mount Hamilton, California, U.S.A.                                                                                  
+                                                                                                                                  
+                  Djorgovski, S.                                         2                                                        
+                  Harlan, E.                                             2                                                        
+                  Jones, B.                                             12                                                        
+                  McCarthy, P.                                           2                                                        
+                  Spinrad, H.                                            2                                                        
+                                                                                                                                  
+   675        Palomar Mountain, California, U.S.A.     11                                                                         
+                                                                                                                                  
+                  Gibson, J.                                             2                                                        
+                  Green, D.W.E.                                          6                                                        
+                  Helin, E.                                              3                                                        
+                  Schneeberger, D.                                       1                                                        
+                  Singer-Brewster, S.                                    1                                                        
+                                                                                                                                  
+   688        Lowell Observatory                        9                                                                         
+              Anderson Mesa, Arizona, U.S.A.                                                                                      
+                                                                                                                                  
+                  Bowell, T.                                             2                                                        
+                  Bus, S.J.                                              5                                                        
+                  Kreidl, T.J.N.                                         5                                                        
+                  Skiff, B.A.                                            7                                                        
+                                                                                                                                  
+   691        Steward Observatory                      16                                                                         
+              Tucson, Arizona, U.S.A.                                                                                             
+                                                                                                                                  
+                  Gehrels, T.                                           16                                                        
+                                                                                                                                  
+   695        Kitt Peak National Observatory           17                                                                         
+              Tucson, Arizona, U.S.A.                                                                                             
+                                                                                                                                  
+                  Bailyn, C.                                             3                                                        
+                  Belton, M.J.S.                                         5                                                        
+                  Cohn, H.                                               3                                                        
+                  Dacosta, G.                                            2                                                        
+                  Djorgovski, S.                                         4                                                        
+                  Ford, H.                                               2                                                        
+                  Jacoby, G.                                             2                                                        
+                  Jewitt, D.                                             2                                                        
+                  Luggar, P.                                             3                                                        
+                  Mateo, M.                                              3                                                        
+                  Meech, K.J.                                            2                                                        
+                  Spinrad, H.                                            4                                                        
+                  Wehinger, P.                                           5                                                        
+                  Will, G.                                               4                                                        
+                                                                                                                                  
+   696        Whipple Observatory, Mt. Hopkins          9                                                                         
+              Amado, Arizona, U.S.A.                                                                                              
+                                                                                                                                  
+                  Schild, R.                                             9                                                        
+                                                                                                                                  
+   707        Chamberlin Field Station                  8                                                                         
+              Bailey, Colorado, U.S.A.                                                                                            
+                                                                                                                                  
+                  Briggs, J.                                             8                                                        
+                  Everhart, E.                                           4                                                        
+                                                                                                                                  
+   711        McDonald Observatory                     22                                                                         
+              Fort Davis, Texas, U.S.A.                                                                                           
+                                                                                                                                  
+                  Mulholland, J.D.                                      12                                                        
+                  Whipple, A.H.                                         22                                                        
+                                                                                                                                  
+   786        United States Naval Observatory           1                                                                         
+              Washington, District of Columbia,                                                                                   
+                U.S.A.                                                                                                            
+                                                                                                                                  
+                  Harrington, R.S.                                       1                                                        
+                                                                                                                                  
+   788        Mount Cuba Observatory                    2                                                                         
+              Greenville, Delaware, U.S.A.                                                                                        
+                                                                                                                                  
+                  Bock, G.                                               1                                                        
+                  Bruton, J.                                             1                                                        
+                  Jackson, S.                                            2                                                        
+                  Stock, R.F.                                            2                                                        
+                                                                                                                                  
+   792        University Of Rhode Island                6                                                                         
+              Quonochontaug, Rhode Island, U.S.A.                                                                                 
+                                                                                                                                  
+                  Penhallow, W.S.                                        6                                                        
+                                                                                                                                  
+   801        Oak Ridge Observatory                    42                                                                         
+              Harvard, Massachusetts, U.S.A.                                                                                      
+                                                                                                                                  
+                  McCrosky, R.E.                                        40                                                        
+                  Schwartz, G.                                          35                                                        
+                  Shao, C.Y.                                            26                                                        
+                                                                                                                                  
+   807        Cerro Tololo Observatory                  4                                                                         
+              La Serena, Chile                                                                                                    
+                                                                                                                                  
+                  Brodie, J.                                             4                                                        
+                  Clarke, J.T.                                           4                                                        
+                  McCarthy, P.                                           4                                                        
+                                                                                                                                  
+   808        El Leoncito, Argentina                    1                                                                         
+                                                                                                                                  
+                  Lopez, C.E.                                            1                                                        
+                                                                                                                                  
+   809        European Southern Observatory             1                                                                         
+              La Silla, Chile                                                                                                     
+                                                                                                                                  
+                  Pederson, H.                                           1                                                        
+                  West, R.M.                                             1                                                        
+                                                                                                                                  
+   893        Sendai Municipal Observatory              7                                                                         
+              Sendai, Japan                                                                                                       
+                                                                                                                                  
+                  Aisawa, K.                                             7                                                        
+                  Kurosu, K.                                             6                                                        
+                                                                                                                                  
+   978        Conder Brow, England,                     9                                                                         
+                United Kingdom                                                                                                    
+                                                                                                                                  
+                  Buczynski, D.G.                                        2                                                        
+                  Greenwood, J.D.                                        7                                                        
+                                                                                                                                  
+   984        West Chinnock, England,                   1                                                                         
+                United Kingdom                                                                                                    
+                                                                                                                                  
+                  Ridley, H.B.                                           1                                                        
+                                                                                                                                  
+   993        Woolston, England, United Kingdom         1                                                                         
+                                                                                                                                  
+                  Ridley, H.B.                                           1                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table VII.  Observer Index                                                                                                        
+_____________________________________________________                                                                             
+                                                                                                                                  
+Observer                   Observatory     Number of                                                                              
+                             Code(s)     Observations                                                                             
+_____________________________________________________                                                                             
+                                                                                                                                  
+Aisawa, K.                     893             7                                                                                  
+Alksnis, A.K.                   69             4                                                                                  
+Bagus, B.B.                     87             2                                                                                  
+Bailyn, C.                     695             3                                                                                  
+Bakhtigaraev, N.S.              87             2                                                                                  
+Balam, D.D.                    657            65                                                                                  
+Barbieri, C.                 43,96,98         29                                                                                  
+Bastian, U.                     24             4                                                                                  
+Baur, C.R.                     567             2                                                                                  
+Baur, J.M.                     567             2                                                                                  
+Behrend, A.                    575             3                                                                                  
+Behrend, R.                    575             3                                                                                  
+Belton, M.J.S.                 695             5                                                                                  
+Bock, G.                       788             1                                                                                  
+Bonev, T.                       71            16                                                                                  
+Bowell, T.                     688             2                                                                                  
+Briggs, J.                     707             8                                                                                  
+Brodie, J.                     807             4                                                                                  
+Bronikova, N.M.                 84             9                                                                                  
+Bruton, J.                     788             1                                                                                  
+Buczynski, D.G.                978             2                                                                                  
+Bus, S.J.                      688             5                                                                                  
+Cabanas, C.                    491            18                                                                                  
+Candy, M.P.                    323            15                                                                                  
+Cervak, G.                      56            31                                                                                  
+Chernykh, N.S.                  95            20                                                                                  
+Churms, J.                      51             2                                                                                  
+Churyumov, K.                   85            19                                                                                  
+Clarke, J.T.                   807             4                                                                                  
+Codina, J.M.                     6            37                                                                                  
+Cohn, H.                       695             3                                                                                  
+Colombini, E.                  552            15                                                                                  
+D'Yakonova, V.D.                95             6                                                                                  
+Dacosta, G.                    695             2                                                                                  
+De Pascual, M.                 491            18                                                                                  
+Debehogne, H.                   12             1                                                                                  
+Decker, F.                      17            21                                                                                  
+Djorgovski, S.               662,695           6                                                                                  
+Eglitis, I.E.                   69             2                                                                                  
+El-Khilali, Y.                  87             2                                                                                  
+Everhart, E.                   707             4                                                                                  
+Ferreri, W.                     22            10                                                                                  
+Firszt, T.                     553             6                                                                                  
+Fokanov, S.V.                   94             6                                                                                  
+Ford, H.                       695             2                                                                                  
+Garcia, J.                     491            18                                                                                  
+Geffert, M.                   17,71           27                                                                                  
+Gehrels, T.                    691            16                                                                                  
+Georgieva, A.                   71            34                                                                                  
+Gerasimenko, S.I.            190,191          21                                                                                  
+Gibson, J.                     675             2                                                                                  
+Gilmore, A.C.                  474            10                                                                                  
+Goretti, V.                    552            11                                                                                  
+Goroshchak, I.I.                61            36                                                                                  
+Gorze, U.                       24             4                                                                                  
+Green, D.W.E.                  675             6                                                                                  
+Greenwood, J.D.                978             7                                                                                  
+Haarala, S.                     63             5                                                                                  
+Handley, T.                    293             7                                                                                  
+Harlan, E.                     662             2                                                                                  
+Harrington, R.S.               786             1                                                                                  
+Helin, E.                      675             3                                                                                  
+Hendrie, M.J.                  502             7                                                                                  
+Herald, D.                     415             2                                                                                  
+Hozono, K.                     391            14                                                                                  
+Ipatova, I.A.                   84             1                                                                                  
+Ivanova, V.                     71            34                                                                                  
+Izhakevich, E.M.              83,85            7                                                                                  
+Jackson, S.                    788             2                                                                                  
+Jacoby, G.                     695             2                                                                                  
+Jekabsons, P.                  323            25                                                                                  
+Jewitt, D.                     695             2                                                                                  
+John, A.                       323            13                                                                                  
+Johnston, J.                   323            11                                                                                  
+Jones, B.                      662            12                                                                                  
+Kaltygina, S.                   83             3                                                                                  
+Kaneda, H.                     392             4                                                                                  
+Karachkina, L.G.                95             6                                                                                  
+Kawasato, N.                   376             2                                                                                  
+Kinnear, G.                    323            26                                                                                  
+Kirova, H.                      71             2                                                                                  
+Kiseleva, T.P.                84,129           2                                                                                  
+Kitkin, V.N.                   114            32                                                                                  
+Klare, G.                       24             2                                                                                  
+Kohoutek, L.                   493             8                                                                                  
+Koishikawa, M.                 391            17                                                                                  
+Kornos, L.                      56            11                                                                                  
+Koroleva, L.S.                  84             8                                                                                  
+Kosai, H.                      381             2                                                                                  
+Kranjc, A.                   43,96,98         29                                                                                  
+Kreidl, T.J.N.                 688             5                                                                                  
+Kurosu, K.                   391,893          20                                                                                  
+Kurpinska-Winiarska, M.        555           113                                                                                  
+Kus, M.                        555            94                                                                                  
+Lagerkvist, C.I.                49             2                                                                                  
+Lai, L.                        571             5                                                                                  
+Lapeta, A.                     555            92                                                                                  
+Lappalainen, T.                 63             5                                                                                  
+Ledovskaya, I.                  83             2                                                                                  
+Lopez, C.E.                    808             1                                                                                  
+Lowe, T.B.                     657            20                                                                                  
+Lu, J.H.                       330             4                                                                                  
+Luggar, P.                     695             3                                                                                  
+Lyukhanov, K.B.                102            32                                                                                  
+Major, S.P.                     83             1                                                                                  
+Mandel, H.                      24             4                                                                                  
+Manning, B.                    494            13                                                                                  
+Marinello, V.                  565            25                                                                                  
+Martin-Pintado, J.             491             4                                                                                  
+Massone, G.                     22            22                                                                                  
+Mateo, M.                      695             3                                                                                  
+Mattarozzi, G.                 574             2                                                                                  
+McCarthy, P.                 662,807           6                                                                                  
+McCrosky, R.E.                 801            40                                                                                  
+Meech, K.J.                    695             2                                                                                  
+Merezhina, L.S.                 94             6                                                                                  
+Mirmakhmudov, E.               186            47                                                                                  
+Mrkos, A.                       46            78                                                                                  
+Mulholland, J.D.               711            12                                                                                  
+Narizhnaya, N.V.                84             6                                                                                  
+Niemi, A.                       63             5                                                                                  
+Nikiforov, I.I.                 84             6                                                                                  
+Nunez, J.                        6            19                                                                                  
+Oja, T.                         49             2                                                                                  
+Olevic, D.                      57             1                                                                                  
+Ornig, C.W.                    580             2                                                                                  
+Osipenko, V.P.                 102            32                                                                                  
+Ozolinya, V.                    69            14                                                                                  
+Pattakhov, E.                  186            27                                                                                  
+Pauwels, T.                     12             1                                                                                  
+Pederson, H.                   809             1                                                                                  
+Penhallow, W.S.                792             6                                                                                  
+Piironen, J.                    63             5                                                                                  
+Protitch-Benishek, V.           57             6                                                                                  
+Quadri, U.                   565,574          27                                                                                  
+Radeva, V.                      71            14                                                                                  
+Rakhmatov, E.                  186            83                                                                                  
+Ridley, H.B.                 984,993           2                                                                                  
+Ronchetti, I.                  571             5                                                                                  
+Roser, S.                       24             4                                                                                  
+Rusin, Y.V.                    102            32                                                                                  
+Ruzza, M.                      571             5                                                                                  
+Rychtarcik, P.               56,657           54                                                                                  
+Sanchez, F.                   6,491           15                                                                                  
+Sassi, G.                      552            15                                                                                  
+Sato, T.                       391            14                                                                                  
+Scardia, M.                 43,96,98          29                                                                                  
+Schild, R.                     696             9                                                                                  
+Schneeberger, D.               675             1                                                                                  
+Schnell, A.                    562            22                                                                                  
+Schwartz, G.                   801            35                                                                                  
+Seiler, F.                     556             6                                                                                  
+Seki, T.                       372             2                                                                                  
+Sereda, E.                      83             3                                                                                  
+Shao, C.Y.                     801            26                                                                                  
+Shatokhina, S.V.                83             1                                                                                  
+Shcherbanovskij, A.L.           94             6                                                                                  
+Shkodrov, V.                    71            28                                                                                  
+Sillanpaa, A.                   63             5                                                                                  
+Singer-Brewster, S.            675             1                                                                                  
+Sizonenko, Y.                   85             2                                                                                  
+Skiff, B.A.                    688             7                                                                                  
+Smirnova, K.                    85             7                                                                                  
+Spinrad, H.                  662,695           6                                                                                  
+Stapleton, J.R.                482             4                                                                                  
+Stattmayer, P.                 564             3                                                                                  
+Sterken, C.                     17            21                                                                                  
+Stock, R.F.                    788             2                                                                                  
+Stockenhuber, H.               562            22                                                                                  
+Svoren, J.                      56             3                                                                                  
+Swan, M.                       490             2                                                                                  
+Szczepanski, M.                553             6                                                                                  
+Tatum, J.B.                    657            60                                                                                  
+Tearo, A.R.                    168            20                                                                                  
+Timofeyev, S.N.                168            20                                                                                  
+Torras, N.                       6            11                                                                                  
+Tovadrus, M.Y.                  87             2                                                                                  
+Vacchi, C.                     552            15                                                                                  
+Vavrova, Z.                     46            72                                                                                  
+Vesentini, G.                  571             5                                                                                  
+Wang, D.C.                     330             7                                                                                  
+Wang, Q.                       330             5                                                                                  
+Waniak, W.                     555            93                                                                                  
+Watanabe, K.                 392,397          18                                                                                  
+Wehinger, P.                   695             5                                                                                  
+Wei, S.L.                      330             9                                                                                  
+West, R.M.                     809             1                                                                                  
+Whipple, A.H.                  711            22                                                                                  
+Wild, P.                        26            12                                                                                  
+Will, G.                       695             4                                                                                  
+Winiarski, M.                  555           111                                                                                  
+Wlodarczyk, I.                 553            11                                                                                  
+Yamagata, T.                   381             2                                                                                  
+Yang, J.X.                     330            11                                                                                  
+Yurevich, V.A.                 102            32                                                                                  
+Zelishchev, I.E.               114            32                                                                                  
+Zelishchev, I.G.               114            32                                                                                  
+Zhao, J.L.                     337             1                                                                                  
+Zola, S.                       555            92                                                                                  
+_____________________________________________________                                                                             
+                                                                                                                                  
+                                                                                                                                  
+Table VIII.  Differences ET-UTC                                                                                                   
+_______________________________                                                                                                   
+                                                                                                                                  
+Date                  ET-UTC(s)                                                                                                   
+_______________________________                                                                                                   
+                                                                                                                                  
+1983 July 1.0           54.18                                                                                                     
+1985 July 1.0           55.18                                                                                                     
+1988 Jan. 1.0           56.18                                                                                                     
+_______________________________                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+REFERENCE                                                                                                                         
+                                                                                                                                  
+Yeomans, D.K.,  West, R.M.,  Harrington, R.S.,  and  Marsden, B.G., eds. (1984).                                                  
+     Cometary Astrometry, Proceedings of a Workshop held June 18-19, 1984 at the                                                  
+     European Southern Observatory Headquarters in Garching bei Munchen, Federal                                                  
+     Republic of Germany, JPL Publ. 84-82, 220pp.                                                                                 

@@ -1,0 +1,223 @@
+NJPL1I00PDS100017820 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 169                                                     
+FILE_RECORDS        = 306                                                     
+/*               Record Pointer to Object                             */      
+^TABLE              = "RADIO_SL.IDX"                                          
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 306                                                     
+ ROW_BYTES          = 169                                                     
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 24                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DATE-OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 2                                                       
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TIME-OBS"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DAY-FRACTION'                                          
+  START_BYTE        = 12                                                      
+  FORMAT            = 'F6.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RSN-NUM"                                               
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 19                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MOLECULE"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 5                                                       
+  START_BYTE        = 27                                                      
+  FORMAT            = A5                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DAT-TYPE"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  START_BYTE        = 35                                                      
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "REST_FREQ"                                             
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  UNIT              = 'MEGAHERTZ'                                             
+  START_BYTE        = 38                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SPEC_RESOL"                                            
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'MEGAHERTZ'                                             
+  START_BYTE        = 45                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TEMP_SYS"                                              
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 5                                                       
+  UNIT              = 'KELVINS'                                               
+  START_BYTE        = 50                                                      
+  FORMAT            = I5                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BEAM_EFFIC"                                            
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  UNIT              = 'PERCENT'                                               
+  START_BYTE        = 56                                                      
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BEAMSIZE"                                              
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'ARCSEC'                                                
+  START_BYTE        = 59                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BEAMSHAPE"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  START_BYTE        = 65                                                      
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OFFSET_RHO"                                            
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'ARCSEC'                                                
+  START_BYTE        = 68                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OFFSET_THETA"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 73                                                      
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LINE_LT"                                               
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  START_BYTE        = 78                                                      
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LINEPEAK"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'JANSKY/BEAM'                                           
+  START_BYTE        = 81                                                      
+  FORMAT            = 'F6.3'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LNPK_ERR"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'JANSKY/BEAM'                                           
+  START_BYTE        = 88                                                      
+  FORMAT            = 'F5.3'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LINEWIDTH"                                             
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 94                                                      
+  FORMAT            = 'F5.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LNWD_ERR"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 100                                                     
+  FORMAT            = 'F4.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LINE_VEL"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 105                                                     
+  FORMAT            = 'F5.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LNVL_ERR"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 111                                                     
+  FORMAT            = 'F4.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SYSTEM"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 117                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVER"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 24                                                      
+  START_BYTE        = 128                                                     
+  FORMAT            = A24                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NOTE_FLAG"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 155                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILENAME"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 159                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

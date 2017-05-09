@@ -1,0 +1,91 @@
+***** File SOFTINFO.TXT                                                       
+                                                                              
+                                                                              
+     The SOFTWARE directory contains software which is useful in accessing the
+data on the CD-ROM.  Each set of software is described separately according to
+function (image manipulation, ephemeris interpolation).  The source code is in
+ASCII text files with fixed length records; the executables are binary files. 
+The files VAXnnnnn.EXE can be transferred as fixed-length record files into a 
+VAX environment for execution.                                                
+                                                                              
+  The Large-Scale Phenomena Discipline has supplied its digital imagery in    
+compressed form.  The file PREVPIX.TXT contains pseudo-code algorithms for    
+compressing and decompressing these images.  In addition to the compressed    
+data, subsampled and rescaled BROWSE images have also been provided.          
+                                                                              
+   The file PREVPIX.PRO is the original source code used to compress the      
+images on the Comet Giacobini-Zinner Test Disc.  It is written in IDL, a      
+vector-oriented interactive language for a variety of machines from Research  
+Systems, Inc. of Denver, CO.  While IDL is not widely used, the file is       
+included for completeness.                                                    
+                                                                              
+   The compression of the Comet Halley data was performed on an IBM 3081 at   
+Goddard Space Flight Center using a Fortran program written by John M.        
+Bogert III.   This program (PACKER.FOR) is included, and has an associated    
+text file, COMPRESS.TXT.   The program (MIDGET.FOR) used to subsample the data
+is described in the file BROWSE.TXT.                                          
+                                                                              
+     The files DECOMP.FOR and DECOMP.C are subroutines which implement the    
+decompression algorithm described in the file DECOMP.TXT.  They are to be used
+on the compressed LSPN images. The user will need to write a driver program to
+perform the I/O and to pass the arrays to DECOMP in manageable size pieces.   
+DECOMP.FOR has been tested on a VAX 11/750 under VMS version 5 and on a Sun   
+3/60 under Unix.                                                              
+                                                                              
+     The program PCDECLSP.COM, associated source code and documentation are   
+included to allow users with IBM-PC compatible computers to decompress the    
+LSPN images.  The program was written to run under MS-DOS v3.x and is compiled
+and linked using Turbo C v2.0 from Borland International.  It decompresses the
+8-bit data (stored in .IMQ files) into the original 16-bit representation. The
+data are read, decompressed using a slightly modified version of DECOMP.C and 
+written out to a file. The actual progress of decompression in percent is     
+displayed on the screen as well as the actual size of the compressed file. The
+output file is padded with NULLs to fill out the 2880 byte format of FITS. The
+output image is a completely valid FITS byte stream. The source code is       
+included so that the user may modify it for use under other systems. While it 
+was written for TurboC (from Borland International), it uses few, if any,     
+MS-DOS specific routines and should be easily portable to other systems.  It  
+also uses routines from a public domain library of C functions (TCCLIB), the  
+full source of which is also included.                                        
+                                                                              
+     The following files contain the complete Fortran source code for the     
+program OBSNTERP, used to interpolate between observations in the Comet Halley
+ephemeris table.  (The documentation about the calculations can be found in   
+the file EPHEM.TXT, while the actual table EPHEM.TAB and explanation about the
+program (OBSNTERP.TXT) are located in a different subdirectory).  It has been 
+tested under VAX/VMS Fortran (VMS version 5.x) and Microsoft Fortran v4.0.    
+                                                                              
+OBSNTERP.FOR                                                                  
+ARGCH2.FOR                                                                    
+INTERP.FOR                                                                    
+JDATE.FOR                                                                     
+                                                                              
+                                                                              
+     These files contain the complete C source code for the program OBSNTERP. 
+They directly translate the Fortran code, and have been tested under VAX/VMS C
+and TurboC v2.0 from Borland International. Note that the routine JDATE (from 
+the file JDATE.FOR above) has been included in the INTERP.C module.           
+                                                                              
+OBSNTERP.C                                                                    
+ARGCH.C                                                                       
+INTERP.C                                                                      
+                                                                              
+                                                                              
+     These files are the executable versions of OBSNTERP referred to in the   
+file OBSNTERP.TXT in the EPHEM subdirectory.  PCNTERP.EXE runs on an IBM PC or
+compatible under MS-DOS. VAXNTERP.EXE runs on VAXes under VMS version 5.      
+                                                                              
+PCNTERP.EXE                                                                   
+VAXNTERP.EXE                                                                  
+                                                                              
+     There are several utility programs on the disk to help manipulate FITS   
+files.  FITS2TXT converts FITS header files into ordinary text file, allowing 
+them to be easily typed and/or edited.  TXT2FITS performs the conversion the  
+other way, making an undelimited byte stream and padding the length to an     
+integer multiple of 2880 bytes.  It does no syntax checking, and uses blanks  
+as the padding character, so it should only be used to produce headers.       
+FITSXTND will pad the length of a data file to an integer multiple of 2880    
+bytes, using nulls as the padding character.  Apply FITSXTND to a file to make
+a fully-qualified FITS byte stream.  Finally, FITSUTIL is a menu-operated     
+program which splits and/or concatenates the IHW-specific file types between  
+single files and separate header and data files.                              

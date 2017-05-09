@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://pds.nasa.gov/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://pds.nasa.gov/">
+  <xs:element name="getDataFile" type="tns:getDataFile"/>
+  <xs:element name="getDataFileResponse" type="tns:getDataFileResponse"/>
+  <xs:element name="getDataSet" type="tns:getDataSet"/>
+  <xs:element name="getDataSetRelatedEntitites" type="tns:getDataSetRelatedEntitites"/>
+  <xs:element name="getDataSetRelatedEntititesResponse" type="tns:getDataSetRelatedEntititesResponse"/>
+  <xs:element name="getDataSetResponse" type="tns:getDataSetResponse"/>
+  <xs:element name="getDataSetsInfo" type="tns:getDataSetsInfo"/>
+  <xs:element name="getDataSetsInfoResponse" type="tns:getDataSetsInfoResponse"/>
+  <xs:element name="getDocumentsInfo" type="tns:getDocumentsInfo"/>
+  <xs:element name="getDocumentsInfoResponse" type="tns:getDocumentsInfoResponse"/>
+  <xs:element name="getImagesInfo" type="tns:getImagesInfo"/>
+  <xs:element name="getImagesInfoResponse" type="tns:getImagesInfoResponse"/>
+  <xs:element name="getInstrument" type="tns:getInstrument"/>
+  <xs:element name="getInstrumentResponse" type="tns:getInstrumentResponse"/>
+  <xs:element name="getInstrumentsInfo" type="tns:getInstrumentsInfo"/>
+  <xs:element name="getInstrumentsInfoResponse" type="tns:getInstrumentsInfoResponse"/>
+  <xs:element name="getMission" type="tns:getMission"/>
+  <xs:element name="getMissionResponse" type="tns:getMissionResponse"/>
+  <xs:element name="getMissionsInfo" type="tns:getMissionsInfo"/>
+  <xs:element name="getMissionsInfoResponse" type="tns:getMissionsInfoResponse"/>
+  <xs:element name="getPreviewImageURL" type="tns:getPreviewImageURL"/>
+  <xs:element name="getPreviewImageURLResponse" type="tns:getPreviewImageURLResponse"/>
+  <xs:element name="getTarget" type="tns:getTarget"/>
+  <xs:element name="getTargetResponse" type="tns:getTargetResponse"/>
+  <xs:element name="getTargetType" type="tns:getTargetType"/>
+  <xs:element name="getTargetTypeResponse" type="tns:getTargetTypeResponse"/>
+  <xs:element name="getTargetTypesInfo" type="tns:getTargetTypesInfo"/>
+  <xs:element name="getTargetTypesInfoResponse" type="tns:getTargetTypesInfoResponse"/>
+  <xs:element name="getTargetsInfo" type="tns:getTargetsInfo"/>
+  <xs:element name="getTargetsInfoResponse" type="tns:getTargetsInfoResponse"/>
+  <xs:element name="searchDataSetsByCriteria" type="tns:searchDataSetsByCriteria"/>
+  <xs:element name="searchDataSetsByCriteriaResponse" type="tns:searchDataSetsByCriteriaResponse"/>
+  <xs:element name="searchEntities" type="tns:searchEntities"/>
+  <xs:element name="searchEntitiesByType" type="tns:searchEntitiesByType"/>
+  <xs:element name="searchEntitiesByTypeResponse" type="tns:searchEntitiesByTypeResponse"/>
+  <xs:element name="searchEntitiesResponse" type="tns:searchEntitiesResponse"/>
+  <xs:complexType name="getTargetsInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="page">
+    <xs:sequence>
+      <xs:element name="itemsPerPage" type="xs:int"/>
+      <xs:element name="pageNumber" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="restriction">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="restrictionEntityClass" type="xs:string"/>
+      <xs:element name="restrictionEntityId" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTargetsInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pagedResults">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="results" nillable="true" type="xs:anyType"/>
+      <xs:element name="total" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="entityInfo">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPreviewImageURL">
+    <xs:sequence>
+      <xs:element name="imageFileId" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPreviewImageURLResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchDataSetsByCriteria">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="criteria" type="tns:searchCriteria"/>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchCriteria">
+    <xs:sequence>
+      <xs:element name="dataSetId" type="xs:long"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="instrumentHosts" nillable="true" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="instruments" nillable="true" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="missions" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="startDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="stopDate" type="xs:dateTime"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="targetTypes" nillable="true" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="targets" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchDataSetsByCriteriaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInstrument">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInstrumentResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:instrument"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="instrument">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="hosts" nillable="true" type="tns:instrumentHost"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherChildren" nillable="true" type="tns:metadataObject"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="references" nillable="true" type="tns:reference"/>
+          <xs:element minOccurs="0" name="textId" type="xs:string"/>
+          <xs:element minOccurs="0" name="type" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType abstract="true" name="namedEntity">
+    <xs:complexContent>
+      <xs:extension base="tns:identifiableEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="name" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType abstract="true" name="identifiableEntity">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="instrumentHost">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherChildren" nillable="true" type="tns:metadataObject"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="references" nillable="true" type="tns:reference"/>
+          <xs:element minOccurs="0" name="textId" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="metadataObject">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="children" nillable="true" type="tns:metadataObject"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="properties" nillable="true" type="tns:property"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="property">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="values" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="reference">
+    <xs:complexContent>
+      <xs:extension base="tns:identifiableEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element minOccurs="0" name="keyTextId" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="getTarget">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTargetResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:target"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="target">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="references" nillable="true" type="tns:reference"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="types" nillable="true" type="tns:targetType"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="targetType">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="getTargetTypesInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTargetTypesInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMission">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMissionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:mission"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mission">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element minOccurs="0" name="endDate" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherChildren" nillable="true" type="tns:metadataObject"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="references" nillable="true" type="tns:reference"/>
+          <xs:element minOccurs="0" name="startDate" type="xs:dateTime"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="getMissionsInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getMissionsInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInstrumentsInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInstrumentsInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDocumentsInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDocumentsInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getImagesInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getImagesInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataSetRelatedEntitites">
+    <xs:sequence>
+      <xs:element name="dataSetId" type="xs:long"/>
+      <xs:element minOccurs="1" name="relatedEntityType" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataSetRelatedEntititesResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:entityInfo"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchEntitiesByType">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="entityType" type="xs:string"/>
+      <xs:element minOccurs="1" name="searchText" type="xs:string"/>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchEntitiesByTypeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataSet">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataSetResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:dataSet"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dataSet">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="instruments" nillable="true" type="tns:instrument"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="missions" nillable="true" type="tns:mission"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherChildren" nillable="true" type="tns:metadataObject"/>
+          <xs:element minOccurs="0" name="rating" type="xs:float"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="references" nillable="true" type="tns:reference"/>
+          <xs:element minOccurs="0" name="startDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="stopDate" type="xs:dateTime"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="targets" nillable="true" type="tns:target"/>
+          <xs:element minOccurs="0" name="textId" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="volumes" nillable="true" type="tns:volume"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="volume">
+    <xs:complexContent>
+      <xs:extension base="tns:namedEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherChildren" nillable="true" type="tns:metadataObject"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="otherProperties" nillable="true" type="tns:property"/>
+          <xs:element minOccurs="0" name="seriesName" type="xs:string"/>
+          <xs:element minOccurs="0" name="setName" type="xs:string"/>
+          <xs:element minOccurs="0" name="setTextId" type="xs:string"/>
+          <xs:element minOccurs="0" name="textId" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="getDataSetsInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+      <xs:element minOccurs="0" name="restriction" type="tns:restriction"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataSetsInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataFile">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDataFileResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:wsDataFile"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wsDataFile">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="content" type="xs:string"/>
+      <xs:element xmlns:ns1="http://www.w3.org/2005/05/xmlmime" minOccurs="0" name="dataHandler" ns1:expectedContentTypes="application/octet-stream" type="xs:base64Binary"/>
+      <xs:element minOccurs="0" name="filename" type="xs:string"/>
+      <xs:element name="id" type="xs:long"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchEntities">
+    <xs:sequence>
+      <xs:element minOccurs="1" name="searchText" type="xs:string"/>
+      <xs:element minOccurs="0" name="page" type="tns:page"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchEntitiesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:searchResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="dataFiles" type="tns:pagedResults"/>
+      <xs:element minOccurs="0" name="datasets" type="tns:pagedResults"/>
+      <xs:element minOccurs="0" name="instruments" type="tns:pagedResults"/>
+      <xs:element minOccurs="0" name="missions" type="tns:pagedResults"/>
+      <xs:element minOccurs="0" name="targetTypes" type="tns:pagedResults"/>
+      <xs:element minOccurs="0" name="targets" type="tns:pagedResults"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTargetType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getTargetTypeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:targetType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataSetProcessingException" type="tns:DataSetProcessingException"/>
+  <xs:complexType name="DataSetProcessingException">
+    <xs:sequence>
+      <xs:element name="logged" nillable="true" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

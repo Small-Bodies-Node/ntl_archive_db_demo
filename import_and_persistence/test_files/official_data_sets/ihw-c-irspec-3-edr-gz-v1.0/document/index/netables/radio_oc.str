@@ -1,0 +1,10 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"RSN_NUM    ","N", 6,0                                                        
+"SOURCE     ","C",12,0                                                        
+"DAT_TYPE   ","C", 1,0                                                        
+"CENTER_FREQ","N", 6,0                                                        
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"NOTE_FLAG  ","C", 1,0                                                        
+"FILENAME   ","C", 8,0                                                        

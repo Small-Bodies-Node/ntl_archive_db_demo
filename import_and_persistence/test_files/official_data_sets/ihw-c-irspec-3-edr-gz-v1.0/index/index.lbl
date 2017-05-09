@@ -1,0 +1,109 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "FIXED_LENGTH"                                               
+FILE_RECORDS   = 5                                                            
+RECORD_BYTES   = 155                                                          
+                                                                              
+START_TIME     = 9999-99-99                                                   
+STOP_TIME      = 9999-99-99                                                   
+                                                                              
+^INDEX_TABLE   = "index.tab"                                                  
+                                                                              
+OBJECT     = INDEX_TABLE                                                      
+  INDEX_TYPE         = "SINGLE"                                               
+  INTERCHANGE_FORMAT = "ASCII"                                                
+  ROWS               = 5                                                      
+  ROW_BYTES          = 155                                                    
+  COLUMNS            = 9                                                      
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "VOLUME_ID"                                            
+    START_BYTE       = 2                                                      
+    BYTES            = 11                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A11"                                                  
+    DESCRIPTION      = "From voldesc.cat file"                                
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "FILE_SPECIFICATION_NAME"                              
+    START_BYTE       = 16                                                     
+    BYTES            = 17                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A17"                                                  
+    DESCRIPTION      = "Path from volume root to label file"                  
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "DATA_SET_ID"                                          
+    START_BYTE       = 36                                                     
+    BYTES            = 12                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A12"                                                  
+    MISSING_CONSTANT = "MISSING_DSID"                                         
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "PRODUCT_ID"                                           
+    START_BYTE       = 51                                                     
+    BYTES            = 18                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A18"                                                  
+    MISSING_CONSTANT = "MISSING_PRODUCT_ID"                                   
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "PRODUCT_CREATION_TIME"                                
+    START_BYTE       = 71                                                     
+    BYTES            = 10                                                     
+    DATA_TYPE        = "TIME"                                                 
+    FORMAT           = "A10"                                                  
+    MISSING_CONSTANT = 9999-99-99                                             
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "START_TIME"                                           
+    START_BYTE       = 82                                                     
+    BYTES            = 10                                                     
+    DATA_TYPE        = "TIME"                                                 
+    FORMAT           = "A10"                                                  
+    MISSING_CONSTANT = 9999-99-99                                             
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "TARGET_NAME"                                          
+    START_BYTE       = 94                                                     
+    BYTES            = 19                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A19"                                                  
+    MISSING_CONSTANT = "MISSING_TARGET_NAME"                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "INSTRUMENT_HOST_NAME"                                 
+    START_BYTE       = 116                                                    
+    BYTES            = 17                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A17"                                                  
+    MISSING_CONSTANT = "MISSING_HOST_NAME"                                    
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "INSTRUMENT_NAME"                                      
+    START_BYTE       = 136                                                    
+    BYTES            = 17                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A17"                                                  
+    MISSING_CONSTANT = "MISSING_INST_NAME"                                    
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+END_OBJECT = INDEX_TABLE                                                      
+                                                                              
+END                                                                           

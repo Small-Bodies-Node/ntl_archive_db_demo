@@ -1,0 +1,713 @@
+***** File PDSINFO.TXT                                                        
+                                                                              
+                               PDS LABELS                                     
+                                                                              
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual disciplines to the Lead       
+Center using the FITS format.  When the decision was made to distribute       
+this information on CD-ROM, it was determined that the data had to have       
+even broader accessibility.  For this reason, the original FITS files,        
+with contiguous headers and data, were split into separate files. The         
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.                                            
+                                                                              
+     In addition, detached PDS labels were constructed to allow parallel      
+definition of the data files for the Planetary Data System. The SPIDS         
+(Standards for the Preparation and Interchange of Data Sets, Martin, T.       
+Z., et al, Document D-4683, Jet Propulsion Laboratory, California             
+Institute of Technology, Pasadena, CA) document version 1.1 was the           
+primary reference to the Object Description Language (ODL) necessary to       
+create the PDS labels.   (We thankfully acknowledge the help of M. Martin,    
+JPL, for assisting the IHW through this exercise.)                            
+                                                                              
+     There are five fundamental data classes in this archive: IMAGE,          
+TABLE, TEXT, LABEL, and SPECTRUM.  Our aim was to construct a basic PDS       
+label for each data file on the CD-ROM. These PDS labels contain pointers to  
+the actual data files (or to headers describing data submitted to             
+the archive). There has been no effort to duplicate the documentation         
+contained in the full FITS headers because the PDS and FITS headers for       
+a given data file differ only in the filename extension.  Instead we          
+have attempted to use the power of the PDS label syntax to fully              
+describe the data structures and thus gain access to the powerful             
+software already supported by that group.                                     
+                                                                              
+     The basic PDS descriptors such as SFDU_LABEL, RECORD_TYPE,               
+RECORD_BYTES, and FILE_RECORDS are explained in the SPIDS document. The       
+RECORD_TYPE for all data files is FIXED_LENGTH.   With guidance, the          
+TABLE, LABEL, TEXT, and IMAGE descriptors were easily constructed.  In        
+creating the labels for these data classes, we found good correspondence      
+between FITS and PDS syntax, e.g., for tables the value of NAXIS1 =           
+ROW_BYTES, NAXIS2 = ROWS, and TFIELDS = ROW_COLUMNS.  We shall not            
+describe the columns in the tables until this experimental CD is              
+evaluated.                                                                    
+                                                                              
+     We have conformed with the PDS definition of a specific keyword to       
+indicate the presence of a FITS header (the keyword LABEL_FITS) when the      
+"data" object is another header or LABEL.  The TEXT object (the               
+Astrometry data) is an 80 byte fixed length record that contains only         
+ASCII values.                                                                 
+                                                                              
+     In the case of images, we have included a new keyword describing         
+the byte ordering of the data (MSB_INTEGER) required by FITS.  The PDS        
+description of images in terms of LINES (FITS keyword NAXIS2) and             
+SAMPLES (FITS keyword NAXIS1), given knowledge of the SAMPLE_BITS (FITS       
+keyword BITPIX), was easy for the split files.  The final form of the         
+label for compressed images is still under active discussion.  Unlike         
+previous PDS efforts with compressed images, we chose not to compress         
+the header (or label) and thus have included a keyword to describe the        
+type of compression (ENCODING_TYPE = "PREVIOUS PIXEL") used. The label        
+for compressed images also contains information to permit software to         
+skip over the data if the decoding algorithm is unknown (ITEMS,               
+ITEM_TYPE, and ITEM_BITS).                                                    
+                                                                              
+     We have attempted to use the ODL to indicate various subclass            
+structures for the data objects.  An example of this is the DIFFERENCE        
+modifier applied to IMAGE, yielding the keyword DIFFERENCE_IMAGE, which       
+indicates that a processing step was applied to the original image.           
+Finally, the SPECTRUM class description was recently refined by working       
+closely with the PDS group to ensure definition of data groups that           
+included both uniformly spaced data (as a single array) as well as            
+ordered pairs of observation (POSITION_SPECTRUM).                             
+                                                                              
+     Following the recently proposed guidelines for dealing with the          
+SPECTRUM data structure, we consider the spectra as tabular data              
+(COLUMN_NAME, COLUMN_TYPE, COLUMN_BITS) which may be binary. The              
+independent variable (WAVELENGTH) is described by the keywords                
+SAMPLING_PARAMETER_NAME, SAMPLING_PARAMETER_INTERVAL, SAMPLING_               
+PARAMETER_UNIT, and MINIMUM_SAMPLING_PARAMETER.  (A special                   
+case for the Radio Studies data uses Doppler VELOCITY.)  One last             
+exception is a table from the Infrared Studies Network of ordered             
+triples of data, in which we interpreted the column of signal/noise           
+ratios as an associated error.  A NOTE about this nonstandard use is          
+included in the labels for the appropriate datasets.  We have also            
+attempted to use the NOTE keyword to identify the contributing IHW            
+discipline, subnet, and generic comments about the data.                      
+                                                                              
+                                                                              
+                                                                              
+     A full set of the templates used for the PDS labels follows:             
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 1                                                
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'AMV00001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 1                                                
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 16                                               
+ NOTE                      = "AMATEUR, MAGNITUDE TABLE"                       
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+/*          Record Pointers to Major Objects                         */       
+^LABEL                     = 'AMDR0001.HDR'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = LABEL                                            
+ LABEL_TYPE                = FITS                                             
+ NOTE                      = "AMATEUR, DRAWING, NO DIGITAL DATA FILE"         
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+/*          Record Pointers to Major Objects                         */       
+^LABEL                     = 'AMPG0001.HDR'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = LABEL                                            
+ LABEL_TYPE                = FITS                                             
+ NOTE                      = "AMATEUR, ,PHOTOGRAPHY, NO DIGITAL DATA          
+ FILE"                                                                        
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 256                                              
+FILE_RECORDS               = 256                                              
+/*          Record Pointers to Major Objects                         */       
+^IMAGE                     = 'LSPN0002.IBG'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = IMAGE                                            
+ LINES                     = 256                                              
+ LINE_SAMPLES              = 256                                              
+ SAMPLE_TYPE               = UNSIGNED_INTEGER                                 
+ SAMPLE_BITS               = 8                                                
+ NOTE                      = "LARGE SCALE PHEN, SUBSAMPLED IMAGE"             
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 2880                                             
+FILE_RECORDS               = 424                                              
+/*          Record Pointers to Major Objects                         */       
+^IMAGE                     = 'LSPN0002.IMQ'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = IMAGE                                            
+ ENCODING_TYPE             = PREVIOUS_PIXEL                                   
+ ITEMS                     = 1221120                                          
+ ITEM_TYPE                 = UNSIGNED_INTEGER                                 
+ ITEM_BITS                 = 8                                                
+ LINES                     = 1024                                             
+ LINE_SAMPLES              = 1024                                             
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "LARGE SCALE PHEN, COMPRESSED IMAGE"             
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 13                                               
+/*          Record Pointer to Major Object                           */       
+^TABLE                     = 'IRFT0001.TAB'                                   
+/*          Description of Object in File                            */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 13                                               
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 8                                                
+ NOTE                      = "IR STUDIES, FILTER TABLE"                       
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 8                                                
+FILE_RECORDS               = 53                                               
+/*          Record Pointers to Major Objects                         */       
+^SPECTRUM                  = 'IRSP0001.DAT'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = SPECTRUM                                         
+ FORMAT                    = BINARY                                           
+ ROWS                      = 53                                               
+ ROW_COLUMNS               = 2                                                
+ COLUMN_NAME               = (WAVELENGTH, FLUX)                               
+ COLUMN_TYPE               = (MSB_INTEGER, MSB_INTEGER)                       
+ COLUMN_BITS               = (32,32)                                          
+ NOTE                      = "IR STUDIES, WAVELENGTH-FLUX TABLE"              
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 8                                                
+/* FILE_RECORDS            = 251                                              
+/*          Record Pointers to Major Objects                         */       
+^POSITION_SPECTRUM         = 'IRIM0001.DAT'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = POSITION_SPECTRUM                                
+ FORMAT                    = BINARY                                           
+ ROWS                      = 251                                              
+ ROW_COLUMNS               = 2                                                
+ COLUMN_NAME               = (POSITION, FLUX)                                 
+ COLUMN_TYPE               = (MSB_INTEGER,MSB_INTEGER)                        
+ COLUMN_BITS               = (32,32)                                          
+ NOTE                      = "IR STUDIES, POSITION-FLUX TABLE"                
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 128                                              
+FILE_RECORDS               = 64                                               
+/*          Record Pointers to Major Objects                         */       
+^IMAGE                     = 'IRIM0002.IMG'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = IMAGE                                            
+ LINES                     = 64                                               
+ LINE_SAMPLES              = 64                                               
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "IR STUDIES, IMAGE"                              
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 13                                               
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'IRPH0001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 13                                               
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 16                                               
+ NOTE                      = "IR STUDIES, PHOTOMETRY TABLE"                   
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 14                                               
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'IRPOL001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 14                                               
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 16                                               
+ NOTE                      = "IR STUDIES, POLARIMETRY TABLE"                  
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+/*  Record Pointers to Major Objects                                 */       
+^LABEL                     = 'LSPN0001.HDR'                                   
+/*  Descriptions of Objects in File                                  */       
+OBJECT                     = LABEL                                            
+ LABEL_TYPE                = FITS                                             
+ NOTE                      = "LARGE SCALE PHEN, NO DIGITAL DATA FILE"         
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 640                                              
+FILE_RECORDS               = 512                                              
+/*          Record Pointers to Major Objects                         */       
+^IMAGE                     = 'NNSN0001.IMG'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = IMAGE                                            
+ LINES                     = 512                                              
+ LINE_SAMPLES              = 320                                              
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "NEAR NUCLEUS, IMAGE"                            
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 44                                               
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'PMAG0001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 44                                               
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 13                                               
+ NOTE                      = "PHOTOMETRY, BROAD-BAND MAGNITUDE TABLE"         
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 7                                                
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'PFLX0001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 7                                                
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 13                                               
+ NOTE                      = "PHOTOMETRY,NARROW-BAND FLUX TABLE"              
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+FILE_RECORDS               = 8                                                
+/*          Record Pointers to Major Objects                         */       
+^TABLE                     = 'PPOL0001.TAB'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = TABLE                                            
+ ROWS                      = 8                                                
+ ROW_BYTES                 = 80                                               
+ FORMAT                    = ASCII                                            
+ ROW_COLUMNS               = 15                                               
+ NOTE                      = "PHOTOMETRY, POLARIZATION TABLE"                 
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+/*       Record Pointers to Major Objects                            */       
+^LABEL                     = 'RSCN0001.HDR'                                   
+/*       Descriptions of Objects in File                             */       
+OBJECT                     = LABEL                                            
+ LABEL_TYPE                = FITS                                             
+ NOTE                      = "RADIO STUDIES,CONTINUUM,NO DIGITAL DATA"        
+ FILE"                                                                        
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 80                                               
+/*       Record Pointer to Major Object                              */       
+^LABEL                     = 'RSSL0001.HDR'                                   
+/*       Description of Object in File                               */       
+OBJECT                     = LABEL                                            
+ LABEL_TYPE                = FITS                                             
+ NOTE                      = "RADIO STUDIES, NO DIGITAL DATA FILE"            
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000         = SFDU_LABEL                                     
+/*          File Format and Length                                   */       
+RECORD_TYPE                  = FIXED_LENGTH                                   
+RECORD_BYTES                 = 2                                              
+FILE_RECORDS                 = 256                                            
+/*          Record Pointers to Major Objects                         */       
+^INTENSITY_SPECTRUM          = 'RSOH0001.DAT'                                 
+/*          Descriptions of Objects in File                                   
+OBJECT                       = INTENSITY_SPECTRUM                             
+ ROWS                        = 256                                            
+ ROW_COLUMNS                 = 1                                              
+ COLUMN_TYPE                 = MSB_INTEGER                                    
+ COLUMN_BITS                 = 16                                             
+ SAMPLING_PARAMETER_NAME     = VELOCITY                                       
+ MINIMUM_SAMPLING_PARAMETER  = -258111.21                                     
+ SAMPLING_PARAMETER_INTERVAL = 3511.737061                                    
+ SAMPLING_PARAMETER_UNIT     = 'METERS/SECOND'                                
+ NOTE                        = "RADIO STUDIES, OH, INTENSITY SPECTRUM"        
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000         = SFDU_LABEL                                     
+/*          File Format and Length                                   */       
+RECORD_TYPE                  = FIXED_LENGTH                                   
+RECORD_BYTES                 = 2                                              
+FILE_RECORDS                 = 240                                            
+/*          Record Pointers to Major Objects                         */       
+^LHC_POLARIZATION_SPECTRUM   = 'RSOH0002.DAT'                                 
+^RHC_POLARIZATION_SPECTRUM   = 'RSOH0002.DAT':121                             
+/*          Descriptions of Objects in File                          */       
+OBJECT                       = LHC_POLARIZATION_SPECTRUM                      
+ ROWS                        = 120                                            
+ ROW_COLUMNS                 = 1                                              
+ COLUMN_TYPE                 = MSB_INTEGER                                    
+ COLUMN_BITS                 = 16                                             
+ SAMPLING_PARAMETER_NAME     = VELOCITY                                       
+ MINIMUM_SAMPLING_PARAMETER  = -8428.161                                      
+ SAMPLING_PARAMETER_INTERVAL = 140.469                                        
+ SAMPLING_PARAMETER_UNIT     = 'METERS/SECOND'                                
+ NOTE                        = "RADIO STUDIES, OH, LEFT HAND CIRCULAR         
+ POLARIZATION SPECTRUM"                                                       
+END_OBJECT                                                                    
+OBJECT                       = RHC_POLARIZATION_SPECTRUM                      
+ ROWS                        = 120                                            
+ ROW_COLUMNS                 = 1                                              
+ COLUMN_TYPE                 = MSB_INTEGER                                    
+ COLUMN_BITS                 = 16                                             
+ SAMPLING_APARMETER_NAME     = VELOCITY                                       
+ MINIMUM_SAMPLING_PARAMETER  = -8428.161                                      
+ SAMPLING_PARAMETER_INTERVAL = 140.469                                        
+ SAMPLING_PARAMETER_UNIT     = 'METERS/SECOND'                                
+ NOTE                        = "RADIO STUDIES, OH, RIGHT HAND CIRCULAR        
+ POLARIZATION SPECTRUM"                                                       
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 78                                               
+FILE_RECORDS               = 16197                                            
+/*          Record Pointers to Major Objects                         */       
+^DIFFERENCE_IMAGE          = 'RSOC0001.IMG'                                   
+^BACKGROUND_IMAGE          = 'RSOC0001.IMG':5400                              
+^COMET_IMAGE               = 'RSOC0001.IMG':10799                             
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = DIFFERENCE_IMAGE                                 
+ LINES                     = 5399                                             
+ LINE_SAMPLES              = 39                                               
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "RADIO STUDIES, DIFFERENCE IMAGE"                
+END_OBJECT                                                                    
+OBJECT                     = BACKGROUND_IMAGE                                 
+ LINES                     = 5399                                             
+ LINE_SAMPLES              = 39                                               
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "RADIO STUDIES, BACKGROUND IMAGE"                
+END_OBJECT                                                                    
+OBJECT                     = COMET_IMAGE                                      
+ LINES                     = 5399                                             
+ LINE_SAMPLES              = 39                                               
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "RADIO STUDIES, OCCULTATION, COMET IMAGE"        
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 1726                                             
+FILE_RECORDS               = 20                                               
+/*          Record Pointers to Major Objects                         */       
+^IMAGE                     = 'SPEC0002.DAT'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = IMAGE                                            
+ LINES                     = 20                                               
+ LINE_SAMPLES              = 863                                              
+ SAMPLE_TYPE               = MSB_INTEGER                                      
+ SAMPLE_BITS               = 16                                               
+ NOTE                      = "SPECTROSCOPY, 2-D SPECTRAL IMAGE"               
+END_OBJECT                                                                    
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                          IHW Sample PDS Label                                
+                                                                              
+                                                                              
+NJPL1I00PDS100000000       = SFDU_LABEL                                       
+/*          File Format and Length                                   */       
+RECORD_TYPE                = FIXED_LENGTH                                     
+RECORD_BYTES               = 4                                                
+FILE_RECORDS               = 902                                              
+/*          Record Pointers to Major Objects                         */       
+^SPECTRUM                  = 'SPEC0001.DAT'                                   
+/*          Descriptions of Objects in File                          */       
+OBJECT                     = SPECTRUM                                         
+ ROWS                      = 902                                              
+ ROW_COLUMNS               = 1                                                
+ COLUMN_TYPE               = MSB_INTEGER                                      
+ COLUMN_BITS               = 32                                               
+ START_WAVELENGTH          = 1700.00                                          
+ WAVELENGTH_INTERVAL       = 1.86903                                          
+ WAVELENGTH_UNIT           = ANGSTROM                                         
+ NOTE                      = "SPECTROSCOPY, 1-D SPECTRUM"                     
+END_OBJECT                                                                    
+END                                                                           
+                                                                              

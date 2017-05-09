@@ -1,0 +1,282 @@
+***** File  CDTREE.TXT                                                        
+                                                                              
+                                                                              
+                        CD-ROM Subdirectory Tree                              
+                                                                              
+                            Jan 31, 1991                                      
+                                                                              
+                                                                              
+ROOT--I-----AAREADME.TXT   (abstract of entire volume contents)               
+      I                                                                       
+      I-----BROWSE----------------BRWZINFO.TXT   (24 subsampled LSPN images)  
+      I                           LSPN*.HDR                                   
+      I                           LSPN*.IBG                                   
+      I                           LSPN*.LBL                                   
+      I                                                                       
+      I-----CALIB-----------------CALINFO.TXT   (calibration files)           
+      I                           IRFT8*.HDR    (5 IRSN filter tables)        
+      I                           IRFT8*.LBL                                  
+      I                           IRFT8*.TAB                                  
+      I                           IRIM8*.HDR    (11 IRSN calibration images)  
+      I                           IRIM8*.IMG                                  
+      I                           IRIM8*.LBL                                  
+      I                           SPEC8*.DAT    (9 SSN calibration spectra)   
+      I                           SPEC8*.HDR                                  
+      I                           SPEC8*.LBL                                  
+      I                                                                       
+      I-----COMPRESS--------------COMPINFO.TXT   (24 compressed LPSN images)  
+      I                           LSPN*.HDR                                   
+      I                           LSPN*.IMQ                                   
+      I                           LSPN*.LBL                                   
+      I                                                                       
+      I-----CROMMELN------I---AMATEUR---AMV9*.FIT  (197 files)  (P/Crommelin  
+      I                   I                                      data arranged
+      I                   I---ASTROM----ASTR9*.FIT (375 files)   by Network)  
+      I                   I                                                   
+      I                   I---CALIB-----CR_CALIB.TXT   (calibration files)    
+      I                   I             IRFT99*.FIT  (8 files)                
+      I                   I             SPEC99*.FIT  (7 files)                
+      I                   I                                                   
+      I                   I---DOCUMENT--CROMGUID.TXT   (guide to P/Crommelin) 
+      I                   I             CR_CALIB.TXT                          
+      I                   I             CR_EPHEM.TXT                          
+      I                   I             CR_INDEX.TXT                          
+      I                   I             CR_OBSCD.TXT   (observatory codes)    
+      I                   I             CR_OBSCT.TXT   (observation count)    
+      I                   I             FITSFORM.TXT   (FITS data description)
+      I                   I                                                   
+      I                   I---EPHEM-----CR_EPHEM.TAB   (ephemeris for         
+      I                   I             CR_EPHEM.TXT    P/Crommelin)          
+      I                   I                                                   
+      I                   I---INDEX-----CROMINDX.LBL   (index tables for      
+      I                   I             CROMINDX.TAB    P/Crommelin data)     
+      I                   I             CR_INDEX.TXT                          
+      I                   I             CSUMINDX.LBL                          
+      I                   I             CSUMINDX.TAB                          
+      I                   I                                                   
+      I                   I---INFRARED--IRPH9*.FIT  (10 files)                
+      I                   I                                                   
+      I                   I---LS_PHEN---LSPN9*.FIT  (19 files)                
+      I                   I                                                   
+      I                   I---NEAR_NUC--NNSN9*.FIT   (5 files)                
+      I                   I                                                   
+      I                   I---PHOTOM----PFLX9*.FIT  (13 files)                
+      I                   I             PMAG9*.FIT   (1 file)                 
+      I                   I             PPOL9*.FIT   (8 files)                
+      I                   I                                                   
+      I                   I---RADIO-----RSCN9*.FIT  (18 files)                
+      I                   I             RSOH9*.FIT  (14 files)                
+      I                   I             RSSL9*.FIT  (11 files)                
+      I                   I                                                   
+      I                   I---SPECTR----SPEC9*.FIT   (9 files)                
+      I                                 SPEC99*.FIT  (7 files)                
+      I                                                                       
+      I-----DOCUMENT------I-----ACKNWLDG.TXT   (listing of contributors)      
+      I                   I                                                   
+      I                   I-----APPENDIX------AMATEUR.APX   (Network          
+      I                   I                   ASTROM.APX     appendices)      
+      I                   I                   IR.APX                          
+      I                   I                   LS_PHEN.APX                     
+      I                   I                   NEAR_NUC.APX                    
+      I                   I                   PHOTOM.APX                      
+      I                   I                   RADIO.APX                       
+      I                   I                   SP_CODE.HHH                     
+      I                   I                   SP_CODE.STR                     
+      I                   I                   SP_CODE.TAB                     
+      I                   I                   SP_CODE.TXT                     
+      I                   I                   SP_HIST.DAT                     
+      I                   I                   SP_HIST.TXT                     
+      I                   I                   SPECT.APX                       
+      I                   I                                                   
+      I                   I-----BACKGRND.TXT   (CD-ROM background)            
+      I                   I     BROWSE.TXT                                    
+      I                   I     BRWZINFO.TXT                                  
+      I                   I     CALINFO.TXT                                   
+      I                   I     CDSTRUCT.TXT   (loc. of files, space alloc.)  
+      I                   I     CDTREE.TXT     (this CD-ROM dir. structure)   
+      I                   I     COMPINFO.TXT                                  
+      I                   I     COMPRESS.TXT                                  
+      I                   I                                                   
+      I                   I-----CROMMELN------CROMGUID.TXT   (duplication of  
+      I                   I                   CR_CALIB.TXT    P/Crommelin     
+      I                   I                   CR_EPHEM.TXT    documentation)  
+      I                   I                   CR_INDEX.TXT                    
+      I                   I                   CR_OBSCD.TXT                    
+      I                   I                   CR_OBSCT.TXT                    
+      I                   I                   FITSFORM.TXT                    
+      I                   I                                                   
+      I                   I-----DECOMP.TXT                                    
+      I                         EPHEM.TXT                                     
+      I                         FITSCOMP.TXT   (FITS proposal for compression)
+      I                         FITSINFO.TXT   (describes FITS & IHW keywords)
+      I                         GZGUIDE.TXT    (guide to P/G-Z data)          
+      I                         HDRFORM.TXT    (FITS header description)      
+      I                         IMAGFORM.TXT   (image data description)       
+      I                         INDXINFO.TXT                                  
+      I                         INTRODUC.TXT   (introduction from Pr. Arch.)  
+      I                         LBLFORM.TXT    (PDS label description)        
+      I                         OBSCODES.TXT   (observatory codes for P/G-Z)  
+      I                         OBSCOUNT.TXT   (observation count for P/G-Z)  
+      I                         OBSNTERP.TXT                                  
+      I                         PATHTABL.TXT                                  
+      I                         PDSINFO.TXT    (PDS label information)        
+      I                         PREFACE.TXT    (preface from Pr. Arch.)       
+      I                         SOFTINFO.TXT                                  
+      I                         SPECFORM.TXT   (spectral data description)    
+      I                         TABLFORM.TXT   (table data description)       
+      I                         TEXTFORM.TXT   (text data description)        
+      I                         VOLUME.TXT     (summary of data on this       
+      I                                         CD-ROM volume)                
+      I-----EPHEM---------------EPHEM.TAB   (ephemeris for P/G-Z)             
+      I                         EPHEM.TXT                                     
+      I                                                                       
+      I-----INDEX---------I-----CDSTRUCT.DBF   (loc. of files, space alloc.)  
+      I                   I     CDSTRUCT.HDR                                  
+      I                   I     CDSTRUCT.IDX                                  
+      I                   I     CDSTRUCT.LBL                                  
+      I                   I     CDSTRUCT.STR                                  
+      I                   I     EPHEM.*        (ephemeris index for P/G-Z)    
+      I                   I     INDXINFO.TXT   (index file information)       
+      I                   I                                                   
+      I                   I-----NETABLES------AM_DRAW.*   (index for specific 
+      I                   I                   AM_PHOTO.*   Network or Sub-    
+      I                   I                   AM_VIS.*     Network)           
+      I                   I                   ASTROM.*                        
+      I                   I                   IR_IMAGE.*                      
+      I                   I                   IR_PHOT.*                       
+      I                   I                   IR_POL.*                        
+      I                   I                   IR_SPECT.*                      
+      I                   I                   LS_PHEN.*                       
+      I                   I                   NEAR_NUC.*                      
+      I                   I                   NETAMATV.*                      
+      I                   I                   NETLARGE.*                      
+      I                   I                   NETRADIO.*                      
+      I                   I                   NETSPECT.*                      
+      I                   I                   PHOT_FLX.*                      
+      I                   I                   PHOT_MAG.*                      
+      I                   I                   PHOT_POL.*                      
+      I                   I                   RADIO_CN.*                      
+      I                   I                   RADIO_OC.*                      
+      I                   I                   RADIO_SL.*                      
+      I                   I                   SPECTR.*                        
+      I                   I                                                   
+      I                   I-----OBSCODES.*   (observatory code index)         
+      I                         PATHTABL.*   (vol. & sub-dir. path to files)  
+      I                         QUIKPOST.*   (quick look index for all Nets;  
+      I                         QUIKPRE.*     pre- & post-perihelion)         
+      I                                                                       
+      I-----SOFTWARE------I-----BROWSE-----I-----BROWSE.TXT   (expl. MIDGET   
+      I                   I                I                   routine)       
+      I                   I                I-----FORTRAN--MIDGET.FOR          
+      I                   I                                                   
+      I                   I-----COMPRESS---I-----COMPRESS.TXT (Prevpix        
+      I                   I                I                    Pseudocode)   
+      I                   I                I-----FORTRAN--PACKER.FOR          
+      I                   I                I                                  
+      I                   I                I-----IDL------PREVPIX.PRO         
+      I                   I                                                   
+      I                   I-----DECOMP-----I-----C--------DECOMP.C            
+      I                   I                I              DO_DATA.C           
+      I                   I                I              DO_DFILE.C          
+      I                   I                I              DO_IFILE.C          
+      I                   I                I              DO_OFILE.C          
+      I                   I                I              HEADER.C            
+      I                   I                I              MAKEFILE.C          
+      I                   I                I              PCDECLSP.C          
+      I                   I                I              PCDECLSP.COM        
+      I                   I                I              PCDECLSP.PRJ        
+      I                   I                I              PCDECLSP.RSP        
+      I                   I                I              PCDECLSP.TXT        
+      I                   I                I              PUTKEY.C            
+      I                   I                I              TCCLIB--------*.*   
+      I                   I                I              XTENSION.C          
+      I                   I                I                                  
+      I                   I                I-----DECOMP.TXT  (decompression   
+      I                   I                I                  routine)        
+      I                   I                I-----FORTRAN--DECOMP.FOR          
+      I                   I                I                                  
+      I                   I                I-----PCDECLSP.COM                 
+      I                   I                                                   
+      I                   I-----INTERP-----I-----C--------ARGCH.C             
+      I                   I                I              INTERP.C            
+      I                   I                I              OBSNTERP.C          
+      I                   I                I                                  
+      I                   I                I-----FORTRAN--ARGCH2.FOR          
+      I                   I                I              INTERP.FOR          
+      I                   I                I              JDATE.FOR           
+      I                   I                I              OBSNTERP.FOR        
+      I                   I                I                                  
+      I                   I                I-----OBSNTERP.TXT  (observation   
+      I                   I                      PCNTERP.EXE    interpolation 
+      I                   I                      VAXNTERP.EXE   routine)      
+      I                   I                                                   
+      I                   I-----SOFTINFO.TXT   (software information)         
+      I                   I                                                   
+      I                   I-----UTILITY----I-----FITS2TXT.COM   (FITS         
+      I                                          FITSUTIL.EXE    utilities)   
+      I                                          FITSXTND.EXE                 
+      I                                          TXT2FITS.COM                 
+      I                                                                       
+      I-----VOLDESC.SFD   (SFDU volume description)                           
+      I                                                                       
+      I-----Y1984---------I-----ASTROM-----------ASTR*.*  (10 files)   (P/G-Z 
+      I                   I                                             data) 
+      I                   I-----EPHEM.TAB                                     
+      I                         NNSN*.*  (4 files)                            
+      I                                                                       
+      I-----Y1985---------I-----M03-----EPHEM.TAB                             
+      I                   I             *.*  (4 files)                        
+      I                   I                                                   
+      I                   I-----M04--------I-----AMATEUR------*.*   (2 files) 
+      I                   I                I                                  
+      I                   I                I-----ASTROM-------*.*  (31 files) 
+      I                   I                I                                  
+      I                   I                I-----EPHEM.TAB                    
+      I                   I                      *.*   (13 files)             
+               :                  :                                           
+      I                   I-----M08--------I-----D01--I--AMATEUR--*.*         
+      I                   I                I          I              (2 files)
+      I                   I                I          I--ASTROM---*.*         
+      I                   I                I          I             (10 files)
+      I                   I                I          I--EPHEM.TAB            
+      I                   I                I             *.*     ( 2 files)   
+               :                  :               :                           
+      I                   I                I-----D12--I--H00--I--AMATEUR--*.* 
+      I                   I                I          I       I      (4 files)
+      I                   I                I          I       I--ASTROM---*.* 
+      I                   I                I          I       I      (5 files)
+      I                   I                I          I       I--EPHEM.TAB    
+      I                   I                I          I          *.*          
+      I                   I                I          I             (63 files)
+                                                                              
+                                                                              
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                                                                              
+(FILE CODE WITH DISCIPLINE/SUBNETWORK DESIGNATIONS ORDERED BY IHW ID NUMBER)  
+                                                                              
+      Discipline                 Number    Subnetwork         Letter Code     
+                                                                              
+ Astrometry                        1           none              ASTR         
+ Infrared Studies                  2       Photometry            IRPH         
+                                           Polarimetry           IRPOL        
+                                           Spectroscopy          IRSP         
+                                           Image                 IRIM         
+                                           Filter Table          IRFT         
+ Large-Scale Phenomena             3          none               LSPN         
+ Near Nucleus Studies              4          none               NNSN         
+ Photometry & Polarimetry          5       Broad Band Magnitude  PMAG         
+                                           Narrow Band Flux      PFLX         
+                                           Polarimetry           PPOL         
+ Radio Studies                     6       Continuum             RSCN         
+                                           Occultation           RSOC         
+                                           OH                    RSOH         
+                                           Spectral Line         RSSL         
+ Spectroscopy & Spectrophotometry  7           none              SPEC         
+ Amateur Observations              8       Drawing               AMDR         
+                                           Photography           AMPG         
+                                           Visual Magnitude      AMV          
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              

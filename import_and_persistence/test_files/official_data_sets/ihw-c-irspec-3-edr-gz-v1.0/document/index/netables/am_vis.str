@@ -1,0 +1,24 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"AON_NUM    ","N", 6,0                                                        
+"MAG_GT     ","C", 1,0                                                        
+"MAGNITUDE  ","N", 4,1                                                        
+"MAG_COMMNT ","C", 1,0                                                        
+"METHOD     ","C", 1,0                                                        
+"CHART      ","C", 7,0                                                        
+"COMA_MAJOR ","N", 5,1                                                        
+"COMA_MINOR ","N", 5,1                                                        
+"DEGR_COND  ","N", 2,0                                                        
+"TAIL_LEN   ","N", 5,2                                                        
+"TAIL_POSANG","N", 3,0                                                        
+"APERTURE   ","N", 5,3                                                        
+"INSTRUMENT ","C", 2,0                                                        
+"FRATIO     ","N", 4,1                                                        
+"POWER      ","N", 3,0                                                        
+"LIM_MAG    ","N", 4,1                                                        
+"LIM_COMMNT ","C", 4,0                                                        
+"DARK_ADAPT ","C", 1,0                                                        
+"SITE       ","N", 2,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"NOTE_FLAG  ","C", 1,0                                                        
+"FILENAME   ","C", 8,0                                                        

@@ -1,0 +1,682 @@
+                SPECTROSCOPY AND SPECTROPHOTOMETRY NETWORK                                                                        
+                                                                                                                                  
+                                                                                                                                  
+This directory contains the digital appendices for  the  Spectroscopic                                                            
+and  Spectrophotometry  Network  (SSN)  for  the  International Halley                                                            
+Watch.  The files included are described below.                                                                                   
+                                                                                                                                  
+      o  SP_CODE.* - This is a set of files which contain and describe                                                            
+         a table to translate the DIS-CODE keyword into its meaningful                                                            
+         parts.  There is a description file (.TXT), a delimited  file                                                            
+         (.TAB),  a  table  header  file  (.STR), a FITS header (.FIT,                                                            
+         blocked for 2880 bytes), and a "readable" FITS header  (.HHH,                                                            
+         blocked for 80 bytes).  This table is intended for entry into                                                            
+         a database program for use.                                                                                              
+                                                                                                                                  
+      o  SP_HISTO.* - This  is a  histogram of  number  of spectra  in                                                            
+         archive vs  date.  The data (.DAT) is a two column ASCII file.                                                           
+         There is a description file as well (.TXT).                                                                              
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+          The 1985 apparition of comet P/Giacobini-Zinner became historical with                                                  
+the success of the U.S. International Cometary Explorer (ICE), the first space-                                                   
+craft mission to a comet.  On 11 September 1985, six days after perihelion, the                                                   
+ICE spacecraft passed through the coma, approaching to within 7800 km of the                                                      
+comet's nucleus.  Spectroscopic observations obtained while the ICE spacecraft                                                    
+transited the coma are included in the IHW Spectroscopy and Spectrophotometry                                                     
+Network (SSN) archive together with good coverage of spectra obtained both                                                        
+before and after perihelion.                                                                                                      
+                                                                                                                                  
+          The personnel of the Discipline Specialist Team of the Spectroscopy                                                     
+and Spectrophotometry Network is listed in Table I.  The Center collected 433                                                     
+spectra of the comet and associated calibration spectra.  The completed spectro-                                                  
+scopic archive includes observations that cover the period from 6 months prior                                                    
+to perihelion to 4 months after perihelion, which corresponds to heliocentric                                                     
+distances of 2.3 and 1.6 AU, respectively.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Spectroscopy and Spectrophotometry                                                    
+          Network                                                                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member          Affiliation                 Responsibility                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Susan Wyckoff        Physics Department          Discipline Specialist                                                            
+                     Arizona State University                                                                                     
+                     Tempe, AZ 85281                                                                                              
+                     U.S.A.                                                                                                       
+                                                                                                                                  
+Peter A. Wehinger    Physics Department          Discipline Specialist                                                            
+                     Arizona State University                                                                                     
+                                                                                                                                  
+Michel Festou        Observatoire de Besancon    Discipline Specialist                                                            
+                     F-2544 Besancon Cedex                                                                                        
+                     France                                                                                                       
+                                                                                                                                  
+Beverly Dunlap       Physics Department          Office Manager & Data Assistant                                                  
+                     Arizona State University                                                                                     
+                                                                                                                                  
+Anthony J. Ferro     Physics Department          Scientific Programmer & Data                                                     
+                     Arizona State University      Assistant                                                                      
+                                                                                                                                  
+Gregory Loper        Physics Department          Archivist & Data Cataloguer                                                      
+                     Arizona State University                                                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+          The detectors used to record the spectra in the archive include a                                                       
+microchannel plate with output recorded on photographic film, an SEC Vidicon for                                                  
+IUE data, a scanning photoelectric scanner, an image dissector scanner, and                                                       
+several different charge-coupled devices (CCDs).  The spectrographs were all                                                      
+located at the Cassegrain foci of telescopes which ranged in aperture from 2 to                                                   
+4 meters, situated in both the northern and southern hemispheres.  Ten percent                                                    
+of the archive data were obtained with CCDs and are in two-dimensional format.                                                    
+                                                                                                                                  
+          The Discipline Specialist Team requested that the spectroscopic obser-                                                  
+vations be submitted in FITS format, and both flux and wavelength calibrated.                                                     
+Most submitters complied with this request.  The FITS headers identify the                                                        
+spectra in the archive that are not in the SSN standard units (ergs cm-2 s-1                                                      
+Angstrom-1 for flux, and Angstrom units for wavelength), or are not calibrated.                                                   
+                                                                                                                                  
+          The archive appears in two forms, printed and digital.  In the printed                                                  
+version, the temporal distribution of the observations is presented in Fig. 1.                                                    
+In the digital version, this figure can be generated from information in the                                                      
+file HISTO.* (cf. Sec. III).                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+II. THE PRINTED ARCHIVE                                                                                                           
+                                                                                                                                  
+          The printed archive is a hard-copy volume which contains a one-line                                                     
+description of each spectrum extracted from the digital archive (Sec. III).  The                                                  
+column headings given for each spectrum in the printed archive are described in                                                   
+Table II.                                                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+Table II.  Entries in the Printed Archive                                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Heading            Description                                                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date(UT)           Date (day & fraction of day) of middle of observation [UT].                                                    
+                     Same as FITS keywords DATE-OBS and TIME-OBS.                                                                 
+                                                                                                                                  
+SSN#               A running number for each observation, where initial digit 7                                                   
+                     identifies the Spectroscopy and Spectrophotometry Network.                                                   
+                     Same as FITS keyword FILE-NUM.                                                                               
+                                                                                                                                  
+Resol              Approximate spectral resolution [Angstrom].  Same as FITS                                                      
+                     keyword RESOL-SP.                                                                                            
+                                                                                                                                  
+Range              Approximate spectral range [Angstrom].  Same as FITS keyword                                                   
+                     RANGE-SP.                                                                                                    
+                                                                                                                                  
+ExpS               Exposure or integration time of observation [s]. Same as FITS                                                  
+                     keyword EXPOSURE.                                                                                            
+                                                                                                                                  
+DiscCode           Discipline specific code.  This is a 9 digit number giving                                                     
+                     coded information about the observation.  The detector                                                       
+                     number, the instrument number (both assigned by the SSN),                                                    
+                     the wavelength region, the approximate spectral resolution                                                   
+                     and the quality of the data are encoded as DDCCWWWRQ where:                                                  
+                                                                                                                                  
+                     DD = detector number                                                                                         
+                     CC = instrument configuration number                                                                         
+                     WWW = wavelength region included.  A binary coding scheme                                                    
+                       has been used to specify a unique number for a wavelength                                                  
+                       region.  This number is the sum of all defined values                                                      
+                       from the table below for each spectral region present.                                                     
+                       The defined values and the corresponding wavelength                                                        
+                       regions [A] are:                                                                                           
+                                                                                                                                  
+                       1 = < 3000                                                                                                 
+                       2 = 3000 - 3499                                                                                            
+                       4 = 3500 - 3999                                                                                            
+                       8 = 4000 - 4999                                                                                            
+                       16 = 5000 - 5999                                                                                           
+                       32 = 6000 - 6999                                                                                           
+                       64 = 7000 - 7999                                                                                           
+                       128 = 8000 - 10000                                                                                         
+                       256 = > 10000                                                                                              
+                                                                                                                                  
+                     Example: for 3200-6900 A, WWW = 2+4+8+16+32 = 062.                                                           
+                                                                                                                                  
+                     R = spectral resolution.  This digit is assigned a value                                                     
+                       based on the corresponding spectral resolutions (FWHM in                                                   
+                       A) given below:                                                                                            
+                                                                                                                                  
+                       1 = <= 0.05                                                                                                
+                       2 = > 0.05 - 0.2                                                                                           
+                       3 = > 0.2 - 1                                                                                              
+                       4 = > 1 - 5                                                                                                
+                       5 = > 5 - 10                                                                                               
+                       6 = > 10 - 20                                                                                              
+                       7 = > 20 - 50                                                                                              
+                       8 = > 50 - 100                                                                                             
+                       9 = > 100                                                                                                  
+                                                                                                                                  
+                     Q = quality of the data.  A subjective judgement on the                                                      
+                       quality of the data is taken from the QUALITY keyword.                                                     
+                       The following values are assigned:                                                                         
+                                                                                                                                  
+                       0 = Unknown                                                                                                
+                       1 = Excellent                                                                                              
+                       2 = Very Good                                                                                              
+                       3 = Good                                                                                                   
+                       4 = Fair                                                                                                   
+                       5 = Poor                                                                                                   
+                                                                                                                                  
+Typ                Data type.  Same as FITS keyword DAT-TYPE.  One of the                                                         
+                     following:                                                                                                   
+                                                                                                                                  
+                     U = Unknown                                                                                                  
+                     R = Reduced Digital                                                                                          
+                     X = Raw Digital                                                                                              
+                     P = Photographic                                                                                             
+                     O = Objective Prism                                                                                          
+                     I = Interferometer                                                                                           
+                     S = Space Borne                                                                                              
+                                                                                                                                  
+Slit               Aperture diameter (for a circular slit) or slit width and                                                      
+                     length (for a rectangular slit) given [arcsec].  Same as                                                     
+                     FITS keyword APERSIZE.                                                                                       
+                                                                                                                                  
+PAs                Position angle of slit, measured north through east [deg].                                                     
+                     Same as FITS keyword POSANG.                                                                                 
+                                                                                                                                  
+Airm               Airmass of observation, followed by a character to indicate                                                    
+                     whether its value is for beginning (B), middle (M), end                                                      
+                     (E), average (A) of observation. Same as FITS keywords                                                       
+                     AIRM-BEG, AIRM-MID, AIRM-END, and AIRM-AVE.                                                                  
+                                                                                                                                  
+N                  Number of axes in data.  Same as FITS keyword NAXIS.                                                           
+                                                                                                                                  
+n(lambda)          Number of pixels in wavelength direction.  Same as FITS key-                                                   
+                     word NAXIS1.                                                                                                 
+                                                                                                                                  
+n(y)               Number of pixels in spatial direction.  Same as FITS keyword                                                   
+                     NAXIS2.                                                                                                      
+                                                                                                                                  
+C                  Code for type of first independent variable.  Same as FITS                                                     
+                     keyword CTYPE1.                                                                                              
+                                                                                                                                  
+                     1 = Angstrom                                                                                                 
+                     2 = Velocity [km/s]                                                                                          
+                     3 = Pixel number                                                                                             
+                     4 = Projected distance [arcsec]                                                                              
+                     5 = Other (described in COMMENT filed in header)                                                             
+                                                                                                                                  
+B                  Code for type of dependent variable.  Same as FITS keyword                                                     
+                     BUNIT.                                                                                                       
+                                                                                                                                  
+                     1 = Flux per wavelength interval                                                                             
+                     2 = Flux per frequency interval                                                                              
+                     3 = Flux in Rayleighs per Angstrom unit                                                                      
+                     4 = Relative intensity                                                                                       
+                     5 = Counts or counts per second                                                                              
+                     6 = Density                                                                                                  
+                     7 = Other (described in COMMENT field in header)                                                             
+                                                                                                                                  
+Offset rho         Separation between center of slit or aperture and center of                                                    
+                     nucleus [arcsec].                                                                                            
+                                                                                                                                  
+Offset theta       Orientation of the slit center with respect to the center of                                                   
+                     the nucleus, measured from north through east [deg].  Same                                                   
+                     as FITS keyword ORIENT.                                                                                      
+                                                                                                                                  
+System             System station code.  This is an eight digit number.  The                                                      
+                     first digit is the IHW network number, followed by the                                                       
+                     3-digit IAU observatory number, a 2-digit telescope number                                                   
+                     assigned by the Large Scale Phenomena Network, and an                                                        
+                     instrument/detector number assigned by the SSN.  Same as                                                     
+                     FITS keyword SYSTEM.                                                                                         
+                                                                                                                                  
+Observer(s)        The main observer(s) during the observation.  Same as FITS                                                     
+                     keyword OBSERVER                                                                                             
+                                                                                                                                  
+Notes              This field indicates if there are any special notes about the                                                  
+                     observation.  Same as FITS keyword COMMENT NOTE.                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+          Representative spectra of comet P/Giacobini-Zinner are also included                                                    
+in the printed archive.  The data submitted to the SSN Network were of two basic                                                  
+types, one- or two-dimensional spectra.  The one-dimensional spectra are                                                          
+presented as plots of flux vs. wavelength.  The two-dimensional spectra are                                                       
+presented as gray-scale images in the printed archive.  Approximately 10 percent                                                  
+of the SSN data is in form of two-dimensional spectra obtained with long-slit                                                     
+spectrographs.                                                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+III. DIGITAL ARCHIVE                                                                                                              
+                                                                                                                                  
+          The digital archive on the CD-ROM laser disk contains all of the                                                        
+spectroscopic data of comet P/Giacobini-Zinner together with related appendices                                                   
+and a table.  Each archived spectrum (one- or two-dimensional) consists of a set                                                  
+of three files:                                                                                                                   
+                                                                                                                                  
+1.  A Planetary Data System (PDS) header -- a short header describing the data                                                    
+    file, so that PDS software can be used to display the archived data.  Note                                                    
+    that only minimal header information is included in this file.                                                                
+                                                                                                                                  
+2.  Flexible Image Transport System (FITS) header -- a longer header in FITS                                                      
+    format (Wells et al. 1981).  The FITS header contains both standard keywords                                                  
+    as well as keywords specific to the IHW-SSN. The FITS keywords are described                                                  
+    below and in the digital files INTRO.TXT (this writeup) and CODE.*.  The                                                      
+    purpose of the FITS header is to describe the data contained in the                                                           
+    associated file.  Programs such as the Image Reduction and Analysis Facility                                                  
+    (IRAF) developed at the National Optical Astronomy Observatories (NOAO) can                                                   
+    be used to display and analyze the FITS formated archive data.                                                                
+                                                                                                                                  
+3.  Data -- the data in the form of an integer byte stream are in the associated                                                  
+    data file.                                                                                                                    
+                                                                                                                                  
+          To aid users of the digital archive on the CD-ROM disk in examining                                                     
+the contents of the SSN data, several descriptive appendices and tables have                                                      
+been included in the digital version of the archive.  The appendices include                                                      
+statistics on the number of spectra in the archive (HISTO.*), as well as this                                                     
+file (INTRO.TXT).  In addition a set of files is included in the digital archive                                                  
+(CODE.*), which translates the FITS header keyword DIS-CODE and which presents                                                    
+the archive user with files that facilitate the use of data base programs to                                                      
+examine the contents of the archive.  The appendices and the de-coding table are                                                  
+described in Table III and more fully in the appropriate digital files:                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table III.  Description of Appendices to Digital Archive                                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+File           Contents                                                                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+AAREADME.TXT   General description and table of contents of the digital files                                                     
+                 which consist of the SSN appendices, and the DIS-CODE table,                                                     
+                 together with its associated files.                                                                              
+                                                                                                                                  
+INTRO.TXT      Copy of this writeup.                                                                                              
+                                                                                                                                  
+HISTO.*        Statistical compilation of the number of spectra of P/Giacobini-                                                   
+                 Zinner included in the archive and the times of observation.                                                     
+                 This file can be used to construct a histogram for the obser-                                                    
+                 vational coverage of the SSN.                                                                                    
+                                                                                                                                  
+CODE.*         Set of files which describe and translate the FITS keyword                                                         
+                 DIS-CODE.  The purpose of including this keyword in the header                                                   
+                 for each spectrum in the archive is to facilitate data base                                                      
+                 program searches of the spectra.  The DIS-CODE keyword is a                                                      
+                 9-digit coded integer which contains information about the                                                       
+                 instrumentation used to obtain the spectrum, the wavelength                                                      
+                 range, aperture size and the spectral resolution, as well as                                                     
+                 the quality of the spectrum.  DIS-CODE is described fully                                                        
+                 below, and files are given in CODE.* to aid translating                                                          
+                 DIS-CODE by entering it into data base programs.  The CODE.TAB                                                   
+                 file lists the translations of the DIS-CODE keyword in tabular                                                   
+                 form.  The DIS-CODE keyword is defined by information provided                                                   
+                 in the FITS header of any spectrum.  The table contained in                                                      
+                 CODE.TAB is formatted for ease of use in data base programs                                                      
+                 (as a delimited format table).  As an aid for using CODE.TAB                                                     
+                 in data base programs, another file is provided, CODE.STR,                                                       
+                 which may be used to define a DIS-CODE table format in a data                                                    
+                 base program.  The CODE.STR file contains a data base format                                                     
+                 that gives the column heading entry type (character, numerical                                                   
+                 or date), the column widths and the number of decimal places                                                     
+                 for using a data base program to display the table in CODE.TAB.                                                  
+                 A header file CODE.FIT for the CODE.TAB file is also supplied,                                                   
+                 which when attached to the data in CODE.TAB provides a header                                                    
+                 in standard FITS format.  The file CODE.HHH contains the same                                                    
+                 data as the CODE.FIT file, but has 80 byte records (as opposed                                                   
+                 to 2880 for the CODE.FIT file).  This is to allow easy display                                                   
+                 of the file.                                                                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+IV. DESCRIPTION OF IHW-SSN FITS KEYWORDS                                                                                          
+                                                                                                                                  
+                                                                                                                                  
+          Table IV describes the keywords used in the FITS headers of the SSN                                                     
+data.  Each keyword is listed in capital letters, followed by an initial that                                                     
+indicates whether the variable is a logical (L), integer (I), floating point                                                      
+(F), or character string (C).                                                                                                     
+                                                                                                                                  
+          For several FITS keywords, there are several forms of the keyword,                                                      
+usually relating to various axes.  In these cases, the keyword is listed as                                                       
+XXXXn, where n is the number of the axis which the keyword describes.                                                             
+                                                                                                                                  
+                                                                                                                                  
+Table IV.  Keywords in the FITS headers                                                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword   Type  Description                                                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+SIMPLE     L    Does the file conform to the FITS format?  If yes, the keyword                                                    
+                  is set to T.  Otherwise the keyword is F.  This keyword should                                                  
+                  be set to true for all SSN files.                                                                               
+                                                                                                                                  
+BITPIX     I    Keyword contains the number of bits in each pixel.  This value                                                    
+                  is either 16 or 32 for SSN data.                                                                                
+                                                                                                                                  
+NAXIS      I    Keyword contains the number of axes in the data: 1-dimensional                                                    
+                  spectra have a value of 1, 2-dimensional spectra a value of 2.                                                  
+                                                                                                                                  
+NAXISn     I    n is a number in the range of 1 to NAXIS.  Keyword contains the                                                   
+                  length of axis. NAXIS1 is the dimension of the fastest varying                                                  
+                  axis in the data.  NAXIS2 is the second fastest varying axis,                                                   
+                  etc.                                                                                                            
+                                                                                                                                  
+EXTEND     L    Does the file contain extensions conforming to the FITS stan-                                                     
+                  dards?  For all SSN data files, EXTEND = F (no extensions).                                                     
+                                                                                                                                  
+                                                                                                                                  
+OBJECT     C    Keyword contains the name of the object of the data.                                                              
+                                                                                                                                  
+FILE-NUM   I    This is a running number of the files sent to the archive.  All                                                   
+                  values have six places and, for the SSN, begin with 7.  For                                                     
+                  P/Giacobini-Zinner, file numbers are in the range of 700100 to                                                  
+                  700999.                                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+DATE-OBS   C    Universal Time [UT] date of middle of data acquisition.  Date is                                                  
+                  given in the FITS standard of day, month, year (DD/MM/YY).                                                      
+                                                                                                                                  
+TIME-OBS   F    Fractional part of day, indicating the UT time of the middle of                                                   
+                  data acquisition.  The keyword has a value ranging from 0.0 to                                                  
+                  0.99999.                                                                                                        
+                                                                                                                                  
+DATE-REL   C    Date the submitter or submitters agree to release their data to                                                   
+                  the public.                                                                                                     
+                                                                                                                                  
+DISCIPLN   C    IHW Discipline.  For the SSN the value is always SPECTROSCOPY.                                                    
+                                                                                                                                  
+LONG-OBS   C    East longitude of observation station.  Keyword value range is                                                    
+                  from 00/00/00 to 359/59/59.                                                                                     
+                                                                                                                                  
+LAT--OBS   C    Latitude of observation station.  Degrees north or south are                                                      
+                  indicated by a preceding '+' or '-', respectively, 0 has no                                                     
+                  sign.                                                                                                           
+                                                                                                                                  
+SYSTEM     C    Station system code.  Keyword is a number of the form 7nnnttii,                                                   
+                  where:                                                                                                          
+                                                                                                                                  
+                  7 = Discipline number (SSN)                                                                                     
+                  nnn = IAU Observatory Number                                                                                    
+                  tt = Telescope Number, as assigned by the IHW Large Scale                                                       
+                    Phenomena Network (LSPN)                                                                                      
+                  ii = Instrument/Detector Number, assigned by the SSN, and                                                       
+                    corresponds to DD in DIS-CODE keyword                                                                         
+                                                                                                                                  
+OBSERVER   C    Name of observer.  If more than two observers, first observer                                                     
+                  listed, followed by ET AL.  Additional observers are listed                                                     
+                  in COMMENT ADD.OBS. keyword.                                                                                    
+                                                                                                                                  
+SUBMITTR   C    Name of person or persons who submitted the data to the IHW SSN.                                                  
+                                                                                                                                  
+SPEC-EVT   L    If true, some special event occurred during observation.  See                                                     
+                  COMMENTs and HISTORYs for more information.                                                                     
+                                                                                                                                  
+DAT-FORM   C    Form of the data.  One of: ASCII, STANDARD, HARDCOPY, NODATA.                                                     
+                                                                                                                                  
+DAT-TYPE   C    Type of data being submitted.  One of: UNKNOWN, REDUCED DIGITAL,                                                  
+                  RAW DIGITAL, PHOTOGRAPHIC, OBJECTIVE PRISM, INTERFEROMETRIC,                                                    
+                  SPACE BORNE.                                                                                                    
+                                                                                                                                  
+DIS-CODE   C    This keyword contains a 9-digit integer with the digits defined                                                   
+                  as DDCCWWWRQ, where:                                                                                            
+                                                                                                                                  
+                  DD = Detector/Instrument combination.  This is a unique number                                                  
+                    for each combination and has been assigned by the SSN.  This                                                  
+                    value is the same as ii in the SYSTEM code.                                                                   
+                                                                                                                                  
+                  CC = Configuration (grating, grating tilt, filter, aperture                                                     
+                    size, order, etc.) for given telescope and detector/instru-                                                   
+                    ment combination.                                                                                             
+                                                                                                                                  
+                  WWW = Wavelength range [Angstrom], included in data.  A binary                                                  
+                    coding scheme is used to specify a unique number for a                                                        
+                    unique set of wavelength regions.  The number is the sum of                                                   
+                    all defined values for each spectral region in which data                                                     
+                    are submitted:                                                                                                
+                                                                                                                                  
+                    1 = <3000                                                                                                     
+                    2 = 3000-3499                                                                                                 
+                    4 = 3500-3999                                                                                                 
+                    8 = 4000-4999                                                                                                 
+                    16 = 5000-5999                                                                                                
+                    32 = 6000-6999                                                                                                
+                    64 = 7000-7999                                                                                                
+                    128 = 8000-10000                                                                                              
+                    256 = >10000                                                                                                  
+                                                                                                                                  
+                  Example: for 3700-6400 A, WWW = 4+8+16+32 = 60.                                                                 
+                                                                                                                                  
+                  R = Resolution.  This parameter is based on the spectral                                                        
+                    resolution (FWHM in Angstrom).                                                                                
+                                                                                                                                  
+                    1 = <= 0.05                                                                                                   
+                    2 = > 0.05 - 0.2                                                                                              
+                    3 = > 0.2 - 1                                                                                                 
+                    4 = > 1 - 5                                                                                                   
+                    5 = > 5 - 10                                                                                                  
+                    6 = > 10 - 20                                                                                                 
+                    7 = > 20 - 50                                                                                                 
+                    8 = > 50 - 100                                                                                                
+                    9 = > 100                                                                                                     
+                                                                                                                                  
+                  Q = Quality of the data. We adopted a qualitative judgement                                                     
+                    for this parameter, and the values are the same as the                                                        
+                    QUALITY keyword.                                                                                              
+                                                                                                                                  
+                    0 = Unknown                                                                                                   
+                    1 = Excellent                                                                                                 
+                    2 = Very Good                                                                                                 
+                    3 = Good                                                                                                      
+                    4 = Fair                                                                                                      
+                    5 = Poor                                                                                                      
+                                                                                                                                  
+                The files CODE.* contain a full listing of the discipline                                                         
+                  codes used for P/Giacobini-Zinner, as well as the components                                                    
+                  which define the DIS-CODE values.  These files may be read                                                      
+                  into a database program, and used to translate DIS-CODE                                                         
+                  values.                                                                                                         
+                                                                                                                                  
+OBSVTORY   C    Name of observatory from which data were obtained.                                                                
+                                                                                                                                  
+ELEV-OBS   F    Elevation of the observing station [m].                                                                           
+                                                                                                                                  
+TELESCOP   C    Telescope used for observation.  Where possible, the telescope                                                    
+                  name as listed in the Astronomical Almanac has been used.                                                       
+                                                                                                                                  
+INSTRUME   C    Instrument and detector used to obtain data.                                                                      
+                                                                                                                                  
+RESOL-SP   C    Approximate spectral resolution of data [Angstrom].                                                               
+                                                                                                                                  
+RANGE-SP   C    Approximate spectral range of data [Angstrom].                                                                    
+                                                                                                                                  
+EXPOSURE   F    Exposure or integration time [s].                                                                                 
+                                                                                                                                  
+APERSIZE   C    Entrance aperture size or slit width and length of instrument                                                     
+                  or detector [arcsec].                                                                                           
+                                                                                                                                  
+Airmass    F    One of the following:                                                                                             
+                                                                                                                                  
+                  AIRM-BEG = Airmass at beginning of observation.                                                                 
+                  AIRM-END = Airmass at end of observation.                                                                       
+                  AIRM-MID = Airmass at midpoint of observation.                                                                  
+                  AIRM-AVE = Average of airmass of observation.                                                                   
+                                                                                                                                  
+SEPNUC     F    Separation between the comet nucleus and center of slit or                                                        
+                  aperture [arcsec]; see Fig. 2.                                                                                  
+                                                                                                                                  
+ORIENT     F    Position angle of slit or aperture center with respect to the                                                     
+                  comet's nucleus, measured north through east, ranging from                                                      
+                  0 to 360 deg; see Fig. 2.                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+                                          N                                                                                       
+                                  ORIENT  ^                                                                                       
+                                       |  |                                                                                       
+                                       |  |                                                                                       
+                            POSANG     | /|      Tail                                                                             
+                               \    N  |/ |     /                                                                                 
+                  E <---        \   ^  (  *=======                                                                                
+                                 \  |   \/ \                                                                                      
+                                  \ |   /   Nucleus                                                                               
+                                 \ \|  /                                                                                          
+                                  \^| /------ SEPNUC                                                                              
+                                   \|/                                                                                            
+                  Slit Center ------\                                                                                             
+                                     \                                                                                            
+                                      \---- Slit                                                                                  
+                                       \                                                                                          
+                                                                                                                                  
+                     Fig. 2. Definition of angles.                                                                                
+                                                                                                                                  
+                                                                                                                                  
+POSANG     F    Position angle of the slit measured north through east, ranging                                                   
+                  from 0 to 360 deg.  Two-dimensional spectra only (Fig. 2).                                                      
+                  See COMMENT and HISTORY sections for observers' variations of                                                   
+                  this definition.                                                                                                
+                                                                                                                                  
+PIXSCALE   F    Image scale at detector [arcsec per pixel].  Two-dimensional                                                      
+                  spectra only.                                                                                                   
+                                                                                                                                  
+QUALITY    I    A subjective, qualitative estimate of the data.  Values used:                                                     
+                  UNKNOWN, EXCELLENT, VERY GOOD, GOOD, FAIR, and POOR.                                                            
+                                                                                                                                  
+CTYPEn     C    n is a number between 1 and NAXIS.  Name of the independent                                                       
+                  variables:                                                                                                      
+                                                                                                                                  
+                  LAMBDAA = Wavelength [Angstrom].                                                                                
+                  VELOCITY = Velocity [km/s].                                                                                     
+                  PIXELS = Pixel number.                                                                                          
+                  RHO = Projected distance [arcsec].                                                                              
+                  OTHER = Described in a comment.                                                                                 
+                                                                                                                                  
+BUNIT      C    Name of dependent variable:                                                                                       
+                                                                                                                                  
+                  FLAMBDA = Flux per wavelength [erg/cm2/s/Angstrom].                                                             
+                  FNU = Flux per frequency [erg/cm2/s/Hz].                                                                        
+                  RAYLAMBDA = Flux per wavelength [Rayleighs/Angstrom].                                                           
+                  RELINS = Relative intensity.                                                                                    
+                  COUNTS = Counts or count rate [counts/s].                                                                       
+                  DENSITY = Photographic density.                                                                                 
+                  OTHER = Described in a comment.                                                                                 
+                                                                                                                                  
+CRVALn     F    Reference point for CTYPEn.                                                                                       
+                                                                                                                                  
+CRPIXn     F    Reference pixel location corresponding to CRVALn.                                                                 
+                                                                                                                                  
+CDELTn     F    Increment in CTYPEn per pixel.                                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+          In addition the FITS headers include a number of HISTORY, COMMENT, and                                                  
+related keywords.  They are listed in Table V.                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Table V. HISTORY, COMMENT, and related keywords in the FITS headers                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword                         Type  Description                                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+HISTORY DATE-REC                  C   Date the file was received by the SSN.                                                      
+                                                                                                                                  
+HISTORY DATE-CMP                  C   Date of completion of the file archiving.                                                   
+                                                                                                                                  
+HISTORY REDUCED                   C   Known data reduction steps.                                                                 
+                                                                                                                                  
+HISTORY                           C   Other history if known.                                                                     
+                                                                                                                                  
+COMMENT ADD.OBS.                  C   Additional observers.                                                                       
+                                                                                                                                  
+COMMENT NOTE                      C   Some important note on the data extracted                                                   
+                                        from COMMENT or HISTORY fields to appear                                                  
+                                        in the printed archive listing.                                                           
+                                                                                                                                  
+COMMENT PROC FILE and ORIG. FILE  C   Comment regarding original file identifi-                                                   
+                                        cation of the submitted file.  Often                                                      
+                                        file name consists of position of file                                                    
+                                        on original submission tape.  Used for                                                    
+                                        SSN archiving.                                                                            
+                                                                                                                                  
+COMMENT REPLACE                   C   A note that this file supercedes another                                                    
+                                        file (previous file would have been                                                       
+                                        deleted from the archive).                                                                
+                                                                                                                                  
+COMMENT                           C   Additional comments about the data.                                                         
+                                                                                                                                  
+DATAMAX                           F   Maximum value of dependent variable.                                                        
+                                                                                                                                  
+DATAMIN                           F   Minimum value of dependent variable.                                                        
+                                                                                                                                  
+BSCALE                            F   Scale factor to convert FITS pixel values                                                   
+                                        to true values.  Used to convert FITS                                                     
+                                        data to original data values:                                                             
+                                        DataValue = BZERO + BSCALE*FileDataValue                                                  
+                                                                                                                                  
+BZERO                             F   Offset applied to true pixel values.                                                        
+                                                                                                                                  
+END                               C   Signals end of FITS header.                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+V. SSN OBSERVERS                                                                                                                  
+                                                                                                                                  
+          This archive was made possible thanks to the contributions by the 27                                                    
+participating observers from three countries.  The names and affiliations of                                                      
+these observers are listed in Table VI.                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table VI.  List of Observers                                                                                                      
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Observer          Affiliation                           Country                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+A'Hearn, M.     University of Maryland                  U.S.A.                                                                    
+Barker, E.      University of Texas at Austin           U.S.A.                                                                    
+Belton, M.      Kitt Peak National Observatory/NOAO     U.S.A.                                                                    
+Boehnhardt, H.  Max-Planck-Institut fuer Aeronomie      Federal Republic Germany                                                  
+Cochran, A.     University of Texas at Austin           U.S.A.                                                                    
+Cochran, Wm.    University of Texas at Austin           U.S.A.                                                                    
+DiSanti, M.     LPL, University of Arizona              U.S.A.                                                                    
+Feldman, P.     Johns Hopkins University                U.S.A.                                                                    
+Festou, M.      Observatoire de Besancon                France                                                                    
+Filippenko, A.  University of California at Berkeley    U.S.A.                                                                    
+Fink, U.        LPL, University of Arizona              U.S.A.                                                                    
+Green, J.       University of Texas at Austin           U.S.A.                                                                    
+Konno, I.       Arizona State University                U.S.A.                                                                    
+Larson, S.      LPL, University of Arizona              U.S.A.                                                                    
+Lutz, B.        Lowell Observatory                      U.S.A.                                                                    
+McCarthy, P.    Las Campanas/Mt. Wilson Observatories   U.S.A.                                                                    
+McFadden, L.    University of California at San Diego   U.S.A.                                                                    
+O'Dell, C.R.    Rice University                         U.S.A.                                                                    
+Sargent, W.     Palomar Observatory, Caltech            U.S.A.                                                                    
+Sawyer, S.      University of Texas at Austin           U.S.A.                                                                    
+Sonneborn, G.   NASA Goddard Space Flight Center        U.S.A.                                                                    
+Spinrad, H.     University of California at Berkeley    U.S.A.                                                                    
+Strauss, M.     University of California at Berkeley    U.S.A.                                                                    
+Tegler, S.      Arizona State University                U.S.A.                                                                    
+Wagner, R.M.    Lowell Observatory                      U.S.A.                                                                    
+Wehinger, P.    Arizona State University                U.S.A.                                                                    
+Wyckoff, S.     Arizona State University                U.S.A.                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+ACKNOWLEDGMENTS                                                                                                                   
+                                                                                                                                  
+          Besides the members of the Discipline Specialist Team (Table I), the                                                    
+following individuals also participated in archiving the SSN P/Giacobini-Zinner                                                   
+data.  They contributed greatly to the completion of the archive: K. Byard, L.                                                    
+Engel, I. Kono, E. Lindholm, L. McKibben, B. Pfarr, D. Reisinger, D. Schleicher,                                                  
+S. Tegler, J. Theobald, R.M. Wagner, and  M. Womack.                                                                              
+                                                                                                                                  
+                                                                                                                                  
+REFERENCE                                                                                                                         
+                                                                                                                                  
+Wells, D.C., Greisen, E.W., and Harten, R.H. (1981).  Astron. Astrophys. Suppl.                                                   
+        Ser. 44, 363.                                                                                                             
+                                                                                                                                  

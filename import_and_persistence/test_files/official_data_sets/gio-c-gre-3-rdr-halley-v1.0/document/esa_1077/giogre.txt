@@ -1,0 +1,655 @@
+***** File GIOGRE.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.  Table 1 was missing                                                                   
+from the printed version and is not included.                                                                                     
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+The Giotto Radio- Science                                                                                                         
+Experiment                                                                                                                        
+                                                                                                                                  
+P.  Edenhofer                                                                                                                     
+Institut fur Hoch- und Hochstfrequenztechnik, University of Bochum, W.  Germany                                                   
+                                                                                                                                  
+M.K. Bird                                                                                                                         
+Radioastronomisches Institut, University of Bonn, W. Germany                                                                      
+                                                                                                                                  
+H. Buschert                                                                                                                       
+Institut fur Hoch- und Hochstfrequenztechnik, University of Bochum, W.  Germany                                                   
+                                                                                                                                  
+P.B. Esposito                                                                                                                     
+Jet Propulsion Laboratory, Pasadena, USA                                                                                          
+                                                                                                                                  
+H. Porsche                                                                                                                        
+Institut fur Physik der Atmosphare, Deutsche Forschungs- und Versuchsanstalt fur Luft- und Raumfahrt (DFVLR),                     
+Oberpfaffenhofen, W.  Germany                                                                                                     
+                                                                                                                                  
+H. Volland                                                                                                                        
+Radioastronomisches Institut, University of Bonn, W. Germany                                                                      
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+  The scientific objectives of the Giotto Radio-Science Experiment (GRE) are to                                                   
+determine both the columnar electron content of Comet Halley's ionosphere and the                                                 
+cometary mass fluence from atmospheric drag by using the radio signals from Giotto                                                
+during the Halley encounter on 13 - 14 March 1986. The radio-science data (S- and                                                 
+X-band Doppler and range measurements) will be collected at NASA's deep-space                                                     
+64 m tracking antenna at Tidbinbilla near Canberra, in Australia. In order to separate                                            
+the effects of the terrestrial ionosphere and the interplanetary plasma, S-band Doppler                                           
+measurements will also be taken at Tidbinbilla along the line-of-sight of Japan's com-                                            
+etary probe Sakigake during the Giotto - Halley encounter. The measurements of com-                                               
+etary electron content and mass fluence will be inverted to derive the spatial                                                    
+distribution of the electron and mass (dust and gas) density within Halley's coma. The                                            
+GRE is the only experiment on Giotto capable of measuring the low-energy (~ 10 eV)                                                
+electron bulk population of Halley's ionosphere and the total cometary mass flow im-                                              
+pacting upon the spacecraft.                                                                                                      
+                                                                                                                                  
+1. Scientific Objectives                                                                                                          
+  The Giotto spacecraft is equipped with redundant radio transponders capable of                                                  
+downlink transmission at S-band (2.3 GHz) and X-band (8.4 GHz). It is expected to                                                 
+travel through the dayside atmosphere of Comet Halley (Reinhard, 1981), with a                                                    
+relative velocity of 69 km/s. The target distance for the cometary flyby will probably                                            
+be 500 +/- 100 km. The goal of the GRE (Edenhofer, 1980) is to take measurements                                                  
+of the phase (Doppler) shifts of the downlink carrier signals both at S- and X-band                                               
+as a function of time during the Halley encounter. The specific scientific objectives                                             
+are determination of:                                                                                                             
+(a) the columnar electron content of the ionosphere of Comet Halley                                                               
+(b) the cometary mass fluence and total mass flow due to atmospheric drag.                                                        
+                                                                                                                                  
+During encounter, the carriers of the telemetry signals from the Giotto spacecraft will                                           
+be subject to: (a) dispersion by cometary plasma influencing the phase and group                                                  
+velocities of signal propagation (strongest at S-band); and (b) Doppler frequency shift                                           
+induced by the deceleration of the spacecraft due to atmospheric drag (strongest at X-                                            
+band). Since both effects will be intermingled in the data collected, joint S/X-band data                                         
+analysis and evaluation will be required to determine both the columnar electron con-                                             
+tent and the mass fluence. By applying appropriate models of the cometary atmosphere                                              
+and using integral inversion techniques, the spatial distributions of electrons as well                                           
+as mass (dust and gas) density will be derived for the comet's coma.                                                              
+  The GRE investigations will complement the in-situ particle measurements to be                                                  
+made onboard Giotto. The GRE determination of the total cometary electron content                                                 
+(along the Giotto -Earth line-of-sight) and mass flow (along the spacecraft trajectory)                                           
+will provide useful reference values for the on-board plasma analyzer (RPA experi-                                                
+ment) and dust detectors (DID, PIA). In view of the sensitivity threshold of the RPA,                                             
+only the GRE is capable of measuring the low-energy electrons (~ 10 eV) which con-                                                
+stitute the bulk of the charged-particle population within Halley's coma.                                                         
+                                                                                                                                  
+2. Scientific Background                                                                                                          
+  2.1  Electron content                                                                                                           
+  The GRE is an occultation-type, remote-sensing experiment which relies on the pro-                                              
+pagation effects of electromagnetic waves. Radio-science experiments of this type                                                 
+have been performed in the past to probe the inner and outer coma of the Sun                                                      
+(Edenhofer et al., 1977; Esposito et al., 1980; Volland et al., 1977; Bird, 1982), or                                             
+the planetary atmospheres (Fjelbo et al., 1975a: Fjelbo et al., 1975b; Levy et al.,                                               
+1981; Vasilyev et al., 1980), using occulting space probes such as Helios, Pioneer,                                               
+Mariner, Voyager, Venera, etc. A cometary dual-frequency radio-science experiment                                                 
+is also being undertaken in conjunction with the Vega- 1 and -2 missions (Armand et                                               
+al., 1982).                                                                                                                       
+  As a function of time, the ground-received phase phi(t) (in cycles) of a stable,                                                
+monochromatic radio signal of frequency f is proportional to the (downlink) columnar                                              
+electron content I(t), i.e. the integrated electron density N_e along the ray path from                                           
+the spacecraft to the tracking antenna on Earth. The signal's phase will shift in time                                            
+with respect to that of a local oscillator tuned to the undisturbed (i.e. vacuum wave                                             
+propagation) Doppler frequency                                                                                                    
+                                                                                                                                  
+  f' = f(1 -(dR(0)/dt)/c)                                                                                                         
+                                                                                                                                  
+by an amount                                                                                                                      
+                                                                                                                                  
+delta phi(t) = -f(rho(t))/c+40.3/(cf) I(t),                                                                                       
+                                                                                                                                  
+where the quantity dR(0)/dt (known from celestial mechanics and orbit deter-                                                      
+mination) is the radial component of the relative velocity between Earth and probe at                                             
+times close to encounter (t = 0), and the distance rho(t) is associated with the drag-                                            
+induced deceleration delta v(t) of the probe, via                                                                                 
+                                                                                                                                  
+ rho(t) = integral(delta v(tau) dtau                                                                                              
+                                                                                                                                  
+(c = velocity of light; MKS units; phase constants omitted). This corresponds to a Doppler frequency shift                        
+                                                                                                                                  
+  delta f(t) = [-f delta v(t)/c] + [40.3/(cf)*I(t)]                                                                               
+                                                                                                                                  
+(Bird et al., 1982; Porsche & Edenhofer, 1982: Bird et al., 1983; Bird et al., 1984). During the encounter, the                   
+first term of this equation is expected to result in a 'blue shift' (delta v<0), caused by the deceleration of                    
+the spacecraft in the cometary atmosphere (frequency increase). The second term                                                   
+yields an increase in frequency for cometary plasma entering the line-of-sight (time                                              
+derivative I>0; immersion), but reverses its sign for maximum electron content and                                                
+then produces a 'red shift' or frequency decrease, respectively (emersion).                                                       
+  Since the Giotto radio subsystem features two downlink carrier signals at frequen-                                              
+cies f(s) and f(x), two such phase shifts delta phi(s) and delta phi(x) can be measured simultaneously.                           
+The plasma and drag effects due to the cometary atmosphere (ionized and neutral part)                                             
+can be separated unambiguously by a linear combination of these measured dual-                                                    
+frequency phase shifts:                                                                                                           
+                                                                                                                                  
+  delta psi(s) = delta phi(s) - (f(s)/f(x)) delta phi(x) = 40.3/(cf(s)) [1 -(f(s)/f(x))**2] I(t)                                  
+  delta psi(x) = (f(s)/f(x)) delta phi(s) - delta phi(x) = f(x)/c [1 -(f(s)/f(x))**2] rho(t)                                      
+                                                                                                                                  
+With just one downlink frequency, plasma and drag effects cannot be separated, even                                               
+if an uplink is maintained. The only possibility is then a least-squares fit of the record-                                       
+ed data to model time profiles of the unknown quantities I(t) and rho(t).                                                         
+  To determine the deceleration delta v reliably, the ratio between the Doppler frequency                                         
+shift delta f and the nominal downlink frequency f(0) must be less than about 10**- 10, which                                     
+is the expected order of magnitude for delta v/c at the time of encounter, e.g. delta psi(x)=                                     
+f(xo)(delta v/c - delta f/f(so)) [1 - (f(so)/f(xo))**2]. The quantity delta f(t) represents small frequency perturba-             
+tions due to systematic drifts, randomly distributed instabilities, etc.                                                          
+  The most important parameter controlling the electron density and therefore the col-                                            
+umnar electron content in the cometary ionosphere is the total gas production rate Q.                                             
+It depends, for example, on the size of the cometary nucleus and the distance from                                                
+the Sun (Reinhard, 1981; Mendis & Ip, 1979). A postulated balance between photo-                                                  
+ionization and losses by recombination governs the physics of cometary plasma,                                                    
+yielding a model representation of the cometary electron density (Mendis & Houpis,                                                
+1982) of the form                                                                                                                 
+                                                                                                                                  
+  N_c(r) = (A/r) m**-3    (r in meters; A ~ Q**1/2)                                                                               
+                                                                                                                                  
+For Comet Halley, a reasonable value for the quantity Q is taken to be Q(0)= 1 X 10**29 s**-1                                     
+at 1 AU (Ip, 1980). Out to about 10**4 km, the electron density is found to be well represented by                                
+A = 3 X 10**15 m**-2. Further out, the radial dependence may be somewhat different because of the                                 
+compressing solar-wind plasma. The outer boundary of the cometary ionosphere is estimated to be about                             
+r(c) = 5 X 10**5 km. In a first approximation, the electron density distribution is considered to be                              
+spherically symmetric.   Thus, in a nucleus-centred coordinate system, the cometary content is denoted by                         
+                                                                                                                                  
+  I(c) =  Integral(from S(g) to (S(c)) N_c(r) ds = A ln [s(c) + r(c)/(s(g) + r(g))]                                               
+                                                                                                                                  
+where s(g)**2 = r(g)**2 - p**2; s(c)**2 = r(c)**2 - p**2, and the quantities r(g), r(c), and p                                    
+represent the distances to Giotto. to the outer boundary of Halley's ionosphere, and to the                                       
+Earth-Giotto (impact parameter) ray path, respectively (Edenhofer et al., 1980; Bird                                              
+et al., 1982; Bird et al., 1983). For a flyby distance of 500 km, Figure 1 shows the                                              
+temporal variation of I(c) (time profile) to be expected during encounter (S-band). The                                           
+maximum columnar electron content I(comax) = 3 X 10**16 m**-2 will be obtained about 3.5 s                                        
+after encounter, where this value may increase to some 7 X 10**16 m**-2, depending on                                             
+whether or not there are locally enhanced regions from internal sources of additional                                             
+ionization (e.g. jet-stream configurations) within the cometary coma intersected by the                                           
+ray path.                                                                                                                         
+                                                                                                                                  
+Figure 1. (a) Columnar electron content of Comet Halley during Giotto                                                             
+encounter for a flyby distance of 500 km at S-band                                                                                
+(1 hexem=10**16 m**-2). Models of cometary electron density                                                                       
+distribution vary with r**-1 (photo-ionization only) and r**-2,                                                                   
+respectively.  (b) Electron content I(c) (---) and rate of change                                                                 
+dI(c)/dt (---) versus time, corresponding to variations in phase                                                                  
+and Doppler frequency shift. A noise level of +/-3x10**14 m**-2 s**-1                                                             
+(+/-15 mHz) is indicated, as derived from Giotto Doppler residuals                                                                
+collected at the NASA DSS 42 ground station on 31 July 1985                                                                       
+                                                                                                                                  
+ The taking into account of such kinds of phenomena can result in significantly dif-                                              
+ferent profiles for I(c). For a gas production rate Q = 4 Q0, the maximum electron con-                                           
+tent will be raised by a factor of two. Computer simulations indicate, however, that                                              
+I(comax) may vary only about +20% and -9%, if the distance changes to 100 and                                                     
+1000 km, respectively. For the mission baseline (X-band downlink only during                                                      
+encounter), the electron content would be reduced by a factor of (2.3/8.4)**2 = 1:13,                                             
+corresponding to a loss in signal strength for I(c) of about 11 dB. Obviously, neither                                            
+optimistic variations of parameters for encounter geometry nor for cometary plasma                                                
+physics can balance such large a loss in signal strength (see Sections 3 and 4 for                                                
+intrinsic noise levels of GRE measurements).                                                                                      
+  Figure 2 shows some details of the geometry of encounter and the resulting com-                                                 
+etary electron content. The temporal behaviour of the electron content during en-                                                 
+counter is expected to be specifically different from the steady-state time signature of                                          
+those portions of the total electron content measured that are due to the terrestrial                                             
+ionosphere and interplanetary plasma.                                                                                             
+                                                                                                                                  
+Figure 2. Schematic of the geometry of Giotto's Halley encounter on                                                               
+13/14 March 1986. The cometary electron content represents the                                                                    
+integrated electron density of Halley's ionosphere along the ray path                                                             
+C - A, the cometary mass fluence being accumulated from atmospheric drag                                                          
+along the trajectory C - B                                                                                                        
+                                                                                                                                  
+2.2 Cometary mass fluence: superposition of plasma and mass effects                                                               
+  As Giotto travels through the atmosphere of Comet Halley, dust and gas particles                                                
+will hit its bumper shield. Cometary dust and gas particles typically consist of grain                                            
+materials such as magnetite, graphite, quartz, water ice (grain radii roughly                                                     
+10**-7- l0**-2 m; mass spectrum 10**-17- 10**-3 kg) and sublimation products of nuclear                                           
+constituents in terms of molecules such as H2O, CO2, NH3 (e.g. mean thermal speed                                                 
+400 m/s, outflow speed at surface of nucleus 180 m/s) (Newburn, 1981; Divine,                                                     
+19,81; Hubner & Keady, 1982; Hellmich & Keller, 1981; Schwehm & Kneissel,                                                         
+1981). The impacts of these particles build up an atmospheric drag effect, causing a                                              
+deceleration delta v of the spacecraft (Edenhofer et al., 1980; Porsche & Edenhofer, 1982;                                        
+Bird et al., 1983). This deceleration can be estimated, from momentum and energy-                                                 
+transfer relationships, to be                                                                                                     
+                                                                                                                                  
+  delta v =  m(0)*v(0)*(1 + q**1/2 cos(phi)) / M                                                                                  
+                                                                                                                                  
+where m(0) and v(0) are the mass and the velocity of the impacting (recoiling) particles,                                         
+M is the mass of the spacecraft (512 kg during encounter) and phi is the angle of                                                 
+intersection between the velocity vectors v and - v(0). Here inelastic energy losses delta Q                                      
+(e.g. heat generation and ionization processes) are taken to be negligible, according                                             
+to delta Q << m(0)v(0)/2. Since the quantity delta v can be measured from the observables of                                      
+phase (and group) delay shift (e.g. delta psi(x)) via rho(t), the cometary mass fluence is finally                                
+derivable as the mass flow integrated along the trajectory of the spacecraft. Multipli-                                           
+cation by the corresponding spacecraft area (2.64 m**2) then yields the total impacting                                           
+cometary mass.                                                                                                                    
+   The mass-fluence determination is complicated by the fact that the ratio q of the                                              
+mass of the recoiling particles to that of the impacting particles is also a function of                                          
+the energy of the impacting particles (Hirao, 1982). High-energy gas molecules in the                                             
+cometary coma, for instance, may generate multiple secondary ions. At the encounter                                               
+velocity of v(0)=69 km/s, energy levels higher than 1 keV apply for molecules of                                                  
+atomic weight as low as 42. As far as dust particles are concerned, the production rate                                           
+for emission of secondary ions is expected to be even higher than in the case of gas                                              
+particles. In laboratory experiments, q-values as high as 40 have been observed for                                               
+velocities much lower than v(0) (Porsche & Edenhofer, 1982).                                                                      
+  Following refined calculations of the expected dust-particle fluence based on data                                              
+from the last apparition of Comet Halley in 1910 (Newburn, 1981), and on the com-                                                 
+putations by Hubner & Keady (1982) for the cometary plasma mass which will also                                                   
+impact on the bumper shield of the spacecraft, the total integrated mass flow due to                                              
+Halley's atmosphere hitting Giotto during the encounter is estimated to be of the order                                           
+of m(c)=9 X 10**-5 kg. Allowing for an uncertainty of 1<q<50, the integrated                                                      
+spacecraft velocity decrement is expected to be in the range 0.02<delta v<0.1 m/s                                                 
+(Porsche & Edenhofer, 1982). Complementary calculations anticipate an even higher                                                 
+dust-particle flow resulting in a factor of two for the total mass fluence (Divine, 1981;                                         
+Hellmich & Keller, 1981; Schwehm & Kneissel, 1981).                                                                               
+  For a flyby distance of 500 km, Figure 3 shows the drag-induced time variation in                                               
+delta v to be expected during encounter. Taking into account the uncertainty limits for q,                                        
+the deceleration of the spacecraft corresponds to a Doppler frequency shift                                                       
+                                                                                                                                  
+  delta f/f=delta v/c)*cos alpha,                                                                                                 
+                                                                                                                                  
+i.e. at X-band limits of 0.35 <delta f(x) <2 Hz are to be expected (alpha = 44deg being                                           
+the angle between the relative velocity vector of the spacecraft with respect to Comet                                            
+Halley and the position vector of the spacecraft with respect to Earth). A typical noise                                          
+level of the order of 10 mHz can be achieved for two-way Doppler measurements,                                                    
+caused by the intrinsic frequency instability of the spacecraft transponder and the                                               
+tracking station. The noncometary plasma-induced frequency shift is estimated to be                                               
+as low as delta f(x)<0.11 Hz. Neglecting cometary drag effects, the Doppler frequency                                             
+shift delta f(xo) due to the relative velocity between the spacecraft and the Earth will be                                       
+238.1 kHz.                                                                                                                        
+  It is important for the Giotto radio-science drag experiment to know the asymptotic                                             
+behaviour of delta v(t) before and after encounter (approximately within t=0 +/- 5 min).                                          
+The best way to accomplish this is to collect pre- (and in case of spacecraft survival                                            
+post-) encounter range measurements (~ group time delay) using the S-band uplink                                                  
+and X-band downlink.  While for Doppler frequency measurements the observables                                                    
+are proportional to the time derivative d rho(t)/dt ~ delta v(t) of the drag-induced range, range                                 
+observables allow direct measurement of accumulated values rho ~ integral(v(tau) d tau), e.g. bet-                                
+ween limits l200 <rho <6200 m for a one-day interval around encounter. This is well                                               
+above the noise level of about 10 m that is typical for deep-space ranging.                                                       
+  For Doppler measurements at either S- or X-band, the observables involve a super-                                               
+position of the cometary effects of electron content and mass fluence. The best way                                               
+to separate both effects is to collect dual-frequency downlink measurements according                                             
+to delta psi(s) and delta psi(x) as outlined above. An alternative, but ambiguous and less efficient                              
+way of separating plasma and mass effects is to use the different time signatures of                                              
+both phenomena: the electron content varies like a spike-function, and is mainly                                                  
+associated with measurements collected immediately before and after encounter                                                     
+(within about +/- 3 min or so), whereas the mass fluence changes like a step-function,                                            
+with asymptotes essentially based on measurements (including range) taken sufficient-                                             
+ly long before and after the encounter (within about +/- 2 h or so at minimum).                                                   
+                                                                                                                                  
+2.3 Experimental sensitivities and calibration requirements                                                                       
+  During the Giotto-Halley encounter in March 1986, solar-minimum conditions                                                      
+will exist. Nevertheless, the electron content of Halley's ionosphere is expected to be                                           
+about one order of magnitude smaller than typical values of the electron content for                                              
+the terrestrial ionosphere, and about two orders of magnitude smaller than the electron                                           
+content of the interplanetary space for a total ray path length of 0.97 AU and a solar                                            
+elongation angle of 54deg (Edenhofer et al., l980; Bird et al., 1982: Bird et al., 1983).                                         
+Taking, for example, the results of the Helios Radio-Science Experiment, as perform-                                              
+ed during the solar-cycle minimum in 1976, a good estimate of the electron content                                                
+of interplanetary plasma for the Halley encounter geometry turns out to be                                                        
+2.4 X 10**18 m**-2 (Edenhofer et al., 1977; Esposito et al., 1980). To separate the con-                                          
+tribution from the cometary plasma, an astute calibration scheme must be used. The                                                
+radio-science measurements, for instance, for the Jovian dayside ionosphere (Fjelbo                                               
+et al., 1975a), the dayside ionosphere of planet Venus (Fjelbo et al., I975b), and the                                            
+plasma torus of Io (Levy et al., 1981) could only yield accurate altitude profiles of                                             
+electron density after extensive corrections for the actual conditions of the Earth's                                             
+ionosphere, as recorded from geostationary radio beacons, had been applied. The                                                   
+interplanetary electron content was eliminated by simply subtracting the slowly vary-                                             
+ing component of phase shift from the total phase residuals measured during                                                       
+occultation.                                                                                                                      
+  Though the electron content of the terrestrial ionosphere will certainly be smaller                                             
+for the GRE than that of the interplanetary plasma, the influence of the Earth's                                                  
+ionosphere on the total electron content to be measured is something of a problem,                                                
+since its scale of time variations might be comparable with the spike-like behaviour                                              
+of cometary electron content during the encounter. This expectation is also based on                                              
+the fact that the GRE radio measurements during the Giotto-Halley encounter are                                                   
+scheduled to take place from Australia at local morning time, i.e. within the perturbed                                           
+                                                                                                                                  
+Figure 3. Cometary mass fluence in terms of drag-induced deceleration                                                             
+delta v of the Giotto spacecraft as a function of time during the Halley                                                          
+encounter (flyby distance 500 km)                                                                                                 
+                                                                                                                                  
+transition interval of increasing electron content in between the steady-state values                                             
+around midnight and noon. In a cooperative effort with NASA/JPL, two procedures                                                   
+have been initiated for the GRE to correct for the terrestrial ionosphere: VHF Faraday                                            
+rotation measurements will be taken at NASA's deep-space station DSS 43 in Tidbin-                                                
+dilla/Canberra, Australia. These measurements will use radio beacons of the                                                       
+geostationary satellites ATS 1 or ETS 2 at 136 MHz to derive the time variations in                                               
+the electron content of the Earth's ionosphere (and magnetosphere) during the en-                                                 
+counter (Royden et al., 1984). Residual errors in the order of 10**15- 10**16  m**-2 will re-                                     
+main when the line-of-sight of DSS 43 towards ATS 1/ETS 2 is transformed into that                                                
+valid towards Giotto. At the same time dual-frequency time-delay measurements will                                                
+be made at DSS 43 using L-band signals (1.2 and 1.6 GHz) transmitted by the Navstar                                               
+satellites of the Global Positioning System (GPS). In 1986/87, 18 of these satellites                                             
+will be operational, each of them with a 12 h siderial period to calibrate the                                                    
+ionospheric electron content for navigational applications also. Generally, at least four                                         
+satellites will be visible from each tracking station, so that line-of-sight transformation                                       
+errors are expected to decrease considerably compared with the procedure of Faraday                                               
+rotation calibration.                                                                                                             
+  In addition to the satellite-borne calibration, the University of Armidale, Australia,                                          
+will support the GRE by means of ground-based ionosonde measurements to monitor                                                   
+the temporal evolution of a local electron density profile around Halley encounter with                                           
+respect to the electron content of vertical incidence, at least up to the layer of max-                                           
+imum ionization.                                                                                                                  
+  If a calibration is to be performed for columnar densities of the order of 10**16 m**-2,                                        
+or even smaller, by including also the interplanetary plasma, then corrections are best                                           
+applied that make use of the ground-based radio observations of the International                                                 
+Halley Watch (IHW) (Irvine et al., 1982), in addition to a deep-space multispacecraft                                             
+calibration as first proposed by Fjeldbo et al. (1975a). The concept of this calibration                                          
+procedure is to exploit closely spaced radio sources that have nearly identical ray paths                                         
+through the terrestrial ionosphere and interplanetary space. When one of these sources                                            
+is being occulted by an additional plasma region (e.g. cometary coma or tail), a sub-                                             
+traction process using both radio links is applied to isolate the specific plasma con-                                            
+tribution of interest. By means of this two-sources calibration technique, Vasilyev et                                            
+al. (I980) were able to detect the nightside ionosphere of Venus with an electron con-                                            
+tent as low as about 4 X 10**15 m**-2.                                                                                            
+  During the Giotto flyby, five other spacecraft will be in the vicinity of Comet                                                 
+Halley: the Japanese spacecraft Sakigake and Suisei, the American ICE spacecraft                                                  
+(formerly ISEE-3) and the two Soviet spacecraft Vegas-1 and 2 (Bird et al., 1984).                                                
+Figure 4 shows the orbital geometry for this satellite configuration and the various                                              
+lines-of-sight involved. On the Vega mission, a dual-frequency radio-science experi-                                              
+ment will be performed using a two-spacecraft configuration occulted by Halley's                                                  
+ionosphere during a flyby about one week earlier than that of Giotto (Armand et al.,                                              
+1982). For the GRE, a mission-intercalibration concept has been set up in cooperation                                             
+with NASA/JPL and Japan's Institute of Space and Astronautical Science (ISAS). A                                                  
+feasibility study has shown that the Sakigake spacecraft (Hirao, 1982) is the most                                                
+suitable in terms of orbital position (full coverage of the ray path to Giotto by the ray                                         
+path to Sakigake) and on-board radio subsystem (efficiency of S-band signal-to-noise                                              
+ratio) to serve as a calibration radio source for Giotto in order to eliminate all the non-                                       
+cometary plasma effects. At the same time as the Giotto downlink radio signals are                                                
+received by DSS 43 for Doppler measurements during the encounter pass, the                                                        
+Sakigake downlink radio signal will also provide Doppler-measurements at the nearby                                               
+34 m DSS 42 antenna and, in addition, at the 64 m antenna at Japan's Udusa ground                                                 
+station. A cross-correlation of the Doppler data from DSS 42 and Udusa will allow                                                 
+potential plasma disturbances to be distinguished that may travel within the Earth's                                              
+ionosphere in interference with the cometary plasma-spike of Halley's Doppler data.                                               
+For the benefit of correlative data analyses, cooperative efforts are also being under-                                           
+taken to collect simultaneous X-band Doppler (phase) measurements at CSIRO's                                                      
+Radio Astronomy Observatory in Parkes (64 m antenna dish about 400 km from Tid-                                                   
+binbilla, Australia).                                                                                                             
+                                                                                                                                  
+Figure 4. Ecliptic-plane view of the interplanetary spacecraft around                                                             
+Comet Halley and their signal paths to Earth during the Giotto                                                                    
+encounter. The integrated electron density along the line-of-sight to                                                             
+the Japanese Sakigake (Planet-A) spacecraft will be measured to                                                                   
+calibrate noncometary plasma effects for the Giotto Radio-Science                                                                 
+Experiment                                                                                                                        
+                                                                                                                                  
+3  Radio Subsystem of the Giotto Spacecraft                                                                                       
+  A block diagram of the characteristic features of the Giotto radio subsystem is                                                 
+shown in Figure 5 (a detailed description can be found in the Experiment Interface                                                
+Document/EID, Part A). Those elements of the radio subsystem most important to the                                                
+GRE are the transponder and the antennas. During the main phase of the mission, a                                                 
+high-gain antenna (HGA) capability wi11 be used for all telecommunication purposes                                                
+such as telecommand, telemetry (housekeeping and scientific data), and radiometric                                                
+operations. In association with the tracking station(s), ground-based radiometric                                                 
+operations will allow three different types of data to be received: Doppler                                                       
+measurements either in incoherent/openloop mode (one-way without uplink) or in                                                    
+coherent/closed-loop mode (two-way with an uplink); ranging measurements using a                                                  
+binary-coded phase modulation of the carrier; and DRVID (differenced range versus                                                 
+integrated Doppler) which combines the dispersive propagation properties of phase                                                 
+and group time delay. Radiometric data are essential for orbit determination and                                                  
+spacecraft navigation and, especially during the encounter, for the GRE.                                                          
+  The HGA (antenna gain 26/37 dB at S/X-band) radiates a transmitted power of                                                     
+25 W (44 dBm) at X- and 6 W (38 dBm) at S-band downlink frequencies. In addi-                                                     
+tion, there are two low-gain antennas (LGAs) for the near-Earth-phase operations.                                                 
+Two redundant transponders are used, each consisting of an S-band receiver and an                                                 
+S- and X-band transmitter. The radio-frequency distribution unit (RFDU), which                                                    
+connects either of the transponders with any of the three antennas (HGA or LGA),                                                  
+channels the S-band uplink and the downlink signals through a switching network with                                              
+two redundant diplexers. The X-band exciters in either transponder can be coupled to                                              
+either of the two travelling-wave-tube amplifiers (TWTAs) by means of a TWT inter-                                                
+face unit (TWT-IF). The output signal is directed to the X-band feed of the HGA                                                   
+through the TWT-IF. During the closest-approach phase of the Halley encounter the                                                 
+two TWTAs will be operated in hot redundant mode (heaters turned on), one TWTA                                                    
+being operational and the other in standby mode. In the event of any operational                                                  
+anomaly, a changeover in the power subsystem will depower the failed TWTA, rotate                                                 
+the switch, and activate the standby TWTA.                                                                                        
+  As there is no X-band signal at the exciter output when the S-band high-power                                                   
+amplifier is turned on, simultaneous S- and X-band operation in one and the same                                                  
+transponder, whether in coherent or incoherent mode, is not possible. As the nominal                                              
+configuration for the GRE encounter measurements requires coherent transmission of                                                
+both S- and X-band downlink signals (maintained by an S-band uplink), the voltage-                                                
+controlled crystal oscillator (VCO) of the chosen receiver must drive both transmitters                                           
+from different transponders, one providing the S-band and the other the X-band                                                    
+output.                                                                                                                           
+                                                                                                                                  
+Figure 5. Block diagram of the radio subsystem of the Giotto spacecraft.                                                          
+Transponders 1 and 2 are connected to the S-band RFDU (from left/---)                                                             
+and to the X-channel TWT-IF (from right/---). The HGA operates in RHC                                                             
+polarization, serving the S-band up/downlinks via HGA/S (beamwidth ~ 5deg)                                                        
+and the X-band downlink via HGA/X (2deg). The HGA offset-reflector                                                                
+(diameter 1.46 m) is mechanically despun with respect to the spinning                                                             
+spacecraft (15 rpm) and inclined towards Earth (angle of 44deg between                                                            
+RF boresight and spin axis)                                                                                                       
+                                                                                                                                  
+  There are several modulation characteristics possible for the radio subsystem. The                                              
+S-band uplink carrier may be either unmodulated, phase-modulated with ranging                                                     
+signals, or phase-modulated with telecommand signals. The S-band downlink carrier                                                 
+may be unmodulated (corresponding to Doppler measurements only), phase-                                                           
+modulated with ranging signals, or further phase-modulated with a coded housekeep-                                                
+ing telemetry signal. The X-band carrier may be unmodulated (Doppler only), phase-                                                
+modulated with ranging signals, further phase-modulated with a coded housekeeping                                                 
+telemetry signal, or with a coded science telemetry signal. For X-band telemetry, a                                               
+maximum bit rate of up to 92.160 kbit/s is available.                                                                             
+  Giotto is not expected to survive the encounter with Comet Halley because of                                                    
+particle impacts resulting in the malfunctioning of vital subsystems such as power sup-                                           
+plies or causing loss of the radio link due to disturbance of the alignment of the HGA                                            
+axis. In the latter case, spacecraft recovery for post-encounter science data may be                                              
+possible, if the broader antenna beamwidth of the S-band downlink can be utilized.                                                
+Nevertheless, a specific feature of the Giotto mission is real-time transmission to Earth                                         
+of all science data using the highest possible bit rate during the 4 h data take.                                                 
+  Calibration tests on the intrinsic phase and ranging delay of the transponder have                                              
+been carried out on the ground. These tests were performed for various RF input                                                   
+power levels, from -90 to - 130 dBm, and temperature conditions, from + l0 to                                                     
++40degC. For the incoherent mode, the intrinsic phase delay turned out not to vary in                                             
+standard deviation by more than 0.6 ns, corresponding to a columnar electron content                                              
+of about 2.4 X 10**16 m**-2 at S-band (warm up time of 4 h). The reproducibility after                                            
+stabilization within 0.5 K was found to be of the order of less than +/-0.5 ns. The                                               
+temperature dependence was measured to be about +/-0.3 ns/K.                                                                      
+                                                                                                                                  
+4.  Giotto Radio-Science Ground Support                                                                                           
+Station DSS 43 of NASA's Deep-Space Network (DSN) at Tidbinbilla/Canberra                                                         
+will serve as the main telemetry backup antenna to the prime Giotto ground station                                                
+at Parkes (Renzetti & Berman, 1983). Based on an interagency agreement, both                                                      
+Australian stations will receive Giotto telemetry data simultaneously during the Halley                                           
+encounter. DSS 43, with its special radio-science capabilities, will be the prime station                                         
+for reception and preprocessing of the GRE radiometric data. The ESA station at Car-                                              
+narvon (15 m parabolic dish antenna) will also be engaged in Giotto communications.                                               
+A radio uplink may be provided either by Carnarvon (transmitted power 1.2 kW or                                                   
+61 dBm) or by DSS 43(20 kW up to as high as 100 kW, or 73 to 80 dBm). Table 1 (not                                                
+included) summarizes some characteristic features of the various radio links involved. A                                          
+block diagram of the DSN system components that are particularly important for the GRE                                            
+is shown in Figure 6.                                                                                                             
+                                                                                                                                  
+Figure 6. Block diagram of the interfaces for the radio-science                                                                   
+subsystem at the GRE prime station (DSS 43). Four-channel reception                                                               
+with dual-frequency and dual-polarization capability is effected by                                                               
+three parallel receiver blocks (left). Generation and pre-processing                                                              
+of the radiometric data is controlled by the metric data assembly (top)                                                           
+                                                                                                                                  
+  A Signal Processing Centre (SPC) in direct contact with the Network Operation                                                   
+Control Centre (NOCC) at JPL/Pasadena will control the Australian DSN complex.                                                    
+The NOCC can display real-time radio-science data at DSS 43 or 42. As many as three                                               
+receiver blocks are ready to handle the Doppler ranging and DRVID measurements                                                    
+for the GRE, either in closed Planetary Ranging Assembly (PRA) or open-loop con-                                                  
+figuration. The phase residuals are delivered by two separate Doppler extractors for                                              
+S- and X-band. DSS 43 is capable of receiving S- and X-band radiometric data                                                      
+simultaneously. The open-loop receiver is not servo-adjusted to the received downlink                                             
+frequency, but rather preset to a computer-programmable frequency by radio-science                                                
+predictions using an optimum bandwidth control as provided by a Spectral Signal                                                   
+Indicator (SSI). The SSI displays the received signal spectrum in real time.                                                      
+  The Precision Power Monitor (PPM) of the receiver exciter subsystem is used to                                                  
+measure the system noise temperature during cometary occultation by comparing the                                                 
+total power in a given channel with a known calibration noise source. The DSN radio-                                              
+science subsystem, consisting of an Occultation Data Assembly (ODA) and two                                                       
+independent digital recording assemblies, processes the input signals and records them                                            
+on tape for immediate delivery to the GRE via JPL/ESOC. Real-time displays of open-                                               
+and closed-loop data, as well as the status and configuration of all data-receiving and                                           
+recording systems (including station pre- and post-track calibration), will be provided                                           
+to a radio-science monitoring station at JPL.                                                                                     
+  The phase residual is the actually recorded parameter of the downlink carrier signal                                            
+and is given in cycles. The accuracy of the measurement is about 0.01 cycles at                                                   
+S-band, which is smaller than the specified phase noise of the downlink signals due                                               
+to transponder instabilities (5deg rms at S-band, l4deg rms at X-band). Following a stan-                                         
+dard calibration procedure, pre- and post-track calibration data will be taken at                                                 
+DSS 43 at the beginning and end of the encounter pass of 13/14 March 1986 to correct                                              
+for the intrinsic time delay effects of the radio system on ground (Renzetti & Berman.                                            
+1983). These measurements exclude all atmospheric and free-space propagation ef-                                                  
+fects by using a station-bound radio-link transmitter - subreflector of the Cassegrainian                                         
+antenna subsystem - receiver to calibrate a mean average of time delay, expected                                                  
+to be in the order of 3 ms, and a linear drift of about 2 ns/h (valid for a full-length                                           
+pass of 8 h), which leaves a standard deviation of approx. 1 to 2 ns. The accuracy of the                                         
+combined spacecraft-ground Doppler and ranging system is expected to correspond                                                   
+to a columnar electron content of some 10**16 m**-2, while the dual-frequency differen-                                           
+tial Doppler accuracy should be in the range of +2 X 10**14 m**-2. These accuracies will                                          
+benefit from the GRE request to the Giotto project to provide the encounter uplink by                                             
+utilizing the 100 kW transmitter capability of DSS 43 (power increase of about 19 dB                                              
+compared with Carnarvon station). Such an uplink considerably enhances the phase                                                  
+stability of two-way Doppler data (coherent mode) and also increases the reliability                                              
+and safety of the radio telemetry link during encounter, particularly if any spacecraft                                           
+emergency should arise. The highest possible sampling rate capability, of 10 samples                                              
+per second, will be used to record the phase measurements. The plasma contribution                                                
+to the phase- and group-delay dispersion will be identified by dual-frequency differen-                                           
+cing (see Section 2.1).                                                                                                           
+                                                                                                                                  
+  The encounter scenario for the GRE foresees operations starting about 24 h                                                      
+before the time t(0) of closest approach (EID, part B). They will start with                                                      
+radiometric measurements (ranging included) after final targeting selection and final                                             
+spacecraft manoeuvring. At about t(0)-6 h, the measurements proper will start with                                                
+an X-band downlink (telemetry/radiometric data). Simultaneous dual-frequency S/X-                                                 
+band radiometric data will be collected starting at t(0)- 15 min. If the spacecraft sur-                                          
+vives, post-encounter ranging and Doppler measurements will be taken, particularly                                                
+to support the cometary mass-fluence analysis.                                                                                    
+  Figure 7 shows how the capabilities of the various ground stations affect the quality                                           
+of Doppler measurements to be expected for the GRE. S-band measurements and                                                       
+preliminary analyses made so far indicate that the standard deviation of Doppler                                                  
+residuals from ESA's Carnarvon station amounts to  +/-0.7 Doppler counts,                                                         
+whereas from NASA's DSS 42 station the corresponding standard deviation is as low                                                 
+as +/-0.06 Doppler counts (1 Doppler count or cycle at S-band is equivalent to                                                    
+130.4 mm in free-space wavelength). The Doppler noise level at DSS 42 is thus                                                     
+approximately 11 dB lower than at Carnarvon, the difference in antenna diameter                                                   
+(34 m rather than 15 m) contributing about 7 dB in terms of antenna gain.                                                         
+In addition, in coherent mode the transmitter uplink capability of DSS 42 can be                                                  
+increased to 20 kW, compared with a maximum of 1.2 kW for Carnarvon (correspon-                                                   
+ding to another 9 dB in noise reduction). Figure 7 shows also how significantly the                                               
+rate of change in cometary electron content as simulated for the Halley encounter ex-                                             
+ceeds the noise level at DSS 42. Since the 64 m antenna of DSS 43 will be used for                                                
+the encounter pass, we may expect the noise level to be reduced by at least another                                               
+5 dB (for S- or X-band). Such radio-science ground-support considerably improves                                                  
+the chances of unambiguously resolving the cometary plasma effects, including the                                                 
+bulk population of low-energy electrons, from Halley 's ionosphere. A minimum noise                                               
+level (and maximum radio-link safety) can be achieved by making use of the 100 kW                                                 
+uplink capability of DSS 43 to provide an additional 10 dB gain (19 dB) in link budget                                            
+with respect to the nominal transmitter power of DSS 42 (Carnarvon). This means that                                              
+a total reduction in noise level of about 30 dB is achievable, if in coherent mode the                                            
+uplink is provided by the DSS 43 rather than by Carnarvon. However, Giotto rehear-                                                
+sals using DSS 43 are scheduled to take place no earlier than February 1986.                                                      
+                                                                                                                                  
+Figure 7. Representative subset of residuals for high-order polynomial                                                            
+fits of raw Giotto S-band Doppler data (coherent) from the early                                                                  
+cruise-phase after Earth acquisition, collected: (1) at Carnarvon on                                                              
+8 July and (2) at DSS 42 on 31 July 1985. The rate of change of cometary                                                          
+electron content to be expected during the Halley encounter is shown                                                              
+                                                                                                                                  
+5.  Summary                                                                                                                       
+  The Giotto Radio-Science Experiment will perform Doppler and ranging                                                            
+measurements during the Halley encounter on 13/l4 March 1986, in order to deter-                                                  
+mine the cometary electron content and mass fluence. Using the spacecraft's radio                                                 
+subsystem, these measurements will be collected at NASA's Deep Space Station near                                                 
+Canberra. The experiment will involve scientific analyses to derive the spatial                                                   
+distribution of electron and mass (dust and gas) density within the ionized and neutral                                           
+atmosphere of Comet Halley.                                                                                                       
+  Noncometary plasma effects due to both the terrestrial ionosphere and interplanetary                                            
+space will be calibrated via measurements using a ground-based ionosonde and geosta-                                              
+tionary satellites (VHF Faraday rotation/L-band dispersion) and via Doppler                                                       
+measurements from the Japanese cometary spacecraft Sakigake with a line-of-sight                                                  
+close to that of Giotto. Two-way Doppler measurements taken at a 34-m station during                                              
+Giotto's near-Earth phase show that, for S-band Doppler measurements (coherent                                                    
+mode), a noise level as low as 0.06 Doppler is achievable, corresponding to a sensi-                                              
+tivity level of +/-4.5 X 10**14 m**-2 in terms of electron content, where a typical cometary                                      
+electron content is 3 X 10**16 m**-2. The scientific objective of measuring Halley's elec-                                        
+tron content can only be achieved if there are dual-frequency S/X-band downlinks dur-                                             
+ing cometary encounter.                                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+References                                                                                                                        
+                                                                                                                                  
+Armand N A, Vasilyev M B, Efimov A 1, Osmolovsky 1 K & Savich N A 1982,                                                           
+    Radiophysical methods of studying cometary ionospheric plasma. In: Cometary                                                   
+    Exploration (Ed: T. Gombosi), Hungarian Academy of Sciences, pp. 383-390.                                                     
+Bird M K 1982, Coronal investigations with occulted spacecraft signals, Space Sci.                                                
+    Rev., 33, 99-126.                                                                                                             
+Bird M K, Edenhofer P & Volland H 1982, Measurement of the electron content of                                                    
+    the ionosphere of Comet Halley using the radio signal of the Giotto spacecraft.                                               
+    In: Cometary Exploration (Ed. T. Gombosi), Hungarian Academy of Sciences,                                                     
+    371-382.                                                                                                                      
+Bird M K, Volland H, Porsche H & Edenhofer P 1983, Bestimmung des                                                                 
+    Massenflusses und des Elektroneninhalts der Koma um Komet Halley aus Dop-                                                     
+    plermesungen am Signal der Giotto-Raumsonde, Mitt. Astron. Ges., 58,                                                          
+    157-162.                                                                                                                      
+Bird M K, Edenhofer P, Porsche H & Volland H 1984, Radio occultation experiments                                                  
+    with Comet Halley, Adv. Space Res., 4, No. 9, 303-306.                                                                        
+Divine N 1981, Numerical models for Halley dust environment. In: The Comet Halley                                                 
+    Dust and Gas Environment, ESA SP-174, 25-30.                                                                                  
+Edenhofer P, Esposito P B, Hansen R T, Hansen S F, Luneburg E, Martin W L &                                                       
+    Zygielbaum A I 1977, Time delay occultation data of the Helios spacecrafts and                                                
+    preliminary analysis for probing the solar corona, J. Geophys., 42, 673-698.                                                  
+Edenhofer P, Bird M K, Porsche H & Volland H 1980, Measurement of Cometary                                                        
+    Electron Content and Total Mass Flow, Giotto Experiment Proposal, 1-19,                                                       
+    Presented at ESA Headquarters.                                                                                                
+Esposito P B, Edenhofer P & Luneburg E 1980, Solar corona electron density                                                        
+    distribution, J. Geophys. Res., 85, 3414-3418.                                                                                
+Fjeldbo G, Kliore A, Seidel B, Sweetman D & Cain D 1975a, The pioneer Radio oc-                                                   
+    cultation measurement of the ionosphere of Jupiter, Astron. Astrophys., 39,                                                   
+    91-96.                                                                                                                        
+Fjeldbo G, Seidel B, Sweetman D & Howard T 1975b, The Mariner 10 radio occulta-                                                   
+    tion measurement of the ionosphere of Venus, J. Atmos. Sci., 32, 1232-1236.                                                   
+Hechler F & Morley T 1985, Flight Dynamics, ESOC Rept. Vol. 2, No. 3.                                                             
+Hellmich R & Keller H U 1981, Definition of model parameters and dynamics of dust                                                 
+    grains released by Comet Halley. In: The Comet Halley Dust and Gas Environ-                                                   
+    ment, ESA SP-174, 41-46.                                                                                                      
+Hirao H 1982, Planet-A Project Japanese Mission to the Halley Comet. In: Cometary                                                 
+     Exploration (Ed: T. Gombosi), Hungarian Academy of Sciences, 159-167.                                                        
+Hubner W F & Keady J J 1982, Energy balance and photochemical processes in the                                                    
+    inner coma. 1n: Cometary Exploration (Ed: T. Gombosi), Hungarian Academy                                                      
+    of Sciences, 165-183.                                                                                                         
+Ip W-H 1980, Cometary Atmospheres. 1: Solar wind modification of the outer ion                                                    
+    coma, Astron. Astrophys., 92,95-100.                                                                                          
+Levy G S, Green D W, Royden H N, WoodGE & Tyler G L 1981, Dispersive Dop-                                                         
+    pler Measurements of the Electron Content of the Torus of Io, J. Geophys. Res.,                                               
+    86, 8467-8470.                                                                                                                
+Irvine W M, Schloerb F P & Gerard E 1982, Radio science and the International                                                     
+    Halley Watch. In: Cometary Exploration (Ed: T. Gombosi), Hungarian Academy                                                    
+    of Sciences, 83-93.                                                                                                           
+Mendis D A & 1p W-H 1979, The ionosphere and plasma tails of comets, Space Sci.                                                   
+    Rev., 20, 145-190.                                                                                                            
+Mendis D A & Houpis H L 1982, The cometary atmosphere and its interaction with                                                    
+    the solar wind, Rev. Geophys. Space Phys., 20, 885-928.                                                                       
+Newburn R L 1981, A semi-empirical photometric theory of cometary gas and dust                                                    
+    production: Application to P/Halley's gas production rates. In: The Comet Halley                                              
+    Dust and Gas Environment, ESA SP-174, 3-18.                                                                                   
+Porsche H & Edenhofer P, Attempt to measure the cometary mass fluence from at-                                                    
+    mospheric drag. In: Cometary Exploration (Ed: T. Gombosi), Hungarian                                                          
+    Academy of Sciences, 185-195.                                                                                                 
+Reinhard R 1981, Giotto - A Mission to Halley's Comet. In: Scientific and Ex-                                                     
+    perimental Aspects of the Giotto Mission, ESA SP-169, ix-xix.                                                                 
+Renzetti N A & Berman A L I 983, The Deep Space Network - An Instrument for                                                       
+    Radio Science Research, NASA/JPL Publication No. 80-93.                                                                       
+Royden H N, Miller R B & Buennagel L A 1984, Comparison of NAVSTAR satellite                                                      
+    L band ionospheric calibrations with Faraday rotation measurements, Radio Sci.,                                               
+    19, 798-804.                                                                                                                  
+Schmidt G, 1p W-H, Leitinger R & Galdon S J 1982. Comet Halley Ionospheric Pro-                                                   
+    file Experiment. In: Cometary Exploration (Ed: T. Gombosi), Hungarian                                                         
+    Academy of Sciences, 391-400.                                                                                                 
+Schwehm G H & Kneissel B 1981, Optical and physical properties and dynamics of                                                    
+    dust grains released by Comet Halley. In: The Comet Halley Dust and Gas En-                                                   
+    vironment, ESA SP-174, 77-84.                                                                                                 
+Vasilyev M B, Vyshlov A S, Kolosov M A, Mesterton A P, Savich N A, Samovol                                                        
+    V A, Samoynaev L N & Sidorenko A Z 1980, Two frequency radio occultation                                                      
+    measurements with Venera-9 and Venera-10 Orbiters, Acta. Astron., 7,                                                          
+    335-340.                                                                                                                      
+Volland H, Bird M K, Levy G S, Stelzried C T & Seidel B L 1977, Helios-1 Faraday                                                  
+    Rotation Experiment: Results and interpretations of the solar occultations in 1975,                                           
+    J. Geophys., 42,659-672.                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  

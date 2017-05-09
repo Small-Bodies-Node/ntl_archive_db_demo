@@ -1,0 +1,19 @@
+"YEAR      ","N",4,0                                                          
+"MONTH     ","N",2,0                                                          
+"DATE      ","N",2,0                                                          
+"HOUR      ","N",3,1                                                          
+"JDAY      ","N",9,1                                                          
+"RA_HOUR   ","N",2,0                                                          
+"RA_MINUTE ","N",6,3                                                          
+"DEC_SIGN  ","C",1,0                                                          
+"DEC_DEGREE","N",2,0                                                          
+"DEC_MINUTE","N",5,2                                                          
+"DELTA     ","N",6,4                                                          
+"DELDOT    ","N",8,4                                                          
+"R         ","N",6,4                                                          
+"RDOT      ","N",8,4                                                          
+"THETA     ","N",5,1                                                          
+"BETA      ","N",4,1                                                          
+"MOON      ","N",5,1                                                          
+"PSANG     ","N",5,1                                                          
+"PSAMV     ","N",5,1                                                          

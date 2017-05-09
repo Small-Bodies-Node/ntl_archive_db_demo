@@ -1,0 +1,40 @@
+<html>
+<head>
+	<!-- the following JavaScript files provide access to PDS services -->
+	<script type="text/javascript" src="../../js-api/cxf-utils.js"></script>
+	<script type="text/javascript" src="../../js-api/PlanetaryDataSystemService.js"></script>
+	<script type="text/javascript" src="../../js-api/Common.js"></script>
+
+	<!-- main.js contains custom code for manipulating PDS data -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+	<h1>Demo 1: entities enumeration</h1>
+	
+	<h3>
+	This demo shows how to get info about datasets using getDataSetsInfo operation.</br>
+	The procedure for other entities (target types, targets, missions, instruments, data files) is 
+	the same, just use another getXXXInfo operation.
+	</h3>
+
+	<div>
+		<span>Press button 1 to get list of all datasets</span> </br>
+		<span>Press button 2 to apply pagination: items per page = 3, page number = 2</span> </br>
+		<span>Press button 3 to apply restriction: get all datasets from the mission with id 3 (DEEP SPACE 1 mission)</span> </br></br>
+		<input type="button" value="1" onClick="getDataSets1()">
+		<input type="button" value="2" onClick="getDataSets2()">
+		<input type="button" value="3" onClick="getDataSets3()">
+		</br></br>
+
+		<!-- the span's text is set from the JavaScript code -->
+		<span id='dataSetsCount'></span>
+
+		<!-- this list is filled from the JavaScript code -->
+		<ul id='dataSetsList'></ul>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "NULL"                                    
+                                                                              
+OBJECT                            = DATA_SET                                  
+  DATA_SET_ID                     = "VEGA1-C-TVS-2-RDR-HALLEY-V1.0"           
+                                                                              
+  OBJECT                          = DATA_SET_INFORMATION                      
+    DATA_SET_NAME                 = "VEGA1 TV SYSTEM IMAGES V1.0"             
+    DATA_SET_COLLECTION_MEMBER_FLG= "Y"                                       
+    ARCHIVE_STATUS                = "ARCHIVED"                                
+    DATA_OBJECT_TYPE              = "IMAGE"                                   
+    START_TIME                    = 1986-03-06T06:03:06.624                   
+    STOP_TIME                     = 1986-03-06T08:29:05.856                   
+    DATA_SET_RELEASE_DATE         = UNK                                       
+    PRODUCER_FULL_NAME            = "INTERNATIONAL HALLEY WATCH"              
+    DETAILED_CATALOG_FLAG         = "N"                                       
+    DATA_SET_TERSE_DESC           = "VEGA 1 satellite raw TV system images of 
+                                      1P/Halley"                              
+    ABSTRACT_DESC                 = "                                         
+For the TV SYSTEM, 95 images were sent as a 7-d FITS file with little         
+information in the FITS headers.  In addition, to the size of the             
+image (NAXIS1 and NAXIS2), the values for NAXIS3 and NAXIS4 were              
+labeled 'TIME' interpreted as exposure time in seconds.  The following        
+procedure was used to convert NAXIS3 information:"                            
+                                                                              
+    CITATION_DESC                 = "                                         
+Dyachkov A. V., VEGA1 TV SYSTEM IMAGES V1.0, VEGA1-C-TVS-2-RDR-HALLEY-V1.0,   
+NASA Planetary Data System, 1997"                                             
+                                                                              
+    DATA_SET_DESC                 = "                                         
+                                                                              
+    Data Set Overview                                                         
+    =================                                                         
+                                                                              
+      For the TV SYSTEM, 95 images were sent as a 7-d                         
+      FITS file with little information in the FITS                           
+      headers.  In addition, to the size of the image                         
+      (NAXIS1 and NAXIS2), the values for NAXIS3 and                          
+      NAXIS4 were labeled 'TIME'; the first was                               
+      interpreted as exposure time in seconds.  The                           
+      following procedure was used to convert NAXIS3                          
+      information:                                                            
+                                                                              
+      - The IKI datasets header have a field called                           
+      CRVAL3 which appears to contain a count of seconds                      
+      since midnight.                                                         
+                                                                              
+      - We converted the CRVAL3 value to a day fraction                       
+      and matched patterns of exposure times between this                     
+      dataset and similar TVS data from KFKI.                                 
+                                                                              
+      - the IKI time is greater than the KFKI time for                        
+      the corresponding dataset by about 0.00646 days                         
+      (approximately 9.3 minutes).  (We interpret the                         
+      latter as the light correction time but choose not                      
+      to make the correction but leave the IKI data as                        
+      submitted."                                                             
+                                                                              
+    CONFIDENCE_LEVEL_NOTE         = "                                         
+                                                                              
+    Confidence Level Overview                                                 
+    =========================                                                 
+      N/A"                                                                    
+                                                                              
+  END_OBJECT                      = DATA_SET_INFORMATION                      
+                                                                              
+  OBJECT                          = DATA_SET_TARGET                           
+    TARGET_NAME                   = "HALLEY"                                  
+  END_OBJECT                      = DATA_SET_TARGET                           
+                                                                              
+  OBJECT                          = DATA_SET_MISSION                          
+    MISSION_NAME                  = "VEGA 1"                                  
+  END_OBJECT                      = DATA_SET_MISSION                          
+                                                                              
+  OBJECT                          = DATA_SET_HOST                             
+    INSTRUMENT_HOST_ID            = "VEGA1"                                   
+    INSTRUMENT_ID                 = "TVS"                                     
+  END_OBJECT                      = DATA_SET_HOST                             
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "ESA-SP1066"                              
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "NATURE321"                               
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+END_OBJECT                        = DATA_SET                                  
+END                                                                           

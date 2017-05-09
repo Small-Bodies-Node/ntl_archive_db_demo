@@ -1,0 +1,694 @@
+***** File GIOMAG.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+The Giotto Magnetic-Field                                                                                                         
+Investigation                                                                                                                     
+                                                                                                                                  
+F.M. Neubauer                                                                                                                     
+Institut fur Geophysik und Meteorologie der Universitat Cologne, Germany                                                          
+                                                                                                                                  
+M.H. Acuna, L.F. Burlaga                                                                                                          
+Goddard Space Flight Center, Greenbelt, USA                                                                                       
+                                                                                                                                  
+B.  Franke                                                                                                                        
+Institut fur Datenverarbeitungsanlagen, Technical University of Braunschweig, Germany                                             
+                                                                                                                                  
+B. Granikow                                                                                                                       
+Institut fur Geophysik und Meteorologie, Technical University of Braunschweig, Germany                                            
+                                                                                                                                  
+F. Mariani                                                                                                                        
+Dipartimento di Fisica, University of Rome, Italy                                                                                 
+                                                                                                                                  
+G.  Musmann                                                                                                                       
+Institut fur Geophysik und Meteorologie, Technical University of Braunschweig, Germany                                            
+                                                                                                                                  
+N.F. Ness                                                                                                                         
+Goddard Space Flight Center, Greenbelt, USA                                                                                       
+                                                                                                                                  
+H.U. Schmidt                                                                                                                      
+Max-Planck-Institut fur Physik und Astrophysik, Garching, Germany                                                                 
+                                                                                                                                  
+T.  Terenzi                                                                                                                       
+Istituto Plasma Spazio, CNR, Frascati, Italy                                                                                      
+                                                                                                                                  
+E. Ungstrup                                                                                                                       
+Danish Space Research Institute, Lyngby, Denmark                                                                                  
+                                                                                                                                  
+M. Wallis                                                                                                                         
+Department of Applied Mathematics and Astronomy, University College Cardiff, UK                                                   
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+--------                                                                                                                          
+                                                                                                                                  
+The main objective of the Giotto Magnetometer Experiment is the investigation of                                                  
+the interaction between Comet Halley and the solar wind at a distance of 0.9 AU from                                              
+the Sun, to within 500 km of the cometary nucleus. A second objective is the study                                                
+of the interplanetary magnetic field.                                                                                             
+  The instrumentation consists of a triaxial and a separate biaxial system of fluxgate                                            
+sensors of the ring-core type, the associated analogue electronics and a digital pro-                                             
+cessor. The measuring ranges of +/- 16 nT, +/- 64 nT, etc., up to +/- 65536 nT are digitiz-                                       
+ed by a 12-bit analogue-to-digital converter, allowing a sampling rate of 28.24 vectors                                           
+per second at encounter. Memory modes allow the bridging of gaps in telemetry                                                     
+coverage of up to ten days. The total mass of the instrument is 1360 g and its power                                              
+consumption 820 mW.                                                                                                               
+  Because of the dust hazard near closest approach, a magnetometer boom could not                                                 
+be included in the spacecraft's design. The resulting magnetic-contamination problem                                              
+was attacked by the use of two magnetometers and by a magnetic-cleanliness pro-                                                   
+gramme.                                                                                                                           
+  First in-flight results show that the instrument itself is working flawlessly, though                                           
+some magnetic-contamination problems remain.                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+1. Scientific Objectives                                                                                                          
+------------------------                                                                                                          
+                                                                                                                                  
+  The primary objective of the Giotto Magnetometer Experiment is to study the in-                                                 
+teraction between the magneto-plasma of the solar wind and the ionosphere-neutral-                                                
+atmosphere system of Comet P/Halley. The most important data for this study will                                                  
+be obtained during the second half of 13 March 1986, on the inbound pass, until                                                   
+closest approach shortly after midnight early on 14 March 1986. Nevertheless, precur-                                             
+sor phenomena can be expected up to a few days before encounter. If the spacecraft                                                
+should survive its flyby of the cometary nucleus, the outbound pass will provide addi-                                            
+tional important data in view of the asymmetry of the interplanetary magnetic field                                               
+with respect to the direction of incident solar-wind flow.                                                                        
+  The ideal situation for the study of the flow interaction between any planetary body                                            
+and a streaming plasma would be provided by a two-spacecraft mission, with one                                                    
+spacecraft passing through the flow system and the second monitoring the solar wind                                               
+upstream of the planetary body. In the absence of such a second spacecraft, it is man-                                            
+datory to study the solar wind around the time of the encounter. In this sense, solar-                                            
+wind studies are a primary objective of this mission. In addition, the mission is of ap-                                          
+preciable interest for studying the interplanetary medium per se, because of the cluster                                          
+of interplanetary spacecraft performing simultaneous measurements.                                                                
+  Finally, the discussion of scientific objectives would be incomplete if the possibility                                         
+of a magnetic field internal to Comet Halley were ignored.                                                                        
+                                                                                                                                  
+1.1 Interaction between Comet Halley and the Solar Wind                                                                           
+  The encounter between Giotto and Comet Halley will occur at a distance of 0.89                                                  
+AU from the Sun, after the comet has passed perihelion on 9 February 1986. The                                                    
+magnetoplasm of the solar wind will then be interacting with the well-developed                                                   
+atmosphere-ionosphere system of the comet. Figure 1 shows the classical picture of                                                
+this interaction (Wallis, 1973; Schmidt & Wegmann, 1982; Ip & Axford, 1982),                                                      
+together with the flyby trajectory of the spacecraft. The flyby occurs from dusk to                                               
+dawn at a solar phase angle of 107deg and a relative velocity of 68 km/s.                                                         
+  In the classical picture, the neutral gas of the comet is initially expanding radially                                          
+away from the nucleus with a velocity of about 1 km/s. Ions with these slow initial                                               
+speeds are produced by ionization of cometary neutrals due to EUV-radiation from the                                              
+Sun and hot electrons, and by charge exchange with solar-wind ions. These ions are                                                
+then picked up by the motional electric field of the local magneto-plasma, which is                                               
+provided by the frozen-in field condition. In this mass-loading process, the solar wind                                           
+contaminated by cometary ions is decelerated. In the classical picture a relatively weak                                          
+shock forms. After passage through the bow shock, the flow is further decelerated and                                             
+deflected around the inner coma region by a contact surface provided by a pressure                                                
+balance between the inner ionospheric plasma of cometary origin and the outer                                                     
+magneto-plasma consisting of solar-wind and cometary ions. In this picture, the                                                   
+                                                                                                                                  
+Figure 1. The Giotto encounter trajectory and                                                                                     
+the classical picture of the interaction between                                                                                  
+Comet Halley and the solar wind                                                                                                   
+                                                                                                                                  
+magnetic field undergoes a process called 'draping', in which the deceleration of the                                             
+plasma near the comet leads to a lag in the portions of the field line near the comet                                             
+relative to the distant portions. The kinematic process leads to field-line configurations                                        
+reminiscent of hair-pins. The draping process was proposed by Alfven to explain the                                               
+tail ray formation as early as 1957. Also the ion pickup process, with its associated                                             
+non-equilibrium distribution functions, has been proposed as a source of several                                                  
+plasma instabilities generating electromagnetic and electrostatic wave modes (e.g.                                                
+Winske et al., 1985).                                                                                                             
+  The general picture just described has been confirmed in several aspects by the flyby                                           
+of the International Cometary Explorer spacecraft at Comet Giacobini-Zinner (G - Z)                                               
+on 11 September 1985. The draping process has been confirmed, with magnetic fields                                                
+as high as 55 nT in the induced tail of the comet (ICE Press Conference; personal co-                                             
+munications by E.J. Smith and J.C. Brandt, 1985). Although the transition from                                                    
+supersonic to subsonic flow occurred at the expected distance of 1.4 x 10**5 km from                                              
+the tail-axis, it was not connected with a shock of familiar signature. Among the other                                           
+unexpected results were the discovery of high-energy particles with energies that can-                                            
+not be explained by the pickup process alone, and the occurrence of strong magnetic-                                              
+field turbulence up to the Nyquist frequency of the ICE magnetometer experiment of                                                
+1.5 Hz. It is very probable that these observations are related. We note that the flyby                                           
+trajectories for P/Halley and P/G-Z are very similar in the cometary frame of                                                     
+reference at large distances from the comet. At closer distances, the differences are                                             
+significant in that the point of closest approach will be at 500 km sunward for Giotto,                                           
+in contrast to the 8000 km tailward for the ICE mission.                                                                          
+  Comet-like interactions have been observed before, most extensively by the                                                      
+Pioneer-Venus-Orbiter mission (e.g. Russell & Vaisberg, 1983; Cloutier et al., 1983).                                             
+but also during the Voyager-1 encounter at Titan on 12 November 1980 (Ness et al.,                                                
+1982; Neubauer et al., 1984).                                                                                                     
+  At Comet Halley we expect a much larger interaction region with the solar wind                                                  
+compared with P/G-Z, due to the much larger gas production rate. This is expected                                                 
+to lead not only to quantitative, but also to qualitative differences from Comet G - Z.                                           
+On Giotto, the region close to the comet will be particularly interesting, as a contact                                           
+surface at a distance of several 1000 km is expected, enclosing a volume with zero                                                
+magnetic field inside the cometary counterpart of the Venus ionopause.                                                            
+  The following sequence of events is then expected under average solar-wind condi-                                               
+tions. High-energy particles of cometary origin will excite electromagnetic wave                                                  
+modes which may already be 'seen' two days before encounter. The shock or 'shock-                                                 
+like' transition region is expected at about 1.1 X 10**6 km from closest approach, i.e.                                           
+4.5 h before minimum distance to the nucleus. We then expect highly turbulent regions                                             
+with an increase in magnetic-field magnitude towards the magnetic field pile-up region                                            
+on the sunward side of the nucleus. At about 1 min before closest approach, we may                                                
+encounter the cometary ionopause or contact surface, with an abrupt decrease of the                                               
+field from more than 100 nT to zero. In the field-free region, we may also be able                                                
+to observe the cometary counterpart of flux-ropes detected at Venus (Russell &                                                    
+Elphic, 1979). The value of the inbound observations would be more than doubled if                                                
+outbound observations were also available.                                                                                        
+  As far as the turbulence in the cometary magnetosheath is concerned, we note that                                               
+many interesting wave modes are confined to frequencies well below the lower hybrid                                               
+frequency. One of the important length scales is a thermal ion gyro radius for other                                              
+investigations. The frequency resolution of the experiment must then be adequate to                                               
+resolve the resulting time scales along most of the encounter trajectory. The main ob-                                            
+jectives are then:                                                                                                                
+(i)   study of precursor wave phenomena far from the comet                                                                        
+(ii)  identification and investigation of plasma boundaries, i.e. the bow shock or its                                            
+      cometary counterpart, the cometary ionopause, etc.                                                                          
+(iii) investigation of plasma turbulence                                                                                          
+(iv)  study of plasma phenomena related to optical observations from the ground.                                                  
+                                                                                                                                  
+1.2 Interplanetary magnetic-field studies                                                                                         
+  We have already mentioned the importance of knowing the solar-wind conditions                                                   
+in the region of space around the comet close to the time of encounter. For example,                                              
+in order to assess the complete history of a typical neutral-gas molecule, from its time                                          
+of release from the surface of the nucleus to the time when it loads the solar wind at                                            
+10**6 km from the nucleus, we need to know the solar wind incident on the comet for                                               
+about 9 days. Extending this argument, a period of solar-wind observations during at                                              
+least one solar rotation before encounter is necessary.                                                                           
+ Also, the encounter at Comet Halley will occur at a time of solar minimum, when                                                  
+the solar wind is expected to be dominated by a few stable high-speed streams issuing                                             
+from well-defined coronal holes. The magnetic field will be dominated by a well-                                                  
+defined sector structure. Although the solar-wind structure near 1 AU has been studied                                            
+in detail in the past, the cluster of spacecraft now aimed at Comet Halley provides a                                             
+unique opportunity to study it with a two-dimensional array in the ecliptic. Potential                                            
+contributors to such a study are the ICE, Vega-1, Vega-2, Planet-A, MS-T5 and                                                     
+Giotto spacecraft. Obviously, such a study requires adequate telemetry coverage for                                               
+these missions.                                                                                                                   
+ The primary objectives can then be summarized as follows:                                                                        
+(i)  establishment of the solar-wind magneto-plasma environment of Comet Halley                                                   
+     for several weeks before encounter                                                                                           
+(ii) study of solar-wind macrostructure of co-rotating and propagating features.                                                  
+                                                                                                                                  
+1.3 The possibility of an internal magnetic field for Comet Halley                                                                
+ Because of its cosmogonic significance, it is worthwhile discussing briefly the                                                  
+possibility of Comet Halley possessing an internal magnetic field, and its possible                                               
+detection. The only possibility seems to be that the dust component of the nucleus                                                
+possesses some natural remnant magnetization. If, for example, the cometary nucleus                                               
+had accreted in a strong magnetic field, such magnetization could have been produced                                              
+by a process analogous to depositional remnant magnetization in palaeo-magnetism.                                                 
+The degree of magnetization would depend on the chemistry and structure of the ac-                                                
+creting grains and the primordial field. Since these inputs are not known, let us assume                                          
+for simplicity that the nonvolatile component of the cometary nucleus has an extreme                                              
+magnetization corresponding to 10**-3 emu/g, which is high for values measured                                                    
+in meteorites. In second Gaussian position, this would lead to about 200 nT on the sur-                                           
+face of the nucleus, if we assume a dipole field due to uniform magnetization. With                                               
+a radius of 1.5 km for the nucleus of Comet Halley, the distance of closest approach                                              
+would have to be 7 km (!) from the centre for the magnetic field to be marginally                                                 
+detectable. We therefore conclude that the establishment of at least a useful upper limit                                         
+on the magnetization of the nucleus must await a close approach by a rendezvous                                                   
+mission.                                                                                                                          
+                                                                                                                                  
+                                                                                                                                  
+2.  The Instrumentation                                                                                                           
+                                                                                                                                  
+The design of any scientific instrument must take into account the scientific objec-                                              
+tives of the investigation and the spacecraft's resources, such as mass, power,                                                   
+telemetry rate, telemetry coverage assigned to the experiment, and contamination of                                               
+the measurements by the spacecraft environment, as well as details of the implementa-                                             
+tion of the development and test programme on the ground.                                                                         
+  In the case of the magnetometer investigation, the scientific objectives led to several                                         
+requirements. Our objective is to resolve electromagnetic plasma waves up to the                                                  
+lower hybrid resonance frequency under reasonable magneto-plasma conditions and                                                   
+to resolve spatial scale lengths down to several ion gyro radii at the flyby velocity of                                          
+68 km/s. The maximum sampling rate of 28.24 vectors per second used during en-                                                    
+counter fulfils this requirement reasonably well. Because of the modest expected                                                  
+telemetry coverage during cruise to the comet and the short time interval of 4 h iden-                                            
+tified as the encounter phase proper, the inclusion of an experiment memory was con-                                              
+sidered absolutely necessary at the time of experiment design.                                                                    
+  The measuring ranges of the experiment are determined by the necessity to observe                                               
+the interplanetary magnetic field before the encounter, with an average magnitude of                                              
+5 nT, and the maximum fields expected near the comet of several 100 nT. Since                                                     
+ground testing of a magnetometer experiment designed for the observation of weak                                                  
+fields is generally difficult because of the presence of the geomagnetic field of about                                           
+50 000 nT at intermediate latitudes, measuring ranges up to +/- 65 536 nT were included                                           
+for test purposes.                                                                                                                
+  The quantization uncertainty of the analogue-to-digital conversion process is given                                             
+by the requirement that the associated errors should not diminish the overall accuracy                                            
+in the most sensitive ranges. Hence 12-bit analogue-to-digital conversion has been                                                
+selected.                                                                                                                         
+  Very severe limitations were set by the mass and power assigned to this experiment,                                             
+together with the grim magnetic-cleanliness situation. Consequently, it was not possi-                                            
+ble to include any hardware redundancy in the experiment. Hence the hardware's                                                    
+reliability is lower than that of other magnetometer experiments, such as those on the                                            
+Voyager mission and the coming Ulysses mission, for example. To achieve satisfac-                                                 
+tory reliability, simple design, limited operational redundancy, particularly careful                                             
+workmanship and careful parts selection have been emphasized.                                                                     
+  The Giotto spacecraft has been designed to reach an encounter distance of several                                               
+100 km without being destroyed by the flux of dust particles at a relative speed of                                               
+68 km/s. This has been achieved by employing a dust shield, which is also shown                                                   
+in Figure 2. This design also precludes any protruding spacecraft appendages such as                                              
+a magnetometer boom. The two magnetometer sensor systems (MAG-1 and MAG-2)                                                        
+are therefore mounted on the antenna tripod carrying the feed for the despun antenna                                              
+disc and the omni-directional antenna, as shown in Figure 2. In the early phase of the                                            
+project, when the baseline design contained only one sensor system (MAG-1), it                                                    
+became clear that the magnetic contamination of the measurements at the position of                                               
+MAG-1 would be worse than expected. The project agreed to add an additional sensor                                                
+system (MAG-4) to reduce the pressure on the magnetic-cleanliness specifications.                                                 
+The slight mass increase was absorbed by the agreement of the magnetometer team                                                   
+to provide also certain experiment interface units which had previously been included                                             
+in the mass budget of the spacecraft system. The evolution in the magnetometer ex-                                                
+periment's design has been described previously by Neubauer (1981) and Neubauer                                                   
+et al. (1983). In contrast to other space projects involving magnetometer experiments,                                            
+the magnetic-cleanliness programme on Giotto was largely the responsibility of the                                                
+magnetometer team. It will be described in Section 3.                                                                             
+                                                                                                                                  
+    Figure 2. The Giotto spacecraft, showing the                                                                                  
+    outboard triaxial sensor system MAG-1 ad                                                                                      
+    the inboard biaxial sensor system MAG-4                                                                                       
+    mounted on the antenna tripod                                                                                                 
+                                                                                                                                  
+ Owing to the severe power and mass limitations, the only type of magnetometer that                                               
+could be used was a fluxgate magnetometer of the ring-core type, with its superior                                                
+performance in terms of low noise level and high zero-stability, and its low mass and                                             
+power consumption. A schematic of the Giotto Magnetometer Experiment, which will                                                  
+be explained in detail below, is shown in Figure 3.                                                                               
+  The Experiment consists of three hardware units, aside from the various connection                                              
+cables. The magnetometer electronics box, referred to as MAG-2 in project parlance,                                               
+is mounted on the underside of the top spacecraft platform. It contains the                                                       
+magnetometer electronics proper and the digital processor. Two fluxgate sensor                                                    
+Systems, MAG-1 and MAG-4, are mounted on the antenna tripod. The main MAG-1                                                       
+magnetometer is a triaxial fluxgate magnetometer. The additional magnetometer,                                                    
+MAG-4, is a biaxial one with an axis parallel to the +Z(M)  axis of the spacecraft and                                            
+an axis in the X(M) Y(M) plane parallel to one of the axes of the outboard magnetometer                                           
+MAG-1. The five magnetic-field components are referred to as XOB, YOB, ZOB, XIB                                                   
+and ZIB, with OB meaning outboard and IB meaning inboard. The temperatures of                                                     
+                                                                                                                                  
+Figure 3. Schematic of the Giotto                                                                                                 
+magnetometer experiment                                                                                                           
+                                                                                                                                  
+---------------------------------------                                                                                           
+Table 1. Mass breakdown for the Giotto                                                                                            
+Magnetometer Experiment                                                                                                           
+                                                                                                                                  
+Subunit                   Mass*  (g)                                                                                              
+-------------------------------------                                                                                             
+Electronics box MAG-2            935                                                                                              
+Outboard magnetometer MAG-1      304                                                                                              
+Inboard magnetometer MAG-4       118                                                                                              
+-------------------------------------                                                                                             
+Total                           1357                                                                                              
+-------------------------------------                                                                                             
+* Without interconnection cables, but with                                                                                        
+'pig-tails'                                                                                                                       
+                                                                                                                                  
+-------------------------------------                                                                                             
+Table 2. Power consumption breakdown for                                                                                          
+the Giotto Magnetometer Experiment                                                                                                
+                                                                                                                                  
+                                 Power cons.*                                                                                     
+Experiment portion               (mW)                                                                                             
+-------------------------------------                                                                                             
+Sensors and magnetometer                                                                                                          
+analogue electronics (in range)  478                                                                                              
+                                                                                                                                  
+Digital processor                340                                                                                              
+-------------------------------------                                                                                             
+Total for 'in-range' conditions  818                                                                                              
+-------------------------------------                                                                                             
+Total for all components                                                                                                          
+'over-ranged'                   1130                                                                                              
+-------------------------------------                                                                                             
+* Including DC-DC converter                                                                                                       
+                                                                                                                                  
+the MAG-1 and MAG-4 magnetometers are monitored by thermistors in their hous-                                                     
+ings. The temperature at MAG-2 is monitored by a spacecraft thermistor.                                                           
+Mass and power breakdowns for the experiment units are shown in Tables 1 and                                                      
+2, respectively.                                                                                                                  
+ Within the Magnetometer Experiment team, the magnetometer sensor units and the                                                   
+analogue electronics boards were provided by the Goddard Space Flight Center                                                      
+(GSFC) team. The Technical University of Braunschweig provided the digital pro-                                                   
+cessor, whereas the University of Rome procured the experiment ground-support                                                     
+equipment for the test phase and limited quick-look data analysis. A data station for                                             
+advanced quick-look analysis and data interpretation has been provided by the Univer-                                             
+sity of Cologne group.                                                                                                            
+                                                                                                                                  
+2.1 1 Fluxgate magnetometer system                                                                                                
+                                                                                                                                  
+The Giotto Magnetometer Experiment had to be of a completely new design because                                                   
+of the stringent mass and power limitations, though it follows the design principles                                              
+of the highly successful Voyager magnetometer experiment (Behannon et al., 1977;                                                  
+Acuna, 1974).                                                                                                                     
+                                                                                                                                  
+In all fluxgate magnetometers, a ferromagnetic core of soft magnetic material is                                                  
+periodically  driven into saturation by the magnetic field of a drive coil, which is                                              
+energized by a periodic current form of suitable shape at the drive frequency                                                     
+f(0) 15.1499 kHz in the case of Giotto. The drive coil, the magnetic core and an ad-                                              
+ditional sense coil form a transformer in which the sense coil picks up a voltage at                                              
+the drive frequency f(0) and ideally its odd harmonics only, if no ambient field is pre-                                          
+sent. In the presence of an ambient magnetic field component H(a) parallel to the sen-                                            
+sitive direction of the sense winding, even harmonics show up. In reality, a small                                                
+zero-offset exists, corresponding to small-amplitude even harmonics at zero ambient                                               
+field. To obtain the magnetic-field component H(a), the second harmonic at 2 f(0) is                                              
+generally used, with an amplitude proportional to the ambient H(a) component just                                                 
+defined. To improve linearity, the sense-coil output is used to control the current                                               
+through a feedback coil, which produces a magnetic field compensating the ambient                                                 
+field. In this respect, the sense coil output is used to detect a zero resultant field.                                           
+ A functional block diagram, which also applies to the Giotto Magnetometer Experi-                                                
+ment, is shown in Figure 4 for one axis. In Giotto's case the sense and feedback coils                                            
+are physically identical, because the sense signal around 2 f(0) and the feedback signal                                          
+are well separated in frequency.                                                                                                  
+ At the time of procurement for the Giotto magnetometer, the magnetic material used                                               
+in the ring-core sensors was the latest in a series of advanced molybdenum permalloy                                              
+alloys, which have been especially developed for low-noise, high-stability applications                                           
+                                                                                                                                  
+Figure 4. Functional block diagram of the                                                                                         
+fluxgate electronics for one component                                                                                            
+                                                                                                                                  
+by the GSFC group and its subcontractors. The Giotto sensors, therefore, show a fac-                                              
+tor 1.5 improvement in noise characteristics over the Voyager sensors. Use of these                                               
+alloys and the ring-core geometry allowed the development of a compact, low-noise                                                 
+and low-zero-drift instrument with low power consumption. Over the range of                                                       
+operating temperatures from -50deg to +60deg C, the zero stability turned out to be                                               
++/-0.2 nT in laboratory measurements. The noise level is better than about 0.003 nT                                               
+rms in the experiment bandwidth of 0-15 Hz. The ring-core sensors and associated                                                  
+coils are mounted in lexan structures, with glass-fibre housings metallized on the in-                                            
+side to reduce interference problems.                                                                                             
+                                                                                                                                  
+ Table 3. Nominal measuring ranges of Giotto                                                                                      
+Magnetometer Experiment                                                                                                           
+                                                                                                                                  
+          Dynamic     Quantization                                                                                                
+   Range  range (nT)  uncertainty (nT)                                                                                            
+   R1   +/-    16     +/-  0.004                                                                                                  
+   R2   +/-    64     +/-  0.016                                                                                                  
+   R3   +/-   256     +/-  0.063                                                                                                  
+   R4   +/-  1024     +/-  0.25                                                                                                   
+   R5   +/-  4O96     +/-  1                                                                                                      
+   R6   +/- 16384     +/-  4                                                                                                      
+   R7   +/- 65536     +/- 16                                                                                                      
+                                                                                                                                  
+ The resistance in the feedback circuit determines the instrument's sensitivity, i.e.                                             
+the constant of proportionality between the magnetic-field component H(a) and the                                                 
+voltage U(a) in Figure 4. Nominally, it is given by R(F). Range switching is achieved by                                          
+changing the resistivity of the feedback circuit by electronic switching of various                                               
+resistors. The Giotto magnetometer experiment has seven measuring ranges, noted in                                                
+Table 3. More precisely, the outboard magnetometer can make use of the seven ranges                                               
+R1,... R7, whereas the inboard magnetometer is in range R3 whenever the outboard                                                  
+magnetometer is in R1, R2 or R3, and in the same range as MAG-1 for all less-                                                     
+sensitive ranges.                                                                                                                 
+ The quantization uncertainties due to the 12-bit analogue-to-digital conversion have                                             
+also been included in Table 3.                                                                                                    
+ The ranges used are controlled by the digital processor of the experiment. They can                                              
+either be set 'manually' by telecommand to a selected range, or be determined by a                                                
+digital processor subprogram in automatic mode. In automatic mode, selected by                                                    
+telecommand from the ground, the range can be adapted to the measured magnetic                                                    
+field every eighth frame (see below) during real-time data transmissions. Up-ranging                                              
+or down-ranging occur depending on whether magnetic-field components appear in an                                                 
+upper or lower guard band shown in Figure 5.                                                                                      
+ As a limited functional check, the experiment can also be commanded into a sen-                                                  
+sitivity calibration mode in which a calibration field corresponding to one quarter of                                            
+the range is applied in any odd range, i.e. R1 or R3 or R5 or R7.                                                                 
+ The frequency transfer function T(f) for each magnetometer axis is given by the                                                  
+functional form                                                                                                                   
+                                                                                                                                  
+   T(f) = 1/[1+2iz(f/f(n))-(f**2/f(n)**2)]                                                                                        
+                                                                                                                                  
+Where the damping constants z and the natural frequencies f(n) are given in calibration                                           
+tables. The 3 dB frequencies are between 10 Hz and 17 Hz for all seven ranges.                                                    
+                                                                                                                                  
+                                                                                                                                  
+Figure 5. Illustration of upranging and                                                                                           
+downranging strategy                                                                                                              
+                                                                                                                                  
+2.2 The digital processor                                                                                                         
+  We have already mentioned one of the tasks of the digital data processor of the                                                 
+Giotto Magnetometer Experiment, namely the control of the various measuring                                                       
+ranges. The functional units of the processor are included in Figure 3. It has the                                                
+following tasks:                                                                                                                  
+(i)   timing of measurements in real time and memory mode                                                                         
+(ii)  range control                                                                                                               
+(iii) averaging of memory mode vectors                                                                                            
+(iv)  collection of housekeeping data                                                                                             
+(v)   telemetry interfacing                                                                                                       
+(vi)  command reception and implementation.                                                                                       
+                                                                                                                                  
+The heart of the digital processing system is an RCA CDP 1802/MPU-1                                                               
+microprocessor with 16 kbyte of RAM and 5.5 kbyte of PROM, operating at                                                           
+1.939 MHz.                                                                                                                        
+  The first task of the processor is to provide the timing for the real-time                                                      
+measurements. These are timed synchronously with the spacecraft telemetry system.                                                 
+The spacecraft real-time telemetry system has three formats for science data transmis-                                            
+sion. These formats, FM1, FM2 and FM3, last for 68/3 s, 68/3 s and 136/3 s,                                                       
+respectively, for the highest possible bit rates (total spacecraft bit rate 46 kbit/s).                                           
+Formats FM1 and FM2 can also be operated at half the maximum bit rates. Formats                                                   
+FM1, FM2 and FM3 include 64, 64 and 16 frames, respectively. The number of                                                        
+magnetic-field vectors measured by the outboard magnetometer in these formats is                                                  
+640,640 and 400, respectively. For the Magnetometer Experiment, FM1 and FM2                                                       
+are identical and as a result it has three sampling rates for real-time data transmission                                         
+(Table 4).                                                                                                                        
+  The real-time data modes are also used to dump the experiment memory. Approx-                                                   
+imately 15 kbyte of the experiment's 16 kbyte RAM can be used to store magnetic-field                                             
+vectors over extended time periods to bridge gaps in telemetry coverage. Because of                                               
+the 4 s spin period of the spacecraft, this has to be done in synchronization with the                                            
+spin, given by the Sun Reference Pulse (SRP). Two memory modes are available. In                                                  
+cruise mode, blocks of 32 vectors are read into the memory, where each of the 32                                                  
+vectors is the result of averaging magnetic-field vectors obtained at the SRP over N                                              
+spin periods, where N can be any power of 2 between N=1 and N=128. The selection                                                  
+is made by telecommand. Hence the averaging times range between 4 s and 512 s                                                     
+(8.53 min). In the latter case a 10 d gap in telemetry coverage could be bridged.                                                 
+  The second memory mode, called the 'snapshot' mode, also uses blocks of 32 vec-                                                 
+tors. However, these alternate between blocks containing 'snapshots' of the magnetic                                              
+field. Every 'snapshot' consists of 32 vectors measured spin-synchronously at a rate                                              
+of eight vectors per spin period over four spin periods. The idea of the snapshot                                                 
+memory mode was to provide a means to monitor the spacecraft magnetic field during                                                
+telemetry gaps. Gaps of up to 5 d can be closed by the snapshot mode. In both memory                                              
+modes, inboard and outboard components are measured at the same rate. The time of                                                 
+the measurements in memory mode is obtained by an experiment clock. The experi-                                                   
+ment clock is synchronized with the spacecraft clock after switch-on of the ex-                                                   
+periment.                                                                                                                         
+  The memory dump occurs automatically when real-time telemetry is available and                                                  
+the experiment is still switched into memory mode. Nominally, the memory readout                                                  
+is performed after a 'memory-dump' command. The readout of the memory lasts from                                                  
+95 s to 5 min in format 1 at a high telemetry bit rate and in format 3, respectively.                                             
+                                                                                                                                  
+Table 4. Sampling rates for real-time vector measurements                                                                         
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+                          Sampling rate of outboard  Sampling rate of inhoard                                                     
+Real-time data modes      magnetometer (s**-1)         magnetometer (s**-1)                                                       
+--------------------------------------------------------------------------------                                                  
+FM1/2 high bit rate      28.24                       2.82                                                                         
+FM1/2 low bit rate       14.12                       1.41                                                                         
+FM3                       8.82                       1.76                                                                         
+--------------------------------------------------------------------------------                                                  
+                                                                                                                                  
+  The data processor also collects the experiment housekeeping information. From the                                              
+2040 words of a housekeeping frame, which lasts one format, eight words have been                                                 
+assigned to the Magnetometer Experiment. The housekeeping data provide informa-                                                   
+ion on the various functions of the experiment up to four times per format. In addi-                                              
+tion, the digital processor provides the timing for the measurement of some analogue                                              
+parameters, which are converted into digital form by the converter. These are certain                                             
+reference voltages and the thermistor voltage at MAG-4 (the temperature at MAG-1                                                  
+is part of spacecraft housekeeping). The analogue parameters are transmitted every                                                
+fourth or eighth format.                                                                                                          
+  The data processor also implements the commands sent to the experiment from the                                                 
+ground. Commands use 16-bit words which specify the desired overall state of the ex-                                              
+periment after reception of the command. Telecommands are used to specify the rang-                                               
+ing procedure, i.e. automatic ranging or one of the seven 'manual' range options, to                                              
+select the operational mode and the averaging period in the memory modes, to initiate                                             
+a memory dump, to exchange the telemetry assignment between MAG-1 and MAG-4,                                                      
+and to label the memory content by a command identification number. The operational                                               
+modes are sensitivity calibration, real-time mode, cruise mode and snapshot mode.                                                 
+The exchange of telemetry assignment between the outboard and inboard                                                             
+magnetometer can be used as an emergency mode and for inflight calibration pur-                                                   
+poses, such as sensor alignment measurements, etc.                                                                                
+  The 16-bit command word can attain many more values than used by 'legal' com-                                                   
+bands. These possible values can in principle be used to reprogram the experiment                                                 
+from the ground.                                                                                                                  
+                                                                                                                                  
+3. The Magnetic-                                                                                                                  
+Cleanliness Problem                                                                                                               
+                                                                                                                                  
+  The description of a Magnetometer experiment would be incomplete without a                                                      
+discussion of the problem of contamination of measurements by spacecraft magnetic                                                 
+fields due to magnetic materials and electric currents in the spacecraft electronics.                                             
+This problem is generally referred to as the 'magnetic-cleanliness' problem. On Giot-                                             
+to, the accuracy requirements for the Magnetometer Experiment are not much lower                                                  
+than for a typical interplanetary mission near 1 AU, because only a small time interval                                           
+during encounter is expected to yield field magnitudes above typical interplanetary                                               
+ones. These requirements have to be contrasted with the difficulties due to the lack                                              
+of a magnetometer boom and due to the presence of severe sources of magnetic con-                                                 
+tamination such as the permanent magnets in the mass spectrometers, the motor                                                     
+despinning the antenna dish, and the three motors of the camera.                                                                  
+  Three different techniques have been used on Giotto to solve the magnetic-                                                      
+contamination problem:                                                                                                            
+-    a magnetic-cleanliness program                                                                                               
+-    use of the two sensor systems MAG-1 and MAG-4, i.e. a triaxial and a biaxial                                                 
+     magnetometer at different spacecraft locations                                                                               
+-    inflight determination of spacecraft fields.                                                                                 
+                                                                                                                                  
+3.1 The magnetic-cleanliness programme                                                                                            
+  A detailed magnetic-cleanliness programme was carried out in the course of the                                                  
+Giotto project. In contrast to other projects, this programme was the responsibility of                                           
+the magnetometer team, although some support was provided by the project. For all                                                 
+spacecraft subsystems and experiments, the maximum allowed magnetic field at the                                                  
+position of MAG-1 was specified for the deperm state of the switched-off spacecraft,                                              
+for a perm state achieved by a 3 Gauss perm, and for the stray-field contribution due                                             
+to electrically powering the unit.                                                                                                
+  Most spacecraft subsystems and experiments or subunits thereof were magnetically                                                
+mapped in detail in the Magnetic Coil Facility at the Technical University of                                                     
+Braunschweig or a Mobile Coil Facility provided by the experiment team and                                                        
+deployed in Bristol, Toulouse and Kourou during the various project phases to make                                                
+optimum use of the time available for these activities. About 150 detailed test reports                                           
+were issued in the course of the programme.                                                                                       
+  As part of the magnetic-cleanliness programme rules for the design of magnetically                                              
+                                                                                                                                  
+-----------------------------------------------                                                                                   
+Table 5. Selected system magnetic-test results                                                                                    
+                                                                                                                                  
+                       Magnetic field                                                                                             
+                       magnitude at                                                                                               
+Magnetic state         MAG-1 (nT)                                                                                                 
+-----------------------------------------------                                                                                   
+Initial, as received    1.4                                                                                                       
+First deperm            2.4  L                                                                                                    
+3 G perm               15                                                                                                         
+5 G perm               37                                                                                                         
+Final deperm            4.2                                                                                                       
+                                                                                                                                  
+clean hardware were established and advice given to experimenters and spacecraft                                                  
+subcontractors regarding fulfilment of the specifications. The need to achieve field                                              
+stability, and not so much a low magnetic-field magnitude, was emphasized in this                                                 
+respect. On the stray-field side, self-compensation of currents was stressed in design-                                           
+ing the solar-panel harness and parts of the electrical circuitry.                                                                
+  The result of the cleanliness programme was checked via a System Magnetic Test                                                  
+in the IABG Coil Facility in Ottobrunn, near Munich, in March 1985. Table 5 shows                                                 
+some of the results.                                                                                                              
+ These results are representative for the Giotto flight spacecraft, except that the flight-                                       
+model camera was not included. They show that the magnetic-cleanliness programme                                                  
+was very effective indeed. If, for example, there had been a 3 m long magnetometer                                                
+boom extending from the spacecraft's centre, the final deperm field at the end of this                                            
+beam would have been 0.9 nT.                                                                                                      
+  The most difficult permanent-magnet problem was caused by the two motors of the                                                 
+despin motor assembly. With the magnetic moments of the motors parallel to each                                                   
+other, the field at MAG-1 was 550 nT. In the self-compensating assembly, the                                                      
+magnetic field at MAG-1 was 76 nT. After the mounting of a compensator device with                                                
+two precision magnets, the field at MAG-1 was 7 nT. It could have been even smaller,                                              
+had it not been used for a limited system compensation.                                                                           
+  In summary, we can say that for all units subjected to the full mapping and field-                                              
+reduction procedures of the magnetic-cleanliness programme, a satisfactory solution                                               
+was found. This is also true for the overall stray field, not shown in Table 5.                                                   
+  The two major problems that remained could not be subjected to the cleanliness pro-                                             
+gramme satisfactorily because of severe schedule problems; they are the stray fields                                              
+due to the despin motor and due to the operation of the camera motors. Figure 6 shows                                             
+two short intervals of raw data obtained in flight, which show these disturbances.                                                
+Figure 6a shows a quiet interplanetary magnetic field seen from the spinning Giotto                                               
+spacecraft with a superposed, very regular component at the spin frequency due to the                                             
+despin motor. In the case of the Z-component, the despin motor accounts for most of                                               
+the spin variation. The results of the System Magnetic Test show that the noise most                                              
+visible on the Z-trace is also due solely to the despin motor. Figure 6b shows addi-                                              
+tional disturbances due to the camera motor's operations.                                                                         
+                                                                                                                                  
+3.2 Use of the two sensor systems MAG-1 and MAG-4                                                                                 
+  Since the ambient magnetic field to be measured is the same at the MAG-1 and                                                    
+MAG-4 locations, the difference in the readings of the components of MAG-1 and                                                    
+MAG-4 is entirely due to the spacecraft fields which vary as a function of position                                               
+near the spacecraft. Because the System Magnetic Test has shown that the main parts                                               
+of the stray-field components of the despin motor at MAG-1 and MAG-4 are simply                                                   
+related, the difference in readings at MAG-1 and MAG-4 can be used to determine                                                   
+this field unambiguously and then to correct for it. We will also attempt to use this                                             
+technique to remove the camera stray field at the times when it is operating.                                                     
+                                                                                                                                  
+3.3 Inflight spacecraft magnetic-field determination                                                                              
+  The spin variation of the magnetic field in the spin plane can be used to determine                                             
+the spacecraft magnetic-field components in this plane and the small sensor offsets.                                              
+For the Z-components, we will determine the slowly varying part of the spacecraft                                                 
+field by statistical techniques based on the physical properties of interplanetary                                                
+magnetic-field fluctuations (e.g. Hedgecock, 1975).                                                                               
+                                                                                                                                  
+4.  Performance of the                                                                                                            
+Instrumentation in Flight                                                                                                         
+                                                                                                                                  
+  The magnetometer experiment was the first experiment of the Giotto payload to be                                                
+switched on, on 22 August 1985. It has worked flawlessly ever since.                                                              
+  Two short intervals of raw data are shown in Figures 6a and b. They are based on                                                
+data from the quick-look data stations, which are not of sufficient quantity to allow                                             
+the application of the full data-analysis programme. The spacecraft magnetic field in                                             
+the X, Y-plane has been estimated to be about 8 nT from these data.                                                               
+                                                                                                                                  
+Figure 6.   Giotto magnetometer flight data for                                                                                   
+the outboard magnetometer in format 1. Time                                                                                       
+is OCOE-time (Overall Check-Out Equipment)                                                                                        
+a.  Magnetic-field variations due to the                                                                                          
+    ambient interplanetary magnetic field, the                                                                                    
+    spin rotation and the stray field of the                                                                                      
+    despin motor particularly visible in the Z-                                                                                   
+    component                                                                                                                     
+b.  Interference signals caused by the camera                                                                                     
+    motors                                                                                                                        
+                                                                                                                                  
+5. Conclusion                                                                                                                     
+                                                                                                                                  
+  The Giotto Magnetometer Experiment is a low-mass, low-power instrument, which                                                   
+will provide magnetic-field measurements within some 500 km or less of the nucleus                                                
+  Comet Halley for the first time. In addition, it will provide high-time-resolution                                              
+observations of the plasma environment of this unique comet.                                                                      
+  The design of the instrumentation and the data-analysis system had to take into ac-                                             
+count a high level of magnetic interference from the Giotto spacecraft itself.                                                    
+  The scientific interpretation of the data will be a collaborative effort between all                                            
+members of the team who have made the experiment possible.                                                                        
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+                                                                                                                                  
+  We would like to thank the technical staffs at our institutes for their support on the                                          
+Giotto Magnetometer Experiment. In addition we gratefully acknowledge the support                                                 
+of the Giotto Project Team at ESTEC, in particular D. Dale, J. Credland, C. Berner                                                
+and R. Reinhard, of K. Mehlem of ESTEC Mathematical Division, and the BAe team,                                                   
+particularly the contributions of S. Cash to the magnetic-cleanliness programme.                                                  
+  The work has been supported financially by the Bundesministerium fur Forschung                                                  
+und Technologie in the Federal Republic of Germany, by NASA in the USA, by CNR                                                    
+in Italy and other national funding agencies. Finally we would like to express our                                                
+gratitude to W.I. Axford and H. Alfven for their help at a difficult time in this in-                                             
+vestigation.                                                                                                                      
+                                                                                                                                  
+References                                                                                                                        
+                                                                                                                                  
+Acuna M H 1974, Fluxgate magnetometers for outer planets' exploration, IEEE                                                       
+    Trans., MAG-10, 519.                                                                                                          
+Alfven H 1958, On the theory of comet tails, Tellus, 9, 92-96.                                                                    
+Behannon K W, Acuna M H, Burlaga L F, Lepping R P, Ness N F & Neubauer F M                                                        
+    1977, Magnetic field experiment for Voyagers 1 and 2, Space Sci. Revs., 21,                                                   
+    235-257.                                                                                                                      
+Cloutier PA, Tascione T F, Daniel R E, Jr., Taylor H A & Wolff R S 1983, Physics                                                  
+    of the interaction of the solar wind with the ionosphere of Venus: flow/field                                                 
+    models. In: 'Venus' (Eds. Hunten D M et al.) University of Arizona Press,                                                     
+    941-979.                                                                                                                      
+Hedgecock P C 1975, A correlation technique for magnetometer zero level determina-                                                
+    tion, Space Sci. Instr., 1, 83.                                                                                               
+Ip W H & Axford W I 1982, Theories of physical processes in the cometary comae                                                    
+    and ion tails. In: Comets (Ed. Wilkening L L) University of Arizona Press,                                                    
+    588-634.                                                                                                                      
+Ness N F, Acuna M H, Behannon K W, Burlaga L F, Connerney J E P, Lepping R                                                        
+    P & Neubauer F M 1982, The induced magnetosphere of Titan, J. Geophys. Res.,                                                  
+    87, 1369-1381.                                                                                                                
+Neubauer F M, Gurnett D A, Scudder J D & Hartle R E 1984, Titan's magnetospheric                                                  
+    interaction. In: Saturn, (Eds. Gehrels T & Matthews M S) University of Arizona                                                
+    Press, 760-787.                                                                                                               
+Neubauer F M, Musmann G, Acuna M H, Burlaga L F, Ness N F, Mariani F, Wallis                                                      
+    M, Ungstrup E, Schmidt H 1983, The Giotto magnetic field investigation. In:                                                   
+    Cometary Exploration, Proc. Int. Conf. Cometary Exploration, 15-19 November                                                   
+    1982, Budapest (Ed. Gombosi T I) 401-410.                                                                                     
+Neubauer F M 1981, The Giotto Magnetometer Experiment, ESA SP-169.                                                                
+Russell C T & Vaisberg O 1983, The interaction of the solar wind with Venus. In:                                                  
+    Venus (Eds. Hunten et al.) University of Arizona Press, 873-940.                                                              
+Russell C T & Elphic R C 1979, Observation of magnetic flux ropes in the Venus                                                    
+    ionosphere, Nature, 279, 616-618.                                                                                             
+Schmidt H U & Wegmann R 1982, Plama flow and magnetic field in comets. In:                                                        
+    Comets (Ed. Wilkening L L) University of Arizona Press, 538-560.                                                              
+Wallis M X 1973, Weakly shocked flows of the solar wind plasma through at-                                                        
+    mospheres of comets and planets, Planet. Space Sci., 21, 1647-1660.                                                           
+Winske D, Wu C S, Li Y Y, Mou Z Z & Guo S Y 1985, Coupling of newborn ions                                                        
+    to the solar wind by electromagnetic instabilities and their interaction with the                                             
+    bow shock, J. Geophys. Res., 90, 2713-2726.                                                                                   
+                                                                                                                                  
+                                                                                                                                  

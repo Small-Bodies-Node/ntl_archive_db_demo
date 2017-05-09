@@ -1,0 +1,90 @@
+NJPL1I00PDS100007180 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 98                                                      
+FILE_RECORDS        = 12581                                                   
+/*               Record Pointer to Object                             */      
+^TABLE              = "CDSTRUCT.IDX"                                          
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 15                                                      
+ ROW_BYTES          = 98                                                      
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 9                                                       
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILE_NAME"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 14                                                      
+  START_BYTE        = 2                                                       
+  FORMAT            = A14                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILE_SIZE"                                             
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 8                                                       
+  UNIT              = 'BYTES'                                                 
+  START_BYTE        = 18                                                      
+  FORMAT            = I8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "STARTING_BLOCK"                                        
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 27                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILE_ALLOCATION"                                       
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 8                                                       
+  UNIT              = 'BYTES'                                                 
+  START_BYTE        = 34                                                      
+  FORMAT            = I8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBDIR_1"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 44                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBDIR_2"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 55                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBDIR_3"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 66                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBDIR_4"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 77                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBDIR_5"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 88                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

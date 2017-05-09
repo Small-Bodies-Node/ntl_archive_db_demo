@@ -1,0 +1,40 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "STREAM"                                                     
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-18                                               
+  NOTE             = "INDEX/ directory contents"                              
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+INDEX/ Directory Contents                                                     
+=========================                                                     
+Normally, this index would contain indices into the files of this volume.     
+However, these data are so primitive with respect to the current (V3.8)       
+PDS Standards that the minimal labels included do not actually contain        
+enough information for the usual tools to generate a meaningful index.  So    
+the usually required PDS manifest index is not present. The CHECKSUM.TAB      
+file does contain a complete listing, of course, and can serve as a simple    
+manifest if one is needed.                                                    
+                                                                              
+  checksum.lbl     PDS3 label for checksum.tab                                
+  checksum.tab     MD5 checksums for every file on the disk except            
+                   itself and checksum.lbl                                    
+  indxinfo.txt     This file                                                  
+  nettabinfo.txt   A description of the IHW "NETABLES" index files, below     
+                                                                              
+                                                                              
+These files comprise the original Amateur Observations Net index for the      
+data files:                                                                   
+                                                                              
+  ir_phot.dbf                                                                 
+  ir_phot.hdr                                                                 
+  ir_phot.idx                                                                 
+  ir_phot.lbl                                                                 
+  ir_phot.str                                                                 
+                                                                              
+The various file types are described in "nettabinfo.txt".  This index is      
+very useful for finding specific files based on IHW keywords, but note that   
+the directory structure of this volume is different from that of the          
+original HAL_0024 combined volume.                                            

@@ -1,0 +1,11 @@
+     The file HISTO.DAT contains data which can be used to generate  a        
+histogram  of the number of spectra of comet Giacobini-Zinner archived        
+by the International Halley Watch Spectroscopy  and  Spectrophotometry        
+Center.   The  file  contains  two  columns  of  numbers, the first is        
+(Julian Date - 2440000), the second is the number of  spectra  in  the        
+archive  for that date.  Each day in the Julian Date interval, 2446145        
+to 2446414, 20 March to 14 December 1985, is listed.   These  are  the        
+inclusive dates covered by the comet P/Giacobini-Zinner data submitted        
+by the IHW-SSN.  This file  was  written  with  a  FORTRAN  format  of        
+3X,2I10.                                                                      
+                                                                              

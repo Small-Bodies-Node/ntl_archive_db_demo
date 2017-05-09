@@ -1,0 +1,46 @@
+After initial automatic generation of WSDL and SCHEMA from the source code the
+following additional changes should be done in WebContent/wsdl/planetarydatasystem_schema1.xsd file:
+
+1. Replace <xs:element minOccurs="0" name="restrictionEntityClass" type="xs:string"/>
+   with    <xs:element minOccurs="1" name="restrictionEntityClass" type="xs:string"/>
+   
+2. Replace <xs:element minOccurs="0" name="criteria" type="tns:searchCriteria"/>
+   with    <xs:element minOccurs="1" name="criteria" type="tns:searchCriteria"/>
+   
+3. Replace 
+        <xs:complexType name="searchEntitiesByType">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="entityType" type="xs:string"/>
+              <xs:element minOccurs="0" name="searchText" type="xs:string"/>
+              <xs:element minOccurs="0" name="page" type="tns:page"/>
+            </xs:sequence>
+          </xs:complexType>
+  
+with 
+        <xs:complexType name="searchEntitiesByType">
+            <xs:sequence>
+              <xs:element minOccurs="1" name="entityType" type="xs:string"/>
+              <xs:element minOccurs="1" name="searchText" type="xs:string"/>
+              <xs:element minOccurs="0" name="page" type="tns:page"/>
+            </xs:sequence>
+          </xs:complexType>
+          
+4. Replace
+        <xs:complexType name="searchEntities">
+            <xs:sequence>
+                <xs:element minOccurs="0" name="searchText" type="xs:string"/>
+                <xs:element minOccurs="0" name="page" type="tns:page"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+with 
+        <xs:complexType name="searchEntities">
+            <xs:sequence>
+                <xs:element minOccurs="1" name="searchText" type="xs:string"/>
+                <xs:element minOccurs="0" name="page" type="tns:page"/>
+            </xs:sequence>
+        </xs:complexType>
+          
+5. Replace <xs:element minOccurs="0" name="relatedEntityType" type="xs:string"/>
+   with    <xs:element minOccurs="1" name="relatedEntityType" type="xs:string"/>
+   

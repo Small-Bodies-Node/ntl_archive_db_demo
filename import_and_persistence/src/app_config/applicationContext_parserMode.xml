@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+                        http://www.springframework.org/schema/tx 
+                        http://www.springframework.org/schema/tx/spring-tx.xsd 
+                        http://www.springframework.org/schema/aop 
+                        http://www.springframework.org/schema/aop/spring-aop.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+    <context:annotation-config/>
+
+    <bean id="logger" class="com.topcoder.util.log.log4j.Log4jLog">
+        <constructor-arg index="0" value="gov.nasa.pds"/>
+        <constructor-arg index="1" value="false"/>
+    </bean>
+
+    <bean id="conversionPersistence" class="gov.nasa.pds.services.impl.MockConversionPersistence" />
+    <bean id="metadataValidationManager" class="gov.nasa.pds.services.impl.MockMetadataValidationManager" />
+
+    <bean id="metadataFileReader" class="gov.nasa.pds.services.impl.MetadataFileReaderFastImpl">
+        <property name="logger" ref="logger" />
+    </bean>
+
+    <bean id="dataFileReader" class="gov.nasa.pds.services.impl.DataFileReaderImpl">
+        <property name="logger" ref="logger" />
+    </bean>
+    
+    <bean id="asciiFileTypesSet" class="gov.nasa.pds.common.ResourceSetFactoryBean">
+        <property name="resource" value="file:${dataSetProcessor.asciiFileTypes}" />
+    </bean>
+
+    <bean id="ignoredSoftwareFileTypesSet" class="gov.nasa.pds.common.ResourceSetFactoryBean">
+        <property name="resource" value="file:${dataSetProcessor.ignoredSoftwareTypes}" />
+    </bean>
+    
+    <bean id="ignoredTableFileTypesSet" class="gov.nasa.pds.common.ResourceSetFactoryBean">
+        <property name="resource" value="file:${dataSetProcessor.ignoredTableTypes}" />
+    </bean>
+    
+    <bean id="dataSetProcessor" class="gov.nasa.pds.processors.impl.DataSetProcessorImpl">
+        <property name="logger" ref="logger" />
+
+        <property name="metadataFileReader" ref="metadataFileReader" />
+        <property name="metadataValidationManager" ref="metadataValidationManager" />
+        <property name="dataFileReader" ref="dataFileReader" />
+        <property name="conversionPersistence" ref="conversionPersistence" />
+
+        <property name="asciiFileTypes" ref="asciiFileTypesSet" />
+        <property name="ignoredSoftwareFileTypes" ref="ignoredSoftwareFileTypesSet" />
+        <property name="ignoredTableFileTypes" ref="ignoredTableFileTypesSet" />
+
+        <property name="lineSeparator" value="&#xD;&#xA;" />
+        <property name="cacheDirectory" value="${dataSetProcessor.cacheDirectory}"/>
+    </bean>
+    
+    <bean id="dataSetArchivesList" class="gov.nasa.pds.common.ResourceListFactoryBean">
+        <property name="resource" value="file:${dataSetProcessor.dataSetArchives}" />
+    </bean>
+    
+    <bean id="dataSetSelector" class="gov.nasa.pds.processors.impl.DataSetSelector">
+        <property name="logger" ref="logger"/>
+        <property name="dataSetArchives" ref="dataSetArchivesList" />
+    </bean>
+    
+    <bean class="gov.nasa.pds.processors.impl.profile.ProfileProvider">
+        <property name="profileType" value="${profile.type}"/>
+        <property name="profileConfigurationFilepath" value="${profile.configuration}"/>
+    </bean>
+    
+    <bean id="dataSetBatchProcessor" class="gov.nasa.pds.processors.impl.DataSetBatchProcessorImpl">
+        <property name="logger" ref="logger"/>
+        <property name="dataSetSelector" ref="dataSetSelector"/>
+        <property name="dataSetProcessor" ref="dataSetProcessor"/>
+        <property name="startDataSet" value="${dataSetProcessor.startDataSet}"/>
+        <property name="endDataSet" value="${dataSetProcessor.endDataSet}"/>
+    </bean>
+
+</beans>

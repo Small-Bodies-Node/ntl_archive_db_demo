@@ -1,0 +1,297 @@
+***** File GZGUIDE.TXT                                                        
+                                                                              
+                       Comet P/Giacobini-Zinner                               
+           User's Guide to the Compact Disc Read Only Memory                  
+                                                                              
+                   E. Grayzeck (SBN/PDS - U Maryland)                         
+                    A. Warnock (LSPN - NASA/GSFC)                             
+                       M. Aronsson (IHW - JPL)                                
+                                                                              
+                               Contents                                       
+                                                                              
+1. Background and Scope of Compact Disc                                       
+2. Accessing the Disc                                                         
+3. Data Products                                                              
+4. Directory Structure                                                        
+5. Filenaming Convention                                                      
+6. Available Software                                                         
+7. References                                                                 
+                                                                              
+                                                                              
+                                                                              
+1. BACKGROUND AND SCOPE OF COMPACT DISC                                       
+                                                                              
+     This compact disc contains observations of comet Giacobini-Zinner        
+from the apparition in 1984-1987.  During that period, the International      
+Halley Watch (IHW) mounted a campaign to observe the comet in support of      
+the NASA project to fly the International Cometary Explorer (ICE)             
+spacecraft through the comet's tail.  The data from that apparition and       
+encounter form a database which is being placed on this compact disc as       
+a test for the larger project to catalogue the data collected on comet        
+Halley.                                                                       
+                                                                              
+                                                                              
+                                                                              
+2. ACCESSING THE DISC                                                         
+                                                                              
+     These discs have been manufactured following the normal specifications   
+for Compact Disc Read Only Memory (CD-ROM) as well as the logical structure   
+outlined by the International Standards Organization (ISO) in the No. 9660    
+                                                                              
+document.  A basic system requirement demands that the CD-ROM reader and      
+software driver support this standard.  At this writing (July 1990), primary  
+                                                                              
+access to the disc will be using IBM-PC or compatible computers.  However,    
+software support from vendors for the Apple MacIntosh II and some workstations
+(SUN, MicroVAX) is now available.                                             
+                                                                              
+     If you are using a PC style machine, the reader that you bought should   
+                                                                              
+include the appropriate hardware (a PC-bus or SCSI controller board and       
+cable) and software to address your device.  Software packages should include 
+a device driver for your machine and extensions to DOS that allow the reader  
+to "look" like another random access disk drive; the de facto standard here is
+the Microsoft Extensions (MSCDEX 2.0 or higher).  Install the specific device 
+driver software as directed by the documentation accompanying the hardware.   
+Usually, this will involve specifying the device driver in a DEVICE= line in  
+the CONFIG.SYS file and invoke the extensions package from your AUTOEXEC.BAT  
+file.  This will automatically configure the CD-ROM reader when the computer  
+is booted.                                                                    
+                                                                              
+     Remember that the CD-ROM reader is assigned a drive name which you have  
+either chosen with the appropriate command line switch (/L:H assigns the CD-  
+ROM reader to drive H:) or allowed to default to the next available device    
+letter in your system.  Typical PC configurations will have two floppies (A:  
+and B:), and a hard disk (C:).  Put your drive at some letter higher than     
+that.  Remember that many DOS commands work on the CD-ROM but that it is a    
+read-only medium.  Some of the useful DOS functions are:                      
+                                                                              
+        DIR   - directory listing                                             
+        CHDIR - change directory (also CD)                                    
+        TYPE  - list the contents of a file on the screen; useful             
+                for normal text with <carriage return>, <line feed>           
+                delimiters                                                    
+        COPY  - copy file(s) to another device                                
+        PRINT - print file on hard copy device                                
+                                                                              
+     Notice that commands such as DEL and MKDIR are not available since the   
+CD-ROM is a read-only medium.  Furthermore, some compact disc software        
+packages will invoke screen plots that may depend on the DOS program          
+GRAPHICS.COM.  In this case, execute it in your AUTOEXEC.BAT file or before   
+you run the software package.                                                 
+                                                                              
+     The IHW CD-ROMs have been designed to allow maximum access to the data   
+using existing software developed within NASA, as well as user-supplied       
+programs.  In particular, each data file was originally supplied in the FITS  
+format, and also has a detached PDS label to describe the data structure.     
+Furthermore, the FITS (.FIT) files have had the headers placed in separate    
+files (with extension .HDR) from the data (.DAT, .IBG, .IMG, .IMQ, .TAB).     
+The headers have been separated to allow unrestricted access to the data by   
+non-FITS programs.  The sizes of all header and data files have been preserved
+as integer multiples of 2880 bytes (required by FITS) in order to facilitate  
+the reconstruction of the original FITS bytestream by concatenating the data  
+file with the appropriate header file.                                        
+                                                                              
+                                                                              
+3. DATA PRODUCTS                                                              
+                                                                              
+     A large number of scientists have contributed to this archive            
+project.  The contributing observatories, with their IHW system codes,        
+are summarized in a separate file (OBSCODES.TXT).  Individual observers       
+and their various instruments are identified in the header that               
+accompanies the data.                                                         
+                                                                              
+     The ground-based data is located in chronological directories. The       
+directory names are based on date, specified by UT year, month, day and       
+hour.  We have attempted to restrict directories to a reasonable              
+size while allowing enough information for useful browsing. The average       
+number of files in a directory is less than 70, although in one case          
+(August 12, 1985) splitting the directory at the hour level was necessary     
+to reduce the number of files.  The average subdirectory size is less         
+than 0.5 MByte.  No subdirectory was created for days on which no             
+observations were made.  For the images from the Large Scale Phenomena        
+Network (LSPN), the data has been compressed and subsampled.   The            
+latter occurs twice on the disc: in the chronological listing and in a        
+separate directory.   The LSPN images are in the COMPRESS and BROWSE          
+subdirectories, respectively.  The associated FITS headers and PDS labels     
+also appear in each subdirectory.                                             
+                                                                              
+     In an effort to reduce the space requirements for the full Halley        
+Archive, data compression was applied to the images. It has been used         
+on the images of P/Giacobini-Zinner included on this disk.  An algorithm      
+based on successive differences between pixels (Previous Pixel) has been      
+developed to reduce the digital images from the LSPN to a coded byte          
+string of 8-bit data.  The compression yields files roughly 60% the size      
+of the original images.  Details of the algorithm and the accompanying        
+FITS proposal are in the file FITSCOMP.TXT in this directory.                 
+Decompression of data is limited by transfer rates, so a subsampled set of    
+images (browse images) is also supplied. These images are restricted to       
+a maximum of 256 pixels on a side and preserve the original sampling          
+geometry.  In addition, the original 10-bit data has been rescaled to 8       
+bits.                                                                         
+                                                                              
+     Some networks have submitted supplemental data which include filter      
+tables, non-comet images, flat fields, and laboratory spectra.  These         
+are stored in the CALIB subdirectory and except for the Infrared Filter       
+Tables (IRFT) appear in the chronological directories.                        
+                                                                              
+                                                                              
+                                                                              
+4. DIRECTORY STRUCTURE                                                        
+                                                                              
+     The volume and directory structure of this disk conform to the           
+Level-1 standard specified by the ISO.  This format is widely accepted        
+and used on a variety of machines.  The AAREADME.TXT file in the root         
+directory introduces the user to the full extent of the archive and the       
+contents of the individual subdirectories.                                    
+                                                                              
+     There are three directories (DOCUMENT, INDEX and SOFTWARE) on the        
+CD-ROM that contain supplementary files. In addition, to correlate the        
+chronological observations with physical location of the comet, some          
+recent ephemeris information has been included (in the subdirectory           
+EPHEM).  The table (EPHEM.TAB) contains information at daily intervals,       
+so an interpolation routine is also provided; more information is in the      
+text (EPHEM.TXT) file.                                                        
+                                                                              
+     The DOCUMENT subdirectory contains text files that give the              
+background to this CD-ROM project and a general guide to its use.             
+An explanatory discussion of the FITS and PDS formats used                    
+specifically for the P/Giacobini-Zinner data is located in the files          
+*INFO.TXT.  This file (GZGUIDE.TXT) is an overview.   Some files may          
+also appear as a printed volume of the data (see Preface).  Detailed          
+appendices, written by the individual Disciplines of the IHW, contain         
+information on the data collection and processing.  Finally, some             
+documentation has been duplicated at the beginning of special                 
+directories, e.g., CROMMELN.                                                  
+                                                                              
+     Tables of useful index information have been collected in three          
+forms in order to allow automated searching of the data.  The QUIK            
+tables contain the full set of mandatory FITS keywords from all               
+disciplines; the two tables cover the pre- and post-perihelion passage        
+of the comet.  A second set of tables contains the data from the              
+proposed printed archive (in the subdirectory NETABLES), split by             
+discipline and subnet, and finally chronologically ordered  in each           
+table.  The full set of keywords (COMMENTS, HISTORY) for four networks        
+(Amateur (Visual), Large-Scale Phenomena, Radio, Spectroscopy) are in         
+additional tables as specified by each group.  These tables are in files      
+NETAMATV.IDX, NETLARGE.IDX, NETSPECT.IDX and NETRADIO.IDX.  We have also      
+made the index tables transportable to relational DBMS by delimiting the      
+tables and providing structure, program, and dBASE-compatible .DBF            
+files.   Further information is contained in the file INDXINFO.TXT.           
+                                                                              
+   The SOFTWARE subdirectory contains program code for a few utilities,       
+in this case, decompression of images and the interpolation of ephemeris      
+tables for the comet.  The Previous Pixel algorithm used to compress the      
+images is described in the file FITSCOMP.TXT.  It was developed and           
+implemented by the LSPN at Goddard Space Flight Center.  Pseudocode for       
+this algorithm is listed (COMPRESS.TXT) as well as the IDL procedure          
+(PREVPIX.PRO) originally used to perform the compression.  Fortran and C      
+code are provided for image decompression, but there has been no attempt      
+to supply fully executable programs.  An interpolation program was            
+developed by the Astrometry network group for the ephemeris table. The        
+Fortran code, an equivalent C version, and executable file for VAX/VMS        
+and MS-DOS are provided.                                                      
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+5. FILENAMING CONVENTION                                                      
+                                                                              
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual disciplines to the Lead       
+Center using the FITS format.  When the decision was made to distribute       
+this information on CD-ROM, it was determined that the data had to have       
+even broader accessibility.  For this reason, the original FITS files,        
+with contiguous headers and data, were split into separate files. The         
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.   In addition, detached PDS labels         
+were constructed to allow parallel, definition of the data files for the      
+Planetary Data System. (We thankfully acknowledge the help of M. Martin,      
+PDS, for assisting the IHW through version 1.1 of the Object Description      
+Language to describe the SPECTRUM object.)                                    
+                                                                              
+     The convention for naming files on the CD-ROM was proposed by the        
+IHW Lead Center to include a unique data qualifier for the data.   A          
+specific set of rules was established to identify the network/subnetwork for  
+each discipline (given by a letter code).  A CD-ROM running number relates    
+the information contained in the various indexes to the files.   In the       
+case of calibration data, the same network/subnetwork code is used but the    
+number starts at 8001.   A short list organized by Discipline (Number) and    
+listing network/subnetwork is given below:                                    
+                                                                              
+  Discipline            Number    Subnet (Exp)   Letter Code                  
+                                                                              
+ Astrometry                1           none         ASTR                      
+ Infrared Studies          2       Photometry       IRPH                      
+                                   Polarimetry      IRPOL                     
+                                   Spectroscopy     IRSP                      
+                                   Image            IRIM                      
+                                   Filter Table     IRFT                      
+ Large-Scale Phenomena     3          none          LSPN                      
+ Near Nucleus Studies      4          none          NNSN                      
+ Photometry Polarimetry    5       Broad Band Mag   PMAG                      
+                                   Narrow Band Flux PFLX                      
+                                   Polarimetry      PPOL                      
+ Radio Studies             6       Continuum        RSCN                      
+                                   Occultation      RSOC                      
+                                   OH               RSOH                      
+                                   Spectral Line    RSSL                      
+ Spectroscopy Spectrophot  7           none         SPEC                      
+ Amateur Observations      8       Drawing          AMDR                      
+                                   Photography      AMPG                      
+                                   Visual Magnitude AMV                       
+                                                                              
+                                                                              
+     The file extensions follow suggestions by the Planetary Data System      
+(SPIDS v1.1) for tabular and image data.    In addition, for IHW FITS, the    
+original headers and data were split into separate files, with filename       
+extensions as listed below.                                                   
+                                                                              
+                 .DAT - other non-imaging or non-tabular data                 
+                 .FIT - original FITS records                                 
+                 .HDR - FITS header records                                   
+                 .IBG - data records for subsampled images                    
+                 .IMG - imaging data records                                  
+                 .IMQ - data records for compressed images                    
+                 .LBL - detached PDS stream format                            
+                 .TAB - tabular data records                                  
+                                                                              
+     In re-organizing the original FITS files, we have attempted to make      
+the data available to a larger community.  For transporting data to           
+analysis packages that demand FITS, the header and data files may be          
+concatenated to create a fully valid FITS byte stream, as the original        
+structure of the FITS headers and data has been preserved.  The tabular       
+data, even though presented as valid FITS data records, are really just       
+ASCII byte strings that can be exported to many machines.                     
+                                                                              
+     Inclusion of the PDS labels allows use of CD-ROM imaging software        
+already available from PDS.  The PDS labels are text files, with lines        
+terminated by the <CR><LF> characters. The total size of the files is         
+maintained in the required SFDU_LABEL.                                        
+                                                                              
+                                                                              
+                                                                              
+6. AVAILABLE SOFTWARE                                                         
+                                                                              
+     At the present, no executable software is included with the CD-ROM       
+except for programs supporting the ephemeris.  We have designed the data      
+formats to be compatible with many existing packages and plan to              
+distribute two public domain packages, IMDISP (from JPL) and FITSREAD         
+(from the ADC) on an accompanying floppy disk.  We may also supplement        
+this release with a printed manual and some support programs for              
+manipulating the data (FITSUTIL, FITSCONV).                                   
+                                                                              
+                                                                              
+                                                                              
+7. REFERENCES                                                                 
+                                                                              
+Martin, T., Martin, M., Braun, M., Johnson, T., Davis, R., and Mehlman, R.,   
+SPIDS: Standards for the Preparation and Interchange of Data Sets, JPL        
+D-4683: October 3, 1988.                                                      
+                                                                              
+"Information Processing -- Volume and File Structure of CD-ROM for            
+Information Interchange", Reference Number ISO 9660:1988(E), Developed in     
+coordination with the National Information Standards Organization, National   
+Bureau of Standards, Administration 101, Library E-106, Gaithersburg, MD.     

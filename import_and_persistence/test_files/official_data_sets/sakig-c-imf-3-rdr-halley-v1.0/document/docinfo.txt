@@ -1,0 +1,35 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-25                                               
+  NOTE             = "DOCUMENT/ directory contents"                           
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+NOTE: For the reorganization, the entire contents of the original             
+      HAL_0025/DOCUMENT directory are included here, even though              
+      some files, like CDTREE.TXT and the descriptions of the                 
+      other spacecraft in the ESA_1066/ subdirectory, are not                 
+      strictly relevant.                                                      
+                                                                              
+                                                                              
+             Contents of the Document Directory                               
+                                                                              
+This file describes the content of the DOCUMENT directory and many of         
+the files are listed below:                                                   
+                                                                              
+DOCINFO.TXT      - This file describing contents                              
+CDTREE.TXT       - Layout of the disk structure                               
+ACKNWLDG.TXT     - File listing contributors to this volume                   
+CDSTRUCT.TXT     - Log file accumulated during the premaster process          
+VOLINFO.TXT      - Discussion of data, explanatory files, index tables,       
+                   and volume organization.                                   
+                                                                              
+Other subdirectories are located in the DOCUMENT directory as follows:        
+                                                                              
+ESA_1066         - digitized articles about each Mission                      
+ESA_1077         - digitized articles about each Giotto experiment            
+STDS_IHW         - files to outline the PDS and FITS use by IHW               

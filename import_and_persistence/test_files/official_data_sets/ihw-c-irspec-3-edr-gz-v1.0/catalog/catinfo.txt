@@ -1,0 +1,36 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "STREAM"                                                     
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-17                                               
+  NOTE             = "CATALOG directory contents"                             
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+CATALOG/ Directory Contents                                                   
+===========================                                                   
+                                                                              
+This directory contains the PDS catalog files, used for loading the           
+PDS catalog database, that are specific to the files in this dataset.         
+Note that the original International Halley Watch archive was created         
+under a very early version of the PDS Standards, and the catalog files        
+that were included on the disk were in a very different format from           
+those of the modern V3.8 standards.  The versions included here, mainly       
+for completeness, were created by extracting the information from the         
+PDS catalog database in spring of 2006.  No further attempt has been          
+made to modernize them or update them.                                        
+                                                                              
+The files in this directory are:                                              
+                                                                              
+  irsn.cat           Infrared Studies Network description                     
+  irspec.cat         Generic IR spectroscopy instrument description           
+  catinfo.txt        This file                                                
+  dataset.cat        Data set description                                     
+  international_halley_watch.cat                                              
+                     IHW campaign description                                 
+  reference.cat      A complete list of all references cited                  
+                     anywhere in REFERENCE_KEY_ID fields in                   
+                     any of the IHW data sets or catalog                      
+                     files                                                    

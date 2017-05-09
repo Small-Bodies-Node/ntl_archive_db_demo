@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "FIXED_LENGTH"                                               
+FILE_RECORDS   = 80                                                           
+RECORD_BYTES   = 80                                                           
+                                                                              
+DATA_SET_ID    = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                              
+                                                                              
+^DOCUMENT      = "02_OH_TRANSMISSION.TXT"                                     
+                                                                              
+OBJECT     = DOCUMENT                                                         
+  DOCUMENT_NAME       = "                                                     
+    Table II. Transmission Curve of the OH Filter 3085/75 (#S2)"              
+  DOCUMENT_FORMAT     = "TEXT"                                                
+  DOCUMENT_TOPIC_TYPE = "FILTER DESCRIPTION"                                  
+  INTERCHANGE_FORMAT  = "ASCII"                                               
+  PUBLICATION_DATE    = 2006-06-21                                            
+  DESCRIPTION         = "This is table 2 from Sekanina (1991) (called         
+    'JPL D-400-450' in the PDS reference data base), and details              
+    the transmission curve of one of the narrowband OH filters                
+    used by the Photometry and Polarimetry Network of the Internal            
+    Halley Watch.                                                             
+    "                                                                         
+  REFERENCE_KEY_ID    = "JPL D-400-450"                                       
+END_OBJECT = DOCUMENT                                                         
+                                                                              
+END                                                                           

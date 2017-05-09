@@ -1,0 +1,247 @@
+CCSD3ZF0000100000001NJPL3IF0PDSX00000001 = SFDU                               
+PDS_VERSION_ID                       = PDS3                                   
+RECORD_TYPE                          = FIXED_LENGTH                           
+RECORD_BYTES                         = 94                                     
+FILE_RECORDS                         = 47                                     
+^TABLE                               = "IRPHOT1A.TAB"                         
+                                                                              
+DATA_SET_ID = "EAR-C-IRPHOT-2-RDR-HALLEY-ADDENDA-V1.0"                        
+TARGET_NAME                          = "HALLEY"                               
+PRODUCT_ID                           = "IRPHOT1A.TAB"                         
+PRODUCT_NAME  = "0.7- to 23-MICROMETER PHOTOMETRIC Observation Parameters"    
+PRODUCT_CREATION_TIME                = 1997-02-21                             
+START_TIME                           = 1985-12-12                             
+STOP_TIME                            = 1986-05-06                             
+                                                                              
+INSTRUMENT_NAME                      = "N/A"                                  
+                                                                              
+OBJECT                               = TABLE                                  
+ INTERCHANGE_FORMAT                  = ASCII                                  
+ ROWS                                = 47                                     
+ COLUMNS                             = 18                                     
+ ROW_BYTES                           = 94                                     
+ DESCRIPTION = "This file lists the observation parameters for each of the    
+                data files referenced."                                       
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "OBS NUMBER"                           
+  COLUMN_NUMBER                      = 1                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 1                                      
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      OBS NUMBER = Chronological observation number"                          
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT DAY"                               
+  COLUMN_NUMBER                      = 2                                      
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 4                                      
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.2"                                 
+  DESCRIPTION                        = "                                      
+      UT DAY = UT observation day"                                            
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT MONTH"                             
+  COLUMN_NUMBER                      = 3                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 10                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT MONTH = UT observation month"                                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT YEAR"                              
+  COLUMN_NUMBER                      = 4                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 13                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT YEAR = Last 2 digits of the UT observation year"                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "JD"                                   
+  COLUMN_NUMBER                      = 5                                      
+  UNIT                               = "JULIAN DAYS"                          
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 16                                     
+  BYTES                              = 7                                      
+  FORMAT                             = "F7.2"                                 
+  DESCRIPTION                        = "                                      
+      JD = Julian date of the observation: 2,440,000+"                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "DAYS FROM PERIHELION"                 
+  COLUMN_NUMBER                      = 6                                      
+  UNIT                               = "DAYS"                                 
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 24                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  DESCRIPTION                        = "                                      
+      DAYS FROM PERIHELION = UT time of each observation in decimal days      
+                             with respect to perihelion passage (t=0):        
+                             negative values = pre-perihelion                 
+                             positive values = post-perihelion"               
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "OBS SYSTEM"                           
+  COLUMN_NUMBER                      = 7                                      
+  DATA_TYPE                          = CHARACTER                              
+  START_BYTE                         = 31                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "A4"                                   
+  DESCRIPTION                        = "                                      
+      OBS SYSTEM = Photometric system used for the observation:               
+                   MLOF = UM Mount Lemmon Observing Facility 1.52-m telescope 
+                   UM2  = UM O'Brien 0.76-m telescope                         
+                   WIRO = Wyoming Infrared Observatory"                       
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "R"                                    
+  COLUMN_NUMBER                      = 8                                      
+  UNIT                               = "AU"                                   
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 36                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      R = Heliocentric distance in AU"                                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "DELTA "                               
+  COLUMN_NUMBER                      = 9                                      
+  UNIT                               = "AU"                                   
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 41                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      DELTA = Geoocentric distance in AU"                                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "SCALE FACTOR"                         
+  COLUMN_NUMBER                      = 10                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 46                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      SCALE FACTOR = Multiplier to correct observed coma emission to          
+                     R = 1 and DELTA = 1:  R^-4 * DELTA^-1"                   
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "ELONGATION ANGLE"                     
+  COLUMN_NUMBER                      = 11                                     
+  UNIT                               = "DEGREES"                              
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 51                                     
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.1"                                 
+  DESCRIPTION                        = "                                      
+      ELONGATION ANGLE = Sun-Earth-Comet elongation angle"                    
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "SCATTERING ANGLE"                     
+  COLUMN_NUMBER                      = 12                                     
+  UNIT                               = "DEGREES"                              
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 57                                     
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.1"                                 
+  DESCRIPTION                        = "                                      
+      SCATTERING ANGLE = Sun-Comet-Earth scattering angle"                    
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "PHASE ANGLE"                          
+  COLUMN_NUMBER                      = 13                                     
+  UNIT                               = "DEGREES"                              
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 63                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.1"                                 
+  DESCRIPTION                        = "                                      
+      PHASE ANGLE = 180 degrees - SCATTERING ANGLE"                           
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "BEAM DIAMETER"                        
+  COLUMN_NUMBER                      = 14                                     
+  UNIT                               = "ARCSEC"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 68                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.1"                                 
+  DESCRIPTION                        = "                                      
+      BEAM DIAMETER = Equivalent circular diameter for phototmeters           
+                      with square beams"                                      
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "CHOPPER THROW"                        
+  COLUMN_NUMBER                      = 15                                     
+  UNIT                               = "ARCSEC"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 73                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.1"                                 
+  DESCRIPTION                        = "                                      
+      CHOPPER THROW = Chopper throw between the source and reference beams"   
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "REFERENCE BEAM MULTIPLIER"            
+  COLUMN_NUMBER                      = 16                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 78                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      REFERENCE BEAM MULTIPLIER = Corrects for coma emission in reference     
+                beam:  4*CHOPPER THROW/(4*CHOPPER THROW - BEAM DIAMETER"      
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "BEAM DIAMETER MULTPLIER"              
+  COLUMN_NUMBER                      = 17                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 83                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+      BEAM DIAMETER MULTIPLIER = Normalizes coma emission to circular         
+                diaphragm of 20-arcsec diameter:   20/BEAM DIAMETER"          
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "STANDARD BEAM MULTIPLIER"             
+  COLUMN_NUMBER                      = 18                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 88                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.2"                                 
+  DESCRIPTION                        = "                                      
+         STANDARD BEAM MULTIPLIER = Multiplier giving the coma emission       
+               in a standard beam of 20-arcsec diameter corrected for         
+               emission into the reference beam:                              
+               BEAM DIAMETER MULTIPLIER * STANDARD BEAM MULTIPLIER"           
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+END_OBJECT                           = TABLE                                  
+END                                                                           

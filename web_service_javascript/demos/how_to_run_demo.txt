@@ -1,0 +1,7 @@
+Database should be initialized with 11_datasets.sql mysql dump:
+- create nasa_pds empty database
+- extract 11_datasets.sql from import_and_persistence/test_files/mysql_dumps/datasets.zip
+- run 'mysql nasa_pds -u <<username>> -p < 11_datasets.sql'
+
+For each demo the index.html should be opened with your browser.
+Each demo has explanations about the funtionality it provides.

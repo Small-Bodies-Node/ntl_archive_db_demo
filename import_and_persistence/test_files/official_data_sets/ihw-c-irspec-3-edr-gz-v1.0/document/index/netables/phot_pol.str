@@ -1,0 +1,20 @@
+"DATE_OBS    ","C", 8,0                                                       
+"TIME_OBS    ","N", 7,5                                                       
+"PPN_NUM     ","N", 6,0                                                       
+"FILTER      ","C", 4,0                                                       
+"WAVELENGTH  ","N", 4,0                                                       
+"BANDPASS    ","N", 3,0                                                       
+"APER_DIAM   ","N", 5,1                                                       
+"EXPOSURE    ","N", 4,0                                                       
+"POLARIZ_TYPE","C", 2,0                                                       
+"POLARIZATION","N", 5,2                                                       
+"POLARIZ_ERR ","N", 5,2                                                       
+"ANGLE       ","N", 5,1                                                       
+"ANGLE_ERR   ","N", 4,1                                                       
+"OFFSET_RHO  ","N", 4,0                                                       
+"OFFSET_THETA","N", 3,0                                                       
+"AIRMASS     ","N", 5,3                                                       
+"SYSTEM      ","C", 8,0                                                       
+"OBSERVER    ","C",24,0                                                       
+"NOTE_FLAG   ","C", 1,0                                                       
+"FILENAME    ","C", 8,0                                                       

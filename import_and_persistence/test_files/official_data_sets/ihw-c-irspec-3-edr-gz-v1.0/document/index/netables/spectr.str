@@ -1,0 +1,25 @@
+"DATE_OBS    ","C", 8,0                                                       
+"TIME_OBS    ","N", 7,5                                                       
+"SSN_NUM     ","N", 6,0                                                       
+"CALIBRATION ","C", 1,0                                                       
+"RESOLUTION  ","N", 5,2                                                       
+"RANGE_LO    ","N", 4,0                                                       
+"RANGE_HI    ","N", 5,0                                                       
+"EXPOSURE    ","N", 5,0                                                       
+"DIS_CODE    ","C",10,0                                                       
+"DAT_TYPE    ","C", 1,0                                                       
+"SLIT_SIZE   ","C", 8,0                                                       
+"SLIT_PA     ","N", 3,0                                                       
+"AIRMASS     ","N", 4,2                                                       
+"AIRMASS_TYPE","C", 1,0                                                       
+"AXES        ","N", 2,0                                                       
+"AXIS_1      ","N", 4,0                                                       
+"AXIS_2      ","N", 4,0                                                       
+"AXIS_1_UNIT ","N", 2,0                                                       
+"AXIS_2_UNIT ","N", 2,0                                                       
+"OFFSET_RHO  ","N", 6,0                                                       
+"OFFSET_THETA","N", 3,0                                                       
+"SYSTEM      ","C", 8,0                                                       
+"OBSERVER    ","C",24,0                                                       
+"NOTE_FLAG   ","C", 1,0                                                       
+"FILENAME    ","C", 8,0                                                       

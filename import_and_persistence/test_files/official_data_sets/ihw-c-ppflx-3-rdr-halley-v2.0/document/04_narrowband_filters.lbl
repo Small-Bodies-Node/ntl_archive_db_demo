@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "FIXED_LENGTH"                                               
+FILE_RECORDS   = 66                                                           
+RECORD_BYTES   = 80                                                           
+                                                                              
+DATA_SET_ID    = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                              
+                                                                              
+^DOCUMENT      = "04_NARROWBAND_FILTERS.TXT"                                  
+                                                                              
+OBJECT     = DOCUMENT                                                         
+  DOCUMENT_NAME       = "                                                     
+    Table IV. Average Characteristics of the IHW Narrowband Filters"          
+  DOCUMENT_FORMAT     = "TEXT"                                                
+  DOCUMENT_TOPIC_TYPE = "FILTER DESCRIPTION"                                  
+  INTERCHANGE_FORMAT  = "ASCII"                                               
+  PUBLICATION_DATE    = 2006-06-21                                            
+  DESCRIPTION         = "This is table 4 from Sekanina (1991) (called         
+    'JPL D-400-450' in the PDS reference data base), and details              
+    the average transmission characteristics of the narrowband filters        
+    (excluding the 3085A OH and the 3365A NH filters) used by the             
+    Photometry and Polarimetry Network of the Internal Halley Watch.          
+    "                                                                         
+  REFERENCE_KEY_ID    = "JPL D-400-450"                                       
+END_OBJECT = DOCUMENT                                                         
+                                                                              
+END                                                                           

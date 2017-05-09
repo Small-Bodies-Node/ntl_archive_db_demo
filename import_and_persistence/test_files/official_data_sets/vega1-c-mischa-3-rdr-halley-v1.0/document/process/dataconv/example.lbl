@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE  = FIXED_LENGTH                                                   
+RECORD_BYTES = 180                                                            
+FILE_RECORDS = 601                                                            
+                                                                              
+^ASCII_DOCUMENT  = "EXAMPLE.ASC"                                              
+                                                                              
+DATA_SET_ID  = "VEGA1-SW-MISCHA-3-RDR-CRUISE-V1.0"                            
+PRODUCT_ID   = "EXAMPLE.ASC"                                                  
+PRODUCT_CREATION_TIME = 2002-11-01                                            
+PRODUCT_NAME = "IWF EXAMPLE FOR DATA CONVERSION"                              
+                                                                              
+                                                                              
+DESCRIPTION  = "This file describes and example for data conversion           
+                used at the Space Research Institute (IWF)."                  
+                                                                              
+OBJECT     = ASCII_DOCUMENT                                                   
+  DOCUMENT_FORMAT     = TEXT                                                  
+  DOCUMENT_NAME       = "DATA CONVERSION EXAMPLE"                             
+  DOCUMENT_TOPIC_TYPE = "EXAMPLE"                                             
+  INTERCHANGE_FORMAT  = ASCII                                                 
+  PUBLICATION_DATE    = 1997-08-13                                            
+END_OBJECT = ASCII_DOCUMENT                                                   
+                                                                              
+END                                                                           
+                                                                              

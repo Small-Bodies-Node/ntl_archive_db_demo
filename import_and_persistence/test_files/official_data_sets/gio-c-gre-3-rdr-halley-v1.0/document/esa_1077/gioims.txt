@@ -1,0 +1,807 @@
+***** File GIOIMS.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+The Giotto Ion Mass Spectrometer                                                                                                  
+                                                                                                                                  
+H.  Balsiger, K. Altwegg, F. Buhler, J. Fischer,                                                                                  
+J. Geiss, A. Meier & U. Rettenmund                                                                                                
+Physikalisches Institut, Universiry of Bern, Bern, Switzerland                                                                    
+                                                                                                                                  
+H.  Rosenbauer, R. Schwenn, J. Benson,                                                                                            
+P.  Hemmerich, K. Sager & G. Kulzer                                                                                               
+Max-Planck-Institut fur Aeronomie, Lindau, West Germany                                                                           
+                                                                                                                                  
+M.  Neugebauer, B.E. Goldstein & R. Goldstein                                                                                     
+Jet Propulsion Laboratory, California Institute of Technology,                                                                    
+Pasadena, USA                                                                                                                     
+                                                                                                                                  
+E.G. Shelley, T. Sanders & D. Simpson                                                                                             
+Lockheed Palo Alto Research LAboratory, Palo                                                                                      
+Alto, California, USA                                                                                                             
+                                                                                                                                  
+A.J. Lazarus                                                                                                                      
+Department of Physics and Center for Space Research, MIT,                                                                         
+Cambridge, Massachusetts, USA                                                                                                     
+                                                                                                                                  
+D.T. Young                                                                                                                        
+Los Alamos National Loboratory, Los Alamos, New Mexico, USA                                                                       
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+                                                                                                                                  
+  A wide range of ion species and velocity distributions are expected to be found as                                              
+the Giotto spacecraft traverses the coma of Halley's Comet. The outer coma is                                                     
+characterized by the interaction between solar wind and cometary plasmas, the inner                                               
+coma by the outflow of cometary neutrals and their ionization products. The resultant                                             
+demands on instrument dynamic range preclude use of a single sensor for                                                           
+measurements of ion composition. The Giotto Ion Mass Spectrometer (IMS) therefore                                                 
+consists of two sensors: one optimized for the outer and the other for the inner coma,                                            
+with each obtaining complementary information in the region for which it is not                                                   
+optimized. Both sensors feature mass imaging characteristics, thereby permitting                                                  
+simultaneous measurements of several ion species by means of multi-detector arrays.                                               
+  Resultant mass-per-charge resolution is >= 20. In addition to mass per charge, the                                              
+energy per charge, the elevation and azimuth of incident ions are measured. Calibra-                                              
+tion and in-flight solar-wind data show that the IMS will meet its scientific goals for                                           
+the Halley encounter.                                                                                                             
+                                                                                                                                  
+1. Introduction                                                                                                                   
+                                                                                                                                  
+The interaction of a comet with the solar wind is fundamentally very complex and                                                  
+dynamic. Cometary material first makes its presence felt in the solar wind in the form                                            
+of neutral gas photo-ionized and accelerated by the solar wind far upstream from the                                              
+comet nucleus at distances > 10**6 km. Although their density is initially very low,                                              
+these 'pick-up' ions (e.g. H+, C+, O+, OH+, CO+, H20+) mass load the solar wind                                                   
+and begin slowing it. Nearer the comet a bow shock may form, but this is not certain.                                             
+The solar-wind slowing process may also create a broad region of plasma turbulence                                                
+as picked-up ions are thermalized and incorporated in the flow of solar wind around                                               
+the comet. Implantation of cometary ions in the solar wind has the further consequence                                            
+that the solar wind interaction with cometary material occurs far outside the contact                                             
+surface that is expected at ~ 10**4 km from the nucleus (Ip, 1980). Once the contact                                              
+surface is crossed the spacecraft is immersed in cold, low-velocity (~ 1 km/s)                                                    
+outflowing cometary ions. The region inside the contact surface, often called the                                                 
+'inner coma', contains relatively high ion densities, and perhaps magnetic fields,                                                
+which stand off the solar-wind ram pressure. Within the inner coma, at the latest,                                                
+neutral gas and dust particles impinging on Giotto will create a plasma cloud around                                              
+the spacecraft, giving rise to electrical charging and creating spurious ions (and elec-                                          
+trons) detectable onboard by the Ion Mass Spectrometer (IMS). In this region some                                                 
+interference with the ion measurements is expected.                                                                               
+  This thumbnail sketch of the flyby through Halley's coma illustrates the two primary                                            
+science objectives of the Giotto IMS:                                                                                             
+  1.  To measure accurately the relative abundances of both solar and cometary ions                                               
+    in the cometary coma, and                                                                                                     
+  2.  To determine ion velocity distributions as a function of position within the coma.                                          
+                                                                                                                                  
+The design principles of one part of the IMS (the HERS, see below) have been describ-                                             
+ed by Neugebauer et al. (1982). The complete IMS as adapted to the Giotto mission                                                 
+was discussed by Balsiger et al. (1981). The present paper documents the final instru-                                            
+ment design as well as the successful implementation, calibration, and initial flight                                             
+testing of the IMS sensors.                                                                                                       
+                                                                                                                                  
+2. Approach                                                                                                                       
+                                                                                                                                  
+The ion composition of the outer coma is dependent upon details of the interaction                                                
+of solar wind and cometary plasmas. In order to determine composition, we must                                                    
+obtain good measurements of the three-dimensional velocity distribution of individual                                             
+ion species. From the latter we determine species flow velocities (speed and direc-                                               
+tion), temperatures, and number densities. Ion composition and velocity distributions                                             
+are expected to be strong functions of radial distance from the nucleus (Fig. 1).                                                 
+Moreover, recent results from the electron plasma analyzer onboard the International                                              
+Cometary Explorer (ICE) during its intercept of Comet Giacobini-Zinner indicate                                                   
+sharp variations in bulk plasma flow speed, density, and electron temperature (Bame                                               
+et al., 1985).                                                                                                                    
+                                                                                                                                  
+Figure 1. Model of ion distribution along                                                                                         
+comet-Sun line in the coma of Halley. In this                                                                                     
+model the bow shock is at 4 x 10**5 km (Ip, 1980)                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+  Based on the above discussion, an ion mass spectrometer suitable for high-speed                                                 
+flyby of Halley's comet near 1 AU must cover a wide range in particle phase space.                                                
+At the time the Giotto instruments were designed, little was known about the cometary                                             
+plasma environment. Today, following the successful ICE flyby of Comet Giacobini-                                                 
+Zinner, the impression remains that wide instrument response in angle, energy and                                                 
+ion mass will be needed for the Halley flyby. No single present-day ion instrument                                                
+is able to cover this wide range of plasma properties while still providing the necessary                                         
+mass resolution. We have therefore designed two different sensors specialized for                                                 
+measurements in these regions. The sensor for the outer coma is called 'HERS' (High-                                              
+Energy Range Spectrometer) and the one for the inner coma 'HIS' (High Intensity                                                   
+Spectrometer). Their characteristics are summarized in Table 1.                                                                   
+  Although energy and angular distributions are important parameters (and hence will                                              
+be measured) the emphasis of IMS lies on an accurate determination of ion composi-                                                
+tion. Since not only chemical and elemental, but also isotopic, abundances are of high                                            
+cosmogonic interest, good mass separation is required. Furthermore, mass analysis                                                 
+must be performed in such a way that prior knowledge of the ion velocity distribution                                             
+is not assumed. Hence both components of the IMS are true mass analyzers using                                                    
+variable electric fields and static magnetic fields for determining energy per charge                                             
+(E/Q) and mass per charge (M/Q), respectively. (In this paper M is ion mass in amu.                                               
+Q is the ion charge state, and E is energy in eV). Both sensors have M/Q imaging                                                  
+capabilities that increase sensitivity and, because several ion species are detected                                              
+simultaneously, increase the time resolution as well.                                                                             
+  Despite these similarities, the two sensors are different in many details (see next sec-                                        
+tion), which leads to quite different properties. The range of energy and angle covered                                           
+by HERS is large, although as one sacrifice in the tradeoff study the cometary direc-                                             
+tion could not be included in the field of view (Fig. 2). On the other hand, HIS has                                              
+a more limited field of view, but concentrates on the cold cometary ions incident from                                            
+the forward direction (Fig. 2). Both will be operated throughout the encounter                                                    
+measurement period. In the outer coma, two-thirds of the available data rate will be                                              
+dedicated to HERS, one third to HIS. These ratios are reversed in the inner coma using                                            
+a time-tagged command from the ground.                                                                                            
+  Because of the hazard of gas and dust impact that might lead to physical damage                                                 
+or a large background ion flux, neither sensor will view directly into the Giotto-                                                
+Halley relative velocity vector (the ram direction). Protection of the sensors is achiev-                                         
+ed by mounting them within the spacecraft body and projecting their fields of view                                                
+into the desired directions using electrostatic deflection devices.                                                               
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+Table 1. Summary of IMS chamcteristics                                                                                            
+                                                                                                                                  
+Parameter                     HERS                        HIS                                                                     
+--------------------------------------------------------------------------------                                                  
+E/Q range                     10 eV/e to 2.0 - 4.5 keV/e  300 to 1400 eV/e                                                        
+                              depending on M/Q                                                                                    
+M/Q range                     1 to 35 amu/e in 4 groups   12 to 57 amu/e                                                          
+M/Q resolution (M/delta M)    >= 20 at 20 amu/e           >= 20 at 20 amu/e                                                       
+Elevation angle range         +15deg to +75deg            -3deg to +12deg (MA)                                                    
+                                                          -3deg to +22deg (AA)                                                    
+Elevation angle resolution    7.5deg  (15deg for H+)      5deg to 7.5deg                                                          
+Azimuth angle range           360deg  (spin-scanned)      30deg (spin-scanned)                                                    
+Azimuth angle resolution      5.6deg                      22.5deg                                                                 
+Spectral time resolution      16 s                        4 s                                                                     
+Density range                 10**-3 to 10**2 cm**-3    10**-2 to 10**4 cm**-3                                                    
+--------------------------------------------------------------------------------                                                  
+Weight                                     9.2 kg                                                                                 
+Average power                              8.5 W                                                                                  
+Telemetry, total                           3253 bit/s                                                                             
+--------------------------------------------------------------------------------                                                  
+Telemetry                                                                                                                         
+ Outside contact surface      2169 bit/s              1084 bit/s                                                                  
+ Inside contact surface       1084 bit/s              2169 bit/s                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 2. IMS angular coverage and fields of                                                                                      
+view for the HERS and HIS sensors. The more                                                                                       
+limited field of view of the HIS MA is shown                                                                                      
+shaded. The -z direction refers to the Giotto                                                                                     
+spin axis, which is directed towards the comet                                                                                    
+nucleus                                                                                                                           
+                                                                                                                                  
+3. Instrument Description                                                                                                         
+                                                                                                                                  
+  In order to simplify hardware interfaces, HERS and HIS were built as separate                                                   
+units, called IMS-1 and IMS-2, respectively. The interface to the spacecraft is provid-                                           
+ed by IMS-3, which includes low-voltage power converters and the common data-                                                     
+processing unit, whereas the high-voltage converters, preamplifiers, signal condition-                                            
+ing and test electronics are located directly in the IMS-1 and IMS-2 units. Figure 3                                              
+shows the principles of the IMS electronics, and Figure 4 shows the three IMS boxes                                               
+laid out as on the spacecraft platform.                                                                                           
+                                                                                                                                  
+3.1 Sensor for the outer coma (HERS, IMS-1)                                                                                       
+3.1.1 Objectives                                                                                                                  
+  The prime objective of the High-Energy Range Spectrometer is to measure the ion                                                 
+abundances and three-dimensional velociry distributions outside the cometary contact                                              
+surface. The HERS sensor is designed to provide the mass resolution necessary to                                                  
+resolve the important cometary ion species over a wide range of temperatures and flow                                             
+velocities within a field of view lying between 15deg and 75deg from the comet ram direc-                                         
+tion (including the solar wind direction, Fig. 2).                                                                                
+                                                                                                                                  
+3.1.2 Main sensor components                                                                                                      
+  The basic concept of the HERS sensor has been described previously by Neugebauer                                                
+et al. (1981) and Balsiger et al. (1980). Referring to the schematic drawing of HERS                                              
+in Figure 5, the main components of the sensor consist of (i) a curved electrostatic                                              
+mirror, (ii) cylindrical accelerating/decelerating grids, (iii) a magnetic analyzer, (iv)                                         
+an electrostatic deflector and (v) ion detectors. The electrostatic mirror compresses a                                           
+60deg external field of view to 30deg internal to the sensor with nearly uniform angular                                          
+magnification over the full range. The mirror consists of a pair of nonconcentric,                                                
+cylindrical, gold-plated high-transmission grids, the front one of which is maintained                                            
+at ground potential, while the rear one is held at a potential positive enough to reflect                                         
+the ions of interest in that portion of the measurement cycle (the cycling programme                                              
+is described below.)                                                                                                              
+  A photograph of the HERS instrument with the outer cover removed is shown in                                                    
+Figure 6.                                                                                                                         
+                                                                                                                                  
+3.1.3 The magnet                                                                                                                  
+  Two 3.60 mm high by 1.26 mm wide slits located symmetrically on either end of                                                   
+the 120deg sector magnet provide a constant normal-component-of-momentum filter                                                   
+over +/- 15deg angular acceptance in the plane of the magnet (Fig. 5). The samarium-                                              
+cobalt magnet has a pole gap of 5 mm and a magnetic field strength of 0.335 T                                                     
+                                                                                                                                  
+Figure 3. Block diagram of the IMS                                                                                                
+                                                                                                                                  
+Figure 4. The IMS boxes laid out as on the spacecraft platform, with (from right to left) IMS-1 (HERS), IMS-3 and IMS-2 (HIS).    
+                                                                                                                                  
+Figure 5. Cutaway view of the HERS sensor showing principles of operation                                                         
+                                                                                                                                  
+Figure 6. The HERS sensor with cover removed (for description see Fig. 5)                                                         
+                                                                                                                                  
+(uniform to 0.5% over the usable portion of the gap). The constant momentum per                                                   
+charge corresponds to an ion energy per charge of 7560/(M/Q) eV/e. The internal                                                   
+angular acceptance of the instrument out of the magnet plane (spacecraft azimuth) is                                              
+an average of 2deg FWHM. This is determined by the slit height and separation and by                                              
+the amount of vertical focussing in the magnetic fringing field. The external angular                                             
+acceptance depends, of course, on the acceleration/deceleration voltage.                                                          
+                                                                                                                                  
+3.1.4 The electrostatic deflector (ESD)                                                                                           
+ The electrostatic deflector serves as an energy-per-charge analyzer, and since the                                               
+normal momentum has been fixed by the magnet, it becomes a mass-per-charge                                                        
+analyzer. The electric field in the analyzer deflects ions out of the optical plane                                               
+of the magnet towards the detectors. The ESD field is nonuniform in such a way that                                               
+all ions of a given M/Q are focussed in the detector plane. The focal line for ions of                                            
+different elevation is very nearly straight, and the position along this line maps out                                            
+the angle that ion trajectories make at the entrance to the magnet slit S1 (Fig. 5). The                                          
+higher the M/Q of the ion, the nearer to the ESD entrance slit S2 this line lies.                                                 
+ In Figure 6 the ESD is seen to the rear of the magnet. The structure on the topmost                                              
+face supports some of the signal-processing electronics for the detectors. The                                                    
+microchannel plate (MCP) detector is hidden by this structure, but the four channel                                               
+electron multipliers (CEMs) are visible at the rear top corner.                                                                   
+ The nonuniform, approximately two-dimensional electric field is generated by                                                     
+applying voltages to a set of vane-like electrodes arranged appropriately in the                                                  
+analyzer. Figure 7 shows a cross section of the ESD, including the results of computer                                            
+simulation of ion trajectories. The ESD entrance slit S2 is at the lower right corner                                             
+with the vanes shown in projection. Voltages are applied to the vanes by taps on a                                                
+resistive divider between two supply voltages. For the case shown, +4667 and -667                                                 
+volts are used to bring 'light' ions of M/Q = 2 to 4 onto the main detector area. The                                             
+main detector, an MCP, allows two-dimensional imaging, and will be discussed in                                                   
+more detail below. Protons are focussed by the same voltages onto a separate set of                                               
+CEMs. By switching to other voltage combinations, other mass ranges can be detected                                               
+on the MCP. Since the ion energy entering the analyzer is inversely proportional to                                               
+                                                                                                                                  
+Figure 7. Cross-section of the HERS                                                                                               
+electrostatic deflector. Envelopes of ion                                                                                         
+trajectories are shown for the light ion range                                                                                    
+(M/Q=2 to 4 amu/e). Vanes behind slit S2 act                                                                                      
+as a particle trap (note trajectories for                                                                                         
+M/Q=12 amu/e)                                                                                                                     
+                                                                                                                                  
+M/Q, higher mass ranges are detected with lower voltages on the analyzer. (The cor-                                               
+responding voltages are +770 V and -110 V for 'medium' ions defined as                                                            
+M/Q=12-26, and +576 V and -82 V for 'heavy' ions with M/Q=16-35.)                                                                 
+  For the case shown in Figure 7, all ions with M/Q>4 are deflected onto the region                                               
+in front of the MCP. In order to minimize the effects of scattering, the vanes in this                                            
+region are arranged to act as a particle trap (see M/Q= 12 in Fig. 7). Similarly, when                                            
+heavy ions are being detected, the light ions pass nearly straight through the ESD and                                            
+are trapped by the vane arrangement at the end opposite the entrance slit. The vanes                                              
+in this far region are electrically split, with potentials arranged such that the electric                                        
+field near the vanes retards the escape of low-energy secondary ions.                                                             
+                                                                                                                                  
+3. 1.5 Detectors                                                                                                                  
+  Only protons are detected on the CEMs at the appropriate voltage combination men-                                               
+tioned above. These separate detectors for the protons are used to avoid unreasonably                                             
+high voltages necessary to deflect them onto the MCP, and because anticipated proton                                              
+count rates are more easily accommodated with a CEM. A line of four 5x 12.8 mm                                                    
+funnel-type CEMs is used. Each covers an external elevation angle range of 15deg. Any                                             
+loss of detector gain during flight is measured by test routines (see below) and can                                              
+be corrected by selecting one of four high-voltage bias levels. We presently operate                                              
+the CEMs at -2450 V with discriminators in the output pulse circuits fixed at a                                                   
+threshold of 0.1 pC.                                                                                                              
+  All heavy ions (M/Q> 1) are detected on the 50 mm diameter (45 mm diameter                                                      
+sensitive area) curved-channel MCP, in each of three mass ranges set by the ESD                                                   
+voltages given above. As for the CEMs, the MCP high voltage is selected in flight                                                 
+from one of four levels. It is currently set at -1650 V.                                                                          
+  In order to obtain simultaneous two-dimensional information (one dimension for                                                  
+mass and one for elevation angle), the MCP is equipped with two orthogonal sets of                                                
+pickup anodes (Liptak et al., 1984). These produce electrical signals that allow a                                                
+unique determination of the location of an event on the MCP. Figure 8 shows a                                                     
+photograph of the angle-sensing anodes deposited directly on the output surface of the                                            
+MCP. Each of these eight anodes covers an external elevation angle of 7.5deg. The                                                 
+                                                                                                                                  
+Figure 8. The angle-sensing anodes deposited                                                                                      
+on the back of the HERS MCP detector                                                                                              
+                                                                                                                                  
+second set or mass-sensing anodes, consists of 40 gold-plated strips deposited on the                                             
+face of a high-purity alumina plate. A photograph of the mass anode plate is shown                                                
+in Figure 9. This plate is located parallel to and 0. l mm removed from the output face                                           
+of the MCP. It is held 50 V positive relative to the MCP to attract the pulse of secon-                                           
+dary electrons emitted by the latter. Thus, when an ion strikes the input side of the                                             
+MCP, a positive pulse is produced on one of the eight angle anodes and a negative                                                 
+pulse on one of the 40 mass anodes. One of eight logarithmically spaced threshold                                                 
+levels is selectable separately for the discriminator of each type of pulse (i.e. mass or                                         
+angle). We presently use 0.024 pC for the mass threshold and 0.012 pC for the angle.                                              
+  For an ion to be registered by the encoding electronics, it is a prerequisite that it                                           
+produces a charge pulse above the mass discriminator threshold. A coincidence                                                     
+(within 1 micro s) between both mass and angle pulses is required to produce a 'good' event                                       
+initiated by the arrival of an ion at the MCP. In such a case the event is defined by                                             
+its location (angle anode and mass anode numbers) and a flag to indicate that a good                                              
+event occurred. If the angle pulse is missing, or if more than one of either or both                                              
+pulses occur within the allotted time window, the event is not discarded, but rather                                              
+a 3 bit flag is used to indicate the pulse combination produced. Analysis of flagged                                              
+versus unflagged events provides a quantitative assessment of the overall efficiency                                              
+of the MCP system.                                                                                                                
+                                                                                                                                  
+3.1.6 Acceleration/deceleration system                                                                                            
+  Since the magnet is a momentum/charge filter, only a very narrow range of energies                                              
++/- 3% on average) for each M/Q is passed by the system. In order for the magnet to                                               
+transmit a wider energy range, the acceleration/deceleration system accelerates or                                                
+decelerates ions to a momentum range that the magnet will accept. This voltage is                                                 
+applied between the middle and innermost grids shown in Figure 5. (The outermost                                                  
+grid is at + 10 V to exclude spurious impact-produced low-energy ions from the                                                    
+system.) All parts of the optics downstream of the inner grid float at the accelerating                                           
+potential. This floating 'platform' can be seen in the centre of Figure 6, supporting the                                         
+electrostatic deflector, magnet, and the innermost accelerating grid assembly. Several                                            
+of the required high voltages must be generated at this floating level. Power is supplied                                         
+through an isolation transformer, while data and telecommands are transmitted by                                                  
+means of opto-couplers.                                                                                                           
+                                                                                                                                  
+Figure 9. The mass-sensing anodes for the                                                                                         
+HERS MCP detector. Forty gold-plated strips                                                                                       
+are deposited on a high-purity alumina plate                                                                                      
+which is mounted behind the MCP (see Fig. 7)                                                                                      
+                                                                                                                                  
+  The accelerating potential is swept in a triangular waveiorm, relative to a selectable                                          
+central voltage at a frequency of 8 Hz. This gives 32 complete cycles per 4 s spin                                                
+period. The amplitude (peak-to-peak) is fixed at 4.35 kV, while the central value                                                 
+depends on which of the four mass ranges is being measured. The resultant voltage                                                 
+sweep ranges are -7932 V to -3580 V for protons, -3967 V to +385 V for light                                                      
+ions, -662 V to +3690 V for medium ions, and -500 V to +3852 V for heavy ions.                                                    
+Because the sweep is phase-locked to the spin period, two sweep phases, 5.6deg apart,                                             
+are used in alternating measurement cycles. This avoids always measuring a given                                                  
+energy at the same set of azimuth angles. One waveform ramp is divided into 64 bins,                                              
+spaced quasi-logarithmically to give roughly constant energy resolution (Delta E/E) over                                          
+the full range. The energy bin number is telemetered as part of the address of each                                               
+ion event detected.                                                                                                               
+  The mirror voltage is swept synchronously with the accelerating voltage in such a                                               
+way that its value approximately tracks the energy of the ions being measured.                                                    
+                                                                                                                                  
+3.1.7 HERS measurement modes                                                                                                      
+  During each 4 s spin period, 64 complete energy scans are performed in one of the                                               
+four mass ranges mentioned above. This yields one energy sweep for each of the 64                                                 
+azimuth bins of 5.6deg for all ions within the selected mass range. (In two consecutive                                           
+azimuth bins the sweep voltage runs up and down, respectively.) The basic HERS                                                    
+mode, used when HERS has priority in telemetry allocation, consists of four spin                                                  
+periods. (The HIS mode, used when HIS has priority, has eight spin periods.) These                                                
+modes, selectable by telecommand, determine the mix of mass ranges in one instru-                                                 
+ment cycle. Modes include: l. protons only, 2. alternating protons and light ions only,                                           
+3. no protons (light, medium, heavy, medium), and 4. all masses (protons, medium,                                                 
+heavy, light). Mode 2 typically would be selected for measuring solar wind during                                                 
+cruise phase, while mode 4 is intended for encounter. Modes 1 and 3 have been includ-                                             
+ed in case a detector deteriorates.                                                                                               
+  During cruise and passage through the outer coma, when HERS has priority, data                                                  
+are telemetered for each spin. In the inner coma, when HIS has priority, each mass                                                
+range is held for two spins and telemetry is adjusted accordingly. Each ion event                                                 
+causes a 24 bit word to be formed containing the MCP elevation angle and mass anode                                               
+numbers, the pulse coincidence flags, the energy and azimuth bin numbers during                                                   
+which the event occurred, and whether the voltage was sweeping up or down. Events                                                 
+are then placed chronologically into the telemetry queue. In the case of protons, a 24                                            
+bit word is also used, but instead of MCP location the total number of counts per                                                 
+energy bin for each CEM (along with the energy and azimuth information) enters the                                                
+telemetry stream. A result of zero counts per bin is not transmitted. At very high count                                          
+rates a data-compression scheme goes into effect to fit the measurements into the                                                 
+available telemetry rate.                                                                                                         
+                                                                                                                                  
+3.2 Sensor for the inner coma (HIS, IMS-2)                                                                                        
+3.2.1 Objectives                                                                                                                  
+  The High Intensity Spectrometer (HIS) is designed to complement HERS in the in-                                                 
+ner coma where we expect cometary ions at high densities, low temperatures, and with                                              
+low bulk speeds relative to the nucleus. The composition of these ions will be deter-                                             
+mined between 12 and 57 amu per charge. Their velocity distributions will be                                                      
+measured in a limited range around the Giotto-Halley relative velocity of 69 km/s,                                                
+both with respect to absolute speed and the angles of incidence. These data will be                                               
+used to obtain the composition of the volatile fraction of the nucleus and ultimately                                             
+the chemistry and dynamics of the inner coma.                                                                                     
+                                                                                                                                  
+3.2.2 Main sensor characteristics                                                                                                 
+  The HIS contains two separate analyzers (Figs. 10 and 11), the Mass Analyzer                                                    
+(MA) and the Angle Analyzer (AA). The MA uses a combination of electrostatic and                                                  
+magnetic deflection systems designed to give good separation between adjacent masses                                              
+near H2O+ (M/Q= 16-20). Its intrinsic field of view is 2deg X 15deg, including the                                                
+direction of the spin axis (Fig. 2). Due to Giotto's spin, the resulting field of view is                                         
+conical, with a half angle of 12deg and slight overlap at the centre.                                                             
+                                                                                                                                  
+Figure 10. Schematic of the HIS sensor                                                                                            
+                                                                                                                                  
+Figure 11. The HIS sensor with cover removed                                                                                      
+(for description refer to Fig. 10)                                                                                                
+                                                                                                                                  
+  The AA is an electrostatic quadrispherical analyzer. Five miniature CEM detectors                                               
+at its exit allow for a resolution of 5deg to 7.5deg within the fan-like field of view of                                         
+2deg X 25deg total width. Here the resulting conical field of view has a half angle of 22deg                                      
+(Fig. 2). This viewing fan contains five elevation-angle ranges, which are split up                                               
+electronically into 16 azimuthal segments each. For five major ion species, the angular                                           
+velocity distribution around the ram direction can be inferred (see 3.2.5), which is                                              
+important for interpreting the MA's results.                                                                                      
+  Both HIS sensors are mounted in such a way that their viewing directions are nearly                                             
+identical. Their measurement programmes are stepped in parallel and in part they use                                              
+common supply voltages. An external electrostatic plane-plate deflector bends the ion                                             
+trajectories out of the dust particle path and into the shadow behind the spacecraft dust                                         
+shield, where the main part of the IMS is located.                                                                                
+                                                                                                                                  
+3.2.3 The Mass Analyser (MA)                                                                                                      
+  The basic principle of this mass spectrometer can best be understood with reference                                             
+to the classical optical analogy sketched in Figure 12. The entrance slit S1 is located                                           
+in the focal plane of the first convex lens L1 and a parallel beam of light leaves L1.                                            
+A prism provides dispersion, while the lens L2 focusses the image of S1 onto the                                                  
+                                                                                                                                  
+Figure 12. Optical principle of the HIS sensor:                                                                                   
+(a) classical optical analogue,                                                                                                   
+(b) ion optics of the HIS                                                                                                         
+                                                                                                                                  
+image plane P, forming a spectrum of the source. In the MA the role of the lens L1                                                
+is played by the quadri-spherical analyzer L1: it transforms an incoming divergent par-                                           
+ticle beam into a parallel beam. Of course, only those particles with the appropriate                                             
+energy per charge given by the applied voltage (0 to -200 V on the inner plate) are                                               
+transmitted. The permanent magnet (0.19 T) acts like a prism, with dispersion depen-                                              
+ding on the particles' momentum per charge. Lens L2 (+/- 66 to +/- 333 V) images S1                                               
+onto the plane P, providing a momentum-per-charge spectrum there. At a certain posi-                                              
+tion on P we will find particles with both identical energy per charge and momentum                                               
+per charge, and thus with identical mass per charge. The spectrum formed in plane                                                 
+P is therefore interpreted as an M/Q spectrum. Computer modelling was used to                                                     
+optimize the optical system described above, details of which will be published                                                   
+separately.                                                                                                                       
+  If a given detector on the image plane is to be dedicated to a specific M/Q value,                                              
+the principle of the HIS as explained so far would not allow any scanning of the E/Q                                              
+range of incident ions. Ions are constrained to arrive at the detector with a fixed E/Q                                           
+value given by the magnet field strength and its length, and by the position of the                                               
+detector. In order to scan the E/Q distribution of incoming ions, the entire section of                                           
+the instrument beyond L1 must be biased (Fig. 3) such that                                                                        
+                                                                                                                                  
+  U(1) - U(bias) = U(const.)                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+where U(1), denotes the central energy per charge of ions transmitted by the first elec-                                          
+trostatic analyzer L1, U(bias) (-1400 to +1050 V) is the voltage applied to float the                                             
+rest of the analyzer, and U(const.) is the energy per charge the ion of appropriate M/Q                                           
+must have in order to hit the desired detector.                                                                                   
+  One of the main boundary conditions for designing the MA sensor was the goal of                                                 
+optimum mass separation in the water ion group. Therefore, separate dedicated detec-                                              
+tors for ion species 16-21 were placed in the image plane.  At the positions of the                                               
+virtual masses 17.5, 18.5, and 19.5, additional detectors were installed in order to                                              
+monitor possible interferences hetween neighbouring masses.                                                                       
+  For some of the ion species, e.g. H2O+, count rates in excess of 1 x 10**6 s**-1 are ex-                                        
+pected on detector areas as small as 2 mm**2. This prevents the use of MCPs and                                                   
+rather suggests the use of CEMs. The distance between images of adjacent mass                                                     
+numbers in the water-ion group is only 1.2 mm, however, and intermediate detectors                                                
+are needed for masses 17.5, etc. These small spacings therefore required development                                              
+of a special CEM-based miniature detector system.                                                                                 
+  Central to this miniature detector system is a prism-shaped activated lead-glass                                                
+block (made of material similar to MCPs and CEMs) with gold-plated surfaces where                                                 
+high conductivity is required (Fig. 10). The block's front surface, which lies in the                                             
+image plane, has nine rectangular holes roughly 0.6x2.0 mm, the bottoms of which                                                  
+are connected by a 0.4 mm diameter straight channel to the back side of the prism.                                                
+The channels are drilled at different angles such that their exits are spread over a larger                                       
+area than the entrances in the image plane. Funnels of specially fabricated CEMs are                                              
+directly attached to the block's exits using conductive epoxy. Both the front and back                                            
+surfaces of the glass prism are gold-plated. A voltage of 700 V applied between then,                                             
+lets the activated channels act as preamplifiers for the ions hitting holes in the image                                          
+plane. Because the completed detector array is reminiscent of a hedgehog, it is refer-                                            
+red to as an 'Igel', which is the German name for this animal. For the CEMs four                                                  
+different HV levels between 2.5 kV and 3.4 kV can be selected by telecommand.                                                     
+                                                                                                                                  
+3.2.4 The Angle Analyser (AA)                                                                                                     
+   The main purpose of the AA is to extend the MA's angular field of view and to allow                                            
+for some resolution in elevation. This capability of the AA is important for interpreta-                                          
+tion of MA data in the case of high ion temperatures or of some ion bulk motion                                                   
+relative to the nucleus. Thus, to some extent, the AA bridges the gap in angle and                                                
+energy coverage between the HIS and the HERS.                                                                                     
+  The AA is equipped with a detector system consisting of five CEMs (operated at                                                  
+one of four selectable HV levels between 2.5 kV and 3.1 kV) and appropriate                                                       
+amplifiers capable of handling count rates in excess of 2x10**6 s**-1. The CEMs are not                                           
+hit directly by the transmitted ions but rather by secondary electrons produced on                                                
+aluminium dynodes. The quadrispherical AA plates have the same R/deltaR values as the                                             
+lens L1 in the MA and thus are connected to the same voltage supply.                                                              
+                                                                                                                                  
+3.2.5 HIS measurement modes                                                                                                       
+  The basic HIS program consists of a 64-step energy scan repeated 16 times per spin                                              
+period. During each scan, voltages for deflection, acceleration/deceleration and on the                                           
+lenses Ll and L2 are swept in a rather complicated way depending on the measurement                                               
+mode. The actual step values of the sweeps are stored in a PROM in IMS-3. Per spin,                                               
+the 14 CEMs yield a total of l4 366 individual count rates. The 14 366x16-bit words                                               
+are reduced by onboard compression to an array of 1004 8-bit words. Compression                                                   
+is achieved by: (i) summation of related count rates, (ii) omission of insignificant chan-                                        
+nels, and (iii) quasi-logarithmic compression of the remaining count rates. After the                                             
+end of a cycle (1,2, or 4 spins, depending on telemetry rate and IMS mode), the data                                              
+are processed further, then compressed and finally telemetered during that same spin.                                             
+The actual time delay between a measurement and its transmission at nominal                                                       
+encounter conditions will not exceed 4 s. This fact may become important in the inner-                                            
+most coma where the end of the mission can be expected at any time.                                                               
+  The data scheme of the AA is rather simple: only for those E/Q channels in which                                                
+the most abundant ions (M/Q= 18, 19, 20, 28, 44) are expected are the counts of all                                               
+five CEMs behind the AA transmitted separately for each of 16 azimuthal bins per                                                  
+spin. For all other 59 E/Q channels, counts are integrated over a full spin for CEM                                               
+1 only (this is the CEM that looks in the forward direction). The remaining four CEMs                                             
+are summed together over a full spin period and a single number sent back.                                                        
+  In order to understand the MA's data scheme, one must be aware of a basic property                                              
+of this instrument: by choosing the proper post-acceleration or deceleration and mak-                                             
+ing corresponding adjustments in the L2 voltage, each mass species can be directed                                                
+to any desired position on the Igel, and hence to any CEM. This property can be used                                              
+to set up two distinct modes: the so-called 'N- and H-programmes'.                                                                
+  In the N-programme each species has its own dedicated detector within the                                                       
+appropriate E/Q regime. Any velocity value of a given species causes the particles to                                             
+hit the same detector. To make optimum use of the focussing properties at the Igel's                                              
+centre and to keep the Igel's size and number of detectors within reasonable limits,                                              
+the whole range of masses is split up into seven groups. For example, in the 'water                                               
+group', mass 18 will always be registered by CEM 4, the peak of its nominal velocity                                              
+distribution occurring at E/Q channel 14 corresponding to 69 km/s. For this mass                                                  
+channel as well as for mass channels M/Q= 14-17, 19-21,26-29, 32, and 44, all                                                     
+16 azimuthal channels during one spin are transmitted individually, while in the other                                            
+cases they are just summed over. Both flanks of the nominal mass-18 velocity distribu-                                            
+tion, which is focussed on a central CEM, are covered quite well. Other ions, e.g.                                                
+mass 16 or 32 (focussed on CEMs I and 9, respectively), yield only one flank of their                                             
+distributions. This scheme assigns best coverage to the expected most-abundant ion                                                
+species. Less abundant species will not yield enough counts to measure their angular                                              
+and velocity distributions.                                                                                                       
+  The detector pattern on the Igel has been designed such that it fits best the                                                   
+requirements for resolving the water group. This pattern does not necessarily fit other                                           
+groups equally well. In the latter case, some ion species will not be focussed at the                                             
+centres of the detectors, but rather at their edges or even on the rims in between them.                                          
+Therefore, at heavier masses (above 46), the group scheme was dropped and replaced                                                
+by the same scheme as in the H-programme described below.                                                                         
+  In the so-called H-programme individual detectors are not dedicated to fixed M/Q                                                
+values but rather to fixed velocities centred on the nominal encounter velocity of                                                
+69 km/s. In other words, the peak of the velocity distribution of any species will be                                             
+seen at CEM 6 as E/Q is scanned, provided only that the plasma is truly at rest in the                                            
+comet frame of reference. In this programme the same ion species will appear on dif-                                              
+ferent detectors, according to its velocity distribution.                                                                         
+  Each programme has its special merits: the H-programme is better suited to measur-                                              
+ing relative abundances of different species because each is measured with the same                                               
+detector (CEM 6). The N-programme allows better determination of the velocity                                                     
+distributions of several ion species because they are measured for each selected ion                                              
+with a single CEM. Use of a single CEM for either mass (H-programme) or velocity                                                  
+(N-programme) distributions takes account of any variations in individual CEM                                                     
+sensitivities.                                                                                                                    
+  Via telecommand we can select either N or H programmes only, or N and H alter-                                                  
+nating every spin with a 3:1 or 1:1 ratio. If the latter mode is used, an additional                                              
+'wobble' voltage is applied to the outer plate of the external deflector, which in all                                            
+other modes is grounded. The voltage follows a sawtooth pattern (0 to -15 V) with                                                 
+a frequency of 1 kHz and effectively expands the field of view of both the MA and                                                 
+the AA in the direction away from the spacecraft (by 2deg for mass 12 or 0.5deg for mass                                          
+57). This feature becomes useful in case the whole spacecraft charges up negatively.                                              
+                                                                                                                                  
+3.3 Common power and data-processing unit, IMS-3                                                                                  
+  The common electronics box for the HERS and the HIS links the IMS to the Giotto                                                 
+telemetry and telecommand subsystems and to the power bus. IMS-3 contains all the                                                 
+low-voltage electronics, including an isolating power converter. It supplies all                                                  
+voltages necessary to drive the various detector amplifiers, the logics and the high-                                             
+voltage power circuitry.                                                                                                          
+  Two microprocessors, together with their peripheral logic elements, receive and                                                 
+compress digitized data from the sensor boxes. One microprocessor, aided by two                                                   
+64 kbit memories, is assigned to mode control and data compression for HERS. The                                                  
+other, together with another 64 kbit RAM, governs the HIS instrument, its modes and                                               
+data handling, as well as all general IMS command, telemetry and housekeeping inter-                                              
+faces with the spacecraft. Digital-to-analog converters with PROMs at their inputs                                                
+provide the necessary control voltages for all high-voltage stepping in both                                                      
+instruments.                                                                                                                      
+  In the event of microprocessor failure, all software controlled logic can be bypassed                                           
+such that hardwired logic feeds the contents of the various counters directly onto the                                            
+telemetry bus. However, in this emergency mode the sampling rate would be highly                                                  
+reduced. Finally, in-flight test modes enable us to verify the proper functioning of all                                          
+electronics, including monitoring of high voltages and detector thresholds as well as                                             
+the contents of the RAMs and PROMs.                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+4. Instrument Calibration                                                                                                         
+The entire IMS was calibrated in the ion-beam calibration system at the University                                                
+of Bern. This facility has been used to calibrate mass spectrometers on Geos and                                                  
+several other spacecraft (Ghielmetti et at., 1983). The ion species used for IMS                                                  
+calibration were H+, H2+, He+, CH3+, CH4+, Ne+, N2+, Ar+ and CO2+.                                                                
+  The flight and flight-spare units of the HERS and HIS sensors were tested using two                                             
+methods. The so-called 'dynamic calibration' was performed under the control of the                                               
+IMS-3 unit, with fast linear sweeps of deflection and acceleration potentials and the                                             
+usual data encoding. Dynamic runs yielded low detector count rates because the                                                    
+acceleration voltage sweeps through a wide range compared with the sensor energy                                                  
+window and hence the duty cycle is very low. Such runs are, however, needed for                                                   
+the allocation of voltage sweep bins to ion energies.                                                                             
+  In addition to the dynamic calibration, a 'static calibration' was performed in which                                           
+IMS-3 was replaced by ground-support electronics built specifically for these tests.                                              
+With the static method, only DC levels of the instrument potentials could be command-                                             
+ed, but this allowed us to step each voltage through any arbitrary range of values. In                                            
+this way, the optics of the sensor were investigated, and voltages were optimized (e.g.,                                          
+the HERS ESD and acceleration ranges). Moreover, response as a function of the                                                    
+energy and direction of the incoming ions could be measured in a very short time for                                              
+each selected level of the acceleration/deceleration potential.                                                                   
+  During static calibrations, the beam energy was linearly wobbled over the energy                                                
+windows of the two sensors. The wider of the two orthogonal angle windows (Fig. 2)                                                
+was scanned linearly by rotating the turntable on which the sensor was mounted. The                                               
+narrower of the angle windows was stepped through in a sequence of runs.                                                          
+  Figure 13 shows the angular response of the HERS for H2+ ions with a mean                                                       
+energy of 2420 eV (i.e. with 1330 V acceleration), integrated over the energy win-                                                
+dow. The sensor response function was found to depend on the direction of ion in-                                                 
+cidence in a well-behaved manner. The modulation of the response function in                                                      
+Figure 13 is produced by potentials from the individual acceleration grid wires. High                                             
+deceleration voltages tend to cause stronger modulation.                                                                          
+  The angular response of the HIS mass analyzer for  20Ne+ ions is shown on                                                       
+Figure 14. The ion energy was wobbled with an amplitude of 13 eV (corresponding                                                   
+to a rather cold ion beam in the case of the rammed cometary ions for which HIS is                                                
+intended). The average energy corresponded to the relative velocity during encounter.                                             
+This run was performed in order to simulate the response of CEM 4 (nominally allot-                                               
+ted to 18 amu/e) for water ions. Counts in CEM 5 adjacent to CEM 4 can be seen                                                    
+at the extreme epsilon angles.                                                                                                    
+  Figure 15 demonstrates the mass resolution of the HERS for CH3+ and CH4+ ions.                                                  
+The figure shows the distribution of CH3+ and CH4+ counts over mass anodes 1 to                                                   
+40 for one angle anode. With the ion beam filling the energy and angle windows, the                                               
+mass peak width is approximately two anodes (FWHM). This width is nearly constant                                                 
+for all ions in all mass ranges and our estimate of the HERS mass resolution is                                                   
+M/deltaM=25. Note that the contribution of one peak to the centre of the neighbouring                                             
+peak is less than one percent.                                                                                                    
+  The mass resolution of the HIS is illustrated in Figure l6. This display of several                                             
+dynamic runs shows counts accumulated in each mass/energy bin when unidirectional                                                 
+beams of CH2+, CH3+, CH4+,  20Ne+, and 22Ne+ arrived at the HIS from the ram                                                      
+direction with the encounter velocity. Each peak appears in its predicted bin. Counts                                             
+are normalized to the same peak value, whereas no counts were obtained in any of                                                  
+the blank areas. The latter symbolize mass/energy bins transmitted, whereas shaded                                                
+areas indicate bins not transmitted (see Section 3.1.5 for the data-compression                                                   
+scheme). Mass resolution is clearly sufficient to identify, for relatively cold ion                                               
+                                                                                                                                  
+Figure 13. Angular respnose of the HERS                                                                                           
+MCP for H2+ ions. The beam energy of                                                                                              
+2420 eV is wobbled to flll the energy window.                                                                                     
+This run simulates the response to 4He**2+ ions                                                                                   
+of 4840 eV. Contours in the lower panel show                                                                                      
+20, 40, 60, and 80% of maximum response.                                                                                          
+Phi (azimuth) and lambda (elevation) angles                                                                                       
+correspond to the narrow- and wide-view angle                                                                                     
+shown in Figure 2 for the HERS. The upper                                                                                         
+panel gives the MCP response integrated over                                                                                      
+eight angle anodes and phi. The integrated                                                                                        
+response over both angles (geometric factor) is                                                                                   
+~ 9 X 10**-3 cm**2 ster eV/e for this acceleration                                                                                
+voltage                                                                                                                           
+                                                                                                                                  
+Figure 14. Angular response of the HIS mass-                                                                                      
+anlyser for 20Ne+ ions. The beam energy was                                                                                       
+440 eV with a wobble of 13 eV (peak-to-peak).                                                                                     
+Contours are plotted at logarithmic intervals                                                                                     
+over two decades. Alpha and epsilon                                                                                               
+correspond to the narrow- and wide-angle of                                                                                       
+the shaded field of view of the HIS in                                                                                            
+Figure 2. The origin (alpha, epsilon = 0) is the                                                                                  
+cometary ram direction                                                                                                            
+                                                                                                                                  
+Figure 15. HERS mass separation: composite                                                                                        
+spectrum for CH3+ and CH4+ measured in                                                                                            
+sequence. The integrated response of all 4O                                                                                       
+mass anodes is shown for ion beams filling the                                                                                    
+energy and angle windows. Thin and dashed                                                                                         
+lines show the response from the two                                                                                              
+individual runs                                                                                                                   
+                                                                                                                                  
+Figure 16. HIS mass separation: composite                                                                                         
+spectrum of five ion species with beam                                                                                            
+energies of 24.5 eV/amu (i.e. encounter                                                                                           
+energies). Energy wobble was 13 eV (peak-to                                                                                       
+peak, equivalent to one energy step). Counts                                                                                      
+are normalized to the number counted in the                                                                                       
+nominal E/Q bin of each ion species. No data                                                                                      
+are transmitted for the shaded areas                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+Figure 17. Colour spectrogram of solar-wind                                                                                       
+data collected on 24 October 1985 summed                                                                                          
+over 128 spins in the light ion range (i.e. data                                                                                  
+were averaged over a total period of 34 min).                                                                                     
+The frame on the left of the figure is a plot of                                                                                  
+energy channel number (vertical axis, with ion                                                                                    
+energy increasing downward) against mass                                                                                          
+channel number (horizontal axis), with the                                                                                        
+count rate indicated by the colour scale shown                                                                                    
+to the right. The mass scale corresponds to the                                                                                   
+light ion range (M/Q=2 to 4 from left to                                                                                          
+right). The black curved lines are lines of                                                                                       
+constant velocity over the mass range and                                                                                         
+correspond (from top to bottom) to 70,200,                                                                                        
+400, and 600 km/s. These same velocities are                                                                                      
+separately marked for the protons (the left-                                                                                      
+most band labelled P) with crosses. The right                                                                                     
+panel shows the ion angular distribution                                                                                          
+excluding protons. Note the proton (red and                                                                                       
+black) and 4He2+ (blue and green) peaks at                                                                                        
+about equal velocities of 540 km/s                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+beams, ions in the water range separated by 1 amu/e.                                                                              
+  These static and dynamic runs define the IMS response functions for the ion species                                             
+and acceleration/deceleration levels actually tested. For other species and for beam                                              
+energies and directions not measured directly, we are developing simplified physical                                              
+models to predict the response functions for both instruments.                                                                    
+                                                                                                                                  
+5. In-Flight Performance                                                                                                          
+  The first in-flight operation of the IMS occurred on 7 September 1985 and showed                                                
+nominal performance. At this time the solar aspect angle at the spacecraft precluded                                              
+solar-wind measurement by the HERS, so that only the general health of the IMS could                                              
+be assessed. Operation on 9 October 1985 showed the solar wind beginning to enter                                                 
+the HERS field of view (with nominal solar aspect angle 105deg). Both protons and                                                 
+He++ were observed by the HERS.   Owing to its more restricted energy and mass                                                    
+ranges, the HIS sensor does not respond to the solar wind. By 24 October the solar                                                
+wind was well within the HERS field of view (solar aspect angle was 120deg), and we                                               
+present results of preliminary analysis of HERS data from this day. The HIS sensor                                                
+electronics were fully exercised during several periods and performed well. Detector                                              
+background is low and calibrations showed both detector thresholds and analyzer plate                                             
+voltages to be nominal.                                                                                                           
+  Figure 17 is a colour spectrogram of data collected during 128 spins (512 s). The                                               
+flux peak (blue and green) at the lower left shows the presence of ions with M/Q = 2,                                             
+which we identify as solar wind 4He2+. The maximum count rate averaged over the                                                   
+128 spins was about 32 s**-1 at an energy corresponding to a velocity of 540 km/s for                                             
+M/Q=2. The width of this peak corresponds to five mass channels, as was the case                                                  
+for the laboratory calibration spectrum shown in Figure 15. The vertical extent is a                                              
+measure of the energy distribution, i.e. temperature, of the ions. Note that the high-                                            
+velocity tail of the distribution is apparently cut off at the high-energy limit of the                                           
+HERS.                                                                                                                             
+  The instrument is programmed in such a way that integration times for high energies                                             
+(above E/Q channel 32) are longer than for low energies. In the colour plot this pro-                                             
+duces a systematic energy dependence in the appearance of the background count rate.                                              
+  The vertical band on the left labelled 'P' shows proton count rates averaged over                                               
+the 128 spin period. Protons (collected by the CEMs) are not on the same mass and                                                 
+velocity scales as the other ions (collected by the MCP), but are shown together for                                              
+convenience. The averaged maximum proton count rate is > 1.6 X 10**4 s**-1; the peak                                              
+instantaneous count rate was, in fact, about 2.5 x 10**5 s**-1. The peak of the distribu-                                         
+tion occurs at an energy corresponding to a proton velocity of about 500 km/s.                                                    
+  The frame to the right in Figure 17 shows the ion count rate in angle space, with                                               
+32 azimuth bins on the vertical axis and 8 elevation angle bins (each 7.5deg wide) on                                             
+the horizontal axis. It can be seen that the ions are contained within three azimuth bins                                         
+and are fully within the elevation angle field of view.                                                                           
+ On 31 October, the solar-wind velocity had decreased to ~400 km/s, and thus ions                                                 
+up to M/Q ~3 arrived in the HERS energy range. Figure 18 is a mass spectrum                                                       
+measured on this day, showing the total raw counts accumulated in the angle range                                                 
+containing elevation channel 1 and azimuth channels 15 to 17. The spectrum has not                                                
+been corrected for background (corresponding to an average of about 3 counts per                                                  
+mass channel), nor was the response function of the instrument taken into account.                                                
+  The theoretical positions of the most abundant solar-wind ions in this M/Q range                                                
+are indicated. The spectrum fully agrees with previously obtained solar-wind M/Q                                                  
+spectra, even in detail (Kunz et al., 1983). The valley between He2+ and O7+ cor-                                                 
+responds to the resolution expected from HERS calibration data. Whereas O6+ is                                                    
+clearly isolated, the O7+ peak shows the well-known shoulder that is composed                                                     
+mainly of C5+ and Ne8+.                                                                                                           
+                                                                                                                                  
+Figure 18. Solar-wind mass spectrum from 31                                                                                       
+October 1985 taken with the MCP detector                                                                                          
+(light ion range). Counts are integrated over                                                                                     
+500 spins (i.e. the total sampling period was                                                                                     
+130 min) for one elevation and three azimuthal                                                                                    
+channels. Raw data, uncorrected for                                                                                               
+background, are given                                                                                                             
+                                                                                                                                  
+  Figure 18 demonstrates that the HERS can meet its scientific goals, namely those                                                
+of measuring solar wind and hot cometary ion composition with good mass resolution.                                               
+It is important to note that this resolution is maintained for high ion temperatures,                                             
+similar to those expected in the interaction region of the comet. Although no scientific                                          
+data has yet been returned from the HIS, engineering and calibration data lead us to                                              
+expect that the HIS scientific goals will be met as well.                                                                         
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+                                                                                                                                  
+IMS represents the work of many people over a period of more than four years. For                                                 
+fear of leaving anyone out, we do not mention any individuals, but rather thank here                                              
+all the technicians at the several institutes who have contributed to the IMS. Because                                            
+of Giotto's extremely tight schedule, the effort was sometimes at the limit of what can                                           
+be expected even from a dedicated collaborator.                                                                                   
+  We thank the Giotto Project Team, in particular D. Dale, J. Credland, C. Berner                                                 
+and H. Bachmann, as well as the Project Scientist, R. Reinhard, for their patience and                                            
+continuous support in solving some difficult problems.                                                                            
+  We also wish to thank our co-investigators, H. Bridge, W.T. Huntress, W.-H. Ip,                                                 
+R.G. Johnson, R.D. Sharp and E. Ungstrup for stimulating discussions and contribu-                                                
+tions during the definition phase of the instrument. In particular, we thank A.                                                   
+Ghielmetti for his invaluable advice on ion optics and calibration, and W. Lennartsson                                            
+for design of the electrostatic mirror. One of us (DTY) gratefully acknowledges the                                               
+help of M.J. McCurdy and S. Trujillo for careful preparation of the manuscript.                                                   
+  We also acknowledge the support of our funding agencies, the US National                                                        
+Aeronautics and Space Administration (Contracts NASW-3572, NASW-3729 and                                                          
+NAS7-9 18); the German Bundesministerium fur Forschung und Technologie (Con-                                                      
+tract 0l 0F 0323) and the Max-Planck Society; the Swiss National Science Foundation                                               
+(Grants 2.034.81 and 2.007.83) and the State of Bern; and the US Department of                                                    
+Energy.                                                                                                                           
+                                                                                                                                  
+References                                                                                                                        
+Balsiger H, Geiss J, Young D T, Rosenbauer H, Schwenn R, Ip W-H, Ungstrup E,                                                      
+    Neugebauer M, Goldstein R, Goldstein B E, Huntress W T, Shelley E G, Sharp                                                    
+    RD, Johnson R G, Lazarus A.J. & Bridge H S 1981, The Giotto ion mass spec-                                                    
+    trometer, Proc. Int. Meeting on the Giotto Mission, ESA SP-169, 93.                                                           
+Bame S J, Anderson R C, Asbridge J R, Baker D N, Feldman W C, Fuselier S A,                                                       
+    Gosling J T, McComas D J, Thomsen M F, Young D T & Zwicil R D 1985,                                                           
+    Comet Giacobini-Zinner: A plasma description, submitted to Science.                                                           
+Ghielmetti A G, Balsiger H, Banninger R, Eberhardt P, Geiss J & Young D T 1983,                                                   
+    Calibration system for satellite and rocket-borne ion mass spectrometers in the                                               
+    energy range from 5 eV/charge to 100 keV/charge, Rev. Sci. Instrvm., 54,425.                                                  
+Ip W-H 1980, Cometary atmospheres: I. Solar wind modification of the outer ion                                                    
+    coma, Astron. Astrophys., 92,95.                                                                                              
+Kunz S, Bochsler P, Geiss J, Ogilvie K W & Coplan M A 1983, Determination of                                                      
+    solar wind elemental abundance from M/Q observation, during three periods in                                                  
+    1980, Solar Physics, 88, 359.                                                                                                 
+Liptak M, Sandie W G, Shelley E G, Simpson D A & Rosenbauer H 1984,                                                               
+    Microchannel plate electron multipliers for mass spectrometer applications, IEEE                                              
+    Trans., NS-31, 780.                                                                                                           
+Neugebauer M, Clay D R, Goldstein B E & Goldstein R 1982, Energetic ion mass                                                      
+    spectrometer, Rev. Sci. Instrum., 53,277.                                                                                     
+                                                                                                                                  

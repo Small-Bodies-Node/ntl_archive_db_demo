@@ -1,0 +1,52 @@
+PDS_VERSION_ID           =   PDS3                                             
+RECORD_TYPE              =   STREAM                                           
+^WORD_DOCUMENT           =   "FLATSPEC.DOC"                                   
+^ASCII_DOCUMENT          =   "FLATSPEC.ASC"                                   
+^PS_DOCUMENT             =   "FLATSPEC.PS"                                    
+                                                                              
+                                                                              
+                                                                              
+OBJECT                   = WORD_DOCUMENT                                      
+  DOCUMENT_NAME          = "Space Research Institue (IWF) Flat-File Data Base 
+                            Management System Specification"                  
+  PUBLICATION_DATE       = 1997-08-13                                         
+  INTERCHANGE_FORMAT     = BINARY                                             
+  DOCUMENT_FORMAT        = MICROSOFT_WORD                                     
+  DOCUMENT_TOPIC_TYPE    = "REQUIREMENTS DOCUMENT"                            
+  DESCRIPTION            = "IWF Flat-File Specification.   This document      
+                            elaborates the formats and epoch specification    
+                            for MISCHA program operation"                     
+END_OBJECT               = WORD_DOCUMENT                                      
+                                                                              
+                                                                              
+OBJECT                   = ASCII_DOCUMENT                                     
+  DOCUMENT_NAME          = "Space Research Institute (IWF) Flat-File Data Base
+                            Management System Specification."                 
+  PUBLICATION_DATE       = 1997-08-13                                         
+  INTERCHANGE_FORMAT     = ASCII                                              
+  DOCUMENT_FORMAT        = TEXT                                               
+  DOCUMENT_TOPIC_TYPE    = "REQUIREMENTS DOCUMENT"                            
+  DESCRIPTION            = "IWF Flat-File Specification.   This document      
+                            elaborates the formats and epoch specification    
+                            for MISCHA program operation. This version is a   
+                            reduced form of the original document,            
+                            due to the loss of graphics, equations and figures
+                            upon conversion to text."                         
+END_OBJECT               = ASCII_DOCUMENT                                     
+                                                                              
+                                                                              
+OBJECT                        = PS_DOCUMENT                                   
+  DOCUMENT_NAME                 = "Space Research Institute (IWF) Flat-File Da
+                                   Base Management System Specification. "    
+  INTERCHANGE_FORMAT            = BINARY                                      
+  DOCUMENT_FORMAT               = POSTSCRIPT                                  
+  PUBLICATION_DATE              = 1997-08-13                                  
+  DOCUMENT_TOPIC_TYPE            = "REQUIREMENTS DOCUMENT"                    
+  DESCRIPTION                   = "                                           
+   IWF Flat-File Specification.   This document                               
+   elaborates on the formats and epoch specification                          
+   for MISCHA program operation .                                             
+                                                                              
+   A PS representation has been included for ease of reproduction. "          
+END_OBJECT                    = PS_DOCUMENT                                   
+END                                                                           

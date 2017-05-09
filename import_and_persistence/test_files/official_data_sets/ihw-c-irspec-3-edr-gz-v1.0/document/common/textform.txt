@@ -1,0 +1,60 @@
+***** File TEXTFORM.TXT                                                       
+                                                                              
+                          Text Data Descriptions                              
+                                                                              
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual disciplines to the Lead       
+Center using the FITS format.  When the decision was made to distribute       
+this information on CD-ROM, it was determined that the data had to have       
+even broader accessibility.  For this reason, the original FITS files,        
+with contiguous headers and data, were split into separate files. The         
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.   PDS labels were constructed to allow     
+definition of the data files for the Planetary Data System.   For each        
+data there must be a file indicating a FITS header.                           
+                                                                              
+     The convention for naming files on the CD-ROM was proposed by the        
+IHW Lead Center to include a unique data qualifier for the data.   A          
+specific set of rules was established to identify the net and subnet for      
+each discipline (given by a letter code).  A CD-ROM running number relates    
+the information contained in the various indices to the files containing      
+the actual data.  A short list of this convention for Astrometry follows:     
+                                                                              
+  PDS Object              FITS      Discipline    Letter    File Ext          
+ (description)         NAXIS =                     Code                       
+                                                                              
+text                       1        Astrometry     ASTR       .dat            
+                                                                              
+     The file extensions follow suggestions by the Planetary Data System      
+(SPIDS v1.1) for tabular and image data.    In addition, for IHW FITS, the    
+original headers and data were split into separate files, with filename       
+extensions as listed below for Astrometry.                                    
+                                                                              
+                 .DAT - other non-image or non-table data                     
+                                                                              
+    These PDS labels are metadata (as headers describing data submitted to    
+the archive). There has been no effort to duplicate the documentation         
+contained in the full FITS headers because the PDS and FITS headers for       
+a given data file differ only in the filename extension.  Instead we          
+have attempted to use the power of the PDS label syntax to fully              
+describe the data structures and thus gain access to software by that group.  
+Standards for the Preparation and Interchange of Data Sets, Martin, T.        
+Z., et al, Document D-4683, Jet Propulsion Laboratory, California             
+Institute of Technology, Pasadena, CA document version 1.1 was the            
+primary reference to the Object Description Language (ODL) necessary to       
+create the PDS labels.   (We thankfully acknowledge the help of M. Martin,    
+JPL, for assisting the IHW through version 1.1 of the ODL that allows         
+for SPECTRUM.)   The basic PDS descriptors such as SFDU_LABEL, RECORD_TYPE,   
+RECORD_BYTES, and FILE_RECORDS are explained in the SPIDS document. The       
+RECORD_TYPE for all data files is FIXED_LENGTH.   The PDS labels have         
+been formed as fixed length (78 byte) with an embedded CR and LF.             
+                                                                              
+    The TEXT object (which is used for the Astrometry Discipline's data with  
+extension .DAT) is an 80 byte fixed length record that contains only          
+ASCII values.   In the FITS formulation, the 80-byte records are strung       
+together, typically as 4 or 5 "card" images with no delimiters and padded     
+to fill the 2880 byte record structure.   It can be recognized in the FITS    
+formulation by the NAXIS=1 statement, which indicates that a byte stream      
+follows usually carrying "text" description.   The Astrometry data has been   
+separated into its own subdirectory (ASTROM) throughout the Archive discs.    

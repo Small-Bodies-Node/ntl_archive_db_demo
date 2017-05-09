@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="services_jar" name="NASA_PDS_Import_and_Persistence">
+    <property environment="env" />
+
+    <property name="target" value="1.6" />
+    <property name="source" value="1.6" />
+    <property name="classdir" value="build/classes" />
+    <property name="testclassdir" value="build/testClasses" />
+    <property name="sql.dir" value="src/sql" />
+    <property name="frontend.dir" value="../front_end" />
+    <property name="webservice.dir" value="../web_service" />
+    <property name="jar.name" value="pds_services" />
+    <property name="jar.file" value="${jar.name}.jar" />
+
+    <!-- to get jdbc connection parameters -->
+    <property file="config/application.properties" />
+
+    <!-- classpath definitions -->
+    <path id="lib_classpath">
+        <fileset dir="lib">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+
+    <path id="test_files_classpath">
+        <pathelement location="test_files" />
+        <pathelement location="config" />
+    </path>
+
+    <path id="class_path">
+        <pathelement location="${classdir}" />
+    </path>
+
+    <path id="testclass_path">
+        <pathelement location="${testclassdir}" />
+    </path>
+
+    <path id="execute_classpath">
+        <path refid="lib_classpath"/>
+        <path refid="class_path" />
+        <pathelement location="config" />
+    </path>
+    <!-- end of classpath definitions -->
+
+    <target name="clean">
+        <delete dir="build" />
+        <delete dir="log" />
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classdir}" />
+        <javac debug="true" destdir="${classdir}" source="${source}" target="${target}" includeantruntime="false">
+            <src path="src/java/main" />
+            <classpath refid="lib_classpath" />
+        </javac>
+    </target>
+
+    <target name="compile_test" depends="compile">
+        <mkdir dir="build/testClasses" />
+        <javac debug="true" destdir="build/testClasses" source="${source}" target="${target}" includeantruntime="false">
+            <src path="src/java/tests" />
+            <classpath refid="lib_classpath" />
+            <classpath refid="class_path" />
+        </javac>
+    </target>
+
+    <target name="test" depends="compile_test" description="Test all test cases.">
+        <exec executable="${jdbc.mysql}" input="src/sql/reset.sql">
+            <arg value="--user=${jdbc.username}"/>
+            <arg value="--password=${jdbc.password}"/>
+        </exec>
+
+        <exec executable="${jdbc.mysql}" input="src/sql/ddl.sql">
+            <arg value="--user=${jdbc.username}"/>
+            <arg value="--password=${jdbc.password}"/>
+        </exec>
+
+        <mkdir dir="log" />
+        <junit fork="true" haltonerror="false">
+            <classpath refid="lib_classpath" />
+            <classpath refid="test_files_classpath" />
+            <classpath refid="class_path" />
+            <classpath refid="testclass_path" />
+            <classpath location="${sql.dir}" />
+            <test name="gov.nasa.pds.services.impl.AllTestCases" todir="log">
+                <formatter type="plain" usefile="true" />
+            </test>
+        </junit>
+    </target>
+
+    <target name="services_jar" depends="clean,compile">
+        <jar destfile="build/${jar.file}"
+             basedir="${classdir}"
+             excludes="gov/nasa/pds/commandline/** 
+                       gov/nasa/pds/processors/**"
+        />
+    </target>
+
+    <target name="run_cache" depends="compile">
+        <java classname="gov.nasa.pds.commandline.DataSetProcessingCommandLine" fork="true">
+            <classpath refid="execute_classpath"/>
+            <arg value="src/app_config/applicationContext_cacheProcessor.xml"/>
+        </java>
+    </target>
+
+    <target name="run_dictionary" depends="compile">
+        <java classname="gov.nasa.pds.commandline.DataDictionaryCommandLine" fork="true">
+            <classpath refid="execute_classpath"/>
+            <arg value="src/app_config/applicationContext_dictionary.xml"/>
+        </java>
+    </target>
+
+    <target name="run_processing" depends="compile">
+        <java classname="gov.nasa.pds.commandline.DataSetProcessingCommandLine" fork="true">
+            <classpath refid="execute_classpath"/>
+            <arg value="src/app_config/applicationContext.xml"/>
+        </java>
+    </target>
+
+    <target name="run_validation" depends="compile">
+        <java classname="gov.nasa.pds.commandline.DataSetProcessingCommandLine" fork="true">
+            <classpath refid="execute_classpath"/>
+            <arg value="src/app_config/applicationContext_parserMode.xml"/>
+        </java>
+    </target>
+
+    <target name="utility" depends="compile">
+        <java classname="gov.nasa.pds.commandline.DataSetProcessingCommandLine" fork="true">
+            <classpath refid="execute_classpath"/>
+            <arg value="src/app_config/applicationContext_utility.xml"/>
+            <arg line="${args}"/>
+        </java>
+    </target>
+
+    <target name="deploy_services" depends="services_jar">
+        <delete file="${frontend.dir}/lib/${jar.file}" />
+        <delete file="${webservice.dir}/WebContent/WEB-INF/lib/${jar.file}" />
+        <copy file="build/${jar.file}" todir="${frontend.dir}/lib" />
+        <move file="build/${jar.file}" todir="${webservice.dir}/lib" />
+    </target>
+
+    <!-- creates new db. if db exists it is dropped at first. -->
+    <target name="reset-db">
+        <exec executable="${jdbc.mysql}" input="src/sql/reset.sql">
+            <arg value="--user=${jdbc.username}"/>
+            <arg value="--password=${jdbc.password}"/>
+        </exec>
+
+        <exec executable="${jdbc.mysql}" input="test_files/mysql_dumps/nasa_pds_with_dictionary.sql">
+            <arg value="--user=${jdbc.username}"/>
+            <arg value="--password=${jdbc.password}"/>
+            <arg value="nasa_pds" /> 
+        </exec>
+    </target>
+
+</project>

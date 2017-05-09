@@ -1,0 +1,22 @@
+***** File COMPINFO.TXT                                                       
+                                                                              
+     This directory contains compressed, full-resolution data of comet        
+Giacobini-Zinner obtained by the IHW Large-Scale Phenomena Discipline.        
+                                                                              
+With both project costs and user comfort in mind, it was decided to use a     
+relatively straightforward data compression technique to reduce the amount of 
+space required for the data. A previous pixel algorithm was chosen to         
+accomplish this, with the result that the data have been compressed by almost 
+50%.  When applied to both the P/G-Z and P/Halley imagery this will reduce the
+number image CD-ROMs to less than 20.                                         
+                                                                              
+     The compression was accomplished using the program called PACKER.FOR,    
+given in the FORTEAN subdirectory of the SOFTWARE directory.  The compression 
+algorithm is briefly described in the file COMPRESS.TXT in the DOCUMENT       
+subdirectory.                                                                 
+                                                                              
+     The file extensions for compressed data (.IMQ = image, .HDR = header,    
+.LBL = label) follow the IHW filename conventions. To reconstruct the original
+FITS byte stream, the .HDR and the .IMQ files for the appropriate observation 
+must be concatenated.  The FITS headers have been modified using the FITS     
+extensions to take account of the fact that the data have been compressed.    

@@ -1,0 +1,64 @@
+***** File ACKNWLDG.TXT                                                       
+                                                                              
+                                                                              
+                          ACKNOWLEDGEMENTS                                    
+                                                                              
+                                                                              
+                                                                              
+     These Acknowledgements are concerned with the final steps of CD-ROM      
+preparation and production, steps which were largely taken by a handful of    
+individuals at the NASA/Goddard Space Flight Center, working in collaboration 
+with the Small Bodies Node (SBN) of the Planetary Data System.                
+                                                                              
+     The simple truth is that if the goal is to create a useful archive, one  
+that is replete with searchable indices, tables of interest, software, and    
+lucid documentation, and, moreover, one which possesses a useful and efficient
+directory layout (or "CDTREE"), then a very large amount of effort is         
+required.  It probably comes as no surprise to the reader that many revisions 
+of plan are encountered along the way, as a scheme which once seemed promising
+now looks like the course NOT to follow.                                      
+                                                                              
+     Once the entire IHW dataset had been transferred and was on-line at      
+the Small Bodies Node (SBN) of the Planetary Data System (PDS) it was         
+possible to complete the set with the help of Dan Klinglesmith and Mal        
+Niedner in the Laboratory for Astronomy and Solar Physics.                    
+                                                                              
+     This brings the story nearly up-to-date (i.e., December 1993).  In the   
+last 24 months a great deal of work has been expended at NASA/GSFC (in        
+collaboration with the SBN) to perform the following tasks:                   
+   o reviewing and revising the layout of the space disks;                    
+   o responding to calls by the Discipline Specialists for error correction of
+      headers and data (hundreds of files across several of the disciplines), 
+      made possible by the headers/data being "on-line";                      
+   o creating searchable, delimited tables and indices from on-line headers   
+      and data;                                                               
+   o generating PDS labels for all datafiles;                                 
+   o writing/editing of documentation to allow the archive user to understand 
+      the disc contents and layout; and                                       
+   o frequent checking of procedures and products.                            
+   o responding to the SBN Peer Review of the Remote Data CD-ROMs by          
+      incorporating some simplifying design changes                           
+                                                                              
+     The above should be considered a partial list of the activities which    
+occurred after the IHW data were deposited on the NSSDC Publisher in the      
+late-summer of 1992.  If it is appropriate to single out a particular         
+individual within the last 8-12 months, then that person surely is Dan        
+Klinglesmith, who has been extremely active in planning the work.  This       
+also includes efforts from Mal Niedner to work through the GSFC contract      
+to get the final volumes produced                                             
+                                                                              
+     Data preparation for the last series of IHW CD-ROMs (25 and 26), that of 
+the "Spacecraft Data", is now complete at the SBN, University of Maryland,    
+under the direction of Ed Grayzeck and Mike A'Hearn.   We would like to       
+acknowledge individual efforts in this preparation:                           
+                                                                              
+Mikael Aronsson for collecting and standardizing the original submissions     
+Eric Beach for data preparation at the NSSDC Publisher                        
+Phil Esterle who worked to solve the processing steps for the TVS submission  
+Lori Fenton became the editor of the ESA digitized documents                  
+Ann Farny at PDS-Central Node who digitized the ESA documents                 
+Joe King and Jordan Gottlieb for maintaining the NSSDC Publisher              
+Anne Raugh for reformatting datasets such as PIA and preparing labels         
+Kaly Rengaranjan, Rosana Borgen, Terri Anderson (PDS-CN) for reviewing labels 
+Don Sawyer and Doug Gross for assistance with SFDU work                       
+Archie Warnock for his FITS2PDS translator program and general advice         

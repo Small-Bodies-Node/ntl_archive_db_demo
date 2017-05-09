@@ -1,0 +1,38 @@
+<html>
+<head>
+	<!-- the following JavaScript files provide access to PDS services -->
+	<script type="text/javascript" src="../../js-api/cxf-utils.js"></script>
+	<script type="text/javascript" src="../../js-api/PlanetaryDataSystemService.js"></script>
+	<script type="text/javascript" src="../../js-api/Common.js"></script>
+
+	<!-- main.js contains custom code for manipulating PDS data -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+	<h1>Demo 2: get entity</h1>
+
+	<h3>
+	This demo shows how to retrieve all entity's data by its id.</br>
+	</h3>
+
+	<div>
+		<input type="button" value="getTargetType(id=1)" onClick="getTargetType()">
+		<input type="button" value="getTarget(id=1)" onClick="getTarget()">
+		<input type="button" value="getMission(id=2)" onClick="getMission()">
+		<input type="button" value="getInstrument(id=10)" onClick="getInstrument()">
+		<input type="button" value="getDataSet(id=1)" onClick="getDataSet()">
+		<input type="button" value="getDataFile(id=1)" onClick="getDataFile()">
+		</br></br>
+
+		<!-- the span's text is set from the JavaScript code -->
+		<span id='label'></span>
+
+		<!-- this list is filled from the JavaScript code -->
+		<ul id='list'></ul>
+	</div>
+
+</body>
+</html>

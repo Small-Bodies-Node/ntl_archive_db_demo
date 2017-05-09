@@ -1,0 +1,40 @@
+***** File BROWSE.TXT                                                         
+                                                                              
+     Effective use of the large images contained in this CD-ROM requires that 
+the user of the disc be able to "browse through the data" quickly to find     
+those images and intervals which are of high scientific interest.  Because of 
+the long decompression and transfer times of the full-resolution images with  
+current image display hardware, the goal of efficient browsing of the data can
+                                                                              
+be met only if the images are placed on the discs at least a second time, in  
+either subsampled or filtered form, and uncompressed.                         
+                                                                              
+                                                                              
+     This was done for the compressed images on this disc and the results are 
+located in the BROWSE directory of this CD-ROM.  A set of "browse images" has 
+been generated for which the images are uncompressed, subsampled and are no   
+larger than 256 pixels in either dimension.  In addition, the digital data    
+have been scaled into a numerical range of 0 to 255 (one byte per pixel; the  
+precision for most of the original images is 10 bits, requiring two bytes per 
+pixel).  The BROWSE directory of this CD-ROM contains datafiles, FITS headers,
+                                                                              
+and PDS labels for the compressed images on this CD-ROM.                      
+                                                                              
+     The browse data were obtained by taking the "n"th row and column for the 
+original image starting at row "n/2" and column "n/2".  The value for "n" was 
+determined from the larger of the two axes such that the quantity (original   
+length / n) was less than or equal to 256.  For the images which were         
+digitized at GSFC, the original densitometer values ranged between 0 and 1023.
+The density values in the images were divided by 4 in order to convert the    
+density to a single byte.  For those images digitized elsewhere, the density  
+scaling factor was chosen so that the density in the browse image was less    
+than or equal to 255.                                                         
+                                                                              
+     The FITS header records for the browse images have had their astrometric 
+information adjusted to reflect the change both in pixel spacing and image    
+origin.  Thus, should the user wish, (crude) astrometry can be performed with 
+the browse images.  In addition, HISTORY keywords have been inserted to       
+document the linear scale and density scale changes.  The creation of the     
+browse images was accomplished using the program MIDGET, which can be found as
+MIDGET.FOR in the FORTRAN subdirectory of the SOFTWARE directory for this     
+CD-ROM.                                                                       

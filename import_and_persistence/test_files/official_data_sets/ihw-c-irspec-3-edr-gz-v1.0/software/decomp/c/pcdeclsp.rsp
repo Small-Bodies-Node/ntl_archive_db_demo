@@ -1,0 +1,11 @@
+pcdeclsp+                                                                     
+header+                                                                       
+xtension+                                                                     
+do_ifile+                                                                     
+do_dfile+                                                                     
+do_ofile+                                                                     
+putkey+                                                                       
+do_data+                                                                      
+decomp+                                                                       
+strresiz+                                                                     
+strreplc                                                                      

@@ -1,0 +1,365 @@
+AAREADME.TXT                                                                  
+ERRATA.TXT                                                                    
+VOLDESC.CAT                                                                   
+                                                                              
+    \DOCUMENT\ACKNWLDG.TXT                                                    
+              CDSTRUCT.TXT                                                    
+              CDTREE.TXT                                                      
+    \DOCUMENT\ESA_1066\DIGITIZE.DOC                                           
+                       ICE.TXT                                                
+                       GIOTTO.TXT                                             
+                       SUI_SAK.TXT                                            
+                       VEGA.TXT                                               
+    \DOCUMENT\STDS_IHW\PDS_IHW.TXT                                            
+                       FITS_IHW.TXT                                           
+              VOLINFO.TXT                                                     
+                                                                              
+    \INDEX\INDXINFO.TXT                                                       
+    \INDEX\PIKI\MOD0BIV1.IDX                                                  
+                MOD0BIV1.LBL                                                  
+                MOD1BIV1.IDX                                                  
+                MOD1BIV1.LBL                                                  
+                MOD2BIV1.IDX                                                  
+                MOD2BIV1.LBL                                                  
+                MOD3BIV1.IDX                                                  
+                MOD3BIV1.LBL                                                  
+                MOD0FIV1.IDX                                                  
+                MOD0FIV1.LBL                                                  
+                MOD1FIV1.IDX                                                  
+                MOD1FIV1.LBL                                                  
+                MOD2FIV1.IDX                                                  
+                MOD2FIV1.LBL                                                  
+                MOD3FIV1.IDX                                                  
+                MOD3FIV1.LBL                                                  
+                MOD0BIV2.IDX                                                  
+                MOD0BIV2.LBL                                                  
+                MOD1BIV2.IDX                                                  
+                MOD1BIV2.LBL                                                  
+                MOD2BIV2.IDX                                                  
+                MOD2BIV2.LBL                                                  
+                MOD3BIV2.IDX                                                  
+                MOD3BIV2.LBL                                                  
+                                                                              
+          \PMPI\MOD0TIV1.IDX                                                  
+                MOD0TIV1.LBL                                                  
+                MOD1TIV1.IDX                                                  
+                MOD2TIV1.IDX                                                  
+                MOD2TIV1.LBL                                                  
+                MOD3TIV1.IDX                                                  
+                MOD3TIV1.LBL                                                  
+                MODTTIV1.IDX                                                  
+                MODTTIV1.LBL                                                  
+                MOD0TIV2.IDX                                                  
+                MOD0TIV2.LBL                                                  
+                MOD1TIV2.IDX                                                  
+                MOD1TIV2.LBL                                                  
+                MOD2TIV2.IDX                                                  
+                MOD2TIV2.LBL                                                  
+                MOD3TIV2.IDX                                                  
+                MOD3TIV2.LBL                                                  
+                MODTTIV2.IDX                                                  
+                MODTTIV2.LBL                                                  
+                                                                              
+          \TIKI\IMGENIV1.IDX                                                  
+                IMGENIV1.LBL                                                  
+                IMGENIV2.IDX                                                  
+                IMGENIV2.LBL                                                  
+                                                                              
+          \TKFKI\IMGEKIV1.IDX                                                 
+                 IMGEKIV1.LBL                                                 
+                 IMGEKIV2.IDX                                                 
+                 IMGEKIV2.LBL                                                 
+                 IMGEFIV1.IDX                                                 
+                 IMGEFIV1.LBL                                                 
+                 IMGEFIV2.IDX                                                 
+                 IMGEFIV2.LBL                                                 
+                 IMGPRIV1.IDX                                                 
+                 IMGPRIV1.LBL                                                 
+                 IMGPOIV1.IDX                                                 
+                 IMGPOIV1.LBL                                                 
+                 IMGPRIV2.IDX                                                 
+                 IMGPRIV2.LBL                                                 
+                 IMGPOIV2.IDX                                                 
+                 IMGPOIV2.LBL                                                 
+                 \PROCESSD\FLTERDV1.LBL                                       
+                           FLTERDV1.IDX                                       
+                           FLTERDV2.LBL                                       
+                           FLTERDV2.IDX                                       
+                           FLTASPCT.LBL                                       
+                           FLTASPCT.IDX                                       
+                           FLTRANGE.LBL                                       
+                           FLTRANGE.IDX                                       
+                           SHARPEND.LBL                                       
+                           SHARPEND.IDX                                       
+                           SHPASPCT.LBL                                       
+                           SHPASPCT.IDX                                       
+                           SHPRANGE.LBL                                       
+                           SHPRANGE.IDX                                       
+                                                                              
+    \SOFTWARE\SOFTINFO.TXT                                                    
+    \SOFTWARE\EPHEMRIS\EXTRAJ.C                                               
+                       EXTRAJ.TXT                                             
+    \SOFTWARE\IMDISP\IMDISP.*                                                 
+    \SOFTWARE\FTB\FTB.*                                                       
+    \SOFTWARE\UTILS\*.*                                                       
+                                                                              
+    \VEGA1\DUCMA\DSFAST17.LBL                                                 
+                 DSFAST17.TAB                                                 
+                 DUCMA.DOC                                                    
+                 DVEGA101.LBL                                                 
+                 DVEGA101.TAB                                                 
+                                                                              
+    \VEGA1\IKS\IKSIKI01.HDR                                                   
+               IKSIKI01.LBL                                                   
+               IKSIKI01.TAB                                                   
+                                                                              
+           IKS_PROC\IKS030.LBL                                                
+                    IKS030.TAB                                                
+                    IKS193.LBL                                                
+                    IKS193.TAB                                                
+                    TABL_IKS.DOC                                              
+                                                                              
+    \VEGA1\PM1\PM1.DOC                                                        
+               PM1A4001.LBL                                                   
+               PM1A4001.TAB                                                   
+                                                                              
+    \VEGA1\PUMA\PIKIBIN1.DAT                                                  
+                                                                              
+    \VEGA1\PUMA\PIKI0001\PIKI0001.DAT                                         
+                         PIKI0001.HDR                                         
+                                                                              
+    \VEGA1\PUMA\PIKI0151\                                                     
+    \VEGA1\PUMA\PIKI0301\                                                     
+                                                                              
+    \VEGA1\PUMA\PIKI3901\PIKI3901.DAT                                         
+                         PIKI3901.HDR                                         
+                         PIKI4027.DAT                                         
+                         PIKI4027.HDR                                         
+                                                                              
+    \VEGA1\PUMA\MODE\MODE_BIN.DOC                                             
+                     MOD0BIN0.DAT                                             
+                     MOD0BIN0.LBL                                             
+                     MOD1BIN1.DAT                                             
+                     MOD1BIN1.LBL                                             
+                     MOD2BIN2.DAT                                             
+                     MOD2BIN2.LBL                                             
+                     MOD3BIN3.DAT                                             
+                     MOD3BIN3.LBL                                             
+                     MODE_FIT.DOC                                             
+                     MOD0FIT0.DAT                                             
+                     MOD0FIT0.LBL                                             
+                     MOD1FIT1.DAT                                             
+                     MOD1FIT1.LBL                                             
+                     MOD2FIT2.DAT                                             
+                     MOD2FIT2.LBL                                             
+                     MOD3FIT3.DAT                                             
+                     MOD3FIT3.LBL                                             
+                                                                              
+    \VEGA1\PUMA_MPI\PMPI0001.HDR                                              
+                    PMPI0001.TBL                                              
+                    PMPIDX18.HDR                                              
+                    PMPIDX18.TBL                                              
+                    \MODE\MODE_TAB.DOC                                        
+                          MOD0TAB0.DAT                                        
+                          MOD0TAB0.LBL                                        
+                          MOD1TAB1.DAT                                        
+                          MOD1TAB1.LBL                                        
+                          MOD2TAB2.DAT                                        
+                          MOD2TAB2.LBL                                        
+                          MOD3TAB3.DAT                                        
+                          MOD3TAB3.LBL                                        
+                          MODTTAB4.DAT                                        
+                          MODTTAB4.LBL                                        
+                                                                              
+    \VEGA1\SP1\SP1.DOC                                                        
+               SP100001.LBL                                                   
+               SP100001.TAB                                                   
+                                                                              
+    \VEGA1\SP2\SP2.DOC                                                        
+               SP200001.LBL                                                   
+               SP200001.TAB                                                   
+                                                                              
+    \VEGA1\TNM\TNM.DOC                                                        
+               TNM00001.LBL                                                   
+               TNM00001.TAB                                                   
+                                                                              
+    \VEGA1\TVS\TIKI0001.HDR                                                   
+               TIKI0001.IMG                                                   
+               TIKI0001.LBL                                                   
+               TIKI0095.HDR                                                   
+               TIKI0095.IMG                                                   
+               TIKI0095.LBL                                                   
+                                                                              
+    \VEGA1\TVS_KFKI\TVS_PROC.DOC                                              
+                    T01101.HDR                                                
+                    T01101.IMG                                                
+                    T01101.LBL                                                
+                    T01163.HDR                                                
+                    T01163.IMG                                                
+                    T01163.LBL                                                
+                                                                              
+    \VEGA1\TVS_KFKI\FILTERED\T02114.HDR                                       
+                             T02114.IMG                                       
+                             T02114.LBL                                       
+                            \ASPECT\T2114A.HDR                                
+                                    T2114A.IMG                                
+                                    T2114A.LBL                                
+                            \RANGE\T2114AR.HDR                                
+                                   T2114AR.IMG                                
+                                   T2114AR.LBL                                
+    \VEGA1\TVS_KFKI\FLATFLDS\T02769.HDR                                       
+                             T02769.IMG                                       
+                             T02769.LBL                                       
+    \VEGA1\TVS_KFKI\SHARPEND\T09114.HDR                                       
+                             T09114.IMG                                       
+                             T09114.LBL                                       
+                            \ASPECT\T9114A.HDR                                
+                                    T9114A.IMG                                
+                                    T9114A.LBL                                
+                            \RANGE\T9114AR.HDR                                
+                                   T9114AR.IMG                                
+                                   T9114AR.LBL                                
+    \VEGA1\TVS_KFKI\PRE\TPRE0701.HDR                                          
+                        TPRE0701.IMG                                          
+                        TPRE0701.LBL                                          
+                                                                              
+    \VEGA1\TVS_KFKI\POST\TPOS1501.HDR                                         
+                         TPOS1501.IMG                                         
+                         TPOS1501.LBL                                         
+                                                                              
+    \VEGA2\DUCMA\DSFAST27.LBL                                                 
+                 DSFAST27.TAB                                                 
+                 DUCMA.DOC                                                    
+                 DVG2CLN1.LBL                                                 
+                 DVG2CLN1.TAB                                                 
+                                                                              
+    \VEGA2\PM1\PM1.DOC                                                        
+               PM1A3002.LBL                                                   
+               PM1A3002.TAB                                                   
+               PM1A4003.LBL                                                   
+               PM1A4003.TAB                                                   
+               PM1A5004.LBL                                                   
+               PM1A5004.TAB                                                   
+                                                                              
+    \VEGA2\PUMA\PIKIBIN2.DAT                                                  
+                PIKIBIN3.DAT                                                  
+                                                                              
+    \VEGA2\PUMA\MODE\MODE_BIN.DOC                                             
+                     MOD0BIN4.DAT                                             
+                     MOD0BIN4.LBL                                             
+                     MOD1BIN5.DAT                                             
+                     MOD1BIN5.LBL                                             
+                     MOD2BIN6.DAT                                             
+                     MOD2BIN6.LBL                                             
+                     MOD3BIN7.DAT                                             
+                     MOD3BIN7.LBL                                             
+                                                                              
+    \VEGA2\PUMA_MPI\PMPI0019.TBL                                              
+                    PMPI0019.HDR                                              
+                    PMPIDX48.TBL                                              
+                    PMPIDX48.HDR                                              
+                   \MODE\MODE_TAB.DOC                                         
+                         MOD0TAB5.DAT                                         
+                         MOD0TAB5.LBL                                         
+                         MOD1TAB6.DAT                                         
+                         MOD1TAB6.LBL                                         
+                         MOD2TAB7.DAT                                         
+                         MOD2TAB7.LBL                                         
+                         MOD3TAB8.DAT                                         
+                         MOD3TAB8.LBL                                         
+                         MODTTAB9.DAT                                         
+                         MODTTAB9.LBL                                         
+                                                                              
+    \VEGA2\SP1\SP1.DOC                                                        
+              \SP100002.LBL                                                   
+              \SP100002.TAB                                                   
+                                                                              
+    \VEGA2\SP2\SP2.DOC                                                        
+               SP200002.LBL                                                   
+               SP200002.TAB                                                   
+                                                                              
+    \VEGA2\TVS\TIKI0096.HDR                                                   
+               TIKI0096.IMG                                                   
+               TIKI0096.LBL                                                   
+               TIKI0134.HDR                                                   
+               TIKI0134.IMG                                                   
+               TIKI0134.LBL                                                   
+                                                                              
+    \VEGA2\TVS_KFKI\TVS_PROC.DOC                                              
+                    T01174.HDR                                                
+                    T01174.IMG                                                
+                    T01174.LBL                                                
+                                                                              
+    \VEGA2\TVS_KFKI\FILTERED\T11174.HDR                                       
+                             T11174.IMG                                       
+                             T11174.LBL                                       
+                                                                              
+    \VEGA2\TVS_KFKI\FLATFLDS\T01301.HDR                                       
+                             T01301.IMG                                       
+                             T01301.LBL                                       
+                                                                              
+    \VEGA2\TVS_KFKI\PRE\TPRE2401.HDR                                          
+                        TPRE2401.IMG                                          
+                        TPRE2401.LBL                                          
+                                                                              
+    \VEGA2\TVS_KFKI\POST\TPOS2649.HDR                                         
+                         TPOS2649.IMG                                         
+                         TPOS2649.LBL                                         
+                                                                              
+    \VEGA2\TVS_IKF\TIKF0001.HDR                                               
+                   TIKF0001.IMG                                               
+                   TIKF0001.LBL                                               
+                   TIKF0004.HDR                                               
+                   TIKF0004.IMG                                               
+                   TIKF0004.LBL                                               
+                                                                              
+   \G_Z\EPHEM\EPHEM.LBL                                                       
+              EPHEM.TAB                                                       
+              EPHEM.TXT                                                       
+                                                                              
+    \G_Z\ICE\EPHEMRIS\TRAJ_ICE.DOC                                            
+                      TRAJ_ICE.LBL                                            
+                      TRAJ_ICE.TBL                                            
+                      SELECTED.LBL                                            
+                      SELECTED.TAB                                            
+                                                                              
+    \G_Z\ICE\EPAS\EP850908.LBL                                                
+                  EP850908.TAB                                                
+                  EPAS.DOC                                                    
+                  EPSUMMRY.LBL                                                
+                  EPSUMMRY.TAB                                                
+                                                                              
+    \G_Z\ICE\MAG\MA850910.LBL                                                 
+                 MA850910.TAB                                                 
+                 MA850914.LBL                                                 
+                 MA850914.TAB                                                 
+                 MAG.DOC                                                      
+                                                                              
+    \G_Z\ICE\PLAWAV\PLAWAV.DOC                                                
+    \G_Z\ICE\PLAWAV\B_FIELD\Y85M9D09\B1000002.LBL                             
+                                     B1000002.TAB                             
+                            Y85M9D10                                          
+                            Y85M9D11                                          
+                            Y85M9D12                                          
+                            Y85M9D13                                          
+                            Y85M9D14\B1419130.LBL                             
+                                     B1419130.TAB                             
+                                                                              
+    \G_Z\ICE\PLAWAV\E_FIELD\Y85M9D09\E1000002.LBL                             
+                                     E1000002.TAB                             
+                            Y85M9D10                                          
+                            Y85M9D11                                          
+                            Y85M9D12                                          
+                            Y85M9D13                                          
+                            Y85M9D14\E1419130.LBL                             
+                                     E1419130.TAB                             
+                                                                              
+    \G_Z\ICE\RADWAV\RADWAV.DOC                                                
+                    RW850911.LBL                                              
+                    RW850911.TAB                                              
+                                                                              
+    \G_Z\ICE\SWPLAS\SWPLAS.DOC                                                
+                    SW850910.LBL                                              
+                    SW850910.TAB                                              
+                    SW850914.LBL                                              
+                    SW850914.TAB                                              

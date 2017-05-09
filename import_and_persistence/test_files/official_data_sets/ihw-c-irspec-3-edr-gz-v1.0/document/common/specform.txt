@@ -1,0 +1,82 @@
+***** File SPECFORM.TXT                                                       
+                                                                              
+                        Spectra Data Descriptions                             
+                                                                              
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual disciplines to the Lead       
+Center using the FITS format.  When the decision was made to distribute       
+this information on CD-ROM, it was determined that the data had to have       
+even broader accessibility.  For this reason, the original FITS files,        
+with contiguous headers and data, were split into separate files. The         
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.   PDS labels were constructed to allow     
+definition of the data files for the Planetary Data System.    For each       
+data there must be a file indicating the FITS header.                         
+                                                                              
+     The convention for naming files on the CD-ROM was proposed by the        
+IHW Lead Center to include a unique data qualifier for the data.   A          
+specific set of rules was established to identify the net and subnet for      
+each discipline (given by a letter code).  A CD-ROM running number relates    
+the information contained in the various indices to the files containing      
+the actual data.  A short list of this convention for spectra follows:        
+                                                                              
+  PDS Object              FITS      Discipline       Letter    File Ext       
+ (description)         NAXIS =                        Code                    
+                                                                              
+spectrum                   2        IR Studies        IRSP        .dat        
+spectrum (position-flux)   2            "             IRIM        .dat        
+spectrum                   1        Radio Studies     RSOH        .dat        
+spectrum(multiple)         2            "             RSOH        .dat        
+spectrum                   1        Spectroscopy      SPEC        .dat        
+spectrum                   2            "             SPEC        .dat        
+                                                                              
+Note that the Subnet coding (explained in the Filenaming Conventions)         
+is one way to distinguish file extension and content.                         
+                                                                              
+     The file extensions follow suggestions by the Planetary Data System      
+(SPIDS v1.1) for tabular and image data.    In addition, for IHW FITS, the    
+original headers and data were split into separate files, with filename       
+extensions as listed below.                                                   
+                                                                              
+                 .DAT - other non-image or non-table data                     
+                                                                              
+    These PDS labels are metadata (as headers describing data submitted to    
+the archive). There has been no effort to duplicate the documentation         
+contained in the full FITS headers because the PDS and FITS headers for       
+a given data file differ only in the filename extension.  Instead we          
+have attempted to use the power of the PDS label syntax to fully              
+describe the data structures and thus gain access to software by that group.  
+Standards for the Preparation and Interchange of Data Sets, Martin, T.        
+Z., et al, Document D-4683, Jet Propulsion Laboratory, California             
+Institute of Technology, Pasadena, CA document version 1.1 was the            
+primary reference to the Object Description Language (ODL) necessary to       
+create the PDS labels.   (We thankfully acknowledge the help of M. Martin,    
+JPL, for assisting the IHW through version 1.1 of the ODL that allows         
+for SPECTRUM.)   The basic PDS descriptors such as SFDU_LABEL, RECORD_TYPE,   
+RECORD_BYTES, and FILE_RECORDS are explained in the SPIDS document. The       
+RECORD_TYPE for all data files is FIXED_LENGTH.   The PDS labels have         
+been formed as fixed length (78 byte) with an embedded CR and LF.             
+                                                                              
+     The SPECTRUM class description wereoutlined in v1.1 by working           
+closely with the PDS group to ensure definition of data groups that           
+included both uniformly spaced data (as a single array) as well as            
+ordered groups of observations.   From guidelines for dealing with the        
+SPECTRUM data structure, we consider the spectra as tabular data              
+(COLUMN, NAME, DATA_TYPE, START_BYTE, BYTES) which are binary. The            
+independent variable (e.g., WAVELENGTH) is described by the keywords          
+SAMPLING_PARAMETER_NAME, MINIMUM_SAMPLING_PARAMETER, SAMPLING_PARAMETER       
+_INTERVAL, and SAMPLING_PARAMETER_UNIT.  (There are special cases for         
+Radio or IR data using Doppler VELOCITY, FREQUENCY, or POSITION; the          
+last case is really a position-flux binary table or image profile.)           
+Another case is a table from the Infrared Studies Network of ordered          
+triples of data, in which we interpreted the column of signal/noise           
+ratios as an associated ERROR.  A NOTE about this nonstandard use is          
+included in the labels for the appropriate datasets.  We have also            
+attempted to use the NOTE keyword to identify the contributing IHW            
+discipline, subnet, and generic comments about the data.   As in the          
+situation for multiple images, we have subclasses for the spectra             
+indicated by a modifier, e.g., LHC_POLARIZATION_SPECTRUM.                     
+                                                                              
+                                                                              
+                                                                              

@@ -1,0 +1,13 @@
+Database should be initialized with 11_datasets.sql mysql dump:
+- create nasa_pds empty database
+- extract 11_datasets.sql from import_and_persistence/test_files/mysql_dumps/datasets.zip
+- run 'mysql nasa_pds -u <<username>> -p < 11_datasets.sql'
+
+Update paths_mapping from web_service project according to web_service project deployment guide:
+- update paths_mapping
+- run 'ant war' to update war file.
+- deploy this war to tomcat and run tomcat
+
+Make sure that CXF 2.x is configured in Eclipse IDE:
+- go to Window->Preferences->Web Services->CXF 2.x Preferences
+- click 'Add...' and specify location of CXF distribution (during development CXF 2.5.2 was used)

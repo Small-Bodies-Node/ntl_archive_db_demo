@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="PlanetaryDataSystemService" targetNamespace="http://pds.nasa.gov/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://pds.nasa.gov/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://pds.nasa.gov/" schemaLocation="planetarydatasystem_schema1.xsd"/>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="getDataSetsInfo">
+    <wsdl:part name="parameters" element="tns:getDataSetsInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetTypesInfoResponse">
+    <wsdl:part name="parameters" element="tns:getTargetTypesInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataSetResponse">
+    <wsdl:part name="parameters" element="tns:getDataSetResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DataSetProcessingException">
+    <wsdl:part name="DataSetProcessingException" element="tns:DataSetProcessingException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMissionResponse">
+    <wsdl:part name="parameters" element="tns:getMissionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInstrumentResponse">
+    <wsdl:part name="parameters" element="tns:getInstrumentResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataSetsInfoResponse">
+    <wsdl:part name="parameters" element="tns:getDataSetsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMissionsInfoResponse">
+    <wsdl:part name="parameters" element="tns:getMissionsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetTypeResponse">
+    <wsdl:part name="parameters" element="tns:getTargetTypeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataSetRelatedEntititesResponse">
+    <wsdl:part name="parameters" element="tns:getDataSetRelatedEntititesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchEntitiesByType">
+    <wsdl:part name="parameters" element="tns:searchEntitiesByType">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInstrument">
+    <wsdl:part name="parameters" element="tns:getInstrument">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentsInfo">
+    <wsdl:part name="parameters" element="tns:getDocumentsInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPreviewImageURLResponse">
+    <wsdl:part name="parameters" element="tns:getPreviewImageURLResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataSet">
+    <wsdl:part name="parameters" element="tns:getDataSet">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetTypesInfo">
+    <wsdl:part name="parameters" element="tns:getTargetTypesInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchDataSetsByCriteria">
+    <wsdl:part name="parameters" element="tns:searchDataSetsByCriteria">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPreviewImageURL">
+    <wsdl:part name="parameters" element="tns:getPreviewImageURL">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchEntities">
+    <wsdl:part name="parameters" element="tns:searchEntities">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMissionsInfo">
+    <wsdl:part name="parameters" element="tns:getMissionsInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentsInfoResponse">
+    <wsdl:part name="parameters" element="tns:getDocumentsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getImagesInfo">
+    <wsdl:part name="parameters" element="tns:getImagesInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetsInfoResponse">
+    <wsdl:part name="parameters" element="tns:getTargetsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMission">
+    <wsdl:part name="parameters" element="tns:getMission">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getImagesInfoResponse">
+    <wsdl:part name="parameters" element="tns:getImagesInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchDataSetsByCriteriaResponse">
+    <wsdl:part name="parameters" element="tns:searchDataSetsByCriteriaResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetType">
+    <wsdl:part name="parameters" element="tns:getTargetType">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInstrumentsInfo">
+    <wsdl:part name="parameters" element="tns:getInstrumentsInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataFile">
+    <wsdl:part name="parameters" element="tns:getDataFile">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchEntitiesByTypeResponse">
+    <wsdl:part name="parameters" element="tns:searchEntitiesByTypeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataSetRelatedEntitites">
+    <wsdl:part name="parameters" element="tns:getDataSetRelatedEntitites">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchEntitiesResponse">
+    <wsdl:part name="parameters" element="tns:searchEntitiesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getInstrumentsInfoResponse">
+    <wsdl:part name="parameters" element="tns:getInstrumentsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetResponse">
+    <wsdl:part name="parameters" element="tns:getTargetResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDataFileResponse">
+    <wsdl:part name="parameters" element="tns:getDataFileResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTargetsInfo">
+    <wsdl:part name="parameters" element="tns:getTargetsInfo">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTarget">
+    <wsdl:part name="parameters" element="tns:getTarget">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="PlanetaryDataSystemSEI">
+    <wsdl:operation name="getTargetsInfo">
+      <wsdl:input name="getTargetsInfo" message="tns:getTargetsInfo">
+    </wsdl:input>
+      <wsdl:output name="getTargetsInfoResponse" message="tns:getTargetsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPreviewImageURL">
+      <wsdl:input name="getPreviewImageURL" message="tns:getPreviewImageURL">
+    </wsdl:input>
+      <wsdl:output name="getPreviewImageURLResponse" message="tns:getPreviewImageURLResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchDataSetsByCriteria">
+      <wsdl:input name="searchDataSetsByCriteria" message="tns:searchDataSetsByCriteria">
+    </wsdl:input>
+      <wsdl:output name="searchDataSetsByCriteriaResponse" message="tns:searchDataSetsByCriteriaResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstrument">
+      <wsdl:input name="getInstrument" message="tns:getInstrument">
+    </wsdl:input>
+      <wsdl:output name="getInstrumentResponse" message="tns:getInstrumentResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTarget">
+      <wsdl:input name="getTarget" message="tns:getTarget">
+    </wsdl:input>
+      <wsdl:output name="getTargetResponse" message="tns:getTargetResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTargetTypesInfo">
+      <wsdl:input name="getTargetTypesInfo" message="tns:getTargetTypesInfo">
+    </wsdl:input>
+      <wsdl:output name="getTargetTypesInfoResponse" message="tns:getTargetTypesInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMission">
+      <wsdl:input name="getMission" message="tns:getMission">
+    </wsdl:input>
+      <wsdl:output name="getMissionResponse" message="tns:getMissionResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMissionsInfo">
+      <wsdl:input name="getMissionsInfo" message="tns:getMissionsInfo">
+    </wsdl:input>
+      <wsdl:output name="getMissionsInfoResponse" message="tns:getMissionsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstrumentsInfo">
+      <wsdl:input name="getInstrumentsInfo" message="tns:getInstrumentsInfo">
+    </wsdl:input>
+      <wsdl:output name="getInstrumentsInfoResponse" message="tns:getInstrumentsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocumentsInfo">
+      <wsdl:input name="getDocumentsInfo" message="tns:getDocumentsInfo">
+    </wsdl:input>
+      <wsdl:output name="getDocumentsInfoResponse" message="tns:getDocumentsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getImagesInfo">
+      <wsdl:input name="getImagesInfo" message="tns:getImagesInfo">
+    </wsdl:input>
+      <wsdl:output name="getImagesInfoResponse" message="tns:getImagesInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSetRelatedEntitites">
+      <wsdl:input name="getDataSetRelatedEntitites" message="tns:getDataSetRelatedEntitites">
+    </wsdl:input>
+      <wsdl:output name="getDataSetRelatedEntititesResponse" message="tns:getDataSetRelatedEntititesResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchEntitiesByType">
+      <wsdl:input name="searchEntitiesByType" message="tns:searchEntitiesByType">
+    </wsdl:input>
+      <wsdl:output name="searchEntitiesByTypeResponse" message="tns:searchEntitiesByTypeResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSet">
+      <wsdl:input name="getDataSet" message="tns:getDataSet">
+    </wsdl:input>
+      <wsdl:output name="getDataSetResponse" message="tns:getDataSetResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSetsInfo">
+      <wsdl:input name="getDataSetsInfo" message="tns:getDataSetsInfo">
+    </wsdl:input>
+      <wsdl:output name="getDataSetsInfoResponse" message="tns:getDataSetsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataFile">
+      <wsdl:input name="getDataFile" message="tns:getDataFile">
+    </wsdl:input>
+      <wsdl:output name="getDataFileResponse" message="tns:getDataFileResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchEntities">
+      <wsdl:input name="searchEntities" message="tns:searchEntities">
+    </wsdl:input>
+      <wsdl:output name="searchEntitiesResponse" message="tns:searchEntitiesResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTargetType">
+      <wsdl:input name="getTargetType" message="tns:getTargetType">
+    </wsdl:input>
+      <wsdl:output name="getTargetTypeResponse" message="tns:getTargetTypeResponse">
+    </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException" message="tns:DataSetProcessingException">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PlanetaryDataSystemServiceSoapBinding" type="tns:PlanetaryDataSystemSEI">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getTargetsInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTargetsInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTargetsInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPreviewImageURL">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getPreviewImageURL">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPreviewImageURLResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstrument">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getInstrument">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getInstrumentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchDataSetsByCriteria">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="searchDataSetsByCriteria">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchDataSetsByCriteriaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTarget">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTarget">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTargetResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTargetTypesInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTargetTypesInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTargetTypesInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMission">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getMission">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getMissionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMissionsInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getMissionsInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getMissionsInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocumentsInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDocumentsInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDocumentsInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getInstrumentsInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getInstrumentsInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getInstrumentsInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getImagesInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getImagesInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getImagesInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSetRelatedEntitites">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDataSetRelatedEntitites">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDataSetRelatedEntititesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchEntitiesByType">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="searchEntitiesByType">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchEntitiesByTypeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSet">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDataSet">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDataSetResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataSetsInfo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDataSetsInfo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDataSetsInfoResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDataFile">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDataFile">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDataFileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTargetType">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getTargetType">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTargetTypeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchEntities">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="searchEntities">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchEntitiesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="DataSetProcessingException">
+        <soap:fault name="DataSetProcessingException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PlanetaryDataSystemService">
+    <wsdl:port name="PlanetaryDataSystemPort" binding="tns:PlanetaryDataSystemServiceSoapBinding">
+      <soap:address location="http://localhost:8080/nasa_pds_ws/services/PlanetaryDataSystemPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

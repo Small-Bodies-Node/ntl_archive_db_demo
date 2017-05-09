@@ -1,0 +1,19 @@
+"DATE_OBS    ","C", 8,0                                                       
+"TIME_OBS    ","N", 7,5                                                       
+"IRSN_NUM    ","N", 6,0                                                       
+"FILTER      ","C", 6,0                                                       
+"POLARIZATION","N", 4,1                                                       
+"POLARIZ_ERR ","N", 3,1                                                       
+"ANGLE       ","N", 3,0                                                       
+"ANGLE_ERR   ","N", 2,0                                                       
+"APER_DIAM   ","N", 4,1                                                       
+"EXPOSURE    ","N", 4,0                                                       
+"SEEING      ","C", 4,0                                                       
+"WEATHER     ","C", 3,0                                                       
+"AIRMASS     ","N", 4,2                                                       
+"APER_POSN   ","N", 2,0                                                       
+"FILT_TAB_NUM","N", 2,0                                                       
+"SYSTEM      ","C", 8,0                                                       
+"OBSERVER    ","C",24,0                                                       
+"NOTE_FLAG   ","C", 1,0                                                       
+"FILENAME    ","C", 8,0                                                       

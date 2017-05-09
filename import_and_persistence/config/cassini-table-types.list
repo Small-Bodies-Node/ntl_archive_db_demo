@@ -1,0 +1,4 @@
+inventoryTable  INVENTORY_TABLE
+moonTable       REGULAR_TABLE MOON
+ringTable       REGULAR_TABLE RING
+saturnTable     REGULAR_TABLE SATURN

@@ -1,0 +1,55 @@
+PDS_VERSION_ID                = PDS3                                          
+RECORD_TYPE                   = STREAM                                        
+^GIF_DOCUMENT                 = {"TITLE.GIF",                                 
+                                 "22.GIF",                                    
+                                 "23.GIF",                                    
+                                 "24.GIF",                                    
+                                 "25.GIF",                                    
+                                 "26.GIF",                                    
+                                 "27.GIF",                                    
+                                 "28.GIF",                                    
+                                 "29.GIF",                                    
+                                 "30.GIF",                                    
+                                 "31.GIF",                                    
+                                 "32.GIF",                                    
+                                 "33.GIF",                                    
+                                 "34.GIF",                                    
+                                 "35.GIF"}                                    
+                                                                              
+                                                                              
+OBJECT                        = GIF_DOCUMENT                                  
+  DOCUMENT_NAME               = "VEGA MISCHA CALIBRATION PROCEDURES"          
+  DOCUMENT_TOPIC_TYPE           = "PLOT"                                      
+  INTERCHANGE_FORMAT            = BINARY                                      
+  DOCUMENT_FORMAT               = GIF                                         
+  PUBLICATION_DATE              = 1997-08-13                                  
+  FILES                         = 15                                          
+  DESCRIPTION                   = "                                           
+                                                                              
+   Vega spacecraft  MISCHA experiment calibration procedures are a chapter    
+   in the Space Research Institute (IWF) document, IWF 9003.   The title of   
+   the document and certain pages from Chapter 2 have been digitized.         
+   "                                                                          
+END_OBJECT                    = GIF_DOCUMENT                                  
+                                                                              
+                                                                              
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              

@@ -1,0 +1,16 @@
+"DATE_OBS  ","C", 8,0                                                         
+"TIME_OBS  ","N", 7,5                                                         
+"AON_NUM   ","N", 6,0                                                         
+"SCALE     ","N", 4,2                                                         
+"APERTURE  ","N", 5,3                                                         
+"INSTRUMENT","C", 2,0                                                         
+"FRATIO    ","N", 4,1                                                         
+"POWER_1   ","N", 3,0                                                         
+"POWER_2   ","N", 3,0                                                         
+"POWER_3   ","N", 3,0                                                         
+"DURATION  ","N", 4,0                                                         
+"LIM_MAG   ","N", 4,1                                                         
+"SITE      ","N", 2,0                                                         
+"OBSERVER  ","C",24,0                                                         
+"NOTE_FLAG ","C", 1,0                                                         
+"FILENAME  ","C", 8,0                                                         

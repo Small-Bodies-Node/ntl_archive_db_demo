@@ -1,0 +1,60 @@
+These routines were written by Chuck Jazdzewski of Borland International.
+
+-------------------------------------------------------------------------
+makewindow
+-------------------------------------------------------------------------
+Function       Creates a window and makes it current
+
+Syntax         windowtype *makewindow( int left, int top,
+                                       int right, int bottom,
+                                       unsigned char attrib,
+                                       unsigned char style, char *title )
+
+Prototype      window.h
+
+Remarks        The coordinates DO NOT include the border, so the largest
+               allowable window is 2,2 through 79,24.
+               Style:  0=non-graphics border
+                       1=single line border
+                       2=double line border
+                       3=single line horizontals, double line verticals
+
+Return Value   on error, makewindow returns NULL and sets windowerr:
+                       1 = Out of Memory
+                       2 = Invalid Coordinates
+
+-------------------------------------------------------------------------
+deletewindow
+-------------------------------------------------------------------------
+Function       Deletes a window from memory and the screen
+
+Syntax         int deletewindow( windowtype *winptr )
+
+Prototype in   window.h
+
+Remarks        Only a current window may be deleted
+
+Return Value   deletewindow return 0 on success, -1 on failure
+
+-------------------------------------------------------------------------
+winwrite
+-------------------------------------------------------------------------
+Function       Writes a string to the specified window
+
+Syntax         void winwrite( windowtype *winptr, char *string )
+
+Prototype in   window.h
+
+Remarks        If the speicified window is in the backgorund,
+               winwrite will write the string to memory so that it
+               will show up when the window is made current
+
+-------------------------------------------------------------------------
+shiftwindow
+-------------------------------------------------------------------------
+Function       Makes a new window current
+
+Syntax         int shiftwindow( windowtype *winptr )
+
+Return Values  shiftwindow return 0 on success, 1 for Out of Memory
+

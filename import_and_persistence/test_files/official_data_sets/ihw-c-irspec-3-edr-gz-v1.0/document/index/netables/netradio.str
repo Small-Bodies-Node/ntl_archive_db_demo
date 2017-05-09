@@ -1,0 +1,106 @@
+"OBJECT    ","C",20,0                                                         
+"FILENUM   ","N", 6,0                                                         
+"DATE_OBS  ","C", 8,0                                                         
+"TIME_OBS  ","N", 7,5                                                         
+"LONGITUDE ","C", 9,0                                                         
+"LATITUDE  ","C", 9,0                                                         
+"SYSTEM    ","C", 8,0                                                         
+"OBSERVER  ","C",24,0                                                         
+"ADD_OBS   ","C",60,0                                                         
+"SUBMITTER ","C",24,0                                                         
+"SPEC_EVENT","C", 1,0                                                         
+"DAT_FORM  ","C", 8,0                                                         
+"DIS_CODE  ","C",12,0                                                         
+"DAT_TYPE  ","C", 6,0                                                         
+"OBSERVATOR","C",10,0                                                         
+"TELESCOPE ","C",10,0                                                         
+"LOCATION  ","C",30,0                                                         
+"INSTRUMENT","C",20,0                                                         
+"CENTER_FRE","N",11,4                                                         
+"BANDWIDTH ","N",11,4                                                         
+"BEAM_SIZE ","N", 6,4                                                         
+"BEAM_ELONG","N", 6,3                                                         
+"BEAM_ROTAT","N", 6,1                                                         
+"BEAM_EFFIC","N", 6,3                                                         
+"EQUINOX   ","N", 8,3                                                         
+"RA_OFFSET ","N", 7,4                                                         
+"DEC_OFFSET","N", 7,4                                                         
+"MOLECULE  ","C",10,0                                                         
+"TRANSITION","C",20,0                                                         
+"REST_FREQ ","N",11,4                                                         
+"RESOLUTION","N",11,4                                                         
+"LIMIT     ","N",11,4                                                         
+"LINE_PEAK ","N",11,4                                                         
+"LINE_PK_ER","N",11,4                                                         
+"LINE_VEL  ","N",11,4                                                         
+"LINE_VL_ER","N",11,4                                                         
+"LINE_WIDTH","N",11,4                                                         
+"LINE_WD_ER","N",11,4                                                         
+"LINE_AREA ","N",11,4                                                         
+"LINE_AR_ER","N",11,4                                                         
+"LINE_MEAN ","N",11,4                                                         
+"LINE_MN_ER","N",11,4                                                         
+"FLUX      ","N",11,4                                                         
+"FLUX_ERR  ","N",11,4                                                         
+"DATE_BEGIN","C", 8,0                                                         
+"DATE_END  ","C", 8,0                                                         
+"NWINDOW   ","N", 2,0                                                         
+"WINDOW1_DA","C", 8,0                                                         
+"WINDOW1_TI","N", 5,3                                                         
+"WINDOWN_DA","C", 8,0                                                         
+"WINDOWN_TI","N", 5,3                                                         
+"POINT_ERR ","N",10,2                                                         
+"CALIB_METH","C",20,0                                                         
+"CAL_S1_NAM","C",15,0                                                         
+"CAL_S1_VAL","N",10,3                                                         
+"CAL_S1_UNT","C",15,0                                                         
+"CAL_S2_NAM","C",15,0                                                         
+"CAL_S2_VAL","N",10,3                                                         
+"CAL_S2_UNT","C",15,0                                                         
+"SYSTEM_TEM","N", 7,1                                                         
+"TEMP_RECEI","N", 7,1                                                         
+"TAU_ZENTH ","N", 4,2                                                         
+"BITPIX    ","N", 2,0                                                         
+"NAXIS     ","N", 2,0                                                         
+"BSCALE    ","N",15,9                                                         
+"BZERO     ","N",10,4                                                         
+"BUNIT     ","C",15,0                                                         
+"BLANK     ","N", 6,0                                                         
+"DATAMAX   ","N",10,4                                                         
+"DATAMIN   ","N",10,4                                                         
+"NAXIS1    ","N", 4,0                                                         
+"CDELT1    ","C",15,0                                                         
+"CRPIX1    ","C",15,0                                                         
+"CRVAL1    ","C",15,0                                                         
+"CTYPE1    ","C",25,0                                                         
+"NAXIS2    ","N", 4,0                                                         
+"CDELT2    ","C",15,0                                                         
+"CRPIX2    ","C",15,0                                                         
+"CRVAL2    ","C",15,0                                                         
+"CTYPE2    ","C",25,0                                                         
+"NAXIS3    ","N", 4,0                                                         
+"CDELT3    ","C",15,0                                                         
+"CRPIX3    ","C",15,0                                                         
+"CRVAL3    ","C",15,0                                                         
+"CTYPE3    ","C",25,0                                                         
+"NAXIS4    ","N", 4,0                                                         
+"CDELT4    ","C",15,0                                                         
+"CRPIX4    ","C",15,0                                                         
+"CRVAL4    ","C",15,0                                                         
+"CTYPE4    ","C",25,0                                                         
+"NAXIS5    ","N", 4,0                                                         
+"CDELT5    ","C",15,0                                                         
+"CRPIX5    ","C",15,0                                                         
+"CRVAL5    ","C",15,0                                                         
+"CTYPE5    ","C",25,0                                                         
+"NAXIS6    ","N", 4,0                                                         
+"CDELT6    ","C",15,0                                                         
+"CRPIX6    ","C",15,0                                                         
+"CRVAL6    ","C",15,0                                                         
+"CTYPE6    ","C",25,0                                                         
+"VOLUME    ","C", 8,0                                                         
+"YEAR      ","C", 5,0                                                         
+"MONTH     ","C", 3,0                                                         
+"DAY       ","C", 3,0                                                         
+"HOUR      ","C", 3,0                                                         
+"FILENAME  ","C", 8,0                                                         

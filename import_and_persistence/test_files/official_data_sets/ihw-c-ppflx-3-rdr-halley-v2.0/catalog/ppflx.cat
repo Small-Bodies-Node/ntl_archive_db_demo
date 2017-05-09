@@ -1,0 +1,55 @@
+PDS_VERSION_ID      = PDS3                                                    
+LABEL_REVISION_NOTE = "                                                       
+  2006-06-21  A.C.Raugh  Rewritten for IHW restoration                        
+  "                                                                           
+                                                                              
+RECORD_TYPE         = "STREAM"                                                
+                                                                              
+OBJECT     = INSTRUMENT                                                       
+  INSTRUMENT_HOST_ID = "PPN"                                                  
+  INSTRUMENT_ID      = "PPFLX"                                                
+                                                                              
+  OBJECT     = INSTRUMENT_INFORMATION                                         
+    INSTRUMENT_NAME = "PHOTOMETRIC FLUX DATA"                                 
+    INSTRUMENT_TYPE = "PHOTOMETER"                                            
+    INSTRUMENT_DESC = "                                                       
+      Instrument Overview                                                     
+      ===================                                                     
+      The Photometry and Polarimetry Network (PPN) of the IHW                 
+      collected data from 23 unique (telescope,instrument)                    
+      combinations.  Both photoelectric photometers and CCD                   
+      detectors were used.                                                    
+                                                                              
+      See Sekanina (1991) ['JPL D-400-450'] for a description                 
+      of the various observing systems used, as far as they                   
+      were known.                                                             
+      "                                                                       
+  END_OBJECT = INSTRUMENT_INFORMATION                                         
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "HARDORP1978"                                          
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "HARDORP1980A"                                         
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "HARDORP1980B"                                         
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "HARDORP1982"                                          
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "JPL D-400-450"                                        
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+  OBJECT     = INSTRUMENT_REFERENCE_INFO                                      
+    REFERENCE_KEY_ID = "OSBORNETAL1990"                                       
+  END_OBJECT = INSTRUMENT_REFERENCE_INFO                                      
+                                                                              
+END_OBJECT = INSTRUMENT                                                       
+                                                                              
+END                                                                           

@@ -1,0 +1,540 @@
+***** File SUI_SAK.TXT                                                                                                            
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+The Suisei/ Sakigake                                                                                                              
+(Planet-A/MS-T5) Missions*                                                                                                        
+K. Hirao                                                                                                                          
+The Institute of Space and Astronautical Science (ISAS), Komaba,                                                                  
+Tokyo, Japan                                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+*The author wishes to acknowledge the assistance provided by K.-P. Wenzel in the preparation of this paper.                       
+                                                                                                                                  
+1. Scientific Objectives                                                                                                          
+                                                                                                                                  
+Japan's Institute of Space and Astronautical Science (ISAS) first decided in 1979 to                                              
+send a spacecraft to Comet Halley. This decision was supported both by Japanese                                                   
+scientists who were anxious to carry out an interplanetary mission and by those                                                   
+Institute engineers who wanted to demonstrate the capabilities of a new launch vehicle.                                           
+Comet Halley was considered a scientifically meaningful target because it has never                                               
+been explored previously from close-range, it displays a wide range of interesting                                                
+phenomema, and it returns only once every 76 years.                                                                               
+  The Japanese mission to Comet Halley, called the 'Planet-A' mission, involved the                                               
+launch of the 'Suisei', or Planet-A, spacecraft on 19 August 1985, to encounter Comet                                             
+Halley in March 1986. In keeping with our normal procedure of launching a test                                                    
+spacecraft to confirm the flight performance of a newly developed launch system and                                               
+the necessary technology for the main mission, a test spacecraft called 'Sakigake' (i.e.                                          
+Pioneer), or MS-T5, was launched on 8 January 1985. Hence, the Planet-A project                                                   
+actually involves two spacecraft, Planet-A and MS-T5.                                                                             
+  Initial calculations based on launcher performance and mission requirements led to                                              
+a mass of about 140 kg for each spacecraft, allowing a scientific payload consisting                                              
+of two or three experiments, each typically weighing 5 kg. An EUV imaging experi-                                                 
+ment and a solar-wind plasma experiment were selected from many proposed ex-                                                      
+periments for Planet-A, while MS-T5 carries three experiments for measurements of                                                 
+plasma waves, solar-wind plasma and the interplanetary magnetic field.                                                            
+  Planet-A has two major scientific objectives:                                                                                   
+-   to study the growth and the decay of the comet's hydrogen corona and to deter-                                                
+    mine the total hydrogen production rate by taking UV images of the corona over                                                
+    an extended period                                                                                                            
+-   to study the interaction of the solar wind with the cometary ionosphere by measur-                                            
+    ing the three-dimensional distributions of ions and electrons (energy range                                                   
+    30 eV-16 keV).                                                                                                                
+                                                                                                                                  
+MS-T5 has as its scientific objective:                                                                                            
+-   to study the solar-wind plasma and, if possible, determine the signatures of the                                              
+    solar-wind/comet interaction at large distances from the comet.                                                               
+                                                                                                                                  
+The scientific experiments carried by Planet-A and MS-T5 are described below; the                                                 
+masses, powers and data rates are summarized later in Tables 6 and 7, respectively.                                               
+                                                                                                                                  
+                                                                                                                                  
+2. Experiments on the                                                                                                             
+Suisei (Planet-A) spacecraft                                                                                                      
+                                                                                                                                  
+2.1 Ultra-Violet Imager (UVI)                                                                                                     
+  The main role of the Ultra-Violet Imager (UVI) is to obtain a succession of synoptic                                            
+images of Halley's hydrogen corona. The latter originates from the photo-dissociation                                             
+of water vapour released from the water ice, which is a major constituent of the                                                  
+volatile components in the comet nucleus. The imaging for several months around the                                               
+Halley encounter (November 1985 to April 1986) will have to cope with a wide range                                                
+of heliocentric distances for Halley, with the Sun-Halley-spacecraft geometry                                                     
+changing continuously. This will allow us to obtain information about the heliocentric                                            
+variation of the hydrogen production rate, velocity distributions of hydrogen atoms,                                              
+etc. The significance of these observations will be enhanced if they can be combined                                              
+with observations from other Halley or Earth-orbiting spacecraft (three-dimensional                                               
+imaging).                                                                                                                         
+  Figure 1a shows a protoflight model of the UVI camera, and Figure 1b a cross-                                                   
+section of the instrument, with its guide mirror assembly, telescope and detector                                                 
+system. The later consists of a UV Image Intensifier (UVII) and Charge-Coupled                                                    
+Device (CCD) detector. A block diagram of the UVI is shown in Figure 2.                                                           
+  Since Planet-A is a spinning spacecraft, the telescope viewing direction at the time                                            
+of taking the image is determined by the elapsed time between imaging and Sun-sensor                                              
+output by the elevation angle of the guiding mirror. The UVII acts simultaneously as                                              
+an image convertor for the CCD image pickup.                                                                                      
+  The image from the UVII lies essentially in the H alpha wavelength range, because the                                           
+peak in the spectral response of the UVII photocathode material (KBr) resides in the                                              
+                                                                                                                                  
+Figure 1a. Protoflight model of the Ultra-                                                                                        
+Violet Imager (UVI)                                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+Figure 1b. Cross-section of the Planet-A Ultra-                                                                                   
+Violet Imager (UVI)                                                                                                               
+                                                                                                                                  
+Figure 2. Block diagram of the Ultra-Violet                                                                                       
+Imager (UVI)                                                                                                                      
+                                                                                                                                  
+VUV-UV range. To prevent image blur due to the spacecraft's spin and to satisfy                                                   
+the brightness detection limit (1 kR) requirement, the CCD is operated in Spin-                                                   
+Synchronized Shift (S3) drive mode. In this mode, the CCD charge pattern, which is                                                
+induced by the optical image input, is transferred to the next position with the same                                             
+speed of optical image shift on the CCD photo-sensitive area as the spacecraft spin.                                              
+In the next position, the newly induced charge pattern is superimposed on the previous                                            
+one. This produces a time-integrated image of the object by successive superposition.                                             
+The UVI is only operated when the spacecraft spin is reduced to 0.2 rpm (see Sec-                                                 
+tion 5), in order to provide a sufficiently long integration time for the CCD. The CCP                                            
+chip is cooled to - 30degC to reduce the dark current. The device's image output is                                               
+analogue-to-digital converted and read into a microcomputer. The compressed data                                                  
+are then read into the spacecraft's data recorder. Table 1 summarizes the UVIs                                                    
+characteristics.                                                                                                                  
+                                                                                                                                  
+---------------------------------------------------                                                                               
+Table 1. Characteristics of the Ultra-Violet                                                                                      
+Imager (UVI)                                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+Telescope          VUV-grade mirror lens,                                                                                         
+                   focal length 100 mm                                                                                            
+Detector           UV Image Intensifier                                                                                           
+                   (UVII) plus Charge-Coupled                                                                                     
+                   Device (CCD)                                                                                                   
+Field of view      2.5deg x 2.5deg                                                                                                
+Viewing direction  Derived from Sun sensor                                                                                        
+                   and adjustable elevation of                                                                                    
+                   guiding mirror                                                                                                 
+Image size         122 x 153 pixels of 8 bit                                                                                      
+                   each                                                                                                           
+Shutter interval   Programmable (highest                                                                                          
+                   repetition: 5 min; maximum                                                                                     
+                   20 images/day)                                                                                                 
+---------------------------------------------------                                                                               
+                                                                                                                                  
+The UVI works in three operational modes:  'search', 'observation' and                                                            
+'photometer.' The search mode is intended for the initial finding of P/Halley. The                                                
+comet 'hunt' is to be carried out over an area centred around the anticipated location                                            
+of the comet, obtained from orbital calculations. After comet identification, the                                                 
+camera will be operated with a frequency tuned to the rate of the hydrogen corona's                                               
+growth or change processes. Inside the corona, the camera will be operated in                                                     
+photometer mode. Because of its field of view (2.5deg x2.5deg), a photo-mosaic of the                                             
+complete corona will be compiled from many pictures taken over a period of about                                                  
+two weeks around the closest approach to Halley.                                                                                  
+  The instrument is controlled completely by ground command and an open-loop con-                                                 
+trol system has been adopted in order to reduce payload weight.                                                                   
+                                                                                                                                  
+ 2.2  Solar-Wind Experiment (ESP)                                                                                                 
+ The objective of this experiment is to measure the three-dimensional velocity                                                    
+distributions of the solar-wind ions and electrons in the energy range from 30 eV up                                              
+to 16 keV within +/- 30deg of the ecliptic plane.                                                                                 
+  During the cometary encounter, the interaction of the solar wind with the cometary                                              
+ionosphere will be investigated, paying particular attention to the mass loading of the                                           
+solar wind by cometary ions, to the existence, location and strength of the upstream                                              
+shock transition and of (possibly) backscattered particles from the shock and other,                                              
+unexpected, plasma populations. Data will be collected on such solar-wind phenomena                                               
+as the halo and core distributions of electrons, variations in the flow velocity, and the                                         
+He++/He+ ratio in relation to solar rotation and longitude.                                                                       
+  The instrument consists of one sensor for electrons and one for positive ions. As                                               
+shown in Figure 3, each sensor consists of a fan-shaped collimator, a 270deg spherical                                            
+electrostatic analyzer, and a Micro-Channel Plate (MCP) detector with five discrete                                               
+anodes. The collimator's field of view is 5deg in azimuth and 60deg in polar angle, respec-                                       
+tively, the latter being centred perpendicular to the spacecraft spin axis and thus in                                            
+the ecliptic plane. The 270deg spherical analyzer has a better-defined response in energy-                                        
+angle space than a quadrispherical analyzer.                                                                                      
+  A block diagram of the experiment is shown in Figure 4. After leaving the analyzer,                                             
+particles are post-accelerated by a potential of 250 V for electron and 2500 - 3500 V                                             
+for ion analysis. A Z-type three-stacked MCP detector is used to obtain a saturated                                               
+pulse-height distribution over a wide dynamic range of counting rates. The anodes of                                              
+                                                                                                                                  
+Figure 3. Schematic of the Planet-A solar-wind                                                                                    
+sensor                                                                                                                            
+                                                                                                                                  
+Figure 4. Block diagram of the Solar-Wind                                                                                         
+Instrument                                                                                                                        
+                                                                                                                                  
+CAD  = Charge-sensitive Amplifier and                                                                                             
+       Discriminator                                                                                                              
+CM   = Command                                                                                                                    
+CONT = Control                                                                                                                    
+DPU  = Data-Processing Unit                                                                                                       
+LVL  = Level                                                                                                                      
+MCP  = Micro-Channel Plate                                                                                                        
+PS   = Power Supply                                                                                                               
+SEA  = Spherical Electrostatic Analyser                                                                                           
+SV   = Step Voltage                                                                                                               
+                                                                                                                                  
+each MCP are split into five sections in order to provide a five-point angular distribu-                                          
+tion with a 12deg resolution in the polar direction. The output pulses from each MCP                                              
+anode are amplified, shaped and accumulated in 19-bit counters. The contents of the                                               
+counter are compressed into 8 bits and stored temporarily in the RAM buffer memory.                                               
+ The instrument's angular distribution in the azimuthal direction, obtained by using                                              
+the spacecraft spin, is 5.625deg within +/- 22.5deg of the solar direction and 22.5deg in the                                     
+remaining spin phase.                                                                                                             
+ The instrument has four modes of energy scanning (Table 2). In each mode the                                                     
+energy is scanned in steps as E(n)=30 exp (0.0066n), where E(n) is the energy of the                                              
+n-th step and n=n(1), . . . . .,n(2). Details of the energy scanning, which is synchronis-                                        
+ed to the spin phase, are shown for the E1-mode in Figure 5. During each spacecraft                                               
+spin four energy steps are scanned periodically in every 22.5deg interval, i.e. the step                                          
+is changed every 1.40625deg around the solar direction and 5.625deg over the remaining                                            
+azimuthal directions. Consequently, it takes 24 spacecraft spins in the E1-mode to                                                
+cover the complete energy range in 96 steps.                                                                                      
+ At high bit rate (2048 bit/s), three-dimensional velocity distributions will be obtain-                                          
+ed for both electrons and ions. These data, produced during one spin, will be transmit-                                           
+ted in 10 PCM frames (5 s) during the next spin interval. At low bit rate (64 bit/s),                                             
+two-dimensional distributions will be obtained for electrons and ions by summing the                                              
+counts from each anode. As shown in the lower part of Figure 5, the energy scanning                                               
+will be carried out over 16 spin periods once every 512 s, required to transmit these                                             
+data.                                                                                                                             
+ The ESP instrument will be operated during the Halley-encounter phase as well as                                                 
+during the cruise and post-encounter phases, but only while Planet-A is in its high-                                              
+spin-rate mode (nominally 6.3 rpm, see Section 5).                                                                                
+                                                                                                                                  
+----------------------------------------------------------------------------------                                                
+Table 2. Energy scanning modes of Planet-A Solar-Wind Plasma Experiment                                                           
+                                                                                                                                  
+                               Total no.                    Time for one complete                                                 
+Mode    n(1)    n(2)  delta n  of steps  Energy range (eV)  sequence* (s)                                                         
+----------------------------------------------------------------------------------                                                
+E1       0      95     1       96         30 ~ 15800         228.6                                                                
+                                                                                                                                  
+E2       O      63     1       64         30 ~  1920         152.4                                                                
+                                                                                                                                  
+E3      32      95     1       64        250 ~ 15800         152.4                                                                
+                                                                                                                                  
+E4       l      95     2       48         34 ~ 15800         114.3                                                                
+----------------------------------------------------------------------------------                                                
+n(1)  =  lowest step number   delta n  =  step interval                                                                           
+n(2)  =  highest step number      *  =  times refer to high bit rate; always 512 s at low bit rate                                
+                                                                                                                                  
+Figure 5.  Energy scanning scheme of the                                                                                          
+Solar-Wind Instrument. The upper panel                                                                                            
+corresponds to the high-bit-rate mode (B/R-H),                                                                                    
+the lower to the low-bit-rate mode (B/R-L) for                                                                                    
+the E1-mode. T(a) = spin period/64, T(b) = T(a)/4                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+3. Experiments on the                                                                                                             
+Sakigake (MS-T5)                                                                                                                  
+spacecraft                                                                                                                        
+3.1 Plasma-Wave Probe (PWP)                                                                                                       
+ Many plasma-wave phenomena in the interplanetary medium are associated with                                                      
+turbulence in the solar-wind plasma. Plasma waves may also play an important role                                                 
+in the generation of the cometary ion tail, which is believed to be formed by                                                     
+wave - particle interactions due to the effective viscosity of the interplanetary plasma                                          
+and collisions between tail plasma and solar-wind plasma.                                                                         
+  The main objectives of the Plasma-Wave Probe (Fig. 6) are to measure electrostatic                                              
+plasma waves near the local plasma frequency and whistler-mode waves. In addition,                                                
+type-III radio bursts originating from electron beams ejected from the Sun and                                                    
+electromagnetic waves emitted from the comet will be monitored.                                                                   
+  The plasma-wave sensors (Table 3) consist of a dipole antenna, measuring 10 m                                                   
+from tip-to-tip and operated over a wide dynamic frequency range (70 Hz-200 kHz),                                                 
+and a search coil to measure the magnetic-field components of electromagnetic                                                     
+whistler-mode waves in the frequency range 70 Hz-2.8 kHz. The latter employs                                                      
+10**5 turns, wound on a ferrite core of 5 mm diameter.                                                                            
+  Both sensors of the plasma-wave instrument (Fig. 7) are selectively connected to                                                
+pre-amplifiers, with input thresholds of 0.1 micro V for the electric-field and 5 pT for the                                      
+magnetic-field component. The amplified electric-field signals are analyzed by a                                                  
+                                                                                                                                  
+_____________________________________________                                                                                     
+Table 3. Characteristics of the Plasma-Wave                                                                                       
+Probe                                                                                                                             
+                                                                                                                                  
+1. Electric Field Sensor:  Dipole 5 m x 2                                                                                         
+.  Frequency range: Sweep 4 kHz-200 kHz                                                                                           
+               Multichannel                                                                                                       
+               70Hz-2.8kHz                                                                                                        
+               (16 channels)                                                                                                      
+                                                                                                                                  
+.  Magnetic Field Sensor: Search coil                                                                                             
+   Frequency range: Multichannel                                                                                                  
+               7O Hz-2.8 kHz                                                                                                      
+               (16 channels)                                                                                                      
+_____________________________________________                                                                                     
+                                                                                                                                  
+Figure 6. The Plasma-Wave Probe, showing                                                                                          
+the two antennas with their equipment and the                                                                                     
+electronics package. The search coil is installed                                                                                 
+above the main electronics package                                                                                                
+                                                                                                                                  
+Figure 7. Block diagram of the MS-T5 Plasma-                                                                                      
+Wave Probe instrument. The top signal chain                                                                                       
+is the spectrum analyzer, the bottom chain the                                                                                    
+swept-frequency analyzer                                                                                                          
+                                                                                                                                  
+A/D   =  Analogue-to-Digital Converter                                                                                            
+BPF   =  Band-Pass Filter                                                                                                         
+DPU   =  Data-Processing Unit                                                                                                     
+PS    =  Power Supply                                                                                                             
+P/S   =  Parallel-to-Serial Converter                                                                                             
+                                                                                                                                  
+swept-frequency analyzer with a bandwidth of 2 kHz in the frequency range                                                         
+4-200 kHz (128 steps), while a multichannel spectrum analyzer (32 channels) is                                                    
+employed for the electric and magnetic fields to analyze the low-frequency range from                                             
+70 Hz to 2.8 kHz, each channel filter having a bandwidth of 15% of the centre                                                     
+frequency. The output signals from both channels are converted to 12-bit words by                                                 
+logarithmically arranged analogue-to-digital converters.                                                                          
+  The antenna will be deployed during the first month after launch. The PWP                                                       
+instrument will be operated during the cruise and encounter phases.                                                               
+                                                                                                                                  
+                                                                                                                                  
+3.2  Solar-Wind Instrument (SOW)                                                                                                  
+  The Solar-Wind Instrument on MS-T5 employs a Faraday cup to measure the bulk                                                    
+velocity, density and temperature of solar-wind ions. This conventional cup, mounted                                              
+flush with the outer skin of the spacecraft, consists of four grids and an ion collector                                          
+(Fig. 8). The front grid G(1), is connected to the satellite skin. A square-wave voltage                                          
+is applied to the modulator grid G(2), alternating at 400 Hz between 0 and V volt. This                                           
+produces a pulsating current by repelling and transmitting those incoming particles                                               
+whose energy is between 0 and a maximum voltage V of 1.5 kV, which can be selected                                                
+from the ground. The voltage will be fixed for most of the mission, although the                                                  
+instrument has several operating modes, such as automatic voltage change for every                                                
+spin, automatic fine voltage sweep between two voltages, etc. The third grid is                                                   
+grounded to block any leakage of modulating voltage from G(2) to the collector. The                                               
+fourth grid is negatively biased at - 100 V to suppress photo-electrons from the                                                  
+collector. The sensor is not sensitive to the solar-wind stream beyond an angle of                                                
+attack of +/- 60deg. Table 4 summarizes the sensor's characteristics.                                                             
+ Figure 9 is a block diagram of the instrument. Both DC and AC collector currents                                                 
+are detected. The DC currents (ion current and secondary-electron current), which                                                 
+vary during each satellite spin, are used to check the angular characteristic of the                                              
+Faraday cup itself and to monitor the photo-electron contribution to the collector                                                
+current. The modulated ion current measured between 2x10**-12 A and 10**-8 A is                                                   
+sampled at 128 points between - 90deg and +90deg with respect to the solar-wind                                                   
+direction, i.e. every 180deg/128=1.4deg the collector current is sampled as a function of                                         
+the spin angle. The bulk velocity and ion density are calculated from the point where                                             
+the slope of the collector-current versus spin angle function becomes a maximum.                                                  
+                                                                                                                                  
+______________________________________________                                                                                    
+Table 4. Charactertstics of ITS Solar-Wind                                                                                        
+Instrument                                                                                                                        
+                                                                                                                                  
+Transmission of the grids   G(1) G(2), G(4) : 90%                                                                                 
+                            G(3)          : 77%                                                                                   
+                            Overall      : 70%                                                                                    
+                                                                                                                                  
+Distance between grids      4 mm                                                                                                  
+Collector diameter         90 mm                                                                                                  
+Maximum voltage to be                                                                                                             
+applied to G(2)             1.5 kV +/- 40 V                                                                                       
+                                                                                                                                  
+Collector impedance        10 M Ohms (with 20 pF)                                                                                 
+                           collector-ground                                                                                       
+                           stray capacity                                                                                         
+______________________________________________                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+3.3 Interplanetary Magnetic-Field Experiment (IMF)                                                                                
+  The Interplanetary Magnetic-Field Experiment is designed to study macroscopic and                                               
+microscopic  structures  in  the  helio-magnetosphere  and  in  the  cometary                                                     
+magnetosphere, as well as large-amplitude low-frequency hydromagnetic waves in the                                                
+solar wind. The data gathered will be compared with the configuration, brightness and                                             
+variations of Halley's corona, which will be imaged by the UV camera on Planet-A.                                                 
+  The IMF is to be measured by a triaxial, ring-core, fluxgate magnetometer sensor                                                
+mounted on a 2 m-long boom (Fig. 1O). This boom was extended soon after injection                                                 
+of the spacecraft into orbit.                                                                                                     
+                                                                                                                                  
+Figure 8a. The MS-T5 Solar-Wind Instrument                                                                                        
+                                                                                                                                  
+Figure 8b. Schematic of the Faraday-cup                                                                                           
+sensor of the MS-T5 Solar-Wind Instrument                                                                                         
+                                                                                                                                  
+Figure 9. Block diagram of the MS-T5 Solar-                                                                                       
+Wind Instrument                                                                                                                   
+                                                                                                                                  
+BPF  =  Band-Pass Filter                                                                                                          
+HK   =  Housekeeping                                                                                                              
+LPF  =  Low-Pass Filter                                                                                                           
+                                                                                                                                  
+Figure 10a. The MS-T5/IMF instrument with                                                                                         
+the boom folded                                                                                                                   
+                                                                                                                                  
+Figure 10b. The MS-T5 Interplanetary                                                                                              
+Magnetic-Field (IMF) sensor                                                                                                       
+                                                                                                                                  
+  Figure 11 is a block diagram of the IMF instrument, the dynamic ranges of which                                                 
+are +/- 64 nT and  +/- 128 nT. Table 5 summarizes the instrument's sensitivity,                                                   
+resolution, bit rate, and sampling rate. The dynamic range and conversion output will                                             
+be selected by ground command.                                                                                                    
+  During the initial period of the mission, when the telemetry signals are strong                                                 
+enough, the high-bit-rate data will be used for the study of the ULF hydromagnetic                                                
+waves. The low-bit-rate data will be used while the spacecraft is closer to Comet                                                 
+Halley to study the macroscopic structure of the helio-magnetosphere and the                                                      
+cometary magnetosphere.                                                                                                           
+                                                                                                                                  
+_______________________________________________________________________________                                                   
+Table 5. Characteristics of the Interplanetary Magnetic-Field Instrument                                                          
+                                                                                                                                  
+            Sensitivity                                Sampling rate (s)                                                          
+                                                                                                                                  
+Dynamic                      Resolution  Telemetry bit                                                                            
+range (nT)  Output (bit)     (nT/LSB)    rate (bit/s)  Format-1  Format-3 & 4                                                     
+-------------------------------------------------------------------------------                                                   
+                                         h.b.r.        1/8       1/16                                                             
++/-  64     12 (high gain)  0.03125      l.b.r.        4         2                                                                
+(Narrow)    8 (low gain)    0.5          h.b.r.        1/16      1/32                                                             
+                                         l.b.r.        2         1                                                                
+-------------------------------------------------------------------------------                                                   
+                                         h.b.r.        1/8       1/16                                                             
++/-  128    12 (high gain)  0.0625       l.b.r.        4         2                                                                
+(wide)       8 (low gain)   1.0          h.b.r.        1/16      1/32                                                             
+                                         l.b.r.        2         1                                                                
+-------------------------------------------------------------------------------                                                   
+h.b.r. =  high bit rate (2048 bit/s)   l.b.r.  =  low bit rate (64 bit/s)                                                         
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+4. The spacecraft                                                                                                                 
+Planet-A (Fig. l2) and MS-T5 (Figs. 13, 14) are identical spacecraft except for their                                             
+scientific payloads. The main spacecraft body is a cylinder, 140 cm in diameter and                                               
+70 cm high. The spinning spacecraft is about 250 cm high, from the top of the high-                                               
+gain antenna dish to the bottom of the medium-gain antenna. Its outer wall is covered                                             
+by solar cells which produce 100 W of power under optimum conditions. An                                                          
+equipment platform mounted to a central thrust tube carries most of the subsystems,                                               
+including the mechanically despun, high-gain antenna, two hydrazine fuel tanks, the                                               
+thrusters, and the experiment sensors (Fig. 15). A star scanner and a nutation damper                                             
+are attached to the thrust tube.                                                                                                  
+  Planet-A and MS-TS weigh 139.5 kg and 138.1 kg, respectively, including 10 kg                                                   
+of hydrazine propellant in each case. Both spacecraft are spin-stabilized, with the                                               
+facility to change the spin rate (see Section 5). The spin axes of both spacecraft will                                           
+be kept perpendicular to the ecliptic plane.                                                                                      
+  The spin-rate of Planet-A will be changed quite frequently. It must be reduced, for                                             
+example, to 0.2 rpm during the UVI imaging operating using an onboard momentum                                                    
+wheel, while during communication periods and during solar-wind measurements a                                                    
+spin-rate of 6.3 rpm is preferable.                                                                                               
+  The spacecraft/Earth geometry and the data-rate requirements preclude the use of                                                
+a single antenna for the duration of the mission. The antenna subsystem therefore                                                 
+consists of a high-gain antenna, a medium-gain antenna as a backup, and a low-gain                                                
+antenna for near-Earth operation. The despun high-gain antenna has an offset-                                                     
+parabolic reflector with a diameter of 80 cm and a gain of 21.5 dB in uplink and                                                  
+22.5 dB in downlink transmission. The communications subsystem operates in S-band                                                 
+using a 5 W transmitter.                                                                                                          
+  Planet-A has two data formats: Format-1 provides Ultra-Violet Imager (UVI) data.                                                
+Format-2 Solar-Wind Experiment (ESP) data (Table 6). MS-T5 has four data formats                                                  
+(Table 7). The data rates of both spacecraft are 2048 bit/s (without coding) in 'high                                             
+bit rate' and 64 bit/s (with convolutional coding) in 'low bit rate' mode. The bit rate                                           
+used will depend on the communication distance.                                                                                   
+  The ground station for the mission has been built at Usuda, about 170 km northwest                                              
+of Tokyo. The station's 64 m diameter dish antenna has a gain of approximately 63 dB                                              
+(Fig. 16). A 64 bit/s communication link (convolutionally encoded PCM) is expected                                                
+to be possible from 1.1 AU, which will be the comet-Earth distance during the                                                     
+Planet-A encounter.                                                                                                               
+                                                                                                                                  
+Figure 11.  Block diagram of the IMF                                                                                              
+instrument                                                                                                                        
+                                                                                                                                  
+BPF  =  Band Pass Filter                                                                                                          
+NF   =  Nyquist Filter                                                                                                            
+PSD  =  Peak Sample Detector                                                                                                      
+                                                                                                                                  
+Figure 12.  The Planet-A Spacecraft                                                                                               
+                                                                                                                                  
+Figure 13.  The MS-T5 spacecraft                                                                                                  
+                                                                                                                                  
+Figure 14.  The MS-T5 spacecraft on top of the                                                                                    
+third stage of the M-3SII launcher                                                                                                
+                                                                                                                                  
+Figure 15.  The interior of the MS-T5 spacecraft                                                                                  
+                                                                                                                                  
+Figure 16.  The 64 m dish at the Usuda                                                                                            
+tracking station                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+Table 6.  The Planet-A scientific payload                                                                                         
+                                                                                                                                  
+                                    Data rate (bit/s)                                                                             
+Experiment   Mass (kg)  Power (W)   Format 1/2    Principal Investigator                                                          
+---------------------------------------------------------------------------------------                                           
+                                    H 1568/0         E. Kaneda, Geophys. Res. lab.,                                               
+UVI          7.5        8.9         L 98/0           Faculty of Science, Univ. of Tokyo                                           
+                                                                                                                                  
+                                    H 0/1408         T. Mukai, Res. Div. Planetary                                                
+ESP          4.7        4.9         L 0/88           Science, ISAS, Tokyo                                                         
+---------------------------------------------------------------------------------------                                           
+Format    1     UVI and UVI check        H = High bit rate                                                                        
+          2     ESP                      L = low bit rate                                                                         
+---------------------------------------------------------------------------------------                                           
+Table 7. The MS-T5 scientific payload                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+                                  Data rate                                                                                       
+Experiment  Mass (kg)  Power (W)  Format 1/2/3/4   Principal Investigator                                                         
+---------------------------------------------------------------------------------------                                           
+                                 H 512/768/768/0  H. Oya, Faculty of Science, Tohoku                                              
+PWP      5.2*        1.7         L 32/48/48/0     Univ., Sendai                                                                   
+                                                                                                                                  
+SOW      2.0         1.1         H 512/768/0/768  K. Oyama, Res. Div. Planetary                                                   
+                                 L 32/48/0/48     Science, ISAS, Tokyo                                                            
+                                                                                                                                  
+                                 H 400/0/768/768  T. Saito, Faculty of Science, Tohoku                                            
+IMF      5.4**       2.          L 25/0/48/48     Univ., Sendai                                                                   
+---------------------------------------------------------------------------------------                                           
+Format 1       PWP      SOW      IMF   H = High bit rate                                                                          
+       2       PWP      SOW            L = low bit rate                                                                           
+       3       PWP      IMF                                                                                                       
+       4       SOW      IMF                                                                                                       
+                                                                                                                                  
+ * Includes dipole antenna, search coil and electronics                                                                           
+** Includes boom                                                                                                                  
+                                                                                                                                  
+5. The mission                                                                                                                    
+  Planet-A and MS-T5 were launched separately by M-3SII launchers (Fig. 17). The                                                  
+M-3SII launcher is a new three-stage solid-propellant rocket with a solid kick-stage                                              
+motor attached. Both spacecraft were injected directly into a heliocentric comet                                                  
+transfer trajectory. Immediately after launch, each spacecraft was tracked for about                                              
+8 h per day. They were then despun from 120 rpm, to about 30 rpm, using the thruster                                              
+subsystem. The spacecraft's attitude was initially automatically adjusted such that its                                           
+spin axis was perpendicular to the Sun-spacecraft line. During the subsequent ground                                              
+contact, the spin rate was further reduced to 6.3 rpm and the spin axis reoriented                                                
+to be perpendicular to the ecliptic plane. After the first 4-5 d of ranging and accurate                                          
+orbit determination, a mid-course correction manoeuvre was carried out. During the                                                
+interplanetary cruise, attitude maintenance operations will have to be performed at                                               
+1Od intervals.                                                                                                                    
+  Both spacecraft will make their closest approach to Halley near the time of the                                                 
+comet's post-perihelion crossing of the ecliptic plane (Fig. 18).                                                                 
+  The Planet-A spacecraft will be targeted to pass Halley's nucleus on the sunward                                                
+side at a distance of 150000 km on 8 March 1986. Solar-wind measurements will be                                                  
+carried out continuously on Planet-A during the cruise, except during the periods of                                              
+UVI imaging, and this spacecraft will be in contact with the ground station for 7-8 h                                             
+per day. In this period, during which the spacecraft will be spinning at 6.3 rpm, its                                             
+bubble memory will be read out, solar-wind measurements made, and commands                                                        
+received from the ground. During the remaining 15 h per day the spacecraft will be                                                
+spinning at 0.2 rpm and taking images. It takes 5 - 10 min to spin-down and 30 min                                                
+to spin-up the spacecraft. During the 15 h, six images can be taken, spaced in time,                                              
+to fill the 1 Mbit bubble memory. At large distances from the Earth, data can be                                                  
+transmitted from the spacecraft at a rate of 64 bit/s. In this mode, each memory read-                                            
+out will require about 4 h.                                                                                                       
+                                                                                                                                  
+Figure 17. Launch of the MS-T5 spacecraft on                                                                                      
+a M-3SII vehicle from Kagoshima Space                                                                                             
+Center on 8 January 1985                                                                                                          
+                                                                                                                                  
+ Imaging is planned to start in early November 1985, when Halley crosses the                                                      
+ecliptic plane at a heliocentric distance of 0.85 AU. An attempt will be made to find                                             
+                                                                                                                                  
+Figure 18. Heliocentric orbits of Planet-A                                                                                        
+and MS-T5                                                                                                                         
+                                                                                                                                  
+the comet with the camera as soon as possible, despite the large distance from the                                                
+spacecraft. Imaging will continue at least until mid-April 1986,  when the hydrogen                                               
+corona will no longer be detectable. Halley will then be at a heliocentric distance of                                            
+1.39 AU and at the same time will be reaching its closest distance to Earth of                                                    
+0.42 AU. During Planet-A's journey to Halley, an attempt may also be made to image                                                
+the corona of Giacobini-Zinner if this comet's hydrogen production rate is high                                                   
+enough.                                                                                                                           
+  The MS-T5 spacecraft will be targeted to pass within 7 million kilometres of Comet                                              
+Halley on 11 March 1986. About one month of this test spacecraft's initial cruise                                                 
+phase will be used for technical tests, including the operation of the new 64 m deep-                                             
+space station at Usuda. Later, its three scientific instruments will study the solar-wind                                         
+plasma and, if possible, detect the signatures of the solar-wind/comet interaction.                                               
+When the other spacecraft make their closest approach to Halley, MS-T5 will be used                                               
+to make complementary solar-wind measurements.                                                                                    
+                                                                                                                                  

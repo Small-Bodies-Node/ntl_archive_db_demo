@@ -1,0 +1,622 @@
+NJPL1I00PDS100049740 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 790                                                     
+FILE_RECORDS        = 118                                                     
+/*               Record Pointer to Object                             */      
+^TABLE              = "NETLARGE.IDX"                                          
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 118                                                     
+ ROW_BYTES          = 790                                                     
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 73                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BITPIX"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  START_BYTE        = 1                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS"                                                 
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 1                                                       
+  START_BYTE        = 4                                                       
+  FORMAT            = I1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS1"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 6                                                       
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "NAXIS2"                                                
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 11                                                      
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILENUM"                                               
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 16                                                      
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DATE-OBS"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  UNIT              = 'DD/MM/YY'                                              
+  START_BYTE        = 24                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TIME-OBS"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'DAY_FRACTION'                                          
+  START_BYTE        = 34                                                      
+  FORMAT            = 'F6.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LONGITUDE"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 9                                                       
+  UNIT              = 'DDD/MM/SS'                                             
+  START_BYTE        = 42                                                      
+  FORMAT            = A9                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LATITUDE"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 9                                                       
+  UNIT              = 'SDD/MM/SS'                                             
+  START_BYTE        = 54                                                      
+  FORMAT            = A9                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SYSTEM"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 66                                                      
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVER"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 30                                                      
+  START_BYTE        = 77                                                      
+  FORMAT            = A30                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "ADD_OBS"                                               
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 60                                                      
+  START_BYTE        = 110                                                     
+  FORMAT            = A60                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SUBMITTER"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 24                                                      
+  START_BYTE        = 173                                                     
+  FORMAT            = A24                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SPECIAL_EVENT_FLAG"                                    
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 200                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DAT-TYPE"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 204                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LSPNSEQ"                                               
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 6                                                       
+  START_BYTE        = 214                                                     
+  FORMAT            = I6                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSERVATORY"                                           
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 40                                                      
+  START_BYTE        = 222                                                     
+  FORMAT            = A40                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "LOCATION"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 45                                                      
+  START_BYTE        = 265                                                     
+  FORMAT            = A45                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "TELESCOPE"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 30                                                      
+  START_BYTE        = 313                                                     
+  FORMAT            = A30                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "APERTURE"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'CM'                                                    
+  START_BYTE        = 345                                                     
+  FORMAT            = 'F4.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FRATIO"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  START_BYTE        = 350                                                     
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FOV_1"                                                 
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 355                                                     
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FOV_2"                                                 
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 360                                                     
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PLATE_SIZE_1"                                          
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'METERS'                                                
+  START_BYTE        = 365                                                     
+  FORMAT            = 'F5.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PLATE_SIZE_2"                                          
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'METERS'                                                
+  START_BYTE        = 371                                                     
+  FORMAT            = 'F5.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PLATE_SCALE"                                           
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 7                                                       
+  UNIT              = 'ARCSEC/MM'                                             
+  START_BYTE        = 377                                                     
+  FORMAT            = 'F7.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CALIB_AVAIL"                                           
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 386                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "HYPERSENSE"                                            
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  UNIT              = 'T/F'                                                   
+  START_BYTE        = 390                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "EMULSION"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 20                                                      
+  START_BYTE        = 394                                                     
+  FORMAT            = A20                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILTER"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 20                                                      
+  START_BYTE        = 417                                                     
+  FORMAT            = A20                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PLATE_TYPE"                                            
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  START_BYTE        = 440                                                     
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "EXPOSURE"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 7                                                       
+  UNIT              = 'SECONDS'                                               
+  START_BYTE        = 443                                                     
+  FORMAT            = 'F7.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBSLOG"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 22                                                      
+  START_BYTE        = 452                                                     
+  FORMAT            = A22                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BUNIT"                                                 
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 477                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CTYPE1"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 488                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CTYPE2"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  START_BYTE        = 499                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRVAL1"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 509                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRVAL1_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 519                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRVAL2"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 523                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRVAL2_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 533                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRPIX1"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 537                                                     
+  FORMAT            = 'F9.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRPIX1_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 547                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRPIX2"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 551                                                     
+  FORMAT            = 'F9.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CRPIX2_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 561                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CDELT1"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 565                                                     
+  FORMAT            = 'F9.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CDELT1_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 575                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CDELT2"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 579                                                     
+  FORMAT            = 'F9.5'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CDELT2_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 589                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CROTA1"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 593                                                     
+  FORMAT            = 'F9.3'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CROTA1_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 603                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CROTA2"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 607                                                     
+  FORMAT            = 'F9.3'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "CROTA2_EXPON"                                          
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 617                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_PLATE_CENT"                                         
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 621                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_PLATE_CENT_EXPON"                                   
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 631                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_PLATE_CENT"                                        
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 635                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_PLATE_CENT_EXPON"                                  
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 645                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_HEAD"                                               
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 649                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_HEAD_EXPON"                                         
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 659                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_HEAD"                                              
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 663                                                     
+  FORMAT            = 'F9.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_HEAD_EXPON"                                        
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 3                                                       
+  START_BYTE        = 673                                                     
+  FORMAT            = I3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SCAN_APERTURE"                                         
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'MICRONS'                                               
+  START_BYTE        = 677                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SCAN_STEP"                                             
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'MICRONS'                                               
+  START_BYTE        = 682                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SKY_DENSITY"                                           
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  UNIT              = 'DENSITY'                                               
+  START_BYTE        = 687                                                     
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SKY_UNIFORMITY"                                        
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 4                                                       
+  START_BYTE        = 693                                                     
+  FORMAT            = A4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "SCAN_DATE"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  UNIT              = 'DD/MM/YY'                                              
+  START_BYTE        = 700                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "PROC_DATE"                                             
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 8                                                       
+  UNIT              = 'DD/MM/YY'                                              
+  START_BYTE        = 711                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "QUALITY"                                               
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 5                                                       
+  START_BYTE        = 722                                                     
+  FORMAT            = A5                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "YEAR"                                                  
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 5                                                       
+  START_BYTE        = 730                                                     
+  FORMAT            = A5                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MONTH"                                                 
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 3                                                       
+  START_BYTE        = 738                                                     
+  FORMAT            = A3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DAY"                                                   
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 3                                                       
+  START_BYTE        = 744                                                     
+  FORMAT            = A3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "HOUR"                                                  
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 3                                                       
+  START_BYTE        = 750                                                     
+  FORMAT            = A3                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "OBJECT"                                                
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 20                                                      
+  START_BYTE        = 756                                                     
+  FORMAT            = A20                                                     
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "FILENAME"                                              
+  BYTES             = 8                                                       
+  START_BYTE        = 779                                                     
+  FORMAT            = A8                                                      
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

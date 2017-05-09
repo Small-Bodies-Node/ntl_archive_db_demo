@@ -1,0 +1,23 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2006-06-21                                               
+  NOTE             = "CATINFO.TXT FILE"                                       
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+Catalog directory                                                             
+=================                                                             
+                                                                              
+This directory contains the PDS catalog files relevant to this                
+dataset:                                                                      
+                                                                              
+  international_halley_watch.cat  IHW Mission file                            
+  ppn.cat                         IHW Photometry and Polarimetry Network      
+                                    host file                                 
+  ppflx.cat                       PPN "PPFLX" pseudo- instrument file         
+  dataset.cat                     Data set file                               
+  1p_halley_1_1682_q1.cat         1P/Halley target file                       
+  reference.cat                   Reference list                              

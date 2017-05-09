@@ -1,0 +1,40 @@
+<html>
+<head>
+	<!-- the following JavaScript files provide access to PDS services -->
+	<script type="text/javascript" src="../../js-api/cxf-utils.js"></script>
+	<script type="text/javascript" src="../../js-api/PlanetaryDataSystemService.js"></script>
+	<script type="text/javascript" src="../../js-api/Common.js"></script>
+
+	<!-- main.js contains custom code for manipulating PDS data -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+	<h1>Demo 3: search operations</h1>
+
+	<h3>
+	This demo shows how to perform search operations over PDS database
+	</h3>
+
+	<div>
+		<span>Press button 1 to search all entities with DEEP word in its names (searchEntities example)</span> </br>
+		<span>Press button 2 to search datasets with SOHO word in its names (searchEntitiesByType example)</span> </br>
+		<span>Press button 3 to search datasets with V1.0 in its names from the mission with id 1 (DEEP IMPACT) (searchEntitiesByType example)</span> </br>
+		<span>Press button 4 to search datasets for target with TEMPEL in its name (searchDataSetsByCriteria  example)</span> </br>
+		<span>Press button 5 to search datasets that were created in current millenium (after year 2000) (searchDataSetsByCriteria  example)</span> </br>
+		</br>
+		<input type="button" value="1" onClick="search1()">
+		<input type="button" value="2" onClick="search2()">
+		<input type="button" value="3" onClick="search3()">
+		<input type="button" value="4" onClick="search4()">
+		<input type="button" value="5" onClick="search5()">
+		</br></br>
+
+		<!-- this list is filled from the JavaScript code -->
+		<ul id='list'></ul>
+	</div>
+
+</body>
+</html>

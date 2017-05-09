@@ -1,0 +1,1115 @@
+***** File GIODID.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+The Giotto Dust Impact Detection                                                                                                  
+System                                                                                                                            
+                                                                                                                                  
+J.A.M. McDonnell                                                                                                                  
+Unit for Space Sciences, Physics Laboratory, Universiry of Kent, Canterbury, UK                                                   
+                                                                                                                                  
+W.M. Alexander                                                                                                                    
+Institute for Environmental Studies, Baylor University, Waco,                                                                     
+                                                                                                                                  
+W.M. Burton                                                                                                                       
+Rutherford Appleton Laboratory, Chilton, Didcot, UK                                                                               
+                                                                                                                                  
+E. Bussoletti                                                                                                                     
+Physics Department, University of Lecce, Italy                                                                                    
+                                                                                                                                  
+D.H. Clark                                                                                                                        
+Science and Engineering Research Council, Swindon, UK                                                                             
+                                                                                                                                  
+G.C. Evans and S.T. Evans                                                                                                         
+Unit for Space Sciences, Physics Laboratory, Universiry of Kent, Canterbury, UK                                                   
+                                                                                                                                  
+J.G. Firth                                                                                                                        
+Rutherford Appleton Laboratory, Chilton, Didcot, UK                                                                               
+                                                                                                                                  
+R.J.L. Grard                                                                                                                      
+ESA Space Science Department, ESTEC, Noordwijk, The                                                                               
+                                                                                                                                  
+E. Grun                                                                                                                           
+Max-Planck Institut fur Kernphysik, Heidelberg, Germany                                                                           
+                                                                                                                                  
+M.S. Hanner                                                                                                                       
+Jet Propulsion Laboratory, Pasadena, California, USA                                                                              
+                                                                                                                                  
+D.W. Hughes                                                                                                                       
+Department of Physics, University of Sheffield, UK                                                                                
+                                                                                                                                  
+E. Igenbergs                                                                                                                      
+Technical University of Munich, Germany                                                                                           
+                                                                                                                                  
+H. Kuczera                                                                                                                        
+MBB, Munich, Germany                                                                                                              
+                                                                                                                                  
+B.A. Lindblad                                                                                                                     
+Institute for Astronomy, Lund Observatory, Sweden                                                                                 
+                                                                                                                                  
+J.-C. Mandeville                                                                                                                  
+ONERA/CERT-DERTS, Toulouse, France                                                                                                
+                                                                                                                                  
+A. Minafra                                                                                                                        
+Physics Department, University of Bari, Italy                                                                                     
+                                                                                                                                  
+D. Reading and A. Ridgeley                                                                                                        
+Rutherford Appleton Laboratory, Chilton, Didcot, UK                                                                               
+                                                                                                                                  
+G.H. Schwehm                                                                                                                      
+ESA Space Science Department, ESTEC, Noordwijk, The Netherlands                                                                   
+                                                                                                                                  
+T.J. Stevenson                                                                                                                    
+Unit for Space Sciences, Physics Laboratory, Universiry of Kent, Canterbury, UK                                                   
+                                                                                                                                  
+Z. Sekanina                                                                                                                       
+Jet Propulsion Laboratory, Pasadena, California, USA                                                                              
+                                                                                                                                  
+R.F. Turner                                                                                                                       
+Rutherford Appleton Laboratory, Chilton, Didcot, UK                                                                               
+                                                                                                                                  
+M.K. Wallis                                                                                                                       
+Department of Applied Mathematics, University College Cardiff, UK                                                                 
+                                                                                                                                  
+J.C. Zarneck                                                                                                                      
+Unit for Space Sciences, Physics Laboratory, Universiry of Kent, Canterbury, UK                                                   
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+   The Dust Impact Detection System (DIDSY) consists of six independent subsystems                                                
+with the primary aim of registering the impacts of all particulates of significant mass                                           
+incident on the probe during the post-perihelion encounter with Comet Halley in 1986.                                             
+Mounted on Giotto's front dust shield, the detectors will determine the mass spectrum                                             
+of the dust, with a limiting sensitivity of some 10**-17 g, increasing to the largest grain                                       
+masses encountered along Giotto's trajectory through the cometary environment with                                                
+an ultimate spatial resolution of some 70 km. An additional detector is located on the                                            
+rear shield to monitor those dust particles (m > ~ 5 X 10**-7 g) that are able to                                                 
+penetrate the front dust shield. An ambient plasma monitor is also incorporated into                                              
+DIDSY to measure the impact plasma generated by both dust and gas impacts on the                                                  
+spacecraft. The system is controlled and its data processed by a microprocessor-based                                             
+system that allows the wide range of anticipated impact rates (varying from a few per                                             
+minute, to ~ 10**6 s**-1 at closest approach) to be handled. The instrument weighs                                                
+2.26 kg and consumes 1.9 W of power during normal operation.                                                                      
+                                                                                                                                  
+1. Scientific Objectives                                                                                                          
+  The mass efflux from a comet generally consists of two quite separate components,                                               
+which are distinguished by the Type-I (gas) and Type-II (dust) tails under differentia-                                           
+tion by the interplanetary environment. The relative importance of the two is variable                                            
+but, as a general guide, 30% of this efflux is in the form of solid particles. Some may                                           
+be ice grains which sublimate within a short period of release. Since all comet observa-                                          
+tions have been remote to date, knowledge of the particulate mass distribution is iden-                                           
+tified as one of the most fundamental of measurements of cometary behaviour to be                                                 
+undertaken by the Giotto mission. This conclusion can be drawn both from the point                                                
+of view of the cometary physics, and from the role of comets as the prime source of                                               
+interplanetary dust within the solar system.                                                                                      
+  Measurement in the cometary encounter phase is simplified by the head-on en-                                                    
+counter direction of dust and a very accurately known impact speed of 69 km/s. The                                                
+dusty coma and tail will be comparatively static during the encounter, since velocities                                           
+in the frame of reference of Comet Halley are typically only 0.5 km/s. Measurement                                                
+and system development are made very difficult by the extreme variability of the impact                                           
+rate, which varies approximately inversely as the square of the distance of the probe                                             
+from the comet, and by the highly unpredictable nature of the dust fluxes. Such varia-                                            
+tions illustrate very clearly the need for in-situ detection, the only means whereby a                                            
+reliable model can be determined.                                                                                                 
+                                                                                                                                  
+1.1 In-situ cometary particulate measurements                                                                                     
+   Although the approach to a comet is an entirely new venture in the space sciences                                              
+and in the exploration of the solar system, cometary dust is a common enough consti-                                              
+tuent of the solar system and has even been recovered terrestrially (Brownlee, 1978).                                             
+  Observations of the comet's dust tail yield a line-of-sight, integrated scattering func-                                        
+tion for the entire dust population effective in this process. However, the motion of                                             
+the dust, and hence its distribution in the expanding tail, is differentiated both by the                                         
+dynamics of gas acceleration processes acting away from the evaporative region, and                                               
+also by the subsequent balance in dynamics between gravitational forces and solar                                                 
+radiation pressure.                                                                                                               
+  Analysis of the motion of such particles was initiated by Bessel (1836). By extending                                           
+theory, and in particular the calculation of isophotes, Finson & Probstein (1968) were                                            
+able to utilize the observations of Comet Arend-Roland and derive data relevant to the                                            
+particle size distribution. Although their observations suggested a minimum size                                                  
+'cut-off' in the region of 1 micro m diameter, this inference is erroneous because of the                                         
+very small contribution of these particles compared with the larger particles of 10 micro m.                                      
+In-situ spacecraft data confirm this effect for the Zodiacal Cloud at l AU heliocentric                                           
+distance, where the actual size distribution is found to extend to the region of 0.01 micro m                                     
+particle size. Such a lack of positive direct observations from comets is obviously a                                             
+significant shortcoming in the modelling of flux rates, but from the point of view of                                             
+assuring the science objectives of the experiment. In-situ detection of cometary par-                                             
+ticles must extend to the smallest of detectable particles.  Although it is known that in-                                        
+terplanetary space hosts these very small masses, it is not clear whether these are                                               
+directly expelled from comets or are the products of impact comminution of the larger                                             
+meteoroid stream particles as they decay towards the Sun in their Pointing-Robertson                                              
+spiral. First postulated by Zook & Berg (1975), they are then expelled from the solar                                             
+system as beta meteoroids. Comparison of the size distribution of fresh cometary dust                                             
+and the equilibrated interplanetary dust will be one of the rich returns of the Goitto                                            
+mission. We also know, from the terrestrial observations of the Aquarid (May) and                                                 
+Orionid (October) meteor streams, the size distribution of the larger meteoroids ac-                                              
+tually expelled from Comet Halley (Hughes, 1978). We will measure these actual                                                    
+masses directly from the Giotto Meteoroid Shield Momentum (MSM) Subsystem and                                                     
+determine their size distribution index, so as to be able to deduce the decay                                                     
+mechanisms operative in metcor streams after ejection from a comet.                                                               
+   From the point of view of forces on cometary grains, differentiation occurs accord-                                            
+ing to (i) an area-to-mass ratio during cometary expulsion and gas drag acceleration,                                             
+and (ii) an albedo-to-mass ratio in subsequent tail development motion. This leads                                                
+to models of the time-dependence of the impact rate and size distribution during en-                                              
+counter which have considerably different profiles. The DIDSY determination of the                                                
+size distribution along the whole encounter trajectory with a mass range potentially                                              
+extending from 10**-17 g to 10**-3 g is expected to offer very strong discrimination                                              
+against those models that do not assume the 'correct' parameters for Comet Halley's                                               
+grains. Evaporation of the icy filling of the matrix of fluffy grains can also lead to                                            
+observational differences, and from the penetration of the Impact Plasma and Momen-                                               
+tum (IPM) foil and the MSM shield, it may be possible to determine the average densi-                                             
+ty of the grains.                                                                                                                 
+ It is generally believed that, close to the cometary nucleus (up to 20 R(nuc)), particles                                        
+are accelerated by the outstreaming gas. Ice particles are completely or partly                                                   
+evaporated by the Sun's radiation. Measuring the size distribution of cometary par-                                               
+ticles at various distances from the nucleus and comparing this with evaporation                                                  
+models should therefore allow the determination of certain material properties of ice                                             
+particles (e.g. latent heat of ices). References to detailed modelling of the particulate                                         
+environment are published by Divine (1981), Hellmich & Keller (1981) and Fertig &                                                 
+Schwehm (1984). Other aspects of modelling relevant to cometary intercept missions                                                
+are offered by Carey et al. (1984).                                                                                               
+ Cometary rotation also strongly influences modelling. From Comet Swift-Tuttle,                                                   
+Sekanina (1981) deduces the location of active emission regions comprising only a                                                 
+small fraction of the total area; these would relate in their activity to the rotation speed                                      
+and quite intense forward jetting of dust away from the comet may be observed. Such                                               
+anisotropies, and in particular the pre- and post-encounter anisotropies, will be strong-                                         
+ly reflected in the DIDSY activity profile.                                                                                       
+                                                                                                                                  
+2. System Design                                                                                                                  
+  The DIDSY system has been designed so that, as far as possible, the individual sub-                                             
+systems may operate independently of each other for operational reliability. At the                                               
+same time, by operating in overlapping ranges of incident particle mass, comparison                                               
+of results from the different subsystems will yield greater 'scientific' reliability.                                             
+Despite independent operation, some coincidence information for individual impacts                                                
+is exchanged between Subsystems for event validation. However, the failure of one                                                 
+detection subsystem should not in any way affect the correct operation of another. The                                            
+Central Data Formatter (CDF) performs a primary task of collecting data from each                                                 
+subsystem, processing it as required, and passing it into the telemetry stream. In addi-                                          
+tion to handling data formatting, the CDF also supplies power to each subsystem via                                               
+a separate current-limiter so that, for example, a short-circuit in one subsystem does                                            
+not affect operation of the others. Unregulated power is supplied by the spacecraft                                               
+power subsystem on a single current-tripped supply.                                                                               
+  A buffered star-type interface is used between the CDF and the sensor subsystems;                                               
+failure on any subsystem does not result in total system failure. The interface operates                                          
+in a mainly digital manner, each subsystem digitizing its data before passing them to                                             
+the CDF. In addition, some analogue channels provide housekeeping information (i.e.                                               
+supply voltages, temperatures, etc.) and also give a limited amount of scientific data.                                           
+In the unlikely event of failure of the data formatting part of the CDF, some limited                                             
+data on impact rates are still available.                                                                                         
+  Data within the DIDSY subsystem are divided into two broad categories, namely:                                                  
+(i) discrete data, which represent a set of measured values for a single event detected                                           
+by one subsystem, and (ii) cumulative data, which represent the total event amplitude                                             
+distribution from each sensor and are generated by accumulation of discrete data                                                  
+events within the CDF. Such an approach results from the telemetry allocation, which                                              
+makes it impossible to transmit full information on all detected impacts, except at very                                          
+low impact rates. A limited quantity of discrete data are mixed with the cumulative                                               
+data and passed into the spacecraft telemetry stream by the CDF every 1.3 s during                                                
+the last hour before closest approach and every 2.83 s prior to this. A brief description                                         
+of the constituent elements of the DIDSY system is given in Table 1.                                                              
+                                                                                                                                  
+----------------------------------------------------------------------------------                                                
+Table 1. Constituent elements of DIDSY*                                                                                           
+                                                                                                                                  
+Designation      Description                Location                  Mass (g)                                                    
+----------------------------------------------------------------------------------                                                
+                                                                                                                                  
+ DID 1      Impact plasma, momentum and     Located in cut-out in       406                                                       
+            ambient plasma sensor           front shield                                                                          
+ DID 2,3,4  Piezoelectric momentum sensors  Various locations          8 each                                                     
+                                            on front shield                                                                       
+ DID 5      Piezoelectric momentum sensor   Rear shield                9                                                          
+ DID 6      Central Data Formatter          Experiment platform        1745                                                       
+ DID 7      Capacitor Impact Sensor         Front shield               22                                                         
+ DID 8      Roll-up cover                   Front shield over DID 1    54                                                         
+----------------------------------------------------------------------------------                                                
+* The harness between the sensors and DID 6 is not included in the above mass allocations.                                        
+                                                                                                                                  
+3. Meteoroid Shield                                                                                                               
+Momentum (MSM) and                                                                                                                
+Rear Shield Momentum                                                                                                              
+(RSM) Subsystem                                                                                                                   
+                                                                                                                                  
+ The MSM and RSM sensors and subsystem were designed and developed by the                                                         
+Unit for Space Sciences at the University of Kent at Canterbury. The Rutherford Ap-                                               
+pleton Laboratory was responsible for the major part of the acoustic design of the front                                          
+shield.                                                                                                                           
+  Three 200 kHz longitudinally resonant PZT 5A piezoelectric microphone elements                                                  
+attached to the rear of the spacecraft front shield and constitute the detectors for                                              
+MSM subsystem. Each crystal is contained in a hermetically sealed stainless-steel                                                 
+assembly, connection being made through a miniature co-axial connector. Each sensor                                               
+is attached to the front shield by two titanium bolts in insulating bushes; a kapton                                              
+washer maintains isolation between sensor and spacecraft grounds. The bolts are                                                   
+tightened to a torque of 30 cNm, this value having been found to give peak output                                                 
+amplitude.                                                                                                                        
+  For nonpenetrating impacts on the front shield, there is an initial momentum im-                                                
+pulse some 11 times the incident particle momentum. The output pulse amplitude is                                                 
+related to both mass and velocity, but since the velocity of impacting particles during                                           
+Halley encounter is essentially constant at 69 km/s, pulse amplitude is proportional                                              
+to incident mass.                                                                                                                 
+  Impacts upon the spacecraft rear kevlar shield are sensed by a fourth (RSM) sensor                                              
+identical to those on the front shield, fixed onto the rear shield by two bolts which                                             
+screw into threaded inserts. It is positioned underneath the small sector of the front                                            
+shield. The RSM electronics subsystem is treated as a fourth channel of the MSM.                                                  
+ The original proposal (McDonnell et al., 1981) described three sensors sym-                                                      
+metrically placed at 120deg intervals on the periphery of a one-piece front shield, which                                         
+was 'clean' with respect to the propagation of flexural waves from localized impacts                                              
+on the metal plate. A triangulation technique was proposed for estimating the actual                                              
+location of each impact in order to determine the momentum and mass of the incident                                               
+particle. As the spacecraft shield design evolved, it became clear that the front shield                                          
+would not be an acoustically 'clean' structure.                                                                                   
+ A programme of laboratory measurements was carried out to estimate the perfor-                                                   
+mance of different shield designs (Burton, 1983; Reading & Ridgeley, 1983), using a                                               
+high-power neodymium glass pulsed laser at the Rutherford Appleton Laboratory to                                                  
+simulate hypervelocity particle impacts on various shield test sections and on full-scale                                         
+models of different front-shield configurations. The decay time for signals from a                                                
+simulated impact event on the original front shield design was found to be excessive                                              
+with consequent degradation of data at high impact rates. The results also indicated                                              
+that it would not be possible to locate impact events by triangulation methods, because                                           
+of the nonuniform propagation characteristics of the bumper shield, which had by now                                              
+become a two-part annulus with several apertures and other structural features. These                                             
+problems were resolved by isolating a 35deg sector of the annular shield which remained                                           
+'clean', by introducing two 'non-conducting' radial joints. The joints use a Viton                                                
+rubber-kevlar double layer sandwiched between two overlapping aluminium plates to                                                 
+provide low transmission and reflectance of the propagating signals. By locating one                                              
+of the momentum sensors (DID 4) on this isolated clean 35deg sector, it is then possible                                          
+to obtain a relatively uniform response for reliable estimation of impact mass. A third                                           
+radial joint permits assembly of the shield structure, but in this case a specially                                               
+developed 'conducting' joint allows the larger sector (325deg) of the shield to be used                                           
+as a single surface with two sensors (DID 2, DID 3) mounted near to the two isolating                                             
+joints, which separate the large and small sectors. This revised shield design is shown                                           
+in Figure 1.                                                                                                                      
+                                                                                                                                  
+3.1 MSM/RSM electronic design                                                                                                     
+   The MSM/RSM electronics subsystem performs both analogue and digital process-                                                  
+ing of the signals arising at each sensor from a particle impact. Measured values are                                             
+passed to the CDF within DID for further processing and eventual transmission to the                                              
+On-Board Data-Handling System (OBDH). The RSM is treated as a fourth channel                                                      
+of the MSM subsystem.                                                                                                             
+ A block diagram of the MSM/RSM electronics subsystem is shown in Figure 2. The                                                   
+200 kHz component of the signal received from each piezoelectric sensor is extracted                                              
+by a 600 Ohm six-pole Chebyshev filter which is corrected for cable capacitance and                                               
+matches the 600 Ohm source impedance, offering a 4 dB insertion loss.                                                             
+  Each signal channel employs Over-Voltage Protection (OVP) at its front end to                                                   
+guard against the potentially large voltages that may be generated by the impact of                                               
+large particles close to the sensors; two DMOS FETs driven at their gates through                                                 
+100 V zener diodes connected to the input provide crowbar protection with a 'round-                                               
+ed' knee at signal levels of 100 V.                                                                                               
+                                                                                                                                  
+Figure 1. Schematic of Giotto front meteoroid                                                                                     
+shield showing sensor locations. RSM sensor                                                                                       
+(DID 5) is located on the rear shield in the                                                                                      
+region below the MSM (DID 2,3,4) sensors                                                                                          
+                                                                                                                                  
+The action of both filter and OVP enables the large dynamic range of sensor output                                                
+voltages (30 mV - 3 kV amplitude open circuit) to be handled safely and provides a                                                
+degree of compression. A test input on each channel permits signal injection directly                                             
+into the front end of each channel through a capacitively coupled 100:1 attenuator                                                
+network.                                                                                                                          
+  To accommodate the large dynamic range of input signals, the half-wave peak detec-                                              
+tor within each channel operates from two input sources. For signal levels below ap-                                              
+proximately 200 mV, two stages of amplification precede detection by a single diode                                               
+peak detector, in which the reservoir capacitor is in a resistive attenuator network. A                                           
+bypass diode connected directly to the input (after filter) handles the higher signal                                             
+range; a single operational amplifier provides buffering and a maximum output                                                     
+outage of 10 V may be achieved. Dual-time-constant (3 ms/30 ms) track and hold ac-                                                
+tion is provided by a logic-switched bleed resistor across the detector's reservoir                                               
+capacitor.                                                                                                                        
+  The amplified signals from each of the MSM (DID 2,3,4) channels are buffered,                                                   
+summed (equally weighted) and detected with a 100 micro s time constant and then in-                                              
+tegrated with a 3 s time constant to yield a composite analogue measure of instrument                                             
+activity for use as an analogue science channel, which is passed to the spacecraft.                                               
+  After peak detection, each channel is logarithmically amplified and scaled by a                                                 
+separate precision-temperature-compensated circuit containing two operational                                                     
+amplifiers, a precision-matched transistor pair and a constant current source; the input                                          
+range corresponds to an output range of 0-5 V with a slope of 1 V per decade. Test                                                
+outputs for each channel are taken from the output of each logarithmic amplifier; a                                               
+high series resistance ensures that connections do not introduce an EMI hazard. A                                                 
+shared analogue multiplexer and 8-bit ADC connected to all four channels enables the                                              
+CDF, via the dedicated interface to the subsystem, to measure signals detected on each                                            
+sensor channel.                                                                                                                   
+                                                                                                                                  
+Figure 2. MSM/RSM subsystem block diagram                                                                                         
+                                                                                                                                  
+  In parallel with the ADC circuitry, an analogue comparator connected to the output                                              
+of each logarithmic amplifier compares the activity on each channel with a threshold                                              
+level. The threshold level is generated for each channel by an 8-bit counter and 5 V                                              
+ADC and is set after each event by the CDF via the digital interface. Once set, the                                               
+counter decrements by one count every 160 micro s until it reaches zero, causing the                                              
+threshold level to fall linearly at 122 V/s. The counter period is carefully chosen so                                            
+that the threshold mimics (with a safe margin) the logarithmic decay of the acoustic                                              
+signals received by any one sensor following a single impact on the front shield direct-                                          
+ly at the sensor.                                                                                                                 
+  Monostables attached to the comparator outputs cause the peak detector of each                                                  
+channel to be switched to the 'hold' state for a maximum period of 3 ms following                                                 
+the detection of a threshold triggering on that channel. Gating logic also attached to                                            
+the comparator outputs sets an interface flag (REQ) to request CDF attention at each                                              
+event. The gating logic which responds to DID 2 and DID 3 events is mode-dependent,                                               
+being controlled by a CDF-set Coincidence Control (or mode) Register within the sub-                                              
+system, and is able to operate in one of four modes (see Section 6.7). After the CDF                                              
+has 'read' the digitized signal value for each event, it signals completion by pulsing                                            
+an interface flag (ACK), the request is cleared, the peak detectors are switched back                                             
+to the track state and the subsystem is ready to detect another 'event' which exceeds                                             
+the falling threshold level.                                                                                                      
+  A Timing-Word Register (TWR) within the subsystem indicates the order in which                                                  
+the comparators on each MSM channel were triggered. A 30 micro s monostable on each                                               
+comparator output feeds a priority encoder which encodes the channel number into                                                  
+two bits and clocks them along a dual-shift register. The shift register is made                                                  
+available through three-state buffers with the bits re-arranged so that they clock in                                             
+pairs from bit 2 to bit 7. An RSM coincidence flag appears in bit 1 and a CIS coin-                                               
+cidence flag (from the CIS electronics subsystem) appears in bit 0. The decoding of                                               
+the TWR is shown in Figure 3.                                                                                                     
+                                                                                                                                  
+Figure 3. MSM timing-word register coding                                                                                         
+                                                                                                                                  
+4.  Impact Plasma and                                                                                                             
+Momentum (IPM)                                                                                                                    
+Subsystem                                                                                                                         
+                                                                                                                                  
+4.1 Subsystem design                                                                                                              
+  The most sensitive detector of DIDSY is the Impact Plasma and Momentum (IPM)                                                    
+subsystem. This detector was designed and developed at the Max-Planck-Institut fur                                                
+Kernphysik, Heidelberg with the help of the Technical University of Munich and the                                                
+contractor ARGE-PEES, Wald-Michelbach. The IPM detector was manufactured at                                                       
+C. Gavazzi Controls, Milan, under the supervision of CNR-PSN, Rome and the                                                        
+Physics Departments of the Universities of Bari and Lecce. The sensor (Fig. 4) con-                                               
+sists of two impact ionization detectors, IPM-P, each with a sensitive area of 59.6                                               
+cm**2 for submicron- and micron-sized particles; a piezoelectric detector (IPM-M),                                                
+supplied by the University of Kent, Canterbury, and a probe (IPM-A) for monitoring                                                
+ambient plasma production provided by ESA Space Science Dept.                                                                     
+  The sensor is attached to the front shield of the Giotto spacecraft, which has a cut                                            
+out to allow dust particles to impinge directly on the sensors. One of the impact ioniz-                                          
+tion detectors (IPM-P sensor B) is covered by a 2.5 micro m thick, aluminized mylar film                                          
+while the other (IPM-P sensor A) is open. Since the penetration limit of the film                                                 
+depends on both the mass and density (Pailer & Grun, 1980) - the impact speed dur-                                                
+ing the Halley flyby is fixed at 69 km/s - the specific density of particulates can                                               
+therefore be estimated from the comparison of the count rates on both sensors (Grun                                               
+& McDonnell, 1983). The charges produced on impact on the gold-plated target plate                                                
+are collected by two oppositely biased (+/- 30 V) electrodes in front of the target plate                                         
+(Fig. 4). Charge signals of both polarity are amplified and processed by the elec-                                                
+tronics. The piezoelectric crystal is mounted onto the back of the target plate of both                                           
+impact ionization detectors. It registers, in coincidence with these detectors, impacts                                           
+of larger dust particles. A cross-calibration between impact ionization and acoustic                                              
+detection is thereby provided. The plasma probe (IPM-A) consists of a 1 cm**2 gold-                                               
+plated electrode which measures the plasma mainly induced by cometary dust and                                                    
+neutral gas impacting onto its surface. Besides being a diagnostic tool for analyz-                                               
+ing the ambient plasma, this probe also provides a means of assessing the effects of                                              
+the induced background plasma on the operation of the impact ionization detectors.                                                
+                                                                                                                                  
+ 4.2 Mechanical configuration                                                                                                     
+  The main constraints imposed by the Giotto mission on the design of the flight in-                                              
+strument have been the large expected temperature range (-50deg C to +125deg C for the                                            
+IPM sensor), low weight, acoustic isolation of the sensor from the spacecraft body,                                               
+and low electrical capacitance of the sensor. These requirements were met by the im-                                              
+plementation of suitable manufacturing processes and by extensive testing on                                                      
+dedicated test models.                                                                                                            
+  The IPM sensor is mounted on the outer spacecraft shield, while the electronics are                                             
+located in the DID electronics box (DID 6) on the main platform inside the spacecraft.                                            
+The IPM sensor is made from a frame constructed of an aluminium alloy, which is                                                   
+machined in such a way so as to reduce weight as much as possible whilst still main-                                              
+taining the necessary stiffness and strength. To achieve the necessary acoustic                                                   
+decoupling between the front shield and the acoustic detector fixed to the IPM target                                             
+plate, the frame is supported by four damping pedestals, which are mounted to the                                                 
+back of the front shield in such a way that a cut-out in the shield allows dust and plasma                                        
+to reach the sensitive areas of the IPM sensor. The acoustic-damping pedestals permit                                             
+a damping-factor adjustment upon integration in the spacecraft. The operating                                                     
+temperature range of the damping capability is -90deg C to +150deg C. This has been                                               
+achieved by using silicone rubber O-rings supported by aluminium-alloy pilots as a                                                
+damping medium.                                                                                                                   
+  The frame supports the target plate of the sensor; the latter is manufactured from                                              
+a flat, 1.5 mm-thick aluminium-alloy plate. The edge profile of the target plate has                                              
+been tapered for optimum response from the acoustic detector. Acoustic isolation be-                                              
+tween target and frame has been attained by using a high-viscosity silicone compound                                              
+                                                                                                                                  
+Figure 4. IPM (DID 1) sensor schematic                                                                                            
+including IPM-A, M and P                                                                                                          
+                                                                                                                                  
+together with the above-mentioned edge profile. Two square, high-purity, 0.1 mm                                                   
+thick gold foils are glued to the target plate in order to achieve maximum impaction                                              
+yields. Eight screws help to guarantee the electrical and mechanical connection to the                                            
+target plate. The target is kept firmly in place by G11 epoxy and the charge collector                                            
+with an epoxide adhesive and secured by an additional bridging clamp bolted to the                                                
+target plate. The target is firmly kept in place by G11 epoxy and the charge collector                                            
+assembly, which is screwed to the frame. The collector assembly is made from two                                                  
+sheets of G11 glass-reinforced epoxy resin. After cutting the slits and gold coating the                                          
+bottom collector and top shielding surfaces, both sheets are bonded together like a                                               
+multilayer printed-circuit board. The charge collector assembly of sensor B is covered                                            
+by a 2.5 micro m thick mylar film, which is coated with 0.16 micro m of aluminium on the in-                                      
+side surface. Solithane 113 is used for glueing the coated mylar to the top collector                                             
+surface. Provision is made to connect the aluminium coating to the shielding surfaces                                             
+of the collector electrically.                                                                                                    
+  The plasma probe IPM-A, visible between the two IPM-P sensors (see frontispiece),                                               
+was manufactured from glass-reinforced epoxy, similar to multilayer printed-circuit                                               
+board. A 1 cm**2, circular, gold-plated charge-collecting electrode (and electric guard                                           
+-17V) is exposed in the centre of the collector strip. The rest of the surface is gold-                                           
+plated and grounded. During launch and the initial phase of interplanetary cruise, the                                            
+cut-out in the bumper shield for the IPM sensor is covered by a spring-loaded                                                     
+multilayer roll-up cover. All front-end passive electrical components are located in a                                            
+small electronics box at the side of the IPM sensor. All electrical connections to the                                            
+IPM sensor are made through a connector at the bottom of the electronics box and in-                                              
+clude six shielded lines for the signals and six lines for bias voltages and ground.                                              
+                                                                                                                                  
+Figure 5. Block diagram of the IPM-P                                                                                              
+subsystem electronics                                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+4.3 IPM-P                                                                                                                         
+  The signals from the IPM-P sensors (A and B) are processed in parallel. In this way,                                            
+no dead-time is introduced on one sensor if the other is busy. Figure 5 shows a block                                             
+diagram of the IPM-P subsystem electronics. For each sensor, the signals from both                                                
+the positively (electrons) and negatively (ions) biased charge collectors are amplified                                           
+in charge-sensitive preamplifiers (CSA). The peaks are detected and held while the                                                
+amplitudes are converted to digital numbers in 6-bit analogue-to-digital converters.                                              
+The conversion time for each event (i.e. signals exceeding the detection threshold                                                
+2.5 X 10**-14C) on one or both charge collectors] is <= 500 micro s. If both ion and electron                                     
+signals occur within 20 micro s of each other, a coincidence flag is raised. This has been                                        
+found to be true for all dust impact events and it is therefore an indicator for this type                                        
+of event.                                                                                                                         
+  A typical analogue-to-digital scheme covers the charge range from 2.5 X 10**-14C to                                             
+2.5 X 10**-8 C with a resolution of 40%; individual charge-measuring channels may                                                 
+deviate by 20% from each other. To each 6-bit amplitude word, two more bits are                                                   
+added in order to complete an 8-bit data word. The four 8-bit words constitute a set                                              
+of IPM-P discrete data. The electron-ion coincidence of sensor A and B is indicated                                               
+in the least significant bits (LSB) of words 1 and 3, respectively. If, within 150 micro s                                        
+after this coincidence, an IPM-M signal has been detected, bits 2 of words 1 or 3 are                                             
+set to 'one'. A coincidence between any signal on sensor A and B within 0.5 micro s is                                            
+indicated in the LSB of word 4. This coincidence indicates a noise event, which has                                               
+stimulated the electronics of both sensors. Once every 16 data gathering intervals,                                               
+calibration pulses are generated and fed into the front end of the signal-processing                                              
+channels; data from these calibration pulses are identified by the two last bits of word                                          
+2.  Alternating large and small amplitude calibration pulses are generated. The                                                   
+stimulated electron and ion signals occur in coincidence and therefore the LSBs of                                                
+words 1 and 4 are set to 'one'. After each event (i.e. threshold exceeded on one of                                               
+the four IPM-P charge-measuring channels), a request flag is set. Within 4 to 10 micro s,                                         
+the CDF reads out the four IPM-P discrete data words for further processing. If an                                                
+electron ion coincidence is set for this event, then no further event can overwrite these                                         
+data before they are read out. No coincidence data are overwritten by subsequent                                                  
+events. In this way, up to 250 discrete events can be read out per second.                                                        
+  Eight 8-bit counters per sensor count coincident events in different amplitude (ion                                             
+signal) intervals and will be used to establish a coarse charge distribution for dust im-                                         
+pacts at times when the impact rate is too high to allow the transmission of all impacts                                          
+per Data-Gathering Interval (DGI) with their complete information (discrete events).                                              
+The DIDSY CDF further processes the information received from the IPM-P elec-                                                     
+tronics, as described in Section 6.8. Impact events are expected to occur in categories                                           
+2 to 5, while noise events are transmitted as categories 6 and 7 (see Section 6.8). One                                           
+event (always the last one) of each category or category combination (i.e. 1,6,7) is                                              
+transmitted during each data-gathering interval.                                                                                  
+  Additionally, each event of categories 2 to 7 is counted into four different amplitude                                          
+range counters. The counter is determined by the corresponding ion amplitude value.                                               
+The four amplitude ranges are digits 1 through 7, 8 through 17, 18 through 31 and                                                 
+32 through 63. These 24 counters accumulate up to 255 events of a given category                                                  
+and amplitude range per data-gathering interval.                                                                                  
+                                                                                                                                  
+4.4 IPM-M                                                                                                                         
+  The IPM-M electronics subsystem performs both analogue and digital processing of                                                
+signals generated by the piezoelectric microphone mounted on the IPM (DID 1) sensor                                               
+target plate. In many respects, the hardware is similar in concept and realization to                                             
+that of the MSM/RSM electronics subsystem described above.                                                                        
+  A block diagram of the IPM-M electronics subsystem is shown in Figure 6. Filtering                                              
+of the signal from the 200 kHz resonant piezoelectric microphone element is perform-                                              
+ed using a 300 Ohm matched five-pole Chebyshev filter with a 4 dB insertion loss, which                                           
+is again corrected for cable capacitance.                                                                                         
+  Over-Voltage Protection (OVP) is provided at the front end. Two back-to-back                                                    
+stacked pairs of small signal transistors provide a sharp knee at signal levels of 1.4 V,                                         
+which meets the voltage compliance requirements of the sensitive front end whilst                                                 
+passing the relatively low range of sensor output voltages from 1 mV to 300 mV                                                    
+amplitude open circuit. Test signals may be injected into the front end (after OVP)                                               
+via a capacitively coupled 100:1 attenuator test input network.                                                                   
+  After filtering, a two-stage preamplifier provides buffering and 33 X voltage gain.                                             
+A 200 kHz, single-stage, Twin-T active filter with Q=4 improves the system signal-                                                
+to-noise ratio by about 7 dB and provides 11 X voltage gain. A two-stage peak detector                                            
+                                                                                                                                  
+Figure 6. Block diagram of the IPM-M                                                                                              
+subsystem electronics                                                                                                             
+                                                                                                                                  
+and single-stage buffer similar to those in the MSM operate in two ranges and incor-                                              
+porate logic-controlled (3 ms/30 ms) track/hold time-constant switching. The at-                                                  
+tenuator network across the reservoir capacitor is not required; feedback between the                                             
+first peak detector stage and the Twin-T filter aids stability. An analogue-science out-                                          
+put based upon 100 micro s detection and 3 s integration is passed to the spacecraft.  A                                          
+logarithmic amplifier compresses the detected signal to a 0-5 V range and scales it                                               
+to 1 V per decade prior to digitization. A test output is taken from the output of the                                            
+logarithmic amplifier.                                                                                                            
+  An analogue comparator on the output of the peak detector provides coincidence in-                                              
+formation to IPM-P by triggering a l ms monostable pulse for each output signal that                                              
+exceeds 1 mV. The maximum delay between a particle impact and coincidence signal                                                  
+generation of 600 micro s results mainly from acoustic propagation across the target plate.                                       
+Following an event or the receipt of a coincidence pulse from IPM-P, the peak detector                                            
+is switched to the track state for approximately 1 ms.                                                                            
+  A single-channel 5 V ADC, a 5 V decrementing DAC and an analogue comparator                                                     
+allow detected signals to be measured and threshold levels to be set under CDF con-                                               
+trol. The ADC performs continuous conversions every 25 micro s, placing each result into                                          
+an 8-bit register. Upon detection of an impact or receipt of a coincidence signal, the                                            
+register contents are frozen, making a pre-event value related to the acoustic noise en-                                          
+vironment on the target plate available to the CDF. Reading the pre-event value                                                   
+restarts ADC conversions and makes available the post-event value. Request                                                        
+(REQ)/Acknowledge (ACK) handshaking is provided on the CDF interface.                                                             
+                                                                                                                                  
+4.5 IPM-A                                                                                                                         
+  The saturation current of the secondary electrons emitted by impact of the gas and                                              
+dust components of the cometary coma is measured by this sensor. This current is con-                                             
+verted to a voltage and then logarithmically compressed to yield coverage of more than                                            
+six decades of current density. The output is fed to the experiment housekeeping for-                                             
+mat and is sampled approximately once per second in the nominal encounter format.                                                 
+The 8-bit telemetry digitization yields a nominal resolution of 5% over most of the                                               
+sensitive range of 10**-6 to 0.3 A/m**2.                                                                                          
+  A block diagram of the IPM-A subsystem electronics is shown in Figure 7.                                                        
+                                                                                                                                  
+Figure 7. Block diagram of the IPM-A subsystem electronics.                                                                       
+                                                                                                                                  
+4.6 IPM cover                                                                                                                     
+  The efflux envelope of the spacecraft transfer propulsion system includes the sen-                                              
+sitive surface of the IPM sensor. Due to the conditions prevailing at the time of engine                                          
+ignition, the sensor surface would be cold; there is therefore a high probability that                                            
+products of combustion would be deposited on the sensor surface, causing significant                                              
+deterioration in performance.                                                                                                     
+  Spacecraft resources precluded the conventional approach of a motor-driven latching                                             
+cover. The solution adopted meets the constraints imposed and also improves                                                       
+the thermal environment of the IPM. The design utilizes a three-layer thermal blanket,                                            
+which has three embedded, flat strip spring elements. When released, the cover is roll-                                           
+ed up compactly to one side of the sensor aperture (Fig. 8). During launch and for                                                
+the greater part of the cruise phase of the mission, the cover is extended over the sen-                                          
+sor and held in place by a short length of nylon filament, which passes over a heater                                             
+wire. The release operation consists simply of melting through the filament. A spring                                             
+loaded carrier ensures consistent contact between the heater wire and filament; as the                                            
+melting operation proceeds, the heater wire cuts through the filament.                                                            
+  Since no data lines are available to confirm release, use is made of a sensor-mounted                                           
+thermistor to sense the change in temperature as solar radiation falls on the sensor                                              
+through the open aperture. Incorporation into the cover design of the thermal blanket                                             
+results in an improved thermal environment for the sensor.                                                                        
+                                                                                                                                  
+5. Capacitor Impact                                                                                                               
+Sensor                                                                                                                            
+  This sensor measures the spatial distribution of dust particles in the 1-5 micro m range;                                       
+such particles form a major part of the comet and meteorite dust distribution. The                                                
+measurement range is intermediate between those of the IPM-P and RSM sensors. The                                                 
+CIS sensor subsystem was designed and developed at ONE/CERT, Toulouse with                                                        
+the assistance of the contractor Steel, Mazeres/Salat.                                                                            
+  The CIS records the discharge of a parallel-plate capacitor when impacted by a par-                                             
+ticle whose mass exceeds a threshold value. This type of sensor has previously been                                               
+used in space for detecting micrometeoroids, in particular for the Pegasus series of                                              
+satellites (Broderick, 1968; Dozier, 1966). The detection threshold can be determined                                             
+precisely. The operational reliability is good and the technology is relatively simple.                                           
+                                                                                                                                  
+Figure 8. The IPM sensor positioned beneath                                                                                       
+its aperture in the front shield. Note the DID 8                                                                                  
+cover and its release mechanism after                                                                                             
+deployment                                                                                                                        
+                                                                                                                                  
+For the Giotto mission, although the impact velocity is very high (of the order of                                                
+69 km/s), it is well known, and this makes it relatively simple to interpret the                                                  
+measurements.                                                                                                                     
+  The detailed construction of the CIS sensor is shown in Figure 9. It comprises a                                                
+20 micro m thick aluminium sheet bonded onto 25 micro m kapton dielectric whose opposite                                          
+face has a 1000 A vacuum-deposited coating of aluminium. The system forms a                                                       
+100 nF capacitor with a 1000 cm**2 surface area.                                                                                  
+  The sensor is bonded to the outer face of the spacecraft front shield with a 10 micro m                                         
+insulating kapton layer, using an adhesive capable of withstanding the high                                                       
+temperatures that may be experienced during the mission. The sensor thickness was                                                 
+chosen such that the detection threshold occurs at particle mass of approximately                                                 
+10**-10 g at the expected cometary flyby velocity. The many studies made on high-                                                 
+velocity impacts (Pailer & Grun, 1980; Igenbergs et al., 1982; Mandeville, 1979;                                                  
+Swift et al., 1982) allow the marginal penetration of thin films to be accurately defin-                                          
+ed, providing a calibration point midway between the 10**-15 g and the 10**-7 g penetra-                                          
+tion limits of the IPM-P 2.5 micro m aluminium penetration foil and the Giotto front shield                                       
+respectively.                                                                                                                     
+ The usable surface area of the sensor was chosen to obtain a significant number of                                               
+impacts far from the cometary core and to avoid saturation during the final phase of                                              
+the mission. The CIS subsystem contained in the DID 6 electronics box includes a                                                  
+discharge signal-shaping circuit with a fixed detection threshold, a pulse counter and                                            
+a sensor charge circuit with a time delay and current limiter. The intermediate elec-                                             
+trode of the capacitor is charged from the DID power converter, using a fixed 50 V                                                
+(no load) supply. The top electrode of the sensor is connected to the experiment                                                  
+ground so that the potential on the outer part of the sensor is close to that of the satellite                                    
+structure (see Fig. 9). The CDF reads the 8-bit counter four times per DGI.                                                       
+ The count rate is limited to about 1000 impacts by the recharge time and by the use                                              
+of a fixed, known dead time of about 1 ms. The actual impact rate may be calculated                                               
+from the recorded count using:                                                                                                    
+                                                                                                                                  
+ R = N/(1 - NT)                                                                                                                   
+                                                                                                                                  
+where R is the real impact rate, N the recorded impact rate and T the dead time.                                                  
+ An analogue channel measures the mean voltage across the capacitor, providing a                                                  
+check on sensor operation and a signal inversely proportional to the discharge rate.                                              
+ A coincidence signal is passed to the MSM/RSM subsystem to identify impacts                                                      
+occurring on the CIS sensor.                                                                                                      
+                                                                                                                                  
+5.1 Sensor operation                                                                                                              
+  Depending on the impact conditions, one of two processes may come into play (Stor-                                              
+ti et al., 1968; Laney et al., 1964).                                                                                             
+  When a particle strikes or passes through the sensor, a conduction path is set up                                               
+                                                                                                                                  
+Figure 9. Schematic of the CIS sensor (DID 7)                                                                                     
+showing the multilayer construction                                                                                               
+                                                                                                                                  
+which discharges the capacitor. This may be due to an electromechanical failure of                                                
+the dielectric, i.e. by a compression due to the passage of a shock wave. This is true                                            
+for a marginal impact having too little energy to perforate the sensor. Alternatively,                                            
+it may result from the formation of a plasma, by evaporation and ionization of the sen-                                           
+sor material during a partial or complete perforation. Under the high impact speeds                                               
+during the Halley flyby, the second process is likely to be dominant.                                                             
+  The local evaporation of the electrode materials prevents a permanent short-circuit,                                            
+which would otherwise degrade the operation of the sensor. The sensor, once recharg-                                              
+ed, recovers its initial properties and is ready to detect a new impact.                                                          
+                                                                                                                                  
+5.2 CIS performance                                                                                                               
+  The sensor's operation was verified by simulating a discharge with a FET circuit                                                
+triggered by a pulse generator. To verify the behaviour of the compressor circuit, a                                              
+random pulse generator was used. Best results were obtained by triggering the                                                     
+discharge circuit with random pulses from a radioactive source.                                                                   
+                                                                                                                                  
+6. Central Data Formatter                                                                                                         
+6.1 Circuit description                                                                                                           
+  The DIDSY Central Data Formatter (CDF) outlined in Figure 10 consists of an                                                     
+RCA CDP1802 CPU together with 1024 bytes of fusible-link PROM and 320 bytes                                                       
+of static RAM. Interfacing with the experiment sensor subsystems is by means of                                                   
+memory-mapped I/0.                                                                                                                
+  In order to minimize power consumption, mass and volume, the CDF was designed                                                   
+utilizing CMOS technology throughout, except for one subsystem interface where V-                                                 
+MOS transistors have been used for level shifiing.                                                                                
+  Flat-pack devices have been used wherever possible, but for the LSI units it was                                                
+necessary to use dual-in-line variants. The power consumption of the CDF is approx-                                               
+imately 100 mW from a single 5 V supply.                                                                                          
+                                                                                                                                  
+6.2 CDF/Remote Terminal Unit (RTU) interface                                                                                      
+  The spacecraft On-Board Data Handling (OBDH) system collects bytes of experi-                                                   
+ment data via the RTU and the 8-bit Data Output Register at fixed times during the                                                
+spacecrafi telemetry frame. Afier the transfer of a word, the output register is loaded                                           
+with the next word using the Direct Memory Access (DMA) facility of the 1802 pro-                                                 
+cessor. Command of the experiment modes is via a serial-in/parallel-out shift register.                                           
+Receipt of a command by the CDF causes Event Flag I of the 1802 to be asserted.                                                   
+The command remains in the register and is acted upon at the beginning of the next                                                
+telemetry format.                                                                                                                 
+   Five bi-level status signals from the DID experiment are inserted into the                                                     
+housekeeping telemetry format to indicate the state of the MSM subsystem and data-                                                
+handling programme. Four experiment subsystems (CIS, MSM, IPM-A & IPM-M)                                                          
+produce analogue data which is transferred directly to the RTU for digitization. Six-                                             
+                                                                                                                                  
+Figure 10. Block diagram of the DID Central                                                                                       
+Data Formatter (CDF)                                                                                                              
+                                                                                                                                  
+teen parameters within the experiment electronics box are monitored (fifteen supply                                               
+voltages and one temperature sensor). These signals are conditioned and multiplexed                                               
+within the experiment before being transferred to the RTU.                                                                        
+   The CDF has been designed and programmed such that there are an integral number                                                
+of experiment Data Gathering Intervals (DGI) in a spacecraft telemetry format. Tim-                                               
+ing of the experiment data gathering and formatting is controlled by the DMA data-                                                
+transfer function, and the process is synchronized by use of the onboard format pulse,                                            
+which causes a CDF hardware reset. The first format pulse received by the CDF after                                               
+power-on initializes the internal byte transfer counter and thus establishes syn-                                                 
+chronism.                                                                                                                         
+                                                                                                                                  
+6.3 CDF-subsystem interfaces                                                                                                      
+  The CDF communicates with the experiment subsystems via memory-mapped bi-                                                       
+directional parallel ports. Each port has associated with it a number of address and                                              
+handshake lines, and one of the 1802 event flags which are polled in the main program                                             
+to determine when a particular subsystem requires servicing.                                                                      
+                                                                                                                                  
+6.4 System memory                                                                                                                 
+  The CDF program is contained in two Harris HM6641 fusible link PROM devices.                                                    
+The executable code occupies 96% of the available 1024 bytes with a further 3% being                                              
+occupied by look-up tables.                                                                                                       
+  There are 320 bytes of static RAM in the CDF, 256 bytes of which constitute the                                                 
+data output buffers. 32 bytes are used exclusively for the uncompressed IPM-P                                                     
+hardware-accumulated data. The remaining 32 bytes are used for a program stack and                                                
+a general scratchpad area.                                                                                                        
+                                                                                                                                  
+6.5 Operation                                                                                                                     
+  At power-on and at the start of each telemetry format, the CDF receives a hardware                                              
+reset. In this way any loss of synchronism between spacecraft and CDF is rectified.                                               
+Digital science data are transferred from the experiment to the OBDH in the form of                                               
+a 128-byte Did Data Block (DDB). The system is arranged so that as one DDB is being -                                             
+output from one 128-byte section of memory, by DMA transfer, data received from                                                   
+the subsystems are stored in a second 128-byte section. A continuous check is made                                                
+on the DMA process so that when transfer of a DDB is complete, operations on the                                                  
+two memory sections are interchanged and the process repeats. Afler each DDB byte                                                 
+transfer, the memory location is cleared, so ensuring that the buffer is completely                                               
+empty at the start of each DDB transfer. The time taken to transfer one DDB is defined                                            
+as a DGI and it follows that the information contained in a DDB is that which was                                                 
+collected in the previous DGI. The first two bytes in every DDB contain a 16-bit                                                  
+counter which identifies a block in any period of continuous operation of the ex-                                                 
+periment.                                                                                                                         
+  The total number of telemetry words allocated to the DID experiment in Format 1                                                 
+is 1024 words/format and in Format 2 2560 words/format. Hence there are 8 DDB                                                     
+and 20 DDB in Formats 1 and 2, respectively.                                                                                      
+  The DGI is also a function of spacecraft telemetry rate. The relationship between                                               
+format, data rate, DDB and DGI is shown in Table 2.                                                                               
+                                                                                                                                  
+6.6 Data formatting                                                                                                               
+  The scientific data are contained in a fixed format in the 128-byte DDB as follows:                                             
+                                                                                                                                  
+-------------------------------------------------------------------------------------                                             
+Table 2. Relationship between format, telemetry rate, DDB and DGI                                                                 
+                                                                                                                                  
+                                        Format 1            Format 2                                                              
+                                        1024 DID words      2560 DID words                                                        
+                                        8 DDB               20 DDB                                                                
+-------------------------------------------------------------------------------------                                             
+Data rate (kbit/s)  Format time (s)     Average time-DGI (s)                                                                      
+-------------------------------------------------------------------------------------                                             
+23                 45.33                5.67               2.27                                                                   
+46                 22.67                2.83               1.13                                                                   
+-------------------------------------------------------------------------------------                                             
+                                                                                                                                  
+Bytes  0-1     16-bit DDB Counter incremented every DGI. Loss of power, loss                                                      
+               of onboard sync. or bad data transmission show as a corrupted                                                      
+               sequence in the counter value.                                                                                     
+Byte   2       MSM Mode                                                                                                           
+               Bit 7 (MSB)     MSM auto sampling on                                                                               
+               Bits 6,5        MSM 'base' mode in which the MSM operates                                                          
+                               except for 3 DDB/format in auto mode                                                               
+               Bits 4,3,2      No meaning                                                                                         
+               Bits 1,0        Actual MSM mode active in this DDB                                                                 
+Bytes 3, 4     16-bit value of total number of DID 7 (CIS) events                                                                 
+Bytes 5-10     DID 2/3 (MSM) Event magnitude bins                                                                                 
+               Calculation of magnitude for DID 2/3 depends on MSM mode                                                           
+Bytes 11-16    DID 4 (MSM) Event magnitude bins                                                                                   
+Bytes 17-20    DID 5 (MSM) Event magnitude bins                                                                                   
+Bytes 21-24    DID 1 M (IPM-M) Event magnitude bins                                                                               
+Bytes 25-28    DID 1P (IPM-P) Category 2 event/magnitude counter                                                                  
+Bytes                                                                                                                             
+Bytes 29-32    DID 1P (IPM-P) Category 3 event/magnitude counter                                                                  
+Bytes 33-36    DID 1P (IPM-P) Category 4 event/magnitude counter                                                                  
+Bytes 37-40    DID 1P (IPM-P) Category 5 event/magnitude counter                                                                  
+Bytes 41-44    DID 1P (IPM-P) Category 6 event/magnitude counter                                                                  
+Bytes 45-48    DID 1P (IPM-P) Category 7 event/magnitude counter                                                                  
+Bytes 49-54    DID 1P (IPM-P) Category 2 event data                                                                               
+Bytes 55-60    DID 1P (IPM-P) Category 3 event data                                                                               
+Bytes 61-66    DID 1P (IPM-P) Category 4 event data                                                                               
+Bytes 67-72    DID 1P (IPM-P) Category 5 event data                                                                               
+Bytes 73-78    DID 1P (IPM-P) Category cal/6/7 event data                                                                         
+Bytes 79,80    DID 1M (IPM-M) Discrete event data                                                                                 
+Bytes 81-85    MSM Category event counters                                                                                        
+Bytes 86-90    MSM Category 1 event data                                                                                          
+Bytes 91-95    MSM Category 2 event data                                                                                          
+Bytes 96-100   MSM Category 3 event data                                                                                          
+Bytes 101-105  MSM Category 4 event data                                                                                          
+Bytes 106-110  MSM Category 5 event data                                                                                          
+Byte 111       MSM Maximum event magnitude (DID 2,3,4)                                                                            
+Bytes 112-127  Hardware accumulated data (compressed)                                                                             
+                                                                                                                                  
+ For the MSM and IPM-P (DID 1P) subsystems each event is categorized by testing                                                   
+for internal and external co-incidence. The number of events in each DGI is totalled                                              
+and the complete data set for the last example in each category is held in the DDB.                                               
+For both subsystems, the categories are mutually exclusive and thus the total number                                              
+of events processed in each DGI is the sum of the category event counters in the                                                  
+corresponding DDB, provided that none of the counters have saturated. In the case                                                 
+of the IPM-P subsystem, the data from the once-per-format calibration event are                                                   
+retained and not overwritten by any category-6 or -7 events. The relevant event                                                   
+counters are not affected.                                                                                                        
+   IPM-P hardware accumulated data are collected from the subsystem at various times                                              
+during a DGI. The counts for each accumulator are totalled at the end of the DGI and                                              
+compressed into one 8-bit word per channel.                                                                                       
+   DID 7 (CIS) counts are collected four times per DGI and are totalled before inser-                                             
+tion into the DDB.                                                                                                                
+   IPM-M (DID 1M) data are always collected in conjunction with IPM-P data, and                                                   
+are dealt with in the same manner as those collected after an individual IPM-M flag                                               
+request. There is no categorization, the magnitude binning and discrete data formatting                                           
+being done in the same manner as for MSM.                                                                                         
+                                                                                                                                  
+6.7 MSM data handling                                                                                                             
+   Event Flag 4 signifies that an impact has occurred and the CDF collects the event                                              
+magnitude bytes from the analogue-to-digital converter associated with each MSM                                                   
+sensor together with the timing word, which contains information of internal MSM                                                  
+and MSM/C1S coincidence. Threshold levels are written back to the subsystem,                                                      
+producing dead-times proportional to the event magnitude. These are followed by an                                                
+acknowledge pulse to reactivate the subsystem.                                                                                    
+  The event is then categorized and the appropriate category counter incremented.                                                 
+There are five categories:                                                                                                        
+                                                                                                                                  
+Category 1         CIS coincidence with either DID 2, DID 3, DID 4 singly or in any                                               
+                   combination.                                                                                                   
+Category  2        Coincidence between DID 2, DID 3, DID 4, but only in the absence                                               
+                   of CIS                                                                                                         
+Category  3        DID 5 (RSM) without DID 2, DID 3 or DID 4                                                                      
+Category  4        DID 4 only                                                                                                     
+Category  5        Any other event not in categories 1 to 4.                                                                      
+                                                                                                                                  
+The discrete data for the event are put into the DDB in a position fixed by the category                                          
+determined above. Data from events containing RSM data are, however, always                                                       
+written into the category-3 slot. Any data previously written into the selected category                                          
+slot during the DGI is automatically overwritten.                                                                                 
+ Over the period of a DGI, the magnitude of outputs from sensors DID 2, 3 and 4                                                   
+are compared for every MSM event. The highest value is held in byte 111 of the DDP.                                               
+In order to indicate the source, the low 2 bits of the number are masked out and                                                  
+replaced with a sensor identification code:                                                                                       
+                                                                                                                                  
+Sensor             Number                                                                                                         
+                                                                                                                                  
+DID 2              01                                                                                                             
+DID 3              10                                                                                                             
+DID 4              11                                                                                                             
+                                                                                                                                  
+Finally, a counter corresponding to the signal magnitude is incremented. The handling                                             
+of DID 2 and DID 3 values is dependent upon the MSM mode. In Mode 1, the DID                                                      
+3 value is ignored and the DID 2 value is used, whereas in Mode 2 it is the DID 3                                                 
+value which is taken. In modes 0 and 3, the values of the two signals are added and                                               
+divided by 2; the resulting number is used as the event magnitude.                                                                
+  DID 2 and DID 3 sensors can be operated in four hardware modes, for which there                                                 
+are corresponding CDF program variations. These modes are:                                                                        
+                                                                                                                                  
+Mode               Operation                                                                                                      
+                                                                                                                                  
+0              DID-2 and DID-3 coincidence is required before the event is                                                        
+               recognized                                                                                                         
+l              DID-2 only. DID-3 is ignored                                                                                       
+2              DID-3 only. DID-2 is ignored                                                                                       
+3              Either DID-2 or DID-3, no coincidence is required.                                                                 
+                                                                                                                                  
+DID 4 and DID 5 functioning is not affected by mode selection. When switched to                                                   
+'auto sample', three DDBs in each format contain modes other than the selected 'base'                                             
+mode.                                                                                                                             
+  The arrangement is as follows:                                                                                                  
+                                                                                                                                  
+               DDB in format                                                                                                      
+                                                                                                                                  
+                                                         8 (FORMAT 1)                                                             
+Base mode      l    2    3    4    5    .    .    .     20 (FORMAT 2)                                                             
+0              0    3    2    l    0    .    .    .    0                                                                          
+l              l    0    3    2    1    .    .    .    l                                                                          
+2              2    l    0    3    2    .    .    .    2                                                                          
+3              3    2    l    0    3    .    .    .    3                                                                          
+                                                                                                                                  
+At power-on, the experiment starts in Mode 0 Auto Sample. The mode can be changed                                                 
+at any time by command; the new mode selected takes effect at the start of the format                                             
+following receipt of the command by the CDF.                                                                                      
+                                                                                                                                  
+6.8 IPM-P discrete event data handling                                                                                            
+  The IPM-P subsystem contains two sections which are accessed through the same                                                   
+port. Data from individual events, signalled by Event flag 2, are read from the four                                              
+addresses and acknowledged. Following an IPM-P read operation, the IPM-M sensor                                                   
+data are collected, ensuring that any coincident information is gathered.                                                         
+  In addition to the discrete outputs, there are 16 high-speed hardware counters, which                                           
+are read 18 times per DGI. The timing for this operation is derived from the                                                      
+Experiment/OBDH data transfer (see Section 6.1).                                                                                  
+  The IPM-P subsystem digital electronics operates from 10 V rather than the 5 V level                                            
+used for the CDF. Conversion from 5 to 10 V is achieved using V-MOS transistors                                                   
+with resistive pull-ups. Conversion down to 5 V is achieved by simple 2:1 resistive                                               
+dividers.                                                                                                                         
+  The four sensor output bytes from the IPM-P discrete-event section contain six bits                                             
+of magnitude information and two bits of coincidence calibration flags. If either of the                                          
+calibration flags is set, the four data bytes are written into bytes 73-76 of the DDB,                                            
+and no other processing is done. Otherwise the coincidence bits are tested, first for                                             
+Categories 3, 5 or 7 (sensor B) and then for Categories 2,4 or 6 (sensor A). The overall                                          
+arrangement is:                                                                                                                   
+                                                                                                                                  
+  Category       Event Type                                                                                                       
+                                                                                                                                  
+  1              Calibration data                                                                                                 
+  2              Sensor A electron/ion coincidence                                                                                
+  3              Sensor B electron/ion coincidence                                                                                
+  4              Sensor A/IPM-M coincidence                                                                                       
+  5              Sensor B/IPM-M coincidence                                                                                       
+  6              Sensor A no coincidence data                                                                                     
+  7              Sensor B no coincidence data                                                                                     
+                                                                                                                                  
+Except for the calibration data, the A and B sensors are treated separately. When the                                             
+category of the event has been determined, the appropriate event/magnitude counter                                                
+in the DDB is incremented and the data written into the correct event data slot. In the                                           
+case of Category 6 or 7 events, a test is made to ensure that no calibration data are                                             
+overwritten. As with the MSM, the data present in the event discrete data slots are                                               
+those from the last event of that category to occur before the end of the DGI.                                                    
+  A reset pulse is sent to the IPM-P subsystem to re-enable event detection.                                                      
+  Over the period of one DGI, the 16 IPM-P hardware accumulator bytes are                                                         
+transferred 18 times. After each read function, the data are added into 16 two-byte                                               
+scratchpad registers, thus providing a maximum possible count of 262144. At the end                                               
+of the DGI, the count contained in each register is compressed into an 8-bit word and                                             
+put into the DDB. Counts less than 128 are uncompressed, but are shifted left once                                                
+and the LSB is forced to zero. Numbers greater than 127 are shifted right until the                                               
+most significant bit is in the bit-8 position. The bottom four bits are then masked out                                           
+and replaced by a number indicating the number of right shifis. The LSB (bit 0) is                                                
+forced to 1 to indicate that compression has occurred.                                                                            
+                                                                                                                                  
+ Example 1: Unshifted count                                                                                                       
+                                                                                                                                  
+        Actual count                     Value in DDB                                                                             
+        01011101                         10111010                                                                                 
+                                                                                                                                  
+ Example 2: Shifted count                                                                                                         
+                                                                                                                                  
+       Actual count                                                                                                               
+       0000101110101111                                                                                                           
+                                                                                                                                  
+       shift right 3 times                                                                                                        
+       1 01110101                                                                                                                 
+                                                                                                                                  
+       mask out lower 4 bits                                                                                                      
+       1 01110000                                                                                                                 
+                                                                                                                                  
+       add in number of shifts                                                                                                    
+       1 01110110                                                                                                                 
+                                                                                                                                  
+       force LSB= 1                                                                                                               
+       1 01110111                                                                                                                 
+                                                                                                                                  
+       final value                     Value in DDB                                                                               
+       (1) 01110111                    01110111                                                                                   
+       note implied leading bit                                                                                                   
+                                                                                                                                  
+A maximum error of - 3% is caused by truncation when the number is compressed.                                                    
+                                                                                                                                  
+6.9 IPM-M data handling                                                                                                           
+  The IPM-M subsystem shares the MSM port hardware. Two addresses are used.                                                       
+After Event flag 3 has been detected, the IPM-M data output is read twice, the sub-                                               
+system threshold is set, and the operation is acknowledged. The IPM-M is also read                                                
+in conjunction with the IPM-P. The data present at the interface at the start of a read                                           
+correspond to the signal level just prior to the event. This pre-event value is read and                                          
+stored and another conversion is made by the IPM-M in order to determine the event                                                
+value. The magnitude counter corresponding to the event is incremented and the event                                              
+and pre-event data are put in the DDB.                                                                                            
+                                                                                                                                  
+6.10 CIS data handling                                                                                                            
+  The CIS-CDF interface transfers one 8-bit word 4 times per DGI. The data transfer-                                              
+red are accumulated in bytes 3 and 4 of the DDB for the duration of one DGI. No                                                   
+processing of these data are carried out.                                                                                         
+                                                                                                                                  
+6.11  Event-magnitude computation                                                                                                 
+                                                                                                                                  
+  A single subroutine is used for all calculations of event magnitude and incrementing                                            
+the appropriate counter. The subroutine is called with two parameters: counter address                                            
+and start of look-up table. Separate look-up tables are provided for DID-2/3, DID-4,                                              
+DID-5, IPM-M and IPM-P.                                                                                                           
+  The first lookup-table value is subtracted from the input value being tested. If the                                            
+result is negative, the first magnitude counter is incremented; if the result is positive,                                        
+the look-up table and counter pointers are incremented and the process repeats until                                              
+the result finally goes negative.                                                                                                 
+  When incrementing the counters a check is made and the count stops at 255 to pre-                                               
+vent roll-over.                                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+7. Power Converter                                                                                                                
+                                                                                                                                  
+The requirement for electrical isolation between subsystems and the need for many                                                 
+different supply-voltage levels results in a DC-DC converter with 16 separate out-                                                
+puts. The converter is a high-frequency-driven, two-phase device (Fig. 11).                                                       
+  The internal oscillator runs free at approximately 122 kHz and drives a bi-stable                                               
+multivibrator to produce 1:1 mark/space square-wave signals to drive two HEXFET                                                   
+transistors, which in turn drive the converter transformer. For reasons of mass,                                                  
+volume and efficiency no regulation is provided on the outputs: the limited input                                                 
+voltage swing and relatively constant load ensure adequate performance.                                                           
+  A synchronizing signal from the spacecraft feeds the input to the phase-locked loop                                             
+system, thus locking the converter to the desired frequency.                                                                      
+  For mass, volume and efficiency reasons, no regulation is provided on the outputs,                                              
+the input level of 26.9 +/- 0.9 V being adequate for the needs of the experiment. The                                             
+overall efficiency of the converter is 85%.                                                                                       
+                                                                                                                                  
+    The output supplies provided by the unit are:                                                                                 
+                                                                                                                                  
+  Output       Voltage     Rectification  Purpose                                                                                 
+                                                                                                                                  
+    1          + 30        Half wave      IPM-P sensor bias                                                                       
+    2          - 30        Half wave      IPM-P sensor bias                                                                       
+    3          + 30        Half wave      IPM-P sensor bias                                                                       
+    4          - 30        Half wave      IPM-P sensor bias                                                                       
+    5          + 10        Full wave      IPM-P analogue circuits                                                                 
+    6          - 10        Full wave      IPM-P analogue circuits                                                                 
+    7          + 10        Full wave      IPM-P digital circuits                                                                  
+    8          + 10        Full wave      MSM/IPM-M analogue circuits                                                             
+    9          - 10        Full wave      MSM/IPM-M analogue circuits                                                             
+   10          + 5         Full wave      MSM/IPM-M digital circuits                                                              
+   11          + 10        Full wave      IPM-A analogue circuit                                                                  
+   12          - 25        Full wave      IPM-A sensor bias                                                                       
+   13          + 50        Half wave      CIS sensor bias                                                                         
+   14          + 5         Full wave      CIS digital circuits                                                                    
+   15          + 5         Full wave      CDF digital circuits                                                                    
+   16          2.5                        DID 1 cover release                                                                     
+                                                                                                                                  
+7.1 Analogue housekeeping data                                                                                                    
+   Fifteen supply rail voltages and one internal temperature sensor are monitored. The                                            
+voltages are conditioned to be between 0 and + 5 V and are multiplexed within the                                                 
+experiment. Each value appears once per telemetry format.                                                                         
+                                                                                                                                  
+7.2 DID-1 cover release                                                                                                           
+  The circuit of the DID-1 cover-release unit and driver is shown in Figure 12. The                                               
+two HEXFET transistors in series form an efficient AC switch. Under normal condi-                                                 
+tions, both transistors are turned off. Application of a 5 V pulse at the switch input                                            
+triggers the latch formed by the cross-coupled gates, which turns on the HEXFET                                                   
+switch, thus applying a 60 kHz, 4 V peak-peak square wave to the heater wire. The                                                 
+250 mW dissipation is sufficient to melt the plastic retainer, thus releasing the cover.                                          
+The circuit is reset after use by powering down the experiment.                                                                   
+                                                                                                                                  
+Figure 11. Block diagram of DID power                                                                                             
+converter                                                                                                                         
+                                                                                                                                  
+Figure 12. DID 8 cover-release circuit                                                                                            
+                                                                                                                                  
+                                                                                                                                  
+8. First In-Flight Results                                                                                                        
+                                                                                                                                  
+  DIDSY was switched on for the first time in flight at 0418 UTC on 8 October 1985.                                               
+All housekeeping channels indicated nominal operation. Calibration pulses in the IPM-                                             
+P subsystem indicated correct operation of the IPM-P and CDF. All eight modes of                                                  
+the MSM subsystem were commanded and verified. After some 50 h of operation, no                                                   
+impacts have been detected, but none would have been expected in this period. Of                                                  
+note, however, was that, coincident with the actuation of a pyrotechnic device to                                                 
+remove the cover over the OPE entrance aperture, five noise events (no coincident                                                 
+signals) were detected in the IPM-P subsystem due to acoustic coupling or electrical                                              
+interference.                                                                                                                     
+                                                                                                                                  
+Acknowledgement                                                                                                                   
+                                                                                                                                  
+Acknowledgement is due to the Science and Engineering Research Council (UK) for                                                   
+support of the DIDSY experiment at the University of Kent and for its management                                                  
+and technical support through the Rutherford Appleton Laboratory. Acknowledge-                                                    
+ment is also due to the Bundesminister fur Forschung und Technologie (D), CNES                                                    
+(F) and the Piano Spaziale Nazionale, Consiglio Nazionale delle Ricerche (I) for sup-                                             
+port of flight-hardware development and to the national space agencies of Sweden and                                              
+the United States for co-investigator support.                                                                                    
+  It is impossible to mention the names of all those who have contributed to the design,                                          
+manufacture, testing and calibration of this instrument. Apart from members of the                                                
+research groups and institutes of all participating investigators, the European Space                                             
+Agency Giotto Project Team and the spacecraft prime contractor (British Aerospace,                                                
+UK) must be mentioned. Special thanks are offered to Alison Rook for her support                                                  
+throughout the project at the Unit for Space Sciences, Canterbury.                                                                
+                                                                                                                                  
+References                                                                                                                        
+                                                                                                                                  
+Bessel F W 1836, Astr. Nachrichten 13, 185.                                                                                       
+Broderick J 1968, Capacitor Type Meteoroid Sensors, NASA TN-D 4524.                                                               
+Brownlee D E 1978, Microparticle studies by sampling techniques. In: Cosmic Dust                                                  
+   (Ed. J A M McDonnell) John Wiley, Chichester and New York. 295-336.                                                            
+Burton W M 1983, Cometary particle impact simulation using pulsed lasers, Adv.                                                    
+   Space Res., 2, 255-258.                                                                                                        
+Carey W C, McDonnell J A M, Welch C S & Zarnecki J C 1984, Heterogeneous grain                                                    
+   morphologies and accelerator mechanisms in cometary coma dust dynamics, Adv.                                                   
+   Space Res. 4,9, 217-220.                                                                                                       
+Divine, N 1981, Numerical Models for Halley Dust Environments. In: The Comet                                                      
+   Halley Dust and Gas Environment, ES SP-174, 25.                                                                                
+Dozier, J 1966, The Meteoroid Satellite Project Pegasus, NASA TN-3505, 65-109.                                                    
+Fertig J & Schwehm G H 1984, Dust environment models for Comet P/Halley: Sup-                                                     
+   port for targeting of the Giotto spacecraft, Adv. Space Res., 4, 9, 213-217.                                                   
+Finson M L & Probstein R F 1968, A theory of dust comets. I: Model and equations,                                                 
+   Astrophys. J., 154, 327.                                                                                                       
+Grun E & McDonnell J A M 1983, Physical Properties of Cometary Dust: Relation                                                     
+   of DIDSY data to grain properties, Adv. Space Res., 2, 12, 183-184.                                                            
+Grun E, Zook H A, Fechtig H & Giese R H 1985, Collisional Balance in the                                                          
+   Meteoritic Complex, Icarus, 62,244.                                                                                            
+Hellmich R & Keller H U 1981, Definition of model parameters and numerical flyby                                                  
+   simulations. In: The Comet Halley Dust and Gas Environment. ESA SP-174. 3l.                                                    
+Hughes D W 1978, Meteors. In: Cosmic Dust (Ed. J A M McDonnell) John Wiley,                                                       
+   Chichester and New York, 173-186.                                                                                              
+lgenbergs E et al. 1982. Results of Impact Simulation for the Giotto Mission,                                                     
+   Technische Universitat Munchen Bericht RET/KB 82/9.                                                                            
+Laney C et al. 1964, Theoretical Analysis of Operational Characteristics of the                                                   
+   Micrometeoroid -Capacitor Detector, Research Triangle Institute Durham, NC.                                                    
+Mandeville J C 1979, Microcraters produced in brittle materials in the 1 to 20 km/s                                               
+   velocity range. In: The Comet Halley Micrometeoroid Hazard Workshop, ESA                                                       
+   SP-IS3, 99.                                                                                                                    
+McDonnell J A M et al. 1981, A Dust Impact Detection System (DlDSY) for the Giot-                                                 
+   to Halley Mission. In: Scientific and Experimental Aspects of the Giotto Mission,                                              
+   ESA SP-169, 61-75.                                                                                                             
+Pailer N & Grun E 1980, The penetration limit of thin films, Planet. Space. Sci., 28,                                             
+   321.                                                                                                                           
+Reading D H & Ridgeley A 1983, Design Optimisation for the Giotto Spacecraft Front                                                
+   Shield using Pulsed Laser Energy to Initiate a Flexural Wave Motion, Rutherford                                                
+   Appleton Laboratory Report RAL-83-024.                                                                                         
+Storti G N et al. 1968, Investigation of Electron Radiation Induced Electric                                                      
+    -Breakdown in a Typical Capacitor Meteoroid Detector System, NASA TNA738.                                                     
+Swift H F et al. 1982, Designing Dual-Plate Meteoroid Shields, JPL 82-39.                                                         
+Whipple F L 1978, Comets. In: Cosmic Dust (Ed. J A M McDonnell) John Wiley,                                                       
+   Chichester and New York, 1-73.                                                                                                 
+Zook H & Berg O E 1975, A source for hyperbolic cosmic dust particles, Planet.                                                    
+   SpaceSci., 23, -183.                                                                                                           
+Sekanina Z 1981, Large-Scale Nucleus Surface Topography and Outgassing Pattern                                                    
+   Analysis of Comet Swifi-Tuttle, Astron. J., 86, 1741.                                                                          
+                                                                                                                                  

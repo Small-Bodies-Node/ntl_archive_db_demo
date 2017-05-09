@@ -1,0 +1,28 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-06-13                                               
+  NOTE             = "CATALOG/ directory contents"                            
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+CATALOG/ Directory                                                            
+==================                                                            
+                                                                              
+CATINFO.CAT      This file                                                    
+DATASET.CAT      Data set description                                         
+REFERENCE.CAT    Reference list                                               
+                                                                              
+----                                                                          
+Note that the data set description retrieved from the PDS catalog             
+contained no useful descriptive information, and the links to other           
+catalog objects were incorrect.  The revised version references               
+"Various Ground-based Telescopes" as the INSTRUMENT_HOST and                  
+"Various Ground-based Detectors" as the INSTRUMENT - both of which            
+are placeholders used when multiple telescopes and instruments                
+contribute data to a single data set.  For details about the                  
+instruments used that are not included in the data tables, please             
+see the reference cited in the REFERENCE.CAT file.                            

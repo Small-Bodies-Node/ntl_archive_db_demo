@@ -1,0 +1,221 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-18                                               
+  NOTE             = "IHW Net to PDS DATA_SET_ID correspondences"             
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+            IHW Network to PDS DATA_SET_ID Correspondences                    
+            ==============================================                    
+                                                                              
+This file provides a quick listing of PDS DATA_SET_ID values corresponding    
+to the file prefixes used by the various International Halley Watch Nets.     
+The IHW observation file names consisted of a prefix followed by a sequential 
+number.  The sequence number was left-padded with zeroes so the the file name 
+without extension was always eight characters long.  The nets used different  
+ranges of sequence numbers for the three comets, and also to distinguish      
+between comet observations and calibration observations. In the lists below,  
+the first column is the file prefix used; the second is the PDS DATA_SET_ID   
+value assigned to at least some of the files with that prefix; the third a    
+note field.                                                                   
+                                                                              
+Only the original ("V1.0") data sets are listed below. Users interested in    
+the actual data would be well advised to check for later versions of these    
+data sets in the PDS catalog.  Data sets with the notation "no digital data"  
+either record attempted observations that returned null results, or provide   
+some documentation for results submitted in an analog format (photo, trace,   
+etc.) that could not be digitized.  Some of these were reproduced in the      
+printed IHW Archive publications.                                             
+                                                                              
+Amateur Observations Network                                                  
+============================                                                  
+Comet Halley                                                                  
+------------                                                                  
+amdr   IHW-C-AMDR-N-NDR-HALLEY-V1.0        no digital data, not in PDS catalog
+ampg   IHW-C-AMPG-N-NDR-HALLEY-V1.0        no digital data                    
+amsp   IHW-C-AMSP-N-NDR-HALLEY-V1.0        no digital data                    
+amv    IHW-C-AMVIS-2-RDR-HALLEY-V1.0                                          
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+amdr   IHW-C-AMDRAW-N-NDR-GZ-V1.0          no digital data                    
+amsp   IHW-C-AMSPEC-N-NDR-GZ-V1.0          no digital data                    
+amv    IHW-C-AMVIS-2-RDR-GZ-V1.0                                              
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+amv    IHW-C-AMVIS-2-RDR-CROMMELIN-V1.0                                       
+                                                                              
+                                                                              
+Astrometry Network                                                            
+==================                                                            
+Comet Halley                                                                  
+------------                                                                  
+astr   IHW-C-ASTR-2-EDR-HALLEY-V1.0                                           
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+astr   IHW-C-ASTR-2-EDR-GZ-V1.0                                               
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+astr   IHW-C-ASTR-2-EDR-CROMMELIN-V1.0                                        
+                                                                              
+                                                                              
+Infra Red Studies Network                                                     
+=========================                                                     
+Comet Halley                                                                  
+------------                                                                  
+irfc   IHW-C-IRFCURV-3-EDR-HALLEY-V1.0                                        
+irft   IHW-C-IRFTAB-3-RDR-HALLEY-V1.0                                         
+irim   IHW-C-IRIMAG-3-EDR-HALLEY-V1.0                                         
+irph   IHW-C-IRPHOT-3-RDR-HALLEY-V1.0                                         
+irpol  IHW-C-IRPOL-3-RDR-HALLEY-V1.0                                          
+irsp   IHW-C-IRSPEC-3-EDR-HALLEY-V1.0                                         
+irsp   IHW-C-IRSPEC-N-NDR-HALLEY-V1.0      no digital data                    
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+irtf   IHW-C-IRFTAB-2-RDR-GZ-V1.0                                             
+irim   IHW-C-IRIMAG-3-EDR-GZ-V1.0                                             
+irim   IHW-C-IRIMAG-N-NDR-GZ-V1.0          no digital data                    
+irph   IHW-C-IRPHOT-2-RDR-GZ-V1.0                                             
+irpol  IHW-C-IRPOL-2-RDR-GZ-V1.0                                              
+irsp   IHW-C-IRSPEC-3-EDR-GZ-V1.0                                             
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+irft   IHW-C-IRFTAB-2-RDR-CROMMELIN-V1.0                                      
+irph   IHW-C-IRPHOT-2-RDR-CROMMELIN-V1.0                                      
+                                                                              
+                                                                              
+Large-Scale Phenomena Network                                                 
+=============================                                                 
+Comet Halley                                                                  
+------------                                                                  
+lspn   IHW-C-LSPN-2-DIDR-HALLEY-V1.0                                          
+lspn   IHW-C-LSPN-N-NDR-HALLEY-V1.0                                           
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+lspn   IHW-C-LSPN-2-DIDR-GZ-V1.0                                              
+lspn   IHW-C-LSPN-N-NDR-GZ-V1.0                                               
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+lspn   IHW-C-LSPN-2-DIDR-CROMMELIN-V1.0                                       
+lspn   IHW-C-LSPN-N-NDR-CROMMELIN-V1.0                                        
+                                                                              
+                                                                              
+Meteor Studies Network                                                        
+======================                                                        
+Comet Halley                                                                  
+------------                                                                  
+msnrdr IHW-C-MSNRDR-3-RDR-HALLEY-ETA-AQUAR-V1.0                               
+msnrdr IHW-C-MSNRDR-3-RDR-HALLEY-ORIONID-V1.0                                 
+msnvis IHW-C-MSNVIS-3-RDR-HALLEY-ETA-AQUAR-V1.0                               
+msnvis IHW-C-MSNVIS-3-RDR-HALLEY-ORIONID-V1.0                                 
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+--no data sets--                                                              
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+--no data sets--                                                              
+                                                                              
+                                                                              
+Near-Nucleus Studies Network                                                  
+============================                                                  
+Comet Halley                                                                  
+------------                                                                  
+nnsn   IHW-C-NNSN-3-EDR-HALLEY-V1.0                                           
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+nnsn   IHW-C-NNSN-3-EDR-GZ-V1.0                                               
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+nnsn   IHW-C-NNSN-3-EDR-CROMMELIN-V1.0                                        
+                                                                              
+                                                                              
+Photometry and Polarimetry Network                                            
+==================================                                            
+Comet Halley                                                                  
+------------                                                                  
+pflx   IHW-C-PPFLX-3-RDR-HALLEY-V1.0                                          
+pmag   IHW-C-PPMAG-3-RDR-HALLEY-V1.0                                          
+ppol   IHW-C-PPOL-3-RDR-HALLEY-V1.0                                           
+pstoke IHW-C-PPSTOKE-3-RDR-HALLEY-V1.0                                        
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+pflx   IHW-C-PPFLX-3-RDR-GZ-V1.0                                              
+pmag   IHW-C-PPMAG-3-RDR-GZ-V1.0                                              
+ppol   IHW-C-PPOL-3-RDR-GZ-V1.0                                               
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+pflx   IHW-C-PPFLX-3-RDR-CROMMELIN-V1.0                                       
+pmag   IHW-C-PPMAG-3-RDR-CROMMELIN-V1.0                                       
+ppol   IHW-C-PPOL-3-RDR-CROMMELIN-V1.0                                        
+                                                                              
+                                                                              
+Radio Studies Network                                                         
+=====================                                                         
+Comet Halley                                                                  
+------------                                                                  
+rscn   IHW-C-RSCN-3-EDR-HALLEY-V1.0                                           
+rscn   IHW-C-RSCN-N-NDR-HALLEY-V1.0        no digital data                    
+rsoc   IHW-C-RSOC-3-EDR-HALLEY-V1.0                                           
+rsoh   IHW-C-RSOH-3-EDR-HALLEY-V1.0                                           
+rsrdr  IHW-C-RSRDR-3-EDR-HALLEY-V1.0                                          
+rssl   IHW-C-RSSL-3-EDR-HALLEY-V1.0                                           
+rssl   IHW-C-RSSL-N-NDR-HALLEY-V1.0        no digital data                    
+****   IHW-C-RSUV-2-EDR-HALLEY-V1.0                                           
+                                                                              
+  **** This data set ID was used for data that was returned in the            
+       "FITS U-V" format, regardless of source.  So the actual data           
+       files have one of the other Radio Studies Net prefixes.                
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+rscn   IHW-C-RSCN-N-NDR-GZ-V1.0            no digital data                    
+rsoc   IHW-C-RSOC-3-EDR-GZ-V1.0                                               
+rsoh   IHW-C-RSOH-3-EDR-GZ-V1.0                                               
+rssl   IHW-C-RSSL-N-NDR-GZ-V1.0            no digital data                    
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+rscn   IHW-C-RSCN-3-EDR-CROMMELIN-V1.0                                        
+rscn   IHW-C-RSCN-N-NDR-CROMMELIN-V1.0     no digital data                    
+rsoh   IHW-C-RSOH-3-EDR-CROMMELIN-V1.0                                        
+rsoh   IHW-C-RSOH-N-NDR-CROMMELIN-V1.0     no digital data                    
+rssl   IHW-C-RSSL-N-NDR-CROMMELIN-V1.0     no digital data                    
+                                                                              
+                                                                              
+Spectroscopy and Spectrophotometry Network                                    
+==========================================                                    
+Comet Halley                                                                  
+------------                                                                  
+spec   IHW-C-SPEC-2-EDR-HALLEY-V1.0                                           
+spec   IHW-C-SPEC-3-DIDR-HALLEY-V1.0                                          
+spec   IHW-C-SPEC-3-EDR-HALLEY-V1.0                                           
+                                                                              
+Comet Giacobini-Zinner                                                        
+----------------------                                                        
+spec   IHW-C-SPEC-2-DIDR-GZ-V1.0                                              
+spec   IHW-C-SPEC-2-EDR-GZ-V1.0                                               
+spec   IHW-C-SPEC-3-EDR-GZ-V1.0                                               
+                                                                              
+Comet Crommelin                                                               
+---------------                                                               
+spec   IHW-C-SPEC-2-DIDR-CROMMELIN-V1.0                                       
+spec   IHW-C-SPEC-2-EDR-CROMMELIN-V1.0                                        
+spec   IHW-C-SPEC-3-EDR-CROMMELIN-V1.0                                        
+                                                                              
+                                                                              
+                                                                              

@@ -1,0 +1,42 @@
+PDS_VERSION_ID      = PDS3                                                    
+LABEL_REVISION_NOTE = "                                                       
+  2006-06-21  A.C.Raugh  Rewritten for IHW restoration                        
+  "                                                                           
+                                                                              
+RECORD_TYPE         = "STREAM"                                                
+                                                                              
+OBJECT     = INSTRUMENT_HOST                                                  
+  INSTRUMENT_HOST_ID = "PPN"                                                  
+                                                                              
+  OBJECT     = INSTRUMENT_HOST_INFORMATION                                    
+    INSTRUMENT_HOST_NAME = "IHW PHOTOMETRY AND POLARIMETRY NETWORK"           
+    INSTRUMENT_HOST_TYPE = "EARTH BASED"                                      
+    INSTRUMENT_HOST_DESC = "                                                  
+      Instrument Host Overview                                                
+      ========================                                                
+      The Photometry and Polarimetry Network (PPN) of the International       
+      Halley Watch (IHW) collected photometric and polarimetric data          
+      from observers around the world.  It established uniform filters,       
+      standard stars and reduction methods for comet photometry.  Four        
+      types of results are included in the PPN archives:                      
+                                                                              
+        o Narrow band flux derivations                                        
+                                                                              
+        o Photometric magnitudes                                              
+                                                                              
+        o Polarimetric observations                                           
+                                                                              
+        o Stokes parameter calculations                                       
+                                                                              
+      The Discipline Specialists for the PPN were Michael F. A'Hearn          
+      and Vladimir Vanysek.                                                   
+      "                                                                       
+  END_OBJECT = INSTRUMENT_HOST_INFORMATION                                    
+                                                                              
+  OBJECT     = INSTRUMENT_HOST_REFERENCE_INFO                                 
+    REFERENCE_KEY_ID = "JPL D-400-450"                                        
+  END_OBJECT = INSTRUMENT_HOST_REFERENCE_INFO                                 
+                                                                              
+END_OBJECT = INSTRUMENT_HOST                                                  
+                                                                              
+END                                                                           

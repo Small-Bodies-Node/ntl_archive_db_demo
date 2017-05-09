@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="deploy" name="NASA_PDS_Front_End">
+
+    <property name="target" value="1.6" />
+    <property name="source" value="1.6" />
+    <property name="war.name" value="nasa_pds" />
+    <property name="tomcat.dir" value="C:/apps/apache-tomcat-7.0.39-windows-x64/apache-tomcat-7.0.39" />
+    <property name="webapps.dir" value="${tomcat.dir}/webapps" />
+
+    <path id="lib_classpath">
+        <fileset dir="lib">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+    <target name="compile">
+        <delete dir="build" />
+        <mkdir dir="build/classes" />
+        <javac debug="true" destdir="build/classes" source="${source}" target="${target}">
+            <src path="src" />
+            <classpath refid="lib_classpath" />
+        </javac>
+    </target>
+
+    <target name="war" depends="compile">
+        <war basedir="WebContent" destfile="${war.name}.war" webxml="WebContent/WEB-INF/web.xml">
+            <exclude name="WEB-INF/**" />
+            <webinf dir="WebContent/WEB-INF"/>
+            <lib dir="lib">
+                <exclude name="servlet-api.jar"/>
+            </lib>
+            <classes dir="build/classes"/>
+            <classes dir="config"/>
+        </war>
+    </target>
+
+
+    <target name="deploy" depends="war">
+    </target>
+</project>

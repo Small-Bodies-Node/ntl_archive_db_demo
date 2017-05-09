@@ -1,0 +1,231 @@
+PDS_VERSION_ID      = PDS3                                                    
+LABEL_REVISION_NOTE = "                                                       
+  2006-06-21  A.C.Raugh  Rewritten for IHW restoration                        
+  "                                                                           
+RECORD_TYPE         = "STREAM"                                                
+                                                                              
+OBJECT     = DATA_SET                                                         
+  DATA_SET_ID = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                               
+                                                                              
+  OBJECT     = DATA_SET_INFORMATION                                           
+    DATA_SET_NAME                = "IHW COMET HALLEY PHOTOMETRIC FLUXES, V2.0"
+    DATA_SET_COLLECTION_MEMBER_FLG = "N"                                      
+    ARCHIVE_STATUS                 = "PRE PEER REVIEW"
+                       
+    DATA_OBJECT_TYPE               = "TABLE"                                  
+    START_TIME                     = 1985-08-24T22:38:38                      
+    STOP_TIME                      = 1987-03-04T08:55:58                      
+    DATA_SET_RELEASE_DATE          = 1992-09-30                               
+    PRODUCER_FULL_NAME             = "GRAYZECK, E.J., KLINGLESMITH, D.A., III,
+      NIEDNER, M.B., JR"                                                      
+    DETAILED_CATALOG_FLAG          = "N"                                      
+    DATA_SET_TERSE_DESC            = "                                        
+      International Halley Watch Photometry and Polarimetry Net               
+      derived fluxes for Comet 1P/Halley"                                     
+    ABSTRACT_DESC                  = "                                        
+      This data set presents the fluxes derived from narrow band              
+      photometry of Comet 1P/Halley as part of the International              
+      Halley Watch (IHW) Photometry and Polarimetry Netword (PPN).            
+      Standard filters, reference stars and reduction procedures              
+      were used as far as possible to reduce all narrowband data              
+      submitted to the PPN.  The original data have been reformatted          
+      data supplied as addenda to the original submission have been           
+      added and the accompanying documentation updated in this revised        
+      version.                                                                
+      "                                                                       
+    CITATION_DESC                  = "                                        
+      A'Hearn, M.F. and V. Vanysek, IHW COMET HALLEY PHOTOMETRIC FLUXES,      
+      V2.0, IHW-C-PPFLX-3-RDR-HALLEY-V2.0, NASA Planetary Data System,        
+      2006.                                                                   
+      "                                                                       
+                                                                              
+    DATA_SET_DESC                  = "                                        
+      Data Set Overview                                                       
+      =================                                                       
+      This data set presents the fluxes derived from narrow band              
+      photometry of Comet 1P/Halley as part of the International              
+      Halley Watch (IHW) Photometry and Polarimetry Netword (PPN).            
+      Standard filters, reference stars and reduction procedures              
+      were used as far as possible to reduce all narrowband data              
+      submitted to the PPN.  The original data have been reformatted          
+      data supplied as addenda to the original submission have been           
+      added and the accompanying documentation updated in this revised        
+      version.                                                                
+                                                                              
+      The data are in tabular form, and are presented as a single             
+      summary table sorted chronologically.  Information identifying          
+      the original source file from version 1 of this data set has            
+      been included for historical reference.                                 
+                                                                              
+      Filters                                                                 
+      =======                                                                 
+      A standard narrow-band filter set, already in development               
+      prior to the IHW, was formalized and extended during the                
+      Halley Watch project.  The general filter parameters were               
+      summarized in tables in Sekanina (1991)  ('JPL D-400-450'               
+      in the reference list), and have been included in the                   
+      documentation files of this data set.                                   
+                                                                              
+      An initial set of five filters was manufactured and                     
+      distributed at the beginning of the IHW period:                         
+                                                                              
+          3650 A   Continuum                                                  
+          3871 A   CN                                                         
+          4060 A   C3                                                         
+          4845 A   Continuum                                                  
+          5140 A   C2                                                         
+                                                                              
+      A second set of filters was added as they were produced                 
+      after the start of the Halley Watch:                                    
+                                                                              
+          3085 A   OH                                                         
+          4260 A   CO+                                                        
+          6840 A   Continuum                                                  
+          7000 A   H2O+                                                       
+                                                                              
+      In addition, three observatories (Lowell, Cerro Tololo and Perth)       
+      also made use of an existing NH filter centered at 3365 A.              
+                                                                              
+      Standard Stars                                                          
+      ==============                                                          
+      A set of standard stars specifically selected for narrowband            
+      photometry of comets was defined and distributed to PPN                 
+      observers.  An organized campaign to observe suitable                   
+      standards using the IHW filter set took place in two                    
+      parts: first, Zellner and Wisniewski (1985) observed                    
+      standards using the initial set of five filters; second,                
+      the PPN disipline specialists themselves as well as a number            
+      of colleagues undertook a campaign to establish standard                
+      star magnitudes for the filters not included in the work                
+      of Wisniewski and Zellner (1985).  A summary of this                    
+      second observing program is in Osborne et al. (1990).                   
+                                                                              
+      Data Reduction                                                          
+      ==============                                                          
+      In order to minimize variations due to differences in local             
+      reduction procedures (in calculating airmass, for example),             
+      the PPN requested observers submit instrumental magnitudes              
+      outside the atmosphere, and completed the reduction to                  
+      magnitude and flux using a single standard technique,                   
+      described in detail in Sekanina (1991) ('JPL D-400-450' in              
+      the reference list).  Where possible, data that were received           
+      in a more advances state of reduction were back-processed to            
+      the instrumental magnitude stage and rereduced using the                
+      standard procedures.  Thus, values for fluxes, errors and               
+      airmasses may vary substantially in this data set from those            
+      present in the original file submissions of version 1.                  
+                                                                              
+      Modification History                                                    
+      ====================                                                    
+      The first version of this data set contained 2500 sets of               
+      individual observation files.  Each individual observation              
+      was a table of results from a specific observer using a                 
+      particular system (observatory + telescope + detector)                  
+      on a single night.  For each such file, there was a PDS label           
+      file, a FITS table header file detached from the data, and              
+      the FITS table data segment.                                            
+                                                                              
+      After the first version was archived, personnel at the PDS              
+      Small Bodies Node (SBN) re-reduced a large part of the data             
+      using the standard technique described in 'Photometry and               
+      Polarimetry' chapter of 'The Comet Halley Archive Summary               
+      Volume' (cited in the reference list as 'JPL 400-450').  An             
+      abbreviated list of notes about specific reprocessing was               
+      created as an HTML errata file displayed on the SBN archive             
+      pages.  A summary table of all results was also created and             
+      offered as an 'index table'.                                            
+                                                                              
+      To create version 2, SBN personnel did the following:                   
+                                                                              
+        o  Observer, telescope and observatory information was                
+           recovered from the FITS headers and inserted into the              
+           'index table'.                                                     
+                                                                              
+        o  Observing times in the 'index table', originally                   
+           stated as day number and fraction, were converted to the           
+           ISO standard time format (yyyy-mm-ddThh:mm:ss).  Day               
+           fractions were always supplied with at least four                  
+           significant digits (five in some unusual cases).  Note             
+           that, therefore, times are never more accurate than the            
+           nearest second, and typically are only accurate to                 
+           +/- 5 seconds.                                                     
+                                                                              
+        o  A check of 'index table' lines vs total observations in the        
+           original FITS tables revealed a discrepancy of 25 lines            
+           submitted but not included in the 'index table'.                   
+           These were accounted for thus:                                     
+                                                                              
+                - Three files, each with eight record - pflx2285,             
+                  pflx2370 and pflx2388, contained no aperture size           
+                  information in the original submission.  A subsequent       
+                  errata list stated that these files were 'accidentally      
+                  included' in the original archive.                          
+                                                                              
+                - One file, pflx1326, had an incorrect value of NAXIS2        
+                  in the FITS header, resulting in the last record (of        
+                  11) being omitted from the reprocessing of the file.        
+                                                                              
+           All of these records are also omitted from the final summary       
+           table.                                                             
+                                                                              
+        o  The original PDS and FITS files were discarded.                    
+                                                                              
+        o  Addenda, submitted after the original archive was complete,        
+           were incorporated into the summary table.                          
+                                                                              
+      30 October 2006, A.C.Raugh                                              
+      "                                                                       
+                                                                              
+    CONFIDENCE_LEVEL_NOTE          = "                                        
+      Confidence Level Overview                                               
+      =========================                                               
+      Because these observations were rereduced by the IHW Photometry         
+      and Polarimetry Network (PPN) personnel, errors have been               
+      calculated for each flux in a uniform way wherever sufficient           
+      information was available.  See Sekanina et al. (1991)                  
+      ('JPL D-400-450' in the reference list') for details of the             
+      reduction process and error propagation.                                
+                                                                              
+      Note that, because times were reported as day fractions with            
+      only four (or sometimes five) significant digits, all time              
+      values listed anywhere in this data set - data files, labels,           
+      or elsewhere - are never accurate to more than one second, and          
+      are typically accurate to only +/- about five seconds.                  
+                                                                              
+      Also, the following comment was included among the errata for           
+      these data:                                                             
+                                                                              
+         For a number of NARROW BAND measurements, the integration            
+         times are not given; in these instances the original                 
+         submissions only reported 'average' values.                          
+      "                                                                       
+                                                                              
+  END_OBJECT = DATA_SET_INFORMATION                                           
+                                                                              
+  OBJECT     = DATA_SET_TARGET                                                
+    TARGET_NAME = "1P/HALLEY 1 (1682 Q1)"                                     
+  END_OBJECT = DATA_SET_TARGET                                                
+                                                                              
+  OBJECT     = DATA_SET_MISSION                                               
+    MISSION_NAME = "INTERNATIONAL HALLEY WATCH"                               
+  END_OBJECT = DATA_SET_MISSION                                               
+                                                                              
+  OBJECT     = DATA_SET_HOST                                                  
+    INSTRUMENT_HOST_ID = "PPN"                                                
+    INSTRUMENT_ID      = "PPFLX"                                              
+  END_OBJECT = DATA_SET_HOST                                                  
+                                                                              
+  OBJECT     = DATA_SET_REFERENCE_INFORMATION                                 
+    REFERENCE_KEY_ID = "JPL D-400-450"                                        
+  END_OBJECT = DATA_SET_REFERENCE_INFORMATION                                 
+                                                                              
+  OBJECT     = DATA_SET_REFERENCE_INFORMATION                                 
+    REFERENCE_KEY_ID = "OSBORNEETAL1990"                                      
+  END_OBJECT = DATA_SET_REFERENCE_INFORMATION                                 
+                                                                              
+  OBJECT     = DATA_SET_REFERENCE_INFORMATION                                 
+    REFERENCE_KEY_ID = "WISNIEWSKI&ZELL1985"                                  
+  END_OBJECT = DATA_SET_REFERENCE_INFORMATION                                 
+                                                                              
+END_OBJECT = DATA_SET                                                         
+END                                                                           

@@ -1,0 +1,102 @@
+***** File  CALINFO.TXT                                                       
+                                                                              
+                                                                              
+                    CALIBRATION FILE INFORMATION                              
+                                                                              
+     This directory contains supplemental data submitted to the P/G-Z archive 
+by the Infrared Studies (IRSN) and Spectroscopy (SSN) Networks.               
+                                                                              
+     Two types of IR data are provided - Filter Tables and Images (non-       
+comet).  The filter tables are referred to in some IRSN FITS headers as       
+containing the filter information for specific observations (cf. the column   
+FLTRTABL in the Table Data records of the observation files and the keyword   
+DIS-CODE in the FITS headers of the Filter Tables).  The image data are       
+intended to show detector response on various targets taken at times similar  
+to the comet observations.                                                    
+                                                                              
+     For the Spectroscopy files, both 2-dimensional and 1-dimensional data are
+provided for the sky and for laboratory comparison lines as reference         
+"objects".  The data is usually unreduced but full documentation is provided  
+in the FITS headers.                                                          
+                                                                              
+     The extensions for files of the calibration data, i.e., .TAB, .IMG, and  
+.DAT, or for descriptive headers (.HDR and .LBL) follow the IHW filenaming    
+conventions.  To reconstruct a genuine FITS (.FIT) file, the header and data  
+files for the appropriate observation must be concatenated.                   
+                                                                              
+     The following table links the Infrared (non-comet) Images and the        
+Spectroscopy Calibration files to the appropriate P/G-Z observation files:    
+                                                                              
+     Filename   Date(UT)  Time(UT   IRSN#    Object                           
+                          day fr.)  or SSN#                                   
+     ------------------------------------------------                         
+     IRIM8001   27/06/85   .0       212005   BS 8541                          
+     IRIM7001   27/06/85   .438     212006   P/G-Z                            
+     IRIM7002   27/06/85   .451     212007   P/G-Z                            
+                                                                              
+     IRIM8002   15/08/85   .0       212011   BS 923                           
+     IRIM7004   15/08/85   .405     212012   P/G-Z                            
+     IRIM8003   15/08/85   .405     212013   G-Z ref.                         
+     IRIM7005   15/08/85   .416     212014   P/G-Z                            
+     IRIM8004   15/08/85   .416     212015   G-Z ref.                         
+     IRIM7006   15/08/85   .428     212016   P/G-Z                            
+     IRIM8005   15/08/85   .428     212017   G-Z ref.                         
+                                                                              
+     IRIM8006   17/08/85   .0       212018   HD 18881                         
+     IRIM7007   17/08/85   .440     212019   P/G-Z                            
+     IRIM8007   17/08/85   .440     212020   G-Z ref.                         
+                                                                              
+     IRIM8008   31/08/85   .0       212048   Beta Peg                         
+     IRIM7026   31/08/85   .419     212049   P/G-Z                            
+     IRIM7027   31/08/85   .423     212050   P/G-Z                            
+     IRIM7028   31/08/85   .428     212051   P/G-Z                            
+     IRIM7029   31/08/85   .438     212052   P/G-Z                            
+                                                                              
+     IRIM8009   11/09/85   .0       212057   BS 923                           
+     IRIM7030   11/09/85   .419     212058   P/G-Z                            
+     IRIM7031   11/09/85   .426     212059   P/G-Z                            
+     IRIM7032   11/09/85   .439     212060   P/G-Z                            
+     IRIM7033   11/09/85   .440     212061   P/G-Z                            
+     IRIM7034   11/09/85   .453     212062   P/G-Z                            
+     IRIM7035   11/09/85   .464     212063   P/G-Z                            
+     IRIM7036   11/09/85   .476     212064   P/G-Z                            
+     IRIM7037   11/09/85   .488     212065   P/G-Z                            
+     IRIM7038   11/09/85   .488     212066   P/G-Z                            
+     IRIM7039   11/09/85   .499     212067   P/G-Z                            
+                                                                              
+     IRIM8010   13/09/85   .0       212070   HD 44612                         
+     IRIM8011   13/09/85   .0       212071   Alpha Tau                        
+     IRIM7040   13/09/85   .437     212072   P/G-Z                            
+     IRIM7041   13/09/85   .449     212073   P/G-Z                            
+     IRIM7042   13/09/85   .546     212074   P/G-Z                            
+     IRIM7043   13/09/85   .552     212075   P/G-Z                            
+     IRIM7044   13/09/85   .556     212076   P/G-Z                            
+                                                                              
+     - - - - - - - - - - - - - - - - - - - - - - - - -                        
+                                                                              
+     SPEC7003   19/04/85   .46179   700576   P/G-Z                            
+     SPEC7004   14/05/85   .40450   700577   P/G-Z                            
+     SPEC7005   14/05/85   .45488   700578   P/G-Z                            
+     SPEC7006   15/05/85   .43888   700579   P/G-Z                            
+     SPEC7007   17/05/85   .38054   700580   P/G-Z                            
+     SPEC8001   17/06/85   .35069   700583   Standard star (HD 191854)        
+     SPEC7072   17/06/85   .43263   700581   P/G-Z                            
+     SPEC7073   17/06/85   .45833   700582   P/G-Z                            
+     SPEC8002   17/06/85   .47708   700584   Twilight sky                     
+                                                                              
+     SPEC8003   26/09/85   .09201   700591   Twilight sky                     
+     SPEC8004   26/09/85   .09954   700587   Fe-Ar-Ne arc                     
+     SPEC8005   26/09/85   .10642   700585   Standard star (BD+17 4708)       
+     SPEC8006   26/09/85   .10851   700586   Standard star (BD+17 4708)       
+     SPEC8007   26/09/85   .44259   700588   Fe-Ar-Ne arc                     
+     SPEC7388   26/09/85   .46076   700589   P/G-Z                            
+     SPEC8008   26/09/85   .46910   700590   Night sky                        
+                                                                              
+     SPEC7313   09/09/85   .45400   700501   P/G-Z                            
+     SPEC7314   09/09/85   .48690   700502   P/G-Z                            
+     SPEC7364   12/09/85   .40230   700503   P/G-Z                            
+     SPEC7365   12/09/85   .40230   700504   P/G-Z                            
+     SPEC7366   13/09/85   .38890   700505   P/G-Z                            
+     SPEC7367   13/09/85   .41270   700506   P/G-Z                            
+     SPEC8009   14/12/85   .30370   700507   Solar analog (Van Bueren 142)    
+                                                                              

@@ -1,0 +1,19 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"LSPN_NUM   ","N", 6,0                                                        
+"CALIBRATION","C", 1,0                                                        
+"PLATE_ID   ","C", 8,0                                                        
+"APERTURE   ","N", 4,2                                                        
+"SCALE      ","N", 6,1                                                        
+"INSTRUMENT ","C",16,0                                                        
+"FOV_1      ","N", 4,1                                                        
+"FOV_2      ","N", 4,1                                                        
+"EXPOSURE   ","N", 5,1                                                        
+"EMULSION   ","C", 6,0                                                        
+"FILTER     ","C", 8,0                                                        
+"HYPERSEN   ","C", 1,0                                                        
+"CAL_AVAIL  ","C", 1,0                                                        
+"STATUS     ","C", 2,0                                                        
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"FILENAME   ","C", 8,0                                                        

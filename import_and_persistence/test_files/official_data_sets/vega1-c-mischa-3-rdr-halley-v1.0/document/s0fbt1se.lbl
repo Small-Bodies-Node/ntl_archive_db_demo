@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE  = FIXED_LENGTH                                                   
+RECORD_BYTES = 80                                                             
+FILE_RECORDS = 142                                                            
+                                                                              
+^ASCII_DOCUMENT  = "S0FBT1SE.ASC"                                             
+                                                                              
+DATA_SET_ID  = "VEGA1-C-MISCHA-3-RDR-HALLEY-V1.0"                             
+PRODUCT_ID   = "S0FBT1SE.ASC"                                                 
+PRODUCT_CREATION_TIME = 2002-11-01                                            
+PRODUCT_NAME = "FBT1SE FILE (SURVEY) SPECIFICATIONS"                          
+                                                                              
+                                                                              
+DESCRIPTION           = "This file describes the contents of the fbt1se file  
+                         for the fly-by phase of the Vega missions."          
+                                                                              
+OBJECT     = ASCII_DOCUMENT                                                   
+  DOCUMENT_FORMAT     = TEXT                                                  
+  DOCUMENT_NAME       = "FBT1SE (FLY-BY) GUIDELINES"                          
+  DOCUMENT_TOPIC_TYPE = "GUIDELINES"                                          
+  INTERCHANGE_FORMAT  = ASCII                                                 
+  PUBLICATION_DATE    = 1997-08-13                                            
+END_OBJECT = ASCII_DOCUMENT                                                   
+                                                                              
+END                                                                           
+                                                                              

@@ -1,0 +1,255 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "                                         
+  2006-04-26  A.C.Raugh   Edited for data set revision                        
+  "                                                                           
+                                                                              
+OBJECT                            = MISSION                                   
+  MISSION_NAME                    = "INTERNATIONAL HALLEY WATCH"              
+                                                                              
+  OBJECT                          = MISSION_INFORMATION                       
+    MISSION_START_DATE            = 1980-09-01                                
+    MISSION_STOP_DATE             = 1992-09-30                                
+    MISSION_ALIAS_NAME            = "N/A"                                     
+    MISSION_DESC                  = "                                         
+                                                                              
+  Mission Overview                                                            
+  ================                                                            
+    The International Halley Watch (IHW) grew out of a National               
+    Aeronautics and Space Administration (NASA) sponsored study               
+    in 1979-80 (Brand, J.B., Newburn R., Friedman, L., 1980).                 
+    The premise behind that study was that some form of                       
+    cooperation among the astronomers and space scientists of                 
+    the world would be necessary to make the most of the                      
+    opportunity to study Comet Halley. In 1980 NASA organized a               
+    Lead Center for the western hemisphere at JPL under Ray                   
+    Newburn. A similar facility for the eastern hemisphere was                
+    organized at Dr. Remeis Sternwarte, Bamberg, under Juergen                
+    Rahe with the support of the government of the Federal                    
+    Republic of Germany. Newburn and Rahe elaborated upon the                 
+    plans of the original study group, which suggested                        
+    appointment of specialists to set up networks of observers                
+    in each of the major observing disciplines, establishment of              
+    an international oversight committee, coordination with the               
+    planned space projects, and cooperation with amateur                      
+    observers.                                                                
+                                                                              
+              In 1981 a Steering Group of 22 scientists                       
+    residents from 12 countries was appointed by NASA to help                 
+    establish the other parts of the IHW and to advise on its                 
+    operation. Later this international group became independent              
+    of NASA, elected its own chairman, and added and/or replaced              
+    members as it felt necessary. The Steering Group selected                 
+    Discipline Specialists based on formal proposals submitted                
+    in response to a NASA letter, mailed worldwide, seeking                   
+    cometary scientists to organize the observing networks,                   
+    coordinate their activity, and later to assist in archiving               
+    the resulting data. By the time of the 1982 IAU meeting a                 
+    complete administrative organization was in existence,                    
+    awaiting its acceptance and imprimatur by that worldwide                  
+    group."                                                                   
+                                                                              
+    MISSION_OBJECTIVES_SUMMARY    = "                                         
+                                                                              
+    The NASA study suggested that the goals of the IHW should be              
+    the following: advocacy, coordination, standardization, and               
+    an archive of all the data. Indeed the archive was not to                 
+    replace the normal interpretation and publication in                      
+    technical journals. Rather it was to complement those                     
+    publications by establishing a comprehensive database                     
+    suitable for further studies requiring reduced but                        
+    uninterpreted data from observers.                                        
+                                                                              
+              The Archive of Periodic Comet Halley has been                   
+    completed in a CD-ROM or digital version. The comet's                     
+    reduced observations belong to one of the following                       
+    disciplines or networks:                                                  
+                                                                              
+              1. Astrometry.                                                  
+              2. Infrared Studies.                                            
+              3. Large-Scale Phenomena.                                       
+              4. Near Nucleus Studies.                                        
+              5. Photometry and Polarimetry.                                  
+              6. Radio Studies.                                               
+              7. Spectroscopy and Spectrophotometry.                          
+              8. Amateur Observations.                                        
+              9. Meteor Studies                                               
+                                                                              
+              The Infrared Studies Network, the Photometry and                
+    Polarimetry Network, the Radio Studies Network, the Amateur               
+    Observations Network and the Meteor Studies Network are                   
+    organized into the following subnetworks:                                 
+                                                                              
+              Infrared Studies Subnetworks:                                   
+              2.1. Infrared Photometry.                                       
+              2.2. Infrared Polarimetry.                                      
+              2.3. Infrared Spectroscopy.                                     
+              2.4. Infrared Imaging.                                          
+                                                                              
+              Photometry and Polarimetry Subnetworks:                         
+              5.1. Broadband Photometry.                                      
+              5.2. Narrowband Photometry.                                     
+              5.3. Polarimetry.                                               
+              5.4. Stokes Parameters                                          
+                                                                              
+              Radio Studies Subnetworks:                                      
+              6.1. Hydroxyl Feature at 18 cm.                                 
+              6.2. Spectral Line.                                             
+              6.3. Continuum.                                                 
+              6.4. Occultation.                                               
+              6.5. Radar                                                      
+                                                                              
+              Amateur Observations Subnetworks:                               
+              8.1. Visual-Appearance Descriptions.                            
+              8.2. Drawings.                                                  
+              8.3. Photographs.                                               
+              8.4. Spectroscopy                                               
+                                                                              
+              Meteor Studies Subnetworks:                                     
+              9.1. Radar                                                      
+              9.2. Visual                                                     
+                                                                              
+                The evaluation of submitted observations and                  
+    their selection for the Archive has primarily been the                    
+    responsibility of the Discipline Specialist Teams in charge               
+    of the networks. To expound the process of evaluation,                    
+    reduction, and formatting of the database, each Discipline                
+    Specialist Team has provided network by network, an outline               
+    and a data-organization description of both the digital and               
+    the printed versions of the Archive."                                     
+                                                                              
+  END_OBJECT                      = MISSION_INFORMATION                       
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "AMON"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "ASTR"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "IRSN"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "STAR"                                    
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "LSPN"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "OPEN CLUSTER"                            
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "STAR"                                    
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "MSN"                                     
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "ETA-AQUARID"                             
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "ORIONID"                                 
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "NNSN"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "PPN"                                     
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "RSN"                                     
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "SPEC"                                    
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "CERES"                                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "COMET"                                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "EMISSION NEBULA"                         
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "REFLECTION NEBULA"                       
+    END_OBJECT                    = MISSION_TARGET                            
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "STAR"                                    
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_HOST                              
+    INSTRUMENT_HOST_ID            = "UH"                                      
+                                                                              
+    OBJECT                        = MISSION_TARGET                            
+      TARGET_NAME                 = "1P/HALLEY 1 (1682 Q1)"                   
+    END_OBJECT                    = MISSION_TARGET                            
+  END_OBJECT                      = MISSION_HOST                              
+                                                                              
+  OBJECT                          = MISSION_REFERENCE_INFORMATION             
+    REFERENCE_KEY_ID              = "BRANDTETAL1980"                          
+  END_OBJECT                      = MISSION_REFERENCE_INFORMATION             
+                                                                              
+  OBJECT                          = MISSION_REFERENCE_INFORMATION             
+    REFERENCE_KEY_ID              = "BRANDTETAL1992"                          
+  END_OBJECT                      = MISSION_REFERENCE_INFORMATION             
+                                                                              
+  OBJECT                          = MISSION_REFERENCE_INFORMATION             
+    REFERENCE_KEY_ID              = "JPL D-400-450"                           
+  END_OBJECT                      = MISSION_REFERENCE_INFORMATION             
+END_OBJECT                        = MISSION                                   
+END                                                                           

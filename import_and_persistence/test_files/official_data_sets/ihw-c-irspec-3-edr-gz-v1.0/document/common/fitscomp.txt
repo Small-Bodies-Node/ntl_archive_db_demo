@@ -1,0 +1,316 @@
+***** File FITSCOMP.TXT                                                       
+                                                                              
+               An Extension of FITS for Data Compression                      
+                                                                              
+                        Archibald Warnock III                                 
+                           Robert S. Hill                                     
+                                 and                                          
+                          Barbara B. Pfarr                                    
+                                                                              
+                           ST Systems Corp.                                   
+                   NASA/Goddard Space Flight Center                           
+                          Greenbelt, MD 20771                                 
+                                                                              
+                                                                              
+ABSTRACT                                                                      
+                                                                              
+An extension of the FITS format to allow for data compression is              
+presented. This extension will allow a variety of algorithms to be            
+utilized to reduce the storage requirements for images and ASCII data.        
+Simple rules permit the complete reconstruction of the FITS header            
+records for the original uncompressed file; yet the header for the            
+compressed file is accessible to existing FITS file readers. An               
+algorithm for the previous pixel compression scheme is presented as an        
+example.                                                                      
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+INTRODUCTION                                                                  
+                                                                              
+The Large-Scale Phenomena Network of the International Halley Watch           
+(IHW) has the task of digitizing wide-field photographic plates of Comet      
+P/Halley. The physical size of the plates and the desire for high             
+spatial resolution combine to result in extremely large digital images,       
+often as large as 4096 lines by 4096 samples of 16-bit numbers (i.e.,         
+individual images may be as large as 32 megabytes).                           
+                                                                              
+Typical production images are roughly 18 megabytes in size, and the LSPN      
+expects to generate 1000 of them. The Near Nucleus Studies Network has a      
+similar problem with CCD images, albeit on a smaller scale. The IHW           
+Digital Archive could be expected to consist of perhaps 35 to 40 CD-ROM       
+disks, most of them containing only images. By contrast, an archive           
+containing only compressed images would have on the order of 20 disks,        
+with a corresponding decrease in cost. It is essential that there be          
+some portable data compression scheme to reduce the physical storage          
+requirements of the imagery, and thereby reduce the mastering and             
+production costs for a complete archive on CD-ROM. The expense and            
+effort associated with distributing the complete archive on any               
+alternative medium, such as magnetic tape, would be prohibitive.              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+POSSIBLE COMPRESSION SCHEMES                                                  
+                                                                              
+The IHW has restricted its consideration of compression schemes to those      
+which preserve the full dynamic range of the data. Of these, we consider      
+only the so-called "instantaneous" methods; that is, those methods in         
+which the next output number is computed from the current input number        
+and a small set of status variables.                                          
+                                                                              
+The advantage of instantaneous decompression schemes over others is that      
+no scratch space is required to hold the uncompressed image, i.e., the        
+decompression takes place "on the fly". A compressed image on FITS tape,      
+with appropriate keywords, can be read in virtually the same way that         
+uncompressed images are currently read, with the decompression being          
+performed as the records are read and unpacked. This will prove to be         
+most convenient for users of the IHW CD-ROM archive, given the large          
+image sizes involved.                                                         
+                                                                              
+The IHW believes that the previous-pixel (or first-differences)               
+algorithm is the one giving the best compression ratio for the least          
+computational effort and will adopt it for use on the CD-ROM archive          
+disks.                                                                        
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+THE FITS HEADER FOR COMPRESSED DATA                                           
+                                                                              
+A compressed file may be considered as an extension to basic FITS in the      
+following sense: the compressed data may be read simply as a byte             
+stream. It is fully documented by an extension header written according       
+to the FITS perscription. Thus, one retains the capability of examining       
+the header of the compressed data with a FITS reader. The end result          
+(after decompression) can be a standard FITS file, in the sense that the      
+data is restored to its original uncompressed state, complete with a          
+valid header.                                                                 
+                                                                              
+Two types of size information are required. The basic FITS keywords           
+(BITPIX, NAXIS, NAXIS1 - NAXISn) must continue to define the attributes       
+of the file in the form in which the user receives it. New FITS keywords      
+then define the file as it is to be reconstructed.                            
+                                                                              
+We propose that the keyword XTENSION take the value 'COMPRESS' if the         
+data has been compressed, and that a series of keywords COMPRES1,             
+COMPRES2, ..., COMPRESn give the names of the compression schemes used        
+on the original data, in the order in which the compression was               
+performed; i.e., the scheme given by COMPRES1 was the first compression       
+done, that given by COMPRES2 was the second one done, and so forth. The       
+number of axes in the original uncompressed data is given by the keyword      
+LAXIS (for logical axis), and the corresponding dimensions are given by       
+the keywords LAXIS1 through LAXISn. The keyword LBITPIX will define the       
+precision of the uncompressed data, corresponding to BITPIX after             
+decompression.                                                                
+                                                                              
+The sample FITS header which follows illustrates the proposed compressed      
+file extension.                                                               
+                                                                              
+First record:                                                                 
+                                                                              
+SIMPLE  =                    T / VALID FITS FORMAT                            
+BITPIX  =                    8 / BYTE DATA                                    
+NAXIS   =                    0 / NO DATA RECORDS YET                          
+EXTEND  =                    T / THERE MAY BE EXTENSION RECORDS               
+END                                                                           
+                                                                              
+                                                                              
+Extension record:                                                             
+                                                                              
+XTENSION= 'COMPRESS'           / THE DATA HAS BEEN COMPRESSED                 
+NAXIS   =                    1 / THE DATA IS JUST A BYTE STREAM               
+NAXIS1  =                12345 / OF THIS MANY BYTES                           
+PCOUNT  =                    0 / NO PARAMETERS PRECEEDING THE DATA            
+GCOUNT  =                    1 / ONLY ONE GROUP                               
+LAXIS   =                    2 / NUMBER OF AXES, UNCOMPRESSED IMAGE           
+LAXIS1  =                  512 / LOGICAL NAXIS1                               
+LAXIS2  =                  512 / LOGICAL NAXIS2                               
+LBITPIX =                   16 / LOGICAL BITS PER PIXEL                       
+COMPRES1= 'PREVPIXEL'          / FIRST COMPRESSION SCHEME USED                
+COMPRES2= 'HUFFMAN  '          / SECOND COMPRESSION SCHEME USED               
+END                                                                           
+                                                                              
+                                                                              
+Any keywords which must accompany the uncompressed data may be put into       
+the extension header, and should be copied to the output header when the      
+file is decompressed.                                                         
+                                                                              
+This scheme identifies the data as having been compressed (XTENSION=          
+'COMPRESS') and gives the compression scheme(s) used (COMPRES1=               
+'PREVPIXEL', COMPRES2= 'HUFFMAN') in the header, so any FITS reader can       
+decide whether or not it knows how to handle the data. It defines the         
+real length of the data file (NAXIS1=12345) so the data can be correctly      
+skipped, if desired. It also preserves the dimensions of the original         
+data file as "logical" attributes (LAXIS, LAXISn), so that a basic FITS       
+file may be created once the byte stream is uncompressed.                     
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+DISCUSSION                                                                    
+                                                                              
+One of the reasons for suggesting keywords whose values state the             
+compression schemes used (rather than something like COMPRESS=T) is           
+precisely because no single scheme is best under all circumstances. Our       
+approach allows flexibility in selecting any appropriate (or even             
+inappropriate) compression method and specifying it unambiguously, so         
+long as the algorithm has been published and agreed upon.                     
+                                                                              
+New compression schemes will be added to the recognized list in the same      
+way that FITS extensions have been proposed and adopted in the past           
+(Harten, et al. 1988). The IHW intends to inaugurate this procedure with      
+the previous-pixel algorithm and will publish source code and                 
+pseudo-code for decompression both on the archive CD-ROM and in print.        
+                                                                              
+No one has utilized compression in astronomical production work yet,          
+although it certainly must happen eventually. IHW is already performing       
+the necessary prototyping for previous-pixel compression. For IHW,            
+compressed images are an absolute necessity (or perhaps a necessary           
+evil).                                                                        
+                                                                              
+It is also possible to interpret compression like blocking; i.e., as          
+irrelevant to the logical structure of the data (Wells, private               
+communication). Although this is philosophically true, we remain              
+convinced of the need to identify and support the most useful practical       
+options, as is already being done for coordinate systems. Agreement on a      
+flexible set of keywords will allow new algorithms to be evaluated and        
+added later, in full accordance with any current agreement. While it is       
+possible to write code which analyzes a given input image and selects         
+the best compression scheme (similar to the archiving programs in the         
+personal computer world) and thus use a syntax like "COMPRESS=T", it is       
+impossible to anticipate all schemes which may be desirable in the            
+future.                                                                       
+                                                                              
+One alternative to the current proposal would be to use a standalone          
+program to compress both header and data. This would render the header        
+records unreadable to existing FITS software until after decompression.       
+It would be wasteful of both time (for decompression) and disk space          
+(for scratch storage) and, we believe, contrary to the basic FITS             
+philosophy of allowing examination of the header before deciding what to      
+do with the data.                                                             
+                                                                              
+However, nothing in this proposal precludes the use of a separate             
+decompressor. It is certainly possible to skip over the header to reach       
+the data and decompress the image data separately, then concatenate a         
+revised header and uncompressed image, although the result would not be       
+a valid FITS format. Note also that nothing in this proposal restricts        
+compression to images. The scheme specified here would work equally well      
+with ASCII data. At present, it's use on tables is precluded by the           
+inability to nest FITS extensions under the standard.                         
+                                                                              
+Not only is our approach independent of the storage medium, but also, it      
+avoids reliance on coded filename extensions and the like. Nevertheless,      
+data analysis packages can easily recognize compressed data and either        
+process or skip, according to their capabilities.                             
+                                                                              
+Data compression has proven its value in many areas - PC-based                
+telecommunications and file transfer, transmission of spacecraft data,        
+etc. It is only a matter of time until astronomers appreciate how             
+attractive it can be for images in general (consider the prospect of          
+2048 by 2048 CCD chips with three bytes per pixel). Now is a good time        
+to decide how to incorporate compression into the general data                
+interchange standards so that we can avoid revisions in the future.           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+BIBLIOGRAPHY                                                                  
+                                                                              
+Harten, R. H., Grosbol, R., Greisen, E. W., and Wells, D. C., 1988,           
+                           Astron. Astrophys. Suppl. Ser., 73, 365.           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+APPENDIX                                                                      
+                                                                              
+The algorithm for the previous-pixel compression scheme to be used by         
+the International Halley Watch is given here in pseudocode. It is based       
+on the observation that, for many images of 16-bit data, the                  
+pixel-to-pixel differences may often be coded within the dynamic range        
+available in 8 bits, yielding a substantial savings in file size from a       
+small computational investment.                                               
+                                                                              
+All differences that lie in the range [-127,127] can be coded in a            
+single byte. Each difference has the bias value 127 added to it in order      
+to avoid problems on machines which require unsigned byte data. This          
+yields the range [0,254] in the actual data stream.                           
+                                                                              
+The value 255 is reserved as a flag to indicate that the difference           
+between the two current pixels is too large to be stored in 8 bits. In        
+this case, the two bytes that follow the flag byte are to be interpreted      
+as a new 16-bit pixel value, which then provides a new zero-point for         
+the differences.                                                              
+                                                                              
+No allowances are made for ends of lines, that is, the successive             
+differences are allowed to cross from the right-hand edge of the image        
+to the next line at the left hand edge. For images with smooth                
+backgrounds, this will often result in another 8-bit difference, and so       
+save a few more bytes. Note that the number of samples in a line is           
+given by the keyword LAXIS2, so that the compressed image need not flag       
+the start of a new line.                                                      
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                         PREVIOUS PIXEL ALGORITHM                             
+                  WITH DIFFERENCE FLAG AS SEPARATE BYTE                       
+                                                                              
+                                                                              
+COMPRESSION:                                                                  
+                                                                              
+Load 255 into output record                                                   
+READ first record                                                             
+Set first value to be PREVPIXEL                                               
+Load first value into output record                                           
+DO UNTIL no more data on input                                                
+    IF input buffer is empty THEN read next record                            
+    Compute difference between CURRENTPIXEL and PREVPIXEL                     
+    IF this difference is within -127:127 THEN                                
+         Add bias of 127 to the difference                                    
+         Convert the biased difference to a single byte                       
+         Load value of difference byte into output record                     
+         IF output record full, WRITE out record                              
+    ELSE IF the difference is outside -127:127 THEN                           
+         Load flag byte (255) into output record                              
+         IF output record full, WRITE out record                              
+         Load high byte of CURRENTPIXEL into output record                    
+         IF output record full, WRITE out record                              
+         Load low byte of CURRENTPIXEL into output record                     
+         IF output record full, WRITE out record                              
+    ENDIF                                                                     
+    Set PREVPIXEL equal to CURRENTPIXEL                                       
+ENDDO                                                                         
+IF partially filled output buffer remains THEN                                
+    Blank to the end of the buffer                                            
+    WRITE out final (partial) record                                          
+ENDIF                                                                         
+                                                                              
+                                                                              
+                                                                              
+DECOMPRESSION:                                                                
+                                                                              
+READ first record                                                             
+Verify that first byte is 255                                                 
+Set first value to be PREVPIXEL                                               
+Load first value into output record                                           
+DO UNTIL no more data on input                                                
+    IF input buffer is empty THEN read next record                            
+    Get CURRENTBYTE from input buffer                                         
+    IF CURRENTBYTE is not equal to 255 (is a difference) THEN                 
+         NEWPIXEL = PREVPIXEL + CURRENTBYTE - 127                             
+         Load NEWPIXEL into output record                                     
+         IF output record full, WRITE out record                              
+    ELSE IF CURRENTBYTE = 255 THEN                                            
+         IF input buffer has < 2 bytes left THEN read next record             
+         Set NEWPIXEL to the next 2 bytes in the input buffer                 
+         Load NEWPIXEL into output record                                     
+         IF output record full, WRITE out record                              
+    ENDIF                                                                     
+    Set PREVPIXEL equal to NEWPIXEL                                           
+ENDDO                                                                         
+IF partially filled output buffer remains THEN                                
+    Blank to the end of the buffer                                            
+    WRITE out final (partial) record                                          
+ENDIF                                                                         

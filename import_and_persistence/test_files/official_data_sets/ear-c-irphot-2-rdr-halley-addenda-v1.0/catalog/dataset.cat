@@ -1,0 +1,81 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "SBN; 1989                                
+  2011-06-13  A.C.Raugh   Rewritten to provide at least some minimal          
+                          information and remove bad INSTRUMENT and           
+                          HOST links; added reference to published paper      
+"                                                                             
+                                                                              
+OBJECT                            = DATA_SET                                  
+  DATA_SET_ID                     = "EAR-C-IRPHOT-2-RDR-HALLEY-ADDENDA-V1.0"  
+                                                                              
+  OBJECT                          = DATA_SET_INFORMATION                      
+    DATA_SET_NAME                 = "COMET HALLEY ARCHIVE - INFRARED          
+                                      PHOTOMETRY"                             
+    DATA_SET_COLLECTION_MEMBER_FLG= "Y"                                       
+    ARCHIVE_STATUS                = "ARCHIVED"                                
+    DATA_OBJECT_TYPE              = "TABLE"                                   
+    START_TIME                    = 1984-09-14T12:18:43.2Z                    
+    STOP_TIME                     = 1988-04-08T07:17:45.6Z                    
+    DATA_SET_RELEASE_DATE         = 1992-09-30                                
+    PRODUCER_FULL_NAME            = "INTERNATIONAL HALLEY WATCH"              
+    DETAILED_CATALOG_FLAG         = "N"                                       
+    DATA_SET_TERSE_DESC           = "Additional IR photometric observations   
+      of Comet 1P/Halley taken at MLOF, OBO and WIRO over 1985-12-12 to       
+      1986 05-06."                                                            
+    ABSTRACT_DESC                 = "Additional infrared photometry of        
+      Comet 1P/Halley, taken over the period 1985-12-12 to 1986-05-06         
+      using telescopes at three observatories: The Mt. Lemmon Observing       
+      Facility (MLOF) 1.52m telescope; the University of Minnesota            
+      O'Brien Observatory (OBO) 76cm telescope; and the University of         
+      Wyoming Infrared Observatory (WIRO) 2.34m telescope.  The data          
+      were obtained by R. Gehrz and E. Ney."                                  
+                                                                              
+    CITATION_DESC                 = "                                         
+Knacke, R., COMET HALLEY ARCHIVE - INFRARED PHOTOMETRY,                       
+EAR-C-IRPHOT-2-RDR-HALLEY-ADDENDA-V1.0, NASA Planetary Data                   
+System, 1992."                                                                
+                                                                              
+    DATA_SET_DESC                 = "                                         
+                                                                              
+    Data Set Overview                                                         
+    =================                                                         
+                                                                              
+    Additional infrared photometry of Comet 1P/Halley, taken over the         
+    period 1985-12-12 to 1986-05-06 using telescopes at three                 
+    observatories: The Mt. Lemmon Observing Facility (MLOF) 1.52m             
+    telescope; the University of Minnesota O'Brien Observatory (OBO)          
+    76cm telescope; and the University of Wyoming Infrared Observatory        
+    (WIRO) 2.34m telescope.  The data were obtained by R. Gehrz and           
+    E. Ney.                                                                   
+                                                                              
+    Results from these observations were published as:                        
+                                                                              
+      Gehrz, R.D. and Ney, E.P., 1986, Infrared temporal development of       
+        P/Halley, ESA Proceedings of the 20th ESLAP Symposiu, on the          
+        Exploration of Halley's Comet, Volume 2: Dust and Nucleus,            
+        ESP SP-250, pp. 101-105.                                              
+    "                                                                         
+                                                                              
+    CONFIDENCE_LEVEL_NOTE         = "N/A"                                     
+                                                                              
+  END_OBJECT                      = DATA_SET_INFORMATION                      
+                                                                              
+  OBJECT                          = DATA_SET_TARGET                           
+    TARGET_NAME                   = "HALLEY"                                  
+  END_OBJECT                      = DATA_SET_TARGET                           
+                                                                              
+  OBJECT                          = DATA_SET_MISSION                          
+    MISSION_NAME                  = "SUPPORT ARCHIVES"                        
+  END_OBJECT                      = DATA_SET_MISSION                          
+                                                                              
+  OBJECT                          = DATA_SET_HOST                             
+    INSTRUMENT_HOST_ID            = "VARGBTEL"                                
+    INSTRUMENT_ID                 = "VARGBDET"                                
+  END_OBJECT                      = DATA_SET_HOST                             
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "GEHRZ&NEY1986"                           
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+END_OBJECT                        = DATA_SET                                  
+END                                                                           

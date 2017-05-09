@@ -1,0 +1,153 @@
+***** File  EPHEM.TXT                                                         
+                                                                              
+EPHEMERIS                                                                     
+                                                                              
+     The geocentric ephemeris for 0h UT each day has been calculated by the   
+Astrometry Network from the following set of osculating orbital elements      
+(Astrometry Network orbit no. 37).  The orbital solution was fit to 1145      
+astrometric observations over the interval from 1972 March 11 to 1987 March 31
+with a rms residual = 1.1 arcsec.  Full planetary and nongravitational        
+perturbations have been taken into account at each time step in the ephemeris 
+computations.  The angular elements are referred to the ecliptic plane and the
+equinox of 1950.                                                              
+                                                                              
+     Epoch of Osculation              1985 Sept. 12.0 ET                      
+     Time of Perihelion Passage       1985 Sept.  5.20602 ET                  
+     Perihelion Distance              1.0282677 AU                            
+     Eccentricity                     0.7075130                               
+     Argument of Perihelion           172.48430 deg.                          
+     Longitude of Ascending Node      194.70674 deg.                          
+     Inclination                       31.87869 deg.                          
+                                                                              
+     Nongravitational Parameters:                                             
+                                                                              
+     Radial component, A1          +3.166 E-09 AU/(day)**2                    
+     Transverse component, A2      -0.599 E-09 AU/(day)**2                    
+                                                                              
+     The nongravitational acceleration model is outlined in the following     
+reference:                                                                    
+     Marsden, B.G., Sekanina, Z., and Yeomans, D.K.  Comets and               
+     nongravitational forces. V.  In Astronomical journal, v. 78, 1973,       
+     p. 211 - 225.                                                            
+                                                                              
+                                                                              
+     The following osculating orbital elements are consistent with orbit No.  
+37 for comet Giacobini-Zinner.  Using these orbital elements and the export   
+version of the Astrometry Network's Two-Body Ephemeris Generation program,    
+users can generate their own ephemeris information.  If care is taken to use  
+the set of orbital elements with the epoch of osculation closest to the       
+desired ephemeris dates, the Two-Body program can generate ephemeris          
+information that is equivalent to corresponding information in the perturbed  
+ephemeris (to approximately the one arc second level of accuracy).  Each set  
+of orbital elements is in the same order as the elements listed above - the   
+only differences being that the epochs of osculation and dates of perihelion  
+passage time are given as Julian dates rather than calendar dates.  The second
+line of each element set contains the calendar date corresponding to the epoch
+directly above it on the first line.                                          
+                                                                              
+          *** P/GIACOBINI-ZINNER TWO-BODY ELEMENTS ***                        
+                                                                              
+2445700.5 2446313.80826 1.0277733 0.7074560 172.50765 194.72648 31.88883      
+1984 JAN  1.0                                                                 
+                                                                              
+2445760.5 2446313.78415 1.0278735 0.7074520 172.50306 194.72512 31.88666      
+1984 MAR  1.0                                                                 
+                                                                              
+2445905.5 2446313.74234 1.0279973 0.7074700 172.49552 194.72187 31.88300      
+1984 JUL 24.0                                                                 
+                                                                              
+2446010.5 2446313.72086 1.0280537 0.7074990 172.49097 194.71937 31.88110      
+1984 NOV  6.0                                                                 
+                                                                              
+2446085.5 2446313.71462 1.0281091 0.7075130 172.48907 194.71629 31.87953      
+1985 JAN 20.0                                                                 
+                                                                              
+2446135.5 2446313.71147 1.0281744 0.7075238 172.48668 194.71350 31.87852      
+1985 MAR 11.0                                                                 
+                                                                              
+2446170.5 2446313.70885 1.0282203 0.7075369 172.48449 194.71158 31.87805      
+1985 APR 15.0                                                                 
+                                                                              
+2446200.5 2446313.70682 1.0282472 0.7075499 172.48304 194.71017 31.87785      
+1985 MAY 15.0                                                                 
+                                                                              
+2446225.5 2446313.70581 1.0282598 0.7075571 172.48261 194.70908 31.87782      
+1985 JUN 9.0                                                                  
+                                                                              
+2446245.5 2446313.70540 1.0282658 0.7075591 172.48266 194.70825 31.87788      
+1985 JUN 29.0                                                                 
+                                                                              
+2446260.5 2446313.70534 1.0282678 0.7075574 172.48291 194.70773 31.87798      
+1985 JUL 14.0                                                                 
+                                                                              
+2446270.5 2446313.70541 1.0282682 0.7075542 172.48318 194.70744 31.87807      
+1985 JUL 24.0                                                                 
+                                                                              
+2446280.5 2446313.70555 1.0282682 0.7075493 172.48348 194.70719 31.87817      
+1985 AUG 3.0                                                                  
+                                                                              
+2446310.5 2446313.70601 1.0282677 0.7075240 172.48427 194.70676 31.87857      
+1985 SEP 2.0                                                                  
+                                                                              
+2446345.5 2446313.70569 1.0282674 0.7074920 172.48399 194.70679 31.87883      
+1985 OCT 7.0                                                                  
+                                                                              
+2446445.5 2446313.70702 1.0282850 0.7074944 172.48697 194.70542 31.87866      
+1986 JAN 15.0                                                                 
+                                                                              
+2446515.5 2446313.71046 1.0283345 0.7075117 172.49304 194.70334 31.87887      
+1986 MAR 26.0                                                                 
+                                                                              
+2446655.5 2446313.72280 1.0284169 0.7075378 172.50478 194.69813 31.88055      
+1986 AUG 13.0                                                                 
+                                                                              
+2446755.5 2446313.73818 1.0285772 0.7075412 172.51722 194.69455 31.88229      
+1986 NOV 21.0                                                                 
+                                                                              
+2446835.5 2446313.74355 1.0287378 0.7075237 172.52457 194.69371 31.88282      
+1987 FEB 9.0                                                                  
+                                                                              
+                                                                              
+                              Appendix                                        
+                  Observation Interpolation Program                           
+                                                                              
+                                                                              
+     The program OBSNTERP is an interactive, seven point Lagrange inter-      
+polation program that will return ephemeris data for periodic comet Giacobini-
+Zinner over the interval January 5, 1984 through May 27, 1987.  To run the    
+program, type OBSNTERP <carriage return> and respond to the prompts.  The     
+executable requires a math co-processor.  The Fortran source code is given in 
+the files labeled with the extension .FOR and the ephemeris data table for    
+comet Giacobini-Zinner is EPHEM.TAB.  You can speed up the interpolation time 
+by shortening the data table to include only the interval that you require and
+by requesting output for dates in chronological order.  The information in the
+data table was generated with IHW orbit number 37, which was based upon 1145  
+astrometric positions over the interval March 11, 1972 through March 31, 1987.
+(Each line of the table is a fixed width of 110 characters plus <CR> <LF>.)   
+                                                                              
+                                                                              
+     The definition of each output quantity is given below:                   
+                                                                              
+     Date:    Calendar date and Julian date (times in these ephemerides are   
+              universal times).                                               
+     RA, DEC: Geocentric right ascension and declination referred to the      
+              mean equator and equinox of 1950.0 - light time corrections     
+              have been applied.                                              
+     DELTA:   Geocentric distance of comet in AU.                             
+     DELDOT:  Geocentric velocity of comet in km/sec.                         
+     R:       Heliocentric distance of comet in AU.                           
+     RDOT:    Heliocentric velocity of comet in km/sec.                       
+     THETA:   Sun-Earth-Comet angle in degrees.                               
+     BETA:    Sun-Comet-Earth angle in degrees.                               
+     MOON:    Comet-Earth-Moon angle in degrees.                              
+     PSANG:   Position angle of extended Sun-Comet vector.                    
+     PSAMV:   Position angle of minus comet velocity vector.                  
+                                                                              
+     (Position angles are measured east from north.)                          
+                                                                              
+                                                                              
+Ravenel N. Wimberly                                                           
+Astrometry Team Member                                                        
+Jet Propulsion Laboratory                                                     
+4800 Oak Grove Drive                                                          
+Pasadena, CA 91109                                                            

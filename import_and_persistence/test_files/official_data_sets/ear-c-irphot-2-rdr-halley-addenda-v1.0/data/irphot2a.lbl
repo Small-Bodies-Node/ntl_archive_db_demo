@@ -1,0 +1,469 @@
+CCSD3ZF0000100000001NJPL3IF0PDSX00000001 = SFDU                               
+PDS_VERSION_ID                       = PDS3                                   
+RECORD_TYPE                          = FIXED_LENGTH                           
+RECORD_BYTES                         = 186                                    
+FILE_RECORDS                         = 47                                     
+^TABLE                               = "IRPHOT2A.TAB"                         
+                                                                              
+DATA_SET_ID = "EAR-C-IRPHOT-2-RDR-HALLEY-ADDENDA-V1.0"                        
+TARGET_NAME                          = "HALLEY"                               
+PRODUCT_ID                           = "IRPHOT2A.TAB"                         
+PRODUCT_NAME  = "0.7- to 23-MICROMETER PHOTOMETRIC Observation Parameters"    
+PRODUCT_CREATION_TIME                = 1997-02-21                             
+START_TIME                           = 1985-12-12                             
+STOP_TIME                            = 1986-05-06                             
+                                                                              
+INSTRUMENT_NAME                      = "N/A"                                  
+                                                                              
+OBJECT                               = TABLE                                  
+ INTERCHANGE_FORMAT                  = ASCII                                  
+ ROWS                                = 47                                     
+ COLUMNS                             = 32                                     
+ ROW_BYTES                           = 186                                    
+ DESCRIPTION = "This file lists the infrared magnitudes for the referenced    
+                data file."                                                   
+ NOTE   = "A value of 99.99 indicates the associated data were not            
+           available."                                                        
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "OBS NUMBER"                           
+  COLUMN_NUMBER                      = 1                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 1                                      
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      OBS NUMBER = Chronological observation number"                          
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT DAY"                               
+  COLUMN_NUMBER                      = 2                                      
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 4                                      
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.2"                                 
+  DESCRIPTION                        = "                                      
+      UT DAY = UT observation day"                                            
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT MONTH"                             
+  COLUMN_NUMBER                      = 3                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 10                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT MONTH = UT observation month"                                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+ OBJECT                              = COLUMN                                 
+  NAME                               = "UT YEAR"                              
+  COLUMN_NUMBER                      = 4                                      
+  DATA_TYPE                          = ASCII_INTEGER                          
+  START_BYTE                         = 13                                     
+  BYTES                              = 2                                      
+  FORMAT                             = "I2"                                   
+  DESCRIPTION                        = "                                      
+      UT YEAR = Last 2 digits of the UT observation year"                     
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "JD"                                   
+  COLUMN_NUMBER                      = 5                                      
+  UNIT                               = "JULIAN DAYS"                          
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 16                                     
+  BYTES                              = 7                                      
+  FORMAT                             = "F7.2"                                 
+  DESCRIPTION                        = "                                      
+      JD = Julian date of the observation: 2,440,000+"                        
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "DAYS FROM PERIHELION"                 
+  COLUMN_NUMBER                      = 6                                      
+  UNIT                               = "DAYS"                                 
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 24                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  DESCRIPTION                        = "                                      
+      DAYS FROM PERIHELION = UT time of each observation in decimal days      
+                             with respect to perihelion passage (t=0):        
+                             negative values = pre-perihelion                 
+                             positive values = post-perihelion"               
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "OBS SYSTEM"                           
+  COLUMN_NUMBER                      = 7                                      
+  DATA_TYPE                          = CHARACTER                              
+  START_BYTE                         = 31                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "A4"                                   
+  DESCRIPTION                        = "                                      
+      OBS SYSTEM = Photometric system used for the observation:               
+                   MLOF = UM Mount Lemmon Observing Facility 1.52-m telescope 
+                   UM2  = UM O'Brien 0.76-m telescope                         
+                   WIRO = Wyoming Infrared Observatory"                       
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "DIAPHRAGM DIAMETER"                   
+  COLUMN_NUMBER                      = 8                                      
+  UNIT                               = "ARCSEC"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 36                                     
+  BYTES                              = 5                                      
+  FORMAT                             = "F5.2"                                 
+  DESCRIPTION                        = "                                      
+      DIAPHRAGM DIAMETER = The equivalent circular diaphragm diameter         
+                           given for photometers with square beams.           
+                           UM1 had a 27-inch square beam equivalent           
+                               to a 30.3-inch circular aperature.             
+                           UM2 had a 20-inch square beam equivalent           
+                               to a 22.5-inch circular aperature.             
+                           MLOF on 25 March, 1886 UT had a 13.5-inch          
+                               square beam equivalent to a 15.2-inch          
+                               circular aperature."                           
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "CHOPPER THROW"                        
+  COLUMN_NUMBER                      = 9                                      
+  UNIT                               = "ARCSEC"                               
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 42                                     
+  BYTES                              = 4                                      
+  FORMAT                             = "F4.1"                                 
+  DESCRIPTION                        = "                                      
+      CHOPPER THROW = The chopper throw between the source and the            
+                      reference beams."                                       
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                              = COLUMN                                  
+  NAME                               = "MAGNITUDE (0.7)"                      
+  COLUMN_NUMBER                      = 10                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 46                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (0.7) = The raw photometric magnitude for 0.7-micron          
+                        effective wavelenth, corrected only for               
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (1.2)"                      
+  COLUMN_NUMBER                      = 11                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 52                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (1.2) = The raw photometric magnitude for effective           
+                        wavelength 1.2-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (1.6)"                      
+  COLUMN_NUMBER                      = 12                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 58                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (1.6) = The raw photometric magnitude for effective           
+                        wavelength 1.6-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (2.2)"                      
+  COLUMN_NUMBER                      = 13                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 64                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (2.2) = The raw photometric magnitude for effective           
+                        wavelength 2.2-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (2.3)"                      
+  COLUMN_NUMBER                      = 14                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 70                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (2.3) = The raw photometric magnitude for effective           
+                        wavelength 2.3-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (3.6)"                      
+  COLUMN_NUMBER                      = 15                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 76                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (3.6) = The raw photometric magnitude for effective           
+                        wavelength 3.6-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (4.8)"                      
+  COLUMN_NUMBER                      = 16                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 82                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (4.8) = The raw photometric magnitude for effective           
+                        wavelength 4.8-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (4.9)"                      
+  COLUMN_NUMBER                      = 17                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 88                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (4.9) = The raw photometric magnitude for effective           
+                        wavelength 4.9-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (8.5)"                      
+  COLUMN_NUMBER                      = 18                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 94                                     
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (8.5) = The raw photometric magnitude for effective           
+                        wavelength 8.5-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (8.6)"                      
+  COLUMN_NUMBER                      = 19                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 100                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (8.6) = The raw photometric magnitude for effective           
+                        wavelength 8.6-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (8.7)"                      
+  COLUMN_NUMBER                      = 20                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 106                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (8.7) = The raw photometric magnitude for effective           
+                        wavelength 8.7-micron, corrected only for             
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (N)"                        
+  COLUMN_NUMBER                      = 21                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 112                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (N) = The raw photometric magnitude for effective             
+                        wavelength N-micron, corrected only for               
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (10.0)"                     
+  COLUMN_NUMBER                      = 22                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 118                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (10.0) = The raw photometric magnitude for effective          
+                        wavelength 10.0-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (10.3)"                     
+  COLUMN_NUMBER                      = 23                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 124                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (10.3) = The raw photometric magnitude for effective          
+                        wavelength 10.3-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (10.6)"                     
+  COLUMN_NUMBER                      = 24                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 130                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (10.6) = The raw photometric magnitude for effective          
+                        wavelength 10.6-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (11.3)"                     
+  COLUMN_NUMBER                      = 25                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 136                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (11.3) = The raw photometric magnitude for effective          
+                        wavelength 11.3-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (11.4)"                     
+  COLUMN_NUMBER                      = 26                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 142                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (11.4) = The raw photometric magnitude for effective          
+                        wavelength 11.4-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (12.5)"                     
+  COLUMN_NUMBER                      = 27                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 148                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (12.5) = The raw photometric magnitude for effective          
+                        wavelength 12.5-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (12.6)"                     
+  COLUMN_NUMBER                      = 28                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 154                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (12.6) = The raw photometric magnitude for effective          
+                        wavelength 12.6-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (17.8)"                     
+  COLUMN_NUMBER                      = 29                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 160                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (17.8) = The raw photometric magnitude for effective          
+                        wavelength 17.8-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (18.0)"                     
+  COLUMN_NUMBER                      = 30                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 166                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (18.0) = The raw photometric magnitude for effective          
+                        wavelength 18.0-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (19.5)"                     
+  COLUMN_NUMBER                      = 31                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 172                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (19.5) = The raw photometric magnitude for effective          
+                        wavelength 19.5-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+OBJECT                               = COLUMN                                 
+  NAME                               = "MAGNITUDE (23.0)"                     
+  COLUMN_NUMBER                      = 32                                     
+  DATA_TYPE                          = ASCII_REAL                             
+  START_BYTE                         = 178                                    
+  BYTES                              = 6                                      
+  FORMAT                             = "F6.2"                                 
+  INVALID_CONSTANT                   = 99.99                                  
+  DESCRIPTION                        = "                                      
+      MAGNITUDE (23.0) = The raw photometric magnitude for effective          
+                        wavelength 23.0-micron, corrected only for            
+                        atmospheric extinction."                              
+ END_OBJECT                          = COLUMN                                 
+                                                                              
+END_OBJECT                           = TABLE                                  
+END                                                                           

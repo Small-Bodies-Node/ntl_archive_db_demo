@@ -1,0 +1,45 @@
+***** File OBSNTERP.TXT                                                       
+                                                                              
+                                                                              
+                  Observation Interpolation Program                           
+                                                                              
+                                                                              
+     The program OBSNTERP is an interactive, seven point Lagrange inter-      
+polation program that will return ephemeris data for periodic comet Giacobini-
+Zinner over the interval January 5, 1984 through May 27, 1987.  To run the    
+program, type OBSNTERP <carriage return> and respond to the prompts.  The     
+executable requires a math co-processor.  The Fortran source code is given in 
+the files labeled with the extension .FOR and the ephemeris data table for    
+comet Giacobini-Zinner is EPHEM.TAB.  You can speed up the interpolation time 
+by shortening the data table to include only the interval that you require and
+by requesting output for dates in chronological order.  The information in the
+data table was generated with IHW orbit number 37, which was based upon 1145  
+astrometric positions over the interval March 11, 1972 through March 31, 1987.
+(Each line of the table is a fixed width of 110 characters plus <CR> <LF>.)   
+                                                                              
+                                                                              
+     The definition of each output quantity is given below:                   
+                                                                              
+     Date:    Calendar date and Julian date (times in these ephemerides are   
+              universal times).                                               
+     RA, DEC: Geocentric right ascension and declination referred to the      
+              mean equator and equinox of 1950.0 - light time corrections     
+              have been applied.                                              
+     DELTA:   Geocentric distance of comet in AU.                             
+     DELDOT:  Geocentric velocity of comet in km/sec.                         
+     R:       Heliocentric distance of comet in AU.                           
+     RDOT:    Heliocentric velocity of comet in km/sec.                       
+     THETA:   Sun-Earth-Comet angle in degrees.                               
+     BETA:    Sun-Comet-Earth angle in degrees.                               
+     MOON:    Comet-Earth-Moon angle in degrees.                              
+     PSANG:   Position angle of extended Sun-Comet vector.                    
+     PSAMV:   Position angle of minus comet velocity vector.                  
+                                                                              
+     (Position angles are measured east from north.)                          
+                                                                              
+                                                                              
+Ravenel N. Wimberly                                                           
+Astrometry Team Member                                                        
+Jet Propulsion Laboratory                                                     
+4800 Oak Grove Drive                                                          
+Pasadena, CA 91109                                                            

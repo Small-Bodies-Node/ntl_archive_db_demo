@@ -1,0 +1,46 @@
+PDS_VERSION_ID                    = PDS3                                      
+                                                                              
+RECORD_TYPE                       = STREAM                                    
+                                                                              
+OBJECT     = VOLUME                                                           
+  VOLUME_SERIES_NAME           = "INTERNATIONAL HALLEY WATCH"                 
+  VOLUME_SET_NAME              = "COMET GIACOBINI-ZINNER ARCHIVE"             
+  VOLUME_SET_ID                = "USA_NASA_IHW_IHWORG_10XX"                   
+  VOLUMES                      = 1                                            
+  VOLUME_NAME      = "IR STUDIES NET SPECTROSCOPIC DATA FOR COMET G-Z"        
+  VOLUME_ID                    = "IHWORG_1010"                                
+  VOLUME_VERSION_ID            = "VERSION 1"                                  
+  PUBLICATION_DATE             = 2011-05                                      
+  MEDIUM_TYPE                  = "ELECTRONIC"                                 
+  VOLUME_FORMAT                = "ISO-9660_LEVEL2"                            
+  DATA_SET_ID                  = "IHW-C-IRSPEC-3-EDR-GZ-V1.0"                 
+  DESCRIPTION                     = "                                         
+    Data extracted from the HAL_0024 volume, reorganized into single data set 
+    volumes but otherwise untouched.  Supporting directories (documentation,  
+    etc.) from the disks have been duplicated in all the related data sets.   
+                                                                              
+    The DATA_PRODUCER listed below prepared the reorganized volumes.  The     
+    original archive was produced by various people, largely working at       
+    Goddard Space Flight Center.  Consult the documentation included for      
+    additional information.                                                   
+    "                                                                         
+                                                                              
+  OBJECT     = DATA_PRODUCER                                                  
+    FULL_NAME        = "ANNE RAUGH"                                           
+    INSTITUTION_NAME = "UNIVERSITY OF MARYLAND"                               
+    FACILITY_NAME    = "PDS SMALL BODIES NODE"                                
+    ADDRESS_TEXT     = "DEPARTMENT OF ASTRONOMY\n                             
+                        UNIVERSITY OF MARYLAND\n                              
+                        COLLEGE PARK, MD  20742-2421"                         
+  END_OBJECT = DATA_PRODUCER                                                  
+                                                                              
+  OBJECT     = CATALOG                                                        
+    ^MISSION_CATALOG         = "INTERNATIONAL_HALLEY_WATCH.CAT"               
+    ^INSTRUMENT_HOST_CATALOG = "IRSN.CAT"                                     
+    ^INSTRUMENT_CATALOG      = "IRSPEC.CAT"                                   
+    ^DATA_SET_CATALOG        = "DATASET.CAT"                                  
+    ^REFERENCE_CATALOG       = "REFERENCE.CAT"                                
+  END_OBJECT = CATALOG                                                        
+                                                                              
+END_OBJECT = VOLUME                                                           
+END                                                                           

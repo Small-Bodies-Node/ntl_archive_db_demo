@@ -1,0 +1,830 @@
+***** File GIOJPA.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+The Giotto Three-Dimensional                                                                                                      
+Positive Ion Analyser                                                                                                             
+A.D. Johnstone, J.A. Bowles, A.J. Coates,                                                                                         
+A.J. Coker, S.J. Kellock* & J. Raymont                                                                                            
+Mullard Space Science Laboratory, Holmbury St. Mary, UK                                                                           
+* Now at ESA's Operation Center (ESOC), Darnstadt, West Germany                                                                   
+                                                                                                                                  
+B.   Wilken, W. Studemann & W. Weiss                                                                                              
+Max Planck Institut fur Aeronomie, West Germany                                                                                   
+                                                                                                                                  
+R.   Cerulli Irelli & V. Formisano                                                                                                
+Istituto di Fisica dello Spazio Interplanetario, Frascati, Italy                                                                  
+                                                                                                                                  
+E.   de Giorgi, P. Perani & M. de Bernardi                                                                                        
+Laben, Milan, Italy                                                                                                               
+                                                                                                                                  
+H.   Borg & S. Olsen                                                                                                              
+Kiruna Geophysical Institute, Kiruna, Sweden                                                                                      
+                                                                                                                                  
+J.D. Winningham                                                                                                                   
+South west Research Institute, San Antonio, USA                                                                                   
+                                                                                                                                  
+D.A. Bryant                                                                                                                       
+Rutherford Appleton Laboratory, Chilton, UK                                                                                       
+                                                                                                                                  
+Abstract                                                                                                                          
+  This instrument is designed to measure the three-dimensional energy distribution of                                             
+positive ions in order to study the interaction between the solar wind and ionized                                                
+cometary particles. The two sensors measure the distribution from 10 eV to 20 keV                                                 
+once per spacecraft spin and the distribution from 90 eV to 90 keV, with coarse mass                                              
+discrimination, once every 32 spins.                                                                                              
+                                                                                                                                  
+1. Introduction                                                                                                                   
+  The plasma tail of a comet is arguably its most spectacular feature. Its filamentary                                            
+structure, with waves, kinks and spirals can be seen stretching for as much as                                                    
+10**8 km across the inner solar system for a large comet like Halley near perihelion.                                             
+  Following the original proposal of Biermann (1951), it is now known that the plasma                                             
+tail is the manifestation of the interaction between plasma from two distinct sources:                                            
+ionized particles of cometary origin and the solar wind. Theoretical analyses of this                                             
+interaction (Biermann et al., 1967; Wallis, 1973; Ip & Axford, 1982) have provided                                                
+a model of the gross features of the plasma flow to be expected near the comet, but                                               
+they do not yet give a detailed explanation of the formation of the visible tail. On the                                          
+other hand, many of the features predicted by theory cannot be observed from the                                                  
+Earth. The gap between theoretical analysis of the solar-wind-comet interaction and                                               
+ground-based observations of comet tails can only be filled by in-situ measurements                                               
+of the plasma distributions within the visible coma of a comet. Theory says that the                                              
+plasma should be divided into three main regimes separated by two surfaces - a                                                    
+contact surface and a bow shock. The contact surface encloses the region dominated                                                
+by the cold, dense cometary plasma around the nucleus. Some of the neutral cometary                                               
+particles are not bound by this contact surface and may travel well upstream into the                                             
+solar wind before being ionized. The additional mass they then add to the solar-wind                                              
+flow slows it down and eventually creates the second surface, a bow shock.                                                        
+The objectives of the Johnstone Plasma Analyser (JPA) instrument can be concisely                                                 
+stated as:                                                                                                                        
+-   to look for the existence of a bow shock and a contact surface                                                                
+-   to observe the mass loading of the solar wind and the resultant deceleration and                                              
+    deflection of the flow                                                                                                        
+-   to observe the distribution of implanted cometary ions and its stability                                                      
+-   to detect the principal ionization mechanisms.                                                                                
+                                                                                                                                  
+The instrument is designed to achieve these objectives by measuring the three-                                                    
+dimensional velocity distribution of positive ions in the energy range from 10 eV to                                              
+90 keV. It includes two complementary sensors: the Fast Ion Sensor (FIS) measures                                                 
+the energy per charge distribution from 10 eV/q to 20 keV/q in all directions, except                                             
+for a cone around the velocity vector, once every rotation (nominally 4 s) of the                                                 
+spacecraft; the Implanted Ion Sensor (IIS) measures the energy per charge distribution                                            
+from 90 eV/q to 90 keV/q over a similar angular range, with discrimination into five                                              
+mass groups, but takes 32 rotations to obtain a complete distribution.                                                            
+  The analysis is expected to be undertaken at several levels of processing. The                                                  
+existence of a bow shock, or contact surface, should be apparent even in raw telemetry                                            
+data as a discontinuity. Studies of the mass loading of the flow require the derivation                                           
+of such bulk plasma parameters as density, temperature, velocity, pressure and                                                    
+possibly higher order terms. To understand the stability of the cometary ions requires                                            
+detailed analysis of the complete distribution.                                                                                   
+                                                                                                                                  
+2. Scientific Background                                                                                                          
+  Neutral molecules and radicals emerge from the collision-dominated region close to                                              
+the nucleus with an outward flow velocity V(i) which depends on the energy gained or                                              
+lost in the complex photochemical reactions which take place there. The particles are                                             
+ionized, it is believed, predominantly by photo-ionization or charge-exchange at a rate                                           
+theta(i); which depends on the species, i. The ion production rate A(i) at a distance r from                                      
+the nucleus is therefore given by                                                                                                 
+                                                                                                                                  
+  A(i) = (Q(i)theta(i)/(4 Pi r**2 V(i))) exp (-r theta(i)/V(i))                                                                   
+                                                                                                                                  
+where Q(i) is the escape rate of the species i from the inner coma. The quantity (V(i)/theta(i))                                  
+has the character of a species-dependent scale length which determines the size of the                                            
+coma of that particular species. In most theoretical studies a single species is assumed;                                         
+in the real comet a number of important species will be encountered with different                                                
+values of (V(i)/theta(i)). In Table 1 two species H+ and CO+, with very different scale                                           
+lengths, are compared.                                                                                                            
+ Once the ion has been implanted in the flow it is picked-up by the electric field in                                             
+the solar wind and accelerated into a cycloidal orbit. Using the reference frame shown                                            
+in Figure 1 with the magnetic field parallel to the y-axis and the solar-wind velocity                                            
+in the yz-plane, the trajectory of the implanted ion is given by                                                                  
+                                                                                                                                  
+ V(x) = V(s) sin (phi) sin (omega(c)t)                                                                                            
+ V(z) = V(s) sin (phi) (1 - cos (omega(c)t))                                                                                      
+                                                                                                                                  
+Figure 1. The frame of reference used                                                                                             
+calculate ion pickup trajectories                                                                                                 
+                                                                                                                                  
+  The motion consists of a gyration about B with a velocity V(s) sin (phi) and a drift veloci-                                    
+ty V(s) sin (phi) perpendicular to B. The maximum velocity reached is 2 V(s) sin (phi); with                                      
+typical values for the solar wind, V(s)=400 km/s, phi=45deg and B= 10 nT, one obtains                                             
+the values given in Table 2 for ions of the same two sample species as in Table 1.                                                
+  High-mass ions are therefore rapidly accelerated in a way that is strongly dependent                                            
+on the direction of the magnetic field. In the relatively undisturbed solar wind,                                                 
+upstream from the bow shock, the field is normally at a large angle to the flow, and                                              
+the ions can be accelerated to high energies. Near the nucleus, where the magnetic                                                
+field lines draped around the comet lie nearly parallel to the flow, there will be little                                         
+acceleration of the ions by this means. Again the ionic behaviour is strongly species-                                            
+dependent. Hydrogen ions, created at large distances (see Table 1), are likely to                                                 
+follow cycloidal trajectories. Carbon-monoxide ions, created closer to the nucleus,                                               
+have a gyro radius comparable to the size of their coma. Their motion is therefore                                                
+going to be different in character from the hydrogen ions. It is worth noting in this                                             
+respect that numerical models of the magnetohydrodynamic flow (Biermann et al.,                                                   
+1967; Schmidt & Wegmann, 1982) usually assume that the ions are immediately sub-                                                  
+sumed into the solar-wind flow, travelling at the solar-wind speed. This extreme case,                                            
+which can be called the 'strong coupling case', would result in the average energy <W>                                            
+and momentum <p> being given by the equations                                                                                     
+                                                                                                                                  
+ <W> = 1/2 MV(s)**2                                                                                                               
+                                                                                                                                  
+ <p>=MV(s)                                                                                                                        
+                                                                                                                                  
+At the other extreme, fully developed cycloidal trajectories give                                                                 
+                                                                                                                                  
+  <W> = m(V(s)**2)(sin (phi))**2                                                                                                  
+                                                                                                                                  
+  <p> = m V(s)(sin (phi))k                                                                                                        
+                                                                                                                                  
+ where k is a unit vector in the z-direction.                                                                                     
+                                                                                                                                  
+----------------------------------------------------------------------------                                                      
+Table 1. Coma scale lengths                                                                                                       
+                                                                                                                                  
+                    theta(i)(s**-1)      V(i)(m/s)         V(i)/theta(i)(km)                                                      
+----------------------------------------------------------------------------                                                      
+H+                   6.7x10**-7          8000              1.2x10**7                                                              
+CO+                 11.5x10**-7           700                6x10**5                                                              
+----------------------------------------------------------------------------                                                      
+----------------------------------------------------------------------------                                                      
+Table 2. Cycloidal trajectory parameters                                                                                          
+                                                                                                                                  
+                    Maximum energy (keV)  Gyro period (s)   Gyro radius (km)                                                      
+----------------------------------------------------------------------------                                                      
+                                                                                                                                  
+                                                                                                                                  
+H+                  1.67                  6.5               1850                                                                  
+CO+                 50.1                  183              50000                                                                  
+----------------------------------------------------------------------------                                                      
+                                                                                                                                  
+  In the latter case the momentum is now perpendicular to the magnetic field and will                                             
+cause a deflection as well as a deceleration of the solar wind. Again the nature of the                                           
+interaction is strongly influenced by the direction of the magnetic field in in-                                                  
+terplanetary space, which can vary greatly even on short time scales. The strong-                                                 
+coupling case could become important if the ring distribution in velocity space created                                           
+by the cycloidal trajectories was sufficiently unstable for the distribution to become                                            
+rapidly isotropized (Ip & Axford, 1982). Recent calculations (Galeev, 1983) suggest                                               
+that this is unlikely to occur rapidly enough to be important.                                                                    
+  The solar-wind flow around the comet can be described by the full single fluid equa-                                            
+tions expressing conservation of mass, momentum, and energy. These equations have                                                 
+been solved numerically by several authors (Schmidt & Wegmann, 1982), albeit with                                                 
+many simplifying assumptions. An alternative approach is to use a quasi-one-                                                      
+dimensional formulation which can be treated analytically (Wallis, 1973; Wallis &                                                 
+Ong, 1975; Galeev et al., 1985):                                                                                                  
+                                                                                                                                  
+  (d/dx) [rho*u*f(u,mu)] = (Q(i) M(i) theta(i)/(4 pi V(i) r**2)) delta (mu-M(i)u**2/2B)                                           
+                                                                                                                                  
+  d/dx (rho*u) = Q(i) M(i) theta(i)/(4 pi V(i) r**2)                                                                              
+                                                                                                                                  
+  d/dx (rho*u**2 + p(perpend) + B**2/2 mu(0) = 0                                                                                  
+                                                                                                                                  
+From these equations, for the case where B is perpendicular to the flow, it is possible                                           
+to derive a solution for the cometary ion distribution function f(u,mu) in the region                                             
+upstream from the shock. This is shown in Figure 2. In this distribution each value                                               
+of magnetic moment corresponds to ionization occurring at a particular point                                                      
+upstream, with the highest magnetic moments being generated in the undisturbed solar                                              
+wind. As the flow speed decreases, due to the mass-loading, the magnetic moment of                                                
+the implanted ions also decreases. The particles with lowest magnetic moment in this                                              
+distribution are created just upstream from the point of observation. Measuring this                                              
+distribution therefore gives the possibility of sensing conditions upstream, including                                            
+the unperturbed flow speed.                                                                                                       
+  From these equations it is also possible to obtain the variation of mass flux as the                                            
+flow approaches the nucleus. Continuous flow is only possible up to the point where                                               
+(Galeev et al., 1985)                                                                                                             
+                                                                                                                                  
+ rho*u/rho(infinity)u(infinity) = gamma**2/(gamma**2-1) = 4/3  (gamma=2)                                                          
+                                                                                                                                  
+where rho*u is the mass flux and the subscript "infinity" indicates the unperturbed upstream                                      
+values and gamma is the ratio of specific heats.                                                                                  
+  In fact it is found that in numerical simulations the critical value for the formation                                          
+of a shock is (rho*u/rho(infinity)u(infinity)) = 1.185.                                                                           
+                                                                                                                                  
+Figure 2. The cometary ion distribution                                                                                           
+function in the unshocked solar wind as a                                                                                         
+function of the magnetic moment mu.  It is                                                                                        
+calculated for a position just upstream from an                                                                                   
+M=2 shock where the velocity is 0.75 times                                                                                        
+the unperturbed solar wind velocity (Galeev et                                                                                    
+al., 1985)                                                                                                                        
+                                                                                                                                  
+ Ions implanted inside the bow shock do not reach high energies because of field-line                                             
+draping and because the turbulence is likely to prevent the full development of                                                   
+cycloidal trajectories, but those energetic ions created upstream are able to penetrate                                           
+the shock, essentially unaffected, and could be detected in the inner region (Galeev                                              
+et al., l985).                                                                                                                    
+ The objective of the JPA instrument is to obtain an in-situ evaluation of these                                                  
+theoretical ideas taking due account of the greater complexity of the real situation                                              
+created by the presence of many different species and a variable magnetic-field                                                   
+direction.                                                                                                                        
+                                                                                                                                  
+3.  Instrument Design                                                                                                             
+                                                                                                                                  
+  This is an exploratory mission and the JPA instrument will be the first to make three-                                          
+dimensional ion measurements near a comet, so it is most important that it be able to                                             
+cope with a wide range of possible circumstances and that it not be limited by pre-                                               
+conceived ideas of what the ion distributions are like near a comet.                                                              
+ The instrument must cover as much of velocity space as possible, leaving no gaps                                                 
+in coverage for unsuspected distributions to slip through. This has implications for the                                          
+ion optics of the analyzer design, as well as for the energy sweep rates and sampling                                             
+patterns.                                                                                                                         
+ Structures have been observed near the head of a comet with thicknesses of the order                                             
+of 1000 km. This upper limit is set by observational techniques and not by cometary                                               
+physics. If experience in other space plasmas is any guide, spatial variations on much                                            
+smaller scales are also likely. With a spacecraft speed relative to the comet of 68 km/s,                                         
+a time resolution of 15 s is essential and a much faster time resolution is desirable.                                            
+ The mass distribution as well as the complete angular distribution of the implanted                                              
+ions must be measured if the characteristics of the flow are to be understood, because                                            
+the behaviour is strongly species-dependent. It is not necessary to have the same mass                                            
+resolution as for studies of the chemical constituents of the nucleus.                                                            
+ The JPA instrument is one of a group of complementary plasma sensors measuring                                                   
+ions on Giotto; the others are the IMS instrument (Balsiger et al., 1986), the PICCA                                              
+sensor of the RPA (Reme et al., 1986), and the EPA instrument (McKenna-Lawlor                                                     
+et al., 1986). The JPA instrument is directed towards studies on the nature of the solar-                                         
+wind interaction with the comet rather than the detailed chemical composition of the                                              
+ions.                                                                                                                             
+                                                                                                                                  
+Figure 3. The flight units of the JPA                                                                                             
+instrument. From the left they are the Fast Ion                                                                                   
+Sensor, the Data Processing Unit and the                                                                                          
+Implanted Ion Sensor                                                                                                              
+                                                                                                                                  
+  The instrument consists of three separate packages: the Fast Ion Sensor, the Im-                                                
+planted Ion Sensor and the Data Processing Unit (Fig. 3).                                                                         
+  The purpose of the Fast Ion Sensor is to provide a three-dimensional distribution                                               
+over the energy range likely to include most of the ions near the comet as quickly as                                             
+possible. It obtains the full azimuthal distribution once per rotation of the spacecraft.                                         
+  It can measure the solar-wind distribution at its most anisotropic, giving the flow                                             
+speed and direction, temperature and density. It follows the development of the solar                                             
+plasma as it is thermalized, slowed down and deflected. It measures the ring distribu-                                            
+tions for the low-mass ions in the undisturbed solar wind (complete distributions up                                              
+to mass 12), and for all ions once the angle between the flow direction and magnetic-                                             
+field direction becomes smaller near the comet. Speed of response is achieved at the                                              
+expense of mass discrimination, and by limiting the energy range to 10 eV to 20 kev.                                              
+  Its geometric factor is determined by ensuring that the count rate in the most                                                  
+anisotropic and dense solar wind to be expected will not exceed the highest allowable                                             
+count rate. Its wide dynamic range then ensures that weak secondary populations can                                               
+also be detected, with the highest possible statistical significance.                                                             
+  It does not cover the distribution of energetic implanted ions (E> 20 keV), nor the                                             
+cold cometary ions inside the contact surface. These ions will appear to be moving                                                
+antiparallel to the spacecraft velocity vector.                                                                                   
+  There are several reasons for not covering this latter population. First, the fluxes                                            
+are very much higher than any other fluxes encountered and if the sensitivity of the                                              
+Fast Ion Sensor were to be reduced to cope with the cometary ions it would not have                                               
+adequate sensitivity for other important populations. Secondly, to detect these ions                                              
+would mean exposing the sensor to the flux of cometary dust and neutral particles past                                            
+the spacecraft, which would create an undesirable background in the sensor for all of                                             
+the measurements.                                                                                                                 
+  The task for the Implanted Ion Sensor is to search for massive cometary ions in the                                             
+solar wind by extending the energy range of the measurements up to 90 keV, increas-                                               
+ing the sensitivity so that very low densities can be measured and providing mass                                                 
+discrimination sufficient to separate the ions into the principal mass groups, enabling                                           
+the ring distributions to be detected even when diffused by wave-particle interactions.                                           
+The technique used to obtain the mass discrimination, namely time-of-flight analysis,                                             
+has the additional property of having a very low background because it uses a coin-                                               
+cidence technique. This means that extremely low count rates can be measured if suffi-                                            
+cient integration times can be allowed. It achieves these properties at the expense of                                            
+speed of response because it measures at one energy level each rotation of the                                                    
+spacecraft. With its high sensitivity, it is unable to measure the proton flux in the solar                                       
+wind because the intense fluxes overload the time-of-flight analyzers.                                                            
+  The Data Processing Unit collects the data from the sensors and processes it for                                                
+transmission to Earth.                                                                                                            
+                                                                                                                                  
+4. Fast Ion Sensor                                                                                                                
+  The principal design aims of this sensor are: (a(a) high sensitivity, i.e. a large                                              
+geometric factor, (b) wide dynamic range, i.e. high maximum count rates and low                                                   
+background, (c) complete and continuous coverage of a wide solid angle, in the energy                                             
+range from 10 eV to 20 keV for positive ions, and (d) angular and energy resolution                                               
+good enough to resolve the supersonic flow in the solar wind. The coverage in solid                                               
+angle is achieved by having a wide angle of acceptance (160deg) for the analyzer in a                                             
+plane containing the spin axis of the spacecraft. Then, as the spacecraft rotates, the                                            
+detectors sweep through the full 4 pi solid angle apart from the 20deg cone around the                                            
+velocity vector.                                                                                                                  
+  The Fast Ion Sensor (FIS) consists of four principal elements (Fig. 4), a                                                       
+hemispherical electrostatic energy analyzer, a quadrispherical angular dispersion sec-                                            
+tor, a microchannel plate detector, and a discrete-anode, position-sensitive readout                                              
+system (Johnstone et al., 1985).                                                                                                  
+  After entering the aperture, ions pass through a hemispherical energy analyzer,                                                 
+which selects a narrow band in energy per charge (delta(E)/E=4.7%). After an in-                                                  
+termediate aperture, the selected ions enter an 80deg angular dispersion sector, which                                            
+disperses them to emerge around a 160deg annular sector according to the angle of in-                                             
+cidence at the input aperture. They are then accelerated onto the front face of a                                                 
+microchannel plate detector, which produces a cloud of electrons for each ion striking                                            
+the input. Finally, the electrons are collected and form a charge pulse on one of a                                               
+series of eight metal anodes behind the microchannel plate. Each of the anodes has                                                
+a defined angular range (Table 3) and is connected to a charge-sensitive pulse                                                    
+amplifier mounted within the sensor which produces a logic level pulse output for each                                            
+electron cloud striking the anode. The arrangement provides continuous coverage over                                              
+the sensor field of view.                                                                                                         
+ The energy of the detected ion is known from the analysis voltage applied to the                                                 
+spherical deflection plates. The plate voltages are applied in a fixed ratio                                                      
+V(inner)/V(outer) = -1.18, to give the zero potential surface exactly half way between the                                        
+spherical plates. The 'gain' of the analyzer (i.e. the ratio of the energy selected to the                                        
+plate potential difference) is 3.55. The polar angle is known from the anode which                                                
+registers the count. Azimuthal angle is measured by timing with respect to the                                                    
+spacecraft Sun pulse.                                                                                                             
+ The detector consists of two double-thickness microchannel plates in a chevron con-                                              
+figuration, specially cut to cover the 160deg arc of the output aperture of the analyzer.                                         
+The combination produces a saturated pulse distribution, with full-width-half-                                                    
+maximum of 70% at a gain of 2 X 10**6. The saturated distribution enables reliable                                                
+operation in a pulse-counting mode, with little dependence of the overall detection effi-                                         
+ciency on the amplifier gain or threshold. Achieving the saturation at a low gain                                                 
+enables the plate to operate at high count rates and thus maximizes the dynamic range.                                            
+The maximum pulse rate the channel plate can deliver per anode sector is of the order                                             
+of 2 X 10**6 pulses/s. In principle, such count rates could occur simultaneously in all                                           
+sectors. The discrete anode, with individual pulse counters, is the only type of position                                         
+sensitive readout presently capable of handling such count rates.                                                                 
+                                                                                                                                  
+Figure 4. Diagram of the operation of the Fast                                                                                    
+Ion Sensor                                                                                                                        
+                                                                                                                                  
+__________________________________________________________________________                                                        
+Table 3. Fast Ion Sensor analyzer characteristics                                                                                 
+                                                                                                                                  
+E/q range (keV/q)                                 0.01-20                                                                         
+Acceptance angles:                                                                                                                
+ azimuthal                                        5deg                                                                            
+ polar                                            160deg                                                                          
+Outer plate radius r(1) (mm)                      38                                                                              
+Inner plate radius r(2) (mm)                      33                                                                              
+Centre radius r (mm)                              35.5                                                                            
+Analyser gain [=r/2(r(1)-r(2))]                   3.55                                                                            
+Aperture diameter (mm)                            2.25                                                                            
+Aperture area (mm**2)                             4                                                                               
+Plate voltage splitting (V(2)/V(i))               -1.18                                                                           
+Energy resolution (delta(E)/E)                    4.7%                                                                            
+Geometric factor (mm**2 sr eV)                    4.7 x 10**-3 E (eV)                                                             
+ (26deg anode at normal incidence)                                                                                                
+__________________________________________________________________________                                                        
+                                                                                                                                  
+  The energy passband of the analyzer is swept continuously, along an exponential                                                 
+decay curve from the maximum energy of 20 keV down to l0 eV in one sixteenth of                                                   
+a spin. The sweep is synchronized to the spin by using the spacecraft Spin Segment                                                
+Clock Pulse to control the sweep.                                                                                                 
+  Since the angle of acceptance in the spin plane is 5 deg, there are gaps in the azimuthal                                       
+coverage between successive sweeps which are 22.5deg apart. This is important in the                                              
+solar wind where the undisturbed solar wind may be confined within an angular range                                               
+of 5 deg. In order to provide contiguous azimuthal coverage, an energy sweep covering                                             
+one quarter of the energy range (a factor of 6.7 in energy) is used four times as often                                           
+in the 45deg angular sector centred on the solar direction. The solar-wind mode is used                                           
+on alternate spins giving a time resolution for solar-wind measurements of 8 s. The                                               
+starting energy for the reduced sweep (Table 4) is adjusted automatically on-board                                                
+(Section 6) to ensure that the proton and alpha-particle distributions in the solar wind                                          
+are always covered.                                                                                                               
+  The intrinsic energy passband of the analyzer has delta(E)/E=4.7%. At the sweep rate,                                           
+this energy range is covered in 1 ms. If the accumulation time of the counters is in-                                             
+creased, the energy passband of the measurement is increased correspondingly. Thus                                                
+during solar wind sweeps 2 ms accumulation times will be used, giving delta(E)/E=0.096.                                           
+For the High Angular Resolution Distribution mode (Section 6), 8 ms accumulation                                                  
+times given delta(E)/E=0.3 and for the Fast Time Resolution with 16 ms accumulation time                                          
+delta(E)/E ~ 0.6.                                                                                                                 
+  The FIS electronics has two functions: to accumulate the pulses from the anodes,                                                
+and to provide the high bias voltages to operate the analyzer and the detector. The out-                                          
+puts of the eight amplifiers are routed through mode-switching logic, where they are                                              
+combined in two different accumulator modes (wide energy and solar wind) before be-                                               
+ing counted by a series of six, 16-bit accumulators. The polar-angle ranges selected                                              
+in the six accumulators for the wide energy and solar wind accumulator modes are                                                  
+shown in Table 5. The solar-wind mode has been arranged to provide high angular                                                   
+resolution measurements around the solar direction and is used simultaneously with                                                
+the solar-wind sweeps described above.                                                                                            
+                                                                                                                                  
+__________________________________________________________________________                                                        
+                                                                                                                                  
+Table 4. Start and stop energy levels for FIS solar-wind sweeps                                                                   
+                                                                                                                                  
+Solar wind sweep  Start energy  Proton velocity  Stop energy  Proton velocity                                                     
+preset            (eV/q)        (km/s)           (eV/q)       (km/s)                                                              
+__________________________________________________________________________                                                        
+                                                                                                                                  
+7                    19963         1962            4161        895                                                                
+6                    15956         1754            2494        693                                                                
+5                     9562         1358            1494        536                                                                
+4                     5730         1051             896        4l5                                                                
+3                     3434          813             537        321                                                                
+2                     2058          630             322        249                                                                
+1                     1233          487             193        192                                                                
+0                      739          377             115        149                                                                
+__________________________________________________________________________                                                        
+__________________________________________________________________________                                                        
+Table 5. Fast Ion Sensor Polar angles sampled by the accumulators                                                                 
+                         Polar angles sampled     measured from z axis*                                                           
+Accumulator              in wide-energy mode      in solar-wind mode                                                              
+__________________________________________________________________________                                                        
+                                                                                                                                  
+1                     98-124                 98-150                                                                               
+2                    124-150                 46-98                                                                                
+3                     46-72                  46-59                                                                                
+4                     72-98                  59-72                                                                                
+5                     20-6                   72-85                                                                                
+6                    150-180                 85-98                                                                                
+__________________________________________________________________________                                                        
+* Directed along comet-spacecraft relative velocity vector.                                                                       
+                                                                                                                                  
+  The high-voltage unit produces two types of high-voltage output. The first is a                                                 
+negative high-voltage bias for the microchannel plate, which has four possible settings                                           
+selectable by ground command. The three operating voltages are provided in case of                                                
+gain degradation in the microchannel plate during the mission. The second type of out-                                            
+put is the programmable positive and negative deflection voltages for the outer and                                               
+inner electrostatic deflection plates. The output of these units has maximum values of                                            
+2600 and -3060 V, respectively, corresponding to selecting ions with energy                                                       
+20 keV, Each of the three high-voltage outputs is monitored by spacecraft analogue                                                
+housekeeping telemetry.                                                                                                           
+                                                                                                                                  
+Figure 5. Results of the calibration of the Fast                                                                                  
+Ion Sensor. The azimuth degrees correspond to                                                                                     
+polar angle in the spacecraft relative to the                                                                                     
+spin axis i.e. -80deg azimuth is 0deg polar angle;                                                                                
++80deg azimuth is 160deg polar angle. The                                                                                         
+numbers are the discrete anodes of the                                                                                            
+position-sensitive detector                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+ The Fast Ion Sensor was calibrated using an ion beam with low angular and energy                                                 
+spreads at various fixed energies, at Southwest Research Institute (Johnstone et al.,                                             
+1985). In all, approximately 60000 individual data points were collected per run in                                               
+(energy, angle) space, covering the complete angular and energy response of the                                                   
+analyzer. The individual measurements were integrated to give the overall response                                                
+of the sensor. The results are shown in Figures 5 and 6. Although the aim was to                                                  
+achieve a polar angle coverage of 160deg, the response (as expected) falls off at large                                           
+                                                                                                                                  
+Figure 6. Results of the calibration of the Fast                                                                                  
+Ion Sensor. The plot shows the energy angles of                                                                                   
+response of one anode integrated over all                                                                                         
+angles                                                                                                                            
+                                                                                                                                  
+incidence such that the practical limit of a measurable response is a range                                                       
+of 150deg. This leaves a small hole (~5deg cone) in the coverage of the sensor in the direc-                                      
+tion of the spin axis, as well as around the velocity vector (~25deg cone).                                                       
+                                                                                                                                  
+5. Implanted Ion Sensor                                                                                                           
+The Implanted Ion Sensor (IIS) is an ion spectrometer (Fig. 7) which combines elec-                                               
+trostatic analysis with a time-of-flight measurement. An electrostatic analyzer selects                                           
+positive ions of a given energy per charge, E/Q. The ions are then accelerated by a                                               
+potential difference, V, before the time T to travel a path length D is determined. The                                           
+measured quantities E/Q and the time-of-flight T can be combined to yield the mass-to-                                            
+charge ratio, M/Q, according to the following equation:                                                                           
+                                                                                                                                  
+  M/Q = 2WT**2/QD**2                                                                                                              
+                                                                                                                                  
+where W, the total energy after post-acceleration, is given by                                                                    
+                                                                                                                                  
+  W = Q[V + (E/Q)]                                                                                                                
+                                                                                                                                  
+Since the cometary particles are ionized by photons or charge-exchange, their charge                                              
+state is predominately Q=1 and the ion mass can then be easily determined. In the                                                 
+solar wind there are ions with higher charge states, such as alpha particles (Q=2) and                                            
+high charge states of oxygen (O6+).                                                                                               
+  The instrument contains five sensors, each consisting of a spherical electrostatic                                              
+energy analyzer and a time-of-flight (TOF) analyzer (Fig. 7). The five sensors are ar-                                            
+ranged as an angular array to cover the range l5 deg to 165 deg, in five equally spaced sec-                                      
+tors 10deg wide relative to the spin axis of the spacecraft. As the spacecraft rotates, the                                       
+angular distribution of the ions is obtained as with the Fast Ion Sensor.                                                         
+  The spherical-plate electrostatic analyzer has a mean radius of 50 mm and a plate                                               
+spacing of 3 mm, giving an analyzer gain factor (energy measured/voltage applied)                                                 
+of 8.3. A voltage V(0) of up to = -11 kV is applied to the inner plate of the analyzer,                                           
+while the outer plate is kept at 0 V. Thus the ions are effectively accelerated by                                                
+(V(0)/2) on entering the analyzer, and the effective gain factor is 7.8. The energy                                               
+bandwidth, defined as the full width at half maximum, is delta(E)/E= 10%. The energy                                              
+                                                                                                                                  
+  Figure 7. Diagram showing the layout of the                                                                                     
+Implanted Ion Sensor. The five electrostatic                                                                                      
+analyzers with time-of-flight analyzers are                                                                                       
+shown as an array viewing through the single                                                                                      
+aperture. Electronic boards for signal                                                                                            
+processing are mounted behind, with the high-                                                                                     
+voltage power supply underneath them                                                                                              
+                                                                                                                                  
+range from 90 eV to 90 keV is covered in 32 steps, equally spaced logarithmically by                                              
+a factor 1.25. The level is changed once per spin and steps up on the odd-numbered                                                
+steps (1, 3, 5, etc.) and down on the even steps (30, 28, 26, etc.).                                                              
+ As the ions leave the electrostatic analyzer (Fig. 8) they are accelerated by 10 kV                                              
+before striking a thin (5 micro g/cm**2), grid-supported carbon foil at the entrance to the                                       
+time-of-flight analyzer.                                                                                                          
+ Ions passing through the carbon foil transfer a small fraction of their energy to                                                
+secondary electrons. Those secondaries that escape from the foil are accelerated by                                               
+0.7 kV and deflected towards the microchannel plates. The fast output pulses of the                                               
+microchannel plate (typical rise time of ~0.9 ns) result in an accurate timing pulse                                              
+for the 'START' signal. Essentially the same principle is used in the 'STOP' detector,                                            
+except that the secondary electrons are generated in the surface layer of an aluminium                                            
+absorber. Although the ions enter the time-of-flight system on approximately parallel                                             
+trajectories, Coulomb interaction with the atoms in the carbon foil will result in strong                                         
+angular scattering. The resulting variations in the flight path are limited to +/-5% by                                           
+using a spherical concave converter surface for the 'STOP' detector.                                                              
+                                                                                                                                  
+Figure 8. Cross-section of one of the five                                                                                        
+individual sensors in the Implanted Ion Sensor                                                                                    
+                                                                                                                                  
+  The output signal from the five 'START' microchannel plates are added together                                                  
+by one fast summing amplifier, and the outputs from the five 'STOP' microchannel                                                  
+plates in another. A time-to-amplitude converter converts the time interval between                                               
+the pulses into a proportional pulse amplitude. The pulses are stretched in a sample-                                             
+and-hold circuit and then digitized to give an 8 bit value proportional to the time in-                                           
+terval.                                                                                                                           
+  The maximum time interval is set at 80 ns. Unless a 'STOP' signal is received within                                            
+the 80 ns following a 'START' signal, the event is not converted.                                                                 
+  The time required to process the signals from a single event is 25 micro s. Within this                                         
+processing period, further 'START' pulses and valid 'START-STOP' combinations                                                     
+are recorded but cannot be processed.                                                                                             
+  Two separate count rates are monitored:                                                                                         
+                                                                                                                                  
+(a) the number of 'START' pulses                                                                                                  
+(b) the number of valid 'START-STOP' combinations (TAC pulse).                                                                    
+                                                                                                                                  
+The requirement of a valid 'START-STOP' combination gives a high rejection of                                                     
+background signals from penetrating radiation and detector noise and enables very low                                             
+counting rates to be reliably measured.                                                                                           
+  Monitoring the number of 'START' pulses enables the amount of dead time in the                                                  
+instrument to be estimated. For example, it cannot record accurately (and was not in-                                             
+tended to do so) the high flux of protons in the solar wind. The 'START' count in-                                                
+dicates the number of events that could not be processed.                                                                         
+  The TOF value is used in two ways. Together with the step number of the high-                                                   
+voltage sweep, it addresses a look-up table where the mass of the ion responsible for                                             
+the event is assigned.                                                                                                            
+  The events are separated into five contiguous mass groups based on the time-of-                                                 
+flight and the energy level of the analyzer. The mass groups correspond to the atomic                                             
+mass number unit given in Table 6 below.                                                                                          
+  The angular and energy distribution of each of the five mass groups is recorded.                                                
+Secondly, a TOF spectrum is accumulated for a complete spin while the energy is con-                                              
+stant at one level, by combining the outputs from all five sensors.                                                               
+  Angular information is derived from two sources. The azimuthal angle comes from                                                 
+the timing in the spin relative to the Sun reference pulse; the polar angle comes from                                            
+the identification of the sensor responsible for the event. The identification can itself                                         
+be achieved in two ways: in the 'FIND' mode, each event is associated with the 3 bit                                              
+number of the sensor; in the 'SCAN' mode, each sensor is enabled alone for one-fifth                                              
+of the time in each azimuthal angle sector. The usual mode used is the 'FIND' mode,                                               
+but if the intensity in one sector overwhelms that in the other sectors, the 'SCAN'                                               
+mode can be used to allow the other sectors to register. It reduces the overall sensitivi-                                        
+ty by a factor of five. Alternatively, each sensor can be enabled or disabled individual-                                         
+ly by command.                                                                                                                    
+  Three types of distribution are telemetered from the sensor. The 256-level TOF                                                  
+spectrum is integrated over all angles for each spin; the 4D distribution comprising                                              
+five mass groups, five polar angle zones, eight or l6 azimuthal sectors and 32 energy                                             
+levels, and the 'START' and 'TAC' totals in 16 sectors each spin. The complete                                                    
+distribution requires 32 spins, or approximately 128 s to accumulate. The detector                                                
+characteristics are summarized in Table 7.                                                                                        
+  Three high-voltage units are required to operate the sensor. The microchannel plate                                             
+supply has eight commandable levels between 1000 V and 3100 V to allow the bias                                                   
+to be set at the correct level for the gain required. The variable voltage supply provides                                        
+the voltage for the electrostatic analyzer and may be set to step through the sequence                                            
+described above or to remain fixed on any one of the 32 levels. The acceleration                                                  
+voltage can be set to 5 kV or 10 kV.                                                                                              
+  During ground testing and the launch phase the aperture is closed by a spring-loaded                                            
+cover held in place by a small pellet of biphenol (C12H10). Once in the vacuum of                                                 
+space, the biphenol sublimates, the cover is released and the aperture opened. This                                               
+should occur within 50 h of launch. The cover's status could not be checked in orbit                                              
+for two months, but it was then found to be open.                                                                                 
+                                                                                                                                  
+_________________________________                                                                                                 
+Table 6. IIS mass groups                                                                                                          
+                                                                                                                                  
+Group  Mass/charge                                                                                                                
+_________________________________                                                                                                 
+1      1                                                                                                                          
+2      2-11                                                                                                                       
+3     12-22                                                                                                                       
+4     23-33                                                                                                                       
+5     34-45                                                                                                                       
+_________________________________                                                                                                 
+                                                                                                                                  
+---------------------------------------------------------------------                                                             
+Table 7. Implanted Ion Sensor characteristics                                                                                     
+                                                                                                                                  
+E/q range (keV/q)                                 0.090-90                                                                        
+Acceptance angles (each sensor)                                                                                                   
+ azimuthal                                         6deg                                                                           
+ polar                                            10deg                                                                           
+Outer plate radius (mm)                           51.5                                                                            
+Inner plate radius (mm)                           48.5                                                                            
+Analyser gain                                      8.3                                                                            
+Plate voltage splitting                                                                                                           
+ inner                                            -11 V to -11 kV                                                                 
+ outer                                              0                                                                             
+Aperture area (mm**2)                              42                                                                             
+Energy resolution (delta(E)/E)                     10%                                                                            
+Time-of-flight path length (mm)                    22                                                                             
+Geometric factor (mm**2 sr eV)                     7.6x10**-2 E (eV)                                                              
+---------------------------------------------------------------------                                                             
+                                                                                                                                  
+6. Data Processing Unit                                                                                                           
+  The Data Processing Unit (DPU) performs the following functions:                                                                
+(a) It is the interface between the sensors and the spacecraft for power, telemetry                                               
+    and commands.                                                                                                                 
+(b) It controls the measurement sequence of the instrument and synchronizes it to                                                 
+    the spacecraft rotation. Two standard signals from the spacecraft are used to                                                 
+    achieve the synchronization: the Sun Reference Pulse (SRP) and the Spin-                                                      
+    Segment Clock Pulse (SSCP). The latter divides the period between successive                                                  
+    SRPs by 16384. The Fast Ion Sensor sequence has a duration of two spins begin-                                                
+    ning 22.5deg before the sensor's field-of-view fan crosses the solar direction. Each                                          
+    spin is divided into eight sectors of 45 deg. During the first sector the sensor                                              
+    operates in the solar-wind mode, making eight short energy sweeps. In the re-                                                 
+    maining seven sectors of the first spin, and for all eight sectors of the second                                              
+    spin, the sensor operates in the wide-energy mode, making two full energy                                                     
+    sweeps in each sector. The Implanted Ion Sensor sequence has a duration of 32                                                 
+    spins, holding each of its energy levels for one complete spin. All the                                                       
+    measurements are synchronized to the rotation, so that each value received at                                                 
+    the ground is already associated with its direction without needing reference to                                              
+    the spacecraft attitude solution.                                                                                             
+(c) The DPU collects the accumulated counts from registers in the sensors at the                                                  
+    conclusion of each sampling period timed with reference to the SSCP. For the                                                  
+    Fast Ion Sensor the sampling period is eight cycles (~2 ms) in solar-wind mode                                                
+    and 32 cycles (~8 ms) in wide-energy mode. For the Implanted Ion Sensor, it                                                   
+    is 1024 cycles (~250 ms).                                                                                                     
+    The data are acquired from the sensors each spin in the form of an array of up                                                
+    to third order counts [energy (or mass), polar angle, azimuthal angle]. The array                                             
+    is produced with the intrinsic resolution of the sensor. For the FIS in wide-angle                                            
+    mode, this is 30 energies, six polar angle zones (the detector anodes) and 16                                                 
+    azimuthal sectors (corresponding to energy sweeps).                                                                           
+    The size of this array is greater than can be accommodated by the telemetry                                                   
+    allocation and so the array is compressed by combining adjacent elements. This                                                
+    is done in more than one way for a particular array so that different aspects of                                              
+    the data are covered. The transmitted arrays are listed in Tables 8 and 9.                                                    
+                                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Table 8. Fast Ion Sensor transmitted Distribution                                                                                 
+                                                                                                                                  
+                    Polar** zones (deg)  Azimuthal res. (deg)   Energy spectrum  Time resolution  Mass information  When used     
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Wide-energy mode      20-72              45                      15 contiguous   One spin         None               All          
+                      72-124             45                      bands                                                            
+                     124-180             45                                                                                       
+PTR distribution                                                 delta(E)/E=0.6                                                   
+                                                                 10 eV to 20 keV                                                  
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Wide-energy mode      20-46              45                      30 contiguous   Three spins      None               Format 1     
+                      46-72              45                      bands                                                            
+                      72-98              22.5                                                                                     
+HAR distribution      98-124             22.5                    delta(E)/E=0.3                                                   
+                     124-150             45                      10 eV to 20 keV                                                  
+                     150-180             45                                                                                       
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Solar-wind mode       46-98               5.6                     30 contiguous  Two spins        None               Format 1     
+                                                                  bands                                              Format 3     
+SWA distribution                                                  delta(E)/E=0.096                                                
+                                                                  E* to 6.7E*                                                     
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Solar-wind mode      46-59               45                       30 contiguous  Two spins        None               Format 1     
+                     59-72               45                       bands                                              Format 3     
+SWP distribution     72-85               45                       delta(E)/E=0.096                                                
+                     85-98               45                       E* to 6.7 E*                                                    
+                    98-150               45                       E* set by                                                       
+                                                                  command or                                                      
+                                                                  on board                                                        
+                                                                  processing                                                      
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+FTR = Fast Time Resolution; HAR = High Angular Resolution; SWA = Solar-Wind Azimuthal; SWP = Solar-Wind Polar.                    
+** Measured from z-axis                                                                                                           
+                                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+Table 9. Implanted Ion Sensor transmitted distribution                                                                            
+                                                                                                                                  
+                    Polar** zones (deg)  Azimuthal res. (deg)  Energy spectrum  Time resolution  Mass information  When used      
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+4DF distribution      15-25              22.5                   32 levels       32 spins         5 mass groups     Format 1       
+                      50-60              22.5                   delta(E)/E=0.1                                                    
+                      85-95              22.5                   90 eV to                         1                                
+                     120-130             22.5                   90 keV                           2-11                             
+                     155-165             22.5                                                    12-22                            
+                                                                                                 23-33                            
+                                                                                                 34-45                            
+----------------------------------------------------------------------------------------------------------------------------------
+4DH distribution      15-25              45                     32 levels       32 spins         5 mass groups  Format 2          
+                      50-60              45                     delta(E)/E=0.1                   1              Format 3          
+                      85-95              45                     90 eV to                         2-11                             
+                    120-130              45                     90keV                            12-22                            
+                    155-165              45                                                      23-33                            
+                                                                                                 34-45                            
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+TOF distribution    15-165               360                    32 levels       32 spins         256 time of    Format 1          
+                    (all polar                                  delta(E)/E=0.1                   flight groups                    
+                     zones combined)                            90 eV to 90 keV                                                   
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+START                15-165              22.5                   32 levels       32 spins         None           All               
+----------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                  
+TAC                  15-165              22.5                   32 levels       32 spins         None           All               
+                                                                                                                                  
+4DF = 4-Dimensional Full Resolution; 4DH = 4-Dimensional Half Resolution; TOF = Time-of-Flight Spectrum; START = start pulse rate;
+TAC = Timing processed pulses.                                                                                                    
+** Measured from z-axis                                                                                                           
+                                                                                                                                  
+(d) The accumulation is carried out in 16 bit registers which the DPU compresses                                                  
+    to 8 bits in a quasi-logarithmic way. The first four bits, effectively the exponent,                                          
+    denote the position of the first non-zero bit in the number, and the remaining                                                
+    four transmitted bits contain the next four bits of the original number, the man-                                             
+    tissa. The maximum error from the truncation is therefore 3.1%. This scheme                                                   
+    is capable of compressing from 19 bits to 8 bits so there are some exponents (the                                             
+    hexadecimal values D, E and F) which do not occur in real data and can be used                                                
+    for other purposes.                                                                                                           
+(e) The instrument is spin-synchronized and produces a fixed number of data words                                                 
+    each rotation. The spin period can vary with respect to the telemetry-format                                                  
+    duration, so that there must be a means of allowing for a variation in the number                                             
+    of words transmitted. This has been achieved by devising an instrument                                                        
+    telemetry format that is spin-synchronized and has a basic length corresponding                                               
+    to a rotation of 45deg. The JPA format 'floats' within the spacecraft telemetry for-                                          
+    mat and is identified by three format sync. words. These words begin with the                                                 
+    three hexadecimal numbers not obtained from the data compression, i.e. D, E                                                   
+    and F. The second half of each sync. word contains further information about                                                  
+    the sequence and the instrument status. The telemetry output is double-buffered.                                              
+    1n one side, a table of values is compiled from the data currently being acquired,                                            
+    while values acquired during the previous sector are read out to the telemetry                                                
+    from the other side. If the table of values has not been completely read out by                                               
+    the telemetry by the end of a 45deg sector then the remaining values are lost when                                            
+    the buffers are interchanged. The order in which the data are compiled in the                                                 
+    table is obviously important and has been prioritized. Figure 9 shows how the                                                 
+    table is constructed in each telemetry format and the possible variation in the                                               
+    number of values transmitted in each sector. Each type of distribution, e.g. 4DF                                              
+    or FTR (see Tables 8 and 9), is transmitted completely before the next is started.                                            
+    Where a distribution may be only partially transmitted, the order in which the                                                
+    values are listed is also designed to minimize the loss of information. For exam-                                             
+    pie, alternative energy levels through the spectrum are transmitted first and then                                            
+    the intermediate values are sent. This ensures that a coarse spectrum over the                                                
+    full range is transmitted first.                                                                                              
+    The main cause of the variation in samples per sector is not the possible change                                              
+    in the spin period, but the nonuniform spacing of the JPA words in the telemetry                                              
+    format. This effect is most severe in Format 3 where, on some occasions, no                                                   
+    data are transmitted in a sector. This is not a disadvantage because more                                                     
+    distributions can be transmitted than if the sampling were uniform. The time                                                  
+    resolution is reduced because data from two spins must sometimes be combined                                                  
+    to obtain one complete distribution.                                                                                          
+(f) The final function of the DPU is to set the energy range for the solar-wind mode.                                             
+    There are eight possible starting points for the sweep in the upper half of the                                               
+    full sweep range. The range can be set by ground control or can be automatically                                              
+    tracked. The DPU scans through the solar-wind spectrum and searches for the                                                   
+    peak count. If that peak count does not exceed 64, then the range is stepped to                                               
+    the next lower one. If no count greater than 64 has been recorded by the time                                                 
+    it reaches the bottom level, then it recycles to the top and continues. If a peak                                             
+    with more than 64 counts is found, the starting point of the sweep is changed                                                 
+    until its energy level lies between two preset limits in the 30-level spectrum.                                               
+    These limits are calculated to ensure that the alpha-particle peak is included as                                             
+    well as the proton peak.                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+7. In-flight Performance                                                                                                          
+  The instrument was first turned on on 8 September 1985. The performance                                                         
+throughout all testing was nominal. At the time the spacecraft was more than 10                                                   
+million kilometres from the Earth in the solar wind. The only population that could                                               
+be identified so far is the solar wind. The Fast Ion Sensor has been able to follow the                                           
+solar-wind variations with its auto-ranging capability. The Implanted Ion Sensor has                                              
+been able to identify higher mass ions such as O6+ and O5+ in the solar wind. The in-                                             
+strument has been operated since then whenever spacecraft operations allow.                                                       
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+  The production of this instrument required the dedicated efforts of a large number                                              
+of people. In particular thanks are due to: Messrs. F.N. Little, P.H. Sheather and J.                                             
+Ootes at the Mullard Space Science Laboratory; H. Wirbs, K.H. Otto, A. Loidl and                                                  
+H. Sommer at the Max Planck Institut fur Aeronomie; T. Booker, R. Black and A.                                                    
+Lozano at Southwest Research Institute; R. Field at Mullard Limited; J. Coles and P.                                              
+Howarth at Cambridge Consultants Limited; M. Jacopini at Laben; and K. Rembach                                                    
+at Dornier System.                                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+Figure 9. The structure of the JPA spin-                                                                                          
+synchronized floating format in the three                                                                                         
+spacecraft formats. The cross-hatched bar                                                                                         
+beside each column shows the range of                                                                                             
+variation in the number of samples transmitted                                                                                    
+in each sector. The distributions (FTR,4D,                                                                                        
+etc.) are defined in Tables 8 and 9.                                                                                              
+                                                                                                                                  
+  The work at Mullard Space Science Laboratory and the Rutherford Appleton                                                        
+Laboratory was supported by the UK Science and Engineering Research Council. The                                                  
+work at the Max Planck Institut fur Aeronomie was supported by the Max-Planck-                                                    
+Gesellschaft zur Forderung der Wissenschaften and by the Bundesminister fur                                                       
+Forschung und Technologie under Grant 01-OF-112-4. The work at the Southwest                                                      
+Research Institute was supported by NASA Contract Number NASS-27442. The work                                                     
+at the Kiruna Geophysical Institute was supported by the Swedish Board for Space Ac-                                              
+tivities. The work at the Istituto di Fisica dello Spazio Interplanetario was supported                                           
+by the Piano Spaziale Nazionale of the Consiglio Nazionale delle Ricerche.                                                        
+                                                                                                                                  
+References                                                                                                                        
+Balsiger H et al. 1986, The Ion Mass Spectrometer on Giotto, This volume.                                                         
+Biermann L 1951, Kometenschweife und solare korpuscularstrahlung, Z. fur                                                          
+   Astrophysik, 29,274.                                                                                                           
+Biermann L, Brosowski B & Schmidt H U 1967, The Interaction of the Solar Wind                                                     
+   with a Comet, Solar Physics, I, 254.                                                                                           
+Galeev A A 1983, Cometary Exploration, Proc. Int. Conf. Cometary Exploration (Ed.                                                 
+    T. Gombosi), Budapest, p. 243.                                                                                                
+Galeev A A, Cravens T E, Gombosi T I 1985, Solar-Wind Stagnation near Comets,                                                     
+   Astrophys. J., 289, 807.                                                                                                       
+Ip W H & Axford W I 1982, Comets (Ed. L. Wilkening), p. 588, Univ. of Arizona                                                     
+   Press, Tucson.                                                                                                                 
+Johnstone A D, Kellock S J, Coates A J, Smith M F, Booker T & Winningham J D                                                      
+   1985, IEEE Trans., NS-32, 139.                                                                                                 
+McKenna-Lawlor S et al. 1986, The Energetic Particle Experiment (EPA) and its                                                     
+  Preliminary In-flight Performance, This volume.                                                                                 
+Reme H et al. 1986, This volume.                                                                                                  
+Schmidt H U & Wegmann R 1982, Comets (Ed. L. Wilkening), p. 538, Univ. of                                                         
+    Arizona Press, Tucson.                                                                                                        
+Wallis M 1973, Weakly shocked flows of the solar-wind plasma through atmospheres                                                  
+  of comets and planets, Planet Space Sci., 21, 1647.                                                                             
+Wallis M & Ong R S B 1975, Strongly coded ionising plasma flows with application                                                  
+  to Venus, Planet Space Sci., 23,713.                                                                                            

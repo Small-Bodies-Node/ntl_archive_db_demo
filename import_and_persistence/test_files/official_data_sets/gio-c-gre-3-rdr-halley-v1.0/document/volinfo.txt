@@ -1,0 +1,606 @@
+***** File VOLINFO.TXT                                                        
+                                                                              
+                        Comet Halley Archive                                  
+              User's Guide to IHW CD-ROM Volumes 25-26                        
+                                                                              
+                               Contents                                       
+                                                                              
+                                                                              
+1. Background and Scope of Compact Disk                                       
+2. Data Products on these Disks                                               
+3. Supplemental Directories                                                   
+4. File Conventions                                                           
+5. PDS-FITS Comparison                                                        
+6. Accessing the Disk                                                         
+7. References                                                                 
+                                                                              
+1. BACKGROUND AND SCOPE OF COMPACT DISK                                       
+                                                                              
+     This compact disk (CD-ROM), and the series of disks of which it is a     
+part, contains observations of comet P/Halley obtained during the 1985-1986   
+apparition.  The resulting digital archive is the main product of the         
+International Halley Watch (IHW), which was formed in 1981 to mount an        
+international campaign to observe the comet over a long baseline in time.     
+The collection of remote (mostly ground-based) data archived spans a wide     
+wavelength range and is augmented (volumes 25-26) by measurements made in     
+situ by the spacecraft which encountered the comet in 1986 March.  These      
+spacecraft data were shipped to the Small Bodies Node (SBN) of the            
+Planetary Data System which eventually archived the information.              
+                                                                              
+     The complete IHW digital archive is comprised of four subsets of CD-ROMs 
+containing:                                                                   
+                                                                              
+  o Compressed Halley images from the L-SP Discipline (Volumes 1-18),         
+  o Halley data from all IHW Disciplines (Volumes 19-23),                     
+  o IHW "Trial Run" of comets P/Crommelin & P/Giacobini-Zinner (Volume 24),   
+  o Halley and Giacobini-Zinner spacecraft data (Volumes 25-26)               
+                                                                              
+The total collection for Halley's Comet contains more than 40,000 independent 
+files and 15 Gbytes of data.  This document is intended as a guide to volumes 
+25-26.                                                                        
+                                                                              
+                                                                              
+2. DATA PRODUCTS ON THESE DISKS                                               
+                                                                              
+     A large number of scientists submitted data to this archive project.   In
+the case of the spacecraft data, those missions/experiments for which data    
+was contributed, sometimes from differing groups, is organized below.         
+                                                                              
+                 Space Data Submitted for Archive                             
+                                                                              
+ EXPERIMENT NAME (ABBREVIATIONS)        SUBMIT INSTITUTE        CONTACT       
+                                                                              
+GIOTTO                                                                        
+                                                                              
+ DUST IMPACT DETECTOR (DID)             U CANTEBURY             S.GREEN       
+ GIOTTO RADIO SCIENCE (GRE,GRS)         RADIO INST U BONN       M.BIRD        
+ HALLEY MULTICOLOR CAMERA (HMC)         MPI AERONOMIE           U. KELLER     
+ IMS HIGH ENERGY RANGE SPEC (IMS/HERS)  NASA/JPL                B.GOLDSTEIN   
+ IMS HIGH INTENSITY SPEC (IMS/HIS)      PHYS INST U BERN        K. ALTWEGG    
+ JPA MERGE (JPA/FIS, JPA/IIS)           MULLARD SPAC SCI LAB    A. COATES     
+ MAGNETOMETER (MAG)                     U KOLN INST GEO METEOR  K.GLASSMEIER  
+ OPTICAL PROBE EXPERIMENT (OPE)         U FLORIDA SPAC AST LAB  A.WEISENBERGER
+ PARTICLE IMPACT ANALYSER (PIA)         MPI KERNPHYSIK          J.KISSEL      
+                                                                              
+SAKIGAKE                                                                      
+                                                                              
+ INTERPLANETARY MAGNETIC FIELD (IMF)    INST SPAC ASTRON SCI    K.OYAMA       
+ SOLAR WIND (SOW)                       INST SPAC ASTRON SCI    K.OYAMA       
+                                                                              
+SUISEI                                                                        
+                                                                              
+ ENERGY SPECTRUM PARTICLES (ESP)        INST SPAC ASTRON SCI    K.OYAMA       
+                                                                              
+VEGA1                                                                         
+                                                                              
+ DUST PARTICLE COUNT MASS ANAL (DUCMA)  U CHICAGO               G.DENOFLO     
+ INFRARED SPECTROMETER - IMAGING (IKS)  IKI                     A.DYACHKOV    
+ INFRARED SPECTROMETER - SPECTRA (IKS)  IHW/IRSN                R.KNACKE      
+ PLASMA ENERGY ANALYSER (PM-1,PLASMAG)  KFKI                    K.SZEGO       
+ DUST MASS SPECTROMETER (PUMA)          IKI                     A.DYACHKOV    
+ DUST MASS SPECTROMETER (PUMA)          MPI KERNPHYSIK          J.KISSEL      
+ DUST PARTICLE PLASMA DET (SP-1)        IKI                     A.DYACHKOV    
+ DUST PARTICLE DETECTOR (SP-2)          IKI                     A.DYACHKOV    
+ ENERGETIC PARTICLE ANAL (TN-M,TUNDE)   IKI                     K. SZEGO      
+ TELEVISION SYSTEM (TVS)                IKI                     A.DYACHKOV    
+ TELEVISION SYSTEM (TVS)                KFKI                    K.SZEGO       
+                                                                              
+VEGA2                                                                         
+                                                                              
+ DUST PARTICLE COUNT MASS ANAL (DUCMA)  U CHICAGO               G.DENOFLO     
+ PLASMA ENERGY ANALYSER (PM-1,PLASMAG)  KFKI                    K.SZEGO       
+ DUST MASS SPECTROMETER (PUMA)          IKI                     A.DYACHKOV    
+ DUST MASS SPECTROMETER (PUMA)          MPI KERNPHYSIK          J.KISSEL      
+ DUST PARTICLE PLASMA DET (SP-1)        IKI                     A.DYACHKOV    
+ DUST PARTICLE DETECTOR (SP-2)          IKI                     A.DYACHKOV    
+ TELEVISION SYSTEM (TVS)                IKI                     A.DYACHKOV    
+ TELEVISION SYSTEM (TVS)                KFKI                    K.SZEGO       
+ TELEVISION SYSTEM (TVS)                INST KOSMOFORSCHUNG     D.MOHLMANN    
+                                                                              
+ICE                                                                           
+                                                                              
+ ENERGETIC PARTICLE ANISOTROPY (EPAS)   IMPERIAL COLLEGE LONDON I.RICHARDSON  
+ MAGNETOMETER (MAG)                     NASA/JPL                J.WOLF        
+ PLASMA WAVE ELECT FIELD (PLAWAV)       TRW                     E.GREENSTADT  
+ PLASMA WAVE MAGNET FIELD (PLAWAV)      TRW                     E.GREENSTADT  
+ RADIO WAVE (RADWAV)                    MEUDON                  J.-L.STEINBERG
+ SOLAR WIND PLASMA (SWPLAS)             DOE/LANL                J.GOSLING     
+                                                                              
+In each case a unique data_set_id has been assigned to the data submission    
+as indicated in the Appendix A.   A glossary of institutions listed           
+above can be found in Appendix B.   In some cases, there were multiple        
+submissions for the same experiment but with a different presentation         
+of the data sent to the IHW-Lead Center; these data were archived by SBN      
+only if the submission was determined to be a unique representation of        
+the data.   In three cases (Mischa data for Vega 1 and 2, TKS and APV-N data  
+for Vega 2), it was determined that the submitted data was not properly       
+documented and these submissions were held back for a future addenda CD-ROM.  
+                                                                              
+   The spacecraft data, usually in directories by mission and experiment,     
+are then arranged in a chronological order.   The subdirectory names use      
+abbreviations or acronyms for mission/experiment/instrument.  In one case,    
+the acronym has been shortened by dropping an intervening "dash", PM-1        
+(also PLASMAG-1) and TN-M to TNM.   When multiple submissions are             
+archived, the data from the original submitting institution carries a         
+directory name for the experiment, while further submissions have the         
+institution acronym designated in the directory.   If further editing         
+or reformatting was done by others, such as the IHW or SBN, the               
+filename reflects information about organization of the data such as          
+for the PIA data from MPI, MODaPIA where the a stands for the class.          
+In most cases, binary table data has been reformatted into ASCII              
+tables.  For FITS files which contain ASCII tables, the data has been         
+duplicated as a flat ASCII table as well as kept in its original form.        
+For the IKS submission from IKI and IRSN, the data presented in an            
+uncommon FITS form has been replaced by tabular data with corresponding       
+PDS labels drawn from translating the original FITS headers.                  
+                                                                              
+     In the case of the TVS image data sent by IKI, the FITS header           
+description was not in a convenient form, so the header was recast into       
+a standard 2-dimensional representation.   The various GROUP parameters       
+were translated into standard keywords as determined by comparing the         
+overlapping submission of TVS data from KFKI.   Data was sent directly        
+to SBN in some cases.   For the KFKI submission, unprocessed images           
+outside the original encounter range for both Vega spacecraft were            
+provided.   Working with the KFKI, these data were processed by SBN           
+for time and noise corrections in a similar manner to the original            
+submission.   FITS headers as well as the PDS labels with full time           
+and processing metadata were supplied in this case.   Finally, for the        
+JPA data from the Giotto mission, the data was submitted in a derived         
+form that was "merged" with other relevant data.   In a specific case,        
+the original file, called GIOMERGE, was provided by the IMS/HERS team         
+member, M. Neugebauer.   Permission to include this form of the data          
+was secured from her and other experimenters (F. Neubauer and H. Reme)        
+whose MAG and RPA measurements had been included.                             
+                                                                              
+     More discussion of each data set is given in *.DOC files located         
+with each data directory                                                      
+                                                                              
+                                                                              
+3. SUPPLEMENTAL DIRECTORIES                                                   
+                                                                              
+     The volume and directory structure of this disk conform to the Level-1   
+standard specified by the ISO.  This format is widely accepted and used on a  
+variety of machines.  The AAREADME.TXT file in the root directory introduces  
+the user to the extent of the archive and some contents of the individual     
+subdirectories.                                                               
+                                                                              
+     There are directories (DOCUMENT and subdirectories, INDEX , SOFTWARE) on 
+each disk which have additional files.  The DOCUMENT directory contains text  
+files that give the background to this CD-ROM project, present a general guide
+to its use, and detail previous experience with CD-ROM products.   FITS and   
+PDS formats used specifically for the Halley data (with examples) is located  
+in the subdirectory STDS_IHW (FITS_IHW or PDS_IHW).  The file VOLINFO.TXT you 
+are reading describes the space data (it is similar to overviews such as found
+on volume 23 of the Archive).  Documents in the ESA* subdirectories, written  
+by the experiment Principal Investigators, contain specific information on the
+instruments and preliminary data.   (These articles have been digitized by    
+the PDS with permission from ESA.)   Other articles such as the SP1 and SP2   
+descriptions by Balebanov 1986 were digitized by permission of the author,    
+and are included in the ".DOC" files accompanying the data directory.  But    
+for some references, such as IEEE Transactions on Geoscience Electronics,     
+GE-16, No 3, 1978, special issue on ISEE (ICE), citations are only given.     
+                                                                              
+     In the INDEX directory, tables of useful information have been indexed in
+the PIA and both PUMA subdirectories for the submissions from MPI.   The      
+information about images from HMC and TVS (for both Vega missions) are also   
+found in index tables.                                                        
+                                                                              
+     The SOFTWARE directory contains source code and executables for display  
+of image and spectral data, reading of FITS tables, conversion of metadata,   
+and manipulation of ephemeris information from tracking data.   IMDISP.EXE    
+contains various utilities for manipulating visual data on image display      
+devices; IMDISP was originally developed by the Planetary Data System (PDS) at
+the Jet Propulsion Laboratory (JPL), and has been augmented by IHW.   Also    
+provided on these disks is a "FITS Table Browser" called FTB.EXE, which was   
+developed by the Astronomical Data Center (ADC) of the National Space Science 
+Data Center (NSSDC).  Several other support programs for manipulating the     
+metadata - FITSUTIL, FITSXTND, FITS2TXT, TXT2FITS -  are provided as UTILS.   
+For the ICE spacecraft, a program (EXTRAJ.C) to extract from a "save tape"    
+file parameters for the G-Z encounter is provided along with a "man" page.    
+Finally, ESTEC has supplied Fortran subroutines for calculating the           
+Giotto orbital parameters which are described in "GIOTTO\EPHEMRIS".  One      
+of these routines, GIODAT, has been compiled and tested on a UNIX system      
+and is also included separately as GIODAT.FOR file under the "EPHEMRIS"       
+subdirectory along with an explanatory text.                                  
+                                                                              
+     On certain disks in the Archive, there is a summary directory that       
+collects information about one of the four subsets.   On these same disks     
+there is usually an ERRATA file that lists the latest discrepancies           
+known about the Archive at the time of writing.  For the spacecraft data,     
+each disk contains this information.                                          
+                                                                              
+                                                                              
+4. FILE CONVENTIONS                                                           
+                                                                              
+     The convention for naming files on the IHW CD-ROMs was proposed by the   
+Lead Center and NASA/Goddard Space Flight Center (GSFC) personnel to include a
+unique data qualifier for the data.  Specifically, a set of subnet codes was  
+established to enable identification of the IHW Discipline/subdiscipline from 
+the filename itself.  A CD-ROM running number and file extension complete the 
+filename for spacecraft data, e.g., HMC00001.IMG.   A list by experiment      
+and listing submitting group names and letter codes is given below.   Note    
+that in cases of multiple submissions, the acronym for the submitting         
+group is often used in the filename, e.g., PUMA from IKI is PIKI.             
+There are exceptions for certain experiments such as DUCMA, TVS for the       
+VEGA missions, GRE for Giotto, and PLAWAV, RADWAV, and SWPLAS for ICE.        
+                                                                              
+                   IHW Space Data Filenames                                   
+                                                                              
+MISSION EXP     INSTR    SUBMITTER    CODE      FILENAME (OBS_ID RANG)        
+                                                                              
+GIOTTO  DID                           DID       DIDnnnnn 089001-089006        
+                                                DSUMMARY 089007               
+        GRE                           GRE       GREaaa   080001-080004        
+        HMC                           HMC       HMCnnnnn 050681-033436        
+        IMS      HER                  IMSHER    IMSHERnn 082001-082012        
+        IMS      HIS                  IMSHIS    IMSHISnn 066001               
+        JPA      FIS/IIS              JPAMERG   JPAMERGn 076001-077002        
+        MAG                           MAG       MAGnnnnn 081001               
+        OPE                           OPE       OPEnnnnn 083001-083005        
+        PIA                           PIA       PIAMPInn 077001-077041        
+                                                PIAIDX   077101               
+                         SBN                    MODaPIAn                      
+                                                                              
+SAKIG   IMF                           IMF       IMF00001 000301               
+        SOW                           SOW       SOW00001 000201               
+                                                                              
+SUISEI  ESP                           ESP       ESP00001 000101               
+                                                                              
+VEGA1   DUCMA                         D         Daaaaann 010801-010802        
+        IKS              IKI          IKSIKI    IKSIKInn 010901               
+                         SBN          IKS         IKSaaa                      
+        PM1(PLASMAG)                  PM1       PM1annnn 010703               
+        PUMA             IKI          PIKI      PIKInnnn 012001-016027        
+                                                PIKIBINn 016030               
+                                                MODaBINn                      
+                                                MODaFITn                      
+        PUMA             MPI          PMPI      PMPInnnn 011001-011017        
+                         MPI                    PMPIDXnn 011101               
+                         SBN                    MODaTABn                      
+        SP1                                     SP1nnnnn 010704               
+        SP2                                     SP2nnnnn 010705               
+        TNM(TUNDE)                    TNM       TNMnnnnn 010706               
+        TVS              IKI          TIKI      TIKInnnn 010001-010505        
+        TVS              KFKI         T         Taaaaaaa 010101-020505        
+                         KFKI/SBN     TPRE      TPREnnnn 013001-013061        
+                         KFKI/SBN     TPOS      TPOSnnnn 013062-013246        
+                                                                              
+VEGA2   DUCMA                         D         Daaaaann 020801-020802        
+        PM1(PLASMAG)                  PM1       PM1annnn 020703               
+        PUMA             IKI          PIKI      PIKIBINn 021201-021202        
+                         SBN                    MODaBINn                      
+        PUMA             MPI          PMPI      PMPInnnn 021001-021029        
+                         MPI          PMPI      PMPIDXnn 021101               
+                         SBN                    MODaTABn                      
+        SP1                                     SP1nnnnn 020704               
+        SP2                                     SP2nnnnn 020705               
+        TVS              IKI          TIKI      TIKInnnn 020101               
+        TVS              KFKI         T         Taaaaaaa 020301-020604        
+                         KFKI/SBN     TPRE      TPREaaaa 023001-023189        
+                         KFKI/SBN     TPOS      TPOSaaaa 023190-023240        
+        TVS              IKF          TIKF      TIKFnnnn 020901-020904        
+                                                                              
+ICE     EPAS                          EPAS      EPyymmdd 097001-097007        
+                                                EPSUMMRY 097008               
+        MAG                           MAG       MAyymmdd 099001-099005        
+        PLAWAV   E                    E         Eddhhaaa 095120-095238        
+        PLAWAV   B                    B         Bddhhaaa 095001-095119        
+        RADWAV                        RW        RWyymmdd 096001               
+        SWPLAS                        SW        SWyymmdd 098001-098005        
+                                                                              
+* The symbols in the table are defined as follows:                            
+                                                                              
+y - year of observation                                                       
+m - month of observation                                                      
+d - day of observation                                                        
+h - hour of observation                                                       
+a - alphanumeric code to keep track of files                                  
+n - CD-ROM running number to keep track of original files                     
+                                                                              
+                                                                              
+5. PDS-FITS COMPARISON                                                        
+                                                                              
+     The International Halley Watch agreed early on in the project that       
+all data would be submitted from the individual groups to the Lead            
+Center using the FITS format.  In the case of the spacecraft data, the        
+files came in various forms, i.e., standard FITS, FITS table (ASCII) or       
+for binary data the group extension,  ASCII and binary tables as FITS 2-d     
+arrays, and undocumented ASCII or binary files.  The submitted FITS files,    
+with contiguous headers and data, were split into separate files.  A          
+PDS label was constructed to point at the data part of the file.   The        
+original FITS byte stream could then be recovered by concatenating the        
+appropriate header and data files.   This method was used throughout          
+the first 24 volumes of the IHW archive and has been followed for the         
+spacecraft data except in certain instances.   In the case of FITS            
+tables, it was determined that "flat ASCII tables" with control characters    
+would be most useful, so the FITS byte stream was reformatted and the         
+PDS label points at that new file.   (All previous versions of the file       
+are kept for consistency.)   Sometimes the FITS files used the group          
+extension to incorrectly describe immages or binary tables.  In the former    
+case, the FITS header was corrected and split from the data as mentioned      
+above.  In the latter case, the binary data was converted to ASCII tables     
+with control characters with the proper PDS label.   In another case the      
+FITS 2-d array representing a binary table was converted to a simple flat     
+ASCII table, while the 2-d array of ASCII values was completely reorganized   
+according to the experiment "mode" and reformatted as a collection of binary  
+arrays with a newly designed PDS label.   Finally, undocumented binary and    
+ASCII files were submitted; in the former instance, the data has been         
+reformatted into ASCII for ease of use.   In both cases, only a PDS label has 
+been constructed to describe either the original or reformatted file.         
+                                                                              
+    These PDS labels are metadata (as headers describing data submitted to    
+the archive). There has been no effort to duplicate the documentation         
+contained in the full FITS headers because the PDS and FITS headers for       
+a given data file differ only in the filename extension.  Instead we          
+have attempted to use the power of the PDS label syntax to fully              
+describe the data structures and thus gain access to software by that group.  
+The references used to create the PDS labels include the following: SPIDS,    
+Standards for the Preparation and Interchange of Data Sets, Martin, T.        
+Z., et al, Document D-4683, V1.1, 10/3/88; Planetary Data System, Data        
+Preparation Handbook, Volume 2 - Standards, V2.0, JPL D-7669, 5/3/91: and     
+Planetary Data System, Standards Reference, V3.0, JPL D-7669, part 2,         
+11/20/92.   The basic PDS descriptors such as SFDU_LABEL, RECORD_TYPE,        
+RECORD_BYTES, and FILE_RECORDS are explained in these documents. The          
+RECORD_TYPE for all data files is FIXED_LENGTH.   The PDS labels have         
+been formed as fixed length (78 byte) plus an embedded CR and LF.  On         
+the spacecraft volumes, labels were prepared using PDS V2.0 and V3.0; in the  
+latter case, the keyword PDS_VERSION_ID (= PDS3) identifies the version.      
+                                                                              
+     There are three PDS objects used for the spacecraft data here: ARRAY     
+(COLLECTION), IMAGE, and TABLE (& TIME_SERIES).  We construct a basic PDS     
+label for each data file on the CD-ROM as shown in the table below.           
+                                                                              
+                                                                              
+          Table Showing PDS Objects and FITS Representation                   
+                                                                              
+                 PDS OBJECTS/            File Ext              COMMENT        
+MISSION CODE    (description)                                NAXIS= EXT       
+                                                                              
+GIOTTO  DID     table                .lbl .tab .hdr .tbl .fit 0,2 TABLE       
+        GRE     table (time series)  .lbl .tab                1               
+        HMC     image                .lbl .img .hdr           2               
+        IMSHERS table                .lbl .tab                                
+        IMSHIS  table                .lbl .tab .hdr .tbl .fit 0,2 TABLE       
+        JPAMERG table                .lbl .tab                                
+        MAG     table                .lbl .tab                                
+        OPE     table                .lbl .tab .hdr .tbl .fit 0,2 TABLE       
+        PIA                                    .hdr .tbl      2               
+                                               .hdr .tbl      2   (INDEX)     
+                array, collection    .lbl .dat                                
+                                                                              
+SAKIG   IMF     table                .lbl .tab                                
+        SOW     table                .lbl .tab                                
+                                                                              
+SUISEI  ESP     table                .lbl .tab                                
+                                                                              
+VEGA1   D       table                .lbl .tab                                
+        IKSIKI  table                .lbl .tab                2               
+        IKS     table                .lbl .tab                2               
+        PM1     table                .lbl .tab                                
+        PIKI                                   .hdr .dat      2   (SPECTRA)   
+                                                    .dat                      
+                array, collection    .lbl .dat                                
+                array, collection    .lbl .dat                                
+        PMPI                                   .hdr .tbl      2               
+                                               .hdr .tbl      2   (INDEX)     
+                array, collection    .lbl .dat                                
+        SP1     table                .lbl .tab                                
+        SP2     table                .lbl .tab                                
+        TNM     table                .lbl .tab                                
+        TIKI    image                .lbl .img .hdr           2               
+        T       image                .lbl .img .hdr           2               
+                                                                              
+VEGA2   D       table                .lbl .tab                                
+        PM1     table                .lbl .tab                                
+        PIKI                                        .dat                      
+                array, collection    .lbl .dat                                
+        PMPI                                   .hdr .tbl      2               
+        PMPI                                   .hdr .tbl      2   (INDEX)     
+                array, collection    .lbl .dat                                
+        SP1     table                .lbl .tab                                
+        SP2     table                .lbl .tab                                
+        TIKI    image                .lbl .img .hdr           2               
+        T       image                .lbl .img .hdr           2               
+        TIKF    image                .lbl .img .hdr           2               
+                                                                              
+ICE     EPAS    table                .lbl .tab                                
+        MAG     table                .lbl .tab                                
+        E       table                .lbl .tab                                
+        B       table                .lbl .tab                                
+        RW      table                .lbl .tab                                
+        SW      table                .lbl .tab                                
+                                                                              
+     The file extensions follow suggestions by the Planetary Data System      
+for tabular and image data, and are listed below:                             
+                                                                              
+                 .DAT - other binary data                                     
+                 .HDR - FITS header records                                   
+                 .IMG - image data records                                    
+                 .LBL - detached PDS stream format                            
+                 .TAB - table data records                                    
+                                                                              
+In addition, the IHW used a convention to indicate a file submitted as        
+a FITS ASCII table which had been split into a header (.HDR) and table        
+(.TBL) part, where the latter is preserved as an ASCII byte stream in         
+multiples of 2880 byte blocks.   In special cases, an ASCII table,            
+which has control characters but does not follow the PDS guidelines           
+for index tables, was given the extension ".IDX".   Finally, when a file      
+describes a set of data (.DOC), this is distinguished from when the file      
+outlines the archive or background information (given by .TXT).               
+                                                                              
+A. ARRAY (SPECTRUM)                                                           
+                                                                              
+     The ARRAY object is provided to accomodate arbitraily dimensioned arrays 
+of homgeneous elements.  It was introduced as part of the PDS revision v3.0   
+to describe some of the complex space craft data.   The ARRAY object has      
+been used for a broader type of measurement, e.g, a mass spectrum, which      
+did not fit the electromagnetic description provided by the SPECTRUM object.  
+It is composed of keywords to provide a NAME and dimension (AXES) for the     
+array.   Keywords AXIS_ITEMS, AXIS_NAME, AXIS_UNIT, AXIS_INTERVAL, START_AXIS 
+are given in vectorial notation.   The ARRAY object normally uses the         
+fundamental ELEMENT object to describe the data value.  In the IHW cases,     
+it is also combined with the COLLECTION object which allows for an ordered    
+grouping of heterogeneous objects.                                            
+                                                                              
+(     The SPECTRUM object description was refined in v2.0 by working          
+closely with the PDS group to ensure definition of data groups that           
+included both uniformly spaced data (as a single array) as well as            
+ordered groups of observations.   From guidelines for dealing with the        
+SPECTRUM data structure, we consider the spectra as tabular data              
+(COLUMN, NAME, DATA_TYPE, START_BYTE, BYTES) which are binary. The            
+independent variable (e.g., WAVELENGTH) is described by the keywords          
+SAMPLING_PARAMETER_NAME, MINIMUM_SAMPLING_PARAMETER, SAMPLING_PARAMETER       
+_INTERVAL, and SAMPLING_PARAMETER_UNIT.  There are special cases for          
+Radio or IR data using Doppler VELOCITY, FREQUENCY, or FREQUENCY_OFFSET.      
+                                                                              
+     For remote data, an  effort was made to describe 2-dimensional           
+spectra by working with PDS to establish a SPECTRAL_IMAGE_QUBE object.        
+The data are reduced measurements that have the slit oriented either          
+along the tail or perpendicular to the tail of the comet.   To                
+capture this positional information, a vectorial notation was                 
+adopted for the SPECTRAL_IMAGE_QUBE that could allow for such                 
+observational selection.   In cases where the derived units were              
+non-standard, a text DESCRIPTION is embedded in the label.                    
+The ARRAY object can now be used to describe 2-dimensional spectra.)          
+                                                                              
+B. IMAGE                                                                      
+                                                                              
+     In the case of images, we have included a new keyword describing         
+the byte ordering of the data (MSB_INTEGER) required by FITS.  In PDS,        
+images (.IMG, .IMQ, .IBG) are in terms of LINES (FITS keyword NAXIS2) and     
+SAMPLES (FITS keyword NAXIS1), given knowledge of the SAMPLE_BITS (FITS       
+keyword BITPIX), and are easy for the split files.  The final form of the     
+label for compressed images is still under active discussion.  Unlike         
+previous PDS efforts with compressed images, we chose not to compress         
+the header (or label) and thus have included a keyword to describe the        
+type of compression (ENCODING_TYPE = "PREVIOUS PIXEL") used. The label        
+for compressed images also contains information to permit software to         
+skip over the data if the decoding algorithm is unknown (ITEMS,               
+DATA_TYPE, and ITEM_BITS).   We use the label to indicate various subclass    
+structures for the data objects.  An example of this is the DIFFERENCE        
+modifier applied to IMAGE, yielding the keyword DIFFERENCE_IMAGE, which       
+indicates that a processing step was applied to the original image.           
+                                                                              
+C. TABLE                                                                      
+                                                                              
+   In creating the TABLE descriptions we have found a good correspondence     
+between the FITS and PDS syntax.   For tables, the value of NAXIS2= ROWS,     
+TFIELDS=COLUMNS, and NAXIS1=ROW_BYTES; in both cases, the default FORMAT      
+is ASCII.   We have attempted to describe the values in each column as a      
+direct translation of the FITS header file; the data itself follows the FITS  
+record format, i.e., ASCII characters with no delimiters and padded to        
+multiples of 2880 bytes.   The FITS data structure are currently supported    
+by public domain software that will be distributed with the Archive.          
+In the case of simple ASCII tables, the fixed width format with a closing     
+CR,LF has been preserved.                                                     
+                                                                              
+6. ACCESSING THE DISK                                                         
+                                                                              
+     These disks have been manufactured following the normal specifications   
+for Compact Disk Read Only Memory (CD-ROM) as well as the logical structure   
+outlined by the International Standards Organization (ISO) in the No. 9660    
+document.  A basic system requirement demands that the CD-ROM reader and      
+software driver support this standard.  At this writing, access to the disk   
+will be through most common workstations or computers.                        
+                                                                              
+     The IHW CD-ROMs have been designed to allow maximum access to the data   
+using existing software developed within NASA as well as user-supplied        
+programs.  In particular, each data file which was originally supplied in FITS
+had the headers placed in files (with extension .HDR) separate from the data  
+(.DAT, .IMG, .TBL); each data file is also described by a detached PDS label. 
+The headers have been separated to allow unrestricted access to the data by   
+non-FITS programs.  The sizes of all header and data files have been preserved
+as integer multiples of 2880 bytes (required by FITS) in order to facilitate  
+the reconstruction of the original FITS bytestream by concatenating the data  
+file with the appropriate header file.                                        
+                                                                              
+                                                                              
+7. REFERENCES                                                                 
+                                                                              
+Martin, T., Martin, M., Braun, M., Johnson, T., Davis, R., and Mehlman, R.,   
+SPIDS: Standards for the Preparation and Interchange of Data Sets, JPL        
+D-4683: October 3, 1988.                                                      
+                                                                              
+"Information Processing -- Volume and File Structure of CD-ROM for            
+Information Interchange", Reference Number ISO 9660: 1988(E), Developed in    
+coordination with the National Information Standards Organization, National   
+Bureau of Standards, Administration 101, Library E-106, Gaithersburg, MD.     
+                                                                              
+Planetary Data System. Data Preparation Workbook, Volume 2, Standards,        
+V2.0, JPL D-7669, May 3, 1991.                                                
+                                                                              
+Planetary Data System, Standards Reference, V3.0, JPL D-7669, part 2,         
+November 20, 1992.                                                            
+                                                                              
+                                                                              
+                               Appendix A                                     
+                                                                              
+                        IHW Spacecraft Data_set_ids                           
+                                                                              
+    PDS ID                                OTHER NAMES                         
+                                                                              
+GIO-C-DID-3-RDR-HALLEY-V1.0               DUST-IMPACT-DETECTOR                
+GIO-C-GRE-3-RDR-HALLEY-V1.0               GIOTTO-RADIO-SCIENCE                
+GIO-C-HMC-3-RDR-HALLEY-V1.0               HALLEY-MULTICOLOR-CAMERA            
+GIO-C-IMS-3-RDR-HERS-HALLEY-V1.0          IMS-HIGH-ENERGY-RANGE-SPEC          
+GIO-C-IMS-3-RDR-HIS-HALLEY-V1.0           IMS-HIGH-INTENSITY-SPEC             
+GIO-C-JPA-4-DDR-MERGE-V1.0                JPA-FIS(SWP,HAR)-IIS(4DH)-MAG-MERGE 
+GIO-C-MAG-4-RDR-8SEC-HALLEY-V1.0          MAGNETOMETER-8-SECOND               
+GIO-C-OPE-3-RDR-HALLEY-V1.0               OPTICAL-PROBE-EXPERIMENT            
+GIO-C-PIA-3-RDR-HALLEY-V1.0               PARTICLE-IMPACT-ANALYSER            
+                                                                              
+SAKIG-C-IMF-3-RDR-HALLEY-V1.0             INTERPLANETARY MAGNETIC FIELD       
+SAKIG-C-SOW-3-RDR-HALLEY-V1.0             SOLAR WIND                          
+                                                                              
+SUISEI-C-ESP-3-RDR-HALLEY-V1.0            ENERGY SPECTRUM PARTICLES           
+                                                                              
+VEGA1-C-DUCMA-3-RDR-HALLEY-V1.0           DUST PARTICLE COUNTER MASS ANALYSER 
+VEGA1-C-IKS-2-RDR-HALLEY-V1.0             INFRARED SPECTROMETER "IMAGING" CH  
+VEGA1-C-IKS-3-RDR-HALLEY-PROCESSED-V1.0   INFRARED SPECTROMETER HI RES CH     
+VEGA1-C-PM1-2-RDR-HALLEY-V1.0             PLASMA ENERGY ANALYSER(PLASMAG-1)   
+VEGA1-C-PUMA-2-RDR-HALLEY-V1.0            DUST MASS SPECTROMETER              
+VEGA1-C-PUMA-3-RDR-HALLEY-PROCESSED-V1.0  DUST MASS SPECTROMETER - MODAL      
+VEGA1-C-SP1-2-RDR-HALLEY-V1.0             DUST PARTICLE IMPACT PLASMA DETECTOR
+VEGA2-C-SP2-2-RDR-HALLEY-V1.0             DUST PARTICLE IMPACT DETECTOR       
+VEGA1-C-TNM-2-RDR-HALLEY-V1.0             ENERGETIC PARTICLE ANALYSER(TUNDE)  
+VEGA1-C-TVS-2-RDR-HALLEY-V1.0             TELEVISION SYSTEM                   
+VEGA1-C-TVS-3-RDR-HALLEY-PROCESSED-V1.0   TELEVISION SYSTEM                   
+                                                                              
+VEGA2-C-DUCMA-3-RDR-HALLEY-V1.0           DUST PARTICLE COUNTER MASS ANALYSER 
+VEGA2-C-PM1-2-RDR-HALLEY-V1.0             PLASMA ENERGY ANALYSER(PLASMAG)     
+VEGA2-C-PUMA-2-RDR-HALLEY-V1.0            DUST MASS SPECTROMETER              
+VEGA2-C-PUMA-3-RDR-HALLEY-PROCESSED-V1.0  DUST MASS SPECTROMETER - MODAL      
+VEGA2-C-SP1-2-RDR-HALLEY-V1.0             DUST PARTICLE IMPACT PLASMA DETECTOR
+VEGA2-C-SP2-2-RDR-HALLEY-V1.0             DUST PARTICLE IMPACT DETECTOR       
+VEGA2-C-TVS-2-RDR-HALLEY-V1.0             TELEVISION SYSTEM                   
+VEGA2-C-TVS-3-RDR-HALLEY-PROCESSED-V1.0   TELEVISION SYSTEM                   
+VEGA2-C-TVS-5-RDR-HALLEY-TRANSFORM-V1.0   TELEVISION SYSTEM                   
+                                                                              
+ICE-C-EPAS-3-RDR-GIACOBIN-ZIN-V1.0        ENERGETIC PARTICLE ANISOTROPY       
+ICE-C-MAG-3-RDR-GIACOBIN-ZIN-V1.0         MAGNETOMETER                        
+ICE-C-PLAWAV-3-RDR-ESP-GIACOBIN-ZIN-V1.0  PLASMA WAVE  ELECT FIELD            
+ICE-C-PLAWAV-3-RDR-MSP-GIACOBIN-ZIN-V1.0  PLASMA WAVE MAGNET FIELD            
+ICE-C-RADWAV-3-RDR-GIACOBIN-ZIN-V1.0      RADIO WAVE                          
+ICE-C-SWPLAS-3-RDR-GIACOBIN-ZIN-V1.0      SOLAR WIND PLASMA                   
+                                                                              
+                                                                              
+                                  Appendix B                                  
+                                                                              
+                     Acronyms for Submitting Groups                           
+                                                                              
+                                                                              
+Institution                                Abbreviation    Country            
+                                                                              
+Department of Energy                           DOE          USA               
+Goddard Space Flight Center                    GSFC         USA               
+International Halley Watch                     IHW          USA               
+Inter Kosmos Institute                         IKI          Russia            
+Infrared Studies Network                       IRSN         USA               
+Jet Propulsion Laboratory                      JPL          USA               
+Central Research Institute for Physics         KFKI         Hungary           
+Loas Alamos National Laboratory                LANL         USA               
+Max Planck Institut                            MPI          Germany           
+National Aeronautics and Space Administration  NASA         USA               
+State University of New York                   SUNY         USA               
+TRW, Incorporated                              TRW          USA               
+                                                                              

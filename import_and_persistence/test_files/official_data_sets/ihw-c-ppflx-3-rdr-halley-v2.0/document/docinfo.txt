@@ -1,0 +1,30 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "STREAM"                                                     
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2006-06-21                                               
+  NOTE             = "DOCINFO.TXT File"                                       
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+Document Directory                                                            
+==================                                                            
+                                                                              
+This directory contains several tables copied from Sekanina et al. (1991)     
+(identified as  "JPL D-400-450" in the PDS reference list) providing basic    
+filter characteristics for the narrowband filters referenced in this          
+data set.                                                                     
+                                                                              
+  02_oh_transmission.txt     Table II. Transmission Curve of the OH Filter    
+                                                                              
+  03_nh_transmission.txt     Table III. Transmission Curves of the NH Filters 
+                                                                              
+  04_narrowband_filters.txt  Table IV. Average Characteristics                
+                                                                              
+                                                                              
+Each .txt file has an accompanying PDS label in a .lbl of the same name.      
+                                                                              
+_______________________                                                       
+                                                                              
+2006-06-21  A.C.Raugh                                                         

@@ -1,0 +1,51 @@
+SIMPLE  =                    T / VALID FITS FORMAT                              
+BITPIX  =                    8 / ASCII DATA
+NAXIS   =                    0 / NO IMAGE DATA PRESENT
+EXTEND  =                    T / EXTENSIONS MAY BE PRESENT
+END
+ 
+XTENSION= 'TABLE   '           / TABLE EXTENSION
+BITPIX  =                    8 / CHARACTER DATA
+NAXIS   =                    2 / TABLE IS A MATRIX
+NAXIS1  =                  253 / TABLE WIDTH IN BYTES
+NAXIS2  =                   57 / NUMBER OF LINES
+PCOUNT  =                    0 / NO PARAMETERS
+GCOUNT  =                    1 / ONLY ONE GROUP
+TFIELDS =                    8 / NUMBER OF FIELDS IN EACH ROW
+ 
+COMMENT  START OF TABLE DEFINITIONS
+TBCOL001=                    2 / STARTING CHARACTER POSITION
+TFORM001= 'A8      '           / FORTRAN FORMAT
+TTYPE001= 'SYSTEM'             / FIELD NAME
+ 
+TBCOL002=                   13 / STARTING CHARACTER POSITION
+TFORM002= 'A9      '           / FORTRAN FORMAT
+TTYPE002= 'DIS-CODE'           / FIELD NAME
+ 
+TBCOL003=                   25 / STARTING CHARACTER POSITION
+TFORM003= 'A68     '           / FORTRAN FORMAT
+TTYPE003= 'OBSVTORY'           / FIELD NAME
+ 
+TBCOL004=                   96 / STARTING CHARACTER POSITION
+TFORM004= 'A40     '           / FORTRAN FORMAT
+TTYPE004= 'TELESCOP'           / FIELD NAME
+ 
+TBCOL005=                  139 / STARTING CHARACTER POSITION
+TFORM005= 'A68     '           / FORTRAN FORMAT
+TTYPE005= 'INSTRUME'           / FIELD NAME
+ 
+TBCOL006=                  210 / STARTING CHARACTER POSITION
+TFORM006= 'A20     '           / FORTRAN FORMAT
+TTYPE006= 'APERSIZE'           / FIELD NAME
+ 
+TBCOL007=                  233 / STARTING CHARACTER POSITION
+TFORM007= 'A5      '           / FORTRAN FORMAT
+TTYPE007= 'RESOL-SP'           / FIELD NAME
+ 
+TBCOL008=                  241 / STARTING CHARACTER POSITION
+TFORM008= 'A10     '           / FORTRAN FORMAT
+TTYPE008= 'RANGE-SP'           / FIELD NAME
+ 
+AUTHOR  = 'FERRO, A.J.'        / AUTHOR OF CD-ROM TABLE
+END
+ 

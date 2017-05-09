@@ -1,0 +1,31 @@
+***** File BRWZINFO.TXT                                                       
+                                                                              
+     This directory contains uncompressed, subsampled browse images of Comet  
+Giacobini-Zinner (P/G-Z).  The data were obtained by the Large-Scale Phenomena
+                                                                              
+Network.                                                                      
+                                                                              
+     In order to provide a uniform set of images which can be displayed       
+quickly with the hardware currently available, a set of "browse images" has   
+been generated of all L-SP comet digital data.  These images                  
+were created by the subsampling program MIDGET.FOR (refer to the FORTRAN      
+subdirectory of the SOFTWARE directory), and have a maximum size of 256 by 256
+                                                                              
+pixels, a strategy adopted to permit a minimum simultaneous display of four   
+images on many standard (512x512) display devices.  The digital data have been
+                                                                              
+scaled into a numerical range of 0 to 255 (a single byte per pixel; the       
+precision of the original images was 10 bits, or two bytes per pixel).        
+                                                                              
+     The FITS headers for the browse images contain the information present in
+the headers for the full-resolution images, but NAXIS1, NAXIS2, and the       
+astrometric keywords have been updated to reflect changes in the pixel spacing
+and scale of the images.  In other words, it is possible to perform (degraded)
+astrometry directly using the FITS headers accompanying these browse images.  
+Also, HISTORY keyword lines have been inserted into the FITS headers to       
+document the linear scale and density scale changes.                          
+                                                                              
+     The filename extension for files of browse data (.IBG = image, .HDR =    
+header, .LBL = label) follow the IHW filename conventions.  To reconstruct the
+original FITS byte stream, the .HDR and the .IBG files for the the appropriate
+observation must be concatenated.                                             

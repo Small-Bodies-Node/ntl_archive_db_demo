@@ -1,0 +1,192 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "NULL"                                    
+                                                                              
+OBJECT                            = DATA_SET                                  
+  DATA_SET_ID                     = "GIO-C-GRE-3-RDR-HALLEY-V1.0"             
+                                                                              
+  OBJECT                          = DATA_SET_INFORMATION                      
+    DATA_SET_NAME                 = "GIOTTO RADIO SCIENCE EXPERIMENT DATA     
+                                      V1.0"                                   
+    DATA_SET_COLLECTION_MEMBER_FLG= "Y"                                       
+    ARCHIVE_STATUS                = "ARCHIVED"                                
+    DATA_OBJECT_TYPE              = "TABLE"                                   
+    START_TIME                    = 1986-03-14T00:00:00.000                   
+    STOP_TIME                     = 1986-03-14T00:24:00.000                   
+    DATA_SET_RELEASE_DATE         = 1992-04-30                                
+    PRODUCER_FULL_NAME            = "INTERNATIONAL HALLEY WATCH"              
+    DETAILED_CATALOG_FLAG         = "N"                                       
+    DATA_SET_TERSE_DESC           = "GIOTTO Radio Science Experiment (GRE)    
+                                      observations of 1P/Halley"              
+    ABSTRACT_DESC                 = "                                         
+The Giotto Radio Science Experiment data set consists of four tables.         
+ Each table contains a measurement value listed as a function of              
+time.  The measurements are: closed-loop receiver carrier signal              
+amplitude, closed-loop receiver carrier frequency residual, open-loop         
+receiver carrier signal amplitude, and open-loop receiver carrier             
+frequency."                                                                   
+                                                                              
+    CITATION_DESC                 = "                                         
+Edenhofer, P., GIOTTO RADIO SCIENCE EXPERIMENT DATA V1.0,                     
+GIO-C-GRE-3-RDR-HALLEY-V1.0, NASA Planetary Data System, 1992"                
+                                                                              
+    DATA_SET_DESC                 = "                                         
+                                                                              
+Data Set Overview                                                             
+=================                                                             
+                                                                              
+    The Giotto Radio Science Experiment data set consists                     
+    of four tables.  Each table contains a measurement                        
+    value listed as a function of time.  The measurements                     
+    are: closed-loop receiver carrier signal amplitude,                       
+    closed-loop receiver carrier frequency residual,                          
+    open-loop receiver carrier signal amplitude, and                          
+    open-loop receiver carrier frequency.                                     
+                                                                              
+     The measurements of frequency and frequency residual                     
+    may be converted to changes in spacecraft velocity                        
+    during the Halley encounter.  The changes in velocity                     
+    may then be interpreted in terms of mass fluence                          
+    (dust and gas) within Halley's coma                                       
+    [EDENHOFERETAL1986A], [EDENHOFERETAL1986B],                               
+    [EDENHOFERETAL1986C], [EDENHOFERETAL1986D],                               
+    [EDENHOFERETAL1987A].                                                     
+                                                                              
+     More detailed analyses of the dynamics of the                            
+    spacecraft as inferred from the GRE data have been                        
+    published by [BIRDETAL1988], [PAETZOLDETAL1988],                          
+    [PAETZOLDETAL1990], [PAETZOLDETAL1991A],                                  
+    [PAETZOLDETAL1991B], and [PAETZOLDETAL1991C].                             
+                                                                              
+    Parameters                                                                
+    ==========                                                                
+      The closed-loop receiver carrier signal amplitude                       
+      is the measured strength of the spacecraft signal                       
+      at the DSN 70-m antenna when connected to a                             
+      closed-loop receiver.  The data file GREACL is a                        
+      table of signal level measurements (in units of dB                      
+      relative to 1 milliwatt) taken at 1 second                              
+      intervals starting at 0 h on 14 March 1986.                             
+                                                                              
+      The closed-loop receiver frequency residual is the                      
+      measured frequency of the spacecraft signal at the                      
+      DSN 70-m antenna relative to the frequency expected                     
+      from the spacecraft moving only in response to                          
+      gravitational forces.  The data file GREFCL is a                        
+      table of residual frequencies (in units of Hz)                          
+      taken at 0.1 second intervals starting at 0 h on 14                     
+      March 1986.                                                             
+                                                                              
+      The open-loop receiver carrier signal amplitude is                      
+      the measured strength of the spacecraft signal at                       
+      the DSN 70-m antenna when connected to an open-loop                     
+      receiver.  The data file GREAOL is a table of                           
+      signal level measurements (in units of dB relative                      
+      to 1 milliwatt) taken at 0.128 sec intervals                            
+      starting at 601.103470 sec past 0 h on 14 March                         
+      1986.                                                                   
+                                                                              
+      The open-loop receiver frequency is the measured                        
+      frequency of the spacecraft signal at the DSN 70-m                      
+      antenna relative to 8428463000 Hz.  The data file                       
+      GREFOL is a table of frequencies (in units of Hz)                       
+      taken at 0.128 second intervals starting 601.103470                     
+      secs after 0 h on 14 March 1986.                                        
+                                                                              
+    Processing                                                                
+    ==========                                                                
+      The open-loop original samples have been digitally                      
+      filtered.  The estimates of signal amplitude and                        
+      frequency are based on the strength and location of                     
+      the spacecraft signal in power spectra derived from                     
+      those filtered samples                                                  
+                                                                              
+."                                                                            
+                                                                              
+    CONFIDENCE_LEVEL_NOTE         = "                                         
+                                                                              
+Confidence Level Overview                                                     
+=========================                                                     
+                                                                              
+      The maximum frequency offset in the one-way data                        
+      was 16.9 Hz.  But the two-way data acquired before                      
+      and after the encounter are consistent with a                           
+      maximum of only 4.64 Hz.                                                
+                                                                              
+      Two explanations have been offered                                      
+      [EDENHOFERETAL1987B].  First is that the drag                           
+      forces amplified the oscillator drift through                           
+      acoustic, electrical, or thermal energy deposition.                     
+      In this case, the measurements differ from the                          
+      actual values by only a scale factor.  The analysis                     
+      presented by [EDENHOFERETAL1987B] adopts this                           
+      assumption.                                                             
+                                                                              
+      The second explanation is that transients during                        
+      the encounter (possibly associated with failure of                      
+      the NMS experiment and switching of the TWT                             
+      amplifier tubes) also induced a frequency offset in                     
+      the on-board oscillator.  In this case, both an                         
+      offset and a scale factor may be needed to correct                      
+      the data.                                                               
+                                                                              
+      No applicable pre-launch tests were conducted on                        
+      the radio system to allow choosing between these                        
+      assumptions."                                                           
+                                                                              
+  END_OBJECT                      = DATA_SET_INFORMATION                      
+                                                                              
+  OBJECT                          = DATA_SET_TARGET                           
+    TARGET_NAME                   = "HALLEY"                                  
+  END_OBJECT                      = DATA_SET_TARGET                           
+                                                                              
+  OBJECT                          = DATA_SET_MISSION                          
+    MISSION_NAME                  = "GIOTTO"                                  
+  END_OBJECT                      = DATA_SET_MISSION                          
+                                                                              
+  OBJECT                          = DATA_SET_HOST                             
+    INSTRUMENT_HOST_ID            = "GIO"                                     
+    INSTRUMENT_ID                 = "GRE"                                     
+  END_OBJECT                      = DATA_SET_HOST                             
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "BIRDETAL1988"                            
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "EDENHOFERETAL1986A"                      
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "EDENHOFERETAL1986B"                      
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "EDENHOFERETAL1986C"                      
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "EDENHOFERETAL1986D"                      
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "EDENHOFERETAL1987B"                      
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "PAETZOLDETAL1988"                        
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "PAETZOLDETAL1990"                        
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "PAETZOLDETAL1991A"                       
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+                                                                              
+  OBJECT                          = DATA_SET_REFERENCE_INFORMATION            
+    REFERENCE_KEY_ID              = "PAETZOLDETAL1991B"                       
+  END_OBJECT                      = DATA_SET_REFERENCE_INFORMATION            
+END_OBJECT                        = DATA_SET                                  
+END                                                                           

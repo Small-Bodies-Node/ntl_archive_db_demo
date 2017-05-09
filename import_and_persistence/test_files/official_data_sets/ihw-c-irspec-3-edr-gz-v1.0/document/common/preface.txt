@@ -1,0 +1,109 @@
+***** File PREFACE.TXT                                                        
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                PREFACE                                       
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+    The International Halley Watch (IHW) grew out of a National Aeronautics   
+and Space Administration (NASA) sponsored study in 1979-80 led by Louis       
+Friedman of the Jet Propulsion Laboratory (JPL). The premise behind that study
+was that some form of cooperation among the astronomers and space scientists  
+of the world would be necessary to make the most of the once per lifetime     
+opportunity to study Comet Halley. It was obvious that international          
+cooperation required sponsorship by the International Astronomical Union      
+(IAU), and that had to be obtained at the 1982 General Assembly of the IAU    
+or preparations could not be ready in time for Halley. This set the timing    
+for creation of the entire IHW organization.                                  
+                                                                              
+    In 1980 NASA organized a Lead Center for the western hemisphere at JPL    
+under Ray Newburn. A similar facility for the eastern hemisphere was organized
+at Dr. Remeis Sternwarte, Bamberg, under Juergen Rahe with the support of the 
+government of the Federal Republic of Germany. Newburn and Rahe elaborated    
+upon the plans of the original study group, which suggested appointment of    
+specialists to set up networks of observers in each of the major observing    
+disciplines, establishment of an international oversight committee,           
+coordination with the planned space projects, and cooperation with amateur    
+observers.                                                                    
+                                                                              
+    In 1981 a Steering Group of 22 scientists residing in 12 different        
+countries was appointed by NASA to help establish the other parts of the IHW  
+and to advise on its operation. Later this international group became         
+independent of NASA, elected its own chairman, and added and/or replaced      
+members as it felt necessary. The Steering Group selected Discipline          
+Specialists based on formal proposals submitted in response to a NASA letter, 
+mailed worldwide, seeking cometary scientists to organize the observing       
+networks, coordinate their activity, and later to assist in archiving the     
+resulting data. By the time of the 1982 IAU meeting a complete administrative 
+organization was in existence, awaiting its acceptance and imprimatur by that 
+worldwide group.                                                              
+                                                                              
+    The original study at JPL suggested that the most important product of the
+IHW should be an archive of all the data. The archive was not to replace the  
+normal interpretation and publication in technical journals. Rather it was to 
+complement those publications by establishing a comprehensive database        
+suitable for further studies requiring reduced but uninterpreted data from    
+many observers and different disciplines. The complete archive would be given 
+to each observer contributing to it and made available to institutes          
+worldwide. Cost of this publication would be borne by NASA. Initially this was
+envisioned as a printed archive. Almost immediately it became obvious that to 
+maintain full quantitative accuracy a digital version of the archive would be 
+necessary. The logic leading to the selection of CD-ROMs as the digital medium
+is presented in another file.                                                 
+                                                                              
+    In 1981 Newburn and Rahe presented the IHW idea to the first joint meeting
+of the space agencies planning to send probes to Halley. That meeting led to a
+permanent organization known as the Interagency Consultative Group (IACG). The
+IACG was especially interested in the proposed Astrometry Network of the IHW  
+as a possible source of data for their spacecraft navigation, and the IHW     
+continued to be represented at IACG meetings as long as their primary agenda  
+item was Halley. When NASA decided to shift its ISEE (International Sun-Earth 
+Explorer) spacecraft into a trajectory encountering Comet Giacobini-Zinner    
+(G-Z), it was natural to request that observations of G-Z be coordinated by   
+the IHW as well, and this was done.                                           
+                                                                              
+    In publishing the archive there seemed to be no good reason to mix G-Z    
+data with those of Halley. Further, with the G-Z observations completed much  
+earlier than those of Halley, publication of a separate "G-Z Archive" would   
+offer a chance to make a final test of the end-to-end data handling           
+capabilities of the IHW. All IHW software necessary for Halley therefore was  
+utilized to produce a test CD of the G-Z data. That test disc was used by 100 
+different scientists in the same way as the final Halley archive is intended  
+to be used and tested for readability and accessibility. The "real" and final 
+G-Z archive disc distributed here together with the Halley discs is thus the  
+product of a long developmental process which we hope has led to a package of 
+use to many scientists.                                                       
+                                                                              
+     At this writing the decision has been made to prepare camera ready copy  
+for a printed version of the archive, while personnel and facilities are still
+available for the job. A printed archive would be useful to many people, and  
+an archive printed on acid-free paper would have true archival durability. The
+durability of CDs is unknown, and even if they survive without problems until 
+the next apparition of Halley, CDs may be as obsolete as Edison cylindrical   
+phonograph records by 2061. The actual printing of the archive awaits         
+availability of funds, however, which makes printing before FY 1992 unlikely. 
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                Ray L. Newburn, Jr.      JÅrgen Rahe                          
+                                                                              
+                                                                              
+                 Leaders, International Halley Watch                          
+                                                                              
+                                                                              
+                           November, 1990                                     
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              

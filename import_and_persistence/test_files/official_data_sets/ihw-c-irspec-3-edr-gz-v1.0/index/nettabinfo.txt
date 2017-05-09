@@ -1,0 +1,82 @@
+*****  FILE INDXINFO.TXT                                                      
+                                                                              
+     This information file is located in the INDEX directory.                 
+                                                                              
+     This file contains a description of the index files located in the INDEX 
+directory and a subdirectory, NETABLES.  Within INDEX there are 4 indices.    
+Within the NETABLES subdirectory there are 20 indices from the so-called      
+"printed archive," and 6 indices that are Discipline-specific and contain a   
+large fraction of all FITS keywords from those Disciplines.  The 4 indices in 
+this directory are described below; the 26 indices in the NETABLES            
+subdirectory are described in the NETINFO.TXT file located in that            
+subdirectory.                                                                 
+                                                                              
+                                                                              
+     CDSTRUCT     -- The CD-ROM structure file contains the filename of all   
+                     files on this CD-ROM, along with file size, starting     
+                     block, allocation, and the complete path for this disc.  
+                                                                              
+     EPHEM        -- The Ephemeris file contains the complete ephemeris data  
+                     for the period from November 26, 1981 through June 23,   
+                     1989.                                                    
+                                                                              
+     PATHTABL     -- The Path Table file contains complete path information   
+                     for all of the datafiles, headers, and labels for this   
+                     disc.                                                    
+                                                                              
+     QUIK         -- The Quick Look file contains the values, in chronological
+                     order, of the IHW mandatory keywords for all Disciplines 
+                     for this disc.                                           
+                                                                              
+     Each of the indices mentioned above, as well as the ones within the      
+NETABLES subdirectory, are made up of 5 files as described below.             
+                                                                              
+                                                                              
+        *.DBF - These are dBASE III+ compatible database files. They do not   
+                contain any data records, only the structure of the           
+                corresponding database. The data records may be appended from 
+                the data tables (in the .IDX files). Many database management 
+                systems can import databases from .DBF files.                 
+                                                                              
+        *.IDX - These files contain the actual data records from each table.  
+                They are delimited tables. Numeric fields are delimited by    
+                commas (,) and ASCII text fields are contained in quotes (")  
+                and also delimited with commas. Each line ends with the       
+                characters <CR><LF> (ASCII 13 and 10 respectively). All fields
+                in the tables are fixed width to facilitate their use in that 
+                format, as well. These files may be appended to the end of an 
+                empty database structure to create the full index database.   
+                                                                              
+        *.HDR - These are the FITS headers describing the *.IDX files in terms
+                of FITS tables.  By concatenating the *.HDR and *.IDX files   
+                into one file a true FITS table byte stream could be          
+                generated.                                                    
+                                                                              
+        *.LBL - These are PDS labels describing the data tables.  They already
+                contain pointers to the data tables, so no further steps are  
+                required to make them accessible to PDS table-processing      
+                software.                                                     
+                                                                              
+        *.STR - These are "structure" files. They contain information, in     
+                delimited format, on the number, names and widths of the      
+                fields in each database. They can used by dBASE III for       
+                creating the printed archive index tables, and also document  
+                the structure of each table.                                  
+                                                                              
+     In order to use dBASE III to create a database from these files, issue   
+the following commands at the "." (dot) prompt:                               
+                                                                              
+     . use <filename>                                                         
+     . append from <filename>.idx delimited                                   
+                                                                              
+where <filename> is one of CDSTRUCT (a file of physcial sector locations),    
+EPHEM, NETABLES, QUIK* or PATHTABL.  Most database programs can import dBASE  
+III compatible files.  In order to use another database program to manage the 
+index tables, you will need to import the (empty) index from the appropriate  
+.DBF file, then append the data from the corresponding .IDX file.             
+                                                                              
+     There is one additional file in the INDEX directory.  STRUCT.DBF is the  
+database used to create all the other databases. It consists of 4 fields,     
+FIELD_NAME, FIELD_TYPE, FIELD_LEN and FIELD_DEC, which document the structure 
+of the index tables. When the appropriate .STR file is appended to this       
+structure database, dBASE III+ can create the corresponding index database.   

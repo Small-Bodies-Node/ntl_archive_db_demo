@@ -1,0 +1,16 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"NNSN_NUM   ","N", 6,0                                                        
+"FILTER     ","C", 7,0                                                        
+"DETECTOR   ","C", 8,0                                                        
+"FOV_1      ","N", 4,1                                                        
+"FOV_2      ","N", 4,1                                                        
+"POS_ANGLE_1","N", 3,0                                                        
+"EXPOSURE   ","N", 4,0                                                        
+"PIXEL_SIZE ","N", 4,2                                                        
+"APERTURE   ","N", 4,2                                                        
+"SCALE      ","N", 5,2                                                        
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"NOTE_FLAG  ","C", 1,0                                                        
+"FILENAME   ","C", 8,0                                                        

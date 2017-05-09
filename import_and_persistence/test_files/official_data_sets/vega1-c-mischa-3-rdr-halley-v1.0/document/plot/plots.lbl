@@ -1,0 +1,41 @@
+PDS_VERSION_ID                = PDS3                                          
+RECORD_TYPE                   = STREAM                                        
+^GIF_DOCUMENT                 = {"V1CR1.GIF","V1CR2.GIF"}                     
+                                                                              
+                                                                              
+OBJECT                        = GIF_DOCUMENT                                  
+  DOCUMENT_NAME               = "Vega-1 MISCHA (Cruise) Magentic Field Data"  
+  DOCUMENT_TOPIC_TYPE           = "PLOT"                                      
+  INTERCHANGE_FORMAT            = BINARY                                      
+  DOCUMENT_FORMAT               = GIF                                         
+  PUBLICATION_DATE              = 1997-08-13                                  
+  FILES                         = 2                                           
+  DESCRIPTION                   = "                                           
+                                                                              
+   Vega-1 MISCHA Magnetic Field Data during the cruise phase (Jan 25-Feb03    
+   and Apr 09-17, 1986).   The four components of the data (Bx, By, Bz, Bt)   
+   at 150 s resolution and reduced to SE coordinate system are plotted as a   
+   time."                                                                     
+END_OBJECT                    = GIF_DOCUMENT                                  
+                                                                              
+                                                                              
+END                                                                           
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              

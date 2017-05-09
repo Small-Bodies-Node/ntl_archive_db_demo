@@ -1,0 +1,37 @@
+*****  File VOLUME.TXT                                                        
+                                                                              
+                                                                              
+    This CD-ROM contains observations of comets Crommelin and Giacobini-      
+Zinner (P/G-Z).  The observations of P/Crommelin were made between August 9,  
+1983 and May 27, 1984.  The observations of P/G-Z were made between January   
+28, 1984 and March 31, 1987.  In the table below are the file counts for the  
+two comets:                                                                   
+                                                                              
+                              P/Crommelin             P/G-Z                   
+    -------------------------------------------------------                   
+    Astrometry                        375              1300                   
+    IR Studies                         10                70                   
+    IR - calibrations                   -                11                   
+    IR - filter tables                  8                 5                   
+    Large Scale Phenomena              19               118 (see note)        
+    Near Nucleus Studies                5               197                   
+    Photometry & Polarimetry           22               224                   
+    Radio Studies                      43               309                   
+    Spectroscopy & Sp.phot.             9               432                   
+    Spectr. - calibrations              7                 9                   
+    Amateur Observation               197              1089                   
+    =======================================================                   
+    Comet files                       680              3739                   
+    Calibrations                        7                20                   
+    Filter tables                       8                 5                   
+    =======================================================                   
+    Comet files + Calibrations        687              3759                   
+    =======================================================                   
+    Total                             695              3764                   
+    MB                               39.9             132.9                   
+                                                                              
+Note: 24 of the 118 LPSN files of P/G-Z are included in digitized form, both  
+      as compressed (full resolution) images and browse (reduced resolution)  
+      images (the remaining 94 LSPN files are dataless FITS header files,     
+      merely indicating the existence of these observations).                 
+                                                                              

@@ -1,0 +1,788 @@
+***** File ICE.TXT                                                                                                                
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+The International Cometary                                                                                                        
+Explorer (ICE) Mission to Comets                                                                                                  
+Giacobini-Zinner and Halley                                                                                                       
+                                                                                                                                  
+  J.C. Brandt                                                                                                                     
+  Laboratory for Astronomy and Solar Physics, NASA /Goddard Space                                                                 
+ Flight Center, Greenbelt, Maryland, USA                                                                                          
+                                                                                                                                  
+1. History and scientific                                                                                                         
+mission objectives                                                                                                                
+                                                                                                                                  
+  The Third International Sun-Earth Explorer (ISEE-3) was launched on 12 August                                                   
+1978 as one element of a three-spacecraft mission that began in 1977. The original                                                
+purpose was to study the solar-wind interaction with the Earth's magnetosphere. The                                               
+spacecraft was maintained in a 'halo orbit' about the libration point, L1, where it                                               
+monitored the solar-wind input. It completed four years of uninterrupted operation at                                             
+that location.                                                                                                                    
+  Several opportunities to use ISEE-3 in an extended mission phase were avallable.                                                
+Among the most attractive scientifically were exploration of the distant geotail and an                                           
+intercept of periodic Comet Giacobini-Zinner. Either or both of these options were                                                
+available. The comet option was constrained to an intercept of Giacobini-Zinner in                                                
+September 1985; specifically, an intercept of Comet Halley was not possible.                                                      
+  In order to explore the comet option, a subcommittee of the ISEE Science Working                                                
+Team (SWT) was formed at the request of the ISEE-3 Project Scientist, T. von Rosen-                                               
+vinge, and chaired by E. Smith. The subcommittee and the SWT as a whole found                                                     
+the option to be of considerable scientific interest, and a report entitled 'Intercept of                                         
+Giacobini-Zinner by ISEE' was issued in June 1982, and revised in May 1983.                                                       
+  An ad hoc subcommittee of the Space Science Board recommended that NASA pro-                                                    
+ceed with both the geotail option and the comet intercept. After an in-house review                                               
+and a review of the readiness of the spacecraft to perform the intercept by the Goddard                                           
+Space Flight Center, NASA approved the intercept with Comet Giacobini-Zinner.                                                     
+  The manoeuvres necessary to achieve the trajectory that would send the spacecraft                                               
+into the distant geomagnetic tail and to an intercept of Comet Giacobini-Zinner are                                               
+not simple. They are the brainchild of R. Farquhar, Flight Director for the Project.                                              
+Basically, five gravitational encounters with the Moon were required to change the                                                
+spacecraft's orbit (Fig. 1). The last encounter (also see Fig. 6) was on 22 December                                              
+1983 when the spacecraft made a close swingby, passing only 120 km above the lunar                                                
+surface. This manoeuvre effectively 'launched' the spacecraft from the Earth-Moon                                                 
+system. At the same time, the spacecraft was renamed the Internationai Cometary Ex-                                               
+plorer (ICE) to correspond to its new mission.                                                                                    
+                                                                                                                                  
+Figure 1. A colour-coded schematic showing                                                                                        
+the trajectory of the ISEE-3/ICE spacecraft.                                                                                      
+ICE returns to the vicinity of Earth in the year                                                                                  
+2013 and, if retrievable, might provide comet                                                                                     
+dust for analysis                                                                                                                 
+                                                                                                                                  
+  The first extensive survey of the distant geotail was accomplished by ISEE-3 in                                                 
+1983. This survey achieved distances as great as 237 Earth radii in the tail. Aside from                                          
+the scientific significance of the results obtained, the study of particle, field, and wave                                       
+phenomena in the geotail provided an excellent rehearsal and scientific baseline for                                              
+experiment operations during the cometary encounter. Results from the geotail excur-                                              
+sion were presented in the October 1984 issue of Geophysical Research Letters (Vol.                                               
+11, No. 10).                                                                                                                      
+   The primary ICE scientific objective is to study the interaction between the solar                                             
+wind and a cometary atmosphere by passing through the plasma tail. This will be ac-                                               
+complished by the intercept with Comet Giacobini-Zinner on 11 September 1985.                                                     
+Details of the targeting strategy are discussed below. Additional scientific objectives                                           
+following the tail intercept of Comet Giacobini-Zinner include the support of Comet                                               
+Halley studies through the measurement of solar-wind conditions upstream of                                                       
+P/Halley. Such opportunities occur in October 1985 and March 1986.                                                                
+                                                                                                                                  
+                                                                                                                                  
+2. Comet Giacobini-Zinner                                                                                                         
+(G/Z)                                                                                                                             
+                                                                                                                                  
+  This short-period comet was discovered by M. Giacobini at Nice in 1900 and                                                      
+rediscovered in 1913 by E. Zinner at Bamberg. The discovery and recovery history                                                  
+of the comet is summarized in Table 1. The perihelion distance of 1.03 AU occurs                                                  
+near the ecliptic plane, making G/Z well suited to spacecraft encounters during its in-                                           
+tervals of maximum nuclear and atmospheric activity. The orbital elements are listed                                              
+in Table 2.                                                                                                                       
+                                                                                                                                  
+  Typically, the plasma tail of G/Z is observed to begin developing at a heliocentric                                             
+distance of about 1.7 AU. Conventional photographic observations at previous appari-                                              
+tions show that the plasma tail can exceed 500000 km in length. The coma, also                                                    
+observed photographically, reaches a typical diameter of about 50000 km (Fig. 2).                                                 
+G/Z is associated with the Draconid (Giacobinid) meteor showers. An analysis by                                                   
+D.K. Yeomans indicates that there is a limited possibility that a Giacobinid shower                                               
+will occur on 8.5 October 1985, although it is unlikely to rival the great displays of                                            
+this shower in 1933 and 1946. Ground-based observers and interplanetary-dust-                                                     
+particle experiments should attempt to observe this shower. Details are given in. the                                             
+Comet Giacobini-Zinner Handbook.                                                                                                  
+                                                                                                                                  
+  The early recovery of Comet G/Z by ground-based observers was of special interest                                               
+to the ICE-mission flight dynamicists. In the event that the observed orbit had differed                                          
+significantly from the expected orbit of Comet G/Z, early detection of Comet G/Z                                                  
+would have been crucial to carefully schedule operation of the onboard propulsion                                                 
+capability in order to effect the flyby successfully. Fortunately, the first recovery                                             
+photographs (Fig. 2) obtained on 3 April 1984, by S. Djorgovski, H. Spinrad, G.                                                   
+Will, and M. Belton with the 4 m Mayall telescope at Kitt Peak National Observatory,                                              
+revealed that G/Z was within 4 arcsec of the anticipated position. Current projections                                            
+indicate that further use of the propulsion system involves changes well within the                                               
+available fuel capacity. The celestial mechanics of the encounter produces an intercept                                           
+with the spacecraft travelling from south to north in the rest frame of the comet.                                                
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table 1. Discovery and recovery of periodic Comet Giacobini-Zinner                                                                
+                                                                                                                                  
+                                                                                                 Approximate                      
+Apparition  Designation        First observation  Observer/Institution                           magnitude  Reference             
+                                                                                                                                  
+ 1          1900III   (1900c)  20 Dec 1900        Giacobini/Observatoire de Nice                  11          A.N. 154, 161       
+ 2          l913V     (1913e)  23 Oct 1913        Zinner/Remeis-Sternwarte                      9-10          A.N. 196, 167 & 353 
+ 3          1926VI    (l926e)  l6 Oct 1926        Schwassmann/Hamburger Sternwarte                14          A.N. 229, 122       
+ 4          1933III   (l933c)  23 Apr 1933        Schorr/Hamburger Sternwarte                     15          IAU Circ. 435       
+ 5          1940I     (19391)  15 Oct 1939        Van Biesbroeck/Yerkes Observatory ,             15          IAU Circ. 797       
+ 6          1946V     (1946c)  29 May 1946        Jeffers/Lick Observatory                        17          IAU Circ. 1046      
+ 7          1959VIII  (1959b)  8 May 1959         Roemer/US Naval Observatory                     20          IAU Circ. 1677      
+ 8          1966I     (1965g)  17 Sept 1965       Roemer & Lloyd/US Naval Observatory             20          IAU Circ. 1923      
+ 9          l972VI    (1972d)  11 Mar 1972        Roemer & McCallister/University of Arizona      19          IAU Circ. 2390      
+10          l979III   (1978h)  30 Apr 1978        Shao & Schwartz/Harvard College Observatory  20-21          IAU Circ. 32l6      
+11          l985      (1984c)  03 Apr 1984        Djorgovski & Spinrad/Univ. Calif. Berkeley      23          IAU Circ. 3937      
+                                                  Will & Belton/Kitt Peak National Observatory                                    
+General references:                                                                                                               
+    l. Baldet M F 1950, Liste Generale Des Cometes De L'Origine A l948                                                            
+    2. Marsden B G 1982, Catalogue of Cometary Orbits, 4th Edition, Smithsonian Astrophysical Observatory                         
+                                                                                                                                  
+                                                                                                                                  
+Table 2. Orbit parameters for Comet                                                                                               
+Giacobini-Zinner                                                                                                                  
+                                                                                                                                  
+q      = perihelion distance          1 .03 AU                                                                                    
+                                                                                                                                  
+Q      = aphelion distance            6.00 AU                                                                                     
+                                                                                                                                  
+e      = eccentricity                 0.708                                                                                       
+                                                                                                                                  
+i      = inclination                  31.9deg                                                                                     
+                                                                                                                                  
+OMEGA  = longitude of ascending node  194.7deg                                                                                    
+                                                                                                                                  
+omega  = argument of perihelion       172.5deg                                                                                    
+                                                                                                                                  
+P      = period                       6.5 y                                                                                       
+                                                                                                                                  
+T      = time of perihelion           1985 Sept                                                                                   
+                                      5.25(ET)                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 2.  Recovery photograph of Comet                                                                                           
+Giacobini-Zinner obtained on 3 April 1984                                                                                         
+with a charge-coupled device at the prime                                                                                         
+focus of the 4 m telescope at the Kitt Peak                                                                                       
+National Observatory. The observers were                                                                                          
+S. Djorgovski and H. Spinrad of the                                                                                               
+Astronomy Department, University of                                                                                               
+California, Berkeley and G. Will and                                                                                              
+M. Belton of the Kitt Peak National                                                                                               
+Observatory                                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+  In order to develop the targeting strategy, a baseline tail model (Fig. 3) was                                                  
+developed. The starting point was a gas production rate of 2.3 X 10**28 molecules/s at                                            
+perihelion (derived by N. Divine from the measured brightness of Comet G/Z during                                                 
+previous apparitions). The model suggests a plasma tail width of about 5000 km from                                               
+the nucleus, consistent with the measured size on a photograph of Comet G/Z obtained                                              
+by E. Roemer on 26 October 1959 (Fig. 4). Features of the model include a bow                                                     
+shock, a two-lobed magnetic tail, and neutral sheet separating the two magnetic lobes                                             
+in the tail. The model-dependent nature of these features should be kept in mind.                                                 
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 3. Schematic of the baseline plasma-                                                                                       
+physics model for Comet Giacobini-Zinner                                                                                          
+near perihelion                                                                                                                   
+                                                                                                                                  
+Figure 4. Photograph of Comet Giacobini-                                                                                          
+Zinner, obtained by E. Roemer on 26 October                                                                                       
+1959 (Official US Navy photograph). Linear                                                                                        
+and angular scales have been added                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+  The targeting strategy is based on the desire to penetrate the central, denser, fully-                                          
+formed plasma tail of Comet Giacobini-Zinner. Thus, the following elements must be                                                
+considered in the formulation of a targeting strategy:                                                                            
+                                                                                                                                  
+1.  the dust hazard                                                                                                               
+2.  full formation of the tail; directly in the wake of the nucleus conditions may be                                             
+    chaotic and it is thought that the tail may not be fully organized closer than a few                                          
+    thousand kilometres to the nucleus                                                                                            
+3.  the cross-section of the plasma tails tends to increase or 'flare' with increasing                                            
+    distance from the nucleus (Fig. 3)                                                                                            
+4.  the plasma tail tends to wag back and forth in response to variations in the solar-                                           
+    wind velocity.                                                                                                                
+                                                                                                                                  
+Elements 1 and 2 set a lower bound to the distance from the nucleus at which the in-                                              
+tercept occurs. Elements 3 and 4 conflict. The increasing cross-section 3 indicates that                                          
+targeting away from the nucleus increases the probability of intersection the tail for                                            
+a given targeting accuracy. The tail wagging 4 indicates that targeting away from the                                             
+nucleus decreases the probability of a successful tail intercept. A probabilistic model                                           
+has been developed for elements 3 and 4 and a solution sought for a 0.99 probability                                              
+of successful intercepts for a range of reasonable targeting accuracies. A solution con-                                          
+sistent with all presently available information and elements l through 4 indicates 3                                             
+tailward targeting distance of 10000 km from the nucleus.                                                                         
+   The relative geometry of the intercept is shown in Figure 5. The spacecraft will pass                                          
+essentially south to north through the tail of the comet. Clearly, we expect to pass                                              
+through the bow shock, the contact surface separating the mixed solar-wind and com-                                               
+etary plasma, and the central plasma tail. As shown in Figure 5, the path of the ICE                                              
+spacecraft is nearly parallel to the expected orientation of the neutral sheet separating                                         
+the magnetic tail lobes. For the anticipated targeting accuracies, we cannot reasonably                                           
+expect to intersect the neutral sheet. However, we may be able to detect the  neutral                                             
+sheet from the signatures of electromagnetic waves and plasma waves generated in the                                              
+neutral sheet and detected by ICE in the plasma tail.                                                                             
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 5. The geometry of the cometary                                                                                            
+encounter, as seen looking towards the Sun                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+  Clearly, the maximum scientific return from the intercept depends on extensive,                                                 
+supporting ground-based observations of the comet. The appropriate observations                                                   
+have been requested through the International Halley Watch and a Comet Giacobini-                                                 
+Zinner Handbook has been prepared (Yeomans & Brandt, 1985). Because the                                                           
+'Giacobini-Zinner Watch', with a focus on the time period of September 1985, comes                                                
+before the time period of maximum effort for Halley, the Giacobini-Zinner Watch can                                               
+serve as a valuable dress rehearsal for Halley's Comet.                                                                           
+  The coverage requested can be divided into four levels of activity:                                                             
+1. Light coverage: This time period would be approximately one year centred on the                                                
+   encounter date. The comet's development is to be monitored as it passes through                                                
+   perihelion. Observations would emphasize astrometry and photometry.                                                            
+2. Moderate coverage: This level has the goal of obtaining one good-quality observa-                                              
+   tion per observer per day during the time periods 28 August to 4 September and                                                 
+   18 to 25 September 1985. These weeks, together with the periods of heavy and                                                   
+   intense coverage (see below), provide good coverage for one month or a full solar                                              
+   rotation, which is important for establishing the comet's plasma environment. The                                              
+   comet's heliocentric distance is almost constant (1.03 <r< 1.07 AU), and the                                                   
+   ecliptic latitude separation of the comet and the ICE spacecraft is less than 10deg                                            
+   for this month. Thus, ICE can serve as an excellent upstream monitor during this                                               
+   period, which is also one of excellent comet visibility from Earth. Therefore, we                                              
+   expect the following International Halley Watch networks - Astrometry, Radio                                                   
+   Studies, Infrared Spectroscopy and Radiometry, Spectrophotometry and Spec-                                                     
+   troscopy, Photometry and Polarimetry, Near-Nuclear Studies, and Large-Scale                                                    
+   Phenomena - to be actively involved.                                                                                           
+3. Heavy coverage: This level has the goal of obtaining at least two observations per                                             
+   observer per day where appropriate, e.g. for time-sequence photographs. The                                                    
+   period covers 4 September to 18 September 1985, and the same networks as in                                                    
+   2 would be involved.                                                                                                           
+4. Intense coverage: This period covers the night of the encounter, which is schedul-                                             
+   ed for 11.00 UT on ll September 1985. We have requested maximnm effort from                                                    
+   all observers during this night.                                                                                               
+                                                                                                                                  
+Comet Giacobini-Zinner is well situated for viewing during the month of September                                                 
+1985 for Northern-Hemisphere observers. An abbreviated ephemeris is included as                                                   
+Appendix 1. For a few days in September, Comets Giacobini-Zinner and Halley will                                                  
+be close together in the morning sky; on 14 September, they will be separated by less                                             
+than 2deg. Comets Giacobini-Zinner and Halley should be roughly 8th and 12th                                                      
+magnitude, respectively, and present a historic opportunity for wide-field celestial                                              
+photography.                                                                                                                      
+                                                                                                                                  
+For the possible Giacobini meteor shower on 8.5 October 1985, we will rely on the                                                 
+newly-formed IHW network for Halley Meteor Studies for coverage.                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+3. The ICE instruments                                                                                                            
+                                                                                                                                  
+  The spacecraft supports 13 scientific investigations, which are listed in Table 3. The                                          
+line separates those experiments that will probably contribute useful measurements at                                             
+a comet and those that probably will not. The latter are principally experiments that                                             
+measure high-energy cosmic-ray nuclei and electrons. This division is, of course,                                                 
+somewhat arbitrary. All experiments are candidates for operation during the cometary                                              
+encounter to the extent permitted by available spacecraft power and a suitable safety                                             
+margin.                                                                                                                           
+                                                                                                                                  
+l. Solar-Wind Plasma                                                                                                              
+  The plasma electron analyzer is a 90deg, spherical-section electrostatic analyzer. Elec-                                        
+trons from secondary emitters are coupled into a discrete-dynode electron multiplier                                              
+to provide spatial resolution in polar and azimuth angles. Electrons having                                                       
+5<E(e)< 1500 eV are analyzed in 16 steps. A complete two-dimensional distribution                                                 
+is obtained in one spacecraft revolution and is read out every 24 s at 1024 bit/s.                                                
+                                                                                                                                  
+_________________________________________________________________________________________________________________________________ 
+Table 3. ICE experiments and status                                                                                               
+                                                                                                                                  
+                          Principal                                Experiment                                                     
+Title                     Investigator       Affiliation           status                                                         
+--------------------------------------------------------------------------------------------------------------------------------- 
+ 1.   Solar-Wind Plasma   S. Bame            Los Alamos            Electrons only                                                 
+                                             National Laboratory   (ion portion falled)                                           
+ 2.   Plasma Composition  K. Ogilvie         NASA/Goddard          Operational                                                    
+                                             Space Flight Center                                                                  
+ 3.   Energetic Protons   R. Hynds           Imperial College      Operational                                                    
+                                             London                                                                               
+ 4.   X-Ray, Low-         K. Anderson        Unlversity of         X-rays and E(e)>200 keV                                        
+      Energy Electrons                       California, Berkeley  (low-energy electron                                           
+                                                                   portion failed)                                                
+ 5.   Low-Energy          D. Hovestadt       Max-Planck-           Partial failure                                                
+      Cosmic Rays                            Institut fur Physik                                                                  
+                                             und Astrophysik                                                                      
+ 6.   Magnetometer        E. Smith           Jet Propulsion        Operational                                                    
+                                             Laboratory                                                                           
+ 7.   Plasma Waves        F. Scarf           TRW Systems           Operational                                                    
+ 8.   Radio Waves         J.-L. Steinberg    Paris Observatory,    Operational                                                    
+                                             Meudon                                                                               
+--------------------------------------------------------------------------------------------------------------------------------- 
+ 9.   Medium-Energy       T. von Rosenvinge  NASA/Goddard          Operational                                                    
+      Cosmic Rays                            Space Flight Center                                                                  
+10.   High-Energy         E. Stone           California Institute  Partial failure                                                
+      Cosmic Rays                            of Technology         (isotope portion)                                              
+11.   High-Energy         M. Wiedenbeck      Unlversity of         Partial failure                                                
+      Cosmic Rays                            Chicago               (drift chamber)                                                
+12.   Cosmic-Ray          P. Meyer           Ualversity of         Operational                                                    
+      Electrons                              Chicago                                                                              
+13.   Gamma-Ray Bursts    B. Teegarden       NASA/Goddard          Partial failure                                                
+                                             Space Flight Center   (PHA memory)                                                   
+_________________________________________________________________________________________________________________________________ 
+                                                                                                                                  
+                                                                                                                                  
+2. Plasma Composition                                                                                                             
+                                                                                                                                  
+  The ion-composition experiment consists of a Wien filter, whose magnetic and elec-                                              
+tric fields provide velocity selection, followed by an electrostatic analyzer which                                               
+transmits ions based on the ratio of their energy to their charge. The range covered                                              
+by the dual analyzer is normally 470 to 10500 V. In the solar wind, the corresponding                                             
+mass/charge range extends from 1.0 to 5.6 AMU for singly ionized particles.                                                       
+  The mode of operation of the experiment is controlled by a microprocessor and will                                              
+be adjusted to optimize the experiment's performance for the comet flythrough. A                                                  
+suitable measurement programme could cover the mass range from 4 to 50 in 25 steps                                                
+and a velocity range from 20 to 200 km/s in 25 steps. Normally, 20 min would be                                                   
+required for each readout of this portion of parameter space.                                                                     
+  The performance of this instrument may be seriously degraded due to aberration                                                  
+caused by the encounter trajectory; for ion velocities believed to be reasonable, the                                             
+bulk flow is not in the acceptance cone of the instrument. Nevertheless, the                                                      
+measurements are important and the microprocessor will be reprogrammed to an op-                                                  
+timum cometary approach.                                                                                                          
+                                                                                                                                  
+3. Energetic Protons                                                                                                              
+  Energetic protons and heavy nucleons are detected by three identical charged-                                                   
+particle telescopes aligned at different angles (30deg, 60deg and 135deg) to the spin axis.                                       
+Each telescope consists of a 1 cm**2 solid-state detector of 30 micro m thickness im-                                             
+mediately followed by a 2 cm**2 detector of 150 micro m thickness in anticoincidence.                                             
+Pulse-height analysis resolves the particle energies into eight channels between 35 keV                                           
+and 1.6 MeV. The count rate from each telescope and each channel is resolved into                                                 
+eight sectors in the equatorial plane to measure the anisotropy of the particles.                                                 
+Shielding, a mechanical collimator, and a magnetic broom prevent electrons from                                                   
+entering the telescope. To sample the three telescopes, eight energies and eight sectors                                          
+requires 32 s at 1024 bit/s.                                                                                                      
+                                                                                                                                  
+4. X-Rays, Low-Energy Electrons                                                                                                   
+  Photons in the energy range 5-1250 keV are measured with a proportional counter                                                 
+and a scintillation detector. A burst memory allows capture of fine timing detail both                                            
+for solar flares and for cosmic-gamma-ray bursts. Electrons with energies greater than                                            
+200 keV are also detectable by the scintillation detector.                                                                        
+                                                                                                                                  
+5. Low-Energy Cosmic Rays                                                                                                         
+  The instrument now consists of two different sensor systems: (i) an electrostatic                                               
+deflection analyzer system; and (ii) a thin-window flow-through proportional-                                                     
+counter/solid-state-detector telescope. The combination measures the elemental abun-                                              
+dances, charge-state composition, energy spectra and angular distributions of ions                                                
+over parts of the range 2 keV/charge to 80 MeV/nucleon and of electrons between 75                                                
+and 1300 keV.                                                                                                                     
+                                                                                                                                  
+6. Magnetometer                                                                                                                   
+  The vector helium magnetometer is mounted on the end of a 3 m boom (Fig. 6) and                                                 
+makes in-situ measurements of the ambient magnetic field vector in the frequency                                                  
+range 0-3 Hz. The instrument automatically chooses one of eight ranges in which to                                                
+operate, the four lowest full-scale ranges being +/-4, +/- 14, +/-42, and +/- 146 nT. The                                         
+precision of measurement is 1/256 of the full-scale field values (0.016, 0.055 nT,                                                
+etc.). The absolute accuracy is limited by knowledge of the spacecraft magnetic field,                                            
+which is presently known to better than 0.1 nT. The time resolution corresponds to                                                
+three triaxial samples per second at 1024 bit/s . The magnetometer contains a three-                                              
+channel spectrum analyzer which is connected to the search-coil sensor of the plasma-                                             
+wave investigation (see No. 7).                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 6. The ISEE-3/ICI spacecraft                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+7. Plasma Waves                                                                                                                   
+                                                                                                                                  
+  The plasma-wave investigation measures fluctuating electric and magnetic fields                                                 
+associated with waves above the ion cyclotron frequency (1 - 100000 Hz). Spectral                                                 
+analysis is performed on signals from three detectors: a pair of long electric-field                                              
+antennas, a short electric-field sensor and a search coil, both of which are mounted                                              
+on one of the experiment booms (Fig. 6). Electric-field fluctuations between 20 and                                               
+100000 Hz are measured in 16 frequency channels once per second at 1024 bit/s.                                                    
+  Cometary dust particles hitting the spacecraft or the electric antennas are expected                                            
+to cause detectable outputs similar to those detected when Voyager passed through                                                 
+Saturn's ring-plane.                                                                                                              
+                                                                                                                                  
+8. Radio Waves                                                                                                                    
+  Fluctuating electric fields are detected in three pairs of orthogonal antennas, one                                             
+aligned with the spacecraft spin axis and the other two in the equatorial plane (Fig.                                             
+6). The antenna voltages are preamplified and then analyzed by a radiometer con-                                                  
+sisting of four superheterodyne receivers, which step through the frequency range                                                 
+from 30 kHz to 2 MHz. Two channels are narrow-band with a filter bandwidth of                                                     
+3 kHz, and two have a filter bandwidth of 10 kHz. The narrow-band filters sweep bet-                                              
+ween 30 kHz and 1 MHz in 12 steps, while the broadband filters cover frequencies                                                  
+between 40 kHz and 2 MHz, also in 12 steps. The frequencies are scanned in a                                                      
+nonlinear manner so that the highest frequencies are sampled 12 times as often as the                                             
+low frequencies. The complete scan sequence consists of 72 steps; 56 s are required                                               
+to read out all channels at 1024 bit/s.                                                                                           
+                                                                                                                                  
+9. Medium-Energy Cosmic Rays                                                                                                      
+  The medium-energy cosmic-ray experiment measures the elemental composition of                                                   
+nuclear energetic particles over wide ranges in energy (~ 1-500 MeV/nucleon) and                                                  
+in charge (Z= 1-28). Electrons of ~0.2-10 MeV are measured as well. These                                                         
+measurements are accomplished using all-solid-state detector telescopes with detectors                                            
+ranging in thickness from 15 to 3000 micro m. This experiment has been designed to study                                          
+solar-flare particles, galactic cosmic rays, and particles accelerated by the in-                                                 
+terplanetary medium.                                                                                                              
+                                                                                                                                  
+10. High-Energy Cosmic Rays                                                                                                       
+  This experiment measures the isotopic composition of solar and galactic cosmic rays                                             
+with 5-250 MeV/nucleon and for all elements with charge Z<= 30. It consists of two                                                
+thin (50 micro m) solid-state detectors, which determine the entering particle trajectory,                                        
+followed by solid-state detectors that measure the particle energy.                                                               
+                                                                                                                                  
+11. High-Energy Cosmic Rays                                                                                                       
+  Similar to the preceding experiment, this instrument is a telescope constructed from                                            
+trajectory-defining drift chambers, a large stack of solid-state detectors and a surround-                                        
+ing scintillator anti-coincidence detector. The experiment has been designed to                                                   
+measure the isotopic abundances of galactic cosmic rays from ~ 20 to ~500                                                         
+MeV/nucleon for isotopes with masses from A = 1 to 64.                                                                            
+                                                                                                                                  
+12. Cosmic-Ray Electrons                                                                                                          
+  Eight active detectors are used to determine the energy spectrum of electrons in the                                            
+range 5-400 MeV. The experiment also determines the energy spectrum and relative                                                  
+abundances of nuclei from protons to the iron group in the range ~ 30 MeV/nucleon                                                 
+to 15 GeV/nucleon. It may also be able to count cometary dust particles impinging                                                 
+on the front detector.                                                                                                            
+                                                                                                                                  
+13. Gamma-Ray Bursts                                                                                                              
+  The gamma-ray-burst experiment is designed to detect cosmic gamma-ray bursts                                                    
+with high spectral resolution (<3.5 keV at l MeV) and high temporal resolution (as                                                
+fast as 4 ms). The primary sensor, an intrinsic germanium solid-state detector cooled                                             
+to ~ l00 K by a two-stage radiative cooler, spans the energy range 0.05-6.5 MeV                                                   
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 7.  The geometry of 'launch' and the                                                                                       
+encounter on 11 September 1985.  The range at                                                                                     
+encounter is 0.47 AU and the Sun-Earth Comet angle                                                                                
+is 79.6deg.                                                                                                                       
+                                                                                                                                  
+Figure 8.  ICE shortly before encountering                                                                                        
+Comet Giocobini-Zinner in September 1985.                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+These experiments, in particular, experiments 1 through 8, although not chosen with                                               
+cometary research in mind, are well-suited for probing the plasma-tail environment.                                               
+The ICE spacecraft has no imaging capability nor any experiments designed to study                                                
+dust particles (but see descriptions for Nos. 7 and 12). For additional details of the                                            
+instruments as launched, see the July 1978 issue of IEEE Transactions of Geoscience                                               
+Electronics (Vol. GE-16, No. 3).                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+4. The spacecraft                                                                                                                 
+  The spacecraft (Fig. 6) is a developed version of the earlier Interplanetary Monitor-                                           
+ing Platform (IMP). Spacecraft weights are listed in Figure 6.                                                                    
+  The spacecraft body is a 16-sided cylinder, 1.74 m in diameter and 1.6 m high.                                                  
+Solar arrays mounted on the faces of the cylinder provide 160 W of primary power                                                  
+at 28 V. A distinctive feature is a superstructure, or tower, which elevates the                                                  
+telemetry antenna above the spacecraft body and provides a clear field of view for                                                
+several cosmic-ray detectors.                                                                                                     
+  The spacecraft body supports a total of ten appendages. Two equatorial experiment                                               
+booms (3 m long) support the magnetometer and plasma-wave sensors. Four wire                                                      
+antennas (each 49 m long) are deployed in the spin plane as part of the radio-wave                                                
+and plasma-wave investigations. Two axial antennas (7 m each) extend above and                                                    
+below the spacecraft parallel to the spin axis to render the radio-wave measurements                                              
+three dimensional. Finally, two short inertial booms provide stability.                                                           
+  The radio system consists of two redundant S-band transponders operating at 2217                                                
+and 2270 MHz. There are two low-gain antennas and a telemetry antenna having                                                      
+medium gain (7 dB) and a fan beam of +/-6deg. The radiated power is 5W. The standard                                              
+telemetry rate in halo orbit was 2048 and 512 bit/s.                                                                              
+  The spacecraft is spin-stabilized at 19.75 rpm. Attitude information and control is                                             
+provided by two fine Sun sensors and a panoramic attitude sensor. The spin axis is                                                
+maintained perpendicular to the ecliptic plane to within <1deg.                                                                   
+  Propulsion and attitude control use monopropellant hydrazine. The system contains                                               
+eight propellant tanks and 12 thrusters, including redundancy. A large amount of pro-                                             
+pellant was carried at launch (94 kg) as a safeguard against large errors associated with                                         
+the launch vehicle. As a result of a nominal launch, gas usage has been much lower                                                
+than anticipated, resulting in a substantial amount of excess gas still being available.                                          
+                                                                                                                                  
+5. Mission description                                                                                                            
+  The 'effective launch' of ICE took place on 22 December 1983. As the spacecraft                                                 
+distance from Earth increased, tracking and data acquisition involved the NASA                                                    
+Deep Space Network (DSN). The necessity for this involvement is apparent if one                                                   
+considers that the ISEE-3 radio system was designed to transmit from the halo orbit                                               
+at a geocentric distance of 0.01 AU, whereas the distance to the spacecraft at cometary                                           
+encounter will be 0.47 AU. A major effort required for the ICE mission was the outfit-                                            
+ting of antennas in the DSN to operate at the ICE frequencies.                                                                    
+  Current plans are to utilize the 64 m DSN (Goldstone, Madrid, Canberra) and the                                                 
+300 m dish at Arecibo as the prime station. The anticipated data rate at encounter will                                           
+be 1024 bit/s, although 512 bit/s may be used at other times. The acceptable perfor-                                              
+mance is based on a bit error rate of 10**-4. There will be additional coverage by the                                            
+64 m station at Usuda, Japan. Operations outside the month centred on the encounter                                               
+date of 11 September 1985 are basically cruise-science measurements, which will be                                                
+discussed in the next section.                                                                                                    
+  On 11 September 1985, Comet Giacobini-Zinner will be at the location shown in                                                   
+Figure 7. The ICE spacecraft will be approaching the aim point on the main plasma                                                 
+tail axis 10000 km from the nucleus, as shown schematically in Figure 8.                                                          
+Some idea of the spatial scales associated with key instruments and their sampling                                                
+times is given in Table 4 for the expected data rate of 1024 bit/s. For the sampling                                              
+period indicated, the 'spatial resolution' is the distance travelled at the relative en-                                          
+counter speed of 20.7 km/s. These dimensions should be compared with the estimated                                                
+distance between bow-shock crossings of about 175 000 km and a measured main tail                                                 
+diameter of 5000 km. Expressed in terms of time, we expect the spacecraft to be inside                                            
+the bow shock for about 2 h 20 min and in the maln plasma tail for about 4 min.                                                   
+  The magnetometer will produce many measurements during the encounter period                                                     
+and we use it to illustrate possible scientific product. Current models of comets do not                                          
+indicate a major amplification of the cometary magnetic field over the solar-wind                                                 
+value. However, major changes in field-line direction are expected. Well away from                                                
+the comet the magnetic field should, on average, show the Archimedian spiral angle                                                
+of 135deg or 315deg to the radial appropriate for normal solar-wind fiow. Interior to the                                         
+bow shock we expect a different, possibly somewhat chaotic, orientation tending to                                                
+the ordered two-lobed configuration along the axis of the plasma tail. If the neutral                                             
+sheet is encountered, a magnetic reversal should be recorded. The model-dependent                                                 
+nature of this description must be stressed. For example, the bow shock may or may                                                
+not exist. We should know after 11 September 1985, and the model will be tested in                                                
+this and in other respects. Obviously, we need data from as many different ex-                                                    
+periments as possible to complete our model testing.                                                                              
+  To enhance the science return from the encounter, a Guest Investigator Program has                                              
+been established by NASA.                                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table 4. Spatial resolution of the scientific meaurements (assuming 1024 bit/s)                                                   
+                                                                                                                                  
+Instrument                      Sampling period (s)   Spatial resolution (km)                                                     
+Magnetometer                        1/3                         7                                                                 
+Plasma Waves                                                                                                                      
+  16 channel E                        1                        21                                                                 
+  8 channel E, B                     16                       330                                                                 
+Plasma Electrons                                                                                                                  
+ Two-dimensional distribution        24                       500                                                                 
+Energetic Protons                    32                       660                                                                 
+Radio Waves                          56                      1200                                                                 
+Plasma Ions                        1200                     25000                                                                 
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+6. ICE and Comet Halley                                                                                                           
+  The ICE mission should be of direct benefit to the missions to explore Halley's                                                 
+Comet in two general ways. The first is through the spin-off and synergism of the en-                                             
+counter, and the second is through the use of ICE as an upstream monitor of solar-                                                
+wind conditions.                                                                                                                  
+  The ICE experience at encounter will give the first indications of spacecraft pro-                                              
+blems in a cometary environment. For example, the dust emitted by Comet Giacobini-                                                
+Zinner is thought to be extremely fluffy and possibly one hundred times less dense                                                
+than the dust associated with Halley's Comet. Dust fluences from Comet Giacobini-                                                 
+Zinner are estimated to be lower than for Halley's Comet. Thus, a relatively benign                                               
+dust environment is expected for the ICE encounter. If spacecraft problems are en-                                                
+countered and ascribed to dust, some revision of strategy for the Halley encounters                                               
+may be indicated.                                                                                                                 
+  On the scientific side, the Comet Giacobini-Zinner encounter is highly complemen-                                               
+tary to the Halley encounters. In-situ data will have been obtained for two comets                                                
+within a very short time, permitting intercomparisons. All the Halley probes are                                                  
+targeted for the sunward side of the comet versus the tailward targeting for ICE. Both                                            
+data sets are probably necessary to sketch a moderately complete picture of a comet's                                             
+plasma and magnetic field.                                                                                                        
+  Finally, experience with the 'Giacobini-Zinner Watch' carried out by the Interna-                                               
+tional Halley Watch in September 1985 could lead to more efficient coverage of                                                    
+Halley's Comet in March of 1986. The opportunity to observe both comets                                                           
+simultaneously around 14 September 1985 has already been mentioned.                                                               
+  The second role of ICE in Halley studies involves its use as an upstream monitor                                                
+of solar-wind conditions. In late March 1986, the ICE spacecraft can be considered                                                
+a 'fairly distant' probe to Halley's Comet (Table 5). A bipolar plot of the ICE trajec-                                           
+tory showing the alignments is given in Figure 9.                                                                                 
+  Two near-radial lineups are available, and relevant facts are assembled in Table 5.                                             
+  Tracking of ICE at these times should not be a problem because the range from                                                   
+Earth is approximately the same as the range at Comet Giacobini-Zinner encounter.                                                 
+Furthermore, when ICE is in the cruise mode making solar-wind measurements, the                                                   
+lower data rate of 512 bit/s would be acceptable.                                                                                 
+  Investigations of cometary phenomena utilizing input parameters from solar-wind                                                 
+measurements have been carried out successfully for some years. However, we note                                                  
+that three-dimensional plasma ion speeds have been quite important in these investiga-                                            
+tions. The challenge will be to fully exploit the ICE data.                                                                       
+  With the caveat mentioned just above, ICE could provide important solar-wind data                                               
+during cruise-mode operations, which would include the 'week' of the five spacecraft                                              
+encounters with Halley's Comet in March 1986. The time delay between ICE and                                                      
+Halley's Comet on 13/14 March 1986, calculated according to standard formulas, is                                                 
+only two days, considered quite reasonable by scientists working in this field. If                                                
+suitable ion-velocity coverage is obtained from ICE or another spacecraft, solar-wind                                             
+data for the Halley encounters could be reasonably complete.                                                                      
+  Finally, there is the near-radial alignment of ICE, Pioneer Venus Orbiter, Vega-1                                               
+and 2, and MS-T5 in the interval 15 May to 15 June 1985, which presents an oppor-                                                 
+tunity for multispacecraft investigation of comet-like phenomena over large scale                                                 
+lengths (described in Galeev & Scarf, 1985).                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table 5. Radial alignments with Comet Halley                                                                                      
+                       Radial           Angular           Solar-wind                                                              
+Date                   separation (AU)  separation (deg)  travel time (d)  Range (AU)                                             
+                                                                                                                                  
+31 October 1985      0.93               l                 4                0.41                                                   
+28 March 1986        0.21               6                 1                0.56                                                   
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Figure 9.  A bipolar plot of the ICE trajectory                                                                                   
+showing the radial alignments with Halley's                                                                                       
+Comet                                                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+               Appendix 1. Ephemeris for Comet Giacobini-Zinner                                                                   
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                       EXPLANATI0N OF EPHEMERIS ENTRIES *                                                                         
+                                                                                                                                  
+                                                                                                                                  
+J.D. = JULIAN DATE (TIMES IN THIS EPHEMERIS ARE EPHEMERIS TIMES)                                                                  
+R.A.  1950.0 DEC. = GEOCENTRIC RIGHT ASCENSION AND DECLINATION REFERRED TO                                                        
+   THE MEAN EQUATOR AND EQUINOX OF 1950.0 - LIGHT TIME CORRECTI0NS HAVE                                                           
+   BEEN APPLIED.                                                                                                                  
+R.A. APPN DEC. = APPARENT RIGHT ASCENSION AND DECLINATION - LIGHT TIME,                                                           
+   ANNUAL ABERRATION, AND NUTATION CORRECTIONS HAVE BEEN APPLIED AND R.A.                                                         
+   AND DEC. HAVE BEEN PRECESSED TO THE EPHEMERIS DATE.                                                                            
+DELTA = GEOCENTRIC DISTANCE OF OBJECT IN AU.                                                                                      
+DELDOT = GEOCENTRIC VELOCITY OF OBJECT IN KM/SEC.                                                                                 
+R = HELIOCENTRIC DISTANCE OF OBJECT IN AU.                                                                                        
+RDOT = HELIOCENTRIC VELOCITY OF OBJECT IN KM/SEC.                                                                                 
+                                                                                                                                  
+TMAG = TOTAL MAGNITUDE ESTIMATES AFTER THE ANALYSIS BY C.S. MORRIS.                                                               
+   PRE-PERIHELION                                                                                                                 
+     TMAG = 8.90 + 5*LOG(DELTA) + 11.00*LOG(R)    FOR R > 1.3 AU                                                                  
+     TMAG = 9.60 + 5*LOG(DELTA) +  4.73*LOG(R)    FOR R = 1.3 TO 0.99 AU                                                          
+   POST-PERIHELION                                                                                                                
+     TMAG = 9.65 + 5*LOG(DELTA) + 10.48*LOG(R)    FOR R = 0.99 TO 1.71 AU                                                         
+   IN CASES WHERE TMAG IS NOT COMPUTED, IT IS SET EQUAL TO ZERO.                                                                  
+NMAG = NUCLEAR MAGNITUDE = 16.5 + 5*LOG(DELTA) + 5*LOG(R) + 0.03*BETA                                                             
+                                                                                                                                  
+THETA = SUN-EARTH-OBJECT ANGLE IN DEGREES.                                                                                        
+BETA = SUN-OBJECT-EARTH ANGLE IN DEGREES.                                                                                         
+MOON = OBJECT-EARTH-MOON ANGLE IN DEGREES.                                                                                        
+                                                                                                                                  
+THE FOLLOWING OSCULATING ORBITAL ELEMENTS ARE C0NSISTENT WITH THE EPHEMERIS:                                                      
+                                                                                                                                  
+EPOCH                           2446320.5            1985   SEPT. 12.0 (E.T.)                                                     
+PERIHELION PASSAGE              2446313.74907        1985   SEPT.  5.24907 (E.T.)                                                 
+PERIHELION DISTANCE             1.0282614 AU                                                                                      
+ECCENTRICITY                    0.7075300                                                                                         
+ARG. OF PERIHELION              172.48887                                                                                         
+LONG. OF ASCENDING NODE         194.70595                                                                                         
+INCLINATION                     31.87829                                                                                          
+                                                                                                                                  
+IN THE ABOUE ORBITAL ELEMENTS, THE ANGLES ARE IN DEGREES AND REFERRED TO THE                                                      
+ECLIPTIC AND EQUINOX OF 1950.0.                                                                                                   
+                                                                                                                                  
+THE N0NGRAVITATIONAL PARAMETERS ARE AS FOLLOWS:                                                                                   
+   A1 = -0.0543                                                                                                                   
+   A2 = -0.0465                                                                                                                   
+FOR THE DEFINITION OF A1 AND A2 SEE: MARSDEN ET AL, ASTRONOMICAL JOURNAL,                                                         
+1973, VOL. 78, PP. 211-225.                                                                                                       
+                                                                                                                                  
+COMPUTATIONS BY D.K. YEOMANS - JPL                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+* For an expanded ephemeris. see The Comet Giacobini-Zinner Handbook Yeomans & Brandt, 1985.                                      
+                                                                                                                                  
+             EPHEMERIS (WITH PERTURBATIONS) FOR P/GIACOBINI-ZINNER                                                                
+                                                                                                                                  
+  YR  MN DY HR    J.D.       R.A. 1950.0   DEC.      R.A.  APPN   DEC. DELTA  DELDOT    R    RDOT  TMAG  NMAG THETA  BETA MOON    
+1985   3 15 .0 2446139.5 18  35.523  + 4    8.24 18  37.251  + 4  9.82  2.38  -32.19  2.34 -14.88  14.8  21.0  75.7  24.3   31    
+1985   3 25 .0 2446149.5 18  51.870  + 6   29.50 18  53.571  + 6 31.89  2.19  -31.48  2.25 -15.11  14.5  20.7  80.4  25.9  113    
+1985   4  4 .0 2446159.5 19   8.273  + 9   13.69 19   9.943  + 9 16.88  2.01  -30.40  2.16 -15.33  14.1  20.5  84.7  27.4  110    
+1985   4 14 .0 2446169.5 19  24.783  +12   22.08 19  26.417  +12 26.06  1.84  -29.04  2.08 -15.52  13.7  20.3  88.6  28.9   43    
+1985   4 24 .0 2446179.5 19  41.454  +15   55.70 19  43.050  +16   .47  1.68  -27.41  1.99 -15.69  13.3  20.0  91.9  30.4  121    
+1985   5  4 .0 2446189.5 19  58.413  +19   54.61 19  59.968  +20   .14  1.53  -25.56  1.89 -15.82  12.9  19.8  94.5  32.0    3    
+1985   5 14 .0 2446199.5 20  15.905  +24   18.27 20  17.416  +24 24.57  1.38  -23.61  1.80 -15.89  12.4  19.5  96.4  33.9   56    
+1985   5 24 .0 2446209.5 20  34.262  +29    4.80 20  35.729  +29 11.87  1.25  -21.60  1.71 -15.89  12.0  19.2  97.5  35.9  121    
+1985   6  3 .0 2446219.5 20  54.078  +34   10.19 20  55.504  +34 18.04  1.13  -19.66  1.62 -15.79  11.5  19.0  97.7  38.4   85    
+1985   6 13 .0 2446229.5 21  16.342  +39   29.04 21  17.734  +39 37.69  1.03  -17.88  1.53 -15.55  11.0  18.7  97.0  41.3   63    
+1985   6 23 .0 2446239.5 21  42.588  +44   52.86 21  43.966  +45  2.35   .93  -16.33  1.44 -15.12  10.5  18.5  95.5  44.6  116    
+1985   7  3 .0 2446249.5 22  15.443  +50    8.48 22  16.851  +50 18.84   .84  -15.03  1.35 -14.44  10.0  18.2  93.4  48.5   86    
+1985   7 13 .0 2446259.5 22  59.057  +54   55.08 23    .586  +55  6.24   .75  -13.95  1.27 -13.44   9.4  18.0  90.8  52.9   60    
+1985   7 18 .0 2446264.5 23  26.582  +56   56.06 23  28.231  +57  7.52   .71  -13.44  1.24 -12.79   9.3  17.9  89.4  55.3   85    
+1985   7 23 .0 2446269.5 23  58.803  +58   32.21  0    .620  +58 43.80   .68  -12.90  1.20 -12.03   9.1  17.8  88.0  57.8    9    
+1985   7 28 .0 2446274.5  0  35.984  +59   33.08  0  38.017  +59 44.53   .64  -12.30  1.17 -11.14   8.9  17.7  86.5  60.3  124    
+1985   8  2 .0 2446279.5  1  17.576  +59   46.31  1  19.847  +59 57.25   .60  -11.59  1.14 -10.12   8.8  17.6  85.1  62.9   89    
+1985   8  7 .0 2446284.5  2   1.895  +58   59.35  2   4.378  +59  9.34   .57  -10.71  1.11 - 8.97   8.6  17.5  83.7  65.4   51    
+1985   8 12 .0 2446289.5  2  46.356  +57    2.41  2  48.979  +57 11.07   .54  - 9.62  1.08 - 7.69   8.4  17.4  82.4  67.9   42    
+1985   8 17 .0 2446294.5  3  28.340  +53   51.22  3  31.006  +53 58.33   .52  - 8.24  1.06 - 6.27   8.3  17.3  81.2  70.1   84    
+1985   8 22 .0 2446299.5  4   6.077  +49   28.17  4   8.700  +49 33.70   .50  - 6.53  1.05 - 4.75   8.2  17.2  80.2  72.0  141    
+1985   8 27 .0 2446304.5  4  38.927  +44    1.87  4  41.454  +44  5.89   .48  - 4.52  1.04 - 3.13   8.1  17.2  79.5  73.4  140    
+1985   8 28 .0 2446305.5  4  44.918  +42   50.15  4  47.423  +42 53.89   .48  - 4.09  1.03 - 2.80   8.1  17.2  79.4  73.6  129    
+1985   8 29 .0 2446306.5  4  50.724  +41   36.57  4  53.205  +41 40.03   .47  - 3.65  1.03 - 2.47   8.1  17.2  79.3  73.8  118    
+1985   8 30 .0 2446307.5  4  56.349  +40   21.26  4  58.806  +40 24.45   .47  - 3.20  1.03 - 2.13   8.0  17.2  79.3  74.0  107    
+1985   8 31 .0 2446308.5  5   1.799  +39    4.35  5   4.231  +39  7.29   .47  - 2.74  1.03 - 1.79   8.0  17.2  79.2  74.1   95    
+1985   9  1 .0 2446309.5  5   7.078  +37   46.00  5   9.485  +37 48.68   .47  - 2.28  1.03 - 1.45   8.0  17.1  79.2  74.2   84    
+1985   9  2 .0 2446310.5  5  12.191  +36   26.35  5  14.573  +36 28.78   .47  - 1.81  1.03 - 1.11   8.0  17.1  79.1   74.3  73    
+1985   9  3 .0 2446311.5  5  17.144  +35    5.54  5  19.501  +35  7.73   .47  - 1.34  1.03  - .77   8.0  17.1  79.1   74.3  61    
+1985   9  4 .0 2446312.5  5  21.943  +33   43.73  5  24.274  +33 45.69   .47  -  .87  1.03  - .43   8.0  17.1  79.1   74.4  50    
+1985   9  5 .0 2446313.5  5  26.591  +32   21.07  5  28.898  +32 22.80   .47  -  .40  1.03  - .09   8.0  17.1  79.2   74.4  39    
+1985   9  6 .0 2446314.5  5  31.095  +30   57.70  5  33.377  +30 59.21   .47     .08  1.03    .26   8.1  17.1  79.2   74.3  28    
+1985   9  7 .0 2446315.5  5  35.460  +29   33.79  5  37.718  +29 35.08   .47     .55  1.03    .60   8.1  17.1  79.3   74.3  17    
+1985   9  8 .0 2446316.5  5  39.690  +28    9.46  5  41.924  +28 10.54   .47    1.02  1.03    .94   8.1  17.1  79.3   74.2   5    
+1985   9  9 .0 2446317.5  5  43.790  +26   44.88  5  46.000  +26 45.76   .47    1.49  1.03   1.28   8.1  17.1  79.4   74.1   5    
+1985   9 10 .0 2446318.5  5  47.765  +25   20.17  5  49.952  +25 20.85   .47    1.95  1.03   1.62   8.1  17.1  79.5   73.9  17    
+1985   9 11 .0 2446319.5  5  51.620  +23   55.48  5  53.783  +23 55.97   .47    2.40  1.03   1.96   8.2  17.1  79.6   73.7  29    
+1985   9 12 .0 2446320.5  5  55.357  +22   30.93  5  57.499  +22 31.24   .47    2.85  1.03   2.30   8.2  17.1  79.8   73.5  42    
+1985   9 13 .0 2446321.5  5  58.983  +21    6.66  6   1.102  +21  6.79   .47    3.29  1.03   2.64   8.2  17.1  79.9   73.3  55    
+1985   9 14 .0 2446322.5  6 2.499    +19   42.77  6   4.596  +19 42.74   .48    3.72  1.04   2.97   8.2  17.2  80.1   73.1  69    
+1985   9 15 .0 2446323.5  6 5.911    +18   19.39  6   7.987  +18 19.19   .48    4.14  1.04   3.30   8.2  17.2  80.2   72.8  82    
+1985   9 16 .0 2446324.5  6 9.221    +16   56.62  6  11.276  +16 56.26   .48    4.55  1.04   3.63   8.2  17.2  80.4   72.5  96    
+1985   9 17 .0 2446325.5  6 12.433   +15   34.56  6  14.468  +15 34.04   .48    4.95  1.04   3.95   8.3  17.2  80.6   72.2 110    
+1985   9 18 .0 2446326.5  6 15.551   +14   13.30  6  17.565  +14 12.62   .49    5.34  1.04   4.27   8.3  17.2  80.8   71.8 123    
+1985   9 19 .0 2446327.5  6 18.576   +12   52.91  6  20.571  +12 52.08   .49    5.71  1.05   4.59   8.3  17.2  81.1   71.4 136    
+1985   9 20 .0 2446328.5  6 21.513   +11   33.48  6  23.489  +11 32.51   .49    6.08  1.05   4.91   8.3  17.2  81.3   71.1 148    
+1985   9 21 .0 2446329.5  6 24.365   +10   15.07  6  26.322  +10 13.96   .50    6.42  1.05   5.22   8.4  17.2  81.5   70.7 157    
+1985   9 22 .0 2446330.5  6 27.133   + 8   57.74  6  29.072  + 8 56.49   .50    6.76  1.06   5.53   8.4  17.2  81.8   70.3 161    
+1985   9 23 .0 2446331.5  6 29.820   + 7   41.54  6  31.742  + 7 40.16   .50    7.08  1.06   5.83   8.4  17.2  82.1   69.8 157    
+1985   9 24 .0 2446332.5  6 32.429   + 6   26.51  6  34.334  + 6 25.01   .51    7.38  1.06   6.13   8.5  17.2  82.3   69.4  48    
+1985   9 25 .0 2446333.5  6 34.961   + 5  12.69   6  36.849  + 5 11.07   .51    7.67  1.07   6.42   8.5  17.3  82.6   68.9 138    
+1985   9 30 .0 2446338.5  6 46.544   - 0  37.46   6  48.354  - 0 39.64   .54    8.88  1.09   7.82   8.7  17.3  84.1   66.5  85    
+1985  10  5 .0 2446343.5  6 56.454   - 5  55.38   6  58.194  - 5 58.03   .56    9.74  1.11   9.09   8.9  17.4  85.8   63.9  42    
+1985  10 10 .0 2446348.5  7  4.808   -10  41.94   7   6.485  -10 44.98   .59   10.30  1.14  10.23   9.1  17.5  87.5   61.2  47    
+1985  10 15 .0 2446353.5  7 11.668   -14  59.21   7  13.289  -15  2.58   .62   10.61  1.17  11.23   9.3  17.6  89.4   58.5  98    
+1985  10 20 .0 2446358.5  7 17.073   -18  49.57   7  18.642  -18 53.20   .65   10.75  1.20  12.11   9.6  17.7  91.3   55.8 133    
+1985  10 25 .0 2446363.5  7 21.055   -22  15.35   7  22.578  -22 19.16   .68   10.76  1.24  12.86   9.8  17.7  93.3   53.2 112    
+                                                                                                                                  
+           EPHEMERIS (WITH PERTURBATIONS) FOR P/GIACOBINI-ZINNER                                                                  
+                                                                                                                                  
+ YR   MN DY   HR   J.D.  R.A.  1950.0  DEC.     R.A.  APPN  DEC.  DELTA DELDOT   R  ROOT   TMAG  NMAG THETA BETA MOON             
+                                                                                                                                  
+1985  10   .0  2446368.5  7 23.635 -25 18.68   7  25.114  -25 22.61  .72 10.68 1.28 13.50  10.0  17.8  95.4 50.7  76              
+1985  11   .0  2446373.5  7 24.816 -28  1.26   7  26.225  -28  5.25  .75 10.55 1.32 14.04  10.3  17.9  97.6 48.3  55              
+1985  11   .0  2446378.5  7 24.599 -30 24.19   7  26.000  -30 28.17  .78 10.42 1.36 14.48  10.5  18.0  99.8 45.9  72              
+1985  11   .0  2446388.5  7 20.084 -34 12.51   7  21.419  -34 16.30  .84 10.30 1.44 15.15  10.9  18.2 104.4 41.5 116              
+1985  11   .0  2446398.5  7 10.764 -36 43.67   7  12.048  -36 47.04  .90 10.49 1.53 15.56  11.4  18.3 109.0 37.5  68              
+1985  12   .0  2446408.5  6 57.943 -37 56.51   6  59.196  -37 59.29  .96 11.11 1.62 15.80  11.8  18.5 113.4 33.8  95              
+1985  12   .0  2446418.5  6 43.530 -37 51.12   6  44.782  -37 53.24 1.03 12.26 1.72 15.89  12.2  18.6 117.2 30.7  97              
+1986  12   .0  2446428.5  6 29.752 -36 34.16   6  31.028  -36 35.64 1.10 13.88 1.81 15.89  12.6  18.8 120.2 28.1  65              
+1986   1   .0  2446438.5  6 18.353 -34 19.16   6  19.672  -34 20.10 1.19 15.92 1.90 15.81  12.9  19.0 121.8 26.1 116              
+                                                                                                                                  
+1986   1   .0  2446448.5  6 10.369 -31 22.94   6  11.745  -31 23.52 1.29 18.26 1.99 15.68  13.3  19.3 122.0 24.8  76              
+1986   1   .0  2446458.5  6  6.128 -28  3.72   6   7.562  -28  4.12 1.40 20.72 2.08 15.51  13.7  19.5 120.6 24.0  74              
+1986   2   .0  2446468.5  6  5.389 -24 36.99   6   6.881  -24 37.37 1.52 23.20 2.17 15.32  14.1  19.8 117.9 23.7 124              
+1986   2   .0  2446478.5  6  7.733 -21 14.28   6   9.279  -21 14.80 1.67 25.54 2.26 15.10  14.5  20.1 114.1 23.6  55              
+1986   2   .0  2446488.5  6 12.653 -18  3.90   6  14.246  -18  4.68 1.82 27.64 2.34 14.87  14.8  20.4 109.5 23.5  94              
+1986   3   .0  2446498.5  6 19.638 -15 10.49   6  21.273  -15 11.64 1.98 29.46 2.43 14.63  15.2  20.6 104.3 23.3 115              
+1986   3   .0  2446508.5  6 28.283 -12 36.43   6  29.955  -12 38.02 2.16 30.93 2.51 14.39  15.5  20.9  98.8 23.1  41              
+                                                                                                                                  
+Acknowledgement                                                                                                                   
+  I would like to thank Drs. T. von Rosenvinge and M. Niedner for their generous                                                  
+assistance in preparing this paper.                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+References                                                                                                                        
+                                                                                                                                  
+Brandt J C, Farquhar R W, Maran S P, Niedner M B & von Rosenvinge T 1983,                                                         
+   The Third International Sun-Earth Explorer (ISEE-3) Mission to Comet                                                           
+   Giacobini-Zinner (G/Z), Bull. Am. Astron., Soc., 15, No. 4, p. 960.                                                            
+Brandt J C, Farquhar R W, Maran S P, Niedner M B & von Rosenvinge T, The Inter-                                                   
+   national Cometary Explorer (ICE) Mission to Comet Giacobini-Zinner, Proc.                                                      
+   IAU Colloquium No. 83, Dynamics of Comets, in press.                                                                           
+Farquhar R W & Dunham D W 1983, A late Entry in the Great Comet Chase,                                                            
+   Astronautics and Aeronautics, 21, No. 9, p. 50.                                                                                
+Galeev A A & Scarf F L 1985, Coordinated Multispacecraft Plasma Science in the                                                    
+   Solar-Wind and Comet-Plasma Environments (IACG WG-2), p. 233-243, ESA                                                          
+   Publications Office, Noordwijk, The Netherlands, ESA SP-1066.                                                                  
+Ogilvie K W, von Rosenvinge T & Durney A C 1977, International Sun-Earth Ex-                                                      
+   plorer: A Three-Spacecraft Program, Science, 198, No. 4313, p. 131.                                                            
+Yeomans D K & Brandt J C 1985, The Comet Giacobini-Zinner Handbook, Interna-                                                      
+   tional Halley Watch (IHW)/NASA-JPL Publication.                                                                                
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  

@@ -1,0 +1,25 @@
+CCSD3ZF0000100000001NJPL3IF0PDS200000001 = SFDU_LABEL                         
+/*               File Format and Length                               */      
+RECORD_TYPE             = FIXED_LENGTH                                        
+RECORD_BYTES            = 128                                                 
+FILE_RECORDS            = 128                                                 
+DATA_SET_PARAMETER_NAME = DATA_NUMBER                                         
+DATA_SET_ID             = "VEGA1-C-TVS-2-RDR-HALLEY-V1.0"                     
+OBSERVATION_ID          = "N/A"                                               
+TARGET_NAME             = "HALLEY"                                            
+OBSERVATION_TIME        = 1986-03-06T07:29:59.160                             
+START_TIME              = 1986-03-06T07:29:59.000                             
+FILTER_NUMBER           = 2     /* 0=GLS, 1=FIR, 2=NIR, 3=VIS, 4=RED */       
+/*               Record Pointer to Object                             */      
+^IMAGE                  = "TIKI0064.IMG"                                      
+/*               Description of Object in File                        */      
+OBJECT                  = IMAGE                                               
+ LINES                  = 128                                                 
+ LINE_SAMPLES           = 128                                                 
+ SAMPLE_TYPE            = MSB_INTEGER                                         
+ SAMPLE_BITS            = 8                                                   
+ NOTE                   = "VEGA 1 TVS IKI IMAGE"                              
+ OFFSET                 = 0.000000E+00                                        
+ SCALING_FACTOR         = 1.000000E+00                                        
+END_OBJECT              = IMAGE                                               
+END                                                                           

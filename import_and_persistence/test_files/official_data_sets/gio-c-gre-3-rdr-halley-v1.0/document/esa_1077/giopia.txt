@@ -1,0 +1,746 @@
+***** File GIOPIA.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+The Giotto Particulate Impact                                                                                                     
+Analyser                                                                                                                          
+                                                                                                                                  
+J.  Kissel                                                                                                                        
+Max-Planck-Institut fur Kernphysik, Heidelberg, Germany                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+                                                                                                                                  
+   The Giotto Particulate Impact Analyser (PIA) will provide information on the com-                                              
+position of individual dust particles and the average composition and mass distribution                                           
+of cometary matter released by Comet Halley.  Knowledge of the material's composi-                                                
+tion and isotopic ratios (e.g. 7Li/6Li, 11B/10B, and 13C/12C) will significantly increase                                         
+our understanding of the current status and the genesis of comets. The instrument is                                              
+derived from the dust experiment flown onboard the Helios-1 and -2 satellites, but                                                
+mass resolution has been improved to m/dm> 150 (PIA), which is sufficient to                                                      
+separate adjacent mass lines over the complete mass range of 1-110 u.                                                             
+   Variations in particle type or mean composition as a function of distance from the                                             
+comet will yield information on the release mechanism. Impacts of particulates will                                               
+be identified using the coincidence between the impact light flash and the signals from                                           
+the positive ions formed during the impact process. The instrument will be sensitive                                              
+to particles ranging in size from 3x 10**-16 to 5 x 10**-10 g (0.1-10 micro m diameter) with                                      
+impact rates of up to 100 per second. Depending on the actual impact rate, data on                                                
+some 1000-5000 cometary particles should be gathered by the Analyser.                                                             
+   The instrument has already been switched on and tested in orbit, on 13 October                                                 
+1985, and is performing flawlessly.                                                                                               
+                                                                                                                                  
+1. Introduction                                                                                                                   
+   It is generally accepted that comets are so far best described by a 'dirty-snowball'                                           
+model devised by Fred Whipple (1950). As such comets as Halley are thought to have                                                
+remained largely unaltered since their formation in the solar system, the return of                                               
+Comet P/Halley in 1986 provides a unique opportunity for in-situ studies of this                                                  
+unique material.  One of the ten instruments carried by the Giotto spacecraft, launched                                           
+on 2 July 1985, is the Particulate Impact Analyser (Figs. 1 and 2), which will provide                                            
+information on the chemical composition of dust particles released by the comet.                                                  
+   Table 1 lists the team members associated with this investigation, their affiliations                                          
+and responsibilities.                                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+2. Scientific Objectives                                                                                                          
+   The basic objective of the PIA instrument is in-situ measurement of the chemical                                               
+and physical properties of cometary dust particles during the Giotto spacecraft's transit                                         
+through the dust envelope of Comet Halley on the night of 13/14 March 1986. The                                                   
+chemical composition and masses of individual particles will be measured. Their im-                                               
+pact rate, determined as a function of position relative to the comet's nucleus, will be                                          
+used to establish the mass distribution and production characteristics of cometary dust.                                          
+                                                                                                                                  
+Table 1.  PlA Team Members                                                                                                        
+                                                                                                                                  
+Member             Affiliation                        Task                                                                        
+                                                                                                                                  
+J. Kissel          MPI Kemphysik, Heidelberg          Principal Investigator                                                      
+K. Buchler         MPI Kemphysik, Heidelberg          Experiment Calibration                                                      
+H. Fechtig         MPI Kemphysik, Heidelberg          Experiment Development                                                      
+E. Grun            MPI Kernphysik, Heidelberg         Data Link to Other Dust Experiments                                         
+E. K. Jessberger   MPI Kemphysik, Heidelberg          Link to Composition of Meteorites Expt.                                     
+H. J. Volk         MPI Kemphysik, Heidelberg          Relation of Composition to Formation of                                     
+                                                      Comets                                                                      
+F.R. Krueger       MPI Consultant                     Interpretation of Spectra                                                   
+D.E. Brownlee      University of Washington, Seattle  Link to Particles from U2 Collections                                       
+B.C. Clark         Martin Marietta, Denver            Light Flash Detector, Link to Planetary                                     
+                                                      Composition                                                                 
+K. Hornung         Technical College, Munich          Formation of Impact Ionization                                              
+E.B. Igenbergs     Technical University, Munich       Simulation of Large Particle Impacts                                        
+H. Kuczera         Technical University, Munich       Improvement of Simulation Methods                                           
+J.A.M.  McDonnell  University of Canterbury           Link to DID, Special Design Tasks                                           
+G.M. Morfill       MPI Extraterr. Phys., Garching     Relation of Composition to Formation of                                     
+                                                      Comets                                                                      
+J. Rahe            University of Bamberg              Link to IHW, and Optical Observations                                       
+G.H. Schwehm       ESTEC, Noordwijk                   Correlation of Composition with Optical                                     
+                                                      Properties                                                                  
+Z. Sekanina        JPL, Pasadena                      Formation and Dynamics of Dust Tail                                         
+N.G. Utterback     JPL Consultant, Santa Barbara      Correlation with Laser Ionization (LIMS)                                    
+H.A. Zook          LBJ Space Center, Houston          Link of Cometary Dust to Interplanetary Dust                                
+                                                                                                                                  
+Figure 1. PIA sensor and electronics box prior                                                                                    
+to vibration testing (thermal paint not yet                                                                                       
+applied                                                                                                                           
+                                                                                                                                  
+In particular, the goals are to:                                                                                                  
+-   determine the elemental abundance of individual particles and to ascertain                                                    
+    whether there are distinct particle classes that differ from each other chemically                                            
+-   investigate whether the elemental particle composition depends on the distance                                                
+    from the nucleus, and to look specifically for the effects of ice evaporation from                                            
+    particle surfaces                                                                                                             
+-   gain insight into the molecular composition of the impacting particles, with                                                  
+-   emphasis on possible evidence of organic matter                                                                               
+    determine specific isotopic ratios, such as 6Li/7Li, 10B/11B and 12C/13C, and to try                                          
+    to establish the origin of the comet's particulate matter                                                                     
+-   study the mass distribution function of impacting particles, derive the total dust                                            
+    production rate in the measured mass range, and compare the latter with                                                       
+    theoretical models                                                                                                            
+-   determine the extent of the dust envelope as a function of particle mass and                                                  
+    analyze possible asymmetries in impact rate to model anisotropy effects in the                                                
+    dust's production                                                                                                             
+                                                                                                                                  
+Figure 2. PIA sensor and electronics box                                                                                          
+mounted on their transport support in the                                                                                         
+same position as on the spacecraft                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+3.  Scientific Background                                                                                                         
+3.1 Composition of cometary dust                                                                                                  
+ The comet's nucleus, a body a few kilometres in diameter, contains all the comet's                                               
+mass. It consists of ices, which make up the volatile components, and particulates,                                               
+dust and rocks, which constitute the nonvolatile component. The dust is believed to                                               
+be loosely mixed with the ices, so that the nucleus may be described as a 'dirty                                                  
+snowball' (Whipple, 1950). Circumstantial evidence suggests that the dust is par-                                                 
+ticulate in structure, largely cemented by the ices, very fragile and of low bulk density.                                        
+Cometary nuclei appear to be highly inhomogeneous in terms of both chemical com-                                                  
+position and physical structure. Many comets are believed to have their ice supplies                                              
+dominated by H2O, as predicted by Whipple (1950), although there is also evidence                                                 
+for the prevalence of more volatile substances in some comets.                                                                    
+  The composition of the dust is largely unknown. Fragmentary information has been                                                
+provided by infrared observations of a 1O micro m emission feature, which is attributed to                                        
+silicates (Ney, 1974), from spectroscopic evidence on some metals (especially sodium                                              
+and iron) far from the nucleus in comets with small perihelion distances, from spectra                                            
+of meteors which can be correlated with the producing comet (Millman, 1977), and                                                  
+in a more qualitative fashion, also from high repulsive accelerations (due to the                                                 
+pressure of the solar light) on particles in some comet tails, indicative of the presence                                         
+of (electrically) conducting materials. This is just one major question to be clarified                                           
+by the PIA investigation.                                                                                                         
+  It may also be possible to find larger (>>0.2 micro m diameter) particles dominated by                                          
+individual minerals. One might, for instance, discover refractory-element-rich ob-                                                
+jects, which occur in some carbonaceous chondrites (notably Ca-Al-rich inclusions in                                              
+allende). Their presence in the comet would indicate that such large refractory grains                                            
+do indeed exist in interstellar space. Similarly, the presence of other minerals like                                             
+magnetite or iron particles would suggest analogous conclusions. This would preclude                                              
+extensive melting and recondensation of pre-cometary material, thus placing strong                                                
+constraints on the processes leading to the formation of comets (Clayton, 1980). It is                                            
+uncertain whether individual cometary particles are single crystals or aggregates of                                              
+crystals. In the latter case one could imagine larger crystals surrounded by the very                                             
+fine grained 'matrix' material, particles similar to those collected by Brownlee (1978).                                          
+  In either case, it will be possible with the PIA instrument to identify cosmo-                                                  
+chemically important minerals if they are present at all (Table 2).                                                               
+                                                                                                                                  
+3.2 Variations in composition                                                                                                     
+  Every time a comet approaches the Sun, it loses part of its mass by evaporation of                                              
+the ices, which in turn drag along the dust particles. The distribution of particles in                                           
+the dust tail and the corresponding light-intensity distribution were shown by Finson                                             
+& Probstein (1968) to contain astrophysically significant information on the produc-                                              
+tion of dust with time, on the particle size distribution function, and on the particle                                           
+ejection (terminal) velocities. However, this ingenious combined dynamical/                                                       
+photometric-type method depends on certain assumptions regarding density, radius,                                                 
+radiation pressure susceptibility, on mass production rate and albedo. Knowledge of                                               
+the chemical composition of the dust particles will therefore significantly improve our                                           
+understanding of their dynamic behaviour.                                                                                         
+   An interesting consequence of the chemical heterogeneity of the nucleus is that less-                                          
+volatile ices may be dragged away from its surface together with dust by the outgass-                                             
+ing of more volatile ices. Delsemme & Wenger (1970) observed stripping of grains                                                  
+from a body of clathrate snow in their laboratory experiment. Moreover, the con-                                                  
+tinuous spectrum of Comet 1960II was interpreted by Delsemme & Miller (1971) in                                                   
+terms of an ice-grain halo, the extent of which at heliocentric distances around 1 AU                                             
+is small and recognizable by the steep rate of decrease of its radial brightness profile.                                         
+The chemical heterogeneity of the nucleus mentioned above suggests that less-volatile                                             
+ice grains may be expelled in the same way as the dust is ejected. The variation in                                               
+the composition data acquired by the PIA instrument will yield a great deal of informa-                                           
+tion on the ice grains, provided the spacecraft's closest approach remains close to the                                           
+nominal 500 km.                                                                                                                   
+   If the surface of a comet were perfectly homogeneous, the comet's activity would                                               
+be symmetrical with respect to the subsolar point. The nucleus' rotation, however, and                                            
+the existence of heterogeneities, produce unpredictable local variations in the produc-                                           
+tion of both gas and dust, which, in turn, are responsible for the frequently observed                                            
+deviations of the coma from symmetry and for the complicated coma structure, in-                                                  
+cluding such features as jets, fans, halos, secondary condensations, etc. Our investiga-                                          
+tion can clarify whether there are groups of particles of similar composition associated                                          
+with those phenomena.                                                                                                             
+                                                                                                                                  
+3.3  Light elements and isotopic data                                                                                             
+   Individual grains may show rather different isotopic compositions for several                                                  
+elements. Such differences exist in meteorites (isotopic anomalies) and again are most                                            
+pronounced in allende. However, these 'anomalies', as far as we know today, are most                                              
+pronounced in the noble gases (>10%), which are not accessible to the PIA instru-                                                 
+ment, and in oxygen and magnesium (<10%), which will not be measurable either.                                                    
+  Averaging over many grains provides some interesting bulk properties in the abun-                                               
+dances of some light elements. The bulk composition in carbonaceous chondrites and                                                
+the Sun are closely similar. Still, there are notable exceptions. For example, lithium                                            
+(Muller et al., 1975) is less abundant in the Sun by a factor 10**-2 than in C1, C2, and                                          
+C2 carbonaceous chondrites (Nichiporuk & Moore, 1974), enstatite chondrites                                                       
+(Mason, 1971), pre-main sequence stars and young clusters (Zappala, 1972), as well                                                
+as the stellar and interstellar media (Reeves & Meyer, 1978). Since stellar and in-                                               
+terstellar abundances are about a factor of 2.2 below meteoritic ones, it will be in-                                             
+teresting to study the trends in the cometary values. Similar enhancements between                                                
+                                                                                                                                  
+Table 2. Absolute concentrations of some elements in Cl-bulk material (above) and enhancement factors,                            
+relative to Cl, of some elements in selected minerals (below)                                                                     
+                                                                                                                                  
+Mineral       Chemistry            Na    Mg    Al      Si    Ca    Ti    Mn     Fe       Reference                                
+                                                                                                                                  
+                Bulk composition in 10**7 atmos/1 micro m particle of 1 g/cm**3 density                                           
+                                                                                                                                  
+ Cl-Chondrites                      13     240   19     220   17     0.55  2.1   200       Mason & Martin, 1977                   
+                                                                                                                                  
+                -Elemental abundances relative to Cl:                                                                             
+                                                                                                                                  
+Serpentine      (Mg6Si4O10) (OH)8            8    2.6    0.2    1.9    0.01  0.3   0.3   0.03      Deer et al., 1966              
+Olivine         (Mg, Fe) SiO4                     2.4           1.8    0.07        1.6   0.9       Fredriksson & Mason, 1967      
+Anorthite       CaAl2Si2O8                 0.3          11.3    2     12.6                         Deer et al., 1966              
+Enstatite       MgSiO3                            2.5    0.05   2.7    0.2   0.06  0.1             Reid & Cohen, 1967             
+Magnetite       Fe3O4                                    0.07   0.01                     2.6       Deer et al., 1966              
+Spinel          MgAl2O4                           1.4   20.4                20.8   0.4   0.4       Fuchs, 1971                    
+                                                                                                                                  
+                                                                                                                                  
+carbonaceous-chondrite abundances and solar versus stellar values do exist for                                                    
+beryllium (2,8) and boron (9,3). Meyer (1978) has discussed the idea that these Li,                                               
+Be, B-enhancements in meteorites might be spallogene, due to energetic particle ir-                                               
+radiation after formation of the Sun. If this is true, it could have affected comets only                                         
+if they formed after the Sun. Even so, if comets originated far away from the                                                     
+meteorites, they would be less affected anyway, unless there were a particle source                                               
+other than the Sun. Such arguments carry over to light-element isotopic ratios.                                                   
+  Since the 11B/10B ratio on the Earth, Moon and meteorites is about 4.05 +/- 0.1                                                 
+(Mason, 1971), it cannot be explained by beta-production through high-energy cosmic-                                              
+ray spallation reaction within the lifetime of the Galaxy. This would only give                                                   
+11B/10B=2.5. A postulated low energy (several 10 MeV/n) component would yield the                                                 
+ratio observed, but it is not obtainable by demodulation of the galactic cosmic-ray in-                                           
+tensity observed near the Sun (e.g. Morfill et al., 1976). A cometary observation                                                 
+would lend support to (or exclude in the case of a small ratio) the relatively large-scale                                        
+nature of such a low-energy component.                                                                                            
+  The 7Li/6Li ratio is observed to be about 12.5 (Krankowsky & Muller, 1976;                                                      
+Balsiger et al., 1968) in various meteoritic and terrestrial rocks. A spallation source                                           
+from demodulated high-energy cosmic-rays could quantitatively produce the observed                                                
+6Li over the age of the Galaxy, but would only lead to 7Li/6Li=1.8. Various forms of                                              
+low-energy cosmic-ray components would bring this ratio up to 6 (Reeves & Meyer,                                                  
+1978). The role of extragalactic matter, containing 7Li produced in the 'Big Bang'                                                
+is also discussed. Since the 7Li abundance is strongly related to Big-Bang conditions,                                            
+this measurement of the 7Li/6Li ratio outside the inner solar system would be very                                                
+important.                                                                                                                        
+  The 12C/13C ratio in the gaseous coma of comets has been found to be > 100                                                      
+(Vanysek & Rahe, 1978), somewhat larger than the terrestrial value and two to three                                               
+times larger than the value found in interstellar clouds (e.g. Liszt, 1978). If this low                                          
+interstellar-cloud value is due to low-temperature fractionations, as is probably true                                            
+for the D/H enhancements there (Watson, 1977), a distinction between the 12C/13C                                                  
+ratios in the dust and gas of comets would shed some light on interstellar gas-grain                                              
+chemistry.                                                                                                                        
+                                                                                                                                  
+3.4 Organic molecules                                                                                                             
+  As far as molecules are concerned, it might be very interesting to look for very large                                          
+molecules (or their fragments) in grains. Laboratory experiments by Greenberg and                                                 
+his associates (Greenberg, 1979), who irradiated NH3 and CO-mixtures (which are                                                   
+expected to form ice mantles on interstellar grains), have produced molecular material                                            
+with evaporation temperatures of 400deg to 600deg K and molecular weights possibly in the                                         
+thousands. Assuming that the mantles of interstellar grains consist of such photo-                                                
+chemically processed material, it should be seen in cometary material rather than in                                              
+meteoritic material, where they might not have survived heating during formation.                                                 
+                                                                                                                                  
+4. Experimental Approach                                                                                                          
+4.1 Sensor and electronics                                                                                                        
+                                                                                                                                  
+A schematic of the PIA sensor is shown in Figure 3 and a block diagram in Figure 4.                                               
+  After the impact of a particulate on a solid target with a relative velocity well above                                         
+1 km/s, the following effects occur:                                                                                              
+ -   a crater is formed on the target                                                                                             
+ -   the particulate is destroyed, to a degree depending upon the speed                                                           
+ -   secondary particulates are emitted                                                                                           
+ -   a light flash occurs                                                                                                         
+ -   neutrals, positive and negative ions, and electrons are released.                                                            
+                                                                                                                                  
+The phenomenon of impact charging was first reported by Friichtenicht & Slattery                                                  
+(1963), and many instruments for measuring micrometeoroid impacts in space have                                                   
+been based on this phenomenon.                                                                                                    
+   The positive ions are detected at the target (TG), which has a potential of + 1 kV                                             
+and at the acceleration grid (AC) at -2 kV; the impact light flash is detected by the                                             
+                                                                                                                                  
+                                                                                                                                  
+Figure 3.  Schematic cross-section of PIA                                                                                         
+sensor and pulse shapes                                                                                                           
+                                                                                                                                  
+Figure 4.  PIA electronics block diagram                                                                                          
+                                                                                                                                  
+photomultiplier (PM). These are the so-called 'front-end' channels.  As they are closest                                          
+to the outside environment they may be sensitive to interference.  The photomultiplier                                            
+is therefore protected against stray light by the baffle and the diaphragm PIA 4 (Fig.                                            
+5).  In addition each of the front-end channels has an r.m.s. noise meter attached to                                             
+its output, which generates a reference voltage level serving as the level 0 threshold                                            
+in such a way as to prevent noise pulses from becoming triggers of measuring cycles.                                              
+They are blanked for short (10 micro s) pulses, so that they cannot exclude triggers by                                           
+short-term electromagnetic interference and by ringing.  Ringing produces an excep-                                               
+tionally high noise level, which is identified by noise status comparators.  Their output                                         
+is used to switch off these 'noisy channels'.  A time window of 2 micro s is opened by the                                        
+first active channel.  The presence of impact-generated pulses in the other channels                                              
+within this window is stored.  The number of coincidences required for a signal to start                                          
+a measuring cycle is set by the operating system.                                                                                 
+                                                                                                                                  
+Figure 5.  PIA sensor components                                                                                                  
+1. target unit with target foil                                                                                                   
+2. sensor head with entrance grid, shutter and                                                                                    
+   flange for photomultiplier                                                                                                     
+3. sensor during mechanical assembly                                                                                              
+4. ion reflector with electrodes                                                                                                  
+5. photomultiplier unit                                                                                                           
+6. straylight suppression baffle                                                                                                  
+                                                                                                                                  
+  A dynamic range of four decades is needed for 0.1 - 10 micro m particles. Such a large                                          
+dynamic range could only be covered by switching the sensitivity of the amplifiers                                                
+in two subranges covering a factor of 1000 each, separated by a factor of 100 (i.e.                                               
+1 - 1000, 100 - 10**5). log. input.                                                                                               
+     The outputs of the front-end channels are each monitored by three single-channel                                             
+discriminators which are set at relative levels of X1, X10, X100 of the output                                                    
+voltage, irrespective of the sensitivity selections. The lowest possible limit of the ex-                                         
+periment is 5X10**-14 Cb.                                                                                                         
+  Having passed the acceleration grid, the ions are decelerated by the entrance grid                                              
+of the first drift tube to 1 keV flight energy. Ion lenses within this drift tube improve                                         
+the transmission of the instrument. After passing through this first drift tube, the ions                                         
+enter the reflector section and are diverted into the second drift tube, after which they                                         
+are detected with an electron multiplier. The reflector serves as a first-order energy-                                           
+focussing device, compensating for the initial energies that ions might have from the                                             
+formation process (up to some 70 eV).                                                                                             
+  Less exposed to the outside environment are the catcher (CA) channel, where elec-                                               
+trons stemming from the impact of secondary particulates are measured, and the                                                    
+monitor (MO) channel measuring the induced charges of the positive ions at the first                                              
+ion lens. Both channels are subject to simultaneous sensitivity switching by the same                                             
+factor as the front-end channels. Their outputs are logarithmically compressed and                                                
+digitized into one 6-bit word each, thus giving a resolution of +/-10%.                                                           
+  Before arriving at the multiplier, the ions have been separated in time according to                                            
+their mass, forming a time-of-flight spectrum. The large dynamic range of five                                                    
+decades required a new approach. A. Glasmachers at the Institute for Electronic                                                   
+Design of the University of Bochum (Germany) solved the problem by exploiting the                                                 
+intrinsic amplification characteristics of the multiplier (i.e. each dynode amplifies by                                          
+a constant factor, depending on the voltage applied). Using the signals of dynodes 5,                                             
+8, 11, 14, 17 and 20, converting them to a logarithmic output, and summing them                                                   
+gives a new fast logarithmic amplifier. The absolute gain depends on the gain of the                                              
+multiplier, as shown in Figure 6.                                                                                                 
+  To check the actual multiplier gain, an EPID (Electric Pulse Induced Desorption)-                                               
+ion generator provides two mass lines of known intensity ratio. It is located a short                                             
+distance from the multiplier and activated via the AHV-command. It was successfully                                               
+operated in orbit on 13 October.                                                                                                  
+                                                                                                                                  
+Figure 6. PIA logarithmic multiplier output                                                                                       
+signal curves (a) for low multiplier gain and                                                                                     
+(b)  for high multiplier gain                                                                                                     
+                                                                                                                                  
+Figure 7. PIA mass spectra of impinging dust                                                                                      
+particles during tests in all four data                                                                                           
+transmission modes. Lower spectrum is taken                                                                                       
+from multiplier preamplifier output to a                                                                                          
+transient recorder. Upper spectrum is                                                                                             
+reproduced from instrument telemetry data                                                                                         
+                                                                                                                                  
+Figure 8. Printouts of PIA EDF of mass                                                                                            
+spectra                                                                                                                           
+Line number                                                                                                                       
+                                                                                                                                  
+1  Date / time / dust material                                                                                                    
+                                                                                                                                  
+2  Sequence number / EDF length / test pulse                                                                                      
+   counter / sensitivity (hi-lo)                                                                                                  
+                                                                                                                                  
+3  Multiplier HV / target position / shutter                                                                                      
+   position / file section / class of current event                                                                               
+                                                                                                                                  
+4  Event number / spacecraft-time / spacecraft-                                                                                   
+   sector / telemetry mode, spectrum mode                                                                                         
+                                                                                                                                  
+5  Ampl. photomultiplier / ampl. target / ampl.                                                                                   
+   acceleration grid / amp. monitor / ampl.                                                                                       
+   catcher / coincidences requested, actual                                                                                       
+                                                                                                                                  
+6  Impact rate / impact rate with spectra /                                                                                       
+   impact rate large events / class counters 1, 2,                                                                                
+   3, 4 >= 5                                                                                                                      
+                                                                                                                                  
+7  Number of amplitudes / number of non-zero                                                                                      
+   amplitudes / maximum amplitude                                                                                                 
+                                                                                                                                  
+8-end Spectrum data:                                                                                                              
+   Mode 0: EDF-word number where content                                                                                          
+   changes from previous word / content                                                                                           
+   Modes 1-3: t**2-values / ampl. value, 'A'                                                                                      
+   designates amplitude samples                                                                                                   
+                                                                                                                                  
+As masses 1 - 110 u arrive 4 micro s to 42.5 micro s after impact, a fast ADC and storage                                         
+unit is needed. This event memory is power-strobed, 2 kx16-bit words long, and ac-                                                
+cepts the digitized amplitudes of mass lines and of the (time)**2 generator, a signal pro-                                        
+portional to the ion mass. The mass spectra are measured in four different spectrum                                               
+modes:                                                                                                                            
+-   0-15  MHz mode: An amplitude sample of the MP output is taken every                                                           
+    66.66 ns and stored in the event memory                                                                                       
+-   1 max/min mode: For each maximum appearing at the MP output, an amplitude                                                     
+    sample and a sample of the t**2-generator is taken. A second set of samples is                                                
+    taken half a mass later (minimum sample). In addition, an amplitude sample is                                                 
+    taken every 1.13 micro s, if no other maximum sampling occurred                                                               
+-   max/time mode: For each maximum in the spectrum, an amplitude/t**2 entry into                                                 
+    the memory occurs. Additionally, an amplitude sample is taken every 1.13 micro s if                                           
+    no other sampling occurred                                                                                                    
+-   3 max. mode: Same as mode 2, but time samples taken only after 8.6 micro sec.                                                 
+    Figure 7 shows mass spectra taken in these modes and Figure 8 the corresponding data                                          
+    printout.                                                                                                                     
+                                                                                                                                  
+  4.2 Mechanisms                                                                                                                  
+  Even though the instrument can cope with rates as high as 500 s**-1, it needs a                                                 
+device that limits the impact range to the area from which ions can get into the sensor's                                         
+time-of-flight sections. The limiting aperture has an elliptical shape, and the impact                                            
+area on the target is therefore circular with a diameter of 35 mm. This 'shutter' can                                             
+be varied from 5 cm**2 down to 1 mm**2, within 2.5 s. Figure 9 shows it in both                                                   
+positions.                                                                                                                        
+  Since surface contamination may contribute substantially to the impact-generated                                                
+ions, it was mandatory to remove contaminants before mounting the target to the sen-                                              
+sor. Several concepts were proposed and investigated and finally a design presented                                               
+in one of the experiment definition studies (v. Hoerner, 1982) was selected. The target                                           
+is a 10 micro m foil of Pt doped with 5% Ag, which is stored on one roll and moved during                                         
+encounter at a speed of 0.6 mm/s. The roll is about 700 mm long and 55 mm wide.                                                   
+  Before mounting the target unit, the foil was transported onto the pickup roll and                                              
+then ion etched on both sides as it was moved back onto the storage roll.                                                         
+  Figure 10 shows SIMS-spectra before etching, after etching, and after 20 days of                                                
+storage under ambient sensor conditions.                                                                                          
+                                                                                                                                  
+Figure 9. PIA shutter device to limit the                                                                                         
+sensitive target area. Left: fully open position                                                                                  
+exhibiting 500 mm**2; Right: fully closed                                                                                         
+position exhibiting 1 mm**2                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+4.3 0perating system                                                                                                              
+    Parameter setting                                                                                                             
+ The PIA instrument is designed to measure the dust composition for a total of about                                              
+4 h, with the maximum impact rate occurring during 20 min centred around the time                                                 
+of closest approach, comparable to the command round-trip time from ground to                                                     
+spacecraft and return. This made it mandatory that the experiment be able to run                                                  
+autonomously. The hardware (based on a RCA 1802 microprocessor) and software                                                      
+providing this capability is called 'The Operating System'. The software, which                                                   
+resides in PROMs, evaluates instrument data and selects the parameters for instrument                                             
+operation.                                                                                                                        
+ The basic status of the instrument is one of waiting for an impact to occur. To avoid                                            
+being locked in this mode, a software flag is raised every second, after which the in-                                            
+strument updates its internal parameters; namely                                                                                  
+(i)    the impact rate for all events                                                                                             
+(ii)   the impact rate for large events, i.e. events where the X 100 threshold is exceed-                                         
+       ed in one of the front-end channels                                                                                        
+(iii)  the impact rate for events with mass spectra, i.e. events with a minimum of                                                
+       entries in the spectrum                                                                                                    
+(iv)   the onboard time counter                                                                                                   
+       It then:                                                                                                                   
+(v)    processes any command that has been received                                                                               
+(vi)   sets the spectrum mode                                                                                                     
+(vii)  enables trigger channels                                                                                                   
+(viii) sets the number of coincidences required                                                                                   
+(ix)   adjusts the sensitivity setting                                                                                            
+(x)    sets the multiplier high voltage                                                                                           
+(xi)   adjusts the shutter position                                                                                               
+(xii)  effects target movement if needed.                                                                                         
+                                                                                                                                  
+Figure 10. PIA target cleanliness                                                                                                 
+Top - Prior to ion sputtering                                                                                                     
+Centre - After cleaning                                                                                                           
+Bottom - After 20 d of storage under dry                                                                                          
+nitrogen                                                                                                                          
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+When the data of an individual event are evaluated, formatted, characterized and                                                  
+prepared for telemetry transmission, some values sampled during this process are used                                             
+for  control   purposes:                                                                                                          
+-    IR:       The actual 'Impact Rate', i.e. the number of events occurring per second                                           
+-    IRL:      Number of events per second, larger than its X 100 threshold                                                       
+-    IR4:      Number of events per second that also show a spectrum corresponding to                                             
+               a class-4 to -7 event                                                                                              
+-    TMR:      Number of EDFs transmitted per second                                                                              
+                                                                                                                                  
+Moreover, the operating system conducts regular testing of the instrument, whereby                                                
+all analogue channels are stimulated with test pulses of different defined amplitudes                                             
+and with proper timing.                                                                                                           
+  All parameters are preset whenever the experiment is switched on. When switch-on                                                
+occurs for the first time, initial values stored in the PROMs are taken. During normal                                            
+experiment operation, actual values are continuously written to a section of the RAM,                                             
+which is kept powered whenever the spacecraft is on. For a subsequent switch on, the                                              
+values from this powered memory are taken, thereby ensuring that the experiment                                                   
+comes on in the state it was in when turned off.                                                                                  
+ The same process occurs on an interrupt caused by the 'watchdog' function of the                                                 
+instrument, i.e. if a hardware timer is not reset by the operating system at least once                                           
+per 7.7 s.                                                                                                                        
+                                                                                                                                  
+Setting the coincidence request                                                                                                   
+ The main criterion for real impacts, aside from the existence of a mass spectrum,                                                
+of course, is that the front-end signals are coincident. As small particles may not be                                            
+represented in all three channels, no coincidence is required to trigger an event under                                           
+normal conditions. The coincidence request starts to come into effect if the                                                      
+'IR4' > 10/s and 'IR' > 2xIR4. One additional coincidence is then requested. It is up-                                            
+dated every second.                                                                                                               
+                                                                                                                                  
+Disabling trigger channels                                                                                                        
+  The front-end channels may be triggered more often than the whole system can                                                    
+tolerate. In this case, the noise detection system raises the trigger level. Should this                                          
+value reach more than 3.2 V, the offending channel is precluded from triggering. It is                                            
+enabled again if the trigger level drops below the above value. The number of active                                              
+channels is also considered for coincidence requests. Should all three front-end                                                  
+channels need to be switched off, the instrument is automatically set to the low-sensitivity                                      
+mode, and all front-end channels are enabled again.                                                                               
+                                                                                                                                  
+Setting the sensitivity                                                                                                           
+  The instrument can be set into a 'HI' (high) and 'LO' (low) sensitivity mode,                                                   
+whereby the channels AC/PM/TG/CA and MO are affected. It only makes sense to                                                      
+select LO sensitivity if there are enough events to fill the telemetry capacity. The                                              
+following criterion has been chosen for the switchover from HI to L0:                                                             
+    IRL (large events) > [TMR (EDF rate)) + 3                                                                                     
+                                                                                                                                  
+  In addition, the shutter is caused to open, all channels are enabled, and no coincidences                                       
+required. Once in the LO state, the instrument remains there for 4 s and then uncondi-                                            
+tionally returns to the HI setting.                                                                                               
+                                                                                                                                  
+Setting the spectrum mode                                                                                                         
+    The different modes for recording the mass spectrum have been described above.                                                
+Mode 0 is used exclusively with Data File Section 13 for every 26th event. Selection                                              
+of the other modes depends on the ratio of 'IR4' and 'TMR'. The mode number is                                                    
+increased by 1 whenever IR4 >/=  2 xTMR, or 1R4> 128. It is reduced again if                                                      
+IR4<2xTMR. Changes are effected after 4 s have elapsed.                                                                           
+                                                                                                                                  
+Shutter operation                                                                                                                 
+    The shutter is a device in front of the target that controls the area that can be hit                                         
+by the incoming particles. The aperture is set under microprocessor control by a step-                                            
+per motor. Two switches are used to identify the 'open' (500 mm**2) and 'small'                                                   
+(52.4 mm**2) positions. For technical reasons (vibration load on the switches), the                                               
+'zero' position is somewhat smaller (457 mm**2). The smallest aperture (ca. 1 mm**2) is                                           
+reached after 71 motor steps.                                                                                                     
+  After any switch-on, the shutter opens to the 'zero' position. During experiment                                                
+operation, the aperture is controlled by the IR4 (events with spectra) using the follow-                                          
+ing criteria:                                                                                                                     
+                                                                                                                                  
+       IR4> 90:   close by  3 increments  IR4 <60:  open by  3 decrements                                                         
+       IR4> 180:  close by  6 increments  IR4 <30:  open by  6 decrements                                                         
+       IR4> 254:  close by  9 increments  IR4 <15:  open by  9 decrements                                                         
+                                                                                                                                  
+  -a decrement/increment being three motor steps in the range of small shutter apertures,                                         
+   and 10 motor steps outside this range.                                                                                         
+                                                                                                                                  
+Target movement                                                                                                                   
+   As mentioned above, the quality of the mass spectra largely depends on the                                                     
+cleanliness of the target. Movement of the target is effected in two ways: by telecom-                                            
+mand and automatically. A telecommand will be used prior to encounter to remove                                                   
+the target area that has been exposed to the environment during tests and launch. Dur-                                            
+ing the actual flyby, the target starts moving whenever IR4> 60 and stops when                                                    
+IR<30.                                                                                                                            
+  As only one motor should move at any time, the shutter has been given priority over                                             
+the target.                                                                                                                       
+                                                                                                                                  
+Setting the multiplier high voltage                                                                                               
+  The high voltage of the multiplier controls both the sensitivity and the dynamic                                                
+range for the mass spectrum. There are three possible states for it:                                                              
+  -   off, i.e. no high voltage at all                                                                                            
+  -   low, i.e. a value of 200+nX39.7 V, where n denotes a selectable number of                                                   
+      voltage increments, ranging from 0 to 63                                                                                    
+      normal, i.e. a value of 2000+nX39.7 V, giving actual values between 2000 and                                                
+      4500 V.                                                                                                                     
+                                                                                                                                  
+The value for the high voltage is set exclusively by telecommand. Only during execu-                                              
+tion of a stimulus routine (CMD AVH) is it raised five times by 3 steps, i.e. by some                                             
+600 V. In order not to lose the correct value, the register controlling the HV converter                                          
+is updated each second from the main memory.                                                                                      
+                                                                                                                                  
+4.4 Telecommanding the PIA                                                                                                        
+  A number of telecommands have been defined for the remote control of the instru-                                                
+ment. They are defined in 16-bit serial words of the following structure:                                                         
+   Bit 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1                                                                                     
+        P  A  A  A  A  C  C C D D D D D D D D                                                                                     
+                                                                                                                                  
+where                                                                                                                             
+                                                                                                                                  
+P  = parity bit to be set for even parity of the command word                                                                     
+A  = PIA address, binary: 1011                                                                                                    
+C  = command type, binary:                                                                                                        
+  000 = NOP0 No Operation (for test purposes)                                                                                     
+  001 = NOP1 No Operation (for test purposes)                                                                                     
+  010 = ESR Execute System Reset by Hardware Reset                                                                                
+  011 = EIT Execute Inflight Test Sequence                                                                                        
+  100 = MSH Move Shutter                                                                                                          
+  101 = MTG Move Target                                                                                                           
+  110 = SHV Set Multiplier High Voltage                                                                                           
+  111 = AHV Adjust Multiplier High Voltage                                                                                        
+D  = 8 bits of data, defining in detail the action to be executed upon receipt of the                                             
+     command.                                                                                                                     
+                                                                                                                                  
+The instrument system considers only commands that have the correct parity P and                                                  
+address A. For correct commands, the type C defines an address in the memory and                                                  
+D the data to be written to this address. The command is then executed after the next                                             
+event has been processed, or after 1 s at the latest.                                                                             
+                                                                                                                                  
+4.5 The data-handling system                                                                                                      
+ The data-handling system collects all values measured by the Analyser's various                                                  
+elements. The number of coincidences is read and the number of entries in the event                                               
+memory and in the mass windows are checked and the class of the event is established.                                             
+  Events are classified as follows:                                                                                               
+ 1.      events that have one front-end signal only                                                                               
+ 2.      events that have one coincidence between two front-end channels, but no                                                  
+         spectrum                                                                                                                 
+ 3.      events that have all front-end coincidences, but no spectrum                                                             
+ 4.      events that have a minimum of 52/46/10 entries in the spectrum for modes 1/2/3,                                          
+         respectively                                                                                                             
+ 5.      events that have a minimum of 54/48/12, but not more than 228/148/140 entries                                            
+         in the spectrum, and in addition a minimum of 26/21/6 entries in the mass win-                                           
+         dow(6-58u)                                                                                                               
+ 6.      class-5 events that have, in addition, a minimum of 2 entries of at least 1/5th                                          
+         full scale between mass 5 and 8                                                                                          
+ 7.      class-5 events that have a minimum of 34/27/12 entries in the mass window, but                                           
+         no more than 93/49/46                                                                                                    
+ 8.      events of the statistical sample                                                                                         
+ 9.      test pulses from the test-pulse sequence                                                                                 
+10.      events from the AHV routine, i.e. spectra of the multiplier stimulus, the emitter                                        
+ 0.      events that have already been transferred to telemetry.                                                                  
+                                                                                                                                  
+After event classification the memory is checked for empty sections or those holding                                              
+lower class data. If feasible, the data of the current event are transferred to the main                                          
+memory, and the 'experiment data frame' header is added. The system then goes back                                                
+into the loop, waiting for the next event to occur. Table 3 shows the layout of the ex-                                           
+periment data frame.                                                                                                              
+                                                                                                                                  
+Table 3. PlA experiment data frame                                                                                                
+                                                                                                                                  
+Word no. (8 bits each)          Contents                             Remarks                                                      
+                                                                                                                                  
+    0    ID Field MSB        Experiment identifier                                                                                
+    1    ID Field ISB        Experiment identifier                                                                                
+    2    EDF Length MSB      Length of current EDF in bytes and data file section                                                 
+                             (high 4 bits)                                                                                        
+    3    EDF Length LSB      Length of current EDF                                                                                
+    4    Shutter Status      Shutter position from pot.                                                                           
+    5    Target Status       Target position in motor steps                                                                       
+    6    HV Status           MM 1 HV control word                                                                                 
+    7    Operation Status    Sens.- and TM.-status                Pattern A                                                       
+    8    EDL Status          EDL configuration word               Pattern B                                                       
+    9    Impact Rate         Impacts/s all events                                                                                 
+   10    Impact Rate L       Impacts/s large events                                                                               
+   11    Impact Rate S       Impacts/s events with spectrum                                                                       
+   12    Event Counter 1     No coinc. events                                                                                     
+   13    Event Counter 2     Dual coinc. events                                                                                   
+   14    Class Counter 3     Triple coinc. events                                                                                 
+   15    Class Counter 4     Events with spectrum                                                                                 
+   16    Class Counter 5     Events class >= 5                                                                                    
+   17    Event Number High   Number of current event, MSB                                                                         
+   18    Event Number Low    Number of current event, LSB                                                                         
+   19    Time High           Impact time, MSB                                                                                     
+   20    Time Low            Impact time, LSB                                                                                     
+   21    Sector              Solar aspect at impact                                                                               
+   22    Lightflash          Level of PM + IFT ID + Event class   Pattern C                                                       
+   23    Target + ACC.       Levels of TG and AC                  Pattern D                                                       
+   24    Monitor             Amplitude monitor                                                                                    
+   25    Catcher             Amplitude catcher                                                                                    
+   26    IFT Type            IFT sequence counter                                                                                 
+   27    Sequence No. MSB    Sequential count of EDFs from                                                                        
+   28    Sequence No. LSB    the experiment                                                                                       
+   29    Time *              Mass spectrum                                                                                        
+   30    Amplitude*          Mass spectrum                                                                                        
+                             Mass spectrum                                                                                        
+                             Mass spectrum                                                                                        
+  E-1    Time *              Mass spectrum                                                                                        
+  E      Amplitude *         Mass spectrum                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+  Bit        Pattern A        Pattern B       Pattern C         Pattern D                                                         
+--------------------------------------------------------------------------------                                                  
+  LSB        TG Sens. 1 = HI                  PM Level 0        TG Level 0                                                        
+  LSB +1     AC Sens. 1 = HI  Sp. mode 0-3    PM Level 1        TG Level 1                                                        
+  LSB +2     PM Sens. 1 = HI  Coinc. 3 of 3   PM Level 2        TG Level 2                                                        
+  LSB +3     CA Sens. 1 = HI  Coinc. 2 of 3   IFT ID    1 =IFT  AC Level 0                                                        
+  LSB +4     MO Sens. 1 = HI  Coinc. 1 of 3   LSB     { Class   AC Level 1                                                        
+  LSB +5     TM OBDH code     PM 1  =   ON    LSB  +1 { of cur- AC Level 2                                                        
+  LSB +6     TM OBDH code     TG 1  =   ON    LSB  +2 { rent    Unused                                                            
+  MSB        TM OBDH code     AC 1  =   ON    LSB  +3 { event   Unused                                                            
+--------------------------------------------------------------------------------                                                  
+  - * No. of samples and EDF length changes with actual number of peaks in mass spectrum                                          
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+                                                                                                                                  
+  The successful completion of the PIA experiment has only been possible due to the                                               
+good cooperation within the team. We would like to thank the Max-Planck-Institut fur                                              
+Kernphysik for all its support, and particularly: I. Burst, P. Demuth, W. Falk,                                                   
+H.Geldner, K. Kitta, W. Knabe, F.J. Mayer, N. Niemczyk, K. Richter, D. Romer,                                                     
+H. Stallmutter, G. Schafer, M. Schmidt, K.H. Schwarz and V. Traumer.                                                              
+  Our appreciation is also extended to the following key contractor personnel:                                                    
+-      At Dornier System: W. Lenz, J. Pockentrupp, E. Weber.                                                                      
+-      At von Hoerner und Sulger Electronics: H. v. Hoerner and Th. Plieninger.                                                   
+                                                                                                                                  
+  We also wish to thank A. Kaiser for his work on the test units and P. Feigl for the                                             
+laser simulation and EPID work.                                                                                                   
+  We are also grateful for the support we received from other groups involved in the                                              
+Giotto project, for the support from the Bundesminister fur Forschung and                                                         
+Technologie and from W. Kempe from DLVLR/PT, in providing grants 010F021 4,                                                       
+010F022 5 and 010F850 70. Last not least, we wish thank all those who were patient                                                
+with us during the busier project phases.                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+References                                                                                                                        
+Balsiger H, Geiss J, Grogler N & Wyttenbach A 1968, Distribution and isotopic abun-                                               
+    dance of Lithium in stone meteorites, Earth Planet Sci. Lett., 5, 17.                                                         
+Brownlee D E 1978, Microparticle studies by sampling techniques, In Cosmic Dust                                                   
+    (Ed. J.A.M. McDonnell), J. Wiley & Sons, London, Chapter 5, 295-336.                                                          
+Clayton D D 1980, Chemical energy in cold cloud aggregates: The origin of                                                         
+    meteoritic chondrules, Astrophys. J., 239.                                                                                    
+Deer W A, Howie R A & Zussman J 1966, An Introduction to the Rockforming                                                          
+    Minerals, J. Wiley & Sons, New York.                                                                                          
+Delsemme A H & Wenger A 1970, Experimental study of snow in a cometary en-                                                        
+    vironment, Planet. Space Sci., 18,709.                                                                                        
+Delsemme A H & Miller D C 1971, Physico-chemical phenomena in comets. III. The                                                    
+    continuum of Comet Burnham (1960 II), Planet. Space Sci., 19, 1229.                                                           
+Finson M L-& Probstein R F 1968, A theory of Dust Comets. I. Model and equations,                                                 
+    Astrophys. J.,154, 327.                                                                                                       
+Fredriksson K & Mason B 1967, The Shaw meteorite, Geochim. Cosmochim. Acta                                                        
+    31, 1705-1709.                                                                                                                
+Friichtenicht J F & Slattery J C 1963, Ionization Associated with Hypervelocity Im-                                               
+    pact, NASA TND 2091.                                                                                                          
+Friichtenicht J F, Roy N L & Moede L W 1971, Cosmic Dust Analyzer - Final                                                         
+    Report, NASA Report 10735-6002-00.                                                                                            
+Fuchs L H 1971, Occurrence of wollastonite, ashinite and andradite in the Allende                                                 
+    meteorite, Am. Mineral., 56, 2053.                                                                                            
+Hoerner H von, Plieninger T H, Werner R & Stolz 1982, System Definition Studie                                                    
+    'Particulate Impact Analyser' fur ESA Mission Giotto, von Hoerner-Sulger                                                      
+    Elektronik GmbH, Schwetzingen, Germany.                                                                                       
+Greenberg J M 1979, Cometary Missions (Eds. Axford, Fechtig & Rahe), Remeis-                                                      
+    Sternwarte-Bamberg, Ku, 1322, p. 119.                                                                                         
+Krankowsky D & Muller O 1967, Isotopic composition and abundance of Lithium in                                                    
+    meteoritic matter, Geochim. Cosmochim. Acta, 31, 1833.                                                                        
+Liszt H S 1978, Time dependant CO formation and fractionation, Astrophys. J., 22                                                  
+    484.                                                                                                                          
+Mason B 1971, Handbook of Elemental Abundances in Meteorites, Jordan & Breach,                                                    
+    New York.                                                                                                                     
+Mason B & Martin P M 1977, Geochemical differences among components of the                                                        
+    Allende meteorite, Earth Sci. 9, 84.                                                                                          
+Meyer J P 1978, The significance of the carbonaceous chondrite abundances, Proc.                                                  
+    22nd Liege Int. Astrophysical Symposium.                                                                                      
+Millman P M 1977, The chemical composition of cometary meteoroids, In: Comets,                                                    
+    Asteroids, Meteorites (Ed. H.A. Delsemme), p. 127.                                                                            
+Morfill G E, Volk H J & Lee M A 1976, On the effect of directional medium scale                                                   
+    interplanetary variations on the diffusion of galactic cosmic rays and their solar                                            
+    cycle variation, J. Geophys. Res., 81, 5841.                                                                                  
+Muller E A, Peytremann E & de la Reza R 1975, The solar Lithium abundance. II.                                                    
+    Synthetic analysis of the solar Lithium feature at X 6707.8 I, Solar Phys., 41,53.                                            
+Ney E P 1974, Multiband Photometry of Comets Kohoutek, Bennet, Bradfield and                                                      
+    Encke, Icarus, 23, 551.                                                                                                       
+Nichiporuk W & Moore C B 1974, Lithium, Sodium and Potassium abundance in car-                                                    
+   bonaceous chondrites, Geochim. Cosmochim. Acta, 38, 1961.                                                                      
+Reeves H & Meyer J-P 1978, Cosmic-ray nucleosynthesis and the infall rate of ex-                                                  
+    tragalactic matter in the solar neighborhoud, Astrophys. J., 226, 613.                                                        
+Vanysekk V & Rahe J 1978, The (12)C/(13)C isotope ratio in comets, stars and interstellar                                         
+    matter, The Moon and The Planets, 18,441.                                                                                     
+Watson W D 1977, In: CNO Isotopes in Astrophysics (Ed. J. Audouze), Reidel, Dor-                                                  
+    drecht, p. 105.                                                                                                               
+Whipple F L 1950, A Comet Model. I: The acceleration of the Comet Encke,                                                          
+    Astrophys. J., 111, 365-395.                                                                                                  
+Zappala R R 1972, Lithium abundances of stars in open clusters, Astrophys. J., 57.                                                
+                                                                                                                                  

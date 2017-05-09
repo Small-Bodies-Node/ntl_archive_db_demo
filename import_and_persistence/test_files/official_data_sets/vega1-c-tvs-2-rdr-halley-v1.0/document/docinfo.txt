@@ -1,0 +1,35 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-06-01                                               
+  NOTE             = "DOCUMENT/ Directory Contents"                           
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+DOCUMENT/ Contents                                                            
+==================                                                            
+                                                                              
+This directory contains the complete contents of the original HAL_0026        
+disk DOCUMENT/ directory.                                                     
+                                                                              
+***** File DOCINFO.TXT                                                        
+                                                                              
+             Contents of the Document Directory                               
+                                                                              
+This file describes the content of the DOCUMENT directory and many of         
+the files are listed below:                                                   
+                                                                              
+DOCINFO.TXT      - This file describing contents                              
+CDTREE.TXT       - Layout of the disk structure                               
+ACKNWLDG.TXT     - File listing contributors to this volume                   
+CDSTRUCT.TXT     - Log file accumulated during the premaster process          
+VOLINFO.TXT      - Discussion of data, explanatory files, index tables,       
+                   and volume organization.                                   
+                                                                              
+Other subdirectories are located in the DOCUMENT directory as follows:        
+                                                                              
+ESA_1066         - digitized articles about each Mission                      
+STDS_IHW         - files to outline the PDS and FITS use by IHW               
+                                                                              

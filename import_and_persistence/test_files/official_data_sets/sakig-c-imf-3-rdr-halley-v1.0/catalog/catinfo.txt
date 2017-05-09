@@ -1,0 +1,20 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+   PUBLICATION_DATE = 2011-05-27                                              
+   NOTE             = "CATALOG/ directory contents"                           
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+CATALOG/ Directory                                                            
+==================                                                            
+DATASET.CAT     Data set description                                          
+IMF.CAT         Interplanetary magnetic field experiment instrument           
+                description                                                   
+SAKIG.CAT       SAKIGAKE spacecraft description                               
+SAKIGAKE.CAT    SAKIGAKE mission description                                  
+REFERENCE.CAT   List of references corresponding to the                       
+                  REFERENCE_KEY_ID values in the other files                  

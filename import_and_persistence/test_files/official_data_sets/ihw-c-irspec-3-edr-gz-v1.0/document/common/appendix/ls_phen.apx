@@ -1,0 +1,604 @@
+                         LARGE-SCALE PHENOMENA NETWORK                                                                            
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+        In order both to conduct a second trial run and to support the 1985                                                       
+September 11 encounter of the International Cometary Explorer (ICE) with Peri-                                                    
+odic Comet Giacobini-Zinner (G-Z), the International Halley Watch was broadened                                                   
+in scope to include observations of G-Z.  For most of the IHW networks, the                                                       
+observation interval was limited essentially to 1985 July-September.  Supporting                                                  
+the ICE mission was an especially important activity for the Large-Scale Phe-                                                     
+nomena Network (LSPN) because the spacecraft was being targeted to pass through                                                   
+the comet's plasma tail; observations of the length, width, and variability of                                                    
+the tail via wide-field photography were seen to be important to a full inter-                                                    
+pretation of the in situ data.                                                                                                    
+                                                                                                                                  
+        The ICE mission was successful in nearly every sense, as the plasmas and                                                  
+magnetic fields were measured directly for the first time in any comet (Bame et                                                   
+al. 1986; Smith et al. 1986; also see Brandt et al. 1985, von Rosenvinge et al.                                                   
+1986).  Remote data of several types taken near and at the time of the                                                            
+encounter not only helped planners make late changes to the mission profile                                                       
+during the final approach to encounter on 1985 September 11, but also assisted                                                    
+scientists in the post-encounter analysis of the spacecraft observations.                                                         
+                                                                                                                                  
+        An example of the latter is that the width of the so-called plasma                                                        
+sheet measured by ICE was found to correspond approximately to the tail                                                           
+width observed in ground-based images and spectrograms (Slavin et al. 1986;                                                       
+Meyer-Vernet et al. 1986), thereby confirming the idea of cometary plasma tails                                                   
+as visible manifestations of the plasma sheet, and not the much broader                                                           
+ensemble of magnetic lobes (with embedded plasma sheet).  An example of                                                           
+pre-encounter support was provided by IUE: observations of the comet's gas                                                        
+production rate in the weeks before encounter by M.F. A'Hearn and colleagues                                                      
+allowed calculations of the expected size of the bowshock.  These values were                                                     
+then used by mission controllers to ensure that the Deep Space Network (DSN)                                                      
+was operating at the theoretical shock-crossing times. These are but two                                                          
+examples which illustrate the synergism which often operates between in situ                                                      
+and remote data.                                                                                                                  
+                                                                                                                                  
+        The purpose of this overview is to describe the content of the Large-                                                     
+Scale Phenomena (L-SP) Giacobini-Zinner archives--printed and digital CD-ROM                                                      
+(compact disk, read-only memory)--assembled from observations made by the LSPN                                                    
+Observers.  Sections I-IV were written by M.B. Niedner, and Section V by A.                                                       
+Warnock and Niedner.                                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+II. OBSERVATIONS OF COMET GIACOBINI-ZINNER BY THE LARGE-SCALE PHENOMENA NETWORK                                                   
+                                                                                                                                  
+        Table I lists the L-SP Discipline Specialist personnel who made essenti-                                                  
+ally full-time contributions to the G-Z archive for a period of a year or more;                                                   
+others are thanked in the acknowledgement section at the end of this overview.                                                    
+The team received 118 wide-field images of G-Z from 9 different observing sites.                                                  
+The images are of all types--glass plates, film copies, prints, and slides--and                                                   
+were taken on 36 nights between 1985 July 8 and September 26.  Information about                                                  
+the observers, instruments (including their aperture, type, f ratio and scale),                                                   
+and observatories (including their system codes; cf. Sec. III below) is listed                                                    
+in Table II.  The numbers of images per UT day are given in Table III.                                                            
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Large-Scale Phenomena Network                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member              Affiliation                    Responsibility                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Malcolm B. Niedner, Jr.  Laboratory for Astronomy       Discipline Specialist                                                     
+                           and Solar Physics (LASP)                                                                               
+                         NASA-Goddard Space Flight                                                                                
+                           Center (GSFC)                                                                                          
+                         Greenbelt, MD 20771                                                                                      
+                         U.S.A.                                                                                                   
+                                                                                                                                  
+John C. Brandt           Laboratory for Atmospheric     Discipline Specialist                                                     
+                           and Space Physics                                                                                      
+                         University of Colorado                                                                                   
+                         Boulder, CO 80309                                                                                        
+                         U.S.A.                                                                                                   
+                                                                                                                                  
+Juergen Rahe             Dr. Remeis Sternwarte          Discipline Specialist                                                     
+                         Universitat Nurnberg-Erlangen                                                                            
+                         D-8600 Bamberg                                                                                           
+                         Federal Republic of Germany                                                                              
+                                                                                                                                  
+Daniel A.                LASP                           Senior Team Member                                                        
+  Klinglesmith III       NASA-GSFC                                                                                                
+                                                                                                                                  
+Archibald Warnock III    ST Systems Corporation         Senior Software                                                           
+                         Lanham, MD 20784                 Specialist                                                              
+                         U.S.A.                                                                                                   
+                                                                                                                                  
+Barbara B. Pfarr         ST Systems Corporation         Archive Manager                                                           
+                                                                                                                                  
+Nancy E. Podger          ST Systems Corporation         Software Assistant                                                        
+                                                                                                                                  
+Joan E. Isensee          ST Systems Corporation         Data/Software Assistant                                                   
+                                                                                                                                  
+Steve B. Howell          ST Systems Corporation         Software Assistant                                                        
+                                                                                                                                  
+Edwin J. Grayzeck, Jr.   Interferometrics, Inc.         CD-ROM Specialist                                                         
+                         Vienna, VA 22180                                                                                         
+                         U.S.A.                                                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table II.  Observer List by Observatory, Telescope Parameters, and System Codes                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Observatory           Telescope          Longitude   Latitude    Observer(s)                                                      
+                                        [deg/min/s] [deg/min/s]                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Hoher List Obs.       30 cm Astrograph   006/50/58   +50/09/47   Geffert, M.                                                      
+Hoher List            f/5                                                                                                         
+Fed. Rep. of Germany  137 arcsec/mm                                                                                               
+SYSTEM = 30170300                                                                                                                 
+                                                                                                                                  
+National Astr. Obs.   70 cm Schmidt      024/43/30   +41/43/00   Ivanova, V.,                                                     
+Rojen                 f/2.8                                       Shkodrov, V.                                                    
+Bulgaria              120 arcsec/mm                                                                                               
+SYSTEM = 35000301                                                                                                                 
+                                                                                                                                  
+Chorzow Obs.          20 cm Astrograph   018/59/30   +50/17/33   Wlodarczyk, I.                                                   
+Chorzow               f/5                                                                                                         
+Poland                206 arcsec/mm                                                                                               
+SYSTEM = 35530100                                                                                                                 
+                                                                                                                                  
+Joint Obs. for        36 cm Schmidt      252/48/41   +33/59/06   Arnold, G.                                                       
+  Comet. Res.         f/2                                         Bair, L.                                                        
+Socorro, NM           298 arcsec/mm                               Brandt, J.                                                      
+U.S.A.                                                            Marr, E.                                                        
+SYSTEM = 37020100                                                 Moore, E.                                                       
+                                                                  Niedner, M.                                                     
+                                                                                                                                  
+E. E. Barnard Obs.    30 cm Schmidt      254/37/30   +39/52/30   Emerson, G.                                                      
+Golden, CO            f/1.8                                                                                                       
+U.S.A.                380 arcsec/mm                                                                                               
+SYSTEM = 35001604                                                                                                                 
+                                                                                                                                  
+A. J. Dyer Obs.       60 cm Schmidt      273/11/41   +36/03/09   Heiser, A.                                                       
+Nashville, TN         f/3.5                                                                                                       
+U.S.A.                99 arcsec/mm                                                                                                
+SYSTEM = 35001601                                                                                                                 
+                                                                                                                                  
+Goddard Research      20 cm Cel. Schm.   283/10/23   +39/01/16   Niedner, M.,                                                     
+  Laboratory          f/1.5                                       Schmidt, R.                                                     
+Greenbelt, MD         680 arcsec/mm                                                                                               
+U.S.A.                                                                                                                            
+SYSTEM = 35001610                                                                                                                 
+                                                                                                                                  
+Mt. Cuba Astr. Obs.   61 cm Baker Cam.   284/21/59   +39/47/04   Buckley III, J.                                                  
+Greenville, DE        f/4                                         Buckley Jr, J.                                                  
+U.S.A.                85 arcsec/mm                                Sharp, W.                                                       
+SYSTEM = 37880100                                                 Westergard, B.                                                  
+                                                                                                                                  
+Calar Station         80 cm Schmidt      357/27/50   +37/13/45   Kohoutek, L.                                                     
+National Astr. Obs.   f/3                                                                                                         
+Calar Alto Mt.        86 arcsec/mm                                                                                                
+Spain                                                                                                                             
+SYSTEM = 34930200                                                                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table III.  Distribution of Images by Day                                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date    Number of    Date    Number of    Date    Number of    Date    Number of                                                  
+1985 UT  Images      1985 UT  Images      1985 UT  Images      1985 UT  Images                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Jul.  8     1        Aug. 17     3        Sept. 8     2        Sept.17     4                                                      
+     12     2             21     1              9     5             18     4                                                      
+     13     6             22     3             10     1             19     1                                                      
+     17     2             23     3             11     5             20     2                                                      
+     19     1             24     2             12     4             21     1                                                      
+     20     2             27     1             13     7             22     1                                                      
+     25     5        Sept. 5     7             14     3             24     3                                                      
+Aug.  8     1              6     8             15     2             25     1                                                      
+     13     1              7     9             16    13             26     1                                                      
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+        Considering that the L-SP Network is comprised of over 100 observato-                                                     
+ries, the image yield was not very high for G-Z, but this was perhaps not un-                                                     
+expected.  In a comparative sense, Giacobini-Zinner was not a bright or large-                                                    
+scale phenomena object, but on many dates it did possess a detectable plasma                                                      
+tail.  Although week-to-week differences were seen in the length and brightness                                                   
+of the plasma tail--differences which seemed to follow the overall trend of the                                                   
+gas production rate--it is also true that G-Z was not observed (and was not                                                       
+expected) to display any of the rapid plasma-tail changes, such as disconnection                                                  
+events, folding tail rays, etc., which characterize the brighter comets and                                                       
+which make dense coverage absolutely essential for studying them.  Taken in this                                                  
+context, we feel that the L-SP Network's response to the G-Z opportunity was                                                      
+excellent, and that the G-Z archive contains a useful body of data for scien-                                                     
+tific purposes.                                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+III. ORGANIZATION AND CONTENT OF THE PRINTED ARCHIVE                                                                              
+                                                                                                                                  
+        Contained in the printed version of the G-Z archive is a one line table-                                                  
+format summary for each of the 118 images received by the L-SP Discipline Spe-                                                    
+cialist Center and an annotated hardcopy image for 23 of the observations.  For                                                   
+each image the parameters listed are shown in Table IV.                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table IV.  Entries in the Printed Archive                                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Heading      Description                                                                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date(UT)     Date (day & fraction of day) of middle of observation                                                                
+LSPN#        Large-Scale Phenomena Network number--a unique number for each                                                       
+               observation. (The lead digit 3 indicates that the Discipline is                                                    
+               Large-Scale Phenomena)                                                                                             
+PlateID      ID number provided by the submitting observatory on the original                                                     
+               plate jacket or reverse side of print                                                                              
+Ap           Telescope aperture size [m]                                                                                          
+Scale        Scale of the original plate [arcsec/mm].  For copy prints submitted                                                  
+               by observers, the scale is that of the original plate, not of the                                                  
+               print                                                                                                              
+Instrument   Type of instrument used                                                                                              
+FOV          Field of view of the original plate [deg].  For copy prints submit-                                                  
+               ted by observers, the listed FOV is that of the original plate,                                                    
+               not of the print                                                                                                   
+ExpM         Exposure time [min]                                                                                                  
+Emul         Type of emulsion used for original image                                                                             
+Filter       Type of filter used                                                                                                  
+Hyp          Plate hypersensitization (Y or N)                                                                                    
+Cal          Calibration data accompanying the image (Y or N)                                                                     
+St           Status of image.  A (for Archive) indicates that the image was di-                                                   
+               gitized and is included in the CD-ROM video archive.  DS (for                                                      
+               Discipline Specialist) indicates that the image was not scanned,                                                   
+               but that the DS either has the original plate, a film copy, or a                                                   
+               photographic print                                                                                                 
+System       Observatory System Code (see Table II and general appendix listing                                                   
+               system codes for all networks)                                                                                     
+Observer(s)  Name(s) of the observer(s)                                                                                           
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+        For the most part, the hardcopy images in the printed archive are of                                                      
+original plates and films which were scanned and deposited on the CD-ROM. There                                                   
+are exceptions, however: several of the prints received showed more of the                                                        
+comet than some of the scanned plates, and were included in hardcopy form                                                         
+to illustrate the state of comet Giacobini-Zinner during important times.                                                         
+Moreover, mostly for practical reasons, several of the scanned images do not                                                      
+have hardcopy representations in the printed archive.  It is hoped that this                                                      
+slight deviation from one-to-one between the scanned images and the hardcopy                                                      
+photographs in the printed archive will not cause confusion.  A quick check of                                                    
+each hardcopy LSPN# in the table will show whether the original image was                                                         
+scanned (St = A) or not (St = DS).                                                                                                
+                                                                                                                                  
+        The hardcopy images were generated from film copies made of the original                                                  
+glass plates or prints; none are hardcopy of actual digital images. The                                                           
+distance scale below each image equals the angular length on the sky of the                                                       
+quoted linear distance along the prolonged radius vector (PRV).  In other                                                         
+words, the scale provides approximately correct distances along the plasma                                                        
+tail, and not in the sky plane (at the distance of the comet).                                                                    
+                                                                                                                                  
+                                                                                                                                  
+IV. ORGANIZATION AND CONTENT OF THE DIGITAL (CD-ROM) ARCHIVE                                                                      
+                                                                                                                                  
+A. Scanning Criteria at the L-SP Discipline Specialist Center                                                                     
+                                                                                                                                  
+        Although the total number of G-Z images was not large, careful                                                            
+consideration was still given to which plates and original film copies were to                                                    
+be digitized, because scanning time for G-Z was in a very real sense                                                              
+competition for the much larger set of Halley imagery.  The selection                                                             
+criteria were:  plate quality, date of observation, and UT day fraction.  The                                                     
+first of these is obvious, the rationale for the last two being the desire to                                                     
+have reasonably good day-to-day coverage, and no more than two images on any                                                      
+given day, separated by at least 12 hours (since the comet was slowly-varying).                                                   
+The selection of images to be scanned was made by M.B. Niedner.                                                                   
+                                                                                                                                  
+       Application of the scanning criteria to the entire set of glass plates                                                     
+and first generation film copies resulted in 24 digitized images of comet                                                         
+Giacobini-Zinner spanning 1985 July 20-September 26. The remaining 94 images                                                      
+were either unscanned (failing one or more of the 3 criteria) or unscannable                                                      
+(e.g., photographic prints). As a result of both the criteria tests and the                                                       
+temporal unevenness of network submissions, coverage in the scanned images is                                                     
+not as dense around the time of encounter as had been hoped.  For details on                                                      
+the actual microdensitometer procedures used on the G-Z images, consult Sec. V.                                                   
+                                                                                                                                  
+        In the event that users of the CD-ROM archive have a need for additional                                                  
+digitized plates, it is worth noting that, unless it has been otherwise agreed                                                    
+to, the original glass plates will have been returned by the DS to the                                                            
+observers who obtained them.  Given that this is the most probable situation,                                                     
+it would be most efficient to first contact the observer.  If the plate is                                                        
+residing at the DS Center indefinitely, the DS would in most instances be able                                                    
+to digitize the image and supply it to the user on magnetic tape.                                                                 
+                                                                                                                                  
+B. Scanned L-SP Images of Giacobini-Zinner on CD-ROM                                                                              
+                                                                                                                                  
+        The scanned L-SP images of comet Giacobini-Zinner were deposited on                                                       
+CD-ROM as three separate files: a PDS (= Planetary Data System) label, a FITS                                                     
+(Flexible Image Transport System) header, and the actual binary image data.  The                                                  
+PDS label is a relatively short (10-15 lines) "header" which allows users with                                                    
+PDS software (e.g., IMDISP; ref: IMDISP User's Manual, M. Martin et al., JPL)                                                     
+to access the image data with a personal computer. The FITS header, a sample of                                                   
+which is given in Table V, contains all the "data about the data", and allows                                                     
+the user to access the image with large astronomical data packages such as AIPS                                                   
+and IRAF. It should be noted that the image data files have been compressed                                                       
+using a previous pixel algorithm.  An algorithm for decompressing the images is                                                   
+included on the CD-ROM in pseudo-code, and a hardcopy listing is published in                                                     
+the printed archive.                                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table V.  Sample FITS header for Large-Scale Phenomena                                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword    Content                Explanation                                                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+SIMPLE  =                    T  / Basic FITS format                                                                               
+BITPIX  =                   16  / 2-byte two's compl integers                                                                     
+NAXIS   =                    2  / Number of axes, 2 = single image, 3 = multiple                                                  
+NAXIS1  =                 1024  / Pixels per row                                                                                  
+NAXIS2  =                 1024  / Lines per image                                                                                 
+OBJECT  = 'P/GIACOBINI-ZINNER'  / Name of object (on some files: 'P/G-Z   ')                                                      
+FILE-NUM=               300305  / Number of file sent to JPL, dnnnnn                                                              
+DATE-OBS= '21/09/85          '  / Date of mid-exposure, dd/mm/yy                                                                  
+TIME-OBS=              0.05199  / Time of observation, day fraction                                                               
+DATE-REL= '04/06/87          '  / Data release date, dd/mm/yy                                                                     
+DISCIPLN= 'LARGE SCALE PHEN  '  / IHW Network                                                                                     
+LONG-OBS= ' 24/43/30         '  / Station longitude ddd/mm/ss (positive to east)                                                  
+LAT--OBS= '+41/43/00         '  / STATION latitude sdd/mm/ss (s = + or -)                                                         
+SYSTEM  = '35000301          '  / Observing system code                                                                           
+OBSERVER= 'IVANOVA,V/SHKODROV,V             '  / Name(s) of observer(s)                                                           
+SUBMITTR= 'NIEDNER,M         '  / LSPN submitter                                                                                  
+SPEC-EVT=                    F  / Special events flag                                                                             
+DAT-FORM= 'STANDARD          '  / Standard FITS data                                                                              
+DAT-TYPE= 'IMAGE             '  / Type of FITS data                                                                               
+LSPNSEQ =               194331  / Sequence # of plate received at L-SP Center                                                     
+COMMENT                                                                                                                           
+COMMENT                         / Submitting station                                                                              
+OBSVTORY= 'NATIONAL AST. OBS.'  / Name of observatory                                                                             
+LOCATION= 'ROJEN, BULGARIA   '  / Station location--address                                                                       
+COMMENT                                                                                                                           
+COMMENT                         / Instrument specifications                                                                       
+TELESCOP= 'SCHMIDT           '  / Type of telescope                                                                               
+APERTURE=                0.700  / Telescope aperture [m]                                                                          
+FRATIO  =                2.800  / Effective telescope f ratio                                                                     
+FOV1    =                5.000  / R.A. field of view [deg]                                                                        
+FOV2    =                5.000  / Dec field of view [deg]                                                                         
+COMMENT                                                                                                                           
+COMMENT                         / Plate specifications                                                                            
+PLTSZE1 =                0.160  / X plate size [m]                                                                                
+PLTSZE2 =                0.160  / Y plate size [m]                                                                                
+PLTSCALE=              121.112  / Plate scale [arcsec/mm]                                                                         
+CALAVL  =                    T  / Calibration available                                                                           
+HYPSEN  =                    F  / Hypersensitization                                                                              
+EMULSION= 'IIIA-J            '  / Emulsion type                                                                                   
+FILTER  = 'M                 '  / Type of filter used                                                                             
+PLTYPE  =                    F  / Plate type, T = original, F = copy                                                              
+COMMENT                                                                                                                           
+COMMENT                         / Observation specifications                                                                      
+EXPOSURE=                1800.  / Exposure time [s]                                                                               
+HISTORY   OBSLOG  = '2850    '  / Original observatory plate                                                                      
+HISTORY   CMTS-LOG= 'COMET IS FAINT; TAIL IS BROAD AND DIFFUSE, PROBABLY DUST. '                                                  
+COMMENT                                                                                                                           
+COMMENT                         / Tape specifications                                                                             
+BSCALE  =                  1.0  / Scale factor, TRUE = TAPE * BSCALE + BZERO                                                      
+BZERO   =                  0.0  / Offset for true pixel value                                                                     
+BUNIT   = 'DENSITY           '  / Units of pixel values                                                                           
+BLANK   =               -32767  / Value for undefined pixel                                                                       
+COMMENT                                                                                                                           
+COMMENT                         / Digitization specifications                                                                     
+HISTORY   SCNAPR  =   20        / PDS scan aperture [micron]                                                                      
+HISTORY   SCNSTP  =   20        / PDS scan step [micron]                                                                          
+HISTORY   SKYDEN  =  412        / Sky background PDS density                                                                      
+HISTORY   SKYUNF  = 'FAIR    '  / Sky background: POOR/FAIR/GOOD/EXCL                                                             
+COMMENT                                                                                                                           
+COMMENT                         / Astrometry information                                                                          
+EQUINOX =               1950.0  / Equinox of coordinate system                                                                    
+CTYPE1  = 'RA---ARC          '  / X axis units                                                                                    
+CTYPE2  = 'DEC--ARC          '  / Y axis units                                                                                    
+RA--CPME=         0.961125E+02  / R.A. plate center mid-exposure                                                                  
+DEC-CPME=         0.102762E+02  / Dec plate center mid-exposure                                                                   
+CRPIX1  =         0.600200E+03  / Reference point for AXIS1, samples                                                              
+CRPIX2  =         0.263250E+03  / Reference point for AXIS2, lines                                                                
+CDELT1  =        -0.672847E-03  / R.A. per pixel [deg]                                                                            
+CDELT2  =        -0.672847E-03  / Dec per pixel [deg]                                                                             
+CROTA1  =         0.317443E+00  / Rotation angle in R.A. [deg]                                                                    
+CROTA2  =         0.317443E+00  / Rotation angle in Dec [deg]                                                                     
+SENSE   =                    T  / Sense of rotation, T=counterclws., F=clockwise                                                  
+CRVAL1  =         0.961125E+02  / R.A. at reference point [deg]                                                                   
+CRVAL2  =         0.102762E+02  / Dec at reference point [deg]                                                                    
+RA--HEAD=         0.961554E+02  / R.A. of comet head at mid-exposure [deg]                                                        
+DEC-HEAD=         0.101321E+02  / Dec of comet head at mid-exposure [deg]                                                         
+COMMENT                                                                                                                           
+COMMENT                         / Processing and analysis information                                                             
+DATE-REC= '04/06/87          '  / Date plate was received at GSFC, dd/mm/yy                                                       
+HISTORY   DATE-PDS= '29/03/88'  / Date of plate digitization, dd/mm/yy                                                            
+HISTORY   DATE-PRC= '04/04/88'  / Date processed/calibrated, dd/mm/yy                                                             
+QUALITY = '2222              '  / Quality of plate,guiding,trails,seeing,transp.                                                  
+HISTORY  CONVERTED TO FITS BY PROGRAM IHWP2F WED APR 06,1988                                                                      
+HISTORY  PDS OPERATOR'S COMMENT FOLLOWS:                                                                                          
+HISTORY 880329 ID194310 S200 A20 L1024 P1024                                                                                      
+END                                                                                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+        The meaning of the FITS keywords is fairly straightforward in the exam-                                                   
+ple header given (see text descriptions to the right of the / in each line), and                                                  
+most will not be belabored here.  Many of the keywords near the top of the                                                        
+header--BITPIX, NAXIS, NAXIS1, NAXIS2, etc.--are standard, mandatory keywords                                                     
+which have been described by Wells et al. (1981).  The reader is referred to                                                      
+that paper for further details.                                                                                                   
+                                                                                                                                  
+        DATE-REL was originally intended to give the earliest possible release                                                    
+date for imagery contributed by network members, but is now irrelevant since the                                                  
+archive is complete and is being distributed.  The SYSTEM code denotes the ob-                                                    
+servatory and the instrument used to obtain the image; refer to Table II and to                                                   
+the general appendix listing for this information for all disciplines.  SPEC-EVT                                                  
+has been set = F for all the G-Z images because nothing truly outstanding was                                                     
+apparent in any of them. [In Halley, disconnection events, bursts of ray                                                          
+generation, and major distortions of the plasma tail merit the designation                                                        
+SPEC-EVT = T, but none of these were seen in G-Z].  PLTYPE designates whether                                                     
+the image was an original or a copy made by the contributing observer.  In some                                                   
+cases, when the observer sent the DS a high quality film copy only, it was                                                        
+possible to scan that copy. The history keywords OBSLOG, CMTS-OBS, and LSPN-OBS                                                   
+give the observatory plate ID, observer comments, and Discipline Specialist                                                       
+assessment of the image, respectively.                                                                                            
+                                                                                                                                  
+         Most of the keywords in the astrometry section have names and meanings                                                   
+identical to keywords defined by Wells et al. (1981), but in accordance with                                                      
+their strong suggestion, the uses and conventions of CROTA1, CROTA2, and SENSE                                                    
+will be defined precisely here.  All three keywords refer to the rotation of                                                      
+the X-Y PDS (microdensitometer) coordinate frame relative to the axes of the                                                      
+celestial coordinate system.  To reasonable accuracy, the +Y scanning axis is                                                     
+in the direction of North at the plate center, for the epoch of 1950.0.  The +X                                                   
+scanning axis is in the approximate direction of due East (again, at the plate                                                    
+center for 1950.0). As a result of the inevitable human error in positioning                                                      
+the plate on the PDS platen, however, there will be a non-zero rotation angle                                                     
+offset (very small) between the two coordinate systems.  When the North                                                           
+direction lies in the +X/+Y quadrant, i.e., is rotated in a counterclockwise                                                      
+direction relative to the +Y axis, we say that the rotation angles CROTA1 and                                                     
+CROTA2 are both positive (and of the same value).  A positive angle for such a                                                    
+counterclockwise rotation is what is meant by SENSE = T (check the text to the                                                    
+right of the SENSE keyword).                                                                                                      
+                                                                                                                                  
+        It will be noted from the values of RA-CPME, DEC-CPME, CRVAL1, and                                                        
+CRVAL2 in the sample header, that we define the reference point on the plate to                                                   
+be the tangent point or plate center.  The coordinates for the approximate                                                        
+comet head center are given by RA-HEAD and DEC-HEAD except when the scanned                                                       
+plate is an offset plate and the head is not present on the plate; in this case                                                   
+these keywords are simply dropped from the header.  Note that the head center                                                     
+coordinates are for reference purposes only and are not to be used for accurate                                                   
+positions of the nucleus; well-saturated, wide-field plates are certainly not                                                     
+suitable for that purpose! The QUALITY keyword gives a very subjective                                                            
+assessment of the condition of each scanned image in terms of five categories                                                     
+(plate, guiding, trails, seeing, and transparency); the scale is 1-5 (excellent                                                   
+to poor).                                                                                                                         
+                                                                                                                                  
+C. Dataless Headers (Unscanned Images)                                                                                            
+                                                                                                                                  
+        Ninety-four of the images received by the L-SP Center were not scanned,                                                   
+but FITS headers have been generated for them as well, and they reside on the                                                     
+CD-ROM.  These headers contain a subset of the keywords listed above, mostly                                                      
+those which describe platelog parameters (date, emulsion, filter, exposure                                                        
+time, etc.).                                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+V. PROCEDURES FOR DIGITIZING PLATES                                                                                               
+                                                                                                                                  
+A. Plate Materials                                                                                                                
+                                                                                                                                  
+        Most of the submissions to the Large-Scale Phenomena Discipline were in                                                   
+the form of photographic plates or films.  Original glass plates or film were                                                     
+most desirable for digitizing, but first generation film copies were also                                                         
+acceptable. Original plates were digitized whenever possible according to the                                                     
+scanning criteria outlined earlier, in Section IV.A.                                                                              
+                                                                                                                                  
+B. Hardware                                                                                                                       
+                                                                                                                                  
+        All digital images produced by the Large-Scale Phenomena DS Team were                                                     
+generated on one of the two Perkin-Elmer PDS 1010A Microdensitometers (PDSs) in                                                   
+the Laboratory for Astronomy and Solar Physics at GSFC.                                                                           
+                                                                                                                                  
+        The PDSs have been modified to enhance performance by replacing the                                                       
+original logarithmic amplifier circuit with a faster one (Anderson et al. 1983),                                                  
+and replacing the original analog-to-digital converter with one which provides                                                    
+a sample-and-hold circuit in support of the faster log amplifier.                                                                 
+                                                                                                                                  
+        Each PDS is controlled by a DEC PDP-11/23 minicomputer running version                                                    
+5.1 of the RT-11 operating system. The PDS is interfaced to the computer through                                                  
+a bus converter board that allows the Unibus interface of the PDS to operate on                                                   
+the Q-bus of the PDP-11/23.  The control programs were written in a combination                                                   
+of Fortran IV and PDP-11 assembly language.  All scanning was performed with                                                      
+the microdensitometers in density mode.                                                                                           
+                                                                                                                                  
+        The optical system of the microdensitometer passes a beam of light                                                        
+through a pre-slit aperture which defines the size of the scanning spot.  The                                                     
+beam is focused on the plate, then passes through a post-slit and a Fresnel lens                                                  
+to illuminate a photomultiplier tube.  The output voltage from the photomulti-                                                    
+plier tube is sent to a logarithmic amplifier, yielding an approximate photo-                                                     
+graphic density.  The output voltage from  the log amplifier is converted into                                                    
+PDS density units by a a 10-bit analog-to-digital converter.                                                                      
+                                                                                                                                  
+        The plate is scanned by moving the PDS platen, under computer control,                                                    
+in a raster pattern.  As the plate is passed through the light beam, the                                                          
+photomultiplier voltage is read at each pixel in real time.                                                                       
+                                                                                                                                  
+        The digital images were written in a PDS line-by-line format to magnetic                                                  
+tape at 1600 bpi on Kennedy 9000-series dual density (1600/800 bpi) tape drives.                                                  
+The PDS format tapes were converted to FITS format on the IBM 3081 mainframe at                                                   
+Goddard, then checked for readability and accuracy on a VAX 11/750 computer in                                                    
+the LASP before submission to the Lead Center.                                                                                    
+                                                                                                                                  
+C.  Preliminary Procedures                                                                                                        
+                                                                                                                                  
+        Before scanning a plate, the microdensitometer was used as a measuring                                                    
+engine to produce an astrometric solution for the entire plate.  The astrometry                                                   
+program assumes a Schmidt plate geometry, using the transformation equations                                                      
+given by Dixon (1962).  The assumption of Schmidt plate geometry yields                                                           
+acceptable results even for plates from other types of telescopes.                                                                
+                                                                                                                                  
+        Reference stars were selected from the AGK3 catalog for plates north of                                                   
+-5 deg declination.  The Perth-70 catalog was used for southern declinations.                                                     
+Although the SAO catalog is generally unacceptable for astrometric work, it was                                                   
+occasionally used when none of the other catalogs yielded an adequate number of                                                   
+reference stars to get a satisfactory plate solution.  The software corrects for                                                  
+proper motions from the catalog date to the plate epoch, and precession may be                                                    
+performed to any desired date.  All positions are given in 1950.0 coordinates.                                                    
+                                                                                                                                  
+        Mean astrometric error depends strongly on the individual plate scales                                                    
+and somewhat on the number of acceptable reference stars available, but is                                                        
+typically less than 10 arcsec (worst case) and frequently is on the order of                                                      
+2 to 5 arcsec.                                                                                                                    
+                                                                                                                                  
+        The plate solution was used to measure the rotation angle of the                                                          
+North-South meridian passing through the plate center, relative to the  Y-axis                                                    
+of the microdensitometer.  The coordinates of the comet's head center were also                                                   
+calculated, although this manual measurement provides only a crude location for                                                   
+the nucleus embedded in a highly-saturated coma.                                                                                  
+                                                                                                                                  
+D.  Scanning                                                                                                                      
+                                                                                                                                  
+        After completion of the astrometry, the region of interest on the plate                                                   
+was scanned.  The aperture size was selected to yield roughly the same angular                                                    
+resolution per pixel, regardless of the original plate scale.  Typically, an                                                      
+aperture of 40 or 50 microns was used on plates with plate scales around 100                                                      
+arcsec/mm, and an aperture of 10 or 20 microns was used for plates with scales                                                    
+greater than about 200 arcsec/mm.  Spatial resolution of the photographic                                                         
+emulsions limits the smallest usable apearture to 5 or 10 microns in any event.                                                   
+Generally, the step size was equal to the aperture size, so the pixels were                                                       
+contiguous across the scan line with no oversampling.                                                                             
+                                                                                                                                  
+        The photomultiplier tube high voltage was set to yield 0 density on                                                       
+clear glass, when clear glass was available.  Otherwise, the density was set to                                                   
+around 0.1D on the background fog, primarily to avoid negative density values                                                     
+in the resulting digital image.                                                                                                   
+                                                                                                                                  
+        The 10-bit analog-to-digital converter yields integers in the range 0 to                                                  
+1023.  These may be converted to an approximate photographic density by dividing                                                  
+by 200.                                                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+ACKNOWLEDGEMENTS                                                                                                                  
+                                                                                                                                  
+        Without the diligent efforts of LSPN observers to obtain and submit                                                       
+observations of comet Giacobini-Zinner, these printed and CD-ROM archives for                                                     
+Large-Scale Phenomena would not have been possible, at least not in their                                                         
+existing substantial form.  It is a pleasure for the Discipline Specialists to                                                    
+thank each and every contributing L-SP Network Observer both for submitted                                                        
+observations of Giacobini-Zinner, and of Halley.  We are very hard at work on                                                     
+the latter archives at the moment, and think that when it is finished it will                                                     
+speak extremely highly of the cooperation of astronomers worldwide.                                                               
+                                                                                                                                  
+        Contributors to the L-SP Discipline effort who are not listed in Table                                                    
+I, but who strongly deserve recognition as well as our thanks are: L.L. Taylor,                                                   
+M.R. Greason, K. Bhagat, J. Gagliardi (all of ST Systems Corporation), J.                                                         
+Sinclair (Royal Greenwich Observatory, Hailsham, East Sussex, U.K.), W. Liller                                                    
+(Instituto Isaac Newton, Vina del Mar, Chile), and P.D. Usher (Pennsylvania                                                       
+State University, University Park, PA 16802, U.S.A.).                                                                             
+                                                                                                                                  
+        J.C. Brandt and M.B. Niedner would like to express their thanks to E.P.                                                   
+Moore of the Joint Observatory for Cometary Research (JOCR), Socorro, NM 87801,                                                   
+U.S.A., for his hospitality during a run at JOCR in September 1985 observing G-Z                                                  
+days after the historic ICE encounter and during the G-Z/Halley conjunction.                                                      
+                                                                                                                                  
+                                                                                                                                  
+REFERENCES                                                                                                                        
+                                                                                                                                  
+Anderson, C., Slovak, M.H., and Michalski, D.E. (1983).  In Astronomical Micro-                                                   
+        densitometry Conference, NASA CP-2317, edited by D.A. Klinglesmith (U.S.                                                  
+        GPO, Washington, DC), p. 163.                                                                                             
+Bame, S.J., Anderson, R.C., Asbridge, J.R., Baker, D.N., Feldman, W.C.,                                                           
+        Fuselier, S.A., Gosling, J.T., McComas, D.J., Thomsen, M.F., Young, D.                                                    
+        T., and Zwickl, R.D. (1986).  Science 232, 356.                                                                           
+Brandt, J.C., Niedner, M.B., Jr., and Farquhar, R.W. (1985).  Advances in Space                                                   
+        Research 5, No. 12, p. 3.                                                                                                 
+Dixon, M.E. (1962).  Mon. Not. R. Astron. Soc. South Africa 21, 180.                                                              
+Meyer-Vernet, N., Couturier, P., Hoang, S., Perche, C., and Steinberg, J.L.                                                       
+        (1986).  Geophys. Res. Lett. 13, 279.                                                                                     
+Slavin, J.A., Goldberg, B.A., Smith, E.J., McComas, D.J., Bame, S.J., Strauss,                                                    
+        M.A., and Spinrad, H. (1986).  Geophys. Res. Lett. 13, 1085.                                                              
+Smith, E.J., Tsurutani, B.T., Slavin, J.A., Jones, D.E., Siscoe, G.L., and                                                        
+        Mendis, D.A. (1986).  Science 232, 382.                                                                                   
+von Rosenvinge, T.T., Brandt, J.C., and Farquhar, R.W. (1986).  Science 232,                                                      
+        353.                                                                                                                      
+Wells, D.C., Greisen, E.W., and Harten, R.H. (1981).  Astron. Astrophys. Suppl.                                                   
+        44, 363.                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  

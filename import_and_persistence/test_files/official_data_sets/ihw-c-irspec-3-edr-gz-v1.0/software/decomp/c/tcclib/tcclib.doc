@@ -1,0 +1,1227 @@
+-------------------------------------------------------------------------
+Accept
+-------------------------------------------------------------------------
+void Accept( int x, int y, char *Prompt, char *Buffer, int Length );
+
+Parameters:
+    x,y     column, row where the prompt will be printed
+    Prompt  the prompt
+    Buffer  the address of the buffer where the response is stored
+    Length  the maximum allowed length of the response
+
+-------------------------------------------------------------------------
+AllBlanks
+-------------------------------------------------------------------------
+int AllBlanks( register char *cp );
+
+Returns 1 if the string is null or all spaces.  If the string
+contains any non-space characters, it returns 0.
+
+-------------------------------------------------------------------------
+AtSay
+-------------------------------------------------------------------------
+void AtSay( int col, int row, register char *string );
+
+Writes the string at the given position on the screen, using the
+global variable "attrib" for the screen attribute.
+
+-------------------------------------------------------------------------
+AtSayA
+-------------------------------------------------------------------------
+void AtSayA( int col, int row, unsigned char attrib, register char *cp );
+
+Writes the string at the given position on the screen, using the
+paramter "attrib" for the screen attribute.
+
+-------------------------------------------------------------------------
+AtSayF
+-------------------------------------------------------------------------
+void AtSayF( int col, int row, char *fmt, ... );
+
+Writes the string at the given position on the screen, using the
+global variable "attrib" for the screen attribute.  This function
+allows the "printf" convention of multiple parameters.
+
+Example: AtSayF( 5, 10, "%d %s %d", 15, "Hello World", 73 )
+
+-------------------------------------------------------------------------
+AtSayFA
+-------------------------------------------------------------------------
+void AtSayFA( int col, int row, unsigned char attrib, char *fmt, ... );
+
+Writes the string at the given position on the screen, using the
+paramter "attrib" for the screen attribute.  This function
+allows the "printf" convention of multiple parameters.
+
+-------------------------------------------------------------------------
+Beep
+-------------------------------------------------------------------------
+void Beep();
+
+Beep sounds the seaker.
+
+-------------------------------------------------------------------------
+Bit
+-------------------------------------------------------------------------
+unsigned Bit( int x );
+
+Returns the value of the xth bit.  X is zero-relative.
+Example: Bit(0) = 1, Bit(7) = 256
+
+-------------------------------------------------------------------------
+BlockErase
+-------------------------------------------------------------------------
+void BlockErase( int x, int y, int xx, int yy );
+
+Erases the block (window) on the screen with the top left corner
+denoted by x,y and the bottom right corner denoted by xx,yy.  The
+global variable "attrib" is used to determine what attribute will
+be used for the area that is erased.
+
+-------------------------------------------------------------------------
+BoldText
+-------------------------------------------------------------------------
+void BoldText( void );
+
+Changes the text attribute to the global variable A_REVERSE.
+
+-------------------------------------------------------------------------
+CapsLock
+-------------------------------------------------------------------------
+void CapsLock( int flag );
+
+If "flag" is non-zero, the caps lock will be turned on.  If "flag"
+is zero, the caps lock will be turned off.
+
+-------------------------------------------------------------------------
+Center
+-------------------------------------------------------------------------
+void Center( int y, char *s );
+
+Centers the string "s" on the row "y", using the global variable
+"attrib" for screen attributes.
+
+-------------------------------------------------------------------------
+CenterA
+-------------------------------------------------------------------------
+void CenterA( int y, unsigned char attrib, char *s );
+
+Centers the string "s" on the row "y", using the parameter
+"attrib" for screen attributes.
+
+-------------------------------------------------------------------------
+CenterF
+-------------------------------------------------------------------------
+void CenterF( int y, char *fmt, ... );
+
+Centers the given string on the row "y", using the parameter
+"attrib" for screen attributes.  Allows multiple parameters like
+"printf".
+
+Example: CenterF( 10, "%s %s %s", "This", "is", "centered" );
+
+-------------------------------------------------------------------------
+CenterFA
+-------------------------------------------------------------------------
+void CenterFA( int y, unsigned char attrib, char *fmt, ... );
+
+Centers the given string on the row "y", using the parameter
+"attrib" for screen attributes.  Allows multiple parameters like
+"printf".
+
+-------------------------------------------------------------------------
+ChangeBlock
+-------------------------------------------------------------------------
+void ChangeBlock( int x, int y, int xx, int yy, char attrib );
+
+ChangeBlock changes the attributes of a block on the screen.  The
+top left of the block is given as x,y and the bottom right is given
+as xx,yy.  The screen attributes for the block are changed to the
+paramter "attrib".
+ 
+-------------------------------------------------------------------------
+CheckPrn
+-------------------------------------------------------------------------
+int CheckPrn( void );
+
+Returns a 1 if the printer is attatched and ready to print.  Returns
+0 if the printer is not attached, off-line, out of paper, etc.
+
+-------------------------------------------------------------------------
+ClearBeg
+-------------------------------------------------------------------------
+char *ClearBeg( register char *cp );
+
+Returns the address of the first non-space character in the string.
+
+-------------------------------------------------------------------------
+ClearBuf
+-------------------------------------------------------------------------
+void ClearBuf( void );
+
+Clears the keyboard buffer.
+
+-------------------------------------------------------------------------
+ClearCRLF
+-------------------------------------------------------------------------
+char *ClearCRLF( register char *cp );
+
+Deletes all control characters from the end of a string.
+Used primarily to delete Carraige Returns and Line Feeds.
+
+-------------------------------------------------------------------------
+ClearEnd
+-------------------------------------------------------------------------
+char *ClearEnd( register char *cp );
+
+Deletes all spaces that appear at the end of a string.
+
+-------------------------------------------------------------------------
+CopyFile
+-------------------------------------------------------------------------
+int CopyFile( char *src, char *dest );
+
+Copies a disk file.
+
+Returns -1 if there was not enough memory to allocate.
+Returns -2 if the source file was not found or not succesfully opened.
+Returns -3 if the destination file was not succesfully created.
+Returns -4 if there was an error writing to the destination file.
+Returns 0 if succesful.
+
+-------------------------------------------------------------------------
+CurrentPos
+-------------------------------------------------------------------------
+unsigned char far *CurrentPos( void );
+
+This is not a replacement for gotoxy.
+
+Returns a far character pointer to the screen memory corresponding
+with the current cursor position.  Useful for writing your own fast
+video routines.  It automatically determines whether the display is
+monochrome or color, and returns the appropriate pointer.
+
+-------------------------------------------------------------------------
+CursorOff
+-------------------------------------------------------------------------
+void CursorOff( void );
+
+Turns the cursor off.
+
+-------------------------------------------------------------------------
+CursorOn
+-------------------------------------------------------------------------
+void CursorOn( void );
+
+Turns the cursor on.
+
+-------------------------------------------------------------------------
+DrawBox
+-------------------------------------------------------------------------
+void DrawBox( int x, int y, int xx, int yy );
+
+Draws a double line box on the screen.
+
+-------------------------------------------------------------------------
+DrawBox1
+-------------------------------------------------------------------------
+void DrawBox1( int x, int y, int xx, int yy );
+
+Draws a single line box on the screen.
+
+-------------------------------------------------------------------------
+Exists
+-------------------------------------------------------------------------
+int Exists( char *filename );
+
+Returns 1 if the file exists, 0 if not.
+
+-------------------------------------------------------------------------
+ExplodeBox
+-------------------------------------------------------------------------
+void ExplodeBox( int x, int y, int xx, int yy );
+
+Draws a double line box on the screen, exploding out from
+the center.
+
+-------------------------------------------------------------------------
+ExplodeBox1
+-------------------------------------------------------------------------
+void ExplodeBox1( int x, int y, int xx, int yy );
+
+Draws a single line box on the screen, exploding out from
+the center.
+
+-------------------------------------------------------------------------
+FileName
+-------------------------------------------------------------------------
+char *FileName( FileStruc *fp );
+
+Returns the filename from the structure fp.  If there is no
+extension, the period is not included.
+
+-------------------------------------------------------------------------
+FileSize
+-------------------------------------------------------------------------
+long FileSize( char *filename );
+
+Returns the size in bytes of the given file.  This differs from 
+the Turbo C funtion "filelength" in that you pass a filename
+rather than first openingthe file and then passing the handle.
+
+-------------------------------------------------------------------------
+GComm
+-------------------------------------------------------------------------
+int GComm( void );
+
+Returns the value of the next keypress.  The values for all special
+keys (F1, HOME, TAB, etc.) are defined in TCCLIB.H  If you include
+the header file TCCLIB.H, you may use the macros F1,F2,...F10,HOME,END,
+PGUP,PGDN,RIGHT,LEFT,UP,DOWN,TAB,etc.
+
+-------------------------------------------------------------------------
+GCommBackground
+-------------------------------------------------------------------------
+void GCommBackground( void (*funt)(void) );
+
+Lets the user specify a function that will be performed while the
+computer is waiting for a keystroke.  Examples are getting the time
+and putting it on the screen, or keeping a counter and blanking the
+screen after the counter reaches a certain point.  The function 
+specified must be abel to execute very quickly to insure that the
+GComm routine will return keystrokes reliably.
+
+Use GCommBackground( NULL ) to turn off any previously specified
+background routine.
+
+-------------------------------------------------------------------------
+GCommCheck
+-------------------------------------------------------------------------
+int GCommCheck( int Key );
+
+Returns 1 if the specified key has been linked to a function.
+Otherwise, it returns 0.
+
+-------------------------------------------------------------------------
+GCommLink
+-------------------------------------------------------------------------
+void GCommLink( int Key, void (*funct)( void ) );
+
+Links a function to a key, so that any time that key is pressed
+during program execution, the specified function will be executed.
+This requires that GComm be used for all user input.  All input
+routines in this library use GComm to input keystrokes.
+
+-------------------------------------------------------------------------
+GCommUnlink
+-------------------------------------------------------------------------
+void GCommUnlink( int Key );
+
+Removes any links in the GComm module for the specified key.  See
+also GCommLink.
+
+-------------------------------------------------------------------------
+GetAllFields
+-------------------------------------------------------------------------
+void GetAllFields( FieldStruc *Field, int NUMFIELDS,
+                  int (*CharHandler)( int ch ),
+                  void (*Update)( void ) );
+
+This function controls the input of multiple input fields on
+the screen until a negative value is passed back by the user
+function CharHandler.  The ESCape key does not automatically
+terminate the function, but rather is passed to CharHandler.
+
+Parameters:
+    Field:     address of the array of structures
+    NUMFIELDS: how many structures are in the array
+    CharHandler: any keys not used by GetAllFields are passed to this
+               this allows you to handle the F1-F10 keys, etc. for
+               special functions of your own.
+               IMPORTANT: if this function returns a negative value,
+               GetAllFields will return to the calling funtion.
+    Update:    this function is called to update the screen between
+               the time the user finished one field and moves on to
+               another.  If you have calculations to perform based on
+               the value of certain fields and then want to show
+               the results, do it in this function.
+
+Example:
+FieldStruc Example[] = {
+   10,  5, 15, F_PTR, Variable1, 1, 0,
+   20,  6, 15, F_PTR, Variable2, 0, 0,
+   30,  7, 15, F_PTR, Variable3, 1, 0,
+   40,  8, 15, F_PTR, Variable4, 1, 0,
+   50,  9, 15, F_PTR, Variable5, 1, 0,
+   60, 10, 15, F_PTR, Variable6, 1, 0,
+};
+
+GetAllFields( &Example, 6 );
+/* this will get input from the user.  If the user presses any
+   cursor arrow key, the routine will determine which field to
+   goto next, then get that field next.  The second field has a
+   zero in the EditFlag position, which means that it will be
+   output, but cannot be edited or changed. */
+
+-------------------------------------------------------------------------
+GetCursor
+-------------------------------------------------------------------------
+void GetCursor( int *Top, int *Bottom );
+
+Returns the top and bottom lines of the current cursor.
+Be sure to pass the addresses of integers, rather than the
+integers themselves to this function.
+
+Example: GetCursor( &topline, &bottomline );
+
+-------------------------------------------------------------------------
+GetDate
+-------------------------------------------------------------------------
+int GetDate( unsigned StartDate );
+
+Pops up a calendar on the screen, and allows the user to select a
+date from that calendar.  The user uses PgDn/PgUp to go to the next
+or previous month, and UP/DOWN/LEFT/RIGHT to move from day to day 
+or week to week.  The calendar defaults to the date specified in
+StartDate.
+
+-------------------------------------------------------------------------
+getchf
+-------------------------------------------------------------------------
+char getchf( char *LIST, char DEFCHAR );
+
+Accepts a character from the keyboard.  If the char is one of the
+characters in the string LIST, it is returned.  Otherwise, DEFCHAR
+is returned.
+
+-------------------------------------------------------------------------
+GetDouble
+-------------------------------------------------------------------------
+double GetDouble( void );
+
+Accepts a string and returns the value of the string as a double.
+
+-------------------------------------------------------------------------
+GetField
+-------------------------------------------------------------------------
+int GetField( FieldStruc *Field );
+
+This is a powerful input function, capable of accepting text,
+integer, long, boolean, date, or double fields.
+
+Before using this function, define a structure or array of 
+structures of type FieldStruc.
+
+FieldStruc is defined in TCCLIB.H as having the following elements:
+    int   X             column where field starts
+    int   Y             row where field is
+    int   Len           length of field
+    int   Type          type of field (see chart below)
+    char *Address       address of variable being input
+    int   EditFlag      1 = allow input,  0 = view only
+    int   NumDecimals   how many digits to the right of the decimal
+                        for doubles.
+
+     Types  Value  Description
+    ------  -----  ----------------
+    F_PTR     0    String (character array)
+    F_INT     1    integer
+    F_INT0    2    integer with preceding zeros
+    F_CHAR    3    single character
+    F_LNG     4    long
+    F_LNG0    5    long with preceding zeros
+    F_DBL     6    double
+    F_DATE    8    date
+    F_BLN     9    boolean (Y or N)
+
+Return Values:
+    Pressing any of the following keys will return from GetField:
+
+    SHFT_TAB   returns the value LEFT
+    CTL_RIGHT  returns the value LEFT
+
+    TAB:       returns the value RIGHT
+    CTL_LEFT:  returns the value RIGHT
+
+    The following keys return their own values:
+        CR  LF  DOWN  UP  PGDN  PGUP  
+        HOME  END  F1-F10  ESC
+
+    RIGHT and LEFT return their respective values IF they 
+    are the first key pressed within a field.  Otherwise, 
+    they move the cursor back and forth within the field.
+
+-------------------------------------------------------------------------
+GetFieldA
+-------------------------------------------------------------------------
+int GetFieldA( int x, int y, int len, int type, char *address );
+
+This function can be used to accept a single entry field, and
+to relieve the programmer of setting up and array for just one
+entry.  See GetField for a list of Types.
+
+-------------------------------------------------------------------------
+GetFile
+-------------------------------------------------------------------------
+char *GetFile( int x, int y, int xx, int yy,
+               char *Mask,
+               int FileAttrib,
+               int ExtOn );
+
+This function draws a box and lists inside the box all files that
+match the pattern given.  The user may select a file from the list,
+or type in a filename at the keyboard.
+
+-------------------------------------------------------------------------
+GetInt
+-------------------------------------------------------------------------
+int GetInt( void );
+
+Accepts a string and returns the value of the string as a int.
+
+-------------------------------------------------------------------------
+GetLine
+-------------------------------------------------------------------------
+int GetLine( char *ptr, int size, int start );
+
+Accepts a line of input from the user.  The line cannot exceed
+"size" characters.  Entry will begin at position "start".  If the 
+user hits ESC, the routine will return 0.  Otherwise it returns
+the length of the string.
+
+-------------------------------------------------------------------------
+GetLong
+-------------------------------------------------------------------------
+long GetLong( void );
+
+Accepts a string and returns the value of the string as a long.
+
+-------------------------------------------------------------------------
+GetRec
+-------------------------------------------------------------------------
+int GetRec( int filehandle, void *buffer, int sizeofrec, long fileptr );
+
+This function reads "sizeofrec" bytes from position "fileptr"
+from the opened file into "buffer".  It returns 0 if successfull,
+-1 on error.
+
+-------------------------------------------------------------------------
+GetScreen
+-------------------------------------------------------------------------
+void GetScreen( char *buffer );
+
+Stores the 4000 bytes of screen memory at the buffer.  Make sure
+that the buffer is 4000 or more bytes long.
+
+-------------------------------------------------------------------------
+getstringnum
+-------------------------------------------------------------------------
+int getstringnum( char *menu[], int items, int x1, int y1, int x2, int y2 );
+
+This function draws a box at the given coordinates (x1,y1,x2,y2) and
+displays the strings pointed to by menu.  The user selects one by
+cursoring up or down to it, then pressing RETURN.  The subscript
+of the string that was selected is returned.
+
+-------------------------------------------------------------------------
+GetVidMode
+-------------------------------------------------------------------------
+int GetVidMode( void );
+
+Returns the current video mode.
+
+-------------------------------------------------------------------------
+GetYN
+-------------------------------------------------------------------------
+int GetYN( char *s );
+
+This function draws a box in the middle of he screen and displays the
+string specified.  If the user pressed 'Y' then a 1 is returned.
+If the use presses a 'N' then a 0 is returned.
+
+-------------------------------------------------------------------------
+HideCursor
+-------------------------------------------------------------------------
+void HideCursor( void );
+
+This function hides the cursor just off the screen, rather than
+turning it off.  The next video output function will restore the
+cursor to the screen.  Exceptions to this are the AtSay functions
+and OutChar functions which write directly to screen memory and
+do not update the cursor position.
+
+-------------------------------------------------------------------------
+HLin
+-------------------------------------------------------------------------
+void HLin( int x, int y, int xx, int yy );
+
+Draws a horizontal double line on the screen.
+
+-------------------------------------------------------------------------
+HLin1
+-------------------------------------------------------------------------
+void HLin1( int x, int y, int xx, int yy );
+
+Draws a horizontal single line on the screen.
+
+-------------------------------------------------------------------------
+HorzMenu
+-------------------------------------------------------------------------
+void HorzMenu( MenuPtr *Menu, int Items, int x1, int y1, int x2, int y2 );
+
+This function creates a Lotus-like menu on the screen.  The coordinates
+in x1,y1 specify where the menu is to begin.  The coordinates in
+x2,y2 specify where the description for each choice should be displayed.
+
+-------------------------------------------------------------------------
+IsAT
+-------------------------------------------------------------------------
+int IsAT( void );
+
+Returns a 1 if the machine is an AT-class.
+
+-------------------------------------------------------------------------
+IsCGA
+-------------------------------------------------------------------------
+int IsCGA( void );
+
+Returns a 1 if the current video is to a CGA monitor.
+
+-------------------------------------------------------------------------
+IsEGA
+-------------------------------------------------------------------------
+int IsEGA( void );
+
+Returns a 1 if the current video is to a EGA monitor.
+
+-------------------------------------------------------------------------
+IsMONO
+-------------------------------------------------------------------------
+int IsMONO( void );
+
+Returns a 1 if the current video is to a monochrome monitor.
+
+-------------------------------------------------------------------------
+Julian
+-------------------------------------------------------------------------
+unsigned Julian( char *DateStr );
+
+Returns the Julian date for the specified DateStr.  The string must be
+in the form mm-dd-yy or mm/dd/yy.  The year can be 19yy or just yy.
+
+-------------------------------------------------------------------------
+MakeBox
+-------------------------------------------------------------------------
+void MakeBox( char *s );
+
+This function draws a box in the middle of the screen and displays
+the specifed text in the box.  The box is fitted to size based on the 
+length of the specified text.
+
+-------------------------------------------------------------------------
+MaxRAM
+-------------------------------------------------------------------------
+long MaxRAM( void );
+
+Returns the number of bytes of installed RAM.
+
+-------------------------------------------------------------------------
+NormalText
+-------------------------------------------------------------------------
+void NormalText( void );
+
+Changes the text attribute to the global variable A_NORMAL.
+
+-------------------------------------------------------------------------
+NPrint
+-------------------------------------------------------------------------
+void NPrint( int num, char *cp );
+
+Prints the first "num" characters of cp.
+
+-------------------------------------------------------------------------
+NPrintA
+-------------------------------------------------------------------------
+void NPrintA( int num, int attrib, char *cp );
+
+Prints the first "num" characters of cp, using "attrib" as the 
+text attribute.
+
+-------------------------------------------------------------------------
+NPrintF
+-------------------------------------------------------------------------
+void NPrintF( int num, char *fmt, ... );
+
+Prints the first "num" characters of the expanded paramter.
+
+-------------------------------------------------------------------------
+NPrintFA
+-------------------------------------------------------------------------
+void NPrintFA( int num, int attrib, char *fmt, ... );
+
+Prints the first "num" characters of the expanded paramter, 
+using "attrib" for the text attribute.
+
+-------------------------------------------------------------------------
+NumLock
+-------------------------------------------------------------------------
+void NumLock( int flag );
+
+If "flag" is non-zero, the num lock will be turned on.  If "flag"
+is zero, the num lock will be turned off.
+
+-------------------------------------------------------------------------
+OutChar
+-------------------------------------------------------------------------
+void OutChar( unsigned char c );
+
+Outputs the character at the current row and column.
+
+-------------------------------------------------------------------------
+OutCharA
+-------------------------------------------------------------------------
+void OutCharA( unsigned char attrib, unsigned char c );
+
+Outputs the character at the current row and column, using
+"attrib" for the text attribute.
+
+-------------------------------------------------------------------------
+posneg
+-------------------------------------------------------------------------
+int posneg( int i );
+
+If the integer specified is negative then a -1 is returned.  If it is 
+positive then a 1 is returned.  If it is 0 then a 0 is returned.
+
+-------------------------------------------------------------------------
+PopCurpos
+-------------------------------------------------------------------------
+void PushCurpos( void );
+
+Restores the cursor position to what it was when PushCurpos was called.
+
+-------------------------------------------------------------------------
+PushCurpos
+-------------------------------------------------------------------------
+void PushCurpos( void );
+
+Saves the current cursor position, to be reset by PopCurpos
+
+-------------------------------------------------------------------------
+PopScreen
+-------------------------------------------------------------------------
+void PushScreen( void );
+
+Restores the cursor position to what it was the last time PushScreen 
+was called.
+
+-------------------------------------------------------------------------
+PushScreen
+-------------------------------------------------------------------------
+void PushScreen( void );
+
+Saves the current screen into a stack.  Up to 32 screens may be saved
+this way.  The next call to PopScreen will pop the screen off the stack
+and write it to video memory.
+
+-------------------------------------------------------------------------
+PutCursor
+-------------------------------------------------------------------------
+void PutCursor( int Top, int Bottom );
+
+This is not a replacement for gotoxy.  Rather, it determines
+how big the cursor is.  Use this to create a block cursor, or
+one that is a dash rather than an underline.
+
+-------------------------------------------------------------------------
+PutDate
+-------------------------------------------------------------------------
+void PutDate( int x, int y, int format );
+
+Puts the current date on the screen at the given position.
+
+    Format  Output
+    ------  ----------------
+       1    MM/DD/YY
+       2    MMM DD, YYYY
+       3    DD-MMM-YY
+       4    MMM YY
+
+-------------------------------------------------------------------------
+PutField
+-------------------------------------------------------------------------
+void PutField( FieldStruc *Field );
+
+Puts the given field on the screen.  See Getfield for a description
+of FieldStruc.
+
+-------------------------------------------------------------------------
+PutRec
+-------------------------------------------------------------------------
+int PutRec( int filehandle, void *buffer, int sizeofrec, long fileptr );
+
+Writes from "buffer" to the file.  Returns 0 on success, -1 on error.
+See also GetRec.
+
+-------------------------------------------------------------------------
+PutScreen
+-------------------------------------------------------------------------
+void PutScreen( char *buffer );
+
+Puts from memory to the screen.  Buffer must be 4000 bytes long.
+
+-------------------------------------------------------------------------
+PutTime
+-------------------------------------------------------------------------
+void PutTime( int x, int y, int format );
+
+Puts the current time on the screen at the given position.
+
+    Format  Output
+    ------  ----------------
+       1    HH:MM:SS (24-hour)
+       2    HH:MM    (24-hour)
+       3    HH:MM:SS AM/PM
+       4    HH:MM    AM/PM
+
+-------------------------------------------------------------------------
+RepChar
+-------------------------------------------------------------------------
+void RepChar( int num, unsigned char c );
+
+Writes the character "c" "num" times at the given location.
+
+-------------------------------------------------------------------------
+RepCharAttr
+-------------------------------------------------------------------------
+void RepCharAttr( int num, unsigned char attrib, unsigned char c );
+
+Writes the character "c" "num" times at the given location,
+using "attrib" for the text attribute.
+
+-------------------------------------------------------------------------
+RestoreCurPos
+-------------------------------------------------------------------------
+void RestoreCurPos( unsigned char far *scptr );
+
+This funtion is called at the end of the Say family of functions
+to set the cursor position after printing the string.  It can be 
+used to set the cursor position to an absolute screen memory 
+position.
+
+-------------------------------------------------------------------------
+RevJul
+-------------------------------------------------------------------------
+char *RevJul( unsigned date );
+
+Returns the given date as a string in the form MM-DD-YY.
+
+-------------------------------------------------------------------------
+ReverseText
+-------------------------------------------------------------------------
+void ReverseText( void );
+
+Changes the text attribute to the global variable A_REVERSE.
+
+-------------------------------------------------------------------------
+Say
+-------------------------------------------------------------------------
+void Say( register char *cp );
+
+Same as puts or cputs, only quicker.
+
+-------------------------------------------------------------------------
+SayA
+-------------------------------------------------------------------------
+void SayA( unsigned char attrib, register char *cp );
+
+Same as Say, except that "attrib" is used for text attributes.
+
+-------------------------------------------------------------------------
+SayF
+-------------------------------------------------------------------------
+void SayF( char *fmt, ... );
+
+Same as printf or cprintf, only quicker.
+
+-------------------------------------------------------------------------
+SayFA
+-------------------------------------------------------------------------
+void SayFA( char attrib, char *fmt, ... );
+
+Same as printf or cprintf.  "attrib" is used for text attributes.
+
+-------------------------------------------------------------------------
+ScanDir
+-------------------------------------------------------------------------
+FileStruc *ScanDir( char *Mask, int FileAttrib );
+
+Searches for files matching the mask.  If no directory
+is included in the mask, the current  directory will be used.
+"FileAttrib" tells ScanDir which types of files to allow.
+(Hidden, System, etc.)  0xff includes files of all types, 
+0x00 includes only those files which appear in a normal directory 
+listing from DOS. See DOS.H for file types and corresponding 
+attributes.
+
+-------------------------------------------------------------------------
+ScanTree
+-------------------------------------------------------------------------
+void ScanTree( char *path, char *filespec,
+               void (*FN)(FileStruc *f, char *p) );
+
+ScanTree searches through "path" for files matching "filespec".
+It also searches any subdirectories found while searching "path".
+Once it finds a matching file, it calls the user-written function 
+"FN", passing pointers to the FileStruc for the file and the Path 
+where the file was found.
+
+EXAMPLE:  Whereis Program to search drive C.  It will print
+          the path and filename of every file on drive C that
+          matches the command line argument that is passed to
+          this program.  You can easily extend this to include
+          size, date and time of the file; even stop after each
+          page full to wait for a keystroke.
+
+#include "tcclib.h"
+
+void PrintName( FileStruc *f, char *p )
+{
+    SayF("%s%s\n", p, FileName( f ) );  /* see FileName */
+/*
+    (Returning a -1 here will stop ScanTree dead in it's tracks.
+    see the Demo program for an example of this.)
+*/
+    return( 0 );
+}
+
+main( int argc, char *argv[] )
+{
+    ScanTree( "C:\\", argv[1], PrintName );
+}
+
+-------------------------------------------------------------------------
+ScrAttr
+-------------------------------------------------------------------------
+int ScrAttr( void );
+
+Returns the text attribute at the current location of the cursor.
+
+-------------------------------------------------------------------------
+ScrChar
+-------------------------------------------------------------------------
+int ScrChar( void );
+
+Returns the text character at the current location of the cursor.
+
+-------------------------------------------------------------------------
+ScrollDown
+-------------------------------------------------------------------------
+void ScrollDown( int x, int y, int xx, int yy, int n );
+
+Scrolls the given section of the screen down "n" lines.  If "n"
+equals 0, the section of the screen is blanked.
+
+-------------------------------------------------------------------------
+ScrollLock
+-------------------------------------------------------------------------
+void ScrollLock( int flag );
+
+If "flag" is non-zero, the scroll lock will be turned on.  If "flag"
+is zero, the scroll lock will be turned off.
+
+-------------------------------------------------------------------------
+ScrollMessage
+-------------------------------------------------------------------------
+void ScrollMessage( char *msg );
+
+This routine draws a box in the middle of the screen and scrolls the 
+given accross the screen from the right until it is centered.  At the
+same time, it scrolls the prompt "Press any key ..." over from the
+left until it is also centered.  It then waits until a key is pressed.
+
+-------------------------------------------------------------------------
+ScrollUp
+-------------------------------------------------------------------------
+void ScrollUp( int x, int y, int xx, int yy, int n );
+
+Scrolls the given section of the screen up "n" lines.  If "n"
+equals 0, the section of the screen is blanked.
+
+-------------------------------------------------------------------------
+ScrPtr
+-------------------------------------------------------------------------
+unsigned char far *ScrPtr( int col, int row );
+
+Returns a pointer into screen memory for the given row and column.
+
+-------------------------------------------------------------------------
+SetAttrib
+-------------------------------------------------------------------------
+void SetAttrib( char attribute  );
+
+Set the text attribute to "attribute"
+
+-------------------------------------------------------------------------
+SetVidMode
+-------------------------------------------------------------------------
+void SetVidMode( int mode );
+
+Set the video mode to "mode"
+
+-------------------------------------------------------------------------
+strdel
+-------------------------------------------------------------------------
+char *strdel( char *STRING, int START, int NUM );
+
+Deletes NUM characters from STRING starting with START.
+
+-------------------------------------------------------------------------
+strins
+-------------------------------------------------------------------------
+char *strins( char *STRING, int START, char *INSTR );
+
+Inserts INSTR into STRING starting at START.
+
+-------------------------------------------------------------------------
+stristr
+-------------------------------------------------------------------------
+char *stristr( char *STRING1, char *STRING2 );
+
+Searches for occurences of STRING1 in STRING2, ignoring case, and 
+returns the address of STRING1 within STRING2 if it exists, or NULL
+if is is not found.
+
+-------------------------------------------------------------------------
+StrLeft
+-------------------------------------------------------------------------
+void StrLeft( char *dest, char *src, int num );
+
+Copies the leftmost "num" characters from "src" to "dest".
+
+-------------------------------------------------------------------------
+strresize
+-------------------------------------------------------------------------
+char *strresize( char *STRING, int NEWSIZE );
+
+Makes STRING1 to be NEWSIZE bytes long, either by truncating or adding
+spaces.
+
+-------------------------------------------------------------------------
+StrRight
+-------------------------------------------------------------------------
+void StrRight( char *dest, char *src, int num );
+
+Copies the rightmost "num" characters from "src" to "dest".
+
+-------------------------------------------------------------------------
+StrRpl
+-------------------------------------------------------------------------
+void StrRpl( char *string, int startpos, int num, char *replacestring );
+
+Replaces a portion of "string" with "replacestring".  It begins
+replacing at position "startpos", and replaces "num" characters.
+
+-------------------------------------------------------------------------
+TimeElapsed
+-------------------------------------------------------------------------
+double TimeElapsed( void );
+
+Returns how many seconds have passed since "TimerStart" was
+last called.
+
+-------------------------------------------------------------------------
+TimerStart
+-------------------------------------------------------------------------
+void TimerStart( void );
+
+Begins the timer.
+
+-------------------------------------------------------------------------
+TodaysDate
+-------------------------------------------------------------------------
+unsigned TodaysDate( void );
+
+Returns the Julian of the current date.
+
+-------------------------------------------------------------------------
+VertMenu
+-------------------------------------------------------------------------
+void VertMenu( MenuRec MP[], int Items, int x, int y, int xx, int yy );
+
+Creates a vertical menu on the screen at the given coordinates.  
+Similar to HorzMenu, except that items are listed down rather than 
+across.  When an item is selected, the function associated with that 
+item in the MenuRec is executed.
+
+
+-------------------------------------------------------------------------
+VLin
+-------------------------------------------------------------------------
+void VLin( int x, int y, int xx, int yy );
+
+Draws a vertical double line on the screen.
+
+-------------------------------------------------------------------------
+VLin1
+-------------------------------------------------------------------------
+void VLin1( int x, int y, int xx, int yy );
+
+Draws a single vertical line on the screen.
+
+-------------------------------------------------------------------------
+WeekDay
+-------------------------------------------------------------------------
+int WeekDay( void );
+
+Returns an integer representing the day of the week.  0 = Sunday,
+1=Monday, etc.
+
+-------------------------------------------------------------------------
+WindowLister
+-------------------------------------------------------------------------
+int WindowLister( int x, int y, int xx, int yy,
+                         int CharToQuitOn,
+                         int *NumItems,
+                         int NumToStartWith,
+                         int(*CharHandler)(int ch, int ndx),
+                         void(*ScreenClearer)( void ),
+                         void(*DisplayLineFunction)(int Index) );
+
+This function may be difficult to understand, but will be
+well worth the time.  It lets you browse through an array of 
+structures or simple data types, using the PgDn/PgUp and up/down
+arrows.  You must first create three special functions.  This function
+should save you lots of programming time, once you learn how to
+use it.  It returns the index of the item it was highlighting when the
+"CharToQuitOn" key was pressed.
+
+Parameters:
+    x, y, xx, yy:        the section of the screen for WindowLister
+                         to use.
+
+    CharToQuitOn:        this will usually be ESC.
+
+    NumItems:            this tells WindowLister how many records are 
+                         in the array.  It is passed as the address
+                         of an integer so that if during operation
+                         you delete or add records, you just change 
+                         the value of this integer, and WindowLister
+                         will adjust accordingly.
+
+    NumToStartWith:      which record to begin with.  Usually 0.
+
+    CharHandler:         whenever WindowLister receives a key it
+                         doesn't process, it will pass the inkey
+                         to your CharHandler function.  Your character
+                         handler function should perform whatever is
+                         appropriate for the given keypress,
+                         then it should return the index into
+                         the array that should be highlighted next.
+                         This will usually be the same "ndx" that was
+                         passed to it, but you can change it and 
+                         WindowLister will jump to the new index you
+                         pass back to it.
+
+    ScreenClearer:       This clears whatever sections of the screen
+                         are filled with the records of the array.
+
+    DisplayLineFunction: This function should output a single record of 
+                         the array.
+
+Example:
+#define MAIN
+#include "tcclib.h"
+
+typedef struct {
+    char Name[21];
+    char City[21];
+    char State[3];
+    long ZIP;
+} ExampleType;
+
+ExampleType Example[100];
+
+int MaxItems = 50; /* we will assume that 50 are filled with data.
+                      NOTE: this number represent how many are currently 
+                      in use, not the total capacity which is 100. */
+
+int ElementCompare( ExampleType *a, ExampleType *b )
+/* this is defined for the quicksort below */
+{
+    return( stricmp( a->Name, b->Name ) );
+}
+
+int ExampleCharacterHandler( int ch, int ndx )
+/* ch   = the character WindowLister didn't recognize F1-F10, INS, DEL, 
+          etc. */
+/* ndx  = index into the array where the WindowLister is */
+{
+    switch( ch ) {
+        case DEL:    /*  Delete a record */
+            /* perform deletion of "ndx"th record of array Example.
+               the code is not written here */
+            MaxItems--;
+            break;
+        case INS:
+            /* perform an insert here - record at position "ndx" 
+               the code is not written here */
+            MaxItems++;
+            break;
+        case F4: 
+            /* sort the items in the array Example */
+            qsort( &Example, MaxItems, sizeof( ExampleType ), 
+                ElementCompare );
+            break;
+    }
+    return( ndx );
+}
+
+void ExampleScreenClearer( void )
+/* usually this will be a BlockErase, but if you want to get fancy,
+   you have the flexibilty to do just about anything you want to */
+{
+    BlockErase( 6, 6, 74, 19 );
+}
+
+void ExampleDisplayFunction( int Index )
+/* All that this function needs to do is output a single record
+   in the proper format.  WindowLister will position the cursor before
+   calling this routine, so this should not reposition the cursor
+   before printing. Also, no newline is needed at the end. */
+{
+    SayF("%-20s  %-20s  %-2s  %05ld", 
+        Example[Index].Name,
+        Example[Index].City,
+        Example[Index].State,
+        Example[Index].ZIP );
+}
+
+main()
+{
+    clrscr();
+    DrawBox( 4, 4, 76, 21 );
+    Center( 25, "Use INS, DEL;  F4=Sort" );
+    WindowLister( 5, 5, 75, 20, ESC, &MaxItems, 0, 
+                  ExampleCharacterHandler,
+                  ExampleScreenClearer,
+                  ExampleDisplayFunction );
+}
+
+-------------------------------------------------------------------------
+XDrawBox
+-------------------------------------------------------------------------
+void XDrawBox( int x, int y, int xx, int yy );
+
+Explodes a box onto the screen at the given coordinates.  The box
+explodes out from the middle.
+
+-------------------------------------------------------------------------
+XDrawBox1
+-------------------------------------------------------------------------
+void XDrawBox1( int x, int y, int xx, int yy );
+
+Explodes a single-line box onto the screen at the given coordinates.  
+The box explodes out from the middle.
+
+

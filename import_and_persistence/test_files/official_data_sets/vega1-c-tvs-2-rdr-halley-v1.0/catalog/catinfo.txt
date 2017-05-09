@@ -1,0 +1,19 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+   PUBLICATION_DATE = 2011-06-01                                              
+   NOTE             = "CATALOG/ directory contents"                           
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+CATALOG/ Directory                                                            
+==================                                                            
+DATASET.CAT        Data set description                                       
+TVS.CAT            Television System instrument description                   
+VEGA1.CAT          VEGA 1 spacecraft description                              
+VEGA1_MISSION.CAT  VEGA 1 mission description                                 
+REFERENCE.CAT      List of references corresponding to the                    
+                     REFERENCE_KEY_ID values in the other files               

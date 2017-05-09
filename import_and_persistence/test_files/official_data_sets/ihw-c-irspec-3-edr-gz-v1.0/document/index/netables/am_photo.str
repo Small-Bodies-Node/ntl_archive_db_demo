@@ -1,0 +1,18 @@
+"DATE_OBS ","C", 8,0                                                          
+"TIME_OBS ","N", 7,5                                                          
+"AON_NUM  ","N", 6,0                                                          
+"FOC_LEN  ","N", 5,3                                                          
+"FRATIO   ","N", 4,1                                                          
+"APERTURE ","N", 5,3                                                          
+"FOV1     ","N", 4,1                                                          
+"FOV2     ","N", 4,1                                                          
+"EXPOSURE ","N", 5,2                                                          
+"EMULSION ","C",12,0                                                          
+"ISO_DIN  ","C", 7,0                                                          
+"HYPERSEN ","C", 1,0                                                          
+"GUIDING  ","C", 1,0                                                          
+"ID_NUM   ","C", 5,0                                                          
+"SITE     ","N", 2,0                                                          
+"OBSERVER ","C",24,0                                                          
+"NOTE_FLAG","C", 1,0                                                          
+"FILENAME ","C", 8,0                                                          

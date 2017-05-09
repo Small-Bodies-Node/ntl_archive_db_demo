@@ -1,0 +1,11 @@
+"DATE_OBS   ","C", 8,0                                                        
+"TIME_OBS   ","N", 7,5                                                        
+"AN_NUM     ","N", 6,0                                                        
+"RA         ","C",11,0                                                        
+"DEC        ","C",11,0                                                        
+"MAG_TOTAL  ","N", 4,1                                                        
+"MAG_NUCLEUS","N", 4,1                                                        
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVER   ","C",24,0                                                        
+"NOTE_FLAG  ","C", 1,0                                                        
+"FILENAME   ","C", 8,0                                                        

@@ -1,0 +1,286 @@
+                            INFRARED STUDIES NETWORK                                                                              
+                                                                                                                                  
+                                                                                                                                  
+          A summary of infrared observations during the 1984/85 apparition of                                                     
+P/Giacobini-Zinner (G-Z), prepared by the Discipline Specialist Team listed in                                                    
+Table I, is contained in Table II.  These observations were both a test run for                                                   
+Comet Halley by many of the observers, and of intrinsic scientific interest for                                                   
+this comet.  Highlights of the observations included striking infrared images,                                                    
+low resolution spectroscopy, limited infrared polarimetry, and photometry.                                                        
+                                                                                                                                  
+          Although the IHW encouraged and assisted in planning the observations,                                                  
+and interceded with observatories on behalf of the projects, a formally organ-                                                    
+ized photometric monitoring program of G-Z was not carried out.  Partly on the                                                    
+basis of experience gained from G-Z, such programs were later organized and                                                       
+successfully executed for Comet Halley at several observatories.  The filter                                                      
+descriptions (Tables III-IV) were supplied by the observers.  Most of the fil-                                                    
+ters were supplied by the same source (Optical Coating Laboratory, Inc., OCLI)                                                    
+and are similar to each other.  Further details can be found in the references                                                    
+and will also be included in the Comet Halley Archive when it is published.                                                       
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Infrared Studies Network                                                              
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member        Affiliation                             Responsibility                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Roger F. Knacke    Department of Earth & Space Sciences    Discipline Specialist                                                  
+                   State University of New York                                                                                   
+                   Stony Brook, NY 11794                                                                                          
+                   U.S.A.                                                                                                         
+                                                                                                                                  
+Therese Encrenaz   Observatoire de Paris                   Discipline Specialist                                                  
+                   Section d'Astrophysique                                                                                        
+                   F-92195 Meudon                                                                                                 
+                   France                                                                                                         
+                                                                                                                                  
+Brian McGuinness   Department of Earth & Space Sciences    Software Assistant                                                     
+                   State University of New York                                                                                   
+                                                                                                                                  
+Mildred O'Dowd     Department of Earth & Space Sciences    Assistant                                                              
+                   State University of New York                                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+          Several choices had to be made about what to include in the archive.                                                    
+Considerable portions of the infrared data or analyses appear in the published                                                    
+literature.  In the case of small data sets like photometry, the material was                                                     
+included in the archive, with appropriate references, even if it also appears                                                     
+in the literature.  On the other hand, the images, which were all published,                                                      
+were included in digital form in the archive, but were not prepared for the                                                       
+printed volumes.  The archive is a unique resource for these kinds of data.  We                                                   
+emphasize that the G-Z archive should be used in conjunction with the original                                                    
+literature sources by the investigators whenever possible.  It contains all the                                                   
+published references known to us as of August 15, 1988.                                                                           
+                                                                                                                                  
+          When we knew of the existence of observations that were not submitted                                                   
+for archiving (in fact, just one case), we created descriptive files and refer-                                                   
+ences reflecting our knowledge of the data.  These may assist future searches.                                                    
+It appears that the present archive is an essentially complete compendium of                                                      
+infrared observations of Comet P/Giacobini-Zinner in the 1984/85 apparition.                                                      
+Infrared spectroscopy and imaging data are contained in the digital G-Z archive                                                   
+and, in many cases, in the published literature.  These data are not reproduced                                                   
+in the printed archive which, in this instance, is a guide and index to the                                                       
+primary references.                                                                                                               
+                                                                                                                                  
+          The Infrared Studies column headings for the printed archive are                                                        
+described in Table V.  Table VI contains keyword descriptions for the digital                                                     
+archive.  These are essentially similar to or identical with the definitions                                                      
+used by the other networks and comply with the FITS standards.                                                                    
+                                                                                                                                  
+          The Infrared Studies Discipline Specialist Team members would like to                                                   
+thank the observers, observatory directors, support personnel, and many others                                                    
+who contributed to and supported the P/Giacobini-Zinner Watch.                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Table II.  Infrared Studies Network Observing Summary                                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Date UT    Observer(s)                    Facility    Type of Observation                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+1985                                                                                                                              
+June  8     Veeder, G., Hanner, M.          IRTF      J,H,K,8.7,N,Q                                                               
+      9     Veeder, G., Hanner, M.          IRTF      N,Q                                                                         
+     10     Veeder, G., Hanner, M.          IRTF      N,Q                                                                         
+     25     Joyce, R., Echohawk, J.         KPNO      J,H,K                                                                       
+     26     Joyce, R., Echohawk, J.         KPNO      N                                                                           
+     27     Grasdalen, G.                   WIRO      K image                                                                     
+                                                                                                                                  
+July  9     Johnson, T., et al.             IRTF      8.7,N,Q                                                                     
+     10     Campins, H.                     KPNO      J,H,K,L                                                                     
+     12     Veeder, G. et al.               IRTF      8.7,N                                                                       
+                                                                                                                                  
+Aug.  4     Telesco, C., et al.             WIRO      10.8 image                                                                  
+     15     Grasdalen, G., Williams, T.     WIRO      H,K images                                                                  
+     17     Hayward, T., Jaworowski, C.     WIRO      K images                                                                    
+            Green, S., Davies, J.           UKIRT     J,H,K,L,L'; J,K images                                                      
+     18     Green, S., Davies, J.           UKIRT     J,H,K,L,L'; J,H,K,L images                                                  
+     19     Green, S., Davies, J.           UKIRT     J,H,K,L' images                                                             
+     24     McDonnell, J., Zarnecki, J.     UKIRT     1.4-2.5 spectrum; J,H,K,L,                                                  
+                                                        L',8.7,9.8,11.6,12.5,N,Q                                                  
+     25     McDonnell, J., Zarnecki, J.     UKIRT     J,H,K,L,L',M,8.7,9.8,11.6,                                                  
+                                                        12.5,N,Q                                                                  
+            Tokunaga, A., Griep, D.         IRTF      J,H,K,L,M,N,Q                                                               
+     26     McDonnell, J., Zarnecki, J.     UKIRT     K polarimetry                                                               
+            Tokunaga, A., Griep, D.         IRTF      M,7.8,8.7,9.8,10.3,11.6,                                                    
+                                                        12.5,N,Q                                                                  
+     31     Hayward, T. Wilton, C.          WIRO      N images                                                                    
+                                                                                                                                  
+Sept. 4     Tokunaga, A., Griep, D.         IRTF      8.7,N,Q                                                                     
+            Joyce, R.                       KPNO      J,H,K                                                                       
+      5     Kaminski, C. et al.             IRTF      N,Q                                                                         
+      6     Golish, W., Kaminski, C.        IRTF      8.7,N,Q                                                                     
+     11     Grasdalen, G.                   WIRO      H,K images                                                                  
+     12     Green, S., MacDonald, G.        UKIRT     J,H,K,L,L',M,8.7,9.8                                                        
+            Hanner, M. et al.               IRTF      M,8.7,N,Q                                                                   
+     13     Hayward, T., Greenhouse, M.     WIRO      K,N images                                                                  
+     14     Greenhouse, M., Hayward, T.     WIRO      1.9-2.5 spectrum                                                            
+     17     Bregman, J.                     KAO       8-13 spectrum                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table III.  NASA IRTF Filters (cf. Tokunaga 1986; OCLI                                                                            
+            1987) and UKIRT Filters                                                                                               
+______________________________________________________                                                                            
+                                                                                                                                  
+                NASA IRTF                 UKIRT                                                                                   
+          --------------------    --------------------                                                                            
+Filter    Effective   Bandpass    Effective   Bandpass                                                                            
+ Name     Wavelength    FWHMa     Wavelength    FWHMa                                                                             
+           [micron]   [micron]     [micron]   [micron]                                                                            
+______________________________________________________                                                                            
+                                                                                                                                  
+  J          1.25       0.30         1.25       0.3                                                                               
+  H          1.65       0.35         1.65       0.3                                                                               
+  K          2.20       0.42         2.20       0.4                                                                               
+  L          3.45       1.05         3.53       0.7                                                                               
+  L1         ....       ....         3.73       0.6                                                                               
+  L'         3.80       0.67         ....       ...                                                                               
+  M          4.80       0.57         4.76       0.6                                                                               
+             7.8        0.7          ...        ...                                                                               
+             8.7        1.2          8.7        1.2                                                                               
+             9.8        1.2          9.8        1.2                                                                               
+  N         10.1        5.1         10.0        5.2                                                                               
+            10.3        1.3         ....        ...                                                                               
+            11.6        1.3         11.6        1.3                                                                               
+            12.5        1.2         12.5        1.2                                                                               
+  Q         20.0        9.0         19.2        5.0                                                                               
+______________________________________________________                                                                            
+                                                                                                                                  
+a Full width at half maximum                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+Table IV.  KPNO Filters (cf. KPNO IR Instrument Observers                                                                         
+           Manual) and WIRO Filters (OCLI 1987)                                                                                   
+_________________________________________________________                                                                         
+                                                                                                                                  
+                  KPNO                     WIRO                                                                                   
+          --------------------    -----------------------                                                                         
+Filter    Effective   Bandpass      Center     Half Power                                                                         
+ Name     Wavelength   FWHM(a)    Wavelength     Points                                                                           
+           [micron]   [micron]     [micron]     [micron]                                                                          
+_________________________________________________________                                                                         
+                                                                                                                                  
+  J          1.23       0.23         1.25       1.1, 1.4                                                                          
+  H          1.653      0.297        1.65       1.5, 1.8                                                                          
+  K          2.22       0.41         2.20       2.0, 2.4                                                                          
+  L          3.45       0.57         3.82       3.5, 4.15                                                                         
+  M          4.64       0.34         4.70       4.4, 5.0                                                                          
+  N         10.2        6.0(b)       ....       .........                                                                         
+_________________________________________________________                                                                         
+                                                                                                                                  
+a Full width at half maximum                                                                                                      
+b 7.81-13.8 microns.                                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table V.  Infrared Studies Printed Archive Column Headings                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Column          Description                                                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+      1. IR PHOTOMETRY                                                                                                            
+                                                                                                                                  
+Date (UT)      Date of the middle of the observation (in days and fraction of a                                                   
+                 day, UT)                                                                                                         
+IRSN #         Infrared studies number--a unique number for each observation                                                      
+Filter         Filter, a letter or a number (wavelength in microns)--usually                                                      
+                 described in a table in the appendix and/or in a reference in                                                    
+                 the literature                                                                                                   
+Mag            Magnitude and its error                                                                                            
+ApDia          Aperture diameter in arcsec                                                                                        
+ExpS           Length of observation in seconds                                                                                   
+See            Seeing in arcsec                                                                                                   
+Wea            Weather (Clr = clear, Haz = hazy, etc.)                                                                            
+Airm           Average airmass during observation                                                                                 
+ChpThr         Chopping Throw distance (in arcsec) and direction                                                                  
+Or             Origin or position of center of aperture (CV = center of visible                                                   
+                 image, PS = point of peak signal, number = reference to ORIGIN                                                   
+                 comment)                                                                                                         
+FT             Filter table number                                                                                                
+System         Observatory system code                                                                                            
+Observer(s)    Name(s) of observer(s)                                                                                             
+Notes          Notes                                                                                                              
+                                                                                                                                  
+      2. IR POLARIMETRY                                                                                                           
+                                                                                                                                  
+Polar          Percent polarization and error                                                                                     
+Angle          Polarization angle (in deg) and error                                                                              
+                                                                                                                                  
+      3. IR SPECTROSCOPY                                                                                                          
+                                                                                                                                  
+Resol          Spectral resolution (percent or fraction)                                                                          
+Range          Wavelength range of spectrum in microns                                                                            
+Origin         Same as Or in IR Photometry                                                                                        
+                                                                                                                                  
+      4. IR IMAGING                                                                                                               
+                                                                                                                                  
+Range          Wavelength range of filter in microns                                                                              
+Pixel          Pixel size in arcsec                                                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table VI. Keywords in the FITS headers(a)                                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword             Description                                                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+SIMPLE              Does the file conform to FITS format? (T = yes, F = no).                                                      
+                      T for all IR G-Z data                                                                                       
+BITPIX              Number of bits/pixel                                                                                          
+NAXIS               Number of axes in array                                                                                       
+EXTEND              Is file written in conformance with the (new) extension                                                       
+                    standard?  (T = yes, F = no).  T for all IR G-Z data                                                          
+OBJECT              Name of object                                                                                                
+FILE-NUM            File identification number                                                                                    
+DATE-OBS            Date of middle of observation (UT)                                                                            
+TIME-OBS            Time of middle of observation (UT decimal days)                                                               
+DATE-REL            Date when observation may be publicly released                                                                
+DISCIPLN            IHW Discipline ('IR STUDIES')                                                                                 
+LONG-OBS            East longitude of observatory (0-360 degrees)                                                                 
+LAT-OBS             Latitude of observatory (+ = North, - = South)                                                                
+SYSTEM              Observing system code 2NNNXXYY, where 2 denotes the IR                                                        
+                    Studies  Network, NNN the IAU observatory code, XX the                                                        
+                    telescope, and YY not used                                                                                    
+OBSERVER            Observer(s) Name(s)                                                                                           
+SUBMITTER           Submitter(s) Name(s)                                                                                          
+SPEC-EVT            Special Event? (T = yes, F = no).  F for all IR G-Z data                                                      
+DAT-FORM            Describes form of data, 'STANDARD' or 'ASCII' for tables                                                      
+DAT-TYPE            Type of data being submitted ('PHOTOMETRY','POLARIZATION',                                                    
+                      'SPECTROSCOPY','IMAGE   ','LINEAR IMAGE','IMAGE SUM', or                                                    
+                      'FILTERTABLE')                                                                                              
+OBSVTORY            Name of submitting observatory                                                                                
+LOCATION            Location of submitting observatory                                                                            
+TELESCOP            Telescope identification (size)                                                                               
+INSTRUME            Instrument used                                                                                               
+COMMENT             Cols. 9-80 are a comment                                                                                      
+HISTORY             Cols. 9-80 are a comment                                                                                      
+FILTER              Type of filter used                                                                                           
+APERSIZE            Entrance aperture size (arcsec)                                                                               
+AIRM-AVG            Average airmass of observation                                                                                
+RANGE-SP            Approximate spectral range (Angstrom)                                                                         
+RESOL-SP            Approximate spectral resolution                                                                               
+APSIZE              Original pixel size of detector/digitizer                                                                     
+DIS-CODE            Filter table number (in filter table files)                                                                   
+BSCALE              Scale factor used to convert tape pixel values to true                                                        
+                    values (true = tape * BSCALE + BZERO)                                                                         
+BZERO               Offset applied to true pixel values                                                                           
+DATAMIN             Min. data value in the file                                                                                   
+DATAMAX             Max. data value in the file                                                                                   
+END                 End of FITS header                                                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+a Table extension keywords are defined and formated in each file.                                                                 
+                                                                                                                                  
+                                                                                                                                  
+REFERENCES                                                                                                                        
+                                                                                                                                  
+OCLI (1987).  Infrared Stock Filter Catalog 1987.  Optical Coating Laboratory,                                                    
+     Inc., Santa Rosa, California.                                                                                                
+Tokunaga, A.T. (1986).  IRTF Photometry Manual.  Institute for Astronomy, Uni-                                                    
+     versity of Hawaii, Honolulu.                                                                                                 
+                                                                                                                                  

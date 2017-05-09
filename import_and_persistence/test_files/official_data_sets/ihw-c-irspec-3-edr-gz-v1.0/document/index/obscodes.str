@@ -1,0 +1,6 @@
+"SYSTEM     ","C", 8,0                                                        
+"OBSERVATORY","C",43,0                                                        
+"LONGITUDE  ","N", 6,2                                                        
+"LATITUDE   ","N", 6,2                                                        
+"DELTA_XY   ","N", 4,0                                                        
+"DELTA_Z    ","N", 4,0                                                        

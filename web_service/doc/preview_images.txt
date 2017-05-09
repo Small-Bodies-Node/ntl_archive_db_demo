@@ -1,0 +1,20 @@
+In order to work with preview images using web service the access to preview images 
+folder should be granted on the server. For this add the following element to the Host element
+from the conf/server.xml in your tomcat installation folder:
+
+<Context path="/url_pattern" docBase="c:/path/to/preview/images/folder" />
+
+where the /url_pattern should be part of dataSetService.previewImagesURLPrefix property
+from application.properties file for web service.
+
+For example, on test machine we have:
+<Host name="localhost"  appBase="webapps"
+            unpackWARs="true" autoDeploy="true"
+            xmlValidation="false" xmlNamespaceAware="false">
+
+   <Context path="/nasa_pds_static_image" docBase="a:/preview_images" />
+
+</Host>
+
+and in application.properties:
+dataSetService.previewImagesURLPrefix=http://localhost:8080/nasa_pds_static_image

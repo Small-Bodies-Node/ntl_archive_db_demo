@@ -1,0 +1,27 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE  = FIXED_LENGTH                                                   
+RECORD_BYTES = 80                                                             
+FILE_RECORDS = 210                                                            
+                                                                              
+^ASCII_DOCUMENT  = "B01OFFSE.ASC"                                             
+                                                                              
+DATA_SET_ID  = "VEGA1-SW-MISCHA-3-RDR-CRUISE-V1.0"                            
+PRODUCT_ID   = "B01OFFSE.ASC"                                                 
+PRODUCT_CREATION_TIME = 2002-11-01                                            
+PRODUCT_NAME = "OFFSET GUIDELINES"                                            
+                                                                              
+                                                                              
+DESCRIPTION  = "This file describes the guidelines for offsets for MISCHA     
+                used at the Space Research Institute (IWF)."                  
+                                                                              
+OBJECT     = ASCII_DOCUMENT                                                   
+  DOCUMENT_FORMAT     = TEXT                                                  
+  DOCUMENT_NAME       = "OFFSET GUIDELINES"                                   
+  DOCUMENT_TOPIC_TYPE = "GUIDELINES"                                          
+  INTERCHANGE_FORMAT  = ASCII                                                 
+  PUBLICATION_DATE    = 1997-08-13                                            
+END_OBJECT = ASCII_DOCUMENT                                                   
+                                                                              
+END                                                                           
+                                                                              

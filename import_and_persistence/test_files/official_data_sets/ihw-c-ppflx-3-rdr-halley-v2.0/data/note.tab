@@ -1,0 +1,157 @@
+ 1 Added 2 IMX stars and used simultaneous fit from PHOTOM*              
+                                                                         
+ 2 Added in 3 IMX star entries.  Used PHOTOM* simultaneous fits for east 
+   stars and west stars                                                  
+                                                                         
+ 3 Calculated k separately for HD89688 and HD105590 (omitted west entry) 
+   to get weighted mean k and error(k), used these k's to predict dM for 
+   each star entry, then used mean and sdev to get dM and error(dM)      
+                                                                         
+ 4 Calculated k's separately for HD25680 and HD52266 using X's from      
+   PHOTOM*, used mean and sdev to get k, error (k), used these k's to    
+   calc dM for each star, mean and sdev to get dM and error (dM)         
+                                                                         
+ 5 Calculated k's separately for HD3379 and HD25680 using PHOTOM* X's,   
+   used mean and sdev to get k, error(k), used these k's to calc dM for  
+   each star, mean and sdev to get dM and error(dM)                      
+                                                                         
+ 6 Calculated k's separately for HD34078 (original X's) and HD25680      
+   (PHOTOM* X's), mean and sdev to get k, error (k), used these k's to   
+   calc dM for each star, mean and sdev to get dM and error (dM)         
+                                                                         
+ 7 Calculated k's separately for HD34078 (original X's) and HD52266      
+   (PHOTOM* X's), mean and sdev to get k, error (k), used these k's to   
+   calc dM for each star, mean and sdev to get dM and error (dM)         
+                                                                         
+ 8 Calculated k's separately for HD34078 (original X's), HD3379 and      
+   HD25680 (PHOTOM* X's), used mean and sdev to get k, error(k), used    
+   these k's to calc dM for each star, mean and sdev to get dM and       
+   error(dM)                                                             
+                                                                         
+ 9 Comet is only west in the sky, all stars are west, used simultaneous  
+   fit from PHOTOM*                                                      
+                                                                         
+10 Comet was west and all 3 star entries were west.  Used simultaneous   
+   PHOTOM* fits                                                          
+                                                                         
+11 Comet was west and all star entries were west. Everything looks okay  
+   (compared with TUN26BZ, 6/26/86, and TUN30BZ, 6/30/86) except HD89688 
+   filters 7 and 8, so omitted them from the PHOTOM* fit.  Assumed       
+   delta_k=0.01, delta_0.05 for filters 7 and 8                          
+                                                                         
+12 Fits are nice so just used k's and dM's from combined fit to HD3379   
+   and HD219188 using PHOTOM* X's                                        
+                                                                         
+13 Fits are nice so just used k's and dM's from combined fit to HD3379   
+   and HD25680 using PHOTOM* X's                                         
+                                                                         
+14 No stars available to calculate k's separately, fits are nice so just 
+   used k's and dM's from combined fit to HD34078 (original X's) and     
+   HD3379 and HD219188 (PHOTOM* X's)                                     
+                                                                         
+15 No way to calculate k from individual star, so averaged dM's from     
+   51113 (11/13/85) and 51115 (11/15/85) to get dM, error(dM), then      
+   predicted k's from those dM's, k's are simialer to those found on     
+   51113 and 51115, used 0.01 for error(k)                               
+                                                                         
+16 Omitted HD52266 and fit all 4 entries for HD25680 together to get     
+   k's and dM's, not much airmass covered, but k's are more reasonable   
+   than if HD52266 were included                                         
+                                                                         
+17 Supplemented m0 data with other stars (see "imx" file).  Used         
+   PHOTOM* to calculate k's and dM's for east and west separately.       
+   dM seems to be different for east and west sides of the meridian.     
+   -Missing continuous mag 6840 and 5140- (PHOTOM* omitted data from     
+   this set).                                                            
+                                                                         
+18 The 3 star entries were 3 different stars, but PHOTOM* fit seemed to  
+   be okay, so used it                                                   
+                                                                         
+19 There are extra Tarija fluxes from this night, 1986May01. They are    
+   located in the idxunix.52extra file and have made up catalog numbers. 
+                                                                         
+20 There are extra Tarija fluxes from this night, 1986May01. They are    
+   located in the idxunix.52extra file and have made up catalog numbers. 
+   Supplemented m0 data with other stars (see "m0x" file).  Fits are     
+   excellent.  Used k's and dM's from simultaneous fit with PHOTOM*.     
+                                                                         
+21 Used average dM from 1/5/87, 70105, and 1/6/87, 70106, and added in   
+   as another Mi-Ms star entry for X=0, then fitted together to get k    
+   and dM simultaneously (with errors)                                   
+                                                                         
+22 Used dM and error(dM) from 12/11/85, 51211, estimated k and error(k)  
+   using these dM's and data for HD3379                                  
+                                                                         
+23 Used HD25680 to calculate k's, estimated error(k)=0.01, used these    
+   k's to predict dM for each star entry, mean and sdev to get dM and    
+   error(dM)                                                             
+                                                                         
+24 Used HD3379 and HD25680 with PHOTOM* X's to calc k separately, then   
+   mean and sdev to get k, error(k), used these k's to predict dM for    
+   each star entry, then mean and sdev to get dM, error(dM)              
+                                                                         
+25 Used HD3379 to calculate k, dM together, values look okay, used 0.01  
+   for error(k) and error(dM)                                            
+                                                                         
+26 Used HD34078 (original X's) and HD25680 to calc k separately, then    
+   mean and sdev to get k, error(k), used these k's to predict dM for    
+   each star entry, then mean and sdev to get dM and error(dM)           
+                                                                         
+27 Used HD34078 (original X's) and HD25680 to calc k separately, then    
+   mean and sdev to get k, error(k), used these k's to predict dM for    
+   each star entry, then mean and sdev to get dM and error(dM). Also,    
+   Sanglok data for this night, 12/10/85, 7000A Filter, Set 1 had the    
+   wrong fraction of the day time in the input file, and was changed     
+   from 0.7861 to 0.7028                                                 
+                                                                         
+28 Used INTERP2*** dM's to predict k for each star entry, then used      
+   mean and sdev to get k, error(k), used INTERP2*** dM's and errors     
+                                                                         
+29 Used INTERP2*** dM's to predict k for the one star entry to get k,    
+   used INTERP2*** dM's and errors, used 0.01 for error(k)               
+                                                                         
+30 Used k's and error(k)'s from 4/29/86, 60429, estimated dM for single  
+   star entry, then estimated error(dM) as half difference to 4/30/86,   
+   60430, dM's                                                           
+                                                                         
+31 Used k's from 10/20/85, 51020, added INTERP1** dM's as X=0 Mi-Ms star 
+   entries, then calculated dM's and error (dM) from mean and sdev,      
+   unknown error (k) absorbed into error (dM)                            
+                                                                         
+32 Used PHOTOM* simultaneous fits for 2 star entries (different stars).  
+   Assumed delta_k=0.01, delta_dM=0.05                                   
+                                                                         
+33 Used PHOTOM* simultaneous fits for east stars and for west stars      
+                                                                         
+34 Used PHOTOM* to recalc X's, k's calc'd from HD3379, used k's to calc  
+   dM for each star entry, mean and sdev to get dM and error (dM),       
+   error (k) adopted as 0.01                                             
+                                                                         
+35 Used their k's and errors in k to predict dM for single star entry,   
+   averaged this with dM from 1/6/86, 60106, to get dM, error(dM)        
+                                                                         
+36 Used their k's (from raw data sheet), added INTERP1** dM's as X=0     
+   Mi-Ms star entries, then calculated dM's and error (dM) from mean     
+   and sdev                                                              
+                                                                         
+37 Used their k's to calculate dM for each star entry, then used mean    
+   and sdev to get dM and error(dM), used their error(k)                 
+                                                                         
+38 Used their k's to predict dM for each star entry, then averaged       
+   these dM's and used mean and sdev to get dM and error(dM), used       
+   their error(k)                                                        
+                                                                         
+39 Used their k's to predict dM for each star entry, used mean and       
+   sdev to get dM and error(dM), used their error(k)                     
+                                                                         
+40 Used their k's to predict dM for single star entry, used half         
+   difference with dM's from 3/21/86, 60321, to get error(dM), used      
+   their error(k)                                                        
+                                                                         
+41 Used their k's to predict dM for single star entry, used half         
+   difference with dM's from 3/28/86, 60328, to get error(dM), used      
+   their error(k)                                                        
+                                                                         
+42 This record was part of the addenda submitted after the original      
+   IHW submissions were archived.  No source FITS file was available     
+   for this record.                                                      

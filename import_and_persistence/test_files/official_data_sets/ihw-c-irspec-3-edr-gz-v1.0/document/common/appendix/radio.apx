@@ -1,0 +1,892 @@
+                             RADIO SCIENCE NETWORK                                                                                
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+          Radio Astronomy is a developing new technique for the study of comets.                                                  
+In some areas, such as observations of the OH radical via its 18 cm transitions,                                                  
+the observational procedures and analysis are well developed.  Studies in these                                                   
+areas have proved their value since they both provide new probes of important                                                     
+physical processes as well as a window on physical processes which are less well                                                  
+known and less amenable to study by other techniques.  In many other areas, how-                                                  
+ever, the study of comets at radio wavelengths continues to be primarily an                                                       
+exploratory endeavor.  In recognition of this fact, the IHW Radio Science Disci-                                                  
+pline Specialist team (see Table I) feels that it is important to attempt many                                                    
+different kinds of observations, since each observation tends to have some                                                        
+scientific merit as an exploration. Thus, we have been careful to document and                                                    
+include all data submitted to this archive by radio observers.                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team of the Radio Science Network                                                                 
+___________________________________________________________________________                                                       
+                                                                                                                                  
+Team Member          Affiliation                      Responsibility                                                              
+___________________________________________________________________________                                                       
+                                                                                                                                  
+William M. Irvine    Astronomy Program                Discipline Specialist                                                       
+                     University of Massachusetts                                                                                  
+                     Amherst, MA 01003                                                                                            
+                     U.S.A.                                                                                                       
+                                                                                                                                  
+F. Peter Schloerb    Astronomy Program                Discipline Specialist                                                       
+                     University of Massachusetts                                                                                  
+                                                                                                                                  
+Eric Gerard          Departement de Radioastronomie   Discipline Specialist                                                       
+                     Observatoire de Meudon                                                                                       
+                     F-92190 Meudon                                                                                               
+                     France                                                                                                       
+                                                                                                                                  
+Ronald D. Brown      Department of Chemistry          Discipline Specialist                                                       
+                     Monash University                  1981-85                                                                   
+                     Clayton, Victoria 3168                                                                                       
+                     Australia                                                                                                    
+                                                                                                                                  
+Peter D. Godfrey     Department of Chemistry          Discipline Specialist                                                       
+                     Monash University                  1981-85                                                                   
+                                                                                                                                  
+Wayne M. Kinzel      Astronomy Program                Archive Manager                                                             
+                     University of Massachusetts                                                                                  
+___________________________________________________________________________                                                       
+                                                                                                                                  
+                                                                                                                                  
+          The P/Giacobini-Zinner Archive contains data from eight observing                                                       
+groups, representing a range of techniques.  Most of the observational data                                                       
+come in the well developed area of 18cm OH observations.  However, other                                                          
+projects, including attempts to detect continuum and spectral line emission at                                                    
+other wavelengths and an attempt to observe the effects of absorption of                                                          
+galactic background emission by the comet were also undertaken.  Approximately                                                    
+3/4 of the groups who are known to have obtained useful data have submitted them                                                  
+to the archive.  We are grateful to these observers for their contributions.                                                      
+                                                                                                                                  
+                                                                                                                                  
+II. THE RADIO SCIENCE FITS HEADER                                                                                                 
+                                                                                                                                  
+          The IHW Radio Science archive is in FITS format.  The FITS files con-                                                   
+sist of a header, which contains information on the observation, and data in a                                                    
+format specified by the FITS header.  The header and the data are presented in                                                    
+two different files to facilitate their use by a wide range of analysis soft-                                                     
+ware.  Users who require FITS format files have only to concatenate the header                                                    
+and the data files to make a standard FITS file for a particular observation.                                                     
+                                                                                                                                  
+          The FITS header is meant to give a description of the structure and                                                     
+format of the FITS data records which follow it and to provide any auxiliary                                                      
+information that is necessary for its interpretation.  For the Radio Science                                                      
+FITS header, we have defined several FITS keywords which specify observational                                                    
+parameters which are necessary to interpret the data.  A detailed description                                                     
+of the complete Radio Science FITS header is provided in Sec. III.  In general,                                                   
+the Radio Science Network has tried to conform to standards which are commonly                                                    
+used in FITS and adopted by the IHW.  The characteristics of the observation are                                                  
+described by assigning values to the keywords which are described in Sec. III.                                                    
+Special keywords have been selected to provide information vital to the data                                                      
+interpretation, such as specification of the observing frequency or telescope                                                     
+parameters.  At another level, under the FITS HISTORY keywords, we describe how                                                   
+the data were obtained, including calibration and orbital tracking information.                                                   
+The organization of the parameters into these groups is admittedly somewhat                                                       
+arbitrary and has been made primarily to limit the number of new FITS keywords                                                    
+defined by our Network.                                                                                                           
+                                                                                                                                  
+          In an exploratory program, like the Radio Science Network, it is to be                                                  
+expected that on many occasions attempts to detect the comet will fail.  These                                                    
+nondetections are best described by an appropriate upper limit rather than                                                        
+through presentation of a spectrum or image.  In recognition of this fact, the                                                    
+IHW permits FITS files to be created without any data records; the limit is then                                                  
+listed in the FITS HISTORY section of the Radio Science header.  The FITS files                                                   
+of this type have the NAXIS keyword set equal to 0 and the DAT-TYPE keyword set                                                   
+equal to the character string 'NODATA  '.                                                                                         
+                                                                                                                                  
+          Where possible, even when actual data exist, we have attempted to                                                       
+describe them by presenting the results of a model fit to the data.  For exam-                                                    
+ple, in spectral line work a line is often described in terms of its peak inten-                                                  
+sity, the velocity of the peak, the line width, the integrated area under the                                                     
+line, and the mean velocity of the emission.  We have provided these values in                                                    
+FITS HISTORY keywords by fitting a gaussian line shape model to the data.                                                         
+                                                                                                                                  
+                                                                                                                                  
+III. RADIO SCIENCE FITS HEADER DESCRIPTION                                                                                        
+                                                                                                                                  
+          Information provided in the FITS header has been organized into seven                                                   
+keyword blocks.                                                                                                                   
+                                                                                                                                  
+A. Keyword Block I: Basic FITS Keywords                                                                                           
+                                                                                                                                  
+          This block is required of FITS tapes.  The details are presented in                                                     
+Table II below.                                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+Table II. Keyword Block I                                                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword  Type  Description                                                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+SIMPLE    L    Conformity to basic FITS standards                                                                                 
+BITPIX    I    Bits per pixel in data record                                                                                      
+NAXIS     I    Number of axes in data record; if NAXIS = 0 then no data record                                                    
+NAXIS1    I    Number of pixels in row along first axis                                                                           
+NAXISn    I    Number of pixels along n-th axis in image                                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+B. Keyword Block II: International Halley Watch Keywords                                                                          
+                                                                                                                                  
+          These keywords are agreed upon for use by the IHW and are listed in                                                     
+Table III.                                                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+Table III. Keyword Block II                                                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword  Type  Description                                                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+OBJECT    C    Name of the object: 'P/GIACOBINI-ZINNER'                                                                           
+FILE-NUM  I    6NNNNV - Unique, sequential number to identify files sent to IHW                                                   
+                    Lead Center.  Format description:                                                                             
+                    6 = denotes Radio Science Network                                                                             
+                 NNNN = Unique 4 digit ID number assigned to each observation                                                     
+                    V = Version Number (has no effect on usage)                                                                   
+DATE-OBS  C    'DD/MM/YY' - UT date of middle of observation                                                                      
+                    if observations made during several intervals, then these                                                     
+                    intervals will be specified in the HISTORY fields described                                                   
+                    below                                                                                                         
+TIME-OBS  R    UT Time of middle of observation expressed in decimal days                                                         
+DATE-REL  C    'DD/MM/YY' - Date when observations may be publicly released                                                       
+DISCIPLN  C    'RADIO STUDIES' - The Network identification                                                                       
+LONG-OBS  C    'DDD/MM/SS' - East longitude of observatory (0-360 degrees)                                                        
+LAT--OBS  C    'sDD/MM/SS' - Latitude of observatory                                                                              
+SYSTEM    C    '6OOOCCTT' - System code formatted:                                                                                
+                    6 = Radio Studies Network                                                                                     
+                  OOO = IAU number for observatory                                                                                
+                        (OOO=500 for radio observatories--no IAU numbers exist)                                                   
+                   CC = Identifies country according to LSPN Code                                                                 
+                   TT = Identifies radio telescope                                                                                
+OBSERVER  C    Name of Observer                                                                                                   
+                    Format : 'LASTNAME,I'            - 1 author                                                                   
+                             'LASTNAME,I/NEXTNAME,J' - 2 authors                                                                  
+                             'LASTNAME,I/ET AL.'     - >2 authors                                                                 
+                    For more than 2 observers, the names of all additional                                                        
+                    observers are given in special ADD. OBS. comments                                                             
+SUBMITTR  C    Name of submitter of data                                                                                          
+SPEC-EVT  L    Flag for special events as designated by Discipline Specialist                                                     
+DAT-FORM  C    Describes format of FITS data records                                                                              
+               'NODATA  ' - No FITS data records written                                                                          
+               'STANDARD' - Data records conform to FITS standard                                                                 
+               'ASCII   ' - Data records are to be interpreted as logical                                                         
+                            records of 80 ASCII characters (not FITS standard)                                                    
+               'HARDCOPY' - Data submitted as hardcopy                                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+C. Keyword Block III: Radio Science Keywords                                                                                      
+                                                                                                                                  
+          These keywords are to be directly read by computers in the normal                                                       
+manner of FITS header keywords.  Some attempt has been made to choose keyword                                                     
+names that are already in use by the astronomical community.  These keywords                                                      
+are used to describe information that is vital to the interpretation of the                                                       
+data or potentially useful for searches of the data base (Table IV).                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table IV. Keyword Block III                                                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword  Type  Description                                                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+DIS-CODE  C    'TFESEWEABENC' Describes the parameters of the                                                                     
+                              telescope/instrument                                                                                
+               T : Telescope Type                                                                                                 
+                    S = Single Antenna                                                                                            
+                    I = Interferometer                                                                                            
+                    U = Unknown/Unclassified                                                                                      
+               FE: Frequency (Center Frequency or Rest Frequency)                                                                 
+                    FE=> Frequency = F X 10**(E) MHz                                                                              
+                    00=  Unknown                                                                                                  
+               SE: Spectral Resolution                                                                                            
+                    SE=> Spectral Resolution = S X 10**(E) Hz                                                                     
+                    00=  Unknown                                                                                                  
+               WE: Bandwidth                                                                                                      
+                    WE=> Bandwidth = W X 10**(E) Hz                                                                               
+                    00=  Unknown                                                                                                  
+               A : Beam Description                                                                                               
+                    C = Circular                                                                                                  
+                    E = Ellipitical                                                                                               
+                    O = Other                                                                                                     
+                    U = Unknown                                                                                                   
+               BE: Beam Size (Geometric Mean)                                                                                     
+                    BE=> Beam Size = B X 10**(E) arcsec                                                                           
+                    00= Unknown                                                                                                   
+               N : Noise Estimate                                                                                                 
+                    N => RMS Noise = 10**(N) microJansky/Beam                                                                     
+                    0 = Unknown                                                                                                   
+               C : Information provided by observer to Discipline Specialist is                                                   
+                    complete                                                                                                      
+                    T = TRUE                                                                                                      
+                    F = FALSE                                                                                                     
+DAT-TYPE  C    'NNSTHP' Indicates the data format within Header and Data Records                                                  
+               NN: Subnetwork                                                                                                     
+                    OH= OH Subnetwork                                                                                             
+                         Spectral line observations of 18-cm OH                                                                   
+                    SL= Spectral Line Subnetwork                                                                                  
+                         Spectral line observations (other than 18-cm OH)                                                         
+                    CN= Continuum Subnetwork                                                                                      
+                         Broadband continuum observations                                                                         
+                    OC= Occultation Subnetwork                                                                                    
+                         Observation of occultation events                                                                        
+                    RD= Radar Subnetwork                                                                                          
+                         Active experiments                                                                                       
+               S : Search/Detection Status                                                                                        
+                    S = Search - implies nondetection (< 3 sigma)                                                                 
+                    D = Detection - implies detection (> 3 sigma)                                                                 
+                    M = Marginal - implies marginal detection (approx. 3 sigma)                                                   
+               T : Type of Data in FITS Data Records                                                                              
+                    N = No FITS Data Records                                                                                      
+                    S = Spectrum           => Intensity vs Frequency                                                              
+                    C = Continuum Scan     => Intensity vs Space                                                                  
+                    T = Time Series        => Intensity vs Time                                                                   
+                    I = Image              => Spatial - Spatial Image                                                             
+                    D = Dynamic Spectrum   => Frequency - Time Image                                                              
+                    F = SV Image           => Frequency - Spatial Image                                                           
+                    V = Visibility Function Data                                                                                  
+               H : Summary of Data in Header?                                                                                     
+                    T = Summary of Data exists in Header History Section                                                          
+                    F = No Summary of Data in Header History Section                                                              
+               P : Polarization Status                                                                                            
+                    I = Intensity Data Only                                                                                       
+                    P = Polarization Data Format Used                                                                             
+OBSVTORY  C    Abbreviation for Observatory.                                                                                      
+TELESCOP  C    Telescope Identifier - usually gives aperture size in meters                                                       
+LOCATION  C    Location of Observatory as given in American Ephemeris                                                             
+INSTRUME  C    'FRONT/BACK' - describes "frontend" and "backend" of receiver                                                      
+               FRONT: Receiver Front End                                                                                          
+                    MASER = Maser Amplifier                                                                                       
+                    FET   = Field Effect Transistor Amplifier                                                                     
+                    PARA  = Parametric Amplifier                                                                                  
+                    MIXER = Mixer                                                                                                 
+                    SPEC  = Special Front End                                                                                     
+                    UNK   = Unknown Front End                                                                                     
+               BACK  : Receiver Back End                                                                                          
+                    FB    = Filterbank                                                                                            
+                    SEFB  = Filterbank with Spectrum Expander                                                                     
+                    AC    = Autocorrelator                                                                                        
+                    CONT  = Broadband Continuum Receiver                                                                          
+                    SPEC  = Special Back End                                                                                      
+                    AOS   = Acousto-Optical Spectrometer                                                                          
+                    UNK   = Unknown Back End                                                                                      
+CENTFREQ  R    Center Frequency of Observed Bandwidth (Hz)                                                                        
+BANDWIDT  R    Total Bandwidth (Hz)                                                                                               
+BEAMSIZE  R    Geometric Mean of Major and Minor Axes of Elliptical Gaussian                                                      
+               Beam (deg)                                                                                                         
+BEAMELON  R    Ratio of Major Beam Axis to Minor Beam Axis                                                                        
+BEAMROTA  R    Position Angle of Major Beam Axis (deg)                                                                            
+BEAMEFF   R    Beam Efficiency - Fraction of power recieved that is in the                                                        
+               Gaussian Main Beam (BEAMEFF = 0.0 if unknown or unspecified)                                                       
+MOLECULE  C    Chemical Formula for Molecule (Follows Convention of NBS                                                           
+               Interstellar line list)                                                                                            
+TRANSITN  C    Quantum Numbers for Transition (Follows Convention of NBS                                                          
+               Interstellar line list)                                                                                            
+RESTFREQ  R    Rest Frequency of line used by observer (Hz)                                                                       
+RES-SPEC  R    Spectral Resolution (Hz) - This is intended to be the true spec-                                                   
+                 tral resolution of the spectrometer, NOT the channel spacing                                                     
+EQUINOX   R    Equinox of RA-DEC information presented in this file                                                               
+RAOFF     R    Pointing Offset in RA direction DELTA(RA)*COS(DEC) (deg)                                                           
+DECOFF    R    Pointing Offset in Dec direction DELTA(DEC) (deg)                                                                  
+DATE-BEG  C    'DD/MM/YY' - UT date on which observations began                                                                   
+DATE-END  C    'DD/MM/YY' - UT date on which observations ended                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+D. Keyword Block IV: Special Keywords for Printed Archive                                                                         
+                                                                                                                                  
+          This group of COMMENT lines give additional information to be used in                                                   
+the production of the IHW printed archive.                                                                                        
+                                                                                                                                  
+          The ADD. OBS. comment gives the names of the full observing team in                                                     
+the case that more than two observers carried out the observations.  More than                                                    
+one ADD. OBS. comment may be used to specify teams with many members or long                                                      
+names.  The format of the ADD. OBS. comment is:                                                                                   
+                                                                                                                                  
+COMMENT   ADD. OBS. NAME,I/NAME2,I/NAME3,I                                                                                        
+                                                                                                                                  
+          The NOTE comment provides information that is to be printed as a foot-                                                  
+note in the printed archive in the following format:                                                                              
+                                                                                                                                  
+COMMENT   NOTE      THIS IS A TEST                                                                                                
+                                                                                                                                  
+E. Keyword Block V: Radio Science Data History Section                                                                            
+                                                                                                                                  
+          This block of FITS HISTORY keywords is provided to give additional                                                      
+information about the observation, such as descriptions of calibration methods                                                    
+and sources, details about observing procedures, and comments by the observer                                                     
+and the IHW Discipline Specialist.  Another important use of the HISTORY lines                                                    
+is to provide a summary of the data obtained, or in the case of FITS files with                                                   
+no data records, the actual data values reported by the observer.  The general                                                    
+format of the HISTORY lines is:                                                                                                   
+                                                                                                                                  
+column                                                                                                                            
+1        11        21                                                                                                             
+HISTORY   SUBKEY__  VALUES....                                                                                                    
+                                                                                                                                  
+where values is a list of values associated with this subkey.  In most cases,                                                     
+the value lists are in a fixed format in order to simplify their use.                                                             
+                                                                                                                                  
+          E.1. DATA SUMMARY SECTION                                                                                               
+                                                                                                                                  
+          In order to transmit upper limits or a summary of the data that                                                         
+would be appropriate for tabular presentation in the printed archive, we                                                          
+utilize one of the following HISTORY keyword formats.  Such summaries of the                                                      
+data will always be contained in the first part of the HISTORY keyword section;                                                   
+the presences of such a summary shall be indicated in the DAT-TYPE keyword                                                        
+discussed above.  In the case where FITS data records accompany the header,                                                       
+USERS OF THE ARCHIVE ARE CAUTIONED THAT THE SUMMARY VALUES ARE ONLY MEANT TO                                                      
+DESCRIBE AND CHARACTERIZE THE DATA ... NOT TO REPLACE THEM.                                                                       
+                                                                                                                                  
+          All summary lines follow the same general form:                                                                         
+                                                                                                                                  
+HISTORY   SUBKEY    ################  'UNITS   '                                                                                  
+                                                                                                                                  
+where the # field is a right justified floating point number.                                                                     
+                                                                                                                                  
+          Format for Upper Limits:                                                                                                
+                                                                                                                                  
+COMMENT             *SUMMARY OF DATA - UPPER LIMIT                                                                                
+HISTORY   LIMIT                  0.5  'JY/BEAM '                                                                                  
+                                                                                                                                  
+Upper Limits in the Radio Science Net are always given as 3 standard deviation                                                    
+upper limits.                                                                                                                     
+                                                                                                                                  
+          Format for Spectral Lines:                                                                                              
+                                                                                                                                  
+COMMENT             *SUMMARY OF DATA - SPECTRAL LINE                                                                              
+HISTORY   LINEPEAK               0.5  'JY/BEAM '                                                                                  
+HISTORY   ERR-PEAK               0.1  'JY/BEAM '                                                                                  
+HISTORY   LINE-VEL              10.0  'M/SEC   '                                                                                  
+HISTORY   ERR--VEL             200.2  'M/SEC   '                                                                                  
+HISTORY   LINE-WID            2532.0  'M/SEC   '                                                                                  
+HISTORY   ERR--WID             130.2  'M/SEC   '                                                                                  
+HISTORY   LINEAREA            1243.1  'JY/B*M/S'                                                                                  
+HISTORY   ERR-AREA             143.6  'JY/B*M/S'                                                                                  
+HISTORY   LINEMEAN              32.1  'M/SEC   '                                                                                  
+HISTORY   ERR-MEAN              10.2  'M/SEC   '                                                                                  
+                                                                                                                                  
+The spectral line summary values LINEPEAK, LINE-VEL, and LINE-WID are determined                                                  
+from gaussian fits to the line profiles.  If one or more parameters were fixed                                                    
+in a fit to the data, the assumed values are listed with no errors.  Spectral                                                     
+lines with hyperfine structure (e.g., HCN) are fitted on the assumption that all                                                  
+hyperfine components have their nominal intensity ratios.                                                                         
+                                                                                                                                  
+          Format for Continuum Observations:                                                                                      
+                                                                                                                                  
+COMMENT             *SUMMARY OF DATA - CONTINUUM                                                                                  
+HISTORY   CONTFLUX               0.5  'JY/BEAM '                                                                                  
+HISTORY   ERR-FLUX               0.1  'JY/BEAM '                                                                                  
+                                                                                                                                  
+          E.2. OBSERVING WINDOWS SECTION                                                                                          
+                                                                                                                                  
+          Since many radio observations take place over several days, we include                                                  
+the precise observing windows in the HISTORY section according to the format:                                                     
+                                                                                                                                  
+COMMENT             *OBSERVING WINDOW SPECIFICATION                                                                               
+HISTORY   N-WINDOW                 #                                                                                              
+HISTORY   WINDOW    'DD/MM/YY' #######     'DD/MM/YY' #######                                                                     
+...       ...       ...                                                                                                           
+...       ...       ...                                                                                                           
+...       ...       ...                                                                                                           
+HISTORY   WINDOW    'DD/MM/YY' #######     'DD/MM/YY' #######                                                                     
+                                                                                                                                  
+where N-WINDOW gives the total number of windows for observation and subsequent                                                   
+window lines give the date and time (in decimals as in TIME-OBS) of beginning                                                     
+and end of the observing window.  The time fields are right justified floating                                                    
+point numbers.                                                                                                                    
+                                                                                                                                  
+          E.3. ORBITAL ELEMENTS SECTION                                                                                           
+                                                                                                                                  
+          Radio observers track the comet "blind" and it is important to know                                                     
+the precise position on the sky that they were tracking. We include a provision                                                   
+in the HISTORY section to specify the two-body elements and observatory position                                                  
+data used to produce the topocentric ephemeris for tracking.                                                                      
+                                                                                                                                  
+COMMENT             *ORBITAL ELEMENT SPECIFICATION                                                                                
+HISTORY   ORBELEM                  T       - T if orbital elements are present                                                    
+HISTORY   LONGEAST      243.11046715       - east longitude of observatory (deg)                                                  
+HISTORY   RHO--COS      0.8159113419       - radius*cos(lat) for observatory                                                      
+                                             (units of Earth equatorial radius)                                                   
+HISTORY   RHO--SIN      0.5765085118       - radius*sin(lat) for observatory                                                      
+                                             (units of Earth equatorial radius)                                                   
+HISTORY   ET-UT             53.18439       - Ephemeris Time - UT correction (s)                                                   
+HISTORY   JD           2446471.16128       - Time of Perihelion passage (ET)                                                      
+HISTORY   Q                0.5870959       - Perihelion Distance (AU)                                                             
+HISTORY   E                0.9672671       - Eccentricity                                                                         
+HISTORY   SOMEGQ           111.85336       - Arg. of Perihelion (deg)                                                             
+HISTORY   LOMEGA            58.15313       - Long. of Ascending Node (deg)                                                        
+HISTORY   I                162.23779       - Inclination (deg)                                                                    
+                                                                                                                                  
+          E.4. ANTENNA TRACKING SECTION                                                                                           
+                                                                                                                                  
+          This HISTORY keyword specifies the antenna rms pointing errors.                                                         
+                                                                                                                                  
+COMMENT             *RMS POINTING ERROR OF TELESCOPE                                                                              
+HISTORY   POINTERR  ################ 'UNITS   '                                                                                   
+                                                                                                                                  
+          E.5. CALIBRATION SECTION                                                                                                
+                                                                                                                                  
+          This group of keywords provides information about details of the ca-                                                    
+libration process.                                                                                                                
+                                                                                                                                  
+COMMENT             *CALIBRATION METHOD INFORMATION                                                                               
+HISTORY   CALMETH   'DESCRIPTION OF CAL METHOD'                                                                                   
+                                                                                                                                  
+If calibration method is unknown, then no line appears. Current possible values                                                   
+are 'CHOPPER WHEEL', 'NOISE TUBE', 'STANDARDS'                                                                                    
+                                                                                                                                  
+COMMENT             *CALIBRATION STANDARD INFORMATION                                                                             
+HISTORY   CALSRCE   'SOURCE NAME'    ########## 'UNITS   '                                                                        
+                                                                                                                                  
+Source (or sources) used to provide principal calibration.  The # field is a                                                      
+right justified floating point number. For planets as the calibrators, the                                                        
+assumed brightness temperature is given; otherwise, the calibrator flux density                                                   
+is given in Jansky.  There may be more than one CALSRCE HISTORY line.                                                             
+                                                                                                                                  
+COMMENT             *SYSTEM TEMPERATURE ETC.                                                                                      
+HISTORY   TSYSTEM   ############### '_SB     '                                                                                    
+HISTORY   TRCVR     ############### '_SB     '                                                                                    
+                                                                                                                                  
+Total system temperature (TSYSTEM) and noise temperature of the reciver alone                                                     
+(TRCVR).  '_SB     ' allows single side band measurement ('SSB     ') or double                                                   
+sideband measurement ('DSB     ') to be indicated.  The # field is a right                                                        
+justified floating point number.                                                                                                  
+                                                                                                                                  
+HISTORY   TAUZENTH  ###############                                                                                               
+                                                                                                                                  
+Atmospheric opacity at zenith.  The # field is a right justified floating point                                                   
+number.                                                                                                                           
+                                                                                                                                  
+          E.6. OBSERVER'S COMMENT SECTION                                                                                         
+                                                                                                                                  
+          This block of HISTORY lines contains any extra comments about condi-                                                    
+tions, data quality, etc. that are sent to the Discipline Specialist by the                                                       
+observer.  There are generally fewer than eight such comment lines.                                                               
+                                                                                                                                  
+COMMENT             *OBSERVER COMMENTS                                                                                            
+HISTORY   OBSCOMM   ROOM TO REPORT OBSERVERS COMMENTS                                                                             
+HISTORY   OBSCOMM   ...                                                                                                           
+HISTORY   OBSCOMM   ...                                                                                                           
+HISTORY   OBSCOMM   MORE ROOM FOR OBSERVER COMMENTS                                                                               
+                                                                                                                                  
+          E.7. DISCIPLINE SPECIALIST'S COMMENT SECTION                                                                            
+                                                                                                                                  
+          Comments by the Discipline Specialist team on this observation.  There                                                  
+are generally fewer than eight such comment lines.                                                                                
+                                                                                                                                  
+COMMENT             *DISCIPLINE SPECIALIST COMMENTS                                                                               
+HISTORY   DSCOMM    ROOM TO REPORT DISCIPLINE SPECIALIST COMMENTS                                                                 
+HISTORY   DSCOMM    ...                                                                                                           
+HISTORY   DSCOMM    ...                                                                                                           
+HISTORY   DSCOMM    MORE ROOM FOR DISCIPLINE SPECIALIST COMMENTS                                                                  
+                                                                                                                                  
+                                                                                                                                  
+F. Keyword Block VI: Standard FITS Keywords                                                                                       
+                                                                                                                                  
+          These keywords are used to describe the FITS data records.  They are                                                    
+all standard and summarized in Table V.                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table V.  Keyword Block VI                                                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Keyword  Type  Description                                                                                                        
+________________________________________________________________________________                                                  
+                                                                                                                                  
+BSCALE    R    Scale Factor  Data = tape * BSCALE + BZERO                                                                         
+BZERO     R    Zero Value                                                                                                         
+BUNIT     C    Units of Data                                                                                                      
+               'JY/BEAM ' - for line and continuum data                                                                           
+BLANK     I    Value for out-of-range data                                                                                        
+CRVALn    R    Value of physical coordinate of nth axis at the reference pixel                                                    
+CRPIXn    R    Array location of reference pixel for nth axis                                                                     
+CDELTn    R    increment in physical coordinate along nth axis                                                                    
+CTYPEn    C    Type of physical coordinate                                                                                        
+               'VELO-COM' - frequency coordinate for line work in m/s                                                             
+                            defined to be velocity relative to the comet                                                          
+               'VELO-GEO' - velocity defined relative to center of Earth                                                          
+               'CIRCULAR POLARIZATION' - axis used to define different states of                                                  
+                                       circular polarization: -1 = LHC; -2 = RHC                                                  
+               'LINEAR POLARIZATION' - axis used to define linear polarization                                                    
+                                     position angle                                                                               
+               'RAOFF   ' - spatial coordinate for maps (deg)                                                                     
+               'DECOFF  ' - spatial coordinate for maps (deg)                                                                     
+                                                                                                                                  
+CROTAn    R    Rotation angle of physical coordinate axis n                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+G. Keyword Block VII: End Statement                                                                                               
+                                                                                                                                  
+          This keyword is required by FITS to terminate the header:                                                               
+                                                                                                                                  
+END                                                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+IV. THE RADIO SCIENCE NETWORK INDEX TO THE CD-ROMS                                                                                
+                                                                                                                                  
+          The IHW provides various indices to help users of the archive find                                                      
+the data that they want.  For the Radio Science Network, there are two indices                                                    
+provided by the project which users will find useful: the quick look index and                                                    
+the printed archive (see Sec. V for description), both of which contain                                                           
+information on all observations in the archive.  The Radio Science Network                                                        
+provides a third, discipline specific, index which contains much more detailed                                                    
+information about the radio observations than the others.  In selecting the                                                       
+information to be included in the Radio Science Index, we have attempted to                                                       
+include all relevant data from the FITS headers, within limitations imposed by                                                    
+standards set by the Halley Watch.  The detailed format of the Radio Science                                                      
+index is given in Table VI.                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+Table VI.  IHW Radio Science Network Index Format                                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Field    Keyword            Type  Format    Notes                                                                                 
+________________________________________________________________________________                                                  
+                                                                                                                                  
+   1     OBJECT              C    A20                                                                                             
+   2     FILE-NUM            N    I6                                                                                              
+   3     DATE-OBS            D    A8        IHW Date Format                                                                       
+   4     TIME-OBS            N    F6.5                                                                                            
+   5     LONG-OBS            C    A9                                                                                              
+   6     LAT-OBS             C    A9                                                                                              
+   7     SYSTEM              C    A8                                                                                              
+   8     OBSERVER            C    A24                                                                                             
+   9     COMMENT  ADD. OBS.  C    A60       May exclude some observers                                                            
+  10     SUBMITTR            C    A24                                                                                             
+  11     SPEC-EVT            L    L1                                                                                              
+  12     DAT-FORM            C    A8                                                                                              
+  13     DIS-CODE            C    A12                                                                                             
+  14     DAT-TYPE            C    A6                                                                                              
+  15     OBSVTORY            C    A10                                                                                             
+  16     TELESCOP            C    A10                                                                                             
+  17     LOCATION            C    A30                                                                                             
+  18     INSTRUME            C    A20                                                                                             
+  19     CENTFREQ            N    F11.4     in MHz                                                                                
+  20     BANDWIDT            N    F11.4     in MHz                                                                                
+  21     BEAMSIZE            N    F6.4                                                                                            
+  22     BEAMELON            N    F6.3                                                                                            
+  23     BEAMROTA            N    F6.1                                                                                            
+  24     BEAMEFF             N    F6.3                                                                                            
+  25     EQUINOX             N    F8.3                                                                                            
+  26     RAOFF               N    F7.4                                                                                            
+  27     DECOFF              N    F7.4                                                                                            
+  28     MOLECULE            C    A10                                                                                             
+  29     TRANSITN            C    A20                                                                                             
+  30     RESTFREQ            N    F11.4     in MHz                                                                                
+  31     RES-SPEC            N    F11.4     in kHz                                                                                
+  32     HISTORY  LIMIT      N    F11.4     in Jy/Beam                                                                            
+  33     HISTORY  LINEPEAK   N    F11.4     in Jy/Beam                                                                            
+  34     HISTORY  ERR-PEAK   N    F11.4     in Jy/Beam                                                                            
+  35     HISTORY  LINE-VEL   N    F11.4     in m/s                                                                                
+  36     HISTORY  ERR--VEL   N    F11.4     in m/s                                                                                
+  37     HISTORY  LINE-WID   N    F11.4     in m/s                                                                                
+  38     HISTORY  ERR--WID   N    F11.4     in m/s                                                                                
+  39     HISTORY  LINEAREA   N    F11.4     in Jy/Beam * m/s                                                                      
+  40     HISTORY  ERR-AREA   N    F11.4     in Jy/Beam * m/s                                                                      
+  41     HISTORY  LINEMEAN   N    F11.4     in m/s                                                                                
+  42     HISTORY  ERR-MEAN   N    F11.4     in m/s                                                                                
+  43     HISTORY  CONTFLUX   N    F11.4     in Jy/Beam                                                                            
+  44     HISTORY  ERR-FLUX   N    F11.4     in Jy/Beam                                                                            
+  45     DATE-BEG            D    A8        Date Format                                                                           
+  46     DATE-END            D    A8        Date Format                                                                           
+  47     HISTORY  NWINDOW    N    I1                                                                                              
+  48     HISTORY  WINDOW (1) D    A8        Start Date of 1st Window (Date Fmt)                                                   
+  49     HISTORY  WINDOW (1) N    F5.3      Start Time of 1st Window                                                              
+  50     HISTORY  WINDOW (N) D    A8        End Date of Last Window (Date Fmt)                                                    
+  51     HISTORY  WINDOW (N) N    F5.3      End Time of Last Window                                                               
+  52     HISTORY  POINTERR   N    F10.2     in arcsec                                                                             
+  53     HISTORY  CALMETH    C    A20                                                                                             
+  54     HISTORY  CALSRCE (1)C    A15       Name of Cal Source 1                                                                  
+  55     HISTORY  CALSRCE (1)N    F10.3     Value of Cal Source 1                                                                 
+  56     HISTORY  CALSRCE (1)C    A15       Units of Cal Source 1                                                                 
+  57     HISTORY  CALSRCE (2)C    A15       Name of Cal Source 2                                                                  
+  58     HISTORY  CALSRCE (2)N    F10.3     Value of Cal Source 2                                                                 
+  59     HISTORY  CALSRCE (2)C    A15       Units of Cal Source 2                                                                 
+  60     HISTORY  TSYSTEM    N    F7.1      Value Only                                                                            
+  61     HISTORY  TRCVR      N    F7.1      Value Only                                                                            
+  62     HISTORY  TAUZENTH   N    F4.2                                                                                            
+  63     BITPIX              N    I2                                                                                              
+  64     NAXIS               N    I1                                                                                              
+  65     BSCALE              N    F15.9                                                                                           
+  66     BZERO               N    F10.4                                                                                           
+  67     BUNIT               C    A15                                                                                             
+  68     BLANK               N    I6                                                                                              
+  69     DATAMAX             N    F10.4                                                                                           
+  70     DATAMIN             N    F10.4                                                                                           
+  71     NAXIS1              N    I4                                                                                              
+  72     CDELT1              C    A15                                                                                             
+  73     CRPIX1              C    A15                                                                                             
+  74     CRVAL1              C    A15                                                                                             
+  75     CTYPE1              C    A25                                                                                             
+  76     NAXIS2              N    I4                                                                                              
+  77     CDELT2              C    A15                                                                                             
+  78     CRPIX2              C    A15                                                                                             
+  79     CRVAL2              C    A15                                                                                             
+  80     CTYPE2              C    A25                                                                                             
+   :        :                :     :                                                                                              
+  96     NAXIS6              N    I4                                                                                              
+  97     CDELT6              C    A15                                                                                             
+  98     CRPIX6              C    A15                                                                                             
+  99     CRVAL6              C    A15                                                                                             
+ 100     CTYPE6              C    A25                                                                                             
+ 101     Path:Volume         C    A8        Path to file on CD-ROM                                                                
+ 102     Path:Year SubDirect C    A5        Ditto                                                                                 
+ 103     Path:Month SubDir.  C    A3        Ditto                                                                                 
+ 104     Path:Day SubDirect  C    A3        Ditto                                                                                 
+ 105     Path:Hour SubDirect C    A3        Ditto                                                                                 
+ 106     Filename            C    A8        Filename without extension                                                            
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+                                                                                                                                  
+V. THE RADIO SCIENCE NETWORK PRINTED ARCHIVE                                                                                      
+                                                                                                                                  
+          In addition to the FITS presentation of the Radio Science Network                                                       
+data, an additional format is available in the printed archive.  This format                                                      
+provides most of the information that is necessary to make use of the data, as                                                    
+well as the "data summary" information included in the FITS headers, such as                                                      
+the line peak intensity and width for spectral line observations.  The format                                                     
+of the printed archive for the Radio Science Network is shown below.                                                              
+                                                                                                                                  
+A. Printed Format I: OH Subnetwork and Spectral Line Subnetwork                                                                   
+                                                                                                                                  
+          Since the OH Subnetwork and the Spectral Line Subnetwork contain the                                                    
+same data type, it is most economical to print both subnetworks together in the                                                   
+same subsection of the Radio Science part of the archive.  Detailed description                                                   
+of this format is in Table VII.                                                                                                   
+                                                                                                                                  
+                                                                                                                                  
+Table VII.  Printed Format I                                                                                                      
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Col.  FITS                        Field        Field         Notes                                                                
+      Keywords                    Format       Header                                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+  1   DATE-OBS,TIME-OBS          DD.TTTTT      Date(UT)                                                                           
+ 10   FILE-NUM                      I6         RSN#                                                                               
+ 17   MOLECULE                      A5         Mol                                                                                
+ 23   DAT-TYPE (4th Character)      A1         Typ           Denotes Subnetwork                                                   
+ 25   RESTFREQ (MHz)                I6         Freq                                                                               
+ 32   RES-SPEC (kHz)                I4         Resol                                                                              
+ 37   HISTORY  TSYSTEM (K)          I5         Tsys                                                                               
+ 43   BEAMEFF (per cent)            I2         BE                                                                                 
+ 46   BEAMSIZE (arcsec)             I4         HP                                                                                 
+ 51   DIS-CODE (8th Character)      A1         BS            Denotes Beam Shape                                                   
+ 53   Radial Offset of              I4         Offset rho                                                                         
+      Beam from Nucleus (arcsec)                                                                                                  
+ 58   Position Angle of             I3         Offset theta                                                                       
+      Radial Offset (degrees)                                                                                                     
+                                                                                                                                  
+      For Limits:                                                                                                                 
+                                                                                                                                  
+ 62   A "<" symbol                  A1                                                                                            
+ 63   HISTORY  LIMIT (Jy/Beam)      F6.1       Line Peak     if value>10Jy/Beam                                                   
+                                 or F6.3                     if value<10Jy/Beam                                                   
+ 80   A "-" symbol                  A1         Width                                                                              
+ 91   A "-" symbol                  A1         Velocity                                                                           
+                                                                                                                                  
+      For Detections:                                                                                                             
+                                                                                                                                  
+ 63   HISTORY  LINEPEAK (Jy/Beam)   F6.1                     if value>10Jy/Beam                                                   
+                                 or F6.3                     if value<10Jy/Beam                                                   
+ 69   A "plus or minus" symbol      A1         Line Peak                                                                          
+ 70   HISTORY ERR-PEAK (Jy/Beam)    F5.1                     if value>10Jy/Beam                                                   
+                                 or F5.3                     if value<10Jy/Beam                                                   
+ 76   HISTORY  LINE-WID (km/sec)    F4.2                                                                                          
+ 80   A "plus or minus" symbol      A1         Width                                                                              
+ 81   HISTORY  ERR--WID (km/sec)    F4.2                                                                                          
+ 86   HISTORY  LINE-VEL (km/sec)    F5.2                                                                                          
+ 91   A "plus or minus" symbol      A1         Velocity                                                                           
+ 92   HISTORY  ERR--VEL (km/sec)    F4.2                                                                                          
+                                                                                                                                  
+      For All:                                                                                                                    
+                                                                                                                                  
+ 97   SYSTEM                        A8         System                                                                             
+106   OBSERVER                      A21        Observer(s)                                                                        
+128   COMMENT NOTE                  A5         Notes                                                                              
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+B. Printed Format II: Continuum Subnetwork                                                                                        
+                                                                                                                                  
+          The data in the continuum subnetwork are fundamentally different from                                                   
+the spectral line data in the previous section.  Thus they require a separate                                                     
+format, listed in Table VIII.                                                                                                     
+                                                                                                                                  
+                                                                                                                                  
+Table VIII.  Printed Format II                                                                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Col.  FITS                        Field        Field         Notes                                                                
+      Keywords                    Format       Header                                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+  1   DATE-OBS,TIME-OBS          DD.TTTTT      Date(UT)                                                                           
+ 11   FILE-NUM                      I6         RSN#                                                                               
+ 19   DAT-TYPE (4th Character)      A1         Typ           Denotes Subnetwork                                                   
+ 22   CENTFREQ (MHz)                I6         Freq                                                                               
+ 30   BANDWIDT (MHz)                I6         BW                                                                                 
+ 38   HISTORY  TSYSTEM              I5         Tsys                                                                               
+ 45   BEAMEFF (per cent)            I2         BE                                                                                 
+ 49   BEAMSIZE (arcsec)             I4         HP                                                                                 
+ 55   DIS-CODE (8th Character)      A1         BS            Denotes Beam Shape                                                   
+ 58   Radial Offset of              I4         Offset rho                                                                         
+      Beam from Nucleus (arcsec)                                                                                                  
+ 63   Position Angle of             I3         Offset theta                                                                       
+      Radial Offset (degrees)                                                                                                     
+                                                                                                                                  
+      For Limits:                                                                                                                 
+                                                                                                                                  
+ 68   A "<" Symbol                  A1                                                                                            
+ 69   HISTORY  LIMIT (Jy/Beam)      F6.1       Flux Density  if value>10Jy/Beam                                                   
+                                 or F6.3                     if value<10Jy/Beam                                                   
+                                                                                                                                  
+      For Detections:                                                                                                             
+                                                                                                                                  
+ 69   HISTORY CONTFLUX (Jy/Beam)    F6.1                     if value>10Jy/Beam                                                   
+                                 or F6.3                     if value<10Jy/Beam                                                   
+ 75   A "plus or minus" symbol      A1         Flux Density                                                                       
+ 76   HISTORY ERR-FLUX (Jy/Beam)    F5.1                     if value>10Jy/Beam                                                   
+                                 or F5.3                     if value<10Jy/Beam                                                   
+                                                                                                                                  
+      For All:                                                                                                                    
+                                                                                                                                  
+ 83   SYSTEM                        A8         System                                                                             
+ 93   OBSERVER                      A21        Observer(s)                                                                        
+115   COMMENT NOTE                  A5         Notes                                                                              
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+C. Printed Format III: Occultation Subnetwork                                                                                     
+                                                                                                                                  
+          The data in the occultation subnetwork also require a separate format;                                                  
+they are listed in Table IX.                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+Table IX.  Printed Format III                                                                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Col.  FITS                        Field        Field         Notes                                                                
+      Keywords                    Format       Header                                                                             
+________________________________________________________________________________                                                  
+                                                                                                                                  
+   1  DATE-OBS,TIME-OBS          DD.TTTTT      Date(UT)                                                                           
+  11  FILE-NUM                      I6         RSN#                                                                               
+  19  SOURCE                        A12        Source                                                                             
+  34  DAT-TYPE (4th Character)      A1         Typ           Denotes Subnetwork                                                   
+  37  CENTFREQ (MHz)                I6         Freq                                                                               
+  45  SYSTEM                        A8         System                                                                             
+  55  OBSERVER                      A21        Observer(s)                                                                        
+  77  COMMENT NOTE                  A5         Notes                                                                              
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+VI. UNITS IN THE RADIO SCIENCE ARCHIVE                                                                                            
+                                                                                                                                  
+          We have attempted to use a fixed set of standard units for the values                                                   
+given in the IHW archive.  These units are given in Table X.  Where these units                                                   
+are not used, as in the printed archive, the index tables, or in certain values                                                   
+in the HISTORY section of the FITS headers, the change of units is explicitly                                                     
+mentioned.                                                                                                                        
+                                                                                                                                  
+          The adoption of the flux density unit, Jansky per Beam (Jy/Beam),                                                       
+deserves an additional comment.  This unit is well defined: the signal is                                                         
+described in terms of the flux density of a point source which would produce the                                                  
+same signal as that observed from the comet.  The explicit use of "per Beam" in                                                   
+the unit acknowledges that the coma is possibly resolved by the beam to an                                                        
+unknown extent.  Some observatories, such as the VLA, have naturally already                                                      
+adopted this choice of units since they use celestial point sources to calibrate                                                  
+the instrument.  All continuum observations also use Janskys to express their                                                     
+results regardless of how the data are actually internally calibrated.  Thus,                                                     
+in both of these cases, the Jansky is the obvious choice of unit.  For spectral                                                   
+line work on large single antennas, however, results are typically expressed in                                                   
+"antenna temperature" since they are calibrated by comparing the observed                                                         
+signal to a calibration signal of known noise temperature.  In recent years,                                                      
+this unit has become rather confusing as a result of efforts to convert a                                                         
+relatively well defined observed quantity into a more physically meaningful                                                       
+unit which gives an approximation to the true brightness temperature of the                                                       
+source.  Thus, various forms of "corrected" antenna temperature are in use at                                                     
+different observatories, and it is often not clear which corrections have been                                                    
+made to the data.  We therefore favor a system in which the calibration is                                                        
+achieved by direct comparison of the cometary signal to celestial sources of                                                      
+known flux density, and the natural unit for such a comparison is the unit of                                                     
+flux density, the Jansky.  Thus, all observations in the archive have been                                                        
+converted to these units using data provided by the observers.                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Table X.  Radio Science Units                                                                                                     
+_____________________________                                                                                                     
+                                                                                                                                  
+Angle                 Degrees                                                                                                     
+Length                 Meters                                                                                                     
+Time                  Seconds                                                                                                     
+Frequency               Hertz                                                                                                     
+Velocity        Meters/Second                                                                                                     
+Flux Density     Jansky/Beam*                                                                                                     
+_____________________________                                                                                                     
+                                                                                                                                  
+* 1 Jansky = 1.0*10(-26) Watts                                                                                                    
+  per square meter per Hertz                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+VII. CALIBRATION                                                                                                                  
+                                                                                                                                  
+          Although we have converted the data in the archive to a common unit                                                     
+of flux density, we have made no attempt to recalibrate data to a common flux                                                     
+density scale.  The calibration scale for radio astronomy is well established at                                                  
+centimeter wavelengths, and in general, well known standard sources were used by                                                  
+the network observers.  For wavelengths shorter than about 1 centimeter, how-                                                     
+ever, the calibration becomes less precise as atmospheric attenuation becomes                                                     
+significant in the observations. In most cases, comparisons to celestial sources                                                  
+are more indirect and observers rely on absolute calibration schemes as their                                                     
+primary method.  Ultimately, though, even these techniques use known sources,                                                     
+such as the planets, to calibrate the system, and we have attempted to archive                                                    
+information about these calibration sources with each observation.                                                                
+                                                                                                                                  
+          Calibration information that is supplied to us by the observer is                                                       
+given in the HISTORY section of the FITS header.  The HISTORY  CALMETH keyword                                                    
+provides an ASCII string with a brief description of the calibration method                                                       
+used.  Three methods are commonly used: (1) STANDARDS indicates that the data                                                     
+were calibrated through direct comparison to standard sources; (2) NOISE TUBE                                                     
+indicates that the data were primarily calibrated by injecting power from a                                                       
+noise source into the receiver; (3) CHOPPER WHEEL indicates that the "chopper                                                     
+wheel" method was used.  This latter method uses the comparison of the noise                                                      
+power from an ambient temperature load to that produced by the sky emission to                                                    
+make an estimate of the optical depth of the atmosphere, and it is commonly                                                       
+used at millimeter wavelengths.                                                                                                   
+                                                                                                                                  
+          Even in the cases of NOISE TUBE and CHOPPER WHEEL calibration, where                                                    
+celestial sources are not initially used to calibrate the data, the final                                                         
+calibration is generally made with celestial sources.  Whenever a standard                                                        
+source is used for this purpose, its name and assumed flux density are given in                                                   
+the HISTORY  CALSRCE keywords.  More than one of these keywords may exist in                                                      
+the header if more than one calibration source is used.  For planetary sources,                                                   
+the assumed brightness temperature is given rather than the flux density since                                                    
+planetary flux densities vary with distance to the object.  Finally, the system                                                   
+temperature (defined to be the total system noise temperature including                                                           
+receiver noise and atmospheric and ground pickup) and the receiver temperature                                                    
+(defined to be the noise temperature of the receiver alone) are given in the                                                      
+HISTORY  TSYSTEM and HISTORY  TRCVR keywords; the atmospheric opacity at zenith                                                   
+is given in the HISTORY  TAUZENTH keyword where appropriate.                                                                      
+                                                                                                                                  
+                                                                                                                                  
+ACKNOWLEDGEMENTS                                                                                                                  
+                                                                                                                                  
+          Several people who are not members of the Discipline Specialist Team                                                    
+(listed in Table I) have also made substantial contributions to the success of                                                    
+the Radio Science Network of the International Halley Watch.  First of all, we                                                    
+wish to acknowledge the contributions from the observers who have submitted data                                                  
+to the archive, since if it were not for their interest and assistance, then                                                      
+there would be no archive.  We also appreciate those who attempted to observe                                                     
+comet P/Giacobini-Zinner even if they did not get useful data.  In many cases,                                                    
+these early attempts paid off in our later studies of comet Halley.  The Disci-                                                   
+pline Specialists at the University of Massachusetts were aided in their effort                                                   
+by a number of collaborators during the course of our involvement with the IHW.                                                   
+We gratefully acknowledge the efforts of R. Bassett, M. Claussen, C. Clemens,                                                     
+R. Molloy, G. Moriarty-Schieven, D. Swade, and L. Tacconi-Garman, who have                                                        
+provided assistance to the project at various times throughout its duration.                                                      
+                                                                                                                                  

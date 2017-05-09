@@ -1,0 +1,40 @@
+PDS_VERSION_ID               = PDS3                                           
+                                                                              
+OBJECT                       = VOLUME                                         
+  VOLUME_SERIES_NAME         = "INTERNATIONAL HALLEY WATCH"                   
+  VOLUME_SET_NAME            = "IHW RESTORATION"                              
+  VOLUME_SET_ID              = "USA_NASA_JPL_IHWRES_XXXX"                     
+  VOLUMES                    = 2                                              
+  VOLUME_NAME                = "IHW ASTROMETRY NETWORK"                       
+  VOLUME_ID                  = "IHWRES_0009"                                  
+  VOLUME_FORMAT              = "ISO-9660_LEVEL2"                              
+  VOLUME_VERSION_ID          = "VERSION 1"                                    
+  MEDIUM_TYPE                = "CD-WO"                                        
+  DATA_SET_ID                = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                
+  PUBLICATION_DATE           = 2006                                           
+  DESCRIPTION                = "                                              
+    This volume contains the photometric flux data collected by the IHW       
+    Photometry and Polarimetry Network, reformatted for more convenient       
+    use and updated to current PDS standards.                                 
+    "                                                                         
+                                                                              
+  OBJECT                     = DATA_PRODUCER                                  
+    INSTITUTION_NAME         = "UNIVERSITY OF MARYLAND"                       
+    FACILITY_NAME            = "SMALL BODIES NODE"                            
+    FULL_NAME                = "ANNE RAUGH"                                   
+    ADDRESS_TEXT             = "Department of Astronomy\n                     
+                                University of Maryland\n                      
+                                College Park, MD  20742-2421\n"               
+  END_OBJECT                 = DATA_PRODUCER                                  
+                                                                              
+  OBJECT                     = CATALOG                                        
+    ^DATA_SET_CATALOG        = "DATASET.CAT"                                  
+    ^INSTRUMENT_CATALOG      = "PPFLX.CAT"                                    
+    ^INSTRUMENT_HOST_CATALOG = "PPN.CAT"                                      
+    ^MISSION_CATALOG         = "INTERNATIONAL_HALLEY_WATCH.CAT"               
+    ^TARGET_CATALOG          = "1P_HALLEY_1_1682_Q1.CAT"                      
+    ^REFERENCE_CATALOG       = "REFERENCE.CAT"                                
+  END_OBJECT                 = CATALOG                                        
+                                                                              
+END_OBJECT                   = VOLUME                                         
+END                                                                           

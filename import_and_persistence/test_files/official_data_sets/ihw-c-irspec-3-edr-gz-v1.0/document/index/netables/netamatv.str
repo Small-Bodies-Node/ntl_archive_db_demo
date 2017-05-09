@@ -1,0 +1,36 @@
+"FILENUM   ","N", 6,0                                                         
+"DATE_OBS  ","C", 8,0                                                         
+"TIME_OBS  ","N", 7,5                                                         
+"LONGITUDE ","C", 9,0                                                         
+"LATITUDE  ","C", 9,0                                                         
+"ELEVATION ","N", 5,0                                                         
+"SYSTEM    ","C", 8,0                                                         
+"OBSERVER  ","C",24,0                                                         
+"SPEC_EVENT","C", 1,0                                                         
+"INSTRUMENT","C",13,0                                                         
+"APERTURE  ","N", 5,3                                                         
+"FRATIO    ","N", 4,1                                                         
+"POWER     ","N", 3,0                                                         
+"METHOD    ","C", 1,0                                                         
+"MAG_GT    ","C", 1,0                                                         
+"MAGNITUDE ","N", 5,1                                                         
+"MAG_COMMNT","C", 1,0                                                         
+"CHART     ","C", 7,0                                                         
+"COMA_MAJOR","N", 5,1                                                         
+"COMA_MINOR","N", 5,1                                                         
+"DEGR_COND ","N", 2,0                                                         
+"TAIL_LEN_1","N", 5,2                                                         
+"TAIL_PA_1 ","N", 3,0                                                         
+"TAIL_LEN_2","N", 5,2                                                         
+"TAIL_PA_2 ","N", 3,0                                                         
+"TAIL_LEN_3","N", 5,2                                                         
+"TAIL_PA_3 ","N", 3,0                                                         
+"MAG_LIMIT ","N", 4,1                                                         
+"MAG_LIM_CM","C", 4,0                                                         
+"DARK_ADAPT","C", 1,0                                                         
+"VOLUME    ","C", 8,0                                                         
+"YEAR      ","C", 5,0                                                         
+"MONTH     ","C", 3,0                                                         
+"DAY       ","C", 3,0                                                         
+"HOUR      ","C", 3,0                                                         
+"FILENAME  ","C", 8,0                                                         

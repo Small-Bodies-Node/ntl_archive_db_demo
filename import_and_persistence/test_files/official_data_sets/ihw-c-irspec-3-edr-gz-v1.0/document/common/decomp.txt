@@ -1,0 +1,18 @@
+***** File DECOMP.TXT                                                         
+                                                                              
+    An MS-DOS program (PCDECLSP.EXE) based on the previous pixel algorithm    
+is included in the SOFTWARE directory.   It reads the header and decompresses 
+the associated data file.  The output is a FITS file with minimal header.  A  
+complete FITS header can be reconstructed by using the original extension     
+header which carries information about the compression technique as well as   
+the original astrometry keywords and processing comments.                     
+                                                                              
+                          Sample FITS Header                                  
+                                                                              
+SIMPLE  =                    T  / BASIC FITS FORMAT                           
+BITPIX  =                   16  / 2-BYTE TWO'S COMPL INTEGERS                 
+NAXIS   =                    2  / NUMBER OF AXES                              
+NAXIS1  =                 2048  / PIXELS PER ROW                              
+NAXIS2  =                 2048  / LINES PER IMAGE                             
+END                                                                           
+                                                                              

@@ -1,0 +1,1383 @@
+                   PHOTOMETRY AND POLARIMETRY NETWORK                                                                             
+                                                                                                                                  
+                                                                                                                                  
+I. INTRODUCTION                                                                                                                   
+                                                                                                                                  
+	The narrow-band photometry of the Photometry and Polarimetry Network                                                             
+(PPN) grew out of a previous program of narrow-band photometry of comets carried                                                  
+out by M.F. A'Hearn and R.L. Millis.  That program led first to the creation in                                                   
+1979 of a working group on standard filters under the auspices of Commission 15                                                   
+of the International Astronomical Union.  Standard filters were defined and                                                       
+purchased with a grant from the U.S. National Science Foundation for a worldwide                                                  
+distribution.  These activities were merged with those of the IHW when A'Hearn                                                    
+was selected as the PPN Discipline Specialist (Table I).                                                                          
+                                                                                                                                  
+                                                                                                                                  
+Table I.  Discipline Specialist Team for the Photometry and Polarimetry Network                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Team Member             Affiliation                        Responsibility                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Michael F. A'Hearn      Astronomy Program                  Discipline Specialist                                                  
+                        University of Maryland                                                                                    
+                        College Park, MD 20742                                                                                    
+                        U.S.A.                                                                                                    
+                                                                                                                                  
+Vladimir Vanysek	Department of Astronomy            Discipline Specialist                                                         
+                        Charles University                                                                                        
+                        CZ-15000 Prague 5                                                                                         
+                        Czechoslovakia                                                                                            
+                                                                                                                                  
+Humberto Campins	Astronomy Program                  Assistant Discipline                                                          
+                        University of Maryland               Specialist 1982-84                                                   
+                                                                                                                                  
+Michael A. Feierberg    Astronomy Program                  Assistant Discipline                                                   
+                        University of Maryland               Specialist 1984-86                                                   
+                                                                                                                                  
+Uri Carsenty		Astronomy Program                  Assistant Discipline                                                             
+                        University of Maryland               Specialist 1986-88                                                   
+                                                                                                                                  
+Marek Wolf 		Department of Astronomy            Assistant Discipline                                                              
+                        Charles University                   Specialist                                                           
+                                                                                                                                  
+Wayne Osborn 		Physics Department                 Coordinator for                                                                 
+                        Central Michigan University          Standard Stars                                                       
+                        Mount Pleasant, MI 48859                                                                                  
+                        U.S.A.                                                                                                    
+                                                                                                                                  
+David Edsall            Astronomy Program                  Programmer                                                             
+                        University of Maryland                                                                                    
+                                                                                                                                  
+Jason Meyer             Astronomy Program                  Programmer                                                             
+                        University of Maryland                                                                                    
+                                                                                                                                  
+Anne Raugh              Astronomy Program                  Programmer                                                             
+                        University of Maryland                                                                                    
+                                                                                                                                  
+Don Ingram              Astronomy Program                  Technical Assistant                                                    
+                        University of Maryland                                                                                    
+                                                                                                                                  
+Clare Ewald             Astronomy Program                  Data Processing and                                                    
+                        University of Maryland               Archiving Assistant                                                  
+                                                                                                                                  
+John Macuk              Astronomy Program                  Data Processing and                                                    
+                        University of Maryland               Archiving Assistant                                                  
+                                                                                                                                  
+Edith Stahl             Astronomy Program                  Data Processing and                                                    
+                        University of Maryland               Archiving Assistant                                                  
+                                                                                                                                  
+Lyla Taylor             Astronomy Program                  Data Processing and                                                    
+                        University of Maryland               Archiving Assistant                                                  
+                                                                                                                                  
+Melisa Walter           Astronomy Program                  Data Processing and                                                    
+                        University of Maryland               Archiving Assistant                                                  
+                                                                                                                                  
+Margaret Berry          Astronomy Program                  Administrative and                                                     
+                        University of Maryland               Secretarial Support                                                  
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+	Creation of the IHW also required a broadening of the effort to include                                                          
+broad-band photometry, to be emphasized when the comet was faint, and                                                             
+polarimetry, to be done with the narrow-band filters in order to separate                                                         
+the polarization of emission bands from that of the reflected continuum.                                                          
+Narrow-band filters were therefore distributed to both photometrists and                                                          
+polarimetrists.                                                                                                                   
+                                                                                                                                  
+	In order to ensure homogeneity of the results, an extensive effort was                                                           
+made to establish a standard photometric system with a list of standard                                                           
+stars distributed around the sky.  The efforts of several observers were                                                          
+enlisted and the analysis to establish the standard system was led by                                                             
+W. Osborn.                                                                                                                        
+                                                                                                                                  
+	Realizing that many potential observers were likely to have had little                                                           
+experience with cometary observations and also recognizing that the standard                                                      
+photometric system might not be in final form until late in the apparition                                                        
+of comet P/Halley and after the apparition of comet P/Giacobini-Zinner, it                                                        
+was decided that final calibrations of the narrow-band photometry would                                                           
+be done at the office of the Discipline Specialist at the University of                                                           
+Maryland.  Ultimately, to ensure homogeneity, complete reduction of most data                                                     
+was carried out at the office of the Discipline Specialist.                                                                       
+                                                                                                                                  
+                                                                                                                                  
+II. NARROW-BAND FILTERS                                                                                                           
+                                                                                                                                  
+	The narrow-band filters that were distributed to both photometrists                                                              
+and polarimetrists came from a variety of sources. Although the manufacturers                                                     
+tried to maintain uniformity among the filters, they were not entirely                                                            
+successful. Since the transformations from measured magnitudes to fluxes                                                          
+depend on the actual profiles of the filters, the differences among the                                                           
+transmission profiles of the different filters are discussed.                                                                     
+                                                                                                                                  
+	It should be kept in mind that the characteristics of the bandpasses                                                             
+of interference filters change with time, some much more than others.  There                                                      
+are several reports of noticeable changes in some of the IHW filters since                                                        
+the time of distribution.  All measurements reported here are based on data                                                       
+taken prior to distribution of the filters, that is, around 1982-83, except                                                       
+for the profile of the OH filter which was remeasured in 1988 and the profiles                                                    
+of the NH filters which were measured by the manufacturer in 1979.                                                                
+                                                                                                                                  
+	Because the OH and NH filters are treated differently from the                                                                   
+remainder, the tabular data are included in the section with the                                                                  
+writeup. For the remaining filters, the tabular data are all at the end                                                           
+of this section. All filters are identified by the nominal central                                                                
+wavelength [A], the nominal FWHM [A], and a serial number consisting of a                                                         
+letter indicating the manufacturer plus a sequential number.                                                                      
+                                                                                                                                  
+A. OH (3085A)                                                                                                                     
+                                                                                                                                  
+	This filter was designed to measure the 0-0 band of the A-X                                                                      
+system of OH. Although the 1-1 band is in the wing of the filter, it does                                                         
+not contribute a large fraction of the total light. The formula for flux                                                          
+in Section IV.B gives the flux in the 0-0 band alone. These filters                                                               
+were all manufactured by Spectro-Film, Inc. of Winchester, Mass.,                                                                 
+and are, in a sense, a special case because the primary bandpass is                                                               
+centered near 3075A with a full-width-half-maximum FWHM = 80A but there                                                           
+is also a secondary bandpass near 3580A which is lower in transmission                                                            
+by more than two orders of magnitude but wider by about one order of                                                              
+magnitude. It thus transmits, for a flat spectrum, a flux of a few percent                                                        
+that of the primary bandpass. This secondary bandpass is the dominant                                                             
+source of light at large airmasses because the atmospheric transmission                                                           
+is so much greater at the wavelength of the secondary bandpass than at                                                            
+the wavelength of the primary bandpass.                                                                                           
+                                                                                                                                  
+	Since there is only one filter of interest for comet P/Giacobini-                                                                
+Zinner, the one used at Lowell Observatory, Table II presents its                                                                 
+transmission curve.                                                                                                               
+                                                                                                                                  
+                                                                                                                                  
+Table II. Transmission Curve of the OH Filter 3085/75 (#S2)                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Lambda   Trans.      Lambda   Trans.      Lambda   Trans.      Lambda   Trans.                                                    
+ [A]                  [A]                  [A]                  [A]                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+ 2920   .000020       3090   .36125        3270   .0001375      3580   .002850                                                    
+ 2930   .0000285      3100   .33125        3280   .000110       3590   .00275                                                     
+ 2940   .000050       3110   .24125        3290   .0000975      3600   .00255                                                     
+ 2950   .0001075      3120   .12125        3300   .00008        3620   .002275                                                    
+ 2960   .000225       3130   .0500         3320   .000055       3640   .002100                                                    
+ 2970   .000485       3140   .02125        3340   .0000475      3660   .0020875                                                   
+ 2980   .00095        3150   .010          3360   .0000375      3680   .0020                                                      
+ 2990   .0020         3160   .00570        3380   .00003375     3700   .0018625                                                   
+ 3000   .0045         3170   .00325        3400   .0000325      3720   .0016625                                                   
+ 3010   .01125        3180   .002025       3420   .0000375      3740   .001375                                                    
+ 3020   .03           3190   .001325       3440   .000050       3760   .0010375                                                   
+ 3030   .095          3200   .000925       3460   .0000925      3780   .000750                                                    
+ 3040   .25           3210   .00065        3480   .0001025      3800   .0004875                                                   
+ 3050   .385          3220   .000473       3500   .000275       3820   .0002875                                                   
+ 3054   .3950         3230   .000360       3520   .0005375      3840   .00015                                                     
+ 3060   .38875        3240   .000285       3540   .0012125      3860   .0000575                                                   
+ 3070   .3775         3250   .000215       3560   .0022875      3880   .000015                                                    
+ 3080   .37375        3260   .000175       3570   .0027375      3900   .0000025                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+B. NH (3365A)                                                                                                                     
+                                                                                                                                  
+	The filters for NH were not distributed as part of the IHW effort                                                                
+but several older filters were available from previous programs. These                                                            
+filters were used at Lowell Observatory, at Cerro Tololo Inter-American                                                           
+Observatory, and at Perth Observatory. They were chosen to measure the                                                            
+delta-v = 0 sequence of the A-X system of NH. Although the entire                                                                 
+sequence is in the bandpass, virtually all of the light is from the 0-0                                                           
+band because the Franck-Condon factors are low for the other bands. The                                                           
+filters were also manufactured by Spectro-Film, Inc. although many years                                                          
+before the OH filters. Since the NH filters are not very well matched,                                                            
+the only way to characterize them is to present the transmission curve                                                            
+for each of them (Table III).                                                                                                     
+                                                                                                                                  
+                                                                                                                                  
+Table III. Transmission Curves of the NH Filters 3365/70                                                                          
+________________________________________________________                                                                          
+                                                                                                                                  
+                             Transmission                                                                                         
+Lambda    ______________________________________________                                                                          
+ [A]                                                                                                                              
+              Filter #S1      Filter #S2      Filter #S3                                                                          
+________________________________________________________                                                                          
+                                                                                                                                  
+ 3200            .002            .002            .001                                                                             
+ 3225	         .002  	         .002            .002                                                                               
+ 3250            .003            .003            .002                                                                             
+ 3275            .005            .005            .003                                                                             
+ 3300            .012            .010            .010                                                                             
+ 3325            .088            .082            .058                                                                             
+ 3350            .310            .300            .265                                                                             
+ 3375            .375            .368            .332                                                                             
+ 3400            .225            .240            .290                                                                             
+ 3425            .045            .050            .080                                                                             
+ 3450            .010            .011            .013                                                                             
+ 3475            .004            .003            .003                                                                             
+ 3500            .002       	 .002            .002                                                                                
+________________________________________________________                                                                          
+                                                                                                                                  
+                                                                                                                                  
+C. Continuum 3650A                                                                                                                
+                                                                                                                                  
+	The early filters of this type were produced by MicroCoatings, Inc.                                                              
+of Burlington, Mass. while the later ones were produced by Andover Corp. of                                                       
+Lawrence, Mass. Approximately 75 were distributed. Since the two companies                                                        
+used different techniques to manufacture the filters, the characteristics                                                         
+came out rather different. Although the filter is intended for the                                                                
+continuum, there are some weak ionic bands present in the wings of the                                                            
+filter. Preliminary calculations show that the contamination by these                                                             
+ions (CO+ and CO2+) is not significant.                                                                                           
+                                                                                                                                  
+D. CN (3871A)                                                                                                                     
+                                                                                                                                  
+       	This filter is intended to measure the delta-v = 0 sequence of the                                                        
+B-X system of CN. Like the 3650 filters, the early ones were made by                                                              
+MicroCoatings, Inc., the later ones by Andover Corp. The entire                                                                   
+delta-v = 0 sequence is included but since the 1-1 band is weaker than                                                            
+the 0-0 band by a full order of magnitude, the flux is 90% due to the                                                             
+0-0 band. The reduction formulae in Section IV.B give the flux in the                                                             
+complete delta-v = 0 sequence.                                                                                                    
+                                                                                                                                  
+E. C3 (4060A)                                                                                                                     
+                                                                                                                                  
+        This filter is intended to measure a portion of the A-X Swings                                                            
+system of C3 which extends over approximately 150A in this region. The                                                            
+filter was chosen to measure that portion of the emission band that is least                                                      
+contaminated by other features (at the short wavelengths by the strongest                                                         
+of the CO+ bands).  The reduction formulae in Section IV.B, however, are                                                          
+for the flux integrated over the entire band, based on published profiles                                                         
+which are assumed to remain the same in all comets. These filters were                                                            
+also manufactured both by MicroCoatings, Inc. and by Andover Corp.                                                                
+                                                                                                                                  
+F. CO+ (4260A)                                                                                                                    
+                                                                                                                                  
+        Since the strongest band of CO+, the 3-0 band, is inextricably in-                                                        
+volved with the C3 band, this filter was chosen to cover the 2-0 band of                                                          
+the A-X system. These filters were all made by Barr Associates, Inc., of                                                          
+Westford, Mass. Our results indicate a strong sensitivity to the subtraction                                                      
+of continuum relative to which the emission band is weak except in distant                                                        
+parts of the ion tail.                                                                                                            
+                                                                                                                                  
+G. Continuum 4845A                                                                                                                
+                                                                                                                                  
+        This region of the continuum is noticeably contaminated by the                                                            
+high vibrational and rotational components of the delta-v = 0 sequence of                                                         
+C2 which is predominantly at longer wavelengths. Our standard reduction                                                           
+corrects for this contamination.  The filters were manufactured by                                                                
+MicroCoatings, Inc. and by Andover Corp.                                                                                          
+                                                                                                                                  
+H. C2 (5140A)                                                                                                                     
+                                                                                                                                  
+        This filter measures the delta-v = 0 sequence of the Swan (d-a)                                                           
+system of C2. The filters were manufactured both by MicroCoatings, Inc.                                                           
+and by Andover Corp.                                                                                                              
+                                                                                                                                  
+J. Continuum 6840A                                                                                                                
+                                                                                                                                  
+        This filter also measures a relatively 'clean' region of the                                                              
+continuum. There is some weak emission by NH2 in this region but it does                                                          
+not appear to be a significant contributor. Because this band includes                                                            
+the Fraunhofer line B, which is due to telluric oxygen, there is a                                                                
+possibility that atmospheric extinction in this band might be affected                                                            
+by curve-of-growth effects. No allowance has been made for this in our                                                            
+reductions. The most obvious alternative location for a red continuum                                                             
+filter would involve interference from the telluric water vapor absorption                                                        
+and cause greater problems. These filters were all manufactured by Barr                                                           
+Associates, Inc.                                                                                                                  
+                                                                                                                                  
+K. H2O+ (7000A)                                                                                                                   
+                                                                                                                                  
+        This filter was chosen to isolate the (0,6,0)-(0,0,0) band of H2O+.                                                       
+Because this band is very broad and the filter was designed to encompass                                                          
+all of it, the bandpass tends to be dominated by continuum in the                                                                 
+head of many comets and the deduced flux is therefore sensitive to the                                                            
+precison of the subtraction of continuum. There is also some contamination                                                        
+by an emission band of NH2. The filters were all manufactured by                                                                  
+Barr Associates, Inc.                                                                                                             
+                                                                                                                                  
+	Characteristics of all the filters except those for OH and NH are                                                                
+given in Table IV.  Each filter is identified by its peak wavelength, FWHM                                                        
+(following a slash), and the manufacturer.  Listed are the mean and, in (),                                                       
+the rms scatter for the peak wavelength, the peak transmission, and the full                                                      
+widths at 80%, 50%, 10%, and 1% of peak transmission.  Table V presents the                                                       
+full widths for several actual filters--the overall narrowest one (Nr.),                                                          
+an average (Av.), and the widest (Wd.).  The numbers in () are the most                                                           
+extreme values found.  Table VI shows the complete profile for one filter                                                         
+of each type.  In Tables V and VI the individual filters are identified by                                                        
+the manufacturer (M = MicroCoatings, Inc.; A = Andover Corp.; B = Barr Asso-                                                      
+ciates) and its assigned number.                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table IV. Average Characteristics of the IHW Narrow-Band Filters                                                                  
+________________________________________________________________________________                                                  
+                                                                                                                                  
+ Filter      Lambda      Trans.    Width(80%)  Width(50%)  Width(10%)  Width(1%)                                                  
+[A]/[A]       [A]                      [A]         [A]         [A]        [A]                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+3650/80                                                                                                                           
+ Mic.     3650.1(5.5)  .368(.050)   57.7(4.3)   82.5(3.4)   126(4.8)   191(6.5)                                                   
+ And.     3644.2(4.1)  .295(.029)   68.3(1.3)   88.1(1.7)   125(2.9)   180(4.0)                                                   
+                                                                                                                                  
+3871/50                                                                                                                           
+ Mic.     3871.6(2.7)  .264(.030)   31.3(4.4)   44.2(3.9)    70(5.6)   115(8.4)                                                   
+ And.     3870.2(2.3)  .312(.031)   30.4(0.6)   42.4(1.4)    64(2.2)    92(1.2)                                                   
+                                                                                                                                  
+4060/70                                                                                                                           
+ Mic.     4057.9(2.0)  .458(.009)   62.6(1.9)   76.7(2.0)   100(3.5)   137(5.0)                                                   
+ And.     4054.1(1.8)  .487(.020)   59.1(3.5)   70.5(2.9)    91(1.3)   117(2.3)                                                   
+                                                                                                                                  
+4260/65                                                                                                                           
+ Barr     4259.8(5.8)  .445(.009)   62.1(1.4)   69.8(0.4)    76(0.5)    79(1.6)                                                   
+                                                                                                                                  
+4845/65                                                                                                                           
+ Mic.     4848.1(5.6)  .721(.009)   56.9(1.9)   71.7(1.0)   100(1.6)   143(2.8)                                                   
+ And.     4849.0(1.1)  .739(.008)   52.4(1.0)   65.0(0.6)    90(0.4)                                                              
+                                                                                                                                  
+5140/90                                                                                                                           
+ Mic.     5140.4(5.2)  .629(.010)   74.2(3.5)   85.3(2.2)   108(1.7)   142(3.3)                                                   
+ And.     5141.3(4.5)  .739(.017)   71.3(2.7)   82.6(4.2)   106(5.4)   155                                                        
+                                                                                                                                  
+6840/90                                                                                                                           
+ Barr     6840.3(15.)  .788(.016)   79.9(4.9)   90.9(4.4)   114(4.2)   146(5.4)                                                   
+                                                                                                                                  
+7000/175                                                                                                                          
+ Barr     7025.9(3.6)  .791(.013)    215(1.3)    228(1.2)   259(2.2)   311(2.7)                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table V. Characteristics of Filters--Narrowest, Average, and Widest                                                               
+____________________________________________________________________                                                              
+                                                                                                                                  
+ Filter  Desc. Ident.  Width(80%)  Width(50%)  Width(10%)  Width(1%)                                                              
+[A]/[A]                   [A]         [A]         [A]         [A]                                                                 
+____________________________________________________________________                                                              
+                                                                                                                                  
+3650/80   Nr.   M32      54(49)      79         123(121)    184(182)                                                              
+          Av.   M 3      57          81         125                                                                               
+          Wd.   M37      67          88(89)     128(137)    201                                                                   
+          Nr.   A36      66(65)      88(86)     126(114)    169                                                                   
+          Av.   A30      68          87         124         181                                                                   
+          Wd.   A34      68(72)      90(92)     127(129)    183(184)                                                              
+                                                                                                                                  
+3871/50   Nr.   M30      28(21)      41(38)      63(62)      98                                                                   
+          Av.   M41      31          44          71         118                                                                   
+          Wd.   M43      35(46)      49(50)      77(82)     125(127)                                                              
+          Nr.   A26      30(29)      42(40)      62(61)      90                                                                   
+          Av.   A17      30          42          64          92                                                                   
+          Wd.   A13      31          42          73            (94)                                                               
+                                                                                                                                  
+4060/70   Nr.   M49      60(58)      72          92         130                                                                   
+          Av.   M25      63          77         101                                                                               
+          Wd.   M38      64(65)      78(80)     104         144(146)                                                              
+          Nr.   A33      53          59          89         116(111)                                                              
+          Av.   A22      59          70          91         117                                                                   
+          Wd.   A14      64          74          92(93)        (120)                                                              
+                                                                                                                                  
+4260/65   Nr.   B10      61          69          76(75)      78(77)                                                               
+          Av.   B 4      63          70          76          78                                                                   
+          Wd.   B25      63(64)      70          76          83                                                                   
+                                                                                                                                  
+4845/65   Nr.   M25      51          70(69)      99(98)        (139)                                                              
+          Av.   M21      57          73         100         143                                                                   
+          Wd.   M33      59(60)      73         101(109)    148                                                                   
+          Nr.   A22      51          64          91                                                                               
+          Av.   A12      52          65          90                                                                               
+          Wd.   A17      52(54)      66          90(91)                                                                           
+                                                                                                                                  
+5140/90   Nr.   M14      56          80         104            (137)                                                              
+          Av.   M41      74          86         108         141                                                                   
+          Wd.   M36      79          90         113         148                                                                   
+          Nr.   A14      68          80         103                                                                               
+          Av.   A20      71          81         104                                                                               
+          Wd.   A29      77          92         118         155                                                                   
+                                                                                                                                  
+6840/90   Nr.   B23      68          83         110         141                                                                   
+          Av.   B21      80          92         115         148                                                                   
+          Wd.   B54      94          95         120         152                                                                   
+                                                                                                                                  
+7000/175  Nr.   B 3     215(211)    227         256         307                                                                   
+          Av.   B51     216         229         258         309                                                                   
+          Wd.   B15     217         229(232)    260(263)    320                                                                   
+____________________________________________________________________                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table VI. Transmission Curves of Actual Filters                                                                                   
+_____________________________________________________________                                                                     
+                                                                                                                                  
+Lambda Trans.   Lambda Trans.   Lambda Trans.   Lambda Trans.                                                                     
+ [A]             [A]             [A]             [A]                                                                              
+_____________________________________________________________                                                                     
+                                                                                                                                  
+                     Filter: 3650/80; M30                                                                                         
+                                                                                                                                  
+ 3522  .00152    3587  .08181    3652  .3030     3717  .0237                                                                      
+ 3527  .00167    3592  .1169     3657  .3030     3722  .0130                                                                      
+ 3532  .00200    3597  .1515     3662  .3030     3727  .0079                                                                      
+ 3537  .00222    3602  .2030     3667  .3006     3732  .00303                                                                     
+ 3542  .00242    3607  .2424     3672  .2912     3737  .00285                                                                     
+ 3547  .00258    3612  .2783     3677  .2424     3742  .00278                                                                     
+ 3552  .00303    3617  .2912     3682  .20907    3747  .00248                                                                     
+ 3557  .00576    3622  .2936     3687  .1515     3752  .00222                                                                     
+ 3562  .00788    3627  .29827    3692  .1224     3757  .00217                                                                     
+ 3567  .00939    3632  .3013     3697  .0821     3762  .00203                                                                     
+ 3572  .02275    3637  .3013     3702  .0559     3767  .00192                                                                     
+ 3577  .02908    3642  .3030     3707  .0297     3772  .00152                                                                     
+ 3582  .0303     3647  .3030     3712  .0266                                                                                      
+                                                                                                                                  
+                     Filter: 3871/50; A16                                                                                         
+                                                                                                                                  
+ 3802  .00033    3842  .03343    3882  .3316     3922  .04072                                                                     
+ 3807  .00078    3847  .08311    3887  .3343     3927  .02804                                                                     
+ 3812  .00147    3852  .1327     3892  .3289     3932  .02117                                                                     
+ 3817  .00207    3857  .1932     3897  .3049     3937  .00669                                                                     
+ 3822  .00289    3862  .2474     3902  .2675     3942  .00319                                                                     
+ 3827  .00613    3867  .2835     3907  .2163     3947  .00215                                                                     
+ 3832  .01297    3872  .3129     3912  .1488     3952  .00152                                                                     
+ 3837  .02609    3877  .3236     3917  .09772    3957  .00078                                                                     
+                                                 3962  .00033                                                                     
+                     Filter: 4060/70; A22                                                                                         
+                                                                                                                                  
+ 3972  .00026    4012  .1592     4052  .512      4092  .2326                                                                      
+ 3977  .00038    4017  .256      4057  .5079     4097  .1335                                                                      
+ 3982  .00051    4022  .3911     4062  .5038     4102  .0512                                                                      
+ 3987  .00187    4027  .4628     4067  .49152    4107  .02638                                                                     
+ 3992  .00359    4032  .4833     4072  .49152    4112  .00512                                                                     
+ 3997  .00512    4037  .4997     4077  .49152    4117  .00051                                                                     
+ 4002  .02638    4042  .5079     4082  .45056    4122  .00038                                                                     
+ 4007  .0512     4047  .512      4087  .3873     4127  .00026                                                                     
+                                                                                                                                  
+                     Filter: 4260/65; B4                                                                                          
+                                                                                                                                  
+ 4200  .001      4230  .390      4260  .445      4290  .351                                                                       
+ 4205  .002      4235  .393      4265  .439      4295  .199                                                                       
+ 4210  .007      4240  .404      4270  .430      4300  .071                                                                       
+ 4215  .021      4245  .427      4275  .422      4305  .022                                                                       
+ 4220  .084      4250  .442      4280  .415      4310  .008                                                                       
+ 4225  .261      4255  .447      4285  .405      4315  .003                                                                       
+                                                 4320  .001                                                                       
+                     Filter: 4845/65; M21                                                                                         
+                                                                                                                                  
+ 4714  .00042    4779  .02952    4844  .6833     4909  .04197                                                                     
+ 4719  .00048    4784  .03959    4849  .6778     4914  .03557                                                                     
+ 4724  .00052    4789  .04726    4854  .6669     4919  .02459                                                                     
+ 4729  .00056    4794  .06087    4859  .6505     4924  .01342                                                                     
+ 4734  .00066    4799  .1084     4864  .6450     4929  .00664                                                                     
+ 4739  .00104    4804  .2317     4869  .6286     4934  .00374                                                                     
+ 4744  .00194    4809  .3178     4874  .5739     4939  .00282                                                                     
+ 4749  .00274    4814  .4677     4879  .4481     4944  .00200                                                                     
+ 4754  .00425    4819  .5849     4884  .3178     4949  .00131                                                                     
+ 4759  .00508    4824  .6395     4889  .2287     4454  .00100                                                                     
+ 4764  .00629    4829  .6559     4894  .1084     4459  .00076                                                                     
+ 4769  .01140    4834  .6724     4899  .06320    4464  .00066                                                                     
+ 4774  .01781    4839  .6833     4909  .05039    4969  .00044                                                                     
+                                                 4974  .00042                                                                     
+                     Filter: 5140/90; M5                                                                                          
+                                                                                                                                  
+ 5030  .00017    5099  .3945     5144  .6109     5189  .1660                                                                      
+ 5034  .00020    5104  .5649     5149  .6039     5194  .08551                                                                     
+ 5044  .00030    5109  .5598     5154  .6067     5204  .02393                                                                     
+ 5054  .00054    5114  .5408     5159  .6166     5214  .00724                                                                     
+ 5064  .00137    5119  .5546     5164  .6295     5224  .00254                                                                     
+ 5074  .00521    5124  .5875     5169  .6194     5234  .00122                                                                     
+ 5084  .02786    5129  .6166     5174  .5623     5244  .00065                                                                     
+ 5089  .07112    5134  .6310     5179  .4446     5254  .00041                                                                     
+ 5094  .1862     5139  .6237     5184  .2858     5264  .00027                                                                     
+                                                 5271  .00021                                                                     
+                     Filter: 6840/90; B21                                                                                         
+                                                                                                                                  
+ 6750  .00000    6795  .43956    6840  .81500    6885  .45000                                                                     
+ 6755  .00400    6800  .65919    6845  .81100    6890  .25000                                                                     
+ 6760  .00600    6805  .77105    6850  .80700    6895  .11985                                                                     
+ 6765  .00800    6810  .79502    6855  .79901    6900  .05990                                                                     
+ 6770  .02000    6815  .79901    6860  .79303    6905  .03196                                                                     
+ 6775  .02796    6820  .79901    6865  .79102    6910  .01598                                                                     
+ 6780  .05992    6825  .80700    6870  .79000    6915  .08000                                                                     
+ 6785  .08000    6830  .81100    6875  .77000    6920  .00400                                                                     
+ 6790  .23970    6835  .81200    6880  .66000    6925  .00023                                                                     
+                                                 6930  .00000                                                                     
+                     Filter: 7000/175; B7                                                                                         
+                                                                                                                                  
+ 6850  .003      6940  .746      7030  .826      7120  .791                                                                       
+ 6855  .004      6945  .748      7035  .825      7125  .752                                                                       
+ 6860  .005      6950  .756      7040  .825      7130  .610                                                                       
+ 6865  .007      6955  .770      7045  .826      7135  .418                                                                       
+ 6870  .010      6960  .783      7050  .827      7140  .249                                                                       
+ 6875  .015      6965  .794      7055  .825      7145  .142                                                                       
+ 6880  .022      6970  .801      7060  .823      7150  .080                                                                       
+ 6885  .036      6975  .806      7065  .820      7155  .048                                                                       
+ 6890  .060      6980  .808      7070  .809      7160  .029                                                                       
+ 6895  .102      6985  .809      7075  .793      7165  .018                                                                       
+ 6900  .177      6990  .812      7080  .773      7170  .011                                                                       
+ 6905  .300      6995  .814      7085  .748      7175  .008                                                                       
+ 6910  .475      7000  .816      7090  .726      7180  .006                                                                       
+ 6915  .475      7005  .819      7095  .711      7185  .004                                                                       
+ 6920  .753      7010  .822      7100  .706      7190  .003                                                                       
+ 6925  .780      7015  .823      7105  .715      7195  .002                                                                       
+ 6930  .769      7020  .824      7110  .735      7200  .001                                                                       
+ 6935  .754      7025  .825      7115  .772                                                                                       
+_____________________________________________________________                                                                     
+                                                                                                                                  
+                                                                                                                                  
+III. STANDARD STARS                                                                                                               
+                                                                                                                                  
+A. Standards for Narrow-Band Photometry                                                                                           
+                                                                                                                                  
+	An extensive set of standard stars was defined using the narrow-band                                                             
+filters distributed by the IHW.  Primary standard stars were chosen to be of                                                      
+two types: solar analogs and stars of spectral types O9-B3.  The early-type                                                       
+stars were chosen to have the most line-free spectra and to be distributed                                                        
+along the celestial equator while the solar analogs were chosen to be                                                             
+those most nearly like the Sun in the work of Hardorp (1978, 1980a,b, 1982).                                                      
+The solar analogs were used to determine the continuum underlying the                                                             
+emission bands of the comet and are marked in the table below.  Secondary                                                         
+standards were chosen in other parts of the sky.                                                                                  
+                                                                                                                                  
+	 Observations were obtained at several sites using different sets                                                                
+of the standard filters and different photometers.  The observations were                                                         
+synthesized by W. Osborn to establish the standard magnitudes.  The zero-                                                         
+point of the system was arbitrarily set to be m = 5.88 for all filters for the                                                    
+star 53 Psc = HD 3379 (V = 5.88).  Empirically there appears to be nothing                                                        
+more than a zero point shift between instrumental magnitudes and the standard                                                     
+magnitudes in nearly all cases.  In a few cases, that is, for certain sets of                                                     
+filters, the zero point shift of the CN filter is slightly different for                                                          
+G-stars and for B-stars and presumably, therefore, for comets.  A complete                                                        
+paper on the standards is in preparation at the time of this writing and a more                                                   
+complete discussion of the standards will appear among the appendices to the                                                      
+archive of data on comet P/Halley.                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+Table VII. The Set of Standard Stars for Narrow-Band Photometry                                                                   
+__________________________________________________________________________________________________________                        
+                                                                                                                                  
+                                          Monochromatic Magnitude at Wavelength [A]                                               
+  HD#     R.A.(1950)Decl    --------------------------------------------------------------------  Spectrum                        
+                             3085   3365   3650   3871   4060   4260   4845   5140   6840   7000                                  
+__________________________________________________________________________________________________________                        
+                                                                                                                                  
+  3379 00 34 10.8 +14 57 24  5.880  5.880  5.880  5.880  5.880  5.880  5.880  5.880  5.880  5.880 B2.5IV *                        
+ 10126 01 36 45.6  27 51 22 10.497  9.768  9.304  9.727  8.978  8.863  8.011  7.999  7.11   7.09  G8V                             
+ 13974 02 13 59.6  33 59 48  7.069  6.494  6.141  6.252  5.902  5.811  5.130  5.096  4.290  4.25  G0V                             
+ 16397 02 35 30.9  30 36 24  9.532  8.943  8.559  8.683  8.340  8.265  7.596  7.546  6.81   6.87  G1V                             
+ 16908 02 40 30.7  27 29 44  4.735  4.742  4.725  4.677  4.676  4.677  4.668  4.665  4.626  4.641 B3V                             
+ 18803 02 59 27.7  26 24 56  9.349  8.600  8.149  8.565  7.826  7.704  6.898  6.864  6.033  6.005 G8V                             
+ 22951 03 39 12.0  33 48 22  4.925  4.932  4.893  5.107  5.161  5.146  5.017  5.023  4.862  4.892 B0.5V                           
+ 23464 03 43 15.2  22 58 28 11.08  10.46  10.011 10.196  9.723  9.598  8.960  8.892         8.11  G0V                             
+ 24760 03 54 29.4  39 52 03  2.433  2.529  2.549  2.807  2.933  2.948  2.885  2.952  2.885  2.956 B0.5V                           
+ 25680 04 02 22.4  21 52 32  8.289  7.665  7.277  7.484  6.987  6.868  6.163  6.108  5.340  5.326 G5V                             
+ 26736 04 11 32.2  23 27 02 10.581  9.896  9.472  9.732  9.178  9.055  8.318  8.269  7.433  7.360 G3V                             
+ 26912 04 12 49.0  08 46 07  4.669  4.593  4.539  4.411  4.404  4.399  4.329  4.317  4.202  4.202 B3IV   *                        
+ 28099 04 23 47.7  16 38 07 10.631  9.958  9.547  9.823  9.227  9.097  8.364  8.312  7.51   7.48  G6V    +                        
+ 29461 04 36 07.6  14 00 29 10.454  9.839  9.410  9.675  9.097  8.973  8.243  8.196  7.370  7.324 G5V    +                        
+ 30246 04 43 38.9  15 22 59 10.861 10.170  9.767 10.053  9.456  9.340  8.585  8.539         7.68  G5V    +                        
+ 30455 04 45 46.3  18 37 40  9.16   8.69   8.297  8.464  8.004  7.921  7.218  7.160  6.36   6.32  G2V                             
+ 31966 04 57 43.5  14 18 36         8.66   8.245  8.476  7.895  7.781  7.038  6.979  6.15   6.10  G2IV-V                          
+ 36351 05 28 37.0  03 15 21  5.187  5.229  5.248  5.383  5.426  5.439  5.419  5.444  5.436  5.452 B1.5V                           
+ 41753 06 04 42.9  14 46 34  4.43   4.41   4.408  4.382  4.393  4.405  4.403  4.410  4.404  4.426 B3V                             
+ 44594 06 18 47.1 -48 42 50  9.110  8.496  8.051  8.319  7.726  7.613  6.889  6.832  6.011  5.977 G2V    +                        
+ 47032 06 34 07.4  04 44 14  9.776  9.57   9.396  9.577  9.594  9.516  9.116  8.984  8.303  8.260 B2                              
+ 52266 06 57 53.9 -05 45 21  7.053  7.075  7.037  7.327  7.415  7.404  7.240  7.256  7.040  7.048 O9V    *                        
+ 74280 08 40 36.7  03 34 46  4.196  4.206  4.198  4.240  4.265  4.283  4.275  4.293  4.296  4.324 B4V    *                        
+ 76151 08 51 50.1 -05 14 39  8.525  7.898  7.462  7.810  7.152  7.044  6.291  6.238  5.404  5.371 G3V                             
+ 84971 09 46 12.4 -02 28 50  8.579  8.597  8.583  8.620  8.665  8.679  8.629  8.660  8.612  8.631 B2.5V                           
+ 88725 10 11 32.1  03 24 19  9.970  9.413  9.003  9.145  8.791  8.720  8.020  7.963  7.152  7.117 G1V                             
+ 89688 10 18 27.1  02 32 31  6.838  6.802  6.756  6.734  6.766  6.761  6.671  6.682  6.584  6.596 B2.5IV *                        
+ 96700 11 05 31.5 -29 54 07  8.815  8.242  7.845  7.995  7.569  7.480  6.803  6.733  5.949  5.917 G2V                             
+ 97991 11 13 38.6 -03 11 57  6.943  7.038  7.055  7.283  7.348  7.374  7.355  7.401  7.421  7.446 B1V                             
+ 99171 11 21 58.1 -42 23 39  5.924  5.989  5.975  6.087  6.118  6.132  6.115  6.141  6.129  6.152 B2V                             
+104337 11 58 17.5 -19 22 50  4.955  5.019  5.028  5.193  5.256  5.277  5.240  5.283  5.283  5.312 B1.5V                           
+105590 12 06 53.2 -11 34 36  9.365  8.727  8.296  8.593  8.000  7.890  7.141  7.089  6.248  6.216 G2V    +                        
+112185 12 51 50.1 +56 13 51  3.23   3.02   2.84   2.10   1.98   1.93   2.00   1.89   1.59   1.65  B2                              
+120086 13 44 44.2 -02 11 40  7.653  7.697  7.695  7.813  7.855  7.862  7.845  7.873  7.867  7.888 B3III  *                        
+120315 13 45 34.3  49 33 44  1.89   1.90   1.91   1.90   1.91   1.91   1.94   1.94   1.86   1.89  B3V    *                        
+121849 13 55 42.9 -33 45 15 10.743 10.024  9.614  9.874  9.339  9.256  8.466  8.421  7.542  7.506 G5V                             
+122980 14 02 59.0 -40 56 28  4.159  4.161  4.188  4.301  4.325  4.334  4.342  4.358  4.365  4.386 B2V                             
+124580 14 12 27.6 -44 46 00  8.593  8.014  7.644  7.769  7.390  7.285  6.624  6.550  5.773  5.745 G1V                             
+133955 15 05 27.9 -45 05 20  4.054  4.017  4.035  4.062  4.060  4.066  4.075  4.065  4.049  4.054 B3V                             
+136352 15 18 25.2 -48 08 06  8.062  7.425  7.012  7.221  6.754  6.673  5.944  5.896  5.066  5.033 G2V                             
+137432 15 24 05.5 -36 35 37  5.600  5.570  5.561  5.504  5.472  5.475  5.492  5.455  5.416  5.437 B4V                             
+148045 16 24 27.7 -56 34 03 10.83         10.07   9.86   9.61   9.48   9.06   8.94   8.32   8.31  G0V                             
+149363 16 31 47.9 -06 01 59  7.770  7.752  7.706  7.938  8.027  8.007  7.818  7.823  7.590  7.600 B0.5III*                        
+149438 16 32 45.9 -28 06 51  2.26   2.281  2.340  2.656  2.767  2.801  2.780  2.820  2.84   2.89  B0V                             
+164852 18 00 14.7  20 49 57  5.443  5.398  5.372  5.337  5.323  5.317  5.292  5.269  5.186  5.208 B3V    *                        
+165185 18 03 00.9 -36 01 32  8.207  7.648  7.245  7.381  6.988  6.874  6.212  6.139  5.374  5.352 G5V                             
+166197 18 07 36.8 -33 48 40  5.903  5.956  5.932  6.104  6.184  6.190  6.113  6.154  6.081  6.106 B1V                             
+175191 18 52 09.9 -26 21 38  1.955  1.95   1.955  2.02   2.045  2.065  2.09   2.09   1.92   1.95  B2.5V                           
+186427 19 40 32.0  50 24 03  8.779  8.093  7.671  7.946  7.350  7.240  6.492  6.451  5.616  5.635 G5V    +                        
+189340 19 57 04.3 -10 05 25  8.094  7.518  7.170  7.249  6.882  6.768  6.138  6.075  5.315  5.296 G0V                             
+191263 20 06 15.1  10 34 44  6.430  6.410  6.390  6.366  6.365  6.364  6.347  6.346  6.302  6.328 B3IV   *                        
+191639 20 08 27.5 -08 59 30  6.099  6.159  6.153  6.394  6.486  6.495  6.423  6.475  6.432  6.463 B1V                             
+191854 20 08 33.7  43 47 43  9.982  9.274  8.864  9.134  8.539  8.433  7.671  7.641  6.813  6.817 G1     +                        
+193901 20 20 38.8 -21 31 05 10.573 10.028  9.723  9.775  9.585  9.494  8.903  8.827  8.072  8.049 G3V                             
+198188 20 46 21.9 -20 48 51 10.428  9.819  9.438  9.609  9.153  9.053  8.394  8.325  7.559  7.543 G0V                             
+214680 22 37 00.7  38 47 22  4.268  4.349  4.381  4.716  4.834  4.858  4.811  4.880  4.898  4.921 B2                              
+218687 23 07 27.5  14 09 22  8.793  8.211  7.846  7.984  7.586  7.475  6.821  6.760  6.003  5.976 G0V                             
+219188 23 11 28.0  04 43 29  6.675  6.723  6.727  6.992  7.100  7.102  7.001  7.062  6.992  7.023 B0.5III*                        
+__________________________________________________________________________________________________________                        
+                                                                                                                                  
+*  Primary flux standards (equatorial).                                                                                           
++  Primary solar analogs.                                                                                                         
+                                                                                                                                  
+                                                                                                                                  
+Table VIII. Solar Analog Colors                                                                                                   
+______________________________________________________________________                                                            
+                                                                                                                                  
+          Monochromatic Magnitude at Wavelength [A] Relative to 4845 A                                                            
+  HD#    -------------------------------------------------------------                                                            
+          3085   3365   3650   3871   4060   4260   5140   6840   7000                                                            
+______________________________________________________________________                                                            
+                                                                                                                                  
+ 28099   2.267  1.594  1.183  1.459   .863   .733  -.052  -.854  -.884                                                            
+ 29461   2.211  1.596  1.167  1.432   .854   .730  -.047  -.873  -.919                                                            
+ 30246   2.276  1.585  1.182  1.468   .871   .755  -.046         -.905                                                            
+ 44594   2.221  1.607  1.162  1.430   .837   .724  -.057  -.878  -.912                                                            
+105590   2.224  1.586  1.155  1.452   .859   .749  -.052  -.893  -.925                                                            
+186427   2.287  1.601  1.179  1.454   .858   .748  -.041  -.876  -.857                                                            
+191854   2.311  1.603  1.193  1.463   .868   .762  -.030  -.858  -.854                                                            
+                                                                                                                                  
+  Mean   2.257  1.596  1.174  1.451   .859   .743  -.046  -.872  -.894                                                            
+ Sigma    .038   .008   .013   .015   .011   .014   .009   .014   .029                                                            
+________________________________________________________________________                                                          
+                                                                                                                                  
+                                                                                                                                  
+B. Standards for Polarimetry                                                                                                      
+                                                                                                                                  
+        Both highly polarized stars (POL-STD in the FITS HISTORY keyword)                                                         
+and unpolarized stars (UNPOL-STD in the FITS HISTORY keyword) were used to                                                        
+calibrate the polarimetric measurements.  The standard values were taken                                                          
+from the literature (Hsu and Breger, 1982).                                                                                       
+                                                                                                                                  
+  POL-STD   : HD 187929, HD 7927                                                                                                  
+UNPOL-STD   : HD 188512                                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+IV. REDUCTION OF NARROW-BAND PHOTOMETRY                                                                                           
+                                                                                                                                  
+	In this section are described the methods and formulae used at the                                                               
+University of Maryland to reduce the narrow-band photometric data.  Most                                                          
+data were reduced at Maryland, using these methods. Significant deviations                                                        
+from these procedures are noted in the archive as comments for the relevant                                                       
+observations.                                                                                                                     
+                                                                                                                                  
+A. Atmospheric Effects and Reduction to Standard Magnitudes                                                                       
+                                                                                                                                  
+	The most basic data with which we could begin reductions consisted                                                               
+of Universal Times and counting rates on the various objects and on the                                                           
+sky. In the case of measurements with direct-current systems rather than                                                          
+pulse-counting systems, the most basic data would consist of readings                                                             
+from the d.c. amplifier and Universal Times. Some observers submitted                                                             
+data in various stages of reduction beyond these most basic data and                                                              
+in general we do not know the details of the reductions applied by such                                                           
+observers. We will describe here the complete reduction from the most                                                             
+basic data as we carried it out.                                                                                                  
+                                                                                                                                  
+	Instrumental magnitudes were derived by first correcting all                                                                     
+counting-rates for the dead-time of the amplifier using the formula                                                               
+                                                                                                                                  
+	n = n(obs)/[1.0 - n(obs)*tau]                                                                                                    
+                                                                                                                                  
+where tau is the dead-time of the amplifier and n and n(obs) are the                                                              
+'true' and observed counting rates, respectively. These counting rates                                                            
+were converted to instrumental magnitudes by choosing an appropriate                                                              
+counting rate n(sky) for the sky brightness (by interpolation where                                                               
+appropriate and possible) and using                                                                                               
+                                                                                                                                  
+	m = 20.00 - 2.5*log[n(object) - n(sky)].                                                                                         
+                                                                                                                                  
+	Air masses were calculated for each observation in the following                                                                 
+manner beginning with the coordinates of the observatory and the coordinates                                                      
+(current epoch) of the object.  True zenith distance, Z:                                                                          
+                                                                                                                                  
+	sec Z = 1/[sin(lat)*sin(dec) + cos(lat)*cos(dec)*cos(local hour angle)].                                                         
+                                                                                                                                  
+Apparent zenith distance, Zapp:                                                                                                   
+                                                                                                                                  
+	Zapp = Z - [60.4*tan(Z) - .06688*tan(Z)**3]                                                                                      
+                                                                                                                                  
+where the term in [ ] is in arcsec.  Airmass, X, is then:                                                                         
+                                                                                                                                  
+	X = sec(Zapp) - .0018167*[sec(Zapp)-1] - .002875*[sec(Zapp)-1]**2                                                                
+	    - .0008083*[sec(Zapp)-1]**3.                                                                                                 
+                                                                                                                                  
+	Although atmospheric attenuation is normally linear with airmass as                                                              
+defined above, this is not the case for observations with the OH filters                                                          
+because the monochromatic attenuation varies drastically across the                                                               
+bandpass. In order to simplify the reductions, particularly when only                                                             
+limited data were available, the non-linearity of the atmospheric                                                                 
+attenuation was modelled by defining an effective airmass, Xeff, such                                                             
+that attenuation would be linear in this variable. Unfortunately, the                                                             
+non-linearity varies from one site to another and even with time at a                                                             
+single site due to differences in the amount of atmosphere above the                                                              
+site (changing the Rayleigh component), in the amount of aerosol at the                                                           
+site, and in the amount of ozone above the site. Furthermore, the                                                                 
+non-linearity depends on the color of the source being observed.                                                                  
+Fortunately we are interested only in sources of three colors -                                                                   
+B-stars, solar analogs, and cometary emission bands. We can therefore                                                             
+define effective airmasses separately for each of the three cases.                                                                
+                                                                                                                                  
+	The details of the atmospheric modelling will be described elsewhere                                                             
+but our general approach, based on that of Hayes and Latham (1975), is to                                                         
+use a three-component model for the atmosphere (Rayleigh, aerosol, ozone) to                                                      
+calculate the monochromatic extinction. The altitude of the observatory                                                           
+defines the Rayleigh component whereas the aerosol and ozone components are                                                       
+allowed to vary within ranges expected for a given site. The monochromatic                                                        
+extinction for various airmasses is then multiplied by the spectral                                                               
+distribution of a B-star, a G-star, and a cometary emission band and the                                                          
+resultant flux is multiplied by the transmission curve of the filter                                                              
+yielding magnitudes as a function of airmass. The resultant theoretically                                                         
+calculated magnitudes are compared with whatever observations are                                                                 
+available, usually a large set of observations of the B-stars observed                                                            
+over a wide range of airmasses during a single observing run. The two                                                             
+free parameters (ozone column density and aerosol abundance) are varied                                                           
+until the observed data are reproduced by the model. (Usually only the                                                            
+ozone abundance needs to be varied significantly and it turns out that                                                            
+in cases studied so far this remains within the ranges expected for a                                                             
+given latitude and season.) We then use the calculated variation of                                                               
+magnitude with airmass to define the effective airmass, Xeff, such that                                                           
+the extinction is linear. It appears adequate to use a quadratic                                                                  
+polynomial:                                                                                                                       
+                                                                                                                                  
+	Xeff = X + a*X**2                                                                                                                
+                                                                                                                                  
+where a is in principle different for every site (conceivably every                                                               
+observing run due to seasonal effects in ozone abundance) and different                                                           
+for B-stars, G-stars, and comets. For comet P/Giacobini-Zinner, the only                                                          
+archived OH data were obtained at Lowell Observatory and for these data                                                           
+the values of a are given by:                                                                                                     
+                                                                                                                                  
+	a(B-star) = .04551                                                                                                               
+	a(G-star) = .07961                                                                                                               
+	a(comet)  = .009286                                                                                                              
+                                                                                                                                  
+	Since in practice one determines extinction only from B-stars or                                                                 
+only from B- and G-stars, it is also necessary to know the ratio of                                                               
+extinction coefficents for the three classes of objects once they have                                                            
+all been linearized by the above formulae. This ratio is also derived                                                             
+from the model. For the model which represented the observed curvature                                                            
+in the data from Lowell Observatory, the ratio of extinction                                                                      
+coefficients k (in units of Xeff) was given by                                                                                    
+                                                                                                                                  
+	k(comet) = .924*k(B-star).                                                                                                       
+                                                                                                                                  
+	Given a set of observations of standard stars, extinction                                                                        
+coefficients were determined in a variety of ways. In most cases we                                                               
+determined atmospheric extinction for each night by two methods, conventional                                                     
+fitting by least squares of magnitude vs. airmass for individual stars                                                            
+and also a global least squares solution using all standards in which we                                                          
+solved simultaneously for the extinction coefficient and the zero-point                                                           
+shift from instrumental magnitude to standard magnitudes. The result of                                                           
+the global solution was normally used unless the solutions for individual                                                         
+stars suggested hemispheric asymmetries and/or temporal variations                                                                
+during the night. In these cases we then solved separately for different                                                          
+hemispheres and/or parts of the night. In some cases we also averaged                                                             
+several nights together to define average extinction coefficients either                                                          
+when there were too few data on a particular night to determine                                                                   
+extinction or when the scatter from night to night was no larger than                                                             
+expected from the errors in the results of the individual nights.                                                                 
+Different types of extinction fitting are noted in the remarks column of                                                          
+the archive. When global solutions for extinction were not used,                                                                  
+magnitudes were transformed to the standard system by a least squares                                                             
+solution for the zero-point shift with no color terms.                                                                            
+                                                                                                                                  
+	It was at this point that a certain amount of discretion was exercised                                                           
+in our operation. If individual observations or even all the observations of                                                      
+a single object seemed discrepant, and if we were able to identify a                                                              
+physically plausible mechanism for producing the discrepancy, we often                                                            
+discarded some observations. In a few cases, we even discarded the data                                                           
+from entire nights at this point. We should point out that in some cases                                                          
+the observers had already advised us that the data were of poor quality                                                           
+but we had requested that they submit everything in the hope that we                                                              
+could salvage some marginal data if it turned out to be critical for                                                              
+filling in a significant gap in the light curve. The subjective comments                                                          
+of the observers were of great help in understanding the effects of                                                               
+atmospheric extinction.                                                                                                           
+                                                                                                                                  
+B. Conversion to Fluxes                                                                                                           
+                                                                                                                                  
+	The following procedures were used to derive fluxes in the                                                                       
+continuum bandpasses. We first applied a correction due to the fact that                                                          
+the filter at 4845A, nominally a continuum filter, also includes a                                                                
+weak tail of emission from the delta-v = 0 sequence of the Swan system                                                            
+of C2 which is measured by the filter at 5140A. This correction was                                                               
+done in magnitude units using                                                                                                     
+                                                                                                                                  
+	mcont(4845) = m(4845) + 0.012*[m(4845)-m(5140)].                                                                                 
+                                                                                                                                  
+The coefficient 0.012 was derived on the basis of theoretical spectra of                                                          
+the Swan bands from A'Hearn (1978). Actual spectra of comet P/Halley from                                                         
+Lowell Observatory suggest that the coefficient should be somewhat larger                                                         
+than this, perhaps as large as 0.03. In any case, the correction does not                                                         
+change the continuum flux drastically.                                                                                            
+                                                                                                                                  
+	The conversion from magnitudes in the standard system to fluxes in                                                               
+the continuum is straightforward. To generalize for future use, we                                                                
+arbitrarily define                                                                                                                
+                                                                                                                                  
+	mcont(6840) = m(6840)                                                                                                            
+                                                                                                                                  
+and                                                                                                                               
+                                                                                                                                  
+	mcont(3650) = m(3650).                                                                                                           
+                                                                                                                                  
+We also define                                                                                                                    
+                                                                                                                                  
+	Fcont(lambda) = 10**[-0.4 * mcont(lambda)]                                                                                       
+                                                                                                                                  
+The flux per unit wavelength [erg/cm**2/s/A] is then given by:                                                                    
+                                                                                                                                  
+	Flam(3650) = (8.22 +/- .13)*10**(-9) * Fcont(3650)                                                                               
+	Flam(4845) = (5.10 +/- .30)*10**(-9) * Fcont(4845)                                                                               
+	Flam(6840) = (1.65 +/- .02)*10**(-9) * Fcont(6840).                                                                              
+                                                                                                                                  
+The 'errors' given with the coefficients are a measure of the variation                                                           
+in the flux transformation from one filter to another and, for a given                                                            
+filter, with temperature over the range -20C to +20C.                                                                             
+                                                                                                                                  
+	Derivation of fluxes in emission bands is somewhat more complicated.                                                             
+The first step is to remove the continuum which underlies the emission band                                                       
+and which is also detected through the filters. This is done using the                                                            
+colors of the solar analogs (Table VIII) and measurements of the comet                                                            
+in any two continuum bandpasses - (3650,4845), (3650,6840), or                                                                    
+(4845,6840). For each pair of filters, we interpolate (or extrapolate) the                                                        
+magnitudes of the solar analogs to the wavelength of an emission-band                                                             
+filter and determine the difference between the measured magnitude                                                                
+and the interpolated magnitude, C. For the comet, we then interpolate the                                                         
+magnitudes in the same two continuum filters and add C to estimate the                                                            
+continuum contribution to the measured magnitude. This procedure is                                                               
+accurate if the cometary continuum in magnitudes is redder (or bluer)                                                             
+than the sun linearly with wavelength. If there is curvature or                                                                   
+structure in the continuum reflectivity of the cometary grains, then                                                              
+this procedure is not adequate. The general form of the equation is:                                                              
+                                                                                                                                  
+	mcont(i) = A*mcont(cont1) + (1-A)*mcont(cont2) + B(i)                                                                            
+                                                                                                                                  
+where i refers to the ith emission band designated by its wavelength,                                                             
+A and (1-A) are the coefficients for the interpolation which depend only on                                                       
+the wavelengths of the 3 filters, and B is as described above. In Table IX                                                        
+we give the coefficents for the continuum correction for each emission                                                            
+band filter and for each of the three possible pairs of continuum bandpasses.                                                     
+We also give an error in B which is a measure of the scatter from one solar                                                       
+analog to another.                                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+Table IX. Coefficients for Continuum Subtraction                                                                                  
+________________________________________________                                                                                  
+                                                                                                                                  
+                         cont1/cont2                                                                                              
+Filter      ------------------------------------                                                                                  
+              3650/4845   4845/6840    3650/6840                                                                                  
+________________________________________________                                                                                  
+                                                                                                                                  
+OH       A     1.4728      1.8822       1.1771                                                                                    
+(3085)   B      .528       1.488         .721                                                                                     
+      sigma(B)  .040        .037         .038                                                                                     
+                                                                                                                                  
+NH       A     1.2385      1.7419       1.0893                                                                                    
+(3365)   B      .142        .949         .239                                                                                     
+      sigma(B)  .018        .013         .015                                                                                     
+                                                                                                                                  
+CN       A      .8151      1.4882        .9307                                                                                    
+(3871)   B      .494       1.025         .419                                                                                     
+      sigma(B)  .018        .015         .018                                                                                     
+                                                                                                                                  
+C3       A      .6569      1.3935        .8715                                                                                    
+(4060)   B      .088        .516        -.052                                                                                     
+      sigma(B)  .014        .011         .015                                                                                     
+                                                                                                                                  
+CO+      A      .4895      1.2932        .8088                                                                                    
+(4260)   B      .168        .487        -.040                                                                                     
+      sigma(B)  .015        .014         .016                                                                                     
+                                                                                                                                  
+C2       A     -.2469       .8521        .5329                                                                                    
+(5140)   B      .244        .083        -.264                                                                                     
+      sigma(B)  .010        .008         .012                                                                                     
+                                                                                                                                  
+H2O+     A    -1.8033      -.0802       -.0502                                                                                    
+(7000)   B     1.223        .048         .083                                                                                     
+      sigma(B)  .037        .030         .030                                                                                     
+________________________________________________                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+	In reducing the data we often had a choice of which continuum                                                                    
+bandpasses to use for the continuum subtraction. We always chose inter-                                                           
+polation over extrapolation and the shorter of the two possible baselines.                                                        
+To define the fluxes in the emission bands, we first define:                                                                      
+                                                                                                                                  
+	F(i) = 10**[-0.4*m(i)]                                                                                                           
+	Fcont(i) = 10**[-0.4*mcont(i)]                                                                                                   
+                                                                                                                                  
+where we will denote the individual emission bands, i, by their                                                                   
+wavelengths [A]. The true fluxes in the emission bands [erg/cm**2/s]                                                              
+are then given by:                                                                                                                
+                                                                                                                                  
+	F(OH) = (Y1 - 0.0015*T)*10**(-6) * [F(3085) - Fcont(3085)]                                                                       
+	F(NH) = (Y2)*10**(-7) * [F(3365) - Fcont(3365)]                                                                                  
+	F(CN) = (Y3 - .0021*T)*10**(-6) * [F(3870) - Fcont(3870)]                                                                        
+	F(C3) = (1.381 + .003*T)*10**(-6) * [F(4060) - Fcont(4060)]                                                                      
+	F(CO+) = (5.90 - .005*T)*10**(-7) * [F(4260) - Fcont(4260)]                                                                      
+	F(C2) = 6.81*10**(-7) * [F(5140) - Fcont(5140)]                                                                                  
+	F(H2O+) = 3.58*10**(-7) * [F(7000) - Fcont(7000)]                                                                                
+                                                                                                                                  
+where T is the temperature [deg C] of the filter. The coefficients Y1, Y2,                                                        
+and Y3 must be tabulated. Y2 varies from one filter to another because                                                            
+the filters for NH (which are not widely distributed) are much older                                                              
+than the filters distributed by the IHW and they are not nearly as well                                                           
+matched to each other. For filter #S1, Y2 = 8.079 + .0080*T; for filter #S2,                                                      
+Y2 = 8.240 + .0095*T; for filter #S3, Y2 = 9.040 + .0150*T. The                                                                   
+coefficients Y1 and Y3, on the other hand, vary with the comet's                                                                  
+heliocentric radial velocity Vr because of the very large Swings effect on                                                        
+the bands of OH and CN. These coefficients are tabulated in Table X.                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table X. Transformation Coefficients Y1 for OH and Y2 for CN                                                                      
+____________________________________________________________________________                                                      
+                                                                                                                                  
+  Vr    Y1     Y3     Vr    Y1     Y3    Vr    Y1     Y3    Vr    Y1     Y3                                                       
+[km/s]              [km/s]             [km/s]             [km/s]                                                                  
+____________________________________________________________________________                                                      
+                                                                                                                                  
+ -60  1.080  .5277   -30  1.099  .5188    1         .5230   31         .5267                                                      
+ -59         .5273   -29         .5214    2  1.189  .5238   32  1.100  .5270                                                      
+ -58  1.086  .5276   -28  1.112  .5247    3         .5245   33         .5272                                                      
+ -57         .5284   -27         .5272    4  1.161  .5251   34  1.117  .5271                                                      
+ -56  1.093  .5304   -26  1.128  .5287    5         .5257   35         .5268                                                      
+ -55         .5329   -25         .5289    6  1.147  .5263   36  1.136  .5263                                                      
+ -54  1.101  .5358   -24  1.132  .5288    7         .5267   37         .5258                                                      
+ -53         .5378   -23         .5286    8  1.151  .5274   38  1.134  .5255                                                      
+ -52  1.106  .5380   -22  1.119  .5280    9         .5282   39         .5254                                                      
+ -51         .5362   -21         .5268   10  1.140  .5289   40  1.118  .5258                                                      
+ -50  1.111  .5333   -20  1.105  .5248   11         .5291   41         .5261                                                      
+ -49         .5306   -19         .5229   12  1.113  .5288   42  1.094  .5263                                                      
+ -48  1.128  .5285   -18  1.112  .5214   13         .5285   43         .5265                                                      
+ -47         .5273   -17         .5210   14  1.092  .5289   44  1.069  .5267                                                      
+ -46  1.156  .5269   -16  1.121  .5214   15         .5214   45         .5269                                                      
+ -45         .5270   -15         .5223   16  1.087  .5290   46  1.057  .5274                                                      
+ -44  1.170  .5277   -14  1.108  .5234   17         .5275   47         .5277                                                      
+ -43         .5287   -13         .5244   18  1.095  .5275   48  1.052  .5275                                                      
+ -42  1.146  .5300   -12  1.111  .5261   19         .5290   49         .5277                                                      
+ -41         .5309   -11         .5292   20  1.090  .5307   50  1.050  .5286                                                      
+ -40  1.126  .5307   -10  1.154  .5336   21         .5312   51         .5304                                                      
+ -39         .5299   - 9         .5372   22  1.074  .5309   52  1.052  .5320                                                      
+ -38  1.120  .5287   - 8  1.235  .5395   23         .5307   53         .5327                                                      
+ -37         .5275   - 7         .5402   24  1.059  .5309   54  1.057  .5323                                                      
+ -36  1.108  .5263   - 6  1.236  .5394   25         .5310   55         .5312                                                      
+ -35         .5250   - 5         .5371   26  1.054  .5305   56  1.061  .5296                                                      
+ -34  1.089  .5232   - 4  1.215  .5332   27         .5292   57         .5282                                                      
+ -33         .5208   - 3         .5290   28  1.061  .5277   58  1.064  .5269                                                      
+ -32  1.088  .5186   - 2  1.202  .5256   29         .5267   59         .5256                                                      
+ -31         .5179   - 1         .5236   30  1.078  .5266   60  1.067  .5243                                                      
+                       0  1.208  .5228                                                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+C. Errors                                                                                                                         
+                                                                                                                                  
+	Errors were not always treated consistently. For the polarimetry                                                                 
+we simply used the errors provided by the observers, who had been asked to                                                        
+supply the standard deviation of the final answer, both for the percent                                                           
+polarization and for the position angle.                                                                                          
+                                                                                                                                  
+	For the narrow-band photometry, we normally calculated the errors                                                                
+ourselves by propagating the errors through each step of the reduction.                                                           
+In some cases, however, we did not know the uncertainties, e.g., in the                                                           
+raw count rates, and we had to guess these errors. Wherever possible, we                                                          
+checked the scatter among different measurements to ensure that this was                                                          
+consistent with the expected error in an individual measurement. If they                                                          
+were not consistent, we always chose the larger error. This typically                                                             
+occurred when we derived the zero-point shift to the standard magnitude                                                           
+system. The scatter in zero-point shift from one standard star to                                                                 
+another was often greater than one would expect from the uncertainties                                                            
+in the raw counting rates and in the extinction determinations. The                                                               
+resultant errors, when propagated through to the fluxes, represent only                                                           
+the photometric uncertainty. They do not include uncertainties in the                                                             
+transformation equations given above nor do they include uncertainties                                                            
+due to the scatter in characteristics among the different filters.                                                                
+                                                                                                                                  
+	We do know that we have neglected one significant source of error.                                                               
+As noted above, our algorithm for removing the continuum from the                                                                 
+measurements of emission bands will only work if the reddening (in                                                                
+magnitudes) is linear with wavelength. Empirically we have found that                                                             
+frequently the flux of CO+ turns out to be negative. We have looked into                                                          
+the contamination of the continuum bandpasses by emission bands and have                                                          
+concluded that this is not the source of the problem. We suspect that                                                             
+the real problem is due to non-linearity in the reddening of the solar                                                            
+continuum by the cometary grains but we have no way of adequately                                                                 
+dealing with this. The effect is most pronouced for CO+ because the band                                                          
+is very weak compared to the continuum near the nucleus but the problem                                                           
+is presumably present, to a lesser degree, for all emission bands.                                                                
+                                                                                                                                  
+	Other than the uncertainty due to the varying reflectivity of                                                                    
+cometary grains, we believe that the photometric uncertainty is the largest                                                       
+uncertainty in the results presented here and that the quoted errors are                                                          
+reasonably realistic. We note that although the CO+ feature is                                                                    
+frequently negative, it is virtually never more than 3-sigma negative.                                                            
+In the data tables, our general policy has been to quote 1-sigma                                                                  
+errors. If the result is less than 3-sigma, we have usually quoted a                                                              
+3-sigma upper limit but in a few cases we have included results between                                                           
+2- and 3-sigma together with the errors.                                                                                          
+                                                                                                                                  
+                                                                                                                                  
+V. CONTENT OF THE ARCHIVE                                                                                                         
+                                                                                                                                  
+A. The Data                                                                                                                       
+                                                                                                                                  
+     In order to provide an overview of the archive content, Table XI offers                                                      
+a chronological summary of the data.  Listed are the calendar date, the number                                                    
+of days from perihelion, t-T, the heliocentric distance, r, the number, N, and                                                    
+type of observations, and the names of the observer(s) and observatory.  The                                                      
+list of the observers and their affiliations is presented in Table XII.                                                           
+                                                                                                                                  
+                                                                                                                                  
+Table XI. Chronological Listing of the Data                                                                                       
+____________________________________________________________________________                                                      
+                                                                                                                                  
+Date UT    t-T    r      N     Type          Observer(s)         Observatory                                                      
+1985      [days] [AU]                                                                                                             
+____________________________________________________________________________                                                      
+                                                                                                                                  
+ June 15   -82   1.51    21    Fluxes        Millis et al.       Lowell                                                           
+      16   -81   1.50    21    Fluxes        Millis et al.       Lowell                                                           
+ July 21   -46   1.21    40    Magnitudes    Leibowitz, Brosch   Wise                                                             
+      22   -45   1.21   104    Magnitudes    Leibowitz, Brosch   Wise                                                             
+      23   -44   1.20   152    Magnitudes    Leibowitz, Brosch   Wise                                                             
+      24   -43   1.19   152    Magnitudes    Leibowitz, Brosch   Wise                                                             
+      25   -42   1.19    32    Magnitudes    Leibowitz, Brosch   Wise                                                             
+ Aug. 11   -25   1.09    44    Magnitudes    Leibowitz, Brosch   Wise                                                             
+                         16    Fluxes        Millis et al.       Lowell                                                           
+      12   -24   1.08    48    Magnitudes    Leibowitz, Brosch   Wise                                                             
+                         22    Fluxes        Millis et al.       Lowell                                                           
+      13   -23   1.08     8    Fluxes        Millis et al.       Lowell                                                           
+      20   -16   1.05     8    Fluxes        Millis et al.       Lowell                                                           
+      22   -14   1.05    12    Polarimetry   Vrba                Naval                                                            
+      23   -13   1.05     7    Polarimetry   Vrba                Naval                                                            
+      24   -12   1.04     8    Polarimetry   Vrba                Naval                                                            
+                         81    Fluxes        Andrews, Williams   LaPalma                                                          
+      25   -11   1.04   145    Fluxes        Andrews, Williams   LaPalma                                                          
+      26   -10   1.04   108    Fluxes        Andrews, Williams   LaPalma                                                          
+ Sept. 9     4   1.03    31    Fluxes        Millis et al.       Lowell                                                           
+      12     7   1.03    24    Fluxes        Millis et al.       Lowell                                                           
+                          8    Fluxes        Wisniewski          Mt. Lemon                                                        
+      13     8   1.03     7    Fluxes        Millis et al.       Lowell                                                           
+      14     9   1.04     6    Polarimetry   Vrba                Naval                                                            
+      16    11   1.04     8    Fluxes        Millis et al.       Lowell                                                           
+      17    12   1.04     8    Fluxes        Millis et al.       Lowell                                                           
+                        133    Fluxes        Sterken, Manfroid   Wise                                                             
+      18    13   1.04    42    Fluxes        Sterken, Manfroid   Wise                                                             
+      19    14   1.05    30    Fluxes        Wolf, Vanysek       Ondrejov                                                         
+                         28    Fluxes        Moreno              CTIO                                                             
+      20    15   1.05    42    Fluxes        Moreno              CTIO                                                             
+      21    16   1.05     5    Polarimetry   Vrba                Naval                                                            
+      22    17   1.06     6    Polarimetry   Vrba                Naval                                                            
+      23    18   1.06     5    Polarimetry   Vrba                Naval                                                            
+      24    19   1.06    21    Fluxes        Sterken, Manfroid   Wise                                                             
+ Oct. 13    38   1.16     8    Fluxes        Millis et al.       Lowell                                                           
+      15    40   1.17    10    Fluxes        Millis et al.       Lowell                                                           
+ Nov.  7    63   1.34     8    Fluxes        Millis et al.       Lowell                                                           
+      20    76   1.45     8    Fluxes        Millis et al.       Lowell                                                           
+____________________________________________________________________________                                                      
+                                                                                                                                  
+Total interval, 159 days; total number of observations, 1467.                                                                     
+                                                                                                                                  
+                                                                                                                                  
+	  The data of Leibowitz and Brosch, although taken with the                                                                      
+standard narrow-band filters, are archived here as magnitudes rather than                                                         
+as fluxes.  These data were taken for the purpose of studying temporal                                                            
+variations and could not be absolutely calibrated.  Since they provide a                                                          
+large database for searching for short-term periodicities, they are included                                                      
+here as magnitudes.  They are on an entirely arbitrary system and should                                                          
+only be used for studying variability.                                                                                            
+                                                                                                                                  
+                                                                                                                                  
+Table XII. List of Observers and Their Affiliations                                                                               
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Observers       Affiliation                 Observer       Affiliation                                                            
+________________________________________________________________________________                                                  
+                                                                                                                                  
+M.F. A'Hearn    University of Maryland,     W. Pfau        Friedrich-Schiller-                                                    
+                  U.S.A.                                     Universitat, GDR                                                     
+P.J. Andrews    Royal Greenwich Obser-      D. Schleicher  Lowell Observatory,                                                    
+                  vatory, U.K.                               U.S.A.                                                               
+P.V. Birch      Perth Observatory,          C. Sterken     Vrije Universiteit,                                                    
+                  Australia                                  Brussel, Belgium                                                     
+N. Brosch       Wise Observatory, Israel    D. Thompson    Lowell Observatory,                                                    
+U. Carsenty     University of Maryland,                      U.S.A.                                                               
+                  U.S.A.                    V. Vanysek     Charles University,                                                    
+A. Dollfus      Observatoire de Paris,                       Czechoslovakia                                                       
+                  France                    F.J. Vrba      U.S. Naval Observa-                                                    
+M.A. Feierberg  University of Maryland,                      tory, U.S.A.                                                         
+                  U.S.A.                    E. Wenderoth   Universidad de Chile,                                                  
+E.M. Leibowitz  Tel-Aviv University,                         Chile                                                                
+                  Israel                    I.P. Williams  Queen Mary College,                                                    
+J. Manfroid     Universite de Liege,                         U.K.                                                                 
+                  Belgium                   W. Wisniewski  University of Arizo-                                                   
+R.L. Millis     Lowell Observatory, U.S.A.                   na, U.S.A.                                                           
+H. Moreno       Universidad de Chile,       M. Wolf        Charles University,                                                    
+                  Chile                                      Czechoslovakia                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+B. The FITS Files (Digital Archive)                                                                                               
+                                                                                                                                  
+     The data from the Photometry and Polarimetry Network are stored using                                                        
+the Tables Extension of FITS ('EXTEND  =                    T'). Some of the                                                      
+important parameters of the data are given in the standard FITS header while                                                      
+the remainder are given in the tables. Regardless of the type of data, the                                                        
+information in the FITS header is the same. The logically grouped content of                                                      
+the various keywords in the header is given in Table XIII. Note that some                                                         
+values, particularly 'TIME-OBS', have been truncated to the number of digits                                                      
+meaningful for all entries in the file since the times of each individual                                                         
+observation are given in Table XIII.                                                                                              
+                                                                                                                                  
+                                                                                                                                  
+Table XIII. FITS Header Keywords                                                                                                  
+________________________________________________________________________________                                                  
+                                                                                                                                  
+  Item         FITS Keyword  Format       Value/Explanation                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Comet Name      OBJECT       string       'P/GIACOBINI-ZINNER' for all                                                            
+                                            files in this archive.                                                                
+File Number     FILE-NUM     I6           '54$xxx'                                                                                
+                                            5 ==> Photometry/Polarimetry                                                          
+                                                  Network                                                                         
+                                            4 ==> P/Giacobini-Zinner                                                              
+                                            $=1 ==> Broadband                                                                     
+                                            $=2 ==> Narrowband                                                                    
+                                            $=0 ==> Polarimetry                                                                   
+                                            xxx = running number, not in                                                          
+                                                  chronological order                                                             
+Date            DATE-OBS     dd/mm/yy     Date of the observations                                                                
+UT Time         TIME-OBS     F6.5         Decimal fraction of the day at the                                                      
+                                            midpoint of the observations in                                                       
+                                            the table                                                                             
+Our Network     DISCIPLN     string       'PHOTOMETRY' for this Network                                                           
+Observatory     OBSVTORY     string       Name of observatory                                                                     
+   Longitude    LONG-OBS     ddd/mm/ss    Positive, eastward from Greenwich                                                       
+   Latitude     LAT--OBS     sdd/mm/ss    s='+' or '-' for North or South                                                         
+   Elevation    ELEV-OBS     I4           [m]                                                                                     
+   System       SYSTEM       I8           '5oooxxyy'                                                                              
+                                            ooo=IAU observatory code                                                              
+                                            xx =serial number for the                                                             
+                                              telescope relative to others                                                        
+                                              in the same observatory                                                             
+                                            yy=01 ==> photometer                                                                  
+                                            yy=02 ==> CCD                                                                         
+                                            yy=05 ==> polarimeter                                                                 
+   Telescope    TELESCOP     string       A unique identification of the                                                          
+                                            telescope by name or size                                                             
+Type of data    DAT-TYPE     string       'POLARIMETRY', 'BROADBAND', or                                                          
+                                            'NARROWBAND'. Note that in Table XI                                                   
+                                            'Fluxes' refers to 'NARROWBAND' and                                                   
+                                            'Magnitudes' refers to 'BROADBAND'                                                    
+Observer(s)     OBSERVER     string       Names of observers                                                                      
+Submitter       SUBMITTR     string       Person who submitted data to the                                                        
+                                             DS.  A blank usually means data                                                      
+                                             were taken from the literature.                                                      
+Comments        COMMENT      string       All comments are character strings                                                      
+                                          (line = 80 characters) following the                                                    
+                                          keywords 'COMMENT' and 'HISTORY'                                                        
+                                          and in some cases the following                                                         
+                                          secondary keywords:                                                                     
+                                          'LIT.' => reference from literature                                                     
+                                          'NOTE' => footnote to table                                                             
+                                          'NOTExx' => footnote to line xx                                                         
+                HISTORY      string       'STDSTARS' => list of standard stars                                                    
+                                            used in the reduction. In case of                                                     
+                                            polarimetry standard stars POL-STD                                                    
+                                            refers to highly polarized stars,                                                     
+                                            and UNPOL-STD to unpolarized stars.                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+     The FITS tables can take any of three different formats depending on                                                         
+the type of data in the table.  The types of table are known by the                                                               
+following values for the FITS 'DAT-TYPE' keyword: 'BROADBAND', 'NARROWBAND',                                                      
+and 'POLARIMETRY'.  Note that the value 'BROADBAND' is actually used to                                                           
+indicate results given in magnitudes rather than fluxes.  It is independent                                                       
+of the actual bandwidth of the filters used.  The first few columns in the                                                        
+tables are identical for all types of data and are listed in Table XIV.  The                                                      
+additional entries for DAT-TYPE = BROADBAND are in Table XV, for DAT-TYPE =                                                       
+NARROWBAND in Table XVI, and for DAT-TYPE = POLARIMETRY in Table XVII.  The                                                       
+format of the printed archive and the index table are described in Table XVIII.                                                   
+                                                                                                                                  
+                                                                                                                                  
+Table XIV.  Columns Common to All Types of Data                                                                                   
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+Item                 Format    Columns        Explanation                                                                         
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+Date and time(UT)     F8.5      1 -   8       Day of month and decimal fraction                                                   
+                                                at mid-point of observation                                                       
+Serial number         I2       10 -  11       Line number in the table                                                            
+Filter name           A4       13 -  16       Short-hand name                                                                     
+       wavelength     I4       18 -  21       Central wavelength [A]                                                              
+       width          I4       23 -  26       FWHM [A]                                                                            
+_______________________________________________________________________________                                                   
+                                                                                                                                  
+                                                                                                                                  
+Table XV.  Columns for Magnitudes (DAT-TYPE = BROADBAND)                                                                          
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Item                 Format    Columns        Explanation                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Upper limit code      char        28          '<' indicates that the result in                                                    
+                                                the following field is a                                                          
+                                                3-sigma limit                                                                     
+Magnitude             F7.3     30 -  36       Reduced magnitude                                                                   
+       error          F5.3     38 -  42       One (1) sigma [mag];                                                                
+                                                omitted if previous field is a                                                    
+                                                limit                                                                             
+Aperture size         F5.1     44 -  48       Diameter [arcsec]                                                                   
+Radial offset         I4       50 -  53       Radial distance between center of                                                   
+                                                aperture and the peak brightness                                                  
+                                                of the comet [arcsec]                                                             
+Angular offset        I3       55 -  57       Angular direction [deg]                                                             
+                                                (eastward from north)                                                             
+                                                of the radius vector between the                                                  
+                                                center of the aperture and the                                                    
+                                                peak in brightness                                                                
+Integration time      I4       59 -  62       Integration time [s]                                                                
+Airmass               F5.3     64 -  68       Airmass at midpoint in time,                                                        
+                                                usually as quoted by observer                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table XVI.  Columns for Fluxes from Narrowband Filters (DAT-TYPE = NARROWBAND)                                                    
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Item                 Format    Columns        Explanation                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Upper limit code      char        28          '<' indicates that the result in                                                    
+                                                the following field is a                                                          
+                                                3-sigma limit                                                                     
+Log Flux              F7.3     30 -  36       Logarithm (base 10) of the flux                                                     
+                                                See Section IV for details                                                        
+        error         F5.3     38 -  42       Error of log10 of flux                                                              
+Aperture size         F5.1     44 -  48       Diameter [arcsec]                                                                   
+Radial offset         I4       50 -  53       Radial distance between center of                                                   
+                                                aperture and the peak brightness                                                  
+                                                of the comet [arcsec]                                                             
+Angular offset        I3       55 -  57       Angular direction [deg]                                                             
+                                                (eastward from north)                                                             
+                                                of the radius vector between the                                                  
+                                                center of the aperture and the                                                    
+                                                peak in brightness                                                                
+Integration time      I4       59 -  62       Integration time [s]                                                                
+Airmass               F5.3     64 -  68       Airmass at midpoint in time                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table XVII. Columns for Polarimetry (DAT-TYPE = POLARIMETRY)                                                                      
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Item                 Format    Columns        Explanation                                                                         
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Polarization type     A2       28 -  29       'CR' => right circular                                                              
+                                              'CL' => left circular                                                               
+                                              'LN' => linear                                                                      
+Polarization value    F5.2     31 -  35       Degree of polarization [%]                                                          
+         error        F5.2     37 -  41       One (1) sigma [%]                                                                   
+Position angle        F5.1     43 -  47       For linear polarization, the                                                        
+                                                position angle of the electric                                                    
+                                                vector [deg] clockwise from                                                       
+                                                the plane of scattering                                                           
+                                                (-45 to +135)                                                                     
+         error        F4.1     49 -  52       One sigma                                                                           
+Aperture size         F5.1     54 -  58       Diameter [arcsec]                                                                   
+Radial offset         I4       60 -  63       Radial distance between center of                                                   
+                                                aperture and the peak brightness                                                  
+                                                of the comet [arcsec]                                                             
+Angular offset        I3       65 -  67       Angular direction [deg]                                                             
+                                                (eastward from north)                                                             
+                                                of the radius vector between the                                                  
+                                                center of the aperture and the                                                    
+                                                peak in brightness                                                                
+Integration time      I4       69 -  72       Integration time [s]                                                                
+Airmass               F5.3     74 -  78       Airmass at midpoint in time,                                                        
+                                                usually as quoted by observer                                                     
+________________________________________________________________________________                                                  
+                                                                                                                                  
+                                                                                                                                  
+Table XVIII.  Format of the Printed Archive and the Index Table                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+Header        Value/Explanation                                                                                                   
+________________________________________________________________________________                                                  
+                                                                                                                                  
+      GENERAL SECTION                                                                                                             
+                                                                                                                                  
+Date(UT)      Date of the middle of observation (in UT day and fraction)                                                          
+PPN#          Photometry & Polarimetry Network number--a unique number for                                                        
+                each FITS file                                                                                                    
+Filter        Filter name                                                                                                         
+Lambda        Central wavelength of filter [A]                                                                                    
+Delta lambda  FWHM of filter [A]                                                                                                  
+ApDia         Aperture diameter [arcsec]                                                                                          
+ExpS          Integration time [s]                                                                                                
+                                                                                                                                  
+      FLUXES (NARROW-BAND PHOTOMETRY)                                                                                             
+                                                                                                                                  
+LogFlux       Logarithm (base 10) of the flux and uncertainty; '<' indicates                                                      
+                a limit                                                                                                           
+                                                                                                                                  
+      POLARIMETRY                                                                                                                 
+                                                                                                                                  
+Type          Polarization type, 'CL' => left circular, 'CR' => right circular,                                                   
+                'LN' => linear.                                                                                                   
+Polar         Degree of polarization [%] and uncertainty (one sigma)                                                              
+Angle         For linear polarization, the position angle of the electric vector                                                  
+                [deg] clockwise from the plane of scattering and uncertainty                                                      
+                                                                                                                                  
+      MAGNITUDES (BROAD-BAND PHOTOMETRY)                                                                                          
+                                                                                                                                  
+Mag           Magnitude in a photometric system and uncertainty; '<' indicates                                                    
+                a limit                                                                                                           
+                                                                                                                                  
+      GENERAL SECTION (CONT.)                                                                                                     
+                                                                                                                                  
+Offset rho    Radial distance between center of aperture and the peak brightness                                                  
+                of the comet [arcsec]                                                                                             
+Offset theta  Angular direction [deg] (eastward from north) of the radius                                                         
+                vector between the center of the aperture and the peak in                                                         
+                brightness.                                                                                                       
+Airm          Airmass at mid-point of observation.                                                                                
+System        System codes '5oooxxyy',   5 = our net                                                                              
+                                       ooo = IAU observatory code                                                                 
+                                        xx = telescope code                                                                       
+                                        yy = 01 photometer                                                                        
+                                             02 CCD                                                                               
+                                             05 polarimeter                                                                       
+Observer      Name(s) of observer(s)                                                                                              
+Notes         Comment notes                                                                                                       
+________________________________________________________________________________                                                  
+                                                                                                                                  
+	                                                                                                                                 
+VI. ACKNOWLEDGEMENTS                                                                                                              
+                                                                                                                                  
+	The extensive program to establish a net of standard stars for the                                                               
+narrow-band photometric system would have been impossible without the assis-                                                      
+tance to the Discipline Specialist Team from P.V. Birch (Perth Observatory,                                                       
+Australia), A. Gutierrez-Moreno (Universidad de Chile, Chile), R.L. Millis                                                        
+(Lowell Observatory, U.S.A.), H. Moreno (Universidad de Chile, Chile), D.G.                                                       
+Schleicher (Lowell Observatory, U.S.A.), and E. Wenderoth (Universidad de Chile,                                                  
+Chile).                                                                                                                           
+                                                                                                                                  
+     The Discipline Specialist Team would like to particularly thank all the                                                      
+observers listed in Table XII for their efforts to make this archive a success.                                                   
+In nearly all cases, their efforts were totally voluntary, unsupported financi-                                                   
+ally by the IHW.                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+REFERENCES                                                                                                                        
+                                                                                                                                  
+A'Hearn, M.F. (1978).  Astrophys. J. 219, 768.                                                                                    
+Hardorp, J. (1978).  Astron. Astrophys. 63, 383.                                                                                  
+Hardorp, J. (1980a).  Astron. Astrophys. 88, 334.                                                                                 
+Hardorp, J. (1980b).  Astron. Astrophys. 91, 221.                                                                                 
+Hardorp, J. (1982).  Astron. Astrophys. 105, 120.                                                                                 
+Hayes, D.S., and Latham, D.W. 1975 Astrophys. J. 197, 593.                                                                        
+Hsu, J., and Breger, M. (1982).  Astrophys. J. 262, 732.                                                                          
+                                                                                                                                  

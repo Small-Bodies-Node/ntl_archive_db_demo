@@ -1,0 +1,96 @@
+PDS_VERSION_ID        = PDS3                                                  
+                                                                              
+RECORD_TYPE           = "FIXED_LENGTH"                                        
+RECORD_BYTES          = 75                                                    
+FILE_RECORDS          = 157                                                   
+                                                                              
+DATA_SET_ID           = "IHW-C-PPFLX-3-RDR-HALLEY-V2.0"                       
+PRODUCT_ID            = "NOTE.TAB"                                            
+PRODUCT_NAME          = "IHW NARROW BAND PHOTOMETRY - NOTE TABLE"             
+PRODUCT_CREATION_TIME = 2006-10-19                                            
+                                                                              
+INSTRUMENT_HOST_NAME  = "IHW PHOTOMETRY AND POLARIMETRY NETWORK"              
+INSTRUMENT_HOST_ID    = "PPN"                                                 
+INSTRUMENT_NAME       = "PHOTOMETRIC FLUX DATA"                               
+INSTRUMENT_ID         = "PPFLX"                                               
+TARGET_NAME           = "1P/HALLEY 1 (1682 Q1)"                               
+START_TIME            = 1985-08-24T22:38:38                                   
+STOP_TIME             = 1987-03-04T08:55:58                                   
+                                                                              
+DESCRIPTION           = "                                                     
+  This table contains the text of the notes referenced by number in           
+  the main data table.  These notes concern the reprocessing performed        
+  by personnel at the PDS Small Bodies Node after the original data           
+  were archived.  These notes were compiled and displayed as an HTML          
+  file on the SBN website in January 1996.                                    
+                                                                              
+  Unfortunately, there are a number of acronyms and references that can       
+  no longer be resolved.  Following is a list of terms you will encounter     
+  in the notes.  Unless otherwise noted, all software referenced was          
+  developed at the SBN using the reduction method detailed in the IHW         
+  documentation.                                                              
+                                                                              
+     idxunix.52extra  Apparently a file containing additional data.  This     
+                file could not be located.                                    
+                                                                              
+     IMX        The meaning of this acronym or designation is unknown.        
+                                                                              
+     INTERP1**  'INTERP1' was the name of a FORTRAN program running on        
+                a PC used to perform part of the flux calculation (the        
+                asterisks appear to be an attempt to reference a              
+                non-existent footnote, probably to that effect).              
+                                                                              
+     INTERP2*** 'INTERP2' was the name of a FORTRAN program running on        
+                a PC used to perform part of the flux calculation (the        
+                asterisks appear to be an attempt to reference a              
+                non-existent footnote, probably to that effect).              
+                                                                              
+     m0x        Apparently a reference to a file type (i.e., extension),      
+                possibly one produced as an output file by, for example,      
+                the PHOTOM program.  No matching files could be located,      
+                however.                                                      
+                                                                              
+     PHOTOM*    'PHOTOM' was the name of a FORTRAN program running on         
+                a PC used to perform part of the photometric reduction        
+                process (the asterisk appears to be an attempt to             
+                reference a non-existent footnote, probably to that           
+                effect).                                                      
+                                                                              
+  Where dates are referenced in the format 'nn/nn/nn', they are almost        
+  certainly intended to be read as 'MM/DD/YY'.                                
+  "                                                                           
+                                                                              
+^TABLE                = "NOTE.TAB"                                            
+                                                                              
+OBJECT     = TABLE                                                            
+  INTERCHANGE_FORMAT = "ASCII"                                                
+  ROW_BYTES          = 75                                                     
+  ROWS               = 157                                                    
+  COLUMNS            = 2                                                      
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 1                                                         
+    NAME          = "NUMBER"                                                  
+    START_BYTE    = 1                                                         
+    BYTES         = 2                                                         
+    DATA_TYPE     = "ASCII_INTEGER"                                           
+    FORMAT        = "I2"                                                      
+    DESCRIPTION   = "The code number used in the main data table to           
+      reference this note.  This field is blank when the following            
+      text continues the text from the previous line."                        
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    COLUMN_NUMBER = 2                                                         
+    NAME          = "NOTE"                                                    
+    START_BYTE    = 4                                                         
+    BYTES         = 69                                                        
+    DATA_TYPE     = "CHARACTER"                                               
+    FORMAT        = "A69"                                                     
+    DESCRIPTION   = "The text of the note.  There is a completely blank       
+     record between notes."                                                   
+  END_OBJECT = COLUMN                                                         
+                                                                              
+END_OBJECT = TABLE                                                            
+                                                                              
+END                                                                           

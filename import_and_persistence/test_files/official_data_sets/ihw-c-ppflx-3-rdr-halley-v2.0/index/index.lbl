@@ -1,0 +1,99 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "FIXED_LENGTH"                                               
+FILE_RECORDS   = 2                                                            
+RECORD_BYTES   = 194                                                          
+                                                                              
+^INDEX_TABLE   = "index.tab"                                                  
+                                                                              
+OBJECT     = INDEX_TABLE                                                      
+  INDEX_TYPE         = "SINGLE"                                               
+  INTERCHANGE_FORMAT = "ASCII"                                                
+  ROWS               = 2                                                      
+  ROW_BYTES          = 194                                                    
+  COLUMNS            = 9                                                      
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "VOLUME_ID"                                            
+    START_BYTE       = 2                                                      
+    BYTES            = 11                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A11"                                                  
+    DESCRIPTION      = "From voldesc.cat file"                                
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "FILE_SPECIFICATION_NAME"                              
+    START_BYTE       = 16                                                     
+    BYTES            = 13                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A13"                                                  
+    DESCRIPTION      = "Path from volume root to label file"                  
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "DATA_SET_ID"                                          
+    START_BYTE       = 32                                                     
+    BYTES            = 29                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A29"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "PRODUCT_ID"                                           
+    START_BYTE       = 64                                                     
+    BYTES            = 8                                                      
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A8"                                                   
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "PRODUCT_CREATION_TIME"                                
+    START_BYTE       = 74                                                     
+    BYTES            = 10                                                     
+    DATA_TYPE        = "TIME"                                                 
+    FORMAT           = "A10"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "START_TIME"                                           
+    START_BYTE       = 85                                                     
+    BYTES            = 19                                                     
+    DATA_TYPE        = "TIME"                                                 
+    FORMAT           = "A19"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "TARGET_NAME"                                          
+    START_BYTE       = 106                                                    
+    BYTES            = 21                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A21"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "INSTRUMENT_HOST_NAME"                                 
+    START_BYTE       = 130                                                    
+    BYTES            = 38                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A38"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME             = "INSTRUMENT_NAME"                                      
+    START_BYTE       = 171                                                    
+    BYTES            = 21                                                     
+    DATA_TYPE        = "CHARACTER"                                            
+    FORMAT           = "A21"                                                  
+    DESCRIPTION      = "From label"                                           
+  END_OBJECT = COLUMN                                                         
+                                                                              
+END_OBJECT = INDEX_TABLE                                                      
+                                                                              
+END                                                                           

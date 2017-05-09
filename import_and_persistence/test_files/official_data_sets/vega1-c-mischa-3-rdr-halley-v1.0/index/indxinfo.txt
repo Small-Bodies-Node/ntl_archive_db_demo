@@ -1,0 +1,24 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-25                                               
+  NOTE             = "INDEX/ directory contents"                              
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+INDEX/ Directory                                                              
+================                                                              
+This directory contains indices into the data of this data set:               
+                                                                              
+  checksum.lbl    PDS label for CHECKSUM.TAB                                  
+  checksum.tab    MD5 checksums for every file included in this data          
+                  set except for itself and CHECKSUM.LBL                      
+                                                                              
+  index.lbl       PDS label for INDEX.TAB                                     
+  index.tab       The required PDS manifest index table listing every         
+                  PDS label file in the DATA/ directory tree                  
+                                                                              
+  indxinfo.txt    This file                                                   

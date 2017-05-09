@@ -1,0 +1,111 @@
+CCSD3ZF0000100000001NJPL3IF0PDS200000001 = SFDU_LABEL                         
+PDS_VERSION_ID      = PDS3                                                    
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 68                                                      
+FILE_RECORDS        = 95                                                      
+TARGET_NAME         = HALLEY                                                  
+DATA_SET_ID         = "VEGA1-C-TVS-2-RDR-HALLEY-V1.0"                         
+                                                                              
+^TABLE              = "IMGENIV1.IDX"                                          
+                                                                              
+RECORD_FORMAT       = "A8,1X,I3,1X,I3,1X,F7.1,1X,F7.4,1X,I1,1X,A23,1X,F7.5"   
+                                                                              
+OBJECT              = TABLE                                                   
+  NAME               = "TVS IKI Vega-1 Index"                                 
+  ROWS               = 95                                                     
+  ROW_BYTES          = 68                                                     
+  INTERCHANGE_FORMAT = ASCII                                                  
+  COLUMNS            = 8                                                      
+  DESCRIPTION        = "This table compiles values either contained in        
+                        or calculated from keywords in the FITS headers."     
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "FILENAME"                                                  
+    DATA_TYPE   = CHARACTER                                                   
+    BYTES       = 8                                                           
+    START_BYTE  = 1                                                           
+    FORMAT      = "A8"                                                        
+    DESCRIPTION = "File name without extension"                               
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "NAXIS1"                                                    
+    DATA_TYPE   = ASCII_INTEGER                                               
+    BYTES       = 4                                                           
+    START_BYTE  = 9                                                           
+    FORMAT      = "I4"                                                        
+    DESCRIPTION = "NAXIS1 value from the FITS header"                         
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "NAXIS2"                                                    
+    DATA_TYPE   = ASCII_INTEGER                                               
+    BYTES       = 4                                                           
+    START_BYTE  = 13                                                          
+    FORMAT      = "I4"                                                        
+    DESCRIPTION = "NAXIS2 value from the FITS header"                         
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "TIMETAG"                                                   
+    DATA_TYPE   = ASCII_REAL                                                  
+    BYTES       = 8                                                           
+    START_BYTE  = 17                                                          
+    UNIT        = "SECONDS"                                                   
+    FORMAT      = "F8.1"                                                      
+    DESCRIPTION = "UT seconds since midnight of 06 March 1986.  This          
+                   has been converted to START_TIME in the PDS label          
+                   file."                                                     
+    NOTE        = "The IKI time is greater than the KFKI time for the         
+                   corresponding dataset by about 0.00646 days                
+                   (approximately 9.3 minutes)."                              
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "EXPOSURE"                                                  
+    DATA_TYPE   = ASCII_REAL                                                  
+    BYTES       = 8                                                           
+    START_BYTE  = 25                                                          
+    UNIT        = "SECONDS"                                                   
+    FORMAT      = "F8.4"                                                      
+    DESCRIPTION = "Exposure time (CRVAL4 in the FITS header)"                 
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "FILTER NUMBER"                                             
+    DATA_TYPE   = ASCII_INTEGER                                               
+    BYTES       = 2                                                           
+    START_BYTE  = 33                                                          
+    FORMAT      = "I2"                                                        
+    DESCRIPTION = "Code number of the filter used, if any.  The               
+                   numbers used are:                                          
+                           0 = GLS          3 = VIS                           
+                           1 = FIR          4 = RED                           
+                           2 = NIR                 "                          
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "OBSERVATION TIME"                                          
+    DATA_TYPE   = CHARACTER                                                   
+    BYTES       = 23                                                          
+    START_BYTE  = 36                                                          
+    FORMAT      = "A23"                                                       
+    DESCRIPTION = "OBSERVATION_TIME as calculated for the PDS label,          
+                   in PDS DATE-TIME format.  This value is equal to           
+                   the timetag plus half the exposure time."                  
+  END_OBJECT = COLUMN                                                         
+                                                                              
+  OBJECT     = COLUMN                                                         
+    NAME        = "DAY_FRACT"                                                 
+    DATA_TYPE   = ASCII_REAL                                                  
+    BYTES       = 8                                                           
+    START_BYTE  = 59                                                          
+    FORMAT      = "F8.5"                                                      
+    UNIT       = "DAYS"                                                       
+    DESCRIPTION = "Fraction of a day since midnight corresponding to          
+                   the OSBERVATION_TIME"                                      
+  END_OBJECT = COLUMN                                                         
+                                                                              
+END_OBJECT = TABLE                                                            
+                                                                              
+END                                                                           

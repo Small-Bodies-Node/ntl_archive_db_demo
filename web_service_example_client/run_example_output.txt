@@ -1,0 +1,1215 @@
+1. global search example for the given text pattern
+search text = deep
+
+found target types:
+	total: 0
+found targets:
+	total: 0
+found missions:
+	total: 2
+	entity name = DEEP IMPACT, id = 6
+	entity name = DEEP SPACE 1, id = 7
+found instruments:
+	total: 2
+	entity name = DEEP IMPACT HIGH RESOLUTION INSTRUMENT - VISIBLE CCD, id = 10
+	entity name = DEEP IMPACT HIGH RESOLUTION INSTRUMENT - VISIBLE CCD, id = 12
+found datasets:
+	total: 1
+	entity name = DEEP IMPACT 9P/TEMPEL ENCOUNTER         
+      - REDUCED HRIV IMAGES V2.0, id = 11
+found data files:
+	total: 0
+2. extract missions and instruments data from obtained results
+mission start date 2005-01-12T00:00:00+02:00
+mission start date 1998-10-24T00:00:00+03:00
+instrument description:                                                  
+                                                                              
+                                                                              
+    The instrument overview was provided by Dr. Michael A'Hearn, the          
+    principal investigator for the Deep Impact mission.  For a detailed       
+    discussion of the instrument, see Hampton, et al. (2005)                  
+    [HAMPTONETAL2005].                                                        
+                                                                              
+                                                                              
+  Instrument Overview                                                         
+  ===================                                                         
+    The High Resolution Imager (HRI) consisted of a long-focal-length         
+    telescope with a dichroic beam splitter, located in front of the focal    
+    plane, that reflected visible (0.3 to 1.0 microns) light through a        
+    filter wheel to a CCD for direct, optical imaging.  The beam splitter     
+    transmitted the near-infrared light (1 to 5 microns) to a 2-prism         
+    spectrometer.  For convenience, we considered these as two separate       
+    instruments, HRIV and HRII, sharing the telescope since the two focal     
+    planes operated in parallel asynchronously.                               
+                                                                              
+    The HRI telescope was a classical Cassegrain design with the following    
+    parameters:                                                               
+                                                                              
+      Primary aperture        : 30.0 cm diameter, round                       
+      Primary focal ratio     :  4.5                                          
+      Secondary Obscuration   :  9.7 cm diameter, round                       
+      Secondary magnification :  7.8x (net Cassegrain focal length 10.5 m)    
+      Back focal distance     : 30.0 cm                                       
+                                                                              
+    The dichroic beam-splitter had equal transmission and reflection          
+    occurring at about 1.05 microns.  The filter wheel contained two clear    
+    apertures and seven filters.  Five of the filters were roughly 100        
+    nanometers in bandwidth, centered at 450, 550, 650, 750, and 850          
+    nanometers.  The shortest-wavelength filter was effectively a             
+    short-wavelength pass filter starting at 400 nanometers and limited to    
+    about 340 nanometers on the short end by the rapid decline in             
+    beamsplitter reflectivity.   The longest wavelength filter was a          
+    long-pass filter starting at 900 nanometers that used the CCD response    
+    to define the long-wavelength cutoff at about 960 nanometers.             
+                                                                              
+    The detector was a 1024 x 1024 split-frame, frame-transfer CCD with       
+    21-micron-square pixels, with each quadrant read out through a            
+    separate amplifier.  The electronics allowed readout of centered          
+    sub-frames in multiples of 2:  64x64, 128x128, and so on, with or         
+    without rows of overscan.  Transfer time, to move the two halves of       
+    the image from the exposing area to the two shielded areas, was about     
+    5.2 milliseconds.  Readout time for a full frame was 1.8 seconds.         
+                                                                              
+    The HRIV instrument in full-frame 1024 x 1024 mode had the following      
+    field-of-view characteristics:                                            
+                                                                              
+      Pixel Size     :   21 micrometers                                       
+      Pixel FOV      :  2.0 microradians                                      
+      Instrument FOV :  2.0 milliradians or 0.118 degrees                     
+      Surface Scale  :  1.4 meters/pixel at 700 kilometers                    
+                                                                              
+    The three instruments on the flyby spacecraft, HRIV, HRII (High-          
+    Resolution IR Imaging Spectrometer) and MRI (Medium-Resolution            
+    Visible CCD), were mounted on a separate instrument platform              
+    together with the star trackers.  The three instruments were              
+    nominally co-aligned.                                                     
+                                                                              
+    For a detailed discussion of the instrument, see Hampton, et al.          
+    (2005) [HAMPTONETAL2005].  This instrument overview was provided by       
+    Dr. Michael A'Hearn, the principal investigator for the Deep Impact       
+    mission.                                                                  
+                                                                              
+                                                                              
+  Instrument Calibration                                                      
+  ======================                                                      
+    The HRIV instrument was calibrated by using in-flight data as well as     
+    pre-launch data taken during thermal-vacuum tests (TV2 and TV4)           
+    performed in 2002 and 2003.  The calibration of the HRIV instrument       
+    was discussed in the 'Deep Impact Instrument Calibration' paper by        
+    Klaasen, et al. (2006) [KLAASENETAL2006].                                 
+                                                                              
+    There is a 1/3-pixel, horizontal gap for a clocking phase between         
+    the upper and lower halves of the CCD.  It was inserted by the            
+    manufacturer to facilitate the simultaneous upward and downward           
+    reading of the upper and lower quadrants.  The gap causes a               
+    10 percent reduction in the sensitivity of the two central rows           
+    (i.e., one row immediately above the gap and one below it).               
+                                                                              
+                                                                              
+  Flight Performance                                                          
+  ==================                                                          
+    The HRIV instrument generally performed as expected during flight.        
+    However, early images of stars indicated the HRI telescope was out of     
+    focus.  An analysis showed the focus was forward of the CCD, so           
+    bakeouts were performed in late February and early March 2005 to          
+    improve the focus.  The bakeouts reduced the defocus from 1.0 cm to       
+    0.6 cm, which caused the width of star images to decrease from about      
+    12 pixels to about 9 pixels.  Star images continued to have a             
+    three-fold symmetry (six points) resulting from the three-point           
+    mounting of the primary and secondary mirrors.  Most of the expected      
+    resolution can be regained by applying algorithms to deconvolve the       
+    HRIV images as described in Lindler, et al. (2007) [LINDLERETAL2007].     
+                                                                              
+    For a detailed discussion about the focus of the HRI telescope, please    
+    see Klaasen, et al. (2006) [KLAASENETAL2006] and Lindler, et al. (2007)   
+    [LINDLERETAL2007].                                                        
+                                                                              
+
+instrument description:                                                  
+                                                                              
+                                                                              
+    The instrument overview was provided by Dr. Michael A'Hearn, the          
+    principal investigator for the Deep Impact mission.  For a detailed       
+    discussion of the instrument, see Hampton, et al. (2005)                  
+    [HAMPTONETAL2005].                                                        
+                                                                              
+                                                                              
+  Instrument Overview                                                         
+  ===================                                                         
+    The High Resolution Imager (HRI) consisted of a long-focal-length         
+    telescope with a dichroic beam splitter, located in front of the focal    
+    plane, that reflected visible (0.3 to 1.0 microns) light through a        
+    filter wheel to a CCD for direct, optical imaging.  The beam splitter     
+    transmitted the near-infrared light (1 to 5 microns) to a 2-prism         
+    spectrometer.  For convenience, we considered these as two separate       
+    instruments, HRIV and HRII, sharing the telescope since the two focal     
+    planes operated in parallel asynchronously.                               
+                                                                              
+    The HRI telescope was a classical Cassegrain design with the following    
+    parameters:                                                               
+                                                                              
+      Primary aperture        : 30.0 cm diameter, round                       
+      Primary focal ratio     :  4.5                                          
+      Secondary Obscuration   :  9.7 cm diameter, round                       
+      Secondary magnification :  7.8x (net Cassegrain focal length 10.5 m)    
+      Back focal distance     : 30.0 cm                                       
+                                                                              
+    The dichroic beam-splitter had equal transmission and reflection          
+    occurring at about 1.05 microns.  The filter wheel contained two clear    
+    apertures and seven filters.  Five of the filters were roughly 100        
+    nanometers in bandwidth, centered at 450, 550, 650, 750, and 850          
+    nanometers.  The shortest-wavelength filter was effectively a             
+    short-wavelength pass filter starting at 400 nanometers and limited to    
+    about 340 nanometers on the short end by the rapid decline in             
+    beamsplitter reflectivity.   The longest wavelength filter was a          
+    long-pass filter starting at 900 nanometers that used the CCD response    
+    to define the long-wavelength cutoff at about 960 nanometers.             
+                                                                              
+    The detector was a 1024 x 1024 split-frame, frame-transfer CCD with       
+    21-micron-square pixels, with each quadrant read out through a            
+    separate amplifier.  The electronics allowed readout of centered          
+    sub-frames in multiples of 2:  64x64, 128x128, and so on, with or         
+    without rows of overscan.  Transfer time, to move the two halves of       
+    the image from the exposing area to the two shielded areas, was about     
+    5.2 milliseconds.  Readout time for a full frame was 1.8 seconds.         
+                                                                              
+    The HRIV instrument in full-frame 1024 x 1024 mode had the following      
+    field-of-view characteristics:                                            
+                                                                              
+      Pixel Size     :   21 micrometers                                       
+      Pixel FOV      :  2.0 microradians                                      
+      Instrument FOV :  2.0 milliradians or 0.118 degrees                     
+      Surface Scale  :  1.4 meters/pixel at 700 kilometers                    
+                                                                              
+    The three instruments on the flyby spacecraft, HRIV, HRII (High-          
+    Resolution IR Imaging Spectrometer) and MRI (Medium-Resolution            
+    Visible CCD), were mounted on a separate instrument platform              
+    together with the star trackers.  The three instruments were              
+    nominally co-aligned.                                                     
+                                                                              
+    For a detailed discussion of the instrument, see Hampton, et al.          
+    (2005) [HAMPTONETAL2005].  This instrument overview was provided by       
+    Dr. Michael A'Hearn, the principal investigator for the Deep Impact       
+    mission.                                                                  
+                                                                              
+                                                                              
+  Instrument Calibration                                                      
+  ======================                                                      
+    The HRIV instrument was calibrated by using in-flight data as well as     
+    pre-launch data taken during thermal-vacuum tests (TV2 and TV4)           
+    performed in 2002 and 2003.  The calibration of the HRIV instrument       
+    was discussed in the 'Deep Impact Instrument Calibration' paper by        
+    Klaasen, et al. (2006) [KLAASENETAL2006].                                 
+                                                                              
+    There is a 1/3-pixel, horizontal gap for a clocking phase between         
+    the upper and lower halves of the CCD.  It was inserted by the            
+    manufacturer to facilitate the simultaneous upward and downward           
+    reading of the upper and lower quadrants.  The gap causes a               
+    10 percent reduction in the sensitivity of the two central rows           
+    (i.e., one row immediately above the gap and one below it).               
+                                                                              
+                                                                              
+  Flight Performance                                                          
+  ==================                                                          
+    The HRIV instrument generally performed as expected during flight.        
+    However, early images of stars indicated the HRI telescope was out of     
+    focus.  An analysis showed the focus was forward of the CCD, so           
+    bakeouts were performed in late February and early March 2005 to          
+    improve the focus.  The bakeouts reduced the defocus from 1.0 cm to       
+    0.6 cm, which caused the width of star images to decrease from about      
+    12 pixels to about 9 pixels.  Star images continued to have a             
+    three-fold symmetry (six points) resulting from the three-point           
+    mounting of the primary and secondary mirrors.  Most of the expected      
+    resolution can be regained by applying algorithms to deconvolve the       
+    HRIV images as described in Lindler, et al. (2007) [LINDLERETAL2007].     
+                                                                              
+    For a detailed discussion about the focus of the HRI telescope, please    
+    see Klaasen, et al. (2006) [KLAASENETAL2006] and Lindler, et al. (2007)   
+    [LINDLERETAL2007].                                                        
+                                                                              
+
+3. Get all missions
+count: 8
+mission name: SUPPORT ARCHIVES, id = 1
+mission name: GIOTTO, id = 2
+mission name: INTERNATIONAL HALLEY WATCH, id = 3
+mission name: SAKIGAKE, id = 4
+mission name: VEGA 1, id = 5
+mission name: DEEP IMPACT, id = 6
+mission name: DEEP SPACE 1, id = 7
+mission name: SOLAR AND HELIOSPHERIC OBSERVATORY, id = 8
+4. Get all targets
+count: 920
+target name: HALLEY, id = 1
+target name: 21P/GIACOBINI-ZINNER 1 (1900 Y1), id = 2
+target name: 1P/HALLEY 1 (1682 Q1), id = 3
+target name: 9P/TEMPEL 1 (1867 G1), id = 4
+target name: CALIBRATION, id = 5
+target name: 19P/BORRELLY 1 (1904 Y2), id = 6
+target name: COMET, id = 7
+target name: C/SOHO (1996 A2), id = 8
+target name: C/SOHO (1996 B3), id = 9
+target name: C/SOHO (1996 B4), id = 10
+target name: C/SOHO (1996 B5), id = 11
+target name: C/SOHO (1996 D1), id = 12
+target name: C/SOHO (1996 E2), id = 13
+target name: C/SOHO (1996 F2), id = 14
+target name: C/SOHO (1996 H1), id = 15
+target name: C/SOHO (1996 L1), id = 16
+target name: C/SOHO (1996 L2), id = 17
+target name: C/SOHO (1996 M1), id = 18
+target name: C/SOHO (1996 M2), id = 19
+target name: C/SOHO (1996 M3), id = 20
+target name: C/SOHO (1996 O1), id = 21
+target name: C/SOHO (1996 O2), id = 22
+target name: C/SOHO (1996 O3), id = 23
+target name: C/SOHO (1996 O4), id = 24
+target name: C/SOHO (1996 Q2), id = 25
+target name: C/SOHO (1996 Q3), id = 26
+target name: C/SOHO (1996 R4), id = 27
+target name: C/SOHO (1996 R5), id = 28
+target name: C/SOHO (1996 S3), id = 29
+target name: C/SOHO (1996 V1), id = 30
+target name: C/SOHO (1996 X1), id = 31
+target name: C/SOHO (1996 X2), id = 32
+target name: C/SOHO (1996 Y1), id = 33
+target name: C/SOHO (1996 Y2), id = 34
+target name: C/SOHO (1997 B2), id = 35
+target name: C/SOHO (1997 B3), id = 36
+target name: C/SOHO (1997 E2), id = 37
+target name: C/SOHO (1997 G3), id = 38
+target name: C/SOHO (1997 G4), id = 39
+target name: C/SOHO (1997 G5), id = 40
+target name: C/SOHO (1997 G6), id = 41
+target name: C/SOHO (1997 H3), id = 42
+target name: C/SOHO (1997 J3), id = 43
+target name: C/SOHO (1997 J4), id = 44
+target name: C/SOHO (1997 J5), id = 45
+target name: C/SOHO (1997 K1), id = 46
+target name: C/SOHO (1997 K3), id = 47
+target name: C/SOHO (1997 K4), id = 48
+target name: C/SOHO (1997 K5), id = 49
+target name: C/SOHO (1997 K6), id = 50
+target name: C/SOHO (1997 K7), id = 51
+target name: C/SOHO (1997 L3), id = 52
+target name: C/SOHO (1997 L4), id = 53
+target name: C/SOHO (1997 L5), id = 54
+target name: C/SOHO (1997 M1), id = 55
+target name: C/SOHO (1997 M3), id = 56
+target name: C/SOHO (1997 M4), id = 57
+target name: C/SOHO (1997 M5), id = 58
+target name: C/SOHO (1997 N3), id = 59
+target name: C/SOHO (1997 O3), id = 60
+target name: C/SOHO (1997 P1), id = 61
+target name: C/SOHO (1997 P3), id = 62
+target name: C/SOHO (1997 P4), id = 63
+target name: C/SOHO (1997 P5), id = 64
+target name: C/SOHO (1997 Q1), id = 65
+target name: C/SOHO (1997 Q2), id = 66
+target name: C/SOHO (1997 R1), id = 67
+target name: C/SOHO (1997 R2), id = 68
+target name: C/SOHO (1997 R3), id = 69
+target name: C/SOHO (1997 S1), id = 70
+target name: C/SOHO (1997 S2), id = 71
+target name: C/SOHO (1997 S3), id = 72
+target name: C/SOHO (1997 S5), id = 73
+target name: C/SOHO (1997 T2), id = 74
+target name: C/SOHO (1997 T4), id = 75
+target name: C/SOHO (1997 T5), id = 76
+target name: C/SOHO (1997 T6), id = 77
+target name: C/SOHO (1997 T7), id = 78
+target name: C/SOHO (1997 T8), id = 79
+target name: C/SOHO (1997 U1), id = 80
+target name: C/SOHO (1997 U2), id = 81
+target name: C/SOHO (1997 U3), id = 82
+target name: C/SOHO (1997 U4), id = 83
+target name: C/SOHO (1997 U5), id = 84
+target name: C/SOHO (1997 U6), id = 85
+target name: C/SOHO (1997 U7), id = 86
+target name: C/SOHO (1997 V2), id = 87
+target name: C/SOHO (1997 V3), id = 88
+target name: C/SOHO (1997 V4), id = 89
+target name: C/SOHO (1997 V5), id = 90
+target name: C/SOHO (1997 V6), id = 91
+target name: C/SOHO (1997 W1), id = 92
+target name: C/SOHO (1997 W2), id = 93
+target name: C/SOHO (1997 W3), id = 94
+target name: C/SOHO (1997 X1), id = 95
+target name: C/SOHO (1997 X3), id = 96
+target name: C/SOHO (1997 X4), id = 97
+target name: C/SOHO (1997 X5), id = 98
+target name: C/SOHO (1997 X6), id = 99
+target name: C/SOHO (1997 Y1), id = 100
+target name: C/SOHO (1997 Y2), id = 101
+target name: C/SOHO (1997 Y3), id = 102
+target name: C/SOHO (1998 A1), id = 103
+target name: C/SOHO (1998 B2), id = 104
+target name: C/SOHO (1998 E1), id = 105
+target name: C/SOHO (1998 F1), id = 106
+target name: C/SOHO (1998 F2), id = 107
+target name: C/SOHO (1998 G2), id = 108
+target name: C/SOHO (1998 G4), id = 109
+target name: C/SOHO (1998 G5), id = 110
+target name: C/SOHO (1998 G6), id = 111
+target name: C/SOHO (1998 G7), id = 112
+target name: C/SOHO (1998 G8), id = 113
+target name: C/SOHO (1998 H2), id = 114
+target name: C/SOHO (1998 H3), id = 115
+target name: C/SOHO (1998 H4), id = 116
+target name: C/SOHO (1998 H5), id = 117
+target name: C/SOHO (1998 H6), id = 118
+target name: C/SOHO (1998 J2), id = 119
+target name: C/SOHO (1998 J3), id = 120
+target name: C/SOHO (1998 J4), id = 121
+target name: C/SOHO (1998 K10), id = 122
+target name: C/SOHO (1998 K11), id = 123
+target name: C/SOHO (1998 K12), id = 124
+target name: C/SOHO (1998 K13), id = 125
+target name: C/SOHO (1998 K14), id = 126
+target name: C/SOHO (1998 K15), id = 127
+target name: C/SOHO (1998 K16), id = 128
+target name: C/SOHO (1998 K17), id = 129
+target name: C/SOHO (1998 K7), id = 130
+target name: C/SOHO (1998 K8), id = 131
+target name: C/SOHO (1998 K9), id = 132
+target name: C/SOHO (1998 L1), id = 133
+target name: C/SOHO (1998 L2), id = 134
+target name: C/SOHO (1998 L3), id = 135
+target name: C/SOHO (1998 L4), id = 136
+target name: C/SOHO (1998 L5), id = 137
+target name: C/SOHO (1998 L6), id = 138
+target name: C/SOHO (1998 L7), id = 139
+target name: C/SOHO (1998 L8), id = 140
+target name: C/SOHO (1998 L9), id = 141
+target name: C/SOHO (1998 M10), id = 142
+target name: C/SOHO (1998 M7), id = 143
+target name: C/SOHO (1998 M8), id = 144
+target name: C/SOHO (1998 M9), id = 145
+target name: C/SOHO (1998 U6), id = 146
+target name: C/SOHO (1998 U7), id = 147
+target name: C/SOHO (1998 V1), id = 148
+target name: C/SOHO (1998 V2), id = 149
+target name: C/SOHO (1998 V3), id = 150
+target name: C/SOHO (1998 V4), id = 151
+target name: C/SOHO (1998 V5), id = 152
+target name: C/SOHO (1998 V6), id = 153
+target name: C/SOHO (1998 V7), id = 154
+target name: C/SOHO (1998 V9), id = 155
+target name: C/SOHO (1998 W4), id = 156
+target name: C/SOHO (1998 W5), id = 157
+target name: C/SOHO (1998 W6), id = 158
+target name: C/SOHO (1998 X10), id = 159
+target name: C/SOHO (1998 X11), id = 160
+target name: C/SOHO (1998 X12), id = 161
+target name: C/SOHO (1998 X3), id = 162
+target name: C/SOHO (1998 X4), id = 163
+target name: C/SOHO (1998 X5), id = 164
+target name: C/SOHO (1998 X6), id = 165
+target name: C/SOHO (1998 X7), id = 166
+target name: C/SOHO (1998 X8), id = 167
+target name: C/SOHO (1998 X9), id = 168
+target name: C/SOHO (1999 C1), id = 169
+target name: C/SOHO (1999 C2), id = 170
+target name: C/SOHO (1999 E2), id = 171
+target name: C/SOHO (1999 G2), id = 172
+target name: C/SOHO (1999 G3), id = 173
+target name: C/SOHO (1999 G4), id = 174
+target name: C/SOHO (1999 G5), id = 175
+target name: C/SOHO (1999 H2), id = 176
+target name: C/SOHO (1999 H4), id = 177
+target name: C/SOHO (1999 H5), id = 178
+target name: C/SOHO (1999 H6), id = 179
+target name: C/SOHO (1999 H7), id = 180
+target name: C/SOHO (1999 H8), id = 181
+target name: C/SOHO (1999 H9), id = 182
+target name: C/SOHO (1999 J1), id = 183
+target name: C/SOHO (1999 J10), id = 184
+target name: C/SOHO (1999 J11), id = 185
+target name: C/SOHO (1999 J12), id = 186
+target name: C/SOHO (1999 J13), id = 187
+target name: C/SOHO (1999 J7), id = 188
+target name: C/SOHO (1999 J8), id = 189
+target name: C/SOHO (1999 J9), id = 190
+target name: C/SOHO (1999 K1), id = 191
+target name: C/SOHO (1999 K10), id = 192
+target name: C/SOHO (1999 K11), id = 193
+target name: C/SOHO (1999 K12), id = 194
+target name: C/SOHO (1999 K13), id = 195
+target name: C/SOHO (1999 K14), id = 196
+target name: C/SOHO (1999 K15), id = 197
+target name: C/SOHO (1999 K17), id = 198
+target name: C/SOHO (1999 K9), id = 199
+target name: C/SOHO (1999 L1), id = 200
+target name: C/SOHO (1999 L4), id = 201
+target name: C/SOHO (1999 L5), id = 202
+target name: C/SOHO (1999 L6), id = 203
+target name: C/SOHO (1999 L7), id = 204
+target name: C/SOHO (1999 L8), id = 205
+target name: C/SOHO (1999 M1), id = 206
+target name: C/SOHO (1999 M2), id = 207
+target name: C/SOHO (1999 M4), id = 208
+target name: C/SOHO (1999 N1), id = 209
+target name: C/SOHO (1999 N3), id = 210
+target name: C/SOHO (1999 O1), id = 211
+target name: C/SOHO (1999 O2), id = 212
+target name: C/SOHO (1999 O3), id = 213
+target name: C/SOHO (1999 P2), id = 214
+target name: C/SOHO (1999 P3), id = 215
+target name: C/SOHO (1999 P4), id = 216
+target name: C/SOHO (1999 P5), id = 217
+target name: C/SOHO (1999 Q1), id = 218
+target name: C/SOHO (1999 Q2), id = 219
+target name: C/SOHO (1999 Q3), id = 220
+target name: C/SOHO (1999 R3), id = 221
+target name: C/SOHO (1999 R4), id = 222
+target name: C/SOHO (1999 S1), id = 223
+target name: C/SOHO (1999 S5), id = 224
+target name: C/SOHO (1999 S6), id = 225
+target name: C/SOHO (1999 S7), id = 226
+target name: C/SOHO (1999 U5), id = 227
+target name: C/SOHO (1999 U6), id = 228
+target name: C/SOHO (1999 U7), id = 229
+target name: C/SOHO (1999 U8), id = 230
+target name: C/SOHO (1999 U9), id = 231
+target name: C/SOHO (1999 V2), id = 232
+target name: C/SOHO (1999 V3), id = 233
+target name: C/SOHO (1999 V4), id = 234
+target name: C/SOHO (1999 W1), id = 235
+target name: C/SOHO (1999 W2), id = 236
+target name: C/SOHO (1999 X2), id = 237
+target name: C/SOHO (1999 Y3), id = 238
+target name: C/SOHO (2000 A2), id = 239
+target name: C/SOHO (2000 B1), id = 240
+target name: C/SOHO (2000 B5), id = 241
+target name: C/SOHO (2000 B6), id = 242
+target name: C/SOHO (2000 B7), id = 243
+target name: C/SOHO (2000 C6), id = 244
+target name: C/SOHO (2000 D1), id = 245
+target name: C/SOHO (2000 D3), id = 246
+target name: C/SOHO (2000 E1), id = 247
+target name: C/SOHO (2000 F1), id = 248
+target name: C/SOHO (2000 F2), id = 249
+target name: C/SOHO (2000 F3), id = 250
+target name: C/SOHO (2000 G3), id = 251
+target name: C/SOHO (2000 H2), id = 252
+target name: C/SOHO (2000 H3), id = 253
+target name: C/SOHO (2000 H4), id = 254
+target name: C/SOHO (2000 H5), id = 255
+target name: C/SOHO (2000 H6), id = 256
+target name: C/SOHO (2000 H7), id = 257
+target name: C/SOHO (2000 J3), id = 258
+target name: C/SOHO (2000 J4), id = 259
+target name: C/SOHO (2000 J5), id = 260
+target name: C/SOHO (2000 J6), id = 261
+target name: C/SOHO (2000 J7), id = 262
+target name: C/SOHO (2000 K3), id = 263
+target name: C/SOHO (2000 K4), id = 264
+target name: C/SOHO (2000 K5), id = 265
+target name: C/SOHO (2000 K6), id = 266
+target name: C/SOHO (2000 K7), id = 267
+target name: C/SOHO (2000 K8), id = 268
+target name: C/SOHO (2000 L1), id = 269
+target name: C/SOHO (2000 L2), id = 270
+target name: C/SOHO (2000 L3), id = 271
+target name: C/SOHO (2000 L4), id = 272
+target name: C/SOHO (2000 L5), id = 273
+target name: C/SOHO (2000 L6), id = 274
+target name: C/SOHO (2000 M1), id = 275
+target name: C/SOHO (2000 M2), id = 276
+target name: C/SOHO (2000 M3), id = 277
+target name: C/SOHO (2000 M4), id = 278
+target name: C/SOHO (2000 M5), id = 279
+target name: C/SOHO (2000 M6), id = 280
+target name: C/SOHO (2000 M7), id = 281
+target name: C/SOHO (2000 M8), id = 282
+target name: C/SOHO (2000 M9), id = 283
+target name: C/SOHO (2000 N1), id = 284
+target name: C/SOHO (2000 N2), id = 285
+target name: C/SOHO (2000 N3), id = 286
+target name: C/SOHO (2000 P1), id = 287
+target name: C/SOHO (2000 P2), id = 288
+target name: C/SOHO (2000 S6), id = 289
+target name: C/SOHO (2000 T1), id = 290
+target name: C/SOHO (2000 T3), id = 291
+target name: C/SOHO (2000 T4), id = 292
+target name: C/SOHO (2000 T5), id = 293
+target name: C/SOHO (2000 T6), id = 294
+target name: C/SOHO (2000 U1), id = 295
+target name: C/SOHO (2000 U2), id = 296
+target name: C/SOHO (2000 U3), id = 297
+target name: C/SOHO (2000 U4), id = 298
+target name: C/SOHO (2000 V1), id = 299
+target name: C/SOHO (2000 V2), id = 300
+target name: C/SOHO (2000 V3), id = 301
+target name: C/SOHO (2000 W2), id = 302
+target name: C/SOHO (2000 W3), id = 303
+target name: C/SOHO (2000 W4), id = 304
+target name: C/SOHO (2000 W5), id = 305
+target name: C/SOHO (2000 X1), id = 306
+target name: C/SOHO (2000 X2), id = 307
+target name: C/SOHO (2000 X3), id = 308
+target name: C/SOHO (2000 X4), id = 309
+target name: C/SOHO (2000 X5), id = 310
+target name: C/SOHO (2000 X6), id = 311
+target name: C/SOHO (2000 X7), id = 312
+target name: C/SOHO (2000 X8), id = 313
+target name: C/SOHO (2000 Y4), id = 314
+target name: C/SOHO (2000 Y5), id = 315
+target name: C/SOHO (2000 Y8), id = 316
+target name: C/SOHO (2000 Y9), id = 317
+target name: C/SOHO (2001 A3), id = 318
+target name: C/SOHO (2001 A4), id = 319
+target name: C/SOHO (2001 B3), id = 320
+target name: C/SOHO (2001 C2), id = 321
+target name: C/SOHO (2001 C3), id = 322
+target name: C/SOHO (2001 C4), id = 323
+target name: C/SOHO (2001 C6), id = 324
+target name: C/SOHO (2001 F2), id = 325
+target name: C/SOHO (2001 G2), id = 326
+target name: C/SOHO (2001 G3), id = 327
+target name: C/SOHO (2001 H1), id = 328
+target name: C/SOHO (2001 H2), id = 329
+target name: C/SOHO (2001 H3), id = 330
+target name: C/SOHO (2001 H4), id = 331
+target name: C/SOHO (2001 H6), id = 332
+target name: C/SOHO (2001 H7), id = 333
+target name: C/SOHO (2001 H8), id = 334
+target name: C/SOHO (2001 J2), id = 335
+target name: C/SOHO (2001 J3), id = 336
+target name: C/SOHO (2001 J4), id = 337
+target name: C/SOHO (2001 J5), id = 338
+target name: C/SOHO (2001 K10), id = 339
+target name: C/SOHO (2001 K2), id = 340
+target name: C/SOHO (2001 K4), id = 341
+target name: C/SOHO (2001 K6), id = 342
+target name: C/SOHO (2001 K7), id = 343
+target name: C/SOHO (2001 K8), id = 344
+target name: C/SOHO (2001 K9), id = 345
+target name: C/SOHO (2001 L1), id = 346
+target name: C/SOHO (2001 L11), id = 347
+target name: C/SOHO (2001 L2), id = 348
+target name: C/SOHO (2001 L3), id = 349
+target name: C/SOHO (2001 L4), id = 350
+target name: C/SOHO (2001 L5), id = 351
+target name: C/SOHO (2001 L6), id = 352
+target name: C/SOHO (2001 L7), id = 353
+target name: C/SOHO (2001 L8), id = 354
+target name: C/SOHO (2001 L9), id = 355
+target name: C/SOHO (2001 M11), id = 356
+target name: C/SOHO (2001 M2), id = 357
+target name: C/SOHO (2001 M3), id = 358
+target name: C/SOHO (2001 M4), id = 359
+target name: C/SOHO (2001 M5), id = 360
+target name: C/SOHO (2001 M6), id = 361
+target name: C/SOHO (2001 M7), id = 362
+target name: C/SOHO (2001 M8), id = 363
+target name: C/SOHO (2001 M9), id = 364
+target name: C/SOHO (2001 O1), id = 365
+target name: C/SOHO (2001 P2), id = 366
+target name: C/SOHO (2001 Q9), id = 367
+target name: C/SOHO (2001 R2), id = 368
+target name: C/SOHO (2001 R3), id = 369
+target name: C/SOHO (2001 R4), id = 370
+target name: C/SOHO (2001 R5), id = 371
+target name: C/SOHO (2001 S2), id = 372
+target name: C/SOHO (2001 S3), id = 373
+target name: C/SOHO (2001 T2), id = 374
+target name: C/SOHO (2001 T6), id = 375
+target name: C/SOHO (2001 T7), id = 376
+target name: C/SOHO (2001 U1), id = 377
+target name: C/SOHO (2001 U10), id = 378
+target name: C/SOHO (2001 U2), id = 379
+target name: C/SOHO (2001 U3), id = 380
+target name: C/SOHO (2001 U4), id = 381
+target name: C/SOHO (2001 U5), id = 382
+target name: C/SOHO (2001 U7), id = 383
+target name: C/SOHO (2001 U8), id = 384
+target name: C/SOHO (2001 U9), id = 385
+target name: C/SOHO (2001 V1), id = 386
+target name: C/SOHO (2001 V2), id = 387
+target name: C/SOHO (2001 V3), id = 388
+target name: C/SOHO (2001 V4), id = 389
+target name: C/SOHO (2001 V5), id = 390
+target name: C/SOHO (2001 W3), id = 391
+target name: C/SOHO (2001 W4), id = 392
+target name: C/SOHO (2001 X4), id = 393
+target name: C/SOHO (2001 X5), id = 394
+target name: C/SOHO (2001 X6), id = 395
+target name: C/SOHO (2001 X7), id = 396
+target name: C/SOHO (2001 X9), id = 397
+target name: C/SOHO (2001 Y2), id = 398
+target name: C/SOHO (2001 Y3), id = 399
+target name: C/SOHO (2001 Y4), id = 400
+target name: C/SOHO (2001 Y5), id = 401
+target name: C/SOHO (2002 C3), id = 402
+target name: C/SOHO (2002 C4), id = 403
+target name: C/SOHO (2002 D1), id = 404
+target name: C/SOHO (2002 E1), id = 405
+target name: C/SOHO (2002 E3), id = 406
+target name: C/SOHO (2002 F2), id = 407
+target name: C/SOHO (2002 F3), id = 408
+target name: C/SOHO (2002 G2), id = 409
+target name: C/SOHO (2002 G4), id = 410
+target name: C/SOHO (2002 G5), id = 411
+target name: C/SOHO (2002 H1), id = 412
+target name: C/SOHO (2002 H3), id = 413
+target name: C/SOHO (2002 H4), id = 414
+target name: C/SOHO (2002 H5), id = 415
+target name: C/SOHO (2002 H6), id = 416
+target name: C/SOHO (2002 H7), id = 417
+target name: C/SOHO (2002 J1), id = 418
+target name: C/SOHO (2002 J2), id = 419
+target name: C/SOHO (2002 J3), id = 420
+target name: C/SOHO (2002 J6), id = 421
+target name: C/SOHO (2002 J7), id = 422
+target name: C/SOHO (2002 J8), id = 423
+target name: C/SOHO (2002 K10), id = 424
+target name: C/SOHO (2002 K11), id = 425
+target name: C/SOHO (2002 K3), id = 426
+target name: C/SOHO (2002 K5), id = 427
+target name: C/SOHO (2002 K6), id = 428
+target name: C/SOHO (2002 K7), id = 429
+target name: C/SOHO (2002 K8), id = 430
+target name: C/SOHO (2002 K9), id = 431
+target name: C/SOHO (2002 L1), id = 432
+target name: C/SOHO (2002 L2), id = 433
+target name: C/SOHO (2002 L3), id = 434
+target name: C/SOHO (2002 L4), id = 435
+target name: C/SOHO (2002 L5), id = 436
+target name: C/SOHO (2002 L6), id = 437
+target name: C/SOHO (2002 L7), id = 438
+target name: C/SOHO (2002 L8), id = 439
+target name: C/SOHO (2002 M1), id = 440
+target name: C/SOHO (2002 M2), id = 441
+target name: C/SOHO (2002 M3), id = 442
+target name: C/SOHO (2002 M4), id = 443
+target name: C/SOHO (2002 M5), id = 444
+target name: C/SOHO (2002 M6), id = 445
+target name: C/SOHO (2002 M7), id = 446
+target name: C/SOHO (2002 M8), id = 447
+target name: C/SOHO (2002 N1), id = 448
+target name: C/SOHO (2002 O1), id = 449
+target name: C/SOHO (2002 O2), id = 450
+target name: C/SOHO (2002 O3), id = 451
+target name: C/SOHO (2002 P2), id = 452
+target name: C/SOHO (2002 Q11), id = 453
+target name: C/SOHO (2002 Q12), id = 454
+target name: C/SOHO (2002 Q13), id = 455
+target name: C/SOHO (2002 Q14), id = 456
+target name: C/SOHO (2002 Q7), id = 457
+target name: C/SOHO (2002 R6), id = 458
+target name: C/SOHO (2002 R7), id = 459
+target name: C/SOHO (2002 S10), id = 460
+target name: C/SOHO (2002 S2), id = 461
+target name: C/SOHO (2002 S3), id = 462
+target name: C/SOHO (2002 S6), id = 463
+target name: C/SOHO (2002 S8), id = 464
+target name: C/SOHO (2002 S9), id = 465
+target name: C/SOHO (2002 T3), id = 466
+target name: C/SOHO (2002 U1), id = 467
+target name: C/SOHO (2002 U3), id = 468
+target name: C/SOHO (2002 U4), id = 469
+target name: C/SOHO (2002 U5), id = 470
+target name: C/SOHO (2002 U7), id = 471
+target name: C/SOHO (2002 U8), id = 472
+target name: C/SOHO (2002 U9), id = 473
+target name: C/SOHO (2002 V3), id = 474
+target name: C/SOHO (2002 V6), id = 475
+target name: C/SOHO (2002 V7), id = 476
+target name: C/SOHO (2002 W1), id = 477
+target name: C/SOHO (2002 W10), id = 478
+target name: C/SOHO (2002 W11), id = 479
+target name: C/SOHO (2002 W12), id = 480
+target name: C/SOHO (2002 W13), id = 481
+target name: C/SOHO (2002 W14), id = 482
+target name: C/SOHO (2002 W15), id = 483
+target name: C/SOHO (2002 W16), id = 484
+target name: C/SOHO (2002 W17), id = 485
+target name: C/SOHO (2002 W2), id = 486
+target name: C/SOHO (2002 W3), id = 487
+target name: C/SOHO (2002 W4), id = 488
+target name: C/SOHO (2002 W5), id = 489
+target name: C/SOHO (2002 W6), id = 490
+target name: C/SOHO (2002 W7), id = 491
+target name: C/SOHO (2002 W8), id = 492
+target name: C/SOHO (2002 W9), id = 493
+target name: C/SOHO (2002 X10), id = 494
+target name: C/SOHO (2002 X11), id = 495
+target name: C/SOHO (2002 X12), id = 496
+target name: C/SOHO (2002 X13), id = 497
+target name: C/SOHO (2002 X14), id = 498
+target name: C/SOHO (2002 X15), id = 499
+target name: C/SOHO (2002 X16), id = 500
+target name: C/SOHO (2002 X3), id = 501
+target name: C/SOHO (2002 X4), id = 502
+target name: C/SOHO (2002 X7), id = 503
+target name: C/SOHO (2002 X8), id = 504
+target name: C/SOHO (2002 X9), id = 505
+target name: C/SOHO (2002 Y3), id = 506
+target name: C/SOHO (2002 Y4), id = 507
+target name: C/SOHO (2003 A3), id = 508
+target name: C/SOHO (2003 A4), id = 509
+target name: C/SOHO (2003 A5), id = 510
+target name: C/SOHO (2003 B2), id = 511
+target name: C/SOHO (2003 C1), id = 512
+target name: C/SOHO (2003 C2), id = 513
+target name: C/SOHO (2003 C3), id = 514
+target name: C/SOHO (2003 C4), id = 515
+target name: C/SOHO (2003 C5), id = 516
+target name: C/SOHO (2003 D1), id = 517
+target name: C/SOHO (2003 E2), id = 518
+target name: C/SOHO (2003 E3), id = 519
+target name: C/SOHO (2003 E4), id = 520
+target name: C/SOHO (2003 F3), id = 521
+target name: C/SOHO (2003 F4), id = 522
+target name: C/SOHO (2003 F5), id = 523
+target name: C/SOHO (2003 G4), id = 524
+target name: C/SOHO (2003 H10), id = 525
+target name: C/SOHO (2003 H11), id = 526
+target name: C/SOHO (2003 H12), id = 527
+target name: C/SOHO (2003 H8), id = 528
+target name: C/SOHO (2003 H9), id = 529
+target name: C/SOHO (2003 J2), id = 530
+target name: C/SOHO (2003 J3), id = 531
+target name: C/SOHO (2003 J4), id = 532
+target name: C/SOHO (2003 J5), id = 533
+target name: C/SOHO (2003 J6), id = 534
+target name: C/SOHO (2003 J7), id = 535
+target name: C/SOHO (2003 J8), id = 536
+target name: C/SOHO (2003 J9), id = 537
+target name: C/SOHO (2003 K10), id = 538
+target name: C/SOHO (2003 K11), id = 539
+target name: C/SOHO (2003 K12), id = 540
+target name: C/SOHO (2003 K13), id = 541
+target name: C/SOHO (2003 K7), id = 542
+target name: C/SOHO (2003 K8), id = 543
+target name: C/SOHO (2003 K9), id = 544
+target name: C/SOHO (2003 L3), id = 545
+target name: C/SOHO (2003 L4), id = 546
+target name: C/SOHO (2003 L5), id = 547
+target name: C/SOHO (2003 L6), id = 548
+target name: C/SOHO (2003 L7), id = 549
+target name: C/SOHO (2003 L8), id = 550
+target name: C/SOHO (2003 M1), id = 551
+target name: C/SOHO (2003 M10), id = 552
+target name: C/SOHO (2003 M11), id = 553
+target name: C/SOHO (2003 M12), id = 554
+target name: C/SOHO (2003 M2), id = 555
+target name: C/SOHO (2003 M3), id = 556
+target name: C/SOHO (2003 M4), id = 557
+target name: C/SOHO (2003 M5), id = 558
+target name: C/SOHO (2003 M6), id = 559
+target name: C/SOHO (2003 M7), id = 560
+target name: C/SOHO (2003 M8), id = 561
+target name: C/SOHO (2003 M9), id = 562
+target name: C/SOHO (2003 N1), id = 563
+target name: C/SOHO (2003 N2), id = 564
+target name: C/SOHO (2003 O4), id = 565
+target name: C/SOHO (2003 O5), id = 566
+target name: C/SOHO (2003 O6), id = 567
+target name: C/SOHO (2003 O7), id = 568
+target name: C/SOHO (2003 O8), id = 569
+target name: C/SOHO (2003 P1), id = 570
+target name: C/SOHO (2003 P2), id = 571
+target name: C/SOHO (2003 P3), id = 572
+target name: C/SOHO (2003 Q10), id = 573
+target name: C/SOHO (2003 Q2), id = 574
+target name: C/SOHO (2003 Q3), id = 575
+target name: C/SOHO (2003 Q4), id = 576
+target name: C/SOHO (2003 Q5), id = 577
+target name: C/SOHO (2003 Q7), id = 578
+target name: C/SOHO (2003 Q8), id = 579
+target name: C/SOHO (2003 Q9), id = 580
+target name: C/SOHO (2003 R2), id = 581
+target name: C/SOHO (2003 R3), id = 582
+target name: C/SOHO (2003 S5), id = 583
+target name: C/SOHO (2003 S6), id = 584
+target name: C/SOHO (2003 S7), id = 585
+target name: C/SOHO (2003 S8), id = 586
+target name: C/SOHO (2003 T10), id = 587
+target name: C/SOHO (2003 T11), id = 588
+target name: C/SOHO (2003 T5), id = 589
+target name: C/SOHO (2003 T6), id = 590
+target name: C/SOHO (2003 T7), id = 591
+target name: C/SOHO (2003 T8), id = 592
+target name: C/SOHO (2003 T9), id = 593
+target name: C/SOHO (2003 U5), id = 594
+target name: C/SOHO (2003 U6), id = 595
+target name: C/SOHO (2003 U7), id = 596
+target name: C/SOHO (2003 U8), id = 597
+target name: C/SOHO (2003 U9), id = 598
+target name: C/SOHO (2003 V2), id = 599
+target name: C/SOHO (2003 V3), id = 600
+target name: C/SOHO (2003 V4), id = 601
+target name: C/SOHO (2003 V5), id = 602
+target name: C/SOHO (2003 V6), id = 603
+target name: C/SOHO (2003 V7), id = 604
+target name: C/SOHO (2003 V8), id = 605
+target name: C/SOHO (2003 W3), id = 606
+target name: C/SOHO (2003 W4), id = 607
+target name: C/SOHO (2003 W5), id = 608
+target name: C/SOHO (2003 W6), id = 609
+target name: C/SOHO (2003 W7), id = 610
+target name: C/SOHO (2003 W8), id = 611
+target name: C/SOHO (2003 X1), id = 612
+target name: C/SOHO (2003 X10), id = 613
+target name: C/SOHO (2003 X11), id = 614
+target name: C/SOHO (2003 X2), id = 615
+target name: C/SOHO (2003 X3), id = 616
+target name: C/SOHO (2003 X4), id = 617
+target name: C/SOHO (2003 X5), id = 618
+target name: C/SOHO (2003 X6), id = 619
+target name: C/SOHO (2003 X7), id = 620
+target name: C/SOHO (2003 X8), id = 621
+target name: C/SOHO (2003 X9), id = 622
+target name: C/SOHO (2003 Y10), id = 623
+target name: C/SOHO (2003 Y11), id = 624
+target name: C/SOHO (2003 Y12), id = 625
+target name: C/SOHO (2003 Y13), id = 626
+target name: C/SOHO (2003 Y14), id = 627
+target name: C/SOHO (2003 Y15), id = 628
+target name: C/SOHO (2003 Y2), id = 629
+target name: C/SOHO (2003 Y3), id = 630
+target name: C/SOHO (2003 Y4), id = 631
+target name: C/SOHO (2003 Y5), id = 632
+target name: C/SOHO (2003 Y6), id = 633
+target name: C/SOHO (2003 Y7), id = 634
+target name: C/SOHO (2003 Y8), id = 635
+target name: C/SOHO (2003 Y9), id = 636
+target name: C/SOHO (2004 A2), id = 637
+target name: C/SOHO (2004 B10), id = 638
+target name: C/SOHO (2004 B4), id = 639
+target name: C/SOHO (2004 B5), id = 640
+target name: C/SOHO (2004 B6), id = 641
+target name: C/SOHO (2004 B7), id = 642
+target name: C/SOHO (2004 B8), id = 643
+target name: C/SOHO (2004 B9), id = 644
+target name: C/SOHO (2004 C3), id = 645
+target name: C/SOHO (2004 C4), id = 646
+target name: C/SOHO (2004 C5), id = 647
+target name: C/SOHO (2004 C6), id = 648
+target name: C/SOHO (2004 C7), id = 649
+target name: C/SOHO (2004 C8), id = 650
+target name: C/SOHO (2004 D2), id = 651
+target name: C/SOHO (2004 D3), id = 652
+target name: C/SOHO (2004 D4), id = 653
+target name: C/SOHO (2004 E1), id = 654
+target name: C/SOHO (2004 E3), id = 655
+target name: C/SOHO (2004 E4), id = 656
+target name: C/SOHO (2004 F5), id = 657
+target name: C/SOHO (2004 F6), id = 658
+target name: C/SOHO (2004 F7), id = 659
+target name: C/SOHO (2004 G3), id = 660
+target name: C/SOHO (2004 G4), id = 661
+target name: C/SOHO (2004 G5), id = 662
+target name: C/SOHO (2004 G6), id = 663
+target name: C/SOHO (2004 G7), id = 664
+target name: C/SOHO (2004 G8), id = 665
+target name: C/SOHO (2004 G9), id = 666
+target name: C/SOHO (2004 H10), id = 667
+target name: C/SOHO (2004 H7), id = 668
+target name: C/SOHO (2004 H8), id = 669
+target name: C/SOHO (2004 H9), id = 670
+target name: C/SOHO (2004 J1), id = 671
+target name: C/SOHO (2004 J10), id = 672
+target name: C/SOHO (2004 J11), id = 673
+target name: C/SOHO (2004 J14), id = 674
+target name: C/SOHO (2004 J19), id = 675
+target name: C/SOHO (2004 J2), id = 676
+target name: C/SOHO (2004 J3), id = 677
+target name: C/SOHO (2004 J5), id = 678
+target name: C/SOHO (2004 J6), id = 679
+target name: C/SOHO (2004 J7), id = 680
+target name: C/SOHO (2004 J8), id = 681
+target name: C/SOHO (2004 J9), id = 682
+target name: C/SOHO (2004 K10), id = 683
+target name: C/SOHO (2004 K11), id = 684
+target name: C/SOHO (2004 K12), id = 685
+target name: C/SOHO (2004 K4), id = 686
+target name: C/SOHO (2004 K5), id = 687
+target name: C/SOHO (2004 K6), id = 688
+target name: C/SOHO (2004 K7), id = 689
+target name: C/SOHO (2004 K8), id = 690
+target name: C/SOHO (2004 K9), id = 691
+target name: C/SOHO (2004 L11), id = 692
+target name: C/SOHO (2004 L3), id = 693
+target name: C/SOHO (2004 L4), id = 694
+target name: C/SOHO (2004 L5), id = 695
+target name: C/SOHO (2004 L6), id = 696
+target name: C/SOHO (2004 L7), id = 697
+target name: C/SOHO (2004 L8), id = 698
+target name: C/SOHO (2004 L9), id = 699
+target name: C/SOHO (2004 M1), id = 700
+target name: C/SOHO (2004 M2), id = 701
+target name: C/SOHO (2004 M3), id = 702
+target name: C/SOHO (2004 M4), id = 703
+target name: C/SOHO (2004 M5), id = 704
+target name: C/SOHO (2004 M6), id = 705
+target name: C/SOHO (2004 M7), id = 706
+target name: C/SOHO (2004 N1), id = 707
+target name: C/SOHO (2004 N2), id = 708
+target name: C/SOHO (2004 N3), id = 709
+target name: C/SOHO (2004 N4), id = 710
+target name: C/SOHO (2004 N5), id = 711
+target name: C/SOHO (2004 N6), id = 712
+target name: C/SOHO (2004 O1), id = 713
+target name: C/SOHO (2004 O2), id = 714
+target name: C/SOHO (2004 O3), id = 715
+target name: C/SOHO (2004 P2), id = 716
+target name: C/SOHO (2004 P3), id = 717
+target name: C/SOHO (2004 P4), id = 718
+target name: C/SOHO (2004 P5), id = 719
+target name: C/SOHO (2004 P6), id = 720
+target name: C/SOHO (2004 P7), id = 721
+target name: C/SOHO (2004 Q3), id = 722
+target name: C/SOHO (2004 Q4), id = 723
+target name: C/SOHO (2004 Q5), id = 724
+target name: C/SOHO (2004 Q6), id = 725
+target name: C/SOHO (2004 R4), id = 726
+target name: C/SOHO (2004 R5), id = 727
+target name: C/SOHO (2004 R6), id = 728
+target name: C/SOHO (2004 R7), id = 729
+target name: C/SOHO (2004 S2), id = 730
+target name: C/SOHO (2004 S3), id = 731
+target name: C/SOHO (2004 S4), id = 732
+target name: C/SOHO (2004 T4), id = 733
+target name: C/SOHO (2004 T5), id = 734
+target name: C/SOHO (2004 T6), id = 735
+target name: C/SOHO (2004 T7), id = 736
+target name: C/SOHO (2004 T8), id = 737
+target name: C/SOHO (2004 U10), id = 738
+target name: C/SOHO (2004 U11), id = 739
+target name: C/SOHO (2004 U12), id = 740
+target name: C/SOHO (2004 U4), id = 741
+target name: C/SOHO (2004 U5), id = 742
+target name: C/SOHO (2004 U6), id = 743
+target name: C/SOHO (2004 U7), id = 744
+target name: C/SOHO (2004 U8), id = 745
+target name: C/SOHO (2004 U9), id = 746
+target name: C/SOHO (2004 V11), id = 747
+target name: C/SOHO (2004 V12), id = 748
+target name: C/SOHO (2004 V14), id = 749
+target name: C/SOHO (2004 V15), id = 750
+target name: C/SOHO (2004 V6), id = 751
+target name: C/SOHO (2004 V7), id = 752
+target name: C/SOHO (2004 V8), id = 753
+target name: C/SOHO (2004 W1), id = 754
+target name: C/SOHO (2004 W11), id = 755
+target name: C/SOHO (2004 W2), id = 756
+target name: C/SOHO (2004 W3), id = 757
+target name: C/SOHO (2004 W4), id = 758
+target name: C/SOHO (2004 W5), id = 759
+target name: C/SOHO (2004 W6), id = 760
+target name: C/SOHO (2004 W7), id = 761
+target name: C/SOHO (2004 W8), id = 762
+target name: C/SOHO (2004 W9), id = 763
+target name: C/SOHO (2004 X10), id = 764
+target name: C/SOHO (2004 X11), id = 765
+target name: C/SOHO (2004 X4), id = 766
+target name: C/SOHO (2004 X5), id = 767
+target name: C/SOHO (2004 X6), id = 768
+target name: C/SOHO (2004 X8), id = 769
+target name: C/SOHO (2004 X9), id = 770
+target name: C/SOHO (2004 Y11), id = 771
+target name: C/SOHO (2004 Y12), id = 772
+target name: C/SOHO (2004 Y2), id = 773
+target name: C/SOHO (2004 Y3), id = 774
+target name: C/SOHO (2004 Y5), id = 775
+target name: C/SOHO (2004 Y6), id = 776
+target name: C/SOHO (2004 Y7), id = 777
+target name: C/SOHO (2004 Y8), id = 778
+target name: C/SOHO (2004 Y9), id = 779
+target name: C/SOHO (2005 A2), id = 780
+target name: C/SOHO (2005 A3), id = 781
+target name: C/SOHO (2005 A4), id = 782
+target name: C/SOHO (2005 A5), id = 783
+target name: C/SOHO (2005 B2), id = 784
+target name: C/SOHO (2005 B3), id = 785
+target name: C/SOHO (2005 C2), id = 786
+target name: C/SOHO (2005 C3), id = 787
+target name: C/SOHO (2005 D2), id = 788
+target name: C/SOHO (2005 D3), id = 789
+target name: C/SOHO (2005 D4), id = 790
+target name: C/SOHO (2005 D5), id = 791
+target name: C/SOHO (2005 E3), id = 792
+target name: C/SOHO (2005 E5), id = 793
+target name: C/SOHO (2005 E6), id = 794
+target name: C/SOHO (2005 E7), id = 795
+target name: C/SOHO (2005 E8), id = 796
+target name: C/SOHO (2005 E9), id = 797
+target name: C/SOHO (2005 F1), id = 798
+target name: C/SOHO (2005 F2), id = 799
+target name: C/SOHO (2005 F3), id = 800
+target name: C/SOHO (2005 F4), id = 801
+target name: C/SOHO (2005 F5), id = 802
+target name: C/SOHO (2005 G3), id = 803
+target name: C/SOHO (2005 G4), id = 804
+target name: C/SOHO (2005 G5), id = 805
+target name: C/SOHO (2005 G6), id = 806
+target name: C/SOHO (2005 G7), id = 807
+target name: C/SOHO (2005 H3), id = 808
+target name: C/SOHO (2005 H4), id = 809
+target name: C/SOHO (2005 H5), id = 810
+target name: C/SOHO (2005 H6), id = 811
+target name: C/SOHO (2005 H8), id = 812
+target name: C/SOHO (2005 J10), id = 813
+target name: C/SOHO (2005 J11), id = 814
+target name: C/SOHO (2005 J12), id = 815
+target name: C/SOHO (2005 J3), id = 816
+target name: C/SOHO (2005 J4), id = 817
+target name: C/SOHO (2005 J5), id = 818
+target name: C/SOHO (2005 J6), id = 819
+target name: C/SOHO (2005 J7), id = 820
+target name: C/SOHO (2005 J8), id = 821
+target name: C/SOHO (2005 J9), id = 822
+target name: C/SOHO (2005 K10), id = 823
+target name: C/SOHO (2005 K5), id = 824
+target name: C/SOHO (2005 K6), id = 825
+target name: C/SOHO (2005 K7), id = 826
+target name: C/SOHO (2005 K8), id = 827
+target name: C/SOHO (2005 L10), id = 828
+target name: C/SOHO (2005 L11), id = 829
+target name: C/SOHO (2005 L12), id = 830
+target name: C/SOHO (2005 L13), id = 831
+target name: C/SOHO (2005 L14), id = 832
+target name: C/SOHO (2005 L15), id = 833
+target name: C/SOHO (2005 L5), id = 834
+target name: C/SOHO (2005 L6), id = 835
+target name: C/SOHO (2005 L7), id = 836
+target name: C/SOHO (2005 L8), id = 837
+target name: C/SOHO (2005 L9), id = 838
+target name: C/SOHO (2005 M10), id = 839
+target name: C/SOHO (2005 M2), id = 840
+target name: C/SOHO (2005 M4), id = 841
+target name: C/SOHO (2005 M5), id = 842
+target name: C/SOHO (2005 M6), id = 843
+target name: C/SOHO (2005 M7), id = 844
+target name: C/SOHO (2005 M8), id = 845
+target name: C/SOHO (2005 M9), id = 846
+target name: C/SOHO (2005 N10), id = 847
+target name: C/SOHO (2005 N6), id = 848
+target name: C/SOHO (2005 N7), id = 849
+target name: C/SOHO (2005 N8), id = 850
+target name: C/SOHO (2005 N9), id = 851
+target name: C/SOHO (2005 O3), id = 852
+target name: C/SOHO (2005 O4), id = 853
+target name: C/SOHO (2005 O6), id = 854
+target name: C/SOHO (2005 P1), id = 855
+target name: C/SOHO (2005 P2), id = 856
+target name: C/SOHO (2005 P4), id = 857
+target name: C/SOHO (2005 P5), id = 858
+target name: C/SOHO (2005 P6), id = 859
+target name: C/SOHO (2005 Q10), id = 860
+target name: C/SOHO (2005 Q5), id = 861
+target name: C/SOHO (2005 Q7), id = 862
+target name: C/SOHO (2005 Q9), id = 863
+target name: C/SOHO (2005 R5), id = 864
+target name: C/SOHO (2005 R6), id = 865
+target name: C/SOHO (2005 R7), id = 866
+target name: C/SOHO (2005 S1), id = 867
+target name: C/SOHO (2005 S10), id = 868
+target name: C/SOHO (2005 S11), id = 869
+target name: C/SOHO (2005 S12), id = 870
+target name: C/SOHO (2005 S13), id = 871
+target name: C/SOHO (2005 S5), id = 872
+target name: C/SOHO (2005 S6), id = 873
+target name: C/SOHO (2005 S7), id = 874
+target name: C/SOHO (2005 S8), id = 875
+target name: C/SOHO (2005 S9), id = 876
+target name: C/SOHO (2005 T10), id = 877
+target name: C/SOHO (2005 T11), id = 878
+target name: C/SOHO (2005 T6), id = 879
+target name: C/SOHO (2005 T7), id = 880
+target name: C/SOHO (2005 T8), id = 881
+target name: C/SOHO (2005 U2), id = 882
+target name: C/SOHO (2005 U3), id = 883
+target name: C/SOHO (2005 U4), id = 884
+target name: C/SOHO (2005 U5), id = 885
+target name: C/SOHO (2005 U6), id = 886
+target name: C/SOHO (2005 U7), id = 887
+target name: C/SOHO (2005 U8), id = 888
+target name: C/SOHO (2005 V2), id = 889
+target name: C/SOHO (2005 V3), id = 890
+target name: C/SOHO (2005 V4), id = 891
+target name: C/SOHO (2005 V5), id = 892
+target name: C/SOHO (2005 V6), id = 893
+target name: C/SOHO (2005 V7), id = 894
+target name: C/SOHO (2005 V9), id = 895
+target name: C/SOHO (2005 W10), id = 896
+target name: C/SOHO (2005 W12), id = 897
+target name: C/SOHO (2005 W13), id = 898
+target name: C/SOHO (2005 W14), id = 899
+target name: C/SOHO (2005 W15), id = 900
+target name: C/SOHO (2005 W16), id = 901
+target name: C/SOHO (2005 W17), id = 902
+target name: C/SOHO (2005 W6), id = 903
+target name: C/SOHO (2005 W7), id = 904
+target name: C/SOHO (2005 W8), id = 905
+target name: C/SOHO (2005 X2), id = 906
+target name: C/SOHO (2005 X3), id = 907
+target name: C/SOHO (2005 X4), id = 908
+target name: C/SOHO (2005 X5), id = 909
+target name: C/SOHO (2005 X6), id = 910
+target name: C/SOHO (2005 X7), id = 911
+target name: C/SOHO (2005 X8), id = 912
+target name: C/SOHO (2005 X9), id = 913
+target name: C/SOHO (2005 Y10), id = 914
+target name: C/SOHO (2005 Y3), id = 915
+target name: C/SOHO (2005 Y4), id = 916
+target name: C/SOHO (2005 Y5), id = 917
+target name: C/SOHO (2005 Y6), id = 918
+target name: C/SOHO (2005 Y7), id = 919
+target name: C/SOHO (2005 Y9), id = 920
+
+5. Get images for the dataset with the given id
+	total: 3
+	entity name = ccd_mid_5_3_IMAGE, id = 24395
+	entity name = ccd_mid_5_4_IMAGE, id = 24396
+	entity name = ccd_near_01_IMAGE, id = 24397
+
+6. Get images for the missions with DEEP in name
+	total: 23601
+	entity name = g20050624_0001_a_IMAGE, id = 546
+	entity name = g20050624_0002_a_IMAGE, id = 547
+	entity name = g20050624_0003_a_IMAGE, id = 548
+	entity name = g20050624_0004_a_IMAGE, id = 549
+	entity name = g20050624_0005_a_IMAGE, id = 550
+	entity name = g20050624_0006_a_IMAGE, id = 551
+	entity name = g20050624_0007_a_IMAGE, id = 552
+	entity name = g20050624_0008_a_IMAGE, id = 553
+	entity name = g20050624_0009_a_IMAGE, id = 554
+	entity name = g20050624_0010_a_IMAGE, id = 555
+	entity name = g20050624_0011_a_IMAGE, id = 556
+	entity name = g20050624_0012_a_IMAGE, id = 557
+	entity name = g20050624_0013_a_IMAGE, id = 558
+	entity name = g20050624_0014_a_IMAGE, id = 559
+	entity name = g20050624_0015_a_IMAGE, id = 560
+	entity name = g20050624_0016_a_IMAGE, id = 561
+	entity name = g20050624_0017_a_IMAGE, id = 562
+	entity name = g20050624_0018_a_IMAGE, id = 563
+	entity name = g20050624_0019_a_IMAGE, id = 564
+	entity name = g20050624_0020_a_IMAGE, id = 565
+	total: 401
+	entity name = ccd_mid_5_3_IMAGE, id = 24395
+	entity name = ccd_mid_5_4_IMAGE, id = 24396
+	entity name = ccd_near_01_IMAGE, id = 24397
+	entity name = ut010921_036_IMAGE, id = 24431
+	entity name = ut010921_037_IMAGE, id = 24432
+	entity name = ut010921_038_IMAGE, id = 24433
+	entity name = ut010921_039_IMAGE, id = 24434
+	entity name = ut010921_040_IMAGE, id = 24435
+	entity name = ut010921_041_IMAGE, id = 24436
+	entity name = ut010921_042_IMAGE, id = 24437
+	entity name = ut010922_076_IMAGE, id = 24438
+	entity name = ut010922_077_IMAGE, id = 24439
+	entity name = ut010922_078_IMAGE, id = 24440
+	entity name = ut010922_079_IMAGE, id = 24441
+	entity name = ut010922_080_IMAGE, id = 24442
+	entity name = ut010922_081_IMAGE, id = 24443
+	entity name = ut010922_084_IMAGE, id = 24444
+	entity name = ut010922_085_IMAGE, id = 24445
+	entity name = ut010922_086_IMAGE, id = 24446
+	entity name = ut010922_087_IMAGE, id = 24447
+
+7. Binary file reading example
+Received 1056960 bytes

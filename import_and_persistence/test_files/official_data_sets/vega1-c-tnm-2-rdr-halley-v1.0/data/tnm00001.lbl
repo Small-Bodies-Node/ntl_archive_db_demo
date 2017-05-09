@@ -1,0 +1,65 @@
+CCSD3ZF0000100000001NJPL3IF0PDS200000001= SFDU_LABEL                          
+/*          File Format and Length                                   */       
+PDS_VERSION_ID                = PDS3                                          
+RECORD_TYPE                   = FIXED_LENGTH                                  
+RECORD_BYTES                  = 374                                           
+FILE_RECORDS                  = 3098                                          
+                                                                              
+/*          Record Pointer to Major Object                           */       
+^TABLE                        = "TNM00001.TAB"                                
+                                                                              
+/*          Description of Objects in File                           */       
+DATA_SET_ID                   = "VEGA1-C-TNM-2-RDR-HALLEY-V1.0"               
+TARGET_NAME                   = "HALLEY"                                      
+OBSERVATION_ID                = "UNKNOWN"                                     
+START_TIME                    = "N/A"                                         
+NOTE                          = "VEGA 1 TUNDE DATA"                           
+                                                                              
+DESCRIPTION                   = "This table lists fast telemetry data         
+                                 counts taken during the period 6 March       
+                                 1986, UT 04:17:03-08:24:53.  These           
+  data were taken by the T1 instrument only (T2 was not operational           
+  during the Halley encounter.  For more information and references,          
+  see the accompanying file, 'tnm.doc'."                                      
+                                                                              
+                                                                              
+OBJECT                        = TABLE                                         
+ ROWS                         = 3098                                          
+ ROW_BYTES                    = 374                                           
+ COLUMNS                      = 62                                            
+ INTERCHANGE_FORMAT           = ASCII                                         
+                                                                              
+ OBJECT                       = COLUMN                                        
+  NAME                        = TIME                                          
+  DATA_TYPE                   = ASCII_INTEGER                                 
+  START_BYTE                  = 1                                             
+  BYTES                       = 6                                             
+  FORMAT                      = "I6"                                          
+  UNIT                        = "SECONDS"                                     
+  DESCRIPTION                 = "Time, in seconds, of the END of the          
+                                 integration.  Spacecraft time in UT          
+                                 is equal to 04:16:59 + this value.           
+  Counts were read out every four seconds.  The first record has a time       
+  of 8 seconds; there is one data gap in the file between times 4446          
+  and 14779."                                                                 
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT                       = COLUMN                                        
+  NAME                        = COUNT                                         
+  BYTES                       = 366                                           
+  ITEMS                       = 61                                            
+  ITEM_BYTES                  = 6                                             
+  DATA_TYPE                   = ASCII_INTEGER                                 
+  FORMAT                      = "I6"                                          
+  SAMPLING_PARAMETER_NAME     = CHANNEL_NUMBER                                
+  SAMPLING_PARAMETER_INTERVAL = 1                                             
+  MINIMUM_SAMPLING_PARAMETER  = 1                                             
+  SAMPLING_PARAMETER_UNIT     = "N/A"                                         
+  START_BYTE                  = 7                                             
+  DESCRIPTION                 = "Counts recorded in each of 61 energy         
+                                 channels.  See the 'tnm.doc' file for        
+                                 a mapping of channel to energy."             
+ END_OBJECT                                                                   
+                                                                              
+END_OBJECT                    = TABLE                                         
+END                                                                           

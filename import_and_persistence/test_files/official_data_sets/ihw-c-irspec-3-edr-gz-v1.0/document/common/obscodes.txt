@@ -1,0 +1,368 @@
+*****  File OBSCODES.TXT                                                      
+                                                                              
+                                                                              
+System    Observatory                                  Long.  Lat.    Dxy   DZ
+                                                                              
+10060000  Fabra Observatory, Barcelona                  2.13  +41.42  -320  -2
+1                                                                             
+10120000  Observatoire Royal Belgique, Uccle            4.36  +50.80  -270  -3
+9                                                                             
+10170000  Hoher List Observatory                        6.85  +50.14  -274  -3
+6                                                                             
+30170300  0.30m Astrograph                                                    
+10220000  Pino Torinese, Torino                         7.78  +45.00  -302  -3
+0                                                                             
+10240000  State Observatory at Konigstuhl, Heidelberg   8.72  +49.38  -278  -3
+2                                                                             
+10260000  Berne-Zimmerwald                              7.47  +46.90  -292  -3
+0                                                                             
+10430000  Asiago Astrophysical Observatory, Padua      11.53  +45.86  -297  -3
+5                                                                             
+10460000  Klet Observatory, Ceske Budejovice           14.29  +42.21  -281  -3
+9                                                                             
+10490000  Uppsala-Kvistaberg                           17.61  +59.86  -217  -3
+6                                                                             
+10510000  Cape of Good Hope                            18.48  -33.98  -354  +2
+7                                                                             
+10560000  Skalnate Pleso Observatory                   20.24  +49.19  -279  -3
+1                                                                             
+10570000  Belgrade                                     20.51  +44.82  -303  -2
+9                                                                             
+10610000  Uzhgorod                                     22.30  +48.62  -282  -3
+8                                                                             
+10630000  Turku-Tuorla                                 22.44  +60.42  -211  -3
+9                                                                             
+10690000  Baldone (near Riga)                          24.41  +56.79  -234  -3
+5                                                                             
+10710000  Sofia                                        24.72  +41.67  -319  -2
+2                                                                             
+10830000  Central Astrophysical Obs., Golosseevo-Kiev  30.50  +50.37  -273  -3
+7                                                                             
+10840000  Pulkovo Observatory                          30.33  +59.77  -215  -3
+7                                                                             
+10850000  Kiev University Observatory                  30.50  +50.37  -273  -3
+7                                                                             
+10870000  Helwan                                       31.34  +29.86  -370  -2
+1                                                                             
+10940000  Crimea-Simeis                                34.00  +44.54  -305  -2
+7                                                                             
+10950000  Crimea-Nauchnij                              34.02  +44.81  -303  -2
+9                                                                             
+10960000  Merate                                        9.43  +45.70  -298  -3
+4                                                                             
+50970101  Wise Observatory, Mitzpeh Ramon              34.76  +30.60  -367  -2
+6                                                                             
+          1.0m                                                                
+10980000  Cima Ekar, Asiago Astrophysical Obs., Padua  11.57  +45.77  -298  -3
+4                                                                             
+11020000  Zvenigorod                                   36.59  +55.71  -241  -3
+1                                                                             
+11140000  Engelhardt Observatory, Zelenchuk Station    41.44  +43.65  -309  -2
+3                                                                             
+11290000  Ordubad                                      46.00  +39.18  -332  -2
+6                                                                             
+11680000  Kourovskaya                                  59.50  +56.97  -233  -3
+6                                                                             
+11860000  Kitab                                        66.88  +39.19  -331  -2
+8                                                                             
+11900000  Gissar                                       68.60  +38.51  -334  -2
+4                                                                             
+11910000  Dushanbe                                     68.78  +38.56  -334  -2
+4                                                                             
+12930000  Burlington Remote Site                      285.59  +39.75  -328  -2
+1                                                                             
+13230000  Perth Observatory, Bickley                  116.14  -32.03  -362  +2
+5                                                                             
+13300000  Purple Mountain Observatory, Nanking        118.82  +32.03  -362  -2
+5                                                                             
+13370000  Zo-Se                                       121.19  +31.10  -365  -2
+9                                                                             
+13720000  Geisei                                      133.83  +33.50  -356  -2
+4                                                                             
+13760000  Uenohara                                    139.02  +35.63  -347  -2
+7                                                                             
+13810000  Tokyo-Kiso                                  137.63  +35.81  -346  -2
+8                                                                             
+13910000  Sendai Observatory, Ayashi Station          140.78  +38.32  -335  -2
+3                                                                             
+13920000  J.C.P.M., Sapporo Station                   141.38  +43.10  -312  -2
+0                                                                             
+13970000  Sapporo Science Center                      141.48  +43.00  -312  -2
+9                                                                             
+14150000  Kambah (near Canberra)                      149.06  +35.44  -348  +2
+6                                                                             
+14740000  Mount John Observatory, Lake Tekapo         170.46  -44.05  -307  +2
+5                                                                             
+14820000  St. Andrews                                 357.18  +56.30  -237  -3
+3                                                                             
+14900000  Wimborne Minster                            358.00  +50.82  -270  -3
+9                                                                             
+14910000  Centro Astronomico de Yebes                 356.91  +40.53  -324  -2
+6                                                                             
+14930000  Estacion Astronomica de Calar Alto          357.45  +37.27  -340  -2
+7                                                                             
+34930200  0.80m Schmidt                                                       
+14940000  Stakenbridge                                357.84  +52.35  -261  -3
+6                                                                             
+15020000  Colchester                                    0.85  +51.97  -263  -3
+4                                                                             
+15520000  Osservatorio San Vittore, Bologna            11.34  +44.47  -305  -2
+7                                                                             
+15530000  Chorzow                                      18.99  +50.29  -273  -3
+6                                                                             
+35530100  0.20m Astrograph                                                    
+15550000  Cracow-Fort Skala                            19.83  +50.06  -274  -3
+5                                                                             
+15560000  Reintal (near Munich)                        11.26  +47.57  -288  -3
+3                                                                             
+55570201  Ondrejov                                     14.78  +49.91  -275  -3
+5                                                                             
+          0.42m Schmidt                                                       
+15620000  Figl Observatory, Vienna                     15.92  +48.08  -285  -3
+6                                                                             
+15640000  Herrshing (near Munich)                      11.19  +48.05  -286  -3
+6                                                                             
+15650000  Brescia                                      10.13  +45.20  -301  -3
+1                                                                             
+15670000  Chaonis                                      12.71  +45.84  -298  -3
+5                                                                             
+25680100  Mauna Kea                                   204.53  +19.87  -401  -1
+4                                                                             
+          3.8m (UKIRT)                                                        
+456802xx  3.60m (CFHT)                                                        
+25680300  3.0m (IRTF)                                                         
+15710000  Cavriani                                     10.63  +45.38  -300  -3
+2                                                                             
+15740000  Gottolengo                                   10.27  +45.38  -300  -3
+2                                                                             
+15750000  La Chaux des Fonds                            6.81  +47.10  -291  -3
+1                                                                             
+15800000  Graz                                         15.50  +47.08  -291  -3
+1                                                                             
+16570000  Victoria                                    236.68  +48.52  -283  -3
+8                                                                             
+16620000  Lick Observatory, Mount Hamilton            238.36  +37.34  -339  -2
+7                                                                             
+76620103  3.5m                                                                
+16750000  Palomar Mountain                            234.14  +33.31  -357  -2
+3                                                                             
+76750101  5.0m                                                                
+16880000  Lowell Observatory, Anderson Mesa           248.46  +35.14  -349  -2
+4                                                                             
+56880101  1.8m                                                                
+76880102  1.8m                                                                
+56880201  1.1m                                                                
+56880301  0.8m                                                                
+56890106  U.S. Naval Observatory, Flagstaff           248.26  +35.19  -349  -2
+4                                                                             
+          1.0m                                                                
+16910000  Steward Observatory, Tucson                 248.40  +31.96  -362  -2
+4                                                                             
+469301xx  Catalina Station, Tucson                    249.28  +32.40  -360  -2
+7                                                                             
+          1.54m                                                               
+56930101  1.54m                                                               
+769301xx  1.54m                                                               
+16950000  Kitt Peak National Observatory, Tucson      248.40  +31.92  -362  -2
+4                                                                             
+469501xx  4.00m                                                               
+76950203  2.1m                                                                
+26950400  1.3m                                                                
+469505xx  0.9m, #1                                                            
+16960000  Whipple Observatory, Mt. Hopkins, Amado     249.12  +31.69  -363  -2
+3                                                                             
+37020100  Joint Obs. for Comet Res., Socorro          252.81  +33.99  -354  -2
+7                                                                             
+          0.36m Schmidt                                                       
+17070000  Chamberlin Field Station, Bailey            254.56  +39.48  -330  -2
+0                                                                             
+17110000  McDonald Observatory, Fort Davis            255.98  +30.65  -367  -2
+6                                                                             
+771101xx  2.7m                                                                
+471102xx  2.08m                                                               
+471104xx  0.91m                                                               
+471105xx  0.76m                                                               
+17860000  U.S. Naval Observatory, Washington          282.94  +38.92  -332  -2
+6                                                                             
+17880000  Mount Cuba Observatory, Greenville          284.37  +39.79  -328  -2
+1                                                                             
+37880100  0.61m Baker Camera                                                  
+17920000  University of Rhode Island, Quonochontaug   288.30  +41.28  -321  -2
+0                                                                             
+18010000  Oak Ridge Observatory, Harvard              288.44  +42.53  -315  -2
+7                                                                             
+18070000  Cerro Tololo Observatory, La Serena         289.19  -30.17  -369  +2
+3                                                                             
+78070201  1.5m                                                                
+58070301  1.0m                                                                
+18080000  Yale-Columbia Station, El Leoncito          290.67  -31.73  -363  +2
+3                                                                             
+18090000  European Southern Observatory, La Silla     289.27  -29.25  -372  +2
+7                                                                             
+18930000  Sendai Municipal Observatory                140.87  +38.26  -335  -2
+3                                                                             
+59500301  La Palma 1.0m JKT                           342.17  +28.67  -375  -2
+3                                                                             
+19780000  Conder Brow                                 357.25  +54.37  -249  -3
+5                                                                             
+19840000  West Chinnock                               357.26  +51.00  -269  -3
+0                                                                             
+19930000  Woolston Observatory                        357.50  +51.00  -269  -3
+0                                                                             
+                                                                              
+                                                                              
+                                                                              
+System    Observatory                                  Long.  Lat.    Dxy   DZ
+                                                                              
+25001600  Wyoming Infrared Observatory                254.02  +41.10  -322  -2
+9                                                                             
+25009800  Kuiper Airborne Observatory                                         
+35000301  National Astronomical Observatory, Rojen     24.73  +41.72  -319  -2
+2                                                                             
+          0.70m Schmidt                                                       
+35001601  A. J. Dyer Observatory, Nashville           273.19  +36.05  -345  -2
+0                                                                             
+          0.60m Schmidt                                                       
+35001604  E. E. Barnard Observatory, Golden           254.63  +39.88  -328  -2
+2                                                                             
+          0.30m Schmidt                                                       
+35001610  Goddard Research Laboratory, Greenbelt      283.17  +39.02  -332  -2
+7                                                                             
+          0.20m Celestron Schmidt                                             
+65000401  Nancay Radio Astronomy Station                2.20  +47.38  -289  -3
+2                                                                             
+          200m x 40m                                                          
+65001401  IRAM 30m, Pico Veleta, Spain                  3.40  +36.88  -342  -2
+5                                                                             
+65001613  National Radio Astronomy Obs., Green Bank   280.16  +38.51  -334  -2
+4                                                                             
+          43m                                                                 
+65001901  MO 14m, Helsinki, Finland                    24.40  +60.05  -213  -3
+8                                                                             
+65002102  Dominion Radio Astrophys. Obs., Penticton   240.38  +49.38  -278  -3
+2                                                                             
+          26m                                                                 
+65002403  Zelenchukskaya                               41.59  +43.86  -308  -2
+4                                                                             
+          RATAN 600                                                           
+65002501  Max-Planck-Inst. Radio Astr., Effelsberg      6.88  +50.52  -272  -3
+8                                                                             
+          100m                                                                
+65002601  Australian Nat'l. Radio Astr. Obs., Parkes  148.26  -33.01  -358  +2
+1                                                                             
+          64m                                                                 
+                                                                              
+                                                                              
+                                                                              
+System    Observatory                   Orbit            Perigee  Apogee   Inc
+.                                                                             
+                                                                              
+750099xx  International Ultraviolet     Geosynchronous   32,050   52,254   28.
+                                                                              
+          Explorer                                                            
+                                                                              
+                                                                              
+                                                                              
+                 Assigned Country Codes                                       
+(sorted by name)                        (sorted by code)                      
+                                                                              
+98   Air borne                          01   Antarctica                       
+01   Antarctica                         02   Brazil                           
+27   Argentina                          03   Bulgaria                         
+83   Ascension Island                   04   France                           
+26   Australia                          05   India                            
+                                                                              
+28   Austria                            06   Indonesia                        
+71   Barbados                           07   Italy                            
+29   Belgium                            08   Japan                            
+30   Bermuda                            09   Mexico                           
+31   Bolivia                            10   People's Republic of China       
+                                                                              
+64   Botswana                           11   Poland                           
+02   Brazil                             12   United Kingdom (also: 15, 72)    
+03   Bulgaria                           13   South Africa                     
+21   Canada                             14   Spain                            
+74   Canary Islands                     16   United States (also: 76)         
+                                                                              
+32   Chile                              17   Venezuela                        
+33   Colombia                           18   Switzerland                      
+34   Costa Rica                         19   Finland                          
+79   Cuba                               20   U.S.S.R. (also: 24)              
+35   Czechoslovakia                     21   Canada                           
+                                                                              
+22   Denmark                            22   Denmark                          
+66   Egypt                              23   German Democratic Republic       
+25   Federal Republic of Germany        25   Federal Republic of Germany      
+81   Fiji                               26   Australia                        
+19   Finland                            27   Argentina                        
+                                                                              
+04   France                             28   Austria                          
+73   Galapagos Islands                  29   Belgium                          
+23   German Democratic Republic         30   Bermuda                          
+36   Greece                             31   Bolivia                          
+37   Hong Kong                          32   Chile                            
+                                                                              
+38   Hungary                            33   Colombia                         
+05   India                              34   Costa Rica                       
+06   Indonesia                          35   Czechoslovakia                   
+39   Ireland                            36   Greece                           
+40   Israel                             37   Hong Kong                        
+                                                                              
+07   Italy                              38   Hungary                          
+08   Japan                              39   Ireland                          
+41   Korea                              40   Israel                           
+42   Kuwait                             41   Korea                            
+68   Lesotho                            42   Kuwait                           
+                                                                              
+43   Malaysia                           43   Malaysia                         
+78   Maldive Islands                    44   Malta                            
+44   Malta                              45   Mauritius                        
+82   Mariana Islands (Guam & Saipan)    46   Netherlands                      
+45   Mauritius                          47   Norway                           
+                                                                              
+09   Mexico                             48   New Zealand                      
+65   Namibia                            49   Papua New Guinea                 
+46   Netherlands                        50   Philippines                      
+75   Netherlands Antilles               51   Portugal                         
+48   New Zealand                        52   Rwanda                           
+                                                                              
+47   Norway                             53   Singapore                        
+80   Panama                             54   Sweden                           
+49   Papua New Guinea                   55   Taiwan                           
+10   People's Republic of China         56   Trinidad & Tobago                
+67   Peru                               57   Turkey                           
+                                                                              
+50   Philippines                        58   Yugoslavia                       
+11   Poland                             59   Zimbabwe                         
+51   Portugal                           60   Romania                          
+77   Puerto Rico                        61   Society Islands (Tahiti)         
+70   Reunion Island                     62   Uruguay                          
+                                                                              
+60   Romania                            63   Sudan                            
+52   Rwanda                             64   Botswana                         
+89   Sea borne (Atlantic Ocean)         65   Namibia                          
+87   Sea borne (Carribean)              66   Egypt                            
+88   Sea borne (Gulf of Mexico)         67   Peru                             
+                                                                              
+53   Singapore                          68   Lesotho                          
+61   Society Islands (Tahiti)           69   Tanzania                         
+13   South Africa                       70   Reunion Island                   
+99   Space borne                        71   Barbados                         
+14   Spain                              73   Galapagos Islands                
+                                                                              
+63   Sudan                              74   Canary Islands                   
+54   Sweden                             75   Netherlands Antilles             
+18   Switzerland                        77   Puerto Rico                      
+55   Taiwan                             78   Maldive Islands                  
+69   Tanzania                           79   Cuba                             
+                                                                              
+56   Trinidad & Tobago                  80   Panama                           
+57   Turkey                             81   Fiji                             
+20   U.S.S.R. (also: 24)                82   Mariana Islands (Guam & Saipan)  
+12   United Kingdom (also: 15, 72)      83   Ascension Island                 
+16   United States (also: 76)           87   Sea borne (Carribean)            
+                                                                              
+62   Uruguay                            88   Sea borne (Gulf of Mexico)       
+17   Venezuela                          89   Sea borne (Atlantic Ocean)       
+58   Yugoslavia                         98   Air borne                        
+59   Zimbabwe                           99   Space borne                      

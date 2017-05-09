@@ -1,0 +1,303 @@
+***** File GIOOPE.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.   Two additional references                                                            
+may be useful and are specified below.                                                                                            
+                                                                                                                                  
+Giovane, F., Eichkorn, G., McKisson, J., Weinberg, J.L., Lamy, P., Llebaria,                                                      
+    A., Detaille, M., Levasseur-Regourd, A.C., and Le Blanc, J.M. 1991,                                                           
+    Photomultiplier for Optically Probing Comet Halley, Applied Optics, 30,                                                       
+    No. 18, 2579                                                                                                                  
+Levasseur-Regourd A C, Weinberg I L, Giovane F, Schuerman D W, Lamy P, Festou M,                                                  
+    Berteaux J L, & Dumont R 1981b, Halley optical probe experiment, The Giotto                                                   
+    Mission, ESA special publ 169, 121.                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+The Giotto Optical Probe                                                                                                          
+Experiment                                                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+A.C. Levasseur-Regourd, J.L.Bertaux                                                                                               
+Service d'Aeronomie du CNRS, Verrieres le Buisson, France                                                                         
+                                                                                                                                  
+R. Dumont, M. Festou                                                                                                              
+Observatoire de Bordeaux, France                                                                                                  
+                                                                                                                                  
+R.H. Giese                                                                                                                        
+Ruhr Universitat, Bochum, Germany                                                                                                 
+                                                                                                                                  
+F. Giovane                                                                                                                        
+Space Astronomy Laboratory, Gainesville, Florida, USA                                                                             
+                                                                                                                                  
+P. Lamy, A. Llebaria                                                                                                              
+Laboratoire d'Astronomie Spatiale, Marseille, France                                                                              
+                                                                                                                                  
+J.L. Weinberg                                                                                                                     
+Space Astronomy Laboratory, Gainesville, Florida, USA                                                                             
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+  The Halley Optical Probe Experiment (HOPE) has been designed to provide in-situ                                                 
+photopolarimetric data on both the dust cloud and the gaseous atmosphere in Halley's                                              
+coma. The Optical Probe's concept is presented here, together with a description of                                               
+the instrumentation and the possibilities for cross-correlation between the HOPE                                                  
+results and those of other space and ground-based experiments. The instrument was                                                 
+turned on successfully on 13 September 1985.                                                                                      
+                                                                                                                                  
+1. Concept and                                                                                                                    
+Methodology                                                                                                                       
+                                                                                                                                  
+  Cosmic dust observations from space probes are traditionally classified as either                                               
+remote-sensing (essentially optical) or in-situ (typically mass-spectrometers or impact                                           
+detectors). A third type of observation is possible with the ESA Giotto mission to                                                
+Comet Halley, namely optical measurements of cometary dust and gas parameters in                                                  
+volume elements centred on the moving probe (Levasseur-Regourd et al. 1981a).                                                     
+  The Optical Probe's concept is shown in Figure 1. An optical measurement of the                                                 
+polarized spectral radiance in the direction of motion is made at point M1 on the                                                 
+spacecraft trajectory; a second measurement is then made at point M2. If the two                                                  
+observations are made parallel to the direction of motion, then their difference is the                                           
+spatial derivative of the radiance along the line of sight. It is a direct measure of the                                         
+light scattered by the dust or emitted by the gas in a tube along the trajectory (Levasseur-                                      
+Regourd et al. 1981b).                                                                                                            
+  The only assumptions made are: (i) that the cometary atmosphere is optically thin                                               
+(which is highly likely more than 500 km from the nucleus); and (ii) that the rapid                                               
+motion of the spacecraft through the coma allows a quasi-steady-state from one                                                    
+measurement set to the next.                                                                                                      
+ The polarized spectral radiance can be inverted only if the viewing direction is                                                 
+parallel to the trajectory, resulting in two possibilities, the direction of motion and the                                       
+opposite one. The corresponding measurements differ only in scattering angle, which                                               
+typically for the Giotto mission are 72.8 deg for the forward viewing direction and                                               
+107.2deg for rearward viewing. Typical scattering phase diagrams such as those obtain-                                            
+ed for the zodiacal cloud and in laboratory measurements are flat in the 70deg - 110deg                                           
+range (Dumont 1976, Giese et al. 1978), implying that the ratio of the two polarized                                              
+radiances would yield almost no information on the forward-to-backscattering ratio.                                               
+A rearward-looking instrument has been selected, in view of the more critical demands                                             
+of a forward-looking type.                                                                                                        
+                                                                                                                                  
+Figure 1. Concept of an optical probe                                                                                             
+                                                                                                                                  
+2. Instrumentation                                                                                                                
+                                                                                                                                  
+  The Optical Probe Experiment requires the measurement of linearly polarized                                                     
+brightnesses in various colours in the direction opposite to the direction of motion of                                           
+the spacecraft through the cometary coma. Since an instrument on board a cometary                                                 
+probe had to be relatively small and extremely reliable, we have chosen to have no                                                
+moving parts, which has led to an instrument mass of only about 1.3 kg (Fig. 2).                                                  
+  The spectral discrimination in the seven-colour refracting photopolarimeter is                                                  
+achieved by imaging uniformly illuminated interference filters deposited on the objec-                                            
+tive lens onto a micro-channel plate detector. The polarization is determined by the                                              
+spinning spacecraft rotation (15 r.p.m.) of the polaroid analyzer; simultaneous                                                   
+measurements are made for the seven channels in 0.5 s. One set of measurements,                                                   
+which allows the determination of the total intensities, the polarized brightnesses, the                                          
+azimuths of the polarized components (i.e. the Stokes parameters) and their errors,                                               
+corresponds to a 180 deg rotation of the analyzer; it is performed every 2 s.                                                     
+                                                                                                                                  
+Table 1. HOPE spectral response                                                                                                   
+                                                                                                                                  
+               Central     Bandpass  Bandpass                                                                                     
+               wavelength  50% peak  1% peak                                                                                      
+Filter         (nm)        (nm)      (nm)                                                                                         
+                                                                                                                                  
+Continuum 1  443.5         4.5       9.0                                                                                          
+Continuum 2  575.0         10.0     20.0                                                                                          
+Continuum 3  717.5          3.5      7.5                                                                                          
+OH           307.5          6.0     10.0                                                                                          
+CN           387.0          4.0     10.0                                                                                          
+CO+          426.0          4.0      8.0                                                                                          
+C2           514.0          4.0      6.0                                                                                          
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+ The layout of the optical system is illustrated in Figure 3. It is composed of an f/1.7                                          
+objective lens of 18 mm diameter, seven interference filters (Table 1), a polaroid foil,                                          
+a field stop, a field lens and a micro-channel plate photomultiplier. The filter mosaic                                           
+is designed to provide comparable intensities for the various channels and a partial cor-                                         
+rection of the aberrations. The field of view for each channel is 3 deg. Cross-talk may                                           
+exist between the various channels, due to diffusion inside the filter mosaic, misalign-                                          
+ment between optics and detector, or electronic cross-talk; total cross-talk has been                                             
+found to be less than 3%.                                                                                                         
+ The linearity calibration was performed at the Max Planck Institute for Astronomy                                                
+in Heidelberg. It allowed determination of the degree of linearity for individual counts                                          
+by a boot-strap method. This Individual Linearity Ratio (ILR) is defined for a given                                              
+count as the ratio of counts measured to counts expected, i.e. if a stimulus results in                                           
+a count C1, and another stimulus results in a count C2 (where C1 is approximately                                                 
+equal to C2), the combination of the first and second stimuli results in a count C3.                                              
+Then if the system is behaving linearly, C1 + C2 = C3. The ratio of C3 to the sum of                                              
+C1 and C2 defines the ILR for the count (C1 + C2)/2. These ILRs were determined for                                               
+all channels. A least-squares curve was then fitted to the ILR vs counts for each chan-                                           
+nel. The product of successive values of the ILR yields the linearity ratio, which is                                             
+then used to correct the measured counts of our system.                                                                           
+  The cross-talk measurements were also mainly carried out in Heidelberg using a                                                  
+Jarrell Ash dual 1 m monochromator. In this set-up, a light beam is passed through                                                
+the monochromator with a dispersion of about 0.1 nm and the response of the instru-                                               
+ment noted in all channels. These measurements were repeated for numerous                                                         
+wavelengths. The results were integrated across each bandpass and then compared                                                   
+with the integrated signal received in the out-of-bandpass channels. The outband and                                              
+inband counts were corrected by applying a preliminary linearity ratio derived as a                                               
+composite of all channels. The outband and inband counts corrected in this way for                                                
+linearity were then used to determine the preliminary cross-talk. This cross-talk was                                             
+then used to correct the linearity ratios. The improved linearities were then used to                                             
+correct the cross-talk. This cross-talk was subsequently used to correct the linearity                                            
+ratios, and finally the improved linearity ratio was used to finalize the correction to                                           
+the cross-talk. The application of this finalized cross talk to the linearity ratio did not                                       
+result in any material change and the iteration process was therefore terminated.                                                 
+                                                                                                                                  
+Figure 2. The HOPE instrument                                                                                                     
+                                                                                                                                  
+3.  Wavelength Choice                                                                                                             
+                                                                                                                                  
+Sunlight diffused by the cometary dust will be measured over a wide wavelength                                                    
+range, from the blue to the red, in three gas-free emission bands: 439-448 nm,                                                    
+565-585 nm and 714-721 nm. Of great importance is the fact that there are two                                                     
+wavelengths in common between the Giotto HMC camera and the HOPE instrument,                                                      
+and one wavelength in common between the USSR Vega probe camera and HOPE                                                          
+(Fig. 4), providing the possibility of cross-checking.                                                                            
+ Light emitted by the cometary gases will be measured in four spectral bands. The                                                 
+OH emission band at 307 nm has been chosen as a tracer of H2O molecules. CN at                                                    
+387 nm and C2 at 514 nm are the dominant minor species emissions in the optical                                                   
+range; they could be representative of some carbon chemistry in the coma. CO+ at                                                  
+426 nm will allow the penetration of the solar wind to be studied throughout the coma,                                            
+                                                                                                                                  
+Figure 3. The HOPE optical system                                                                                                 
+                                                                                                                                  
+Figure 4. Comparison of the continuum filter                                                                                      
+bands                                                                                                                             
+                                                                                                                                  
+and will provide new insight into ion formation processes. Polarization measurements                                              
+are mainly aimed at the study of the optical properties of dust grains. They also carry                                           
+information on the production processes of the gaseous species; ground-based obser-                                               
+vations have been found to be compatible with the fluorescence mechanism. Polariza-                                               
+tion measurements for OH, CN and C2 will help to assess the possibility of some of                                                
+those species being produced in an excited state in the inner coma.                                                               
+  The rearward-looking photopolarimeter is located on the top platform of the Giotto                                              
+spacecraft, in the shadow of the solar panels. It is, nevertheless, necessary to baffle                                           
+the instrument against light coming from the cometary coma outside the field of view,                                             
+and reflected by Giotto's main antenna or tripod during the flyby. A 270 mm long baf-                                             
+fle with seven vanes has therefore been designed and incorporated. The total system                                               
+stray-light suppression is about 10**-12, as long as the flight sources are at least 1.5deg                                       
+from the instrument's optical axis. The possibility that specularly reflecting sources                                            
+might direct sunlight into the baffle has been studied during solar simulation testing                                            
+of the spacecraft.                                                                                                                
+  A self-luminescent white source of moderate intensity is mounted on the back of the                                             
+baffle cover; it has been used during the tests and during the Giotto spacecraft cruise                                           
+phase. The cover was released in October 1985 by means of a pyrotechnic device. In-                                               
+flight calibration is provided via this calibration source, and by the background sky                                             
+radiation (zodiacal light + star light) to be observed immediately prior to encounter.                                            
+                                                                                                                                  
+4. Anticipated Results                                                                                                            
+                                                                                                                                  
+  Multicolour brightnesses and polarizations will be obtained in volume elements                                                  
+along the trajectory of the Probe throughout Halley's coma. The tubes will be 140 km                                              
+long (corresponding to 2 s in the encounter data take) and 7 km wide (corresponding                                               
+to the 3 deg field of view of the instrument). For the dust, HOPE provides six values                                             
+(three wavelengths X two states of polarization) of the product of the local density and                                          
+the differential scattering cross-section. It should be possible to distinguish changes                                           
+in density from changes in cross-section and five values of the normalized cross-                                                 
+section are obtained. One has, nevertheless, to be aware of possible ambiguities in                                               
+order to arrive at proper interpretation of the data, especially in the regime of large                                           
+irregular dust grains which might show similar relative scattering functions, somewhat                                            
+independent of size (Weiss-Wrana K, 1983). Generally, however, if the normalized                                                  
+cross-sections do not vary from one point to the next, any change in the local polarized                                          
+radiance is a direct measurement of a change in the dust number density; discrete                                                 
+features (jets) will be obvious if the optical properties do not change dramatically                                              
+in these jets. If the normalized cross-sections vary, severe constraints will be imposed                                          
+on optical properties.  Dust number densities will be derived from laboratory results on                                          
+dust scattering properties and modelling, developed at Ruhr Universitat, Bochum, Laboratoire                                      
+d'Astronomie Spatiale, and the Space Astronomy Laboratory (Levasseur-Regourd et al. 1983).                                        
+  Figure 5 shows how various grain-size intervals contribute to the brightness                                                    
+integral. The lower curve obtained using Mie theory indicates that the size intervals                                             
+(0.121 - 1.5 micro m) and (1.5-70 micro m) contribute equally to the overall integral; the upper                                  
+curve, obtained using a combination of Mie theory for small grains (</= 70 micro m) and                                           
+the Perrin-Lamy model (Perrin J M & Lamy P L, 1983) of rough particles for larger grains,                                         
+suggests that grains larger than 70 micro m may contribute to enhance the brightness integral.                                    
+Table 2 shows how colour should behave for three HOPE dust channels, taking the fourth one                                        
+(445 nm) as a reference. The red channel indicates the possibility of distinguishing between                                      
+                                                                                                                                  
+Figure 5. The cumulative brightness integral as                                                                                   
+a function of grain radius                                                                                                        
+                                                                                                                                  
+Table 2. Colour dependence (left: Mie model; right: Mie + rough model)                                                            
+                                                                                                                                  
+Distance to                                                                                                                       
+the comet (km)          Lambda = 368.0nm Lambda = 575.0 nm  Lambda = 717.5 nm                                                     
+                                                                                                                                  
+1.08   x 10**4          100   1.02       1.19  1.19         1.30  1.23                                                            
+1.06   x 10**3          1.01  1.02       1.19  1.19         1.30  1.25                                                            
+5.06   x 10**2          1.01  1.04       1.19  1.19         1.30  1.25                                                            
+                                                                                                                                  
+                                                                                                                                  
+smooth and rough grains and/or the possible presence of submicron-sized particles.                                                
+  A simulation has been made to prepare the restitution method. For the dust, the                                                 
+Perrin-Lamy model was used, while for gases a Festou-Zucconi model was                                                            
+employed (Festou M & Zucconi J M, 1984). The solar flux scattered along the                                                       
+rearward-looking line of sight was integrated every 0.5 s. Then, the zodiacal background                                          
+was added and the overall intensity was partially modulated to simulate the polarization.                                         
+Afterwards, the stellar background and, for the gas channels only, the estimated polarized                                        
+gas signals, were added. We also included stray light, cross-talk, telemetry noise and                                            
+telemetry breakdown. Typical results are presented in Figure 6. This simulation allows the                                        
+ultimate precision of the inversion technique to be estimated as a function of the global                                         
+noise level.                                                                                                                      
+   In conclusion, with the HOPE experiment we seek to:                                                                            
+ -  determine the changes in both number density (including inhomogeneities) and the                                              
+    grain-size distribution as a function of the Probe's position inside the coma                                                 
+ -  determine the spatial distribution along the trajectory of emissions due to OH,                                               
+    CN, C2 and CO+, in order to derive the production rates of the parent species,                                                
+    as well as their nature, and to obtain information on the physical processes leading                                          
+    to the formation of the observed radicals by means of the study of the polarization                                           
+    of their emissions as a function of the distance of the nucleus                                                               
+ -  investigate the dynamical coupling of gas and dust by determining the gas-to-dust                                             
+    mass production ratio as a function of the distance and the possible correlations                                             
+    with grain sizes                                                                                                              
+ -  compare the optical properties of cometary dust with those of interplanetary and                                              
+    interstellar grains, in an effort to understand the histories and mutual interactions                                         
+    of all three dust complexes.                                                                                                  
+                                                                                                                                  
+The experiment should also provide the necessary link between in-situ and remote                                                  
+measurements with regard to spatial changes through the coma. It has been suggested                                               
+to the International Halley Watch (IHW) that ground-based observations should be                                                  
+made at HOPE wavelengths: in addition HOPE team members will make supporting                                                      
+grounf observations.                                                                                                              
+                                                                                                                                  
+Figure 6. Typical brightnesses for two                                                                                            
+continuum wavelengths and two gas                                                                                                 
+wavelengths                                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+  From a comparison of in-situ dust-detector measurements and HOPE experiment                                                     
+results, the following relationships should be determined: dust number density and                                                
+bulk density, mass distribution and grain size, species abundances and gaseous emis-                                              
+sions. These relationships should allow remote (and future) observations of comets to                                             
+be interpreted in terms of physical processes.                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+                                                                                                                                  
+  HOPE has been developed under CNES Contract HOPE/Giotto/SA-LAS and                                                              
+NASA Grant NASW-3578. The authors are grateful to J.M. Le Blanc, and to many                                                      
+other colleagues, whose efficient cooperation facilitated rapid development of the                                                
+HOPE instrument.                                                                                                                  
+                                                                                                                                  
+References                                                                                                                        
+                                                                                                                                  
+Dumont R 1976, Ground-based observations of the zodiacal light, Lect. Notes Phys.                                                 
+    48, 85.                                                                                                                       
+Festou M & Zucconi J M 1984, CN, C2 and C3 excitation rates to be employed for                                                    
+    interpreting photometric observations of comets, Astron. Astrophys., 134, 1, L4.                                              
+Giese R H, Weiss K, Zerull R H & Ono T 1978, Large fluffy particles, Astron.                                                      
+    Astrophys., 65, 265.                                                                                                          
+Levasseur-Regourd A C, Schuerman D W, Zerull R H & Giese R H 1981, Cometary                                                       
+    dust observation by optical in-situ methods, Adv. Space Res. 1, 113.                                                          
+Levasseur-Regourd A C, Weinberg I L, Giovane F, Schuerman D W, Lamy P, Festou M,                                                  
+    Berteaux J L, & Dumont R 1981b, Halley optical probe experiment, The Giotto                                                   
+    Mission, ESA special publ 169, 121.                                                                                           
+Levasseur-Regourd A C, Dumont R, Giese R H, Giovane F, Hanner M S, Keller                                                         
+    H U, Lamy P, Llebaria A & Weinberg J L 1983, Albedo and optical properties,                                                   
+    Comet Halley Dust Experiments, MPI fur Kernphysik, Heidelberg, 68.                                                            
+Perrin J M & Lamy P L 1983, Light scattering by large rough particles, Optical Acta                                               
+    30, 1223.                                                                                                                     
+Weiss-Wrana K 1983, Optical properties of interplanetary dust: comparison with                                                    
+    larger meteoritic and terrestrial grains, Astron. Astrophys., 126,240.                                                        
+                                                                                                                                  
+                                                                                                                                  

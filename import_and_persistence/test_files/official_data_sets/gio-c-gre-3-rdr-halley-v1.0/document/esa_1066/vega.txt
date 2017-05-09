@@ -1,0 +1,887 @@
+***** File VEGA.TXT                                                                                                               
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+The Vega Missions *                                                                                                               
+R.   Grard                                                                                                                        
+ESA Space Science Department, ESTEC, Noordwijk,                                                                                   
+The Netherlands                                                                                                                   
+                                                                                                                                  
+T.I. Gombosi                                                                                                                      
+Central Research Institute for Physics, Hungarian Academy of                                                                      
+Sciences, Budapest, Hungary                                                                                                       
+                                                                                                                                  
+R.Z. Sagdeev                                                                                                                      
+Space Research Institute, Academy of Sciences of the USSR,                                                                        
+Moscow, USSR                                                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+* Based on a more comprehensive document entitled 'Venus-Halley Mission, Experiment Description                                   
+and Scientific Objectives of the International Project Vega (1984-1986)', May 1985, prefaced by                                   
+R. Sagdeev, and published by Imprimerie Louis-Jean, 05502 Cap, France                                                             
+                                                                                                                                  
+                                                                                                                                  
+1.  Introduction                                                                                                                  
+                                                                                                                                  
+A unique opportunity to combine missions to Venus and Comet Halley is available                                                   
+in 1985-1986 by employing a two-element space vehicle consisting of a Venus lander                                                
+and a Halley flyby probe. This mission is being conducted by the USSR with the                                                    
+cooperation of a number of other countries.                                                                                       
+   Two spacecraft, Vega-1 and Vega-2*, have been launched aboard Proton                                                           
+rockets from Baykonour (Kazhakstan), on 15 and 21 December 1984, respectively.                                                    
+The two spacecraft are identical and the 'redundancy' is aimed at increasing the                                                  
+overall reliability of the scientific mission. In June 1985, the landers were separated                                           
+from the Halley probes in the vicinity of Venus. They were injected into the planet's                                             
+atmosphere to perform measurements until after surface impact. During their descent,                                              
+the landers each released a balloon, to drift in the planet's atmosphere. These balloons                                          
+were tracked with the help of an international Very-Long-Baseline Interterometry                                                  
+(VLBI) network.                                                                                                                   
+   After relaying the lander telemetries towards the Earth, the Halley probes con-                                                
+tinued their journey towards the comet, following an orbital correction and a gravita-                                            
+tional manoeuvre around Venus. The cometary flyby will occur in the period 6-12                                                   
+March 1986, at distances of the order of 10,000 km from the nucleus and with a                                                    
+relative velocity of 78 km/s.                                                                                                     
+   One of the Vega programme's aims was study of Venus' atmospheric composition                                                   
+and circulation, clouds and planetary surface. This article, however, is devoted entire-                                          
+ly to the second aim of the mission, the exploration of Comet Halley.                                                             
+   The scientific objectives of the Vega cometary investigation are:                                                              
+(i)  determination of the physical parameters of the nucleus: dimensions, shape,                                                  
+     temperature and surface properties                                                                                           
+(ii) study of the structure and dynamics of the coma around the nucleus                                                           
+(iii)  definition of the gas composition in the close vicinity of the nucleus and the                                             
+     nature of the parent molecules                                                                                               
+(iv)  study of the dust particles' composition and mass distribution as functions of the                                          
+     distance to the nucleus, and                                                                                                 
+(v)  study of the interaction of the solar wind with the atmosphere and ionosphere                                                
+     of the comet.                                                                                                                
+                                                                                                                                  
+The Halley probes are three-axis-stabilized and their orientation will be defined with                                            
+an accuracy of 1deg during Halley flyby. The optical instruments are mounted on a point-                                          
+ing platform which can track the nucleus with an angular accuracy of the order of                                                 
+5 arcmin. The other instruments are mounted on the main structure of the probes. The                                              
+data are transmitted via two independent telemetry links, with capacities of 3072 bit/s                                           
+and 65 536 bit/s, respectively. Each Halley probe carries a complement of 14 ex-                                                  
+periments, which are listed in Table 1.                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+2. The scientific payload                                                                                                         
+2.1 Television system (TVS)                                                                                                       
+ The purpose of the television system (TVS) is to detect the cometary nucleus,                                                    
+measure its dimensions and albedo, and study the structure and dynamics of the central                                            
+part of the coma. This instrument also constitutes the sensor for the servo-system that                                           
+controls the motion of the pointing platform, on which it is mounted together with the                                            
+two other optical instruments (IKS and TKS).                                                                                      
+ The television system consists of two telescopes, one narrow-angle camera (TVY)                                                  
+for high-resolution imaging of the nucleus, and one large-angle camera (TDN) for                                                  
+detecting and tracking the comet (Fig. 1). The TVY optics have a reflecting objective                                             
+with a focal length of 1200 mm and a detector which yields an average angular                                                     
+resolution of 3 arcsec, i.e. a spatial resolution of the order of 150 m at the nominal                                            
+flyby distance of 10,000 km. The maximum angular dimension of the nucleus and its                                                 
+near environment is expected to be 5 arcmin at closest approach, and the pointing                                                 
+error is estimated to be +/- 5 arcmin. The field of view of the TVY must therefore be                                             
+not less than 15 arcmin.                                                                                                          
+                                                                                                                                  
+__________________________________                                                                                                
+* The name Vega is a contraction of the Russian                                                                                   
+words Venera (Venus) and Gallei (Halley)                                                                                          
+                                                                                                                                  
+ The TDN has a refractory objective with a focal length of 150 mm. It is                                                          
+characterized by an angular resolution of 0.5 arcmin, required for early acquisition of                                           
+the comet and its nucleus, and a 2deg field of view imposed by the constraints associated                                         
+with control of the pointing platform.                                                                                            
+  The light collected by each telescope is divided into two paths by a beam splitter.                                             
+One channel is fitted with a fixed filter, the other has a set of eight filters mounted                                           
+on a rotating wheel, to yield a spectral analysis of the signal. The images are formed                                            
+on area CCDs cooled by a passive radiator regulated by a Peltier plate. The                                                       
+commutable filters of the TDN have an additional function, namely to adjust the                                                   
+amount of light collected by the detector. This channel is operated autonomously and                                              
+performs an independent analysis of the video signal, thus providing redundant                                                    
+information to the platform pointing system for the sake of reliability.                                                          
+  The signals delivered by the three other TDN and TVY channels are handled by the                                                
+same microprocessor system which analyzes the images and generates the commands                                                   
+that control the motion of the platform.                                                                                          
+  The TVS electronics include a 816 kbit memory to store both data and programs.                                                  
+The main characteristics of the TVS are given in Table 2.                                                                         
+                                                                                                                                  
+----------------------------------------------------------------------------------------------------------------------------      
+Table 1. VEGA scientific payload                                                                                                  
+                                                                                                                                  
+                                                Direct telemetry Recorded telemetry  Collaborating institutes                     
+Acronym   Experiment      Mass (kg)  Power (W)  (bit/s)          (bit/20 min)        (Principal Investigators)                    
+----------------------------------------------------------------------------------------------------------------------------      
+TVS       Television      32         50         32768                                LAS, Marseille, France (P. Cruvellier)       
+          System                                                                     Central Research Inst for Physics, Budapest, 
+                                                                                     Hungary (L. Szabo)                           
+                                                                                     IKI, Moscow, USSR (G. Avanesov)              
+IKS       Infrared        l8         18          2048       4320                     Observatoire de Meudon, France(M. Combes)    
+          Spectrometer                                                               IKI, Moscow, USSR                            
+TKS       Three-Channel   14         30         12288                                Observatoire de Besancon, France (G. Moreels)
+          Spectrometer                                                               IKI, Moscow, USSR (V. Krasnopolskii)         
+                                                                                     Bulgaria (M. Gogoshev)                       
+PHOTON    Shield Pene-     2          4           108                                USSR                                         
+          tration Detector                                                                                                        
+DUCMA     Dust Particle    3          2           100        100                     University of Chicago, USA (I. Simpson)      
+          Detector                                                                   MPI, Lindau, W. Germany                      
+                                                                                     IKI, Moscow, USSR                            
+                                                                                     Central Research Institute Physics, Budapest 
+SP-2      Dust Particle    4          4          1024       2160                     IKI, Leningrad, USSR (E. Mazets)             
+          Detector                                                                                                                
+SP-1      Dust Particle    2          l           150       2160                     IKI, Moscow, USSR (O. Vaisberg)              
+          Detector                                                                                                                
+PUMA      Dust Mass       19         31         10240                                MPI, Heidelberg, W. Germany (J. Kissel)      
+          Spectrometer                                                               Serv d'Aero, Verrieres, France (J.L. Bertaux)
+                                                                                     11(1, Moscow, USSR (R. Sagdeev)              
+ING       Neutral Gas      7          8          1024       1080                     MPI, Lindau, W. Germany (E. Keppler)         
+          Mass Spectro-                                                              Central Research Institute Physics, Budapest 
+          meter                                                                      IKI, Moscow, USSR                            
+                                                                                     University of Arizona, USA                   
+PM-1      Plasma Energy    9          8          2048      15120                     IKI, Moscow, USSR (K. Gringauz)              
+          Analyser                                                                   Central Research Institute Physics, Budapest 
+                                                                                     MPI, Lindau, W. Germany                      
+                                                                                     ESA Space Science Dept., ESTEC, Netherlands  
+TN-M      Energetic Par-   5          6           512       6480                     Central Research Institute Physics, Budapest 
+          ticle Analyzer                                                             Hungary (A. Somogyi)                         
+                                                                                     IKI, Moscow, USSR                            
+                                                                                     MPI, Lindau, W. Germany                      
+                                                                                     ESA Space Science Dept., ESTEC, Netherlands  
+                                                                                     Nuclear Research Institute, Moscow, USSR     
+MISCHA    Magnetometer     4          6           512       2160                     Space Res Inst , Graz, Austria (W. Riedler)  
+                                                                                     Izmiran, Troitsk, USSR                       
+APV-N     Wave and         5          8          2048      28080                     IKI, Moscow, USSR, (S. Klimov)               
+          Plasma Analyser                                                            Aviation Institute, Warsaw, Poland           
+                                                                                     Geophysical Scientific Institute, Prague     
+APV-V     Wave and         3          2           512      15120                     ESA Space Science Dept., ESTEC (R. Grard)    
+          Plasma Analyser                                                            LPCE, Orleans, France                        
+                                                                                     Izmiran, Troitsk, USSR                       
+----------------------------------------------------------------------------------------------------------------------------      
+                                                                                                                                  
+Figure 1. The telescopes of the television                                                                                        
+system (TVS): (a) high-resolution camera,                                                                                         
+(b) low-resolution camera                                                                                                         
+                                                                                                                                  
+------------------------------------------------------------------------------                                                    
+Table 2. Television System characteristics                                                                                        
+                                                                                                                                  
+Camera system             High resolution           Low resolution                                                                
+------------------------------------------------------------------------------                                                    
+Objective                 Reflector                 Refractor                                                                     
+Focal distance            1200 mm                   150 mm                                                                        
+Aperture                   240 mm                    50 mm                                                                        
+Relative aperture         1:5, effective 1:6.5        1:3                                                                         
+Channel                   Multispectral  Integral   Multispectral  Integral                                                       
+------------------------------------------------------------------------------                                                    
+Spectral range, micro m   0.4-1.1        0.63-0.76  (1) 0.4-1.1    0.63-0.76                                                      
+                                                    (2)0.63-0.76                                                                  
+------------------------------------------------------------------------------                                                    
+Number of filters         8              1          Range (1):1    1                                                              
+                                                    Range (2):7                                                                   
+------------------------------------------------------------------------------                                                    
+Field of view             26.4'x39.6'               211'x316'      211'x158'                                                      
+Resolution                 3.1"x4.1"                 24.75"x33"     99"x132"                                                      
+------------------------------------------------------------------------------                                                    
+Shutter                   Mechanical                               Electronic                                                     
+------------------------------------------------------------------------------                                                    
+Exposure time range       0.01-163 s                               6-800 ms                                                       
+------------------------------------------------------------------------------                                                    
+Detector area             5l2x512 pixels                           512x256 pixels                                                 
+------------------------------------------------------------------------------                                                    
+Data compression          Floating window of 128 X 128 pixels      Full image of                                                  
+                          around brightest point                   128x128 pixels                                                 
+                                                                   after integration                                              
+                                                                   of 4x2 pixels                                                  
+------------------------------------------------------------------------------                                                    
+                                                                                                                                  
+2.2 The infrared spectrometer (IKS)                                                                                               
+  The infrared spectrometer is designed to study the radiation from the inner coma,                                               
+in the wavelength range 2.5-12 micro m. The instrument includes two high-resolution                                               
+spectral channels for the chemical analysis of the cometary matter, gas and dust, and                                             
+an image modulation channel for determination of the size of and thermal emission                                                 
+from the nucleus.                                                                                                                 
+  The light that exits from the telescope is divided into three by means of two beam-                                             
+splitters. The secondary beams are then focussed on a wheel that rotates at the rate                                              
+of 8 rev/sec and carries three rings, namely two circular variable filters and one image                                          
+modulator. Behind the encoding wheel, the beams enter a cryostat which cools the                                                  
+three detectors (Fig. 2).                                                                                                         
+  The two filters cover the ranges 2.5-5 micro m and 6-12 micro m, which include the                                              
+emission bands of the parent molecules. The long-wave channel can detect water ice                                                
+and the short-wave channel can be used to identify a number of minerals, such as                                                  
+silicates. The imaging channel does not resolve details of the nucleus, the objective                                             
+being to derive its most important parameters, size, shape, temperature and optical                                               
+properties in the infrared. To accommodate the nucleus pointing uncertainties, a field                                            
+of view of 1deg is judged necessary and an angular resolution of 1 arcmin satisfactory.                                           
+More instrument characteristics are given in Table 3.                                                                             
+  Since the sensitivity of the instruments is degraded by four to five orders of                                                  
+magnitude between 77 K and room temperature, it appears mandatory to cool the                                                     
+detectors during the two measuring sequences using the Joule-Thomson expansion of                                                 
+nitrogen. For that purpose, 2 l of nitrogen are stored in four tanks at a pressure of                                             
+350 atm. The detector temperatures reach stability within 25 min (to +/- 0.1deg) and can                                          
+be maintained so for 3 h.                                                                                                         
+                                                                                                                                  
+2.3 The three-channel spectrometer (TKS)                                                                                          
+  The objectives of the three-channel spectrometer are to define the chemical                                                     
+composition of the cometary coma and tail, to identify the polarization and spectrum                                              
+of the light component diffused by the dust, to detect the primary molecules, and to                                              
+obtain the spectral signature of the nucleus and its environment.                                                                 
+                                                                                                                                  
+Figure 2. Optical system of the infrared                                                                                          
+spectrometer (IKS)                                                                                                                
+                                                                                                                                  
+                                                                                                                                  
+  The TKS instrument includes a Cassegrain refractory telescope. The secondary                                                    
+mirror can be tilted about two axes in increments of 8 arcmin. It covers a field of                                               
+2deg x 1.5deg, equivalent to an area of 350x260 km**2 at a distance of 10**4 km. The                                              
+spectral map is made up of 7 lines and each line consists of 15 locations. The                                                    
+measurement cycle at each location lasts 5 s, so that a complete spectral map is taken                                            
+every 8 min 45 s. Three slits located in the focal plane of the objective form the                                                
+beams which enter the three channels of the spectrometer, as illustrated in Figure 3.                                             
+ The visible and ultraviolet channels are similar and symmetrically arranged. A                                                   
+holographic diffracting array makes a spectral image of the entrance slit on a                                                    
+photocathode system. The electron flows delivered by the elements of the                                                          
+photocathode are first amplified by four orders of magnitude and subsequently                                                     
+accelerated to an energy of several keV before impacting on a luminescent screen.                                                 
+Optical fibres then transfer the spectrum from the screen to a linear CCD. Each                                                   
+channel delivers a spectrum of 700 points every 5 s.                                                                              
+ The UV measurements provide information about the fluorescence spectra of a                                                      
+number of atoms, radicals and ions, whereas the visible channel gives the spectrum                                                
+of the light diffused by the dust and the nucleus.                                                                                
+ The infrared and polarization channel makes use of an interferential circular filter,                                            
+which sweeps the spectrum as it rotates. Two sectors of this wheel are occupied by                                                
+narrow-band filters, which are transparent for the wavelengths 560 and 920 Nm; each                                               
+of these two filters is itself divided into three zones covered with various polaroids.                                           
+The filter wheel is associated with a modulator, which rotates at a faster rate, allowing                                         
+the detected signal to be differentiated more easily from the superimposed noise. A                                               
+fraction of the light entering the infrared polarisation channel is deflected by a beam                                           
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+Table 3. Infrared Spectrometer characteristics                                                                                    
+                                                                                                                                  
+Objective                   Ritchey-Chretien                                                                                      
+Primary mirror aperture     140 mm                                                                                                
+Secondary mirror aperture    56 mm                                                                                                
+Focal distance              538.1 mm                                                                                              
+Field of view                 1deg                                                                                                
+Resolution                  Diffraction limited                                                                                   
+--------------------------------------------------------------------------------                                                  
+Channel                            Imaging         Short wavelength  Long wavelength                                              
+--------------------------------------------------------------------------------                                                  
+Wavelength. micro m                7-14            2.5-5             6-12                                                         
+Spectral resolution,               2.5             50                50                                                           
+lambda/delta lambda                                                                                                               
+Optical transmission               0.10            0.39              0.33                                                         
+Detector                           HgCdTe          In Sb             HgCdTe                                                       
+Chip area, mm**2                   2x2             2x2               2x2                                                          
+Geometrical factor, cm**2 sr       0.046           0.045             0.038                                                        
+IR background, W                   1.2x10**-4      3.5x10**-6        9.7x10**-5                                                   
+Photon noise, W                    1.3x10**-12     4x10**-13         1.4x10**-12                                                  
+Nominal NEP, WHz**-1/2             4x10**-12       2x10**-12         1x10**-11                                                    
+                                   at 6 kHz        at 200 Hz        at 200 Hz                                                     
+--------------------------------------------------------------------------------                                                  
+                                                                                                                                  
+Figure 3. Schematic of the three-channel                                                                                          
+spectrometer (TKS)                                                                                                                
+                                                                                                                                  
+splitter and focussed on a detector which yields the integral signal received over the                                            
+whole infrared range.                                                                                                             
+  The infrared signal contains spectral components that characterize the vibration                                                
+modes of a number of parent molecules. The map of the integral infrared flux will                                                 
+be used to locate the position of the nucleus. since the flux is proportional to the columnar                                     
+dust density integrated along the line of sight. Polarization measurements will                                                   
+complete this information by giving indications of the size of the dust particles.                                                
+  The main characteristics of the TKS instrument are summarized in Table 4.                                                       
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+Table 4. The Channel Spectrometer characteristics                                                                                 
+                                                                                                                                  
+Objective                  Cassegrain                                                                                             
+Primary mirror aperture        100 mm                                                                                             
+Secondary mirror aperture       43 mm                                                                                             
+Focal distance                 350 mm                                                                                             
+Field of view                2.5deg x 1.5deg (using tiltable secondary minor)                                                     
+--------------------------------------------------------------------------------                                                  
+Channel                        Ultraviolet   Visible       Infrared    Polarimeter                                                
+--------------------------------------------------------------------------------                                                  
+Spectral range, Nm             115-290       280-700       900-1800    560-920                                                    
+Spect res, lambda/delta lambda 700           700           100         100                                                        
+Sensitivity, Rayleigh          200           200           10**6         10**6                                                    
+Spatial res., km**2, 10**4 km  75x3          75x3          300x30      300x30                                                     
+Detector                       Photocathode  Photocathode  Ge, photo-  Ge, photo-                                                 
+                               & linear CCD  & linear CCD  diode       diode                                                      
+--------------------------------------------------------------------------------                                                  
+                                                                                                                                  
+2.4 The shield penetration detector (PHOTON)                                                                                      
+  The objectives of this experiment are: (i) to measure the flux density of dust particles                                        
+in the high-mass range, (ii) to understand the mechanism of high-velocity impacts on                                              
+the spacecraft surface, and (iii) to establish the performance of the meteoroid shields                                           
+protecting a number of subsystems.                                                                                                
+  The impact surface is a circular nickel sheet, 0.1 mm thick, which makes an angle                                               
+of 52deg with the Sun's direction and 60deg with the dust flow direction (Fig. 4). A piezo-                                       
+electric element and an optical system which consists of a silicium photoemissive                                                 
+diode and a parabolic mirror with a focal distance of 7.5 cm are mounted on the back                                              
+side of this foil. The whole detector is mechanically decoupled from the structure.                                               
+                                                                                                                                  
+Figure 4. View of the shield penetration                                                                                          
+detector (PHOTON)                                                                                                                 
+                                                                                                                                  
+--------------------------------------------                                                                                      
+Table 5. Shield Penetration Detector                                                                                              
+characteristics                                                                                                                   
+                                                                                                                                  
+Target material             Nickel                                                                                                
+Target thickness            0.1 mm                                                                                                
+Sensor effective area       137 cm**2                                                                                             
+Dust mass range             10**-10  -10**-5g                                                                                     
+Volumic mass density range  0.8-3.5 g/cm**3                                                                                       
+--------------------------------------------                                                                                      
+                                                                                                                                  
+   The dust angle of incidence is such that the impact ejecta are collected by the side                                           
+wall of the chamber, thus minimizing the degradation of the mirror surface. The                                                   
+acoustical signal is recorded by the piezo-electric element and the luminous flash                                                
+associated with the impact and the increment in solar illumination due to the perfora-                                            
+tion are measured with the optical system. The technical parameters of this experiment                                            
+are given in Table 5.                                                                                                             
+                                                                                                                                  
+-----------------------------------------------------                                                                             
+Table 6. Dust Particle Detector and Mass                                                                                          
+Analyser characteristics                                                                                                          
+                                                                                                                                  
+Impact detector           28 micro m**2 PVDF foil                                                                                 
+Detector area             75cm**2                                                                                                 
+Maximum count rate        10**5/s                                                                                                 
+Differential dust mass    1.5x10**-13  -9x10**-13 g                                                                               
+range                       9x10**-13  -9x10**-12 g                                                                               
+                            9x10**-12  -9x10**-11 g                                                                               
+Integral dust mass range   >9x10**-11 g                                                                                           
+Integration time for flux                                                                                                         
+measurements at                                                                                                                   
+encounter                  2 s                                                                                                    
+------------------------------------------------------                                                                            
+                                                                                                                                  
+2.5 The dust-particle counter and mass analyzer (DUCMA)                                                                           
+ This instrument measures the count rate and mass distribution of dust particles in                                               
+the cometary environment.                                                                                                         
+ The detector is a 28 micro m thick film of polarized polyvinylidene fluoride (PVDF),                                             
+covered on each face with a metallic conducting coating. A dust particle impacting the                                            
+detector will displace a small volume of polarized material in the bulk of the detector,                                          
+which then results in a fast depolarization signal whose amplitude is a known function                                            
+of the particle mass and velocity. Electronic circuits measure the pulse height and ac-                                           
+cumulate pulse events above four different threshold levels. Since the relative impact                                            
+velocity is known (i.e. the comet-spacecraft velocity), the mass is determined direct-                                            
+ly from the known mass/velocity relationship for these detectors.                                                                 
+ The detector assembly is shown in Figure 5. It consists of the dust detector (M),                                                
+and a small anti-coincidence detector (V), mounted perpendicular to the direction of                                              
+arrival of the dust particles. The purpose of the small detector is to detect very large                                          
+mechanical shocks on the spacecraft which might trigger the most sensitive level of                                               
+the dust detector.                                                                                                                
+ Further technical details are given in Table 6.                                                                                  
+ The detector also includes an anticoincidence system mounted in a direction perpen-                                              
+dicular to the direction of arrival of the dust particles.                                                                        
+ This instrument was selected one year before launch and could still be considered                                                
+at this late stage because it did not require any direct telemetry or telecommand inter-                                          
+face with the spacecraft. Its inclusion was facilitated because it was allowed to share                                           
+the data format and telecommands initially allocated to the ING instrument.                                                       
+                                                                                                                                  
+Figure 5. The detector of the dust-particle                                                                                       
+analyzer (DUCMA)                                                                                                                  
+                                                                                                                                  
+                                                                                                                                  
+2.6 The dust-particle impact detector (SP-2)                                                                                      
+ The objective of this instrument is to measure the flux and the mass distribution of                                             
+the dust particles. The counter makes use of acoustical and plasma detectors (Fig. 6).                                            
+The acoustical detector consists of three piezo-electric elements mounted on a mem-                                               
+brane (3), two of these sensors (4) are connected to two identical recording circuits                                             
+in order to improve the overall reliability of the system; the third element (5) is used                                          
+as a stimuli source for calibration purposes. The membrane is mounted in a frame (l)                                              
+which damps the mechanical oscillations and improves the counting rate. The detector                                              
+assembly is fixed to the electronics box (6) by means of three acoustical insulators (2).                                         
+Each piezo-electric element delivers a signal which is fed into a narrow-band amplifier                                           
+working at a frequency of about 160 kHz. The output signal is split into l6 channels,                                             
+which have their sensitivity thresholds logarithmically distributed across the whole                                              
+dynamic range.                                                                                                                    
+  Four identical impact plasma detectors are mounted at the periphery of the                                                      
+acoustical detector. They are associated in pairs and connected to identical electronic                                           
+circuits. The entrance to each detector is protected against the environmental plasma                                             
+by a system of deflecting electrodes and grids (7,8). The ions and electrons generated                                            
+by each particle impact are separated and collected by a grid (9) and a target (10), bet-                                         
+ween which a potential difference of 2 kV is applied. The electron pulse detected by                                              
+the lower electrode constitutes the input signal, which is analyzed in several channels                                           
+with different sensitivity thresholds.                                                                                            
+  The characteristic features of SP-2 are listed in Table 7.                                                                      
+                                                                                                                                  
+---------------------------------------------------------------------                                                             
+Table 7. Dust Particle Impact Detector characteristics                                                                            
+                                                                                                                                  
+Detector                 Piezo-electric            Impact plasma                                                                  
+---------------------------------------------------------------------                                                             
+Total sensor area        500 cm**2                 40 cm**2                                                                       
+Maximum count rate       4095 s**-1                65500 s**-1                                                                    
+Integration time         1 s                       1 s                                                                            
+Mass resolution,m/deltam 2.82                      10                                                                             
+Number of channels       16                        6                                                                              
+Dynamic range            2x10**-6 - 3x10**-3 g     3xl0**-16 - 3x10**-11 g                                                        
+---------------------------------------------------------------------                                                             
+                                                                                                                                  
+Figure 6.  General view and schematic of the                                                                                      
+dust-particle impact experiment (SP-2).  See                                                                                      
+text for details                                                                                                                  
+                                                                                                                                  
+2.7 The dust-particle impact plasma detector (SP-1)                                                                               
+   The main scientific objective of the SP-1 instrument is similar to that of SP-2, name-                                         
+ly to measure the flux and mass distribution of the dust particles.                                                               
+  This instrument detects the electric charges contained in the plasma cloud generated                                            
+by a solid particle impacting on a gold target. The principle of this technique is similar                                        
+to that adopted for the impact plasma detectors of SP-2. The magnitude of the positive                                            
+and negative charges is proportional to the mass of the particle Q=Am, where                                                      
+A= 10**3C/s for an impact velocity of 78 km/s.                                                                                    
+   The SP-1 system includes two similar detectors (Fig. 7). Each unit is made up of                                               
+a base plate (1) covered by a gold target (2) at zero potential, perpendicular to the dust                                        
+flow, and an array of strip collectors (4). The collectors are parallel to the dust flow;                                         
+they are mounted on an insulator (3) and their edge is protected from impacts by a                                                
+shield (5) connected electrically to the structure. Adjacent collectors are biased at                                             
+potentials of 30 V, with opposite polarities. The two sets of electrodes in each detector                                         
+detect a positive and a negative current pulse, which are analyzed and recorded by the                                            
+electronics unit. The entrance to one detector is covered by a plastic foil, to obtain                                            
+additional information on density and/or calibration factor. The characteristic                                                   
+parameters of SP-1 are given in Table 8.                                                                                          
+                                                                                                                                  
+------------------------------------------------------------------------------------------                                        
+Table 8. Dust Particle Impact Plasma Detector characteristics                                                                     
+                                                                                                                                  
+Target material                             Gold (0.1 mm)                                                                         
+Total sensor area                           160 cm**2, one sensor covered with 0.6 and                                            
+                                            2 micro m thick plastic foil on Vegas-1 and 2, resp.                                  
+Impact charge range                        3x10**-14 - 10**-8 C                                                                   
+Estimated mass range                       3x10**-17 - 10**-11 g                                                                  
+Integration time                            2 s (high data rate)                                                                  
+                                            2.5 min (low data rate)                                                               
+------------------------------------------------------------------------------------------                                        
+Figure 7. General view of the dust-impact                                                                                         
+plasma instrument (SP-1) and details of the                                                                                       
+detector. Dimensions are given in mm. See text                                                                                    
+for details                                                                                                                       
+                                                                                                                                  
+                                                                                                                                  
+2.8 The dust mass spectrometer (PUMA)                                                                                             
+  The dust mass spectrometer measures the chemical composition, the size and the                                                  
+spatial density of solid particles using a time-of-flight technique, with particular em-                                          
+phasis on the determination of the Li, C and B isotopic ratios. The operating principle                                           
+of PUMA, illustrated in Figure 8a, is similar to that of the PIA instrument flown on                                              
+Giotto.                                                                                                                           
+  The dust particles enter through a baffle and impact on a silver target (M) at a speed                                          
+of 78 km/s. The particles and a certain amount of the target material are vaporized                                               
+and partly ionized. The two Vega spacecraft have different targets (Fig. 8b); one type                                            
+is mounted in a cartridge as in the PIA, the second has a corrugated surface such that                                            
+a larger amount of projectile ions enter the analyzer. The target is at + 1020 V; the                                             
+ions are accelerated by a grid (1), which is held at a potential of -2000 V, and enter                                            
+the field-free drift tube at zero potential (4). These charged particles are sent by the                                          
+electrostatic reflector (5) into the second drift tube (6) and on towards the detector (7).                                       
+  The ions trajectories are focused by the lenses (9), (10) and (11). A set of three elec-                                        
+trodes (12), consisting of an inner grid at +1000 V between two grids at zero poten-                                              
+tial, prevents ions with energies less than 1 keV from reaching the detector.                                                     
+  The geometry of the reflector is designed in such a way as to bunch ions of the same                                            
+species (particles with energies E>E(0) travel a larger distance than those with                                                  
+energies E<E(0)) and to eliminate those with energies that deviate too much from E(0).                                            
+The purpose of this mirror system is to reduce the dispersion of the flight times for                                             
+particles having the same charge-to-mass ratios. The reflector potential is switched                                              
+between 1000 V and 1100 V every 30 s, in order to compensate for the higher                                                       
+energies of ions created by the impacts of larger particles.                                                                      
+  The time-of-flight is measured with reference to three signals: the light flash record-                                         
+ed by the photomultiplier (3), the pulses detected by the target (M), and the ac-                                                 
+celerating grid (1). The signals induced in these sensors, in the first lens (9), in the                                          
+ejecta trap (8) and in the detector (7), which are illustrated qualitatively in Figure 8c,                                        
+are used to characterize the mass of the particles.                                                                               
+  Additional information about PUMA is given in Table 9.                                                                          
+                                                                                                                                  
+Figure 8. The dust mass spectrometer                                                                                              
+(PUMA): (a) the analyzer, (b) configuration of                                                                                    
+the targets, (c) signal waveform. See text for                                                                                    
+details                                                                                                                           
+                                                                                                                                  
+2.9 The neutral-gas mass spectrometer (ING)                                                                                       
+   The neutral-gas mass spectrometer measures: (i) the distribution of the main consti-                                           
+tuents of the cometary atmosphere (H2O, CO and CO2) and their dissociation pro-                                                   
+ducts (O, OH, C); (ii) the distribution of the secondary constituents, such as CH4,                                               
+NH3, HCN and C2H2, and their associated daughter molecules, and (iii) the isotopic                                                
+ratios 13C/12C and D/H.                                                                                                           
+   The instrument is mounted on a platform which can be rotated 120deg in the ecliptic                                            
+plane and which includes two detection units. The main unit uses a field ionization                                               
+source (FIS), which consists of 40 needles with a tip curvature radius of less than                                               
+1 micro m, held at a positive potential of 50 kV (Fig. 9a). The molecules that flow in the                                        
+vicinity of the tips lose one electron by field emission; the probability of multiple                                             
+ionization is negligible. All ions leave the needles with approximately the same                                                  
+energy, are accelerated, and pass through a carbon foil, which has a density of less                                              
+than 1 micro g/cm**2. The electrons released from the foil are deflected towards a                                                
+microchannel plate and initiate a pulse which indicates the start of the time taken by                                            
+each successive ion to travel a distance s=10 cm, at the end of which a second pulse                                              
+is generated by another microchannel plate.  The mass of the ion m is                                                             
+given by 2(E-delta E)tau**2/s**2, where tau is the time of flight, E is the energy after accelera-                                
+ion and delta E is the energy lost in the first impact; delta E increases with m and the resolu-                                  
+tion is consequently reduced for large masses.                                                                                    
+   This technique presents the remarkable advantage that the molecules are ionized                                                
+without impact and are not disintegrated, but its main drawback is that it cannot dif-                                            
+ferentiate the cometary neutrals from the gas evaporated from the spacecraft itself.                                              
+   This deficiency is palliated by the adjunction of a second detection device (Fig. 9b)                                          
+in which the molecules are ionized with an Electron Impact Source (EIS). The ions                                                 
+are then deflected from their original direction by an electric field; it is therefore possi-                                     
+ble to limit the access of the detector to ions with a velocity of about 78 km/s and to                                           
+deflect slow particles with a retarding grid. The fast ions reach an electrostatic                                                
+analyzer with a field configuration which deflects these particles towards a Micro-                                               
+Channel Plate (MCP). The position of the impact, which yields the mass, is measured                                               
+with a resistive anode mounted on the back of the MCP.                                                                            
+   It is possible to differentiate the cometary atmosphere from the spacecraft environ-                                           
+ment by alternating the operation of the two detectors. The characteristics of the two                                            
+devices are compared in Table 10.                                                                                                 
+                                                                                                                                  
+------------------------------------------------------------------------------                                                    
+Table 9. Dust Mass Spectrometer characteristics                                                                                   
+                                                                                                                                  
+Target material                             Silver                                                                                
+Total drift length                          1 m                                                                                   
+Time of flight                              4 micro s (H+) - 40 micro s (Ag+)                                                     
+Ion detector                                Secondary electron multiplier                                                         
+Dust mass range                             3x10**-16 - 5x10**-10 g                                                               
+Atomic mass range                           1-110 amu                                                                             
+Mass resolution, m/delta m, at m = 107      200                                                                                   
+Chemical composition accuracy per spectrum  10%                                                                                   
+Maximum data acquisition rate               12 spectra/s                                                                          
+Expected number of events                   10**3-10**4 impacts during flyby                                                      
+------------------------------------------------------------------------------                                                    
+                                                                                                                                  
+------------------------------------------------------------------------------                                                    
+Table 10. Neutral-Gas Mass Spectrometer characteristics                                                                           
+                                                                                                                                  
+System                                   FIS             EIS                                                                      
+------------------------------------------------------------------------------                                                    
+Ionisation mechanism                     Field emission  Electron collision                                                       
+Ionisation efficiency                    10**-10         10**-6                                                                   
+Mass range, amu                          1-60            1-28                                                                     
+Mass resolution, amu                     1-20:  0.2      0.2                                                                      
+                                         21-60: 1                                                                                 
+Intgration time (high/low bit rates)    1 s/1 h         1 s/1 h                                                                   
+------------------------------------------------------------------------------                                                    
+                                                                                                                                  
+Figure 9.  The two detection devices of the                                                                                       
+neutral-gas mass spectrometer (ING):                                                                                              
+(a) field ionization detector,                                                                                                    
+(b) electron ionization detector                                                                                                  
+                                                                                                                                  
+2.10 The plasma energy analyzer (PM-1)                                                                                            
+   The plasma energy analyzer monitors the change in the solar-wind parameters as the                                             
+spacecraft approaches the comet, searches for the bow shock and the contact surface,                                              
+and measures the density and chemical composition of the ion population.                                                          
+   The instrument includes six detectors: two ion analyzers, one electron analyzer, two                                           
+collectors which measure the integral plasma ion flux, and one sensor which monitors                                              
+the integral electron current produced from its surface by photon and particle bom-                                               
+bardment.                                                                                                                         
+   The ion detectors (Fig. 10a) are designed for the study of the energy distribution                                             
+of the solar and cometary particles, and not for the investigation of their three-                                                
+dimensional velocity distribution. Each sensor consists of a quadripolar electrical lens                                          
+(2), a hemispherical plate analyzer (3) and a channeltron (4). The energy spectrum is                                             
+swept once per second by stepping the bias voltage U(A) applied between the plates.                                               
+The detector oriented towards the Sun has a conical of view (1) with a half angle                                                 
+of 15deg, wide enough to detect the solar wind both upstream and downstream of the                                                
+cometary bow shock.                                                                                                               
+   The ion detector oriented along the spacecraft-comet velocity vector is intended for                                           
+operation in the innermost part of the coma, where the cometary ions are expected to                                              
+have thermal velocities that are negligible with respect to their relative drift velocity                                         
+of 78 km/s. This system can therefore be used as a mass spectrometer in the range                                                 
+1-110 amu with a resolution m/delta m = 20; the minimum measurable ion density is                                                 
+10**-3/cm**3.                                                                                                                     
+   The electron analyzer (Fig. 1Ob) has an aperture of 0.03 cm**2, an angular resolu-                                             
+tion of +/-2.5deg, and an energy resolution of +/-5%; its geometrical factor is 10**-5 E                                          
+(keV) (cm**2.sr.keV). Its aperture is oriented perpendicular to the Sun and relative-                                             
+velocity directions in order to eliminate interferences generated by photon and particle                                          
+impacts. The energy spectrum is scanned by applying a series of logarithmically                                                   
+distributed voltage steps U(A) to a cylindrical deflection unit (1). The entrance of the                                          
+instrument is controlled by a collimator (2) and a grid (3); the detector is a channeltron                                        
+(4).                                                                                                                              
+   The integral detector which measures the solar-wind ions (Fig. 10c) consists of a                                              
+collimator, a number of grids to limit the flux of photoelectrons, and a collector. A                                             
+potential of +3500 V is periodically applied to one of the grids in order to stop the                                             
+ion flux and evaluate the interference background. The aperture has an area of 5 cm**2                                            
+and the dynamic range of the measurements extends from +/- 10**-11 A to +/- 3x10**-9 A.                                           
+   The integral detector, which is aligned with the relative-velocity vector (Fig. 10d),                                          
+has similar features, but the electrodes are configured such that the incoming dust par-                                          
+ticles and neutral molecules can only impact on the first diaphragm and on the collec-                                            
+tor. By biasing the electrodes differently, in an alternative configuration, it is possible                                       
+to discriminate between the cometary ions and the charged particles produced by                                                   
+various impact ionization processes.                                                                                              
+   The impact plasma monitor (Fig. 10e) is a gold electrode, biased at a fixed potential                                          
+of -17 V, which measures the integral flux of electrons emitted by the impact of                                                  
+neutral gas, dust particles and photons, in the range 10**-10-3x10**-5 A.                                                         
+   The characteristics of the various detectors are summarized in Table 11.                                                       
+                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------               
+Table 11. Plasma Energy Analyser characteristics                                                                                  
+                                                                                                                                  
+Particles            Solar ions        Cometary ions  Electrons            Solar ions       Cometary ions   Emitted electrons     
+-------------------------------------------------------------------------------------------------------------------               
+Pointing direction   Sun               Relative        Perpendicular        Sun             Relative        Relative              
+                                       velocity        to Sun and relative                  velocity        velocity              
+                                                       velocity                                                                   
+Energy range         50 eV-3.5 keV     15 eV-3.5 keV   3 eV-10 keV          Integral        Integral        Integral              
+                                                       3 eV-30 eV                                                                 
+Points per specttum  60                120             30                   1               1               1                     
+Time resolution      1 s               1 s             1 s                  0.125 s         0.125 s         1 s                   
+Aterture             15deg half cone   15deg half cone 5deg X 10deg         45deg half cone 8deg half cone  90deg half cone       
+Detector             Channeltron       Channeltron     Channeltron          Electrode       Electrode       Electrode             
+-------------------------------------------------------------------------------------------------------------------               
+                                                                                                                                  
+                                                                                                                                  
+Figure 10. The detectors of the plasma energy                                                                                     
+analyzer (PM-1):                                                                                                                  
+(a) ion spectrometer, (b) electron spectrometer,                                                                                  
+(c)  solar ion integral detector, (d) cometary ion                                                                                
+integral detector, (e) impact plasma monitor.                                                                                     
+See text for details                                                                                                              
+                                                                                                                                  
+2.11 The energetic-particle analyzer (TN-M)                                                                                       
+  The prime objective of the energetic-particle analyzer is to measure the energy and                                             
+flux of the cometary ions that might be accelerated by, for example, solar-wind                                                   
+magnetic fields.                                                                                                                  
+  Two similar telescopes provide information about the angular distribution of the ion                                            
+flux; one is oriented at right angles to the magnetic field, in the ecliptic plane; the other                                     
+detector looks in the same plane, in a direction at 35deg to the first telescope and approx-                                      
+imately opposite to the spacecraft velocity vector.                                                                               
+  Each telescope consists of two silicium detectors, A (8 mm in diameter and 0.1 mm                                               
+thick) and B (16 mm in diameter and 1 mm thick), and an anti-coincidence scintilla-                                               
+tion shield (Fig. 11). Electrons with energies of less than 0.2 MeV are deflected away                                            
+from the entrance aperture by a magnet. The low-energy (30-640 keV) ions trigger                                                  
+a signal in detector A only. More energetic particles are detected in both A and B,                                               
+and it is possible to distinguish between electrons, protons and heavier nuclei by com-                                           
+paring the amplitudes of the signals delivered by the two detectors.                                                              
+  The characteristic parameters of these two telescopes are given in Table 12.                                                    
+                                                                                                                                  
+Figure 11.  The telescope of the energetic-                                                                                       
+particle analyzer (TN-M)                                                                                                          
+                                                                                                                                  
+2.12 The magnetometer (MISCHA)                                                                                                    
+ The prime objective of the magnetometer experiment is to determine the role of the                                               
+magnetic field in the interaction between the solar wind and the comet and to identify                                            
+the characteristic boundaries of the cometary environment (bow shock, contact sur-                                                
+face, etc.).                                                                                                                      
+  The sensors of the MISCHA magnetometer (Fig. 12,) are mounted on a boom,                                                        
+which can be seen on the lower edge of the right-hand solar panel in Figure 15. A                                                 
+single-axis sensor and a triaxial sensor are mounted 1 and 2 m, respectively, from the                                            
+edge of the solar panel. The advantage of this dual-sensor fluxgate system is the                                                 
+possibility to determine the spacecraft's stray magnetic field. The basic features of this                                        
+instrument are summarized in Table 13.                                                                                            
+                                                                                                                                  
+2.13  The plasma-wave and ion-trap experiment (APV-N)                                                                             
+   The main objectives of the APV-N experiment are: (i) to investigate collective                                                 
+plasma processes and fine structures in the zone of interaction between the comet and                                             
+the solar wind, (ii) to detect the anomalous ionization of the cometary atmosphere by                                             
+the solar wind and identify the mechanism of this phenomenon, and (iii) to measure                                                
+the spectra of the electromagnetic and electrostatic instabilities in the solar wind and                                          
+cometary ionosphere and to search for the bow shock and contact surface.                                                          
+                                                                                                                                  
+Figure 12. The two-sensor system and the                                                                                          
+electronics box of the magnetic-field                                                                                             
+experiment (MISCHA)                                                                                                               
+                                                                                                                                  
+----------------------------------------------------------------------------------                                                
+Table 12. Energetic-Particle Analyser characteristics                                                                             
+                                                                                                                                  
+Ion energy range (detector A)                                                                                                     
+Resolution                                 20 keV-640 keV                                                                         
+-  range  20-160 keV                       10 keV                                                                                 
+-  range 160-400 keV                       20 keV                                                                                 
+-  range 400-640 keV                       40 keV                                                                                 
+Energy ranges (detectors A and B)                                                                                                 
+-  electrons                               0.5-0.75 MeV                                                                           
+-  protons                                 3.2-13 MeV                                                                             
+-  ions (Z >= 2)                           3.2-13 MeV/nucleon                                                                     
+Integral flux of protons and nuclei        Energy >= 13 MeV/nucleon                                                               
+Geometrical factor                         0.2 cm**2 sr                                                                           
+Field of view                              25deg half cone                                                                        
+Time resolution                            4 s (encounter); 10 or 20 min (cruise)                                                 
+----------------------------------------------------------------------------------                                                
+----------------------------------------------------------------------------------                                                
+Table 13.  Magnetometer characteristics                                                                                           
+                                                                                                                                  
+Dynamic range                               +/- 100 nT                                                                            
+Resolution                                  0.05 nT                                                                               
+Noise level                                 0.01 nT Hz**-1/2                                                                      
+Zero drift                                  +/- nT/month                                                                          
+Bandwidth                                   10 Hz                                                                                 
+Time resolution                             10 vector/s                                                                           
+(high-speed telemetry)                      1 spectrum/25 s                                                                       
+Number of frequency points                  128/spectrum                                                                          
+----------------------------------------------------------------------------------                                                
+                                                                                                                                  
+   The experiment consists of two sensors, one dipole made of two meshed spheres                                                  
+with integral pre-amplifiers and a Faraday cup, and an electronics box (Fig. 13). The                                             
+dipole detects electric fields and the Faraday cup measures ion-flux fluctuations with                                            
+frequencies of up to 1 kHz. The electric sensors are mounted on a Y-shaped 5 m long                                               
+boom and the Faraday cup is located on the spacecraft body (Fig. 14).                                                             
+   The main parameters of the APV-N experiment are given in Table 14.                                                             
+                                                                                                                                  
+2.14  The electric-field and Langmuir-probes experiment (APV-V)                                                                   
+   The primary objectives of the plasma and wave measurements performed by APV-V                                                  
+are: (i) to measure the density of the solar wind just before it is influenced by cometary                                        
+constituents, thereby establishing a reference for understanding the subsequent solar.                                            
+wind-comet interaction, (ii) to observe the mass loading of the solar wind by com-                                                
+etary ions, either directly or through the associated wave instabilities, (iii) to obtain                                         
+plasma-density and temperature profiles, as well as wave-frequency spectra during the                                             
+cometary transit, and (iv) to search for the signatures of collision-free shocks and con-                                         
+tact surface.                                                                                                                     
+   The sensors are mounted on two symmetrical stubs attached to the outer solar panels                                            
+(Fig. 15). Two spheres, 10 cm in diameter (Fig. 14a) and separated by 11 m, form                                                  
+a dipole for measuring electric fields. The Langmuir probes are fixed at mid length;                                              
+they are cylindrical and their collecting area is 4.4 cm**2; they are oriented in such a                                          
+way that their symmetry axis is parallel to the gas-flow velocity vector during the                                               
+flyby; conical elements fixed at their tips protect them from the direct impact of corn-                                          
+etary gas and dust particles (Fig. 14b).                                                                                          
+   The main characteristics of the APV-V instrument can be found in Table 15.                                                     
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+Table 14. Plasma-Wave and Ion-Trap Experiment characteristics                                                                     
+                                                                                                                                  
+Electrical antenna                                                                                                                
+Base line                                           2m                                                                            
+Frequency range                                     0.01-1000 Hz                                                                  
+Sensitivity                                         1 micro V/Hz**1/2 at 1kHz                                                     
+Dynamic range                                       60 dB                                                                         
+                                                                                                                                  
+Faraday cup                                                                                                                       
+Collector area                                      5 cm**2                                                                       
+Frequency range                                     0.01-1000 Hz                                                                  
+Sensitivity                                         10**-3 A/cm**2 at 25 Hz                                                       
+Dynamic range                                       60 dB                                                                         
+                                                                                                                                  
+Data analysis (for both instruments)                                                                                              
+Signal waveform                                     10**-2 - 10**2 Hz                                                             
+Spectral analysis in range 10-1000 Hz               10 frequency points/s                                                         
+Passband filters (10-100 Hz and 100-10O0 Hz)        1 sample/s                                                                    
+--------------------------------------------------------------------------------                                                  
+                                                                                                                                  
+--------------------------------------------------------------------------------                                                  
+Table 15. Electric-Field and Langmuir-Probe Experiment characteristics                                                            
+                                                                                                                                  
+Electrical antenna                                                                                                                
+Base line                                           11m                                                                           
+Frequency range                                     0-300 kHz                                                                     
+Sensitivity                                         3 micro V/m Hz**1/2 at 1 kHz                                                  
+Dynamic range                                       70 dB                                                                         
+Waveform analysis                                   0-8 Hz                                                                        
+Passband filters in range 8 Hz - 300 kHz            16 filters                                                                    
+                                                                                                                                  
+Langmuir probes (two units)                                                                                                       
+Collector area                                      4.4cm**2                                                                      
+Frequency range and waveform analysis               0-4 Hz                                                                        
+Sensitivity                                         2x10**-12 A/cm**2                                                             
+Dynamic range                                       60 dB                                                                         
+--------------------------------------------------------------------------------                                                  
+                                                                                                                                  
+Figure 13.  The plasma-wave and ion-flux                                                                                          
+experiment (APV-N): electronic box (back left),                                                                                   
+ion trap (back right) and meshed spheres                                                                                          
+(front)                                                                                                                           
+                                                                                                                                  
+Figure 14.  The sensors of the electric field and                                                                                 
+Langmuir probe experiment (APV-V):                                                                                                
+(a) electric-field sensor, (b) Langmuir probe                                                                                     
+with its protective cone                                                                                                          
+                                                                                                                                  
+3.  The spacecraft                                                                                                                
+  The Vega spacecraft was composed of a Halley flyby probe and a Venus descent                                                    
+module; the whole system weighed about 4.5 t. The Halley probe is shown in                                                        
+Figure 15 in its nominal flyby configuration: the orientation of the vehicle velocity                                             
+relative to the comet is also indicated. The spacecraft has a wingspan of the order of                                            
+10 m, and it carries 120 kg of scientific instrumentation. On its trajectory to Venus,                                            
+the probe was still surmounted by the descent module (not shown in Fig. 15), which                                                
+was a spherical object with a diameter of 2.5 m and a mass of approximately 2 t.                                                  
+The Vega vehicle is derived from the Venera series of spacecraft. A number of                                                     
+modifications improve the reliability of the probe; for example, 5 m**2 of shield have                                            
+been added in order to protect the most essential subsystems against the bombardment                                              
+of dust particles with masses of less than 0.1 g. A dual-sheet bumper shield has                                                  
+been adopted; it is composed of a thin metallic front sheet (0.4 mm) and a thicker rear                                           
+sheet, separated by several centimetres.                                                                                          
+                                                                                                                                  
+Figure 15. The Vega spacecraft in cometary                                                                                        
+flyby configuration after release of the Venus                                                                                    
+lander. The orientation of the relative velocity                                                                                  
+vector ('relative' in the comet frame of                                                                                          
+reference) is defined by its projections in the                                                                                   
+XY- and ZY-planes of the spacecraft                                                                                               
+coordinate system                                                                                                                 
+                                                                                                                                  
+  The spacecraft structure resembles a cylindrical body connected to two conical                                                  
+skirts. The lower skirt houses a motor for orbital manoeuvres and a toroidal pressurized                                          
+utility instrument bay; the cylindrical compartment contains the fuel tanks and the                                               
+upper skirt is the interface that held the Venus lander. Two pairs of deployable solar                                            
+panels are mounted on each side of the cylindrical section: the solar array has a total                                           
+area of nearly 10 m**2. The spacecraft is three-axis-stabilized during the cometary                                               
+flyby by a gyroscopic system and a number of gas nozzles, most of which are mounted                                               
+on the solar panels.                                                                                                              
+                                                                                                                                  
+  The telemetry system consists of a high-data-rate channel (BRL) and a low-data-rate                                             
+channel (BTM). The BRL channel is used for real-time transmission only. Its capacity                                              
+of 65536 bit/s can be reduced by half if required by propagation conditions; that of                                              
+the BTM channel is 3072 bit/s. The scientific data can also be stored by onboard                                                  
+magnetic tape recorders (capacity 5 Mbit) and subsequently telemetered through the                                                
+BTM channel, once every 20 days during the interplanetary transit and once every                                                  
+20 min around the time of cometary flyby. The high-gain antenna must be directed                                                  
+towards the Earth whenever data are transmitted via the BRL channel.                                                              
+  The scientific instruments can be classified into three categories, characterized by                                            
+common objectives:                                                                                                                
+(i)  The electromagnetic field sensors (MISCHA, APV-N and APV-V) are mounted                                                      
+      on booms, as far as possible from the spacecraft to achieve the best degree of                                              
+      electromagnetic cleanliness.                                                                                                
+(ii) The dust, gas and plasma detectors have pointing directions generally related to                                             
+     the spacecraft velocity relative to the comet.                                                                               
+(iii)  The optical systems that observe the nucleus (TVS, IKS, TKS) are located on                                                
+    the automatic pointing platform.                                                                                              
+                                                                                                                                  
+The platform is shown in Figure 16; it has a mass of 82 kg and carries 64 kg of in-                                               
+strumentation. It can scan an angular sector of 110deg in the ecliptic plane, and 60deg in                                        
+a plane perpendicular to the ecliptic.                                                                                            
+                                                                                                                                  
+Figure 16. General view of the pointing                                                                                           
+platform without thermal blanket                                                                                                  
+                                                                                                                                  
+4. The Mission                                                                                                                    
+  The Vega spacecraft were launched from the Tyuratam pad area of the Baykonour                                                   
+Cosmodrome by two three-stage Proton rockets fitted with six strap-on boosters. The                                               
+space vehicles were injected into their trajectories towards Venus before completing                                              
+their first revolution around the Earth (Fig. 17a).                                                                               
+   During most of the transit towards Venus, the solar panels were oriented towards                                               
+the Sun. The spacecraft's attitudes were not otherwise controlled, except during possi-                                           
+ble periods of a few hours when three-axis-stabilization was required for high-bit-rate                                           
+data transmission. Orbital corrections were performed during the first two weeks after                                            
+launch and was repeated during the last two weeks before arrival in the environment                                               
+of Venus.                                                                                                                         
+   Three further orbital manoeuvres were foreseen on the second leg of the journey                                                
+to Comet Halley: the first, two to four weeks (Fig. 17b) after the Venus flyby, the                                               
+second midway between the planet and the comet, and the last two to four weeks                                                    
+before the Halley flyby. Once the last manoeuvre has been performed, the pointing                                                 
+platform will be oriented and the camera can then take its first look at the comet.                                               
+                                                                                                                                  
+Fig- 17. The paths of the Vega probes (a)                                                                                         
+from Earth to Venus, and (b) from Venus to                                                                                        
+Halley. The projection of the inner portion of                                                                                    
+the trajectory of Halley on the plane of the                                                                                      
+ecliptic is a1so shown. The Comet and the                                                                                         
+Earth are orbiting in planes that intersect at                                                                                    
+an angle of 18deg. The nodes are the points                                                                                       
+where Halley's orbit intersects the ecliptic                                                                                      
+                                                                                                                                  
+  All experiments are to be switched on two days before closest approach. The direct                                              
+high-speed telemetry will be transmitted from -48 h to -45 h at a cometary distance                                               
+of 14x10**6 km, from -24 h to -22 h at a cometary distance of 7 x 10**6 km and from                                               
+-2 h to + 1 h during the cometary flyby.   Two other high-speed telemetry                                                         
+transmission sequences are also foreseen, one and two days after flyby. A limited                                                 
+amount of data can also be stored and transferred every 20 min to the onboard tape                                                
+recorder, in order to cover the 22 h gaps when the high-speed telemetry is switched                                               
+off (Table 1).                                                                                                                    
+   A number of other telemetry modes are available. They are being used for, for                                                  
+example, transmitting low-bit-rate information from a number of selected experiments                                              
+during the interplanetary cruise.                                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+  The author wishes to thank A. Ammar, P. Cruvellier, E. Keppler, J. Kissel, S.                                                   
+Klimov, G. Moreels, W. Riedler, J. Runavot, J. Simpson, A. Somogyi, and O.                                                        
+Vaisberg for providing useful information and their critical reading of this paper.                                               
+                                                                                                                                  

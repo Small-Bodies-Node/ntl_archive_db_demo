@@ -1,0 +1,19 @@
+PDS_VERSION_ID                    = PDS3                                      
+RECORD_TYPE                       = STREAM                                    
+LABEL_REVISION_NOTE               = "NULL"                                    
+                                                                              
+OBJECT                            = INSTRUMENT_HOST                           
+  INSTRUMENT_HOST_ID              = "IRSN"                                    
+                                                                              
+  OBJECT                          = INSTRUMENT_HOST_INFORMATION               
+    INSTRUMENT_HOST_NAME          = "IHW INFRARED STUDIES NETWORK"            
+    INSTRUMENT_HOST_TYPE          = "EARTH BASED"                             
+    INSTRUMENT_HOST_DESC          = "N/A"                                     
+                                                                              
+  END_OBJECT                      = INSTRUMENT_HOST_INFORMATION               
+                                                                              
+  OBJECT                          = INSTRUMENT_HOST_REFERENCE_INFO            
+    REFERENCE_KEY_ID              = "N/A"                                     
+  END_OBJECT                      = INSTRUMENT_HOST_REFERENCE_INFO            
+END_OBJECT                        = INSTRUMENT_HOST                           
+END                                                                           

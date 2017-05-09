@@ -1,0 +1,32 @@
+<html>
+<head>
+	<!-- the following JavaScript files provide access to PDS services -->
+	<script type="text/javascript" src="../../js-api/cxf-utils.js"></script>
+	<script type="text/javascript" src="../../js-api/PlanetaryDataSystemService.js"></script>
+	<script type="text/javascript" src="../../js-api/Common.js"></script>
+
+	<!-- main.js contains custom code for manipulating PDS data -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+	<h1>Demo 4: other operations</h1>
+
+	<div>
+		<span>Press button 1 to get all misions related to dataset with id 2 (DEEP IMPACT 9P/TEMPEL ENCOUNTER) (getDataSetRelatedEntitites example)</span> </br>
+		<span>Press button 2 to get all instruments related to dataset with id 10 (SOHO LASCO COMET IMAGES V1.0) (getDataSetRelatedEntitites example)</span> </br>
+		<span>Press button 3 to get url of the preview image for DataFile with id 2276 (getPreviewImageURL example)</span> </br>
+		</br>
+		<input type="button" value="1" onClick="getRelatedEntities1()">
+		<input type="button" value="2" onClick="getRelatedEntities2()">
+		<input type="button" value="3" onClick="getPreviewImageURL1()">
+		</br></br>
+
+		<!-- this list is filled from the JavaScript code -->
+		<ul id='list'></ul>
+	</div>
+
+</body>
+</html>

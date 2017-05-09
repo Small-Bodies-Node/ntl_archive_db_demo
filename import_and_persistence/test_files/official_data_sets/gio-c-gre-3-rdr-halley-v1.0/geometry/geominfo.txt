@@ -1,0 +1,31 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE = "STREAM"                                                        
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2011-05-25                                               
+  NOTE             = "GEOMETRY/ directory contents"                           
+END_OBJECT = TEXT                                                             
+                                                                              
+END                                                                           
+                                                                              
+GEOMETRY/ Directory                                                           
+===================                                                           
+                                                                              
+NOTE: The ".doc" extension in this directory indicates flat text              
+      documentation files, NOT the proprietary format used by                 
+      MicroSoft Office document files.                                        
+                                                                              
+This directory contains ephemeris information and related files:              
+                                                                              
+  attcpgio.doc    Giotto cruise phase attitude history file and               
+                  description                                                 
+  attepgio.doc    Giotto encounter phase attitude data and                    
+                  description.                                                
+  epgiotto.doc    Giotto experimenter support data and description            
+                                                                              
+  geominfo.txt    This file                                                   
+                                                                              
+  giodat.for      FORTRAN source code for a routine to read the               
+                  data in the epgiotto.doc file                               
+  giodat.txt      Notes related to the giodat.for file                        

@@ -1,0 +1,39 @@
+                    Description of DIS-CODE Table.                            
+                                                                              
+     The files CODE.TAB, CODE.STR,CODE.FIT, CODE.HHH  contain  a  data        
+table  listingthe  discipline  codes  (DIS-CODE)  and their associated        
+parameters used in the comet  Giacobini-Zinner  archive,  a  delimited        
+table describing the columns in the table, a FITS table header for the        
+data (with 2880 byte records), and a FITS table header which is easily        
+displayable  (with  80  byte records).  This table listing can be read        
+into a database and used to translate the DIS-CODE  and  SYSTEM  codes        
+used  by the Spectroscopy and Spectrophotometry Network.  The DIS-CODE        
+table (in CODE.TAB) is in  a  delimited  table  format,  having  fixed        
+column sizes, seperated by commas (,), with character strings inclosed        
+in double quotes (").                                                         
+                                                                              
+     The columns of the DIS-CODE table include the following keywords:        
+SYSTEM, DIS-CODE, OBSVTORY, TELESCOP, INSTRUME, APERSIZE, RESOL-SP and        
+RANGE-SP.  The values of these keywords are more  fully  described  in        
+the  file  DESCRIPT.TXT.   The columns were written with the following        
+FORTRAN format:                                                               
+                                                                              
+        FORMAT('"',I8,'","',I9.9,'","',A68,'","',A40,'","',                   
+     &  A68,'","',A20,'","',A5,'","',A10,'"',2A1)                             
+                                                                              
+Each line is terminated with two ASCII characters for carriage  return        
+and  line  feed  (CR and LF, or 0D and 0A in hexadecimal).  This is to        
+allow the table to be easily read into a typical database program.            
+                                                                              
+     To aid in the entering of the table into a database program,  the        
+CODE.STR  file  contains  another  delimited  table (although not with        
+fixed column widths), describing the columns in  the  DIS-CODE  table,        
+giving  the  field  title,  type and width.  This table may be used to        
+define a format in a database program for the DIS-CODE table.                 
+                                                                              
+     The CODE.FIT file contains a header for a file with  FITS  format        
+table  extensions,  which  when  attached  to  the data (in CODE.TAB),        
+should form a valid FITS format  table  file  (when  blocked  to  2880        
+bytes).  The CODE.HHH file contains the same header information as the        
+CODE.FIT file, but blocked to 80 byte records, for easy display.              
+                                                                              

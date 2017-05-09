@@ -1,0 +1,18 @@
+"DATE_OBS    ","C", 8,0                                                       
+"TIME_OBS    ","N", 7,5                                                       
+"PPN_NUM     ","N", 6,0                                                       
+"FILTER      ","C", 4,0                                                       
+"WAVELENGTH  ","N", 4,0                                                       
+"BANDPASS    ","N", 3,0                                                       
+"APER_DIAM   ","N", 5,1                                                       
+"EXPOSURE    ","N", 4,0                                                       
+"FLUX_LT     ","C", 1,0                                                       
+"LOG_FLUX    ","N", 7,3                                                       
+"LOG_FLUX_ERR","N", 5,3                                                       
+"OFFSET_RHO  ","N", 4,0                                                       
+"OFFSET_THETA","N", 3,0                                                       
+"AIRMASS     ","N", 5,3                                                       
+"SYSTEM      ","C", 8,0                                                       
+"OBSERVER    ","C",24,0                                                       
+"NOTE_FLAG   ","C", 1,0                                                       
+"FILENAME    ","C", 8,0                                                       

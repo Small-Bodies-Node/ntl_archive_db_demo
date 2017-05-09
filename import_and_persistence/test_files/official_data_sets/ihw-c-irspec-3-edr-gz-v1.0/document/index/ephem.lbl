@@ -1,0 +1,182 @@
+NJPL1I00PDS100014540 = SFDU_LABEL                                             
+/*               File Format and Length                               */      
+RECORD_TYPE         = FIXED_LENGTH                                            
+RECORD_BYTES        = 110                                                     
+FILE_RECORDS        = 1247                                                    
+/*               Record Pointer to Object                             */      
+^TABLE              = "EPHEM.IDX"                                             
+/*               Description of Object in File                        */      
+OBJECT              = TABLE                                                   
+ ROWS               = 1247                                                    
+ ROW_BYTES          = 110                                                     
+ INTERCHANGE_FORMAT = ASCII                                                   
+ NOTE               = "Created by FITS2PDS"                                   
+ COLUMNS            = 19                                                      
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "YEAR"                                                  
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 4                                                       
+  START_BYTE        = 1                                                       
+  FORMAT            = I4                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MONTH"                                                 
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  START_BYTE        = 6                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DATE"                                                  
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  START_BYTE        = 9                                                       
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "HOUR"                                                  
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 3                                                       
+  UNIT              = 'HOURS'                                                 
+  START_BYTE        = 12                                                      
+  FORMAT            = 'F3.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "JULIAN_DATE"                                           
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 9                                                       
+  START_BYTE        = 16                                                      
+  FORMAT            = 'F9.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_HOUR"                                               
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  UNIT              = 'HOURS'                                                 
+  START_BYTE        = 26                                                      
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RA_MINUTE"                                             
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'MINUTES'                                               
+  START_BYTE        = 29                                                      
+  FORMAT            = 'F6.3'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_SIGN"                                              
+  DATA_TYPE         = CHARACTER                                               
+  BYTES             = 1                                                       
+  START_BYTE        = 37                                                      
+  FORMAT            = A1                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_DEGREE"                                            
+  DATA_TYPE         = INTEGER                                                 
+  BYTES             = 2                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 40                                                      
+  FORMAT            = I2                                                      
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DEC_MINUTE"                                            
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'ARC-MINUTES'                                           
+  START_BYTE        = 43                                                      
+  FORMAT            = 'F5.2'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DELTA"                                                 
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'AU'                                                    
+  START_BYTE        = 49                                                      
+  FORMAT            = 'F6.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "DELDOT"                                                
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 8                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 56                                                      
+  FORMAT            = 'F8.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "R"                                                     
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 6                                                       
+  UNIT              = 'AU'                                                    
+  START_BYTE        = 65                                                      
+  FORMAT            = 'F6.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "RDOT"                                                  
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 8                                                       
+  UNIT              = 'KM/SEC'                                                
+  START_BYTE        = 72                                                      
+  FORMAT            = 'F8.4'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "THETA"                                                 
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 81                                                      
+  FORMAT            = 'F5.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "BETA"                                                  
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 4                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 87                                                      
+  FORMAT            = 'F4.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "MOON"                                                  
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 92                                                      
+  FORMAT            = 'F5.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "POS_ANG_SUN_COMET"                                     
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 98                                                      
+  FORMAT            = 'F5.1'                                                  
+ END_OBJECT                                                                   
+                                                                              
+ OBJECT             = COLUMN                                                  
+  NAME              = "POS_ANG_COMET_VEL"                                     
+  DATA_TYPE         = FLOAT                                                   
+  BYTES             = 5                                                       
+  UNIT              = 'DEGREES'                                               
+  START_BYTE        = 104                                                     
+  FORMAT            = 'F5.1'                                                  
+ END_OBJECT                                                                   
+END_OBJECT          = TABLE                                                   
+END                                                                           

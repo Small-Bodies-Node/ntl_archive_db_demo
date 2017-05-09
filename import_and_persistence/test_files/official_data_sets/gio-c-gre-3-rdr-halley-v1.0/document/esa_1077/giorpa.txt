@@ -1,0 +1,894 @@
+***** File GIORPA.TXT                                                                                                             
+                                                                                                                                  
+NOTE: This file was created by scanning the original hardcopy article                                                             
+and only the Figure captions are included.                                                                                        
+                                                                                                                                  
+                                                                                                                                  
+The Giotto RPA-Copernic Plasma                                                                                                    
+Experiment                                                                                                                        
+                                                                                                                                  
+H.   Reme, F. Cotin, A. Cros, J.L. Medale,                                                                                        
+J.A. Sauvaud & C. d'Uston                                                                                                         
+Centre d'Etude Spatiale des Rayonnements, CNRS-Toulouse                                                                           
+University, France                                                                                                                
+                                                                                                                                  
+A.   Korth, A.K. Richter & A. Loidl                                                                                               
+Max-Planck-Institut fur Aeronomie, Lindau, Germany                                                                                
+                                                                                                                                  
+K.A. Anderson, C.W. Carlson, D.W. Curtis &                                                                                        
+R.P. Lin                                                                                                                          
+Space Sciences Laboratory, University of California, Berkeley, USA                                                                
+                                                                                                                                  
+D.A. Mendis                                                                                                                       
+Department of Electrical Engineering & Computer Sciences and                                                                      
+Center for Astrophysics & Space Science, University of California,                                                                
+San Diego, USA                                                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+Abstract                                                                                                                          
+                                                                                                                                  
+  The RPA-Copernic plasma experiment for the Giotto mission consists of two Sen-                                                  
+sors, the RPA1-EESA spectrometer and the RPA2-PICCA electrostatic mass analyzer.                                                  
+RPA 1-EESA measures the three-dimensional distributions of electrons between 10 eV                                                
+and 30 keV. These electron measurements should contribute to defining the properties                                              
+of the cometary plasma and its interaction with the solar wind. The RPA-2 PICCA                                                   
+sensor is an electrostatic mass analyzer designed to measure the composition and the                                              
+distribution of thermal cometary positive ions, including clathrate hydrates in the mass                                          
+range 10 to 203 amu. This instrument should probe the interaction processes produc-                                               
+ing these ions, and provide information on the spatial distribution and chemical com-                                             
+position of the solid, gas and plasma components of the cometary environment. Such                                                
+information should allow identification of parent molecules and hence give some                                                   
+knowledge of the composition of the cometary nucleus.                                                                             
+                                                                                                                                  
+1. Introduction                                                                                                                   
+                                                                                                                                  
+  The RPA-Copernic experiment aboard Giotto is designed to measure the three-                                                     
+dimensional distributions of electrons between 10 eV and 30 kev, and the composi-                                                 
+tion and distribution, close to the comet, of thermal positive ions, including clathrate                                          
+hydrates, in the mass range 10 to 203 amu. It should help in achieving several of the                                             
+major scientific objectives of the Giotto mission, by determining:                                                                
+-   the nature of the comet/solar-wind interaction and of comet tails                                                             
+-   the chemical and physical nature of the comet's atmosphere and ionosphere                                                     
+-   the chemical and physical structure of the comet's nucleus.                                                                   
+                                                                                                                                  
+The electron measurements should contribute to defining the structure of the cometary                                             
+plasma environment and its interaction with the solar wind (Fig. 1). In addition, these                                           
+electron measurements may provide detailed information on the magnetic-field struc-                                               
+ture of the comet nucleus and comet/solar-wind interaction region via electron reflec-                                            
+tion magnetometry, and information on the role of energetic electrons in ionization of                                            
+the cometary plasma.                                                                                                              
+                                                                                                                                  
+Figure 1. Trajectory of the spacecraft during                                                                                     
+the encounter with comet Halley. Conceptual                                                                                       
+solar-wind/comet interaction and cometary                                                                                         
+atmosphere regions are also indicated, as well                                                                                    
+as the timing of the different operating modes                                                                                    
+on the right axis                                                                                                                 
+                                                                                                                                  
+  Before the comet encounter, the electron spectrometer should provide detailed infor-                                            
+mation about the plasma in the interplanetary medium.                                                                             
+  Positive ions are produced via various interactions between the comet nucleus, com-                                             
+etary dust, micrometeoroids, cometary and solar-wind plasmas, neutral gas, and solar                                              
+electromagnetic radiations. As in the Earth's atmosphere, these ions are expected                                                 
+to be present not only as free ions, but probably also as clathrate hydrates, i.e. bound                                          
+to water clusters stemming from dissociated icy grains evaporating from the cometary                                              
+nucleus. Thus measurements of ions, of their clathrate hydrates, and of their mass                                                
+distribution close to the comet should provide a sensitive probe of these interaction                                             
+processes, as well as information on the spatial distribution and composition of the                                              
+solid, gas and plasma components of the cometary environment, and of the chemical                                                 
+composition of the cometary nucleus (parent molecules).                                                                           
+  The detailed scientific objectives of the experiment were described in Reme et al.                                              
+(1981).                                                                                                                           
+  In order to achieve electron and thermal ion measurements with optimal perfor-                                                  
+mances, the RPA-Copernic experiment consists of two separate instruments (Reme et                                                 
+al., 1981; 1983):                                                                                                                 
+-  a symmetric quadrispherical electrostatic analyzer (RPA1-EESA) of novel design                                                 
+   (Carlson et al., 1982) which provides 4 pi electron measurements with high sen-                                                
+   sitivity and high energy, angular and time resolution; it was designed jointly by                                              
+   the Space Sciences Laboratory in Berkeley and the Centre d'Etude Spatiale des                                                  
+   Rayonnements in Toulouse and was built by CESR;                                                                                
+-  a light electrostatic mass analyzer (RPA2-PICCA), which is designed to detect                                                  
+   thermal positive ions with high sensitivity, low background and good mass resolu-                                              
+   tion in the range 10 to 203 amu, close to the comet. This instrument was built                                                 
+   by the Max-Planck-Institut fur Aeronomie in Lindau.                                                                            
+                                                                                                                                  
+These instruments are mounted on the spacecraft's experiment platform in such a way                                               
+that the field of view includes the ram direction.                                                                                
+  The RPA-Copernic experiment is designed to:                                                                                     
+-  measure the flux and spectra of electrons from 10 ev to 30 kev, in 39 steps, with                                              
+   a large dynamic range, in the complete 4 pi solid angle, with high time resolution                                             
+   for half a spin period (2 s)                                                                                                   
+-  process the data through a microprocessor, which is programmed to provide the                                                  
+   electron pitch-angle distribution around a symmetry direction, i.e. the magnetic-                                              
+   field direction                                                                                                                
+-  detect thermal positive ions incoming from the ram direction and to measure their                                              
+   spatial distribution and their composition from 10 amu to 203 amu with a good                                                  
+   mass resolution (Delta m </~ 1 amu)                                                                                            
+-  perform all measurements with low background. This is particularly important in                                                
+   the cometary environment, due to the presence of the dust and neutral gas, and                                                 
+   also of sputtered fragments due to collisions of these particles in the analyzers or                                           
+   with the spacecraft (d'Uston & Reme, 1984).                                                                                    
+                                                                                                                                  
+                                                                                                                                  
+2.  The Electron Electrostatic Analyser                                                                                           
+           (RPA1-EESA)                                                                                                            
+                                                                                                                                  
+    This sensor (Fig. 2) is designed to measure the fluxes and energy spectra of elec-                                            
+trons from 10 eV to 30 keV in order to identify the various cometary plasma regions,                                              
+to detect any heating or acceleration of particles, e.g. at shocks or in the cometary tail,                                       
+and to observe any energetic electron population that can be significant for the ioniza-                                          
+tion processes of the cometary plasma. RPA1-EESA has the ability to measure the                                                   
+detailed 4 pi distributions of electrons in all regions of the cometary environment and                                           
+to be sensitive to flows along either direction of an arbitrarily-oriented magnetic field                                         
+in order to: (1) detect electrons travelling upstream and downstream of the cometary                                              
+shocks and in this way provide a remote signal of the presence of the shock, (2)                                                  
+measure any accelerated population in the shock structure, (3) use suprathermal elec-                                             
+trons as remote probes or tracers of the magnetic-field topology and intensity (Ander-                                            
+son et al., 1975; Lin et al., 1975). Because charged particles are reflected from                                                 
+regions of stronger magnetic field, the range of electron energies covered by the in-                                             
+strument and its pitch-angle resolution allow the detection of magnetic fields as low                                             
+as 10**-1 nT. We note here that this technique is also applicable in the absence of a                                             
+solid surface; for example, if the solar-wind field is compressed as it traverses the                                             
+cometary ionosphere, incoming electrons must be reflected from the compressed                                                     
+field region.                                                                                                                     
+                                                                                                                                  
+Figure 2. The Electron Electrostatic Analyser                                                                                     
+(RPA1-EESA)                                                                                                                       
+                                                                                                                                  
+2.1 The analyzer                                                                                                                  
+  The electrostatic analyzer detector system combines several recent innovations                                                  
+which are particularly applicable to pitch-angle measurements. These innovations in-                                              
+clude an improved electrostatic analyzer, a fast-counting particle-detection system,                                              
+and a microprocessor-based data system. Our basic analyzer design is a symmetrical,                                               
+spherical-section electrostatic analyzer with a uniform 360deg disc-shaped field of view                                          
+and extremely fine angular-resolution capability, and is protected against dust con-                                              
+tamination (Fig. 3). By comparison, there are several shortcomings in a conventional                                              
+quadrispherical analyzer, which adversely affect pitch angle and three-dimensional                                                
+plasma measurements: because this analyzer field of view is less than 180deg, there are                                           
+always look directions that are not sampled, and as Gosling et al. (1978) have shown,                                             
+its response in azimuth and polar angle is not constant, but becomes broader as the                                               
+polar angle departs from normal incidence. These problems have been eliminated by                                                 
+the new analyzer design used in RPA1-EESA, which is closely related to                                                            
+quadrispherical analyzers, but has uniform response over 360deg of polar angle.                                                   
+                                                                                                                                  
+Figure 3. Cut-away view of the RPA1-EESA                                                                                          
+spectrometer. The entrance aperture is a plane                                                                                    
+located at the top of the hemisphere below the                                                                                    
+top cap, which defines the collimator                                                                                             
+                                                                                                                                  
+Figure 4. Comparison of the symmetrical and                                                                                       
+the normal quadrisphere. With the normal                                                                                          
+quadrisphere, the response varies with polar                                                                                      
+angle. The symmetrical analyzer has no polar-                                                                                     
+angle dependence and has a complete 360deg                                                                                        
+field of view. Typical trajectories illustrate the                                                                                
+focussing properties                                                                                                              
+                                                                                                                                  
+  The operating principle of both analyzer types is illustrated by cross-section and top                                          
+view in Figure 4. The normal quadrisphere consists of two concentric quarter-sphere                                               
+sections, whereas the symmetric quadrisphere consists of three concentric spherical                                               
+elements. These three elements are an inner hemisphere, an outer hemisphere which                                                 
+contains a circular opening, and a smaller circular top cap which defines the entrance                                            
+aperture. This analyzer is classified as quadrispheric, simply because the particles are                                          
+deflected through 90deg. In both analyzers a potential is applied between the inner and                                           
+outer plates and only charged particles having a limited range of energy and initial                                              
+azimuth angle are transmitted. The particle exit position is a measure of the incident                                            
+polar angle, which can be resolved by a suitable detector system. With a normal                                                   
+quadrisphere, all particles entering at normal incidence focus to a line at the exit aper-                                        
+ture, independent of where they cross the entrance aperture. Three paths with identical                                           
+incident angle but different entrance positions are shown. For all oblique trajectories,                                          
+the azimuthal response and polar angle focussing depend upon where the particles                                                  
+cross the aperture. This property results directly from the lack of cylindrical symmetry                                          
+of the planar entrance aperture. The symmetric quadrisphere circumvents this defect                                               
+by making the entire analyzer, including the entrance aperture, rotationally sym-                                                 
+metric. Again trajectories are shown to illustrate the focussing characteristics which                                            
+are independent of the polar angle for the symmetric quadrisphere. The open character                                             
+of the entrance aperture makes this symmetrical quadrisphere analyzer immune to both                                              
+solar and cometary electromagnetic radiations and dust and neutral-gas contamination                                              
+(fly-through). The acceptance fan is aligned to contain the spacecraft velocity vector                                            
+so dust and neutral gas particles which pass through the collimator entrance continue                                             
+through the analyzer top-cap region and pass out of the analyzer on the opposite side                                             
+(Fig. 5).                                                                                                                         
+                                                                                                                                  
+  The electron detector provides a 360deg X4deg (FWHM) field of view with a uniform                                               
+angular resolution of 22ù5deg X4deg. Due to the spacecraft spin, the aperture scans the full                                      
+4 pi solid angle twice per revolution. It covers the energy range 10 eV - 30 keV with                                             
+energy resolution Delta E/E ~ 10%.                                                                                                
+                                                                                                                                  
+2.2 Detector assembly                                                                                                             
+  A schematic cross-section of the detection system and the scheme of the sectored                                                
+collector are shown in Figure 6. Electrons passing through the entrance aperture of                                               
+the electrostatic analyzer are selected in energy by applying a positive deflection                                               
+voltage to the inner hemisphere of the analyzer. The selected electrons are detected                                              
+by a microchannel plate (MCP) ring at the output. The MCP, specially made by                                                      
+Mullard, is made up of two rings, each 1 mm thick with an external diameter of                                                    
+86.6 mm and an internal diameter of 66 mm. Each ring has a Ni-Cr metallization on                                                 
+the two-face active surface. The total resistance across a ring has a low value (between                                          
+12 and 15 mega Ohm) for fast-counting purposes. The 12.5 micro m diameter, straight microchan-                                    
+nels are inclined by 15deg and the two rings are chevron-mounted. The collector                                                   
+associated with the MCP is divided into 17 sectors corresponding to 14 bins of 22.5deg,                                           
+two bins of 19.5deg and one bin of 6deg linked to the ram direction. Hence, the angular                                           
+position range is divided between 16 bins and the ram sector, and the 4 pi analysis using                                         
+the rotation of the space probe is made with - 22.5deg X22.5deg elementary sectors.                                               
+                                                                                                                                  
+2.3 Energy sweep                                                                                                                  
+  The energy selection of the detected electrons is made by varying the positive                                                  
+deflection voltage of the inner hemisphere of the electrostatic analyzer. The outer                                               
+hemisphere and the top cap are tied to signal ground. The variation of the deflec-                                                
+tion voltage is synchronized with the spin period of the spacecraft, via the Sun                                                  
+reference pulse. The sweep of the total energy range is repeated 16 times per spin,                                               
+i.e. once every 250 ms. Since the 360deg field of view provides full coverage in 1/2 spin                                         
+period, a full three-dimensional distribution with 22.5deg angular resolution is obtained                                         
+in 2 s with eight energy sweeps. The deflection high-voltage range is stepped accor-                                              
+ding to an exponential law, each step lasting 1.95 ms. For energies between 80 eV                                                 
+and 30 keV, four high-voltage steps are used for one measurement, and for energies                                                
+between 10 and 80 eV, only two high-voltage steps are used for one measurement.                                                   
+Four steps are devoted to the high-voltage setting (Fig. 7). During one sweep, 23                                                 
+measurements for energies greater than 80 eV and 16 measurements for energies                                                     
+smaller than 80 eV are made, and a 39-step energy spectrum is therefore obtained                                                  
+every 250 ms.                                                                                                                     
+                                                                                                                                  
+2.4 Electronics                                                                                                                   
+  For each of the 17 angular bins, MCP signals are passed through individual charge-                                              
+sensitive amplifiers to seventeen 16-bit counters. A digital front-end system                                                     
+preprocesses the accumulated counts in order to obtain corrected data, taking into ac-                                            
+count the dead time of the detectors. Electron data are accumulated into 17 angle bins,                                           
+for every energy, eight times per half spin, and stored in RAM by a main processor.                                               
+At the end of each half-spin interval, the corrected data are transferred to a pitch-angle                                        
+calculator for further processing and results from the previous half spin are sent back                                           
+to the main processor.                                                                                                            
+                                                                                                                                  
+                                                                                                                                  
+Figure 5. Geometrical and electronic                                                                                              
+characteristics and cross-sectional view of the                                                                                   
+RPA1-EESA detection system                                                                                                        
+                                                                                                                                  
+Figure 6. RPA1-EESA detection system: (a) scheme of the detection system, (b) MCP sectoring                                       
+                                                                                                                                  
+Figure 7. RPA1-EESA deflection high-voltage sweep and data organization (HBR = high-bit-rate                                      
+telemetry, LBR = low-bit-rate telemetry)                                                                                          
+                                                                                                                                  
+2.4.1 Analogue electronics                                                                                                        
+  The analogue electronics that interface the electron instrument and the data-                                                   
+processing unit are shown in Figure 8. They involve:                                                                              
+-   one high voltage to bias the MCP, programmable by ground command between                                                      
+    2000 and 4000 V (16 steps) to accommodate gain changes                                                                        
+-   a second high voltage to polarize the electrostatic analyzer, stepping from 3000 V                                            
+    to 1 V (128 steps) exponentially                                                                                              
+-   the associated analogue electronics to generate the variation laws for the high-                                              
+    voltage supply of the analyzer                                                                                                
+-   17 amplifiers (type A 111) associated with the 17 sectors of the MCP                                                          
+-   a special fixed-pattern test-generator circuit, used to check the whole acquisition                                           
+    counter system.                                                                                                               
+                                                                                                                                  
+2.4.2 Digital electronics                                                                                                         
+Three microprocessors are used for data processing:                                                                               
+-   one CDP 1802 dedicated to interfacing RPA2-PICCA with RPA1-EESA                                                               
+-   the 'main processor' (CDP 1802) used for RPA1-EESA instrument control and                                                     
+    data processing and to interface with commands and telemetry                                                                  
+-   the pitch-angle calculator (NSC 800 microprocessor) which processes the data in                                               
+    order to obtain the electron pitch-angle distribution by computing the magnetic-                                              
+    field direction by means of the diagonalization of the pressure tensors.                                                      
+                                                                                                                                  
+The characteristics of these three processors are summarized in Table 1.                                                          
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+Table 1. Characteristics of the three microprocessors used in the data-processing unit                                            
+                                                                                                                                  
+                          Main                      Microprocessor  Pitch-angle                                                   
+                          microprocessor            for RPA2        calculator                                                    
+---------------------------------------------------------------------------------------                                           
+Microprocessor            CDP 1802                  CDP 1802        NSC 800                                                       
+Manufacturer              RCA                       RCA             NS                                                            
+Frequency                 3.5 MHz                   3.5 MHz         5 MHz                                                         
+Power Supply              10 V internal             10 V internal   5 V                                                           
+                           5 V external              5 V external                                                                 
+---------------------------------------------------------------------------------------                                           
+PROM                      6x HM 6641                1x HM 6641      8x HM 6641                                                    
+Type                      CMOS                      CMOS            CMOS                                                          
+Size                      3 kbyte                   0.5 kbyte       4 kbyte                                                       
+---------------------------------------------------------------------------------------                                           
+RAM                                                                                                                               
+Type                      CMOS Hybrid               CMOS Hybrid     CMOS Hybrid                                                   
+Size                      3x (8 kbyte)              8 kbyte         8 kbyte                                                       
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Figure 8. RPA1-EESA analogue electronics                                                                                          
+block diagram                                                                                                                     
+                                                                                                                                  
+  The way the three microprocessors work together and how they interface with the                                                 
+analogue electronics and with the spacecraft is shown in Figure 9.                                                                
+  All experiment timing, such as energy sweeping and angle binning, are synchro-                                                  
+nized via the spacecraft Sun reference pulse and generated from the spin-segment                                                  
+clock pulse (Fig. 7).                                                                                                             
+                                                                                                                                  
+Figure 9. RPA1-EESA simplified block diagram                                                                                      
+                                                                                                                                  
+                                                                                                                                  
+2.5 Onboard data processing                                                                                                       
+  The measurements are accumulated in a memory and passed through a data-                                                         
+processing unit in order to lower the output data range.                                                                          
+  As the complete 10 eV to 30 keV electron distribution function over 4 pi can be                                                 
+achieved at each half rotation of the spacecraft, i.e. every 2 s, the amount of informa-                                          
+tion available for every distribution is: 17 sectors (theta) X 8 azimuths (phi) X 39 energy                                       
+bands (E) = 5304 counts termed CR(theta(i), phi(i), E(k)). These are the input counts (dead-                                      
+time corrected) corresponding to the 39 energy bands analyzed and the 17 angular sec-                                             
+tors (16 sectors + ram sector); the 8 azimuths correspond to the sweeping of the high                                             
+voltage, which lasts one eighth of a rotation (250 ms), which means 8 sweeps in 2 s.                                              
+  With 8 bit words, there would have to be 5304X8=42 432 bits,i.e. 21 216 bit/s.                                                  
+It is not possible to transmit such an amount of information through the telemetry and                                            
+therefore onboard processing is necessary.                                                                                        
+  This onboard processing must be adapted to the spacecraft real-time telemetry                                                   
+system, which has three different formats for science-data transmission: telemetry                                                
+Formats 1, 2 and 3 (see Section 4). Formats 1 and 2 can be operated at high bit rate                                              
+(HBR = total spacecraft bit rate 46 kbit/s) or at half the maximum bit rate (low bit                                              
+rate = LBR). Independently, the RPA-Copernic data packet lasts 16 s (HBR) or 32 s                                                 
+(LBR). In LBR the same data are produced, but only from every other spin (Fig. 7).                                                
+  The calculations carried out by RPA1-EESA are the following:                                                                    
+-   an estimate of the magnetic-field direction, which is computed from two                                                       
+    partial-pressure tensors calculated in two distinct electron energy ranges: in                                                
+    telemetry Formats 3 and 2/2, range 1 is between 3.64 and 0.36 keV and range                                                   
+    2 between 0.36 and 0.08 keV; in telemetry Formats 1 and 2/1, range 1 is between                                               
+    3.64 and 0.28 keV, and range 2 between 0.28 and 0.08 keV                                                                      
+-   the Pitch Angle Distribution (PAD) determination of the electron in the 0-180deg                                              
+    range in eight bins, for several energy bands                                                                                 
+-   the Omni Directional Energy Spectrum (ODES) for each E-value:                                                                 
+                                                                                                                                  
+    ODES (E(k)) = Summation(i,j) CR(theta(i), phi(j), E(k)) (for i = 0-15 and j = 0-7).                                           
+                                                                                                                                  
+    For energies E > 80 eV (steps 1 to 23) and steps 24, 26,28 and 30, the calcula-                                               
+    tions are made by the PAD Processor (ODES-B). The calculations for the other                                                  
+    steps are made by the main calculator (ODES-A)                                                                                
+-   the Low Energy Distribution (LED): in order to search for possible azimuthal                                                  
+    anisotropies in the distributions of low-energy electrons (E <80 eV), thereby                                                 
+    allowing the possible effects of the asymmetries in spacecraft potential or of                                                
+    predominant streaming directions to be seen, snapshots of the azimuthal distribu-                                             
+    tions are regularly calculated and transmitted. A snapshot is performed in 4 s                                                
+    using one half of the MCP. The next snapshot is performed using the second half                                               
+    of the MCP. Thus, a complete spacecraft rotation is necessary to obtain the snap-                                             
+    shot corresponding to all azimuths (16 sectors phi). In the case where there are two                                          
+    snapshots per data packet (Formats 2/1 and 2/2), they are performed with the                                                  
+    same half of the MCP:                                                                                                         
+                                                                                                                                  
+    LED (phi(j), E(k)) = Summation(i) CR(theta(i), phi(j), E(k))     (for i = 0-7 or i = 8-15).                                   
+                                                                                                                                  
+    In Format 2/2, this calculation is also performed for energies E> 80 eV and is                                                
+    then called the ED (Energy Distribution).                                                                                     
+-   2s snapshots of the Distribution Function (DF) are transmitted frequently.                                                    
+    Beyond their scientific interest, they also permit the validity of the preceding                                              
+    calculations (principally PAD) to be verified. However, these snapshots are not                                               
+    the most elementary distribution function: the ram and the 128 angular bins                                                   
+    sampled are grouped on only 89 solid angles, following the principle outlined                                                 
+    below.                                                                                                                        
+    As the directions along the spin axis are oversampled, the high-elevation                                                     
+    azimuthal sectors are grouped, whereas the low-elevation ones are transmitted                                                 
+    individually. The Distribution Function can be transmitted for selected energy                                                
+    steps or summed over several consecutive steps                                                                                
+-   in several bands (of one or more energy steps), the maximum count rate in a                                                   
+    spacecraft half-rotation is searched for. The azimuthal as well as the elevation                                              
+    position of this maximum and the corresponding flux are transmitted. For several                                              
+    energy steps, the step corresponding to this maximum is also identified.                                                      
+-   the ram sector in telemetry Formats 2/1 and 2/2 is used to search for an eventual                                             
+    cometary negative ion contribution. Accumulated counts on 32 (Format 2/1) or                                                  
+    8 (Format 2/2) energy spectra are divided into 32 (Format 2/1) or 33 (Format 2/2)                                             
+    energy steps and transmitted.                                                                                                 
+                                                                                                                                  
+The operation of the different telemetry formats is given in detail in Section 4.                                                 
+  These data are compressed from 21 bits to 8 bits, according to a special algorithm,                                             
+such that the precision is always better than 3.3% if the count rate is between 32 and                                            
+131 071 s**-1 and 7.2% if the count rate is between 131 072 and 1 996 080 s**-1.                                                  
+                                                                                                                                  
+2.6 The Pitch Angle Distribution processor                                                                                        
+  The Pitch Angle Distribution (PAD) processor is designed to sort the three-                                                     
+dimensional electron distribution data generated by the RPA1-EESA detector into two-                                              
+dimensional pitch-angle distributions in real time.                                                                               
+  The PAD processor hardware consists of an NSC800 CMOS microprocessor                                                            
+together with hardware multiply/divide, ROM, and a pair of dual-ported RAMs. The                                                  
+RPA main processor controls and communicates with the PAD processor via the dual-                                                 
+ported RAMs.                                                                                                                      
+  The PAD partial processor computes the PAD in three steps: first, it computes two                                               
+partial-pressure tensors from the input data over two separate energy ranges (Eqn. 1).                                            
+Next, each of these tensors is diagonalized under the assumption that the distribution                                            
+has a two-dimensional symmetry, and the nondegenerate eigenvector is computed.                                                    
+This vector corresponds to the symmetry direction of the distribution, which is                                                   
+presumably the magnetic-field direction. Finally, the three-dimensional input data is                                             
+sorted into a two-dimensional PAD using the computed symmetry direction for each                                                  
+energy range (Eqn.2).                                                                                                             
+  Pitch-angle distributions of eight angles, summed into 10 or 16 energy steps, are                                               
+computed every half spin (2s).                                                                                                    
+  The equations used in the computations are:                                                                                     
+                                                                                                                                  
+P(i,j) = Summation (theta, phi, E) [(v(i)v(j)/absolute (v))*(absolute cos(theta))*CR(theta, phi, E)]               (1)            
+                                                                                                                                  
+where                                                                                                                             
+  CR(theta, phi, E)   -  the count rate sample for energy step E in the theta, phi                                                
+  v(theta, phi, E)    -  the velocity vector of particles corresponding to data sample                                            
+                         CR(theta, phi, E)                                                                                        
+  v(i)                -  the ith component of velocity vector v                                                                   
+  absolute cos(theta) -  a weighting factor to compensate for the over-sampling at the poles                                      
+                         by the analyzer                                                                                          
+  P(i,j)              -  the i,j element of the pressure tensor =/P (actually =/P is the momen-                                   
+                         tum flux tensor; it is approximately equal to the pressure tensor for                                    
+                         plasma bulk velocities that are small compared with the thermal                                          
+                         velocities).                                                                                             
+                                                                                                                                  
+                                                                                                                                  
+  PAD (E, alpha) =   Summation(theta, phi) [ OF(alpha,alpha') * (absolute cos (theta)) * CR(theta, phi, E) ]         (2)          
+                    / [16 * Summation(theta, phi) [ OF(alpha, alpha') * (absolute cos(theta)) ]                                   
+                                                                                                                                  
+                                                                                                                                  
+alpha (theta, phi) = cos**-1 (B,S(theta, phi))                                                                                    
+                                                                                                                                  
+where                                                                                                                             
+                                                                                                                                  
+alpha' = the pitch angle of the look direction S(theta,phi) corresponding to data sample                                          
+         CR(theta, phi, E)                                                                                                        
+B = the symmetry direction computed from the pressure tensor =/P                                                                  
+OF(alpha, alpha') = the fraction of the data sample at pitch angle alpha' that falls into pitch-angle                             
+         bin alpha. Typically, each data sample is summed partially into one pitch-angle bin,                                     
+         and partially into the adjacent bin.                                                                                     
+                                                                                                                                  
+Note that the denominator factor normalizes the PAD to counts per 22.5deg by 22.5deg                                              
+bin.                                                                                                                              
+                                                                                                                                  
+2.7 Position on the spacecraft                                                                                                    
+  The configuration of the spectrometer on the experiment platform is shown in                                                    
+Figure 10. The instrument extends beyond the platform in order to get clear of the                                                
+bumper shield and also of the upper part of the spacecraft body, over the total field                                             
+of view, which is from -2deg (towards the spacecraft body) to +7deg. It is partly pro-                                            
+tected by the extension of the rear shield (by a piece of kevlar) and the bumper shield                                           
+as shown in the figure. The outer hemisphere is made of 0.8 mm-thick aluminium,                                                   
+which is painted on the outside with a white conductive paint. The top cap, which                                                 
+defines the entrance aperture, is similarly made of white-painted aluminium and also                                              
+grounded to the signal ground. This cap is designed to prevent direct solar illumination                                          
+at the time of encounter. A portion of the top disc is reduced in the ram direction to                                            
+minimize the dust-impact problem.                                                                                                 
+                                                                                                                                  
+                                                                                                                                  
+3. The Positive Ion Cluster                                                                                                       
+       Composition Analyser                                                                                                       
+               (RPA2-PICCA)                                                                                                       
+                                                                                                                                  
+3.1 The sensor                                                                                                                    
+  The RPA2-PICCA experiment (Fig. 11) is designed to measure the spatial distribu-                                                
+tion and the composition of positive ions, including large-mass ion-water cluster com-                                            
+pounds, in the cometary coma. In the innermost part of this region, these particles are                                           
+expected to be singly charged (I+ or I+(H2O)n) and rather cold, i.e. their thermal                                                
+velocity is negligibly small compared with the relative spacecraft velocity (about                                                
+69 km/s). These particles are therefore expected to flow with the spacecraft velocity                                             
+and to be highly collimated in the direction opposite to the spacecraft ram direction.                                            
+The kinetic energy of these particles will be given approximately by E(kev)                                                       
+                                                                                                                                  
+Figure 10. Location of the RPA1-EESA                                                                                              
+spectrometer on the experiment platform                                                                                           
+                                                                                                                                  
+Figure 11. The Positive Ion Cluster Analyser                                                                                      
+   (RPA2-PICCA)                                                                                                                   
+                                                                                                                                  
+~ 5.1 X 10**-6 N*V**2, where V is the relative spacecraft velocity in km/s and N the ion                                          
+mass in amu.                                                                                                                      
+  The Giotto space probe is expected to traverse the inner coma in a rather short time,                                           
+so that the main observations performed by the RPA2-PICCA sensor will begin 15                                                    
+min before the closest approach of the spacecraft to Comet Halley. In the inner part                                              
+of the cometary coma the density, and therefore the flux of positively charged par-                                               
+ticles is expected to be rather high (~ 10**3 cm**-3), and at the same time to be accom-                                          
+panied by a very high flux of 'background radiation'. In the case of the RPA2-PICCA                                               
+experiment, this background could be caused by one or several of the following com-                                               
+ponents: solar and cometary electromagnetic radiation, incoming dust, neutral gas and                                             
+sputtered fragments due to collisions of these particles in the analyzer itself, energetic                                        
+electrons, high fluxes of positive ions interacting with the spacecraft and/or the outer                                          
+parts of the sensor, and any kind of particles surrounding the spacecraft due to dust-                                            
+micrometeoroid-neutral gas and cometary plasma interactions with the space probe.                                                 
+  To cope with these constraints and at the same time obtain as large an amount of                                                
+significant information as possible, the RPA2-PICCA sensor has been optimized in the                                              
+following way. As Figure 12 shows, the main part of this experiment is mounted                                                    
+behind the backup shield or the second bumper shield, but inside the spacecraft. Only                                             
+its entrance aperture, which is a 50X50X 150 mm**3 tube, is outside of the spacecraft,                                            
+but it is attached directly to the spacecraft skin and has a large (+/-6deg) unobstructed                                         
+field of view in the flight direction of the probe. This aperture is completely open,                                             
+so that light, micrometeoroids, dust and neutral gas can fly through without                                                      
+penetrating the analyzer system. In addition, the field of view of the analyzer itself is                                         
+chosen in such a way that it never intersects any part of the aperture, nor the spacecraft                                        
+skin or shields, but at the same time is still large enough (+/-5deg) to accept all particles                                     
+to be analyzed, even in cases where their trajectories may differ, due to additional ther-                                        
+mal speed of the ions, slight changes in the speed and orientation of the spacecraft,                                             
+or electrostatic potentials of the space probe. Thus, any kinds of fragments originating                                          
+from dust, neutral- or charged-particle interaction with the spacecraft and aperture                                              
+materials is precluded from entering the analyzer system.                                                                         
+  As with RPA2-PICCA, a mass analysis of positive ions and their clathrate hydrates                                               
+will be performed in the mass range 10-203 amu: their kinetic energy will be up to                                                
+about 5 keV. By applying a steadily increasing deflection voltage (+ HV) between the                                              
+top and the bottom parts of the aperture, the particles will therefore be deflected from                                          
+the incoming flow direction into the analyzer system. This analyzer is a 180deg                                                   
+hemispherical electrostatic analyzer, which focusses the particles onto two chan-                                                 
+neltrons with different sensitive areas in order to increase the dynamic range of the                                             
+instrument. The overall dynamic range covers ion densities from 10**-3 to 10**3                                                   
+ions/cm**3. Table 2 gives the geometrical characteristics of RPA2-PICCA. The den-                                                 
+sities of positive ions and ion-compounds expected at various distances from the com-                                             
+etary nucleus, as determined by Huebner & Giguere (1980) by multidimensional                                                      
+computer simulations, lie within the dynamic range of RPA2-PICCA.                                                                 
+  According to the equation E(keV) ~/= k*N*V**2 mentioned above, any energy/charge                                                
+(E/Q) measurement of this analyzer will actually be a measurement of the mass of the                                              
+particle, as Q=1. To obtain a good and constant mass resolution, the ions are                                                     
+decelerated before entering the electrostatic analyzer: ions with masses 10 to 50 will                                            
+have energies after this deceleration of 100 eV, and ions with masses 51 to 203,                                                  
+250 eV. Using an analyzer with Delta E/E ~/= 10% and operating at two different fixed                                             
+voltages for the two mass ranges, we obtain Delta E = 10 eV and Delta m ~/= 0.4 for the light                                     
+ions and Delta E = 25 eV and Delta m ~/= 1 for the heavier ions.                                                                  
+                                                                                                                                  
+Figure 12. Cross-sectional view of the                                                                                            
+RPA2-PICCA sensor                                                                                                                 
+-----------------------------------------------------------------------------------                                               
+Table 2. Geometrical factor of RPA2-PlCCA in cm**2 (for parallel incidence)                                                       
+                                                                                                                                  
+                                                  G (cm**2)       G (cm**2)                                                       
+Step numbers              Mass (amu)             (large CEM)     (small CEM)                                                      
+-----------------------------------------------------------------------------------                                               
+ 1-  10                       10-14               5.3x10**-4      6.2x10**-5                                                      
+11-  20                       14-18               5.2x10**-4      5.2x10**-5                                                      
+21-  30                       18-22               5.1x10**-4      3.0x10**-5                                                      
+31-  40                       22-26               5.1x10**-4      2.0x10**-5                                                      
+41-  50                       26-30               5.0x10**-4      1.5x10**-5                                                      
+51-  60                       30-34               4.9x10**-4                                                                      
+61-  70                       34-38               4.7x10**-4                                                                      
+71-  80                       38-42               4.3x10**-4                                                                      
+81-  90                       42-46               4.0x10**-4                                                                      
+91- 100                       46-50               3.7x10**-4                                                                      
+101-110                       51-60               4.4x10**-4                                                                      
+111-120                       61-70               4.5x10**-4                                                                      
+121-130                       71-80               4.7x10**-4                                                                      
+131-140                       81-90               4.3x10**-4                                                                      
+141-150                       91-100              3.3x10**-4                                                                      
+151-160                      101-110              2.5x10**-4                                                                      
+161-170                      111-120              1.9x10**-4                                                                      
+171-180                      121-130              1.4x10**-4                                                                      
+181-190                      131-140              1.1x10**-4                                                                      
+191-200                      141-150              9.0x10**-5                                                                      
+201-210                      151-160              7.6x10**-5                                                                      
+211-220                      161-170              6.5x10**-5                                                                      
+221-230                      171-180              5.5x10**-5                                                                      
+231-240                      181-190              4.6x10**-5                                                                      
+241-250                      191-200              4.0x10**-5                                                                      
+251-256                      201-206              3.4x10**-5                                                                      
+-----------------------------------------------------------------------------------                                               
+                                                                                                                                  
+  The electronics used within the RPA2-PICCA instrument are shown in Figure 13.                                                   
+All high voltages required for the deflection system, lens system, electrostatic analyzer                                         
+and the two channeltrons are generated within the sensor, so that there are no high-                                              
+voltage lines between the two RPA-Copernic instruments. The electronics also include                                              
+one test generator (100 kHz) and one ultraviolet lamp to test the functions of the                                                
+amplifiers and the channeltrons.                                                                                                  
+  A small negative voltage (-10 V) is applied to the outer part of the sensor in order                                            
+to repel the secondary electrons of the plasma cloud around the spacecraft, which                                                 
+would otherwise be captured by the positive deflection voltage.                                                                   
+                                                                                                                                  
+                                                                                                                                  
+3.2 Associated digital electronics                                                                                                
+  The electronics associated with RPA2-PICCA are included in the RPA1-EESA box,                                                   
+and are organized around a CDP 1802 microprocessor. These electronics are used to                                                 
+control operation of the RPA2-PICCA detector according to telemetry format and the                                                
+command status:                                                                                                                   
+                                                                                                                                  
+-   high-voltage stepping                                                                                                         
+-   test generator on/off                                                                                                         
+-   UV lamp on/off.                                                                                                               
+                                                                                                                                  
+Synchronously with this task, this microprocessor acquires data from two 16-bit                                                   
+counters, one for the larger CEM and one for the smaller. These data are compressed                                               
+from 16 bit to 8 bit, according to a special algorithm, such that the precision is always                                         
+better than 1.2% if the count rate is lower than 255, and better than 3.3% if the count                                           
+rate is between 255 and 65535. Every 16 s a packet of data is generated and is sent                                               
+to the telemetry by using a DMA interface. The high-voltage analyzer is monitored                                                 
+through an 8-bit analogue-to-digital converter. The step number and corresponding                                                 
+control voltage are included in the scientific data stream.                                                                       
+                                                                                                                                  
+Figure 13. Schematic block diagram of                                                                                             
+RPA2-PICCA                                                                                                                        
+                                                                                                                                  
+4. Modes of Operation                                                                                                             
+                                                                                                                                  
+  The initial Giotto telemetry was divided into two formats to allow plasma ex-                                                   
+periments to get more data far from the nucleus. A third reduced format (Format 3)                                                
+was also added in order to have some cruise measurements and as complete as                                                       
+possible coverage during the last days before the closest approach to the comet                                                   
+nucleus.                                                                                                                          
+  The telemetry allocation for the RPA-Copernic experiment is as follows: 904 bit/s                                               
+in Format 3, 2530 bit/s in Format 1, 1807 bit/s in Format 2. Format 2 will be used                                                
+from t(0)-1 hour (t(0) = time of closest approach) until mission end. Format 1 will be                                            
+used from t(0)-4 h until t(0)-1 h. Prior to that, Formats 1 and 3 will be used in order                                           
+to obtain complete coverage of the last 24 h before the closest approach to the nucleus                                           
+and significant coverage during the last five days.                                                                               
+  An internal RPA-Copernic switch in Format 2, 15 min before t(0) will modify bit                                                 
+distribution between the two sensors (Formats 2/1 and 2/2). Tables 3,4,5 and 6 give                                               
+summaries of the measurements and telemetered data for each format (in HBR for For-                                               
+mats 1, 2/1 and 2/2).                                                                                                             
+  RPA2-PICCA is used mainly in the Format 2/2 (encounter phase). Its cycle of                                                     
+measurement is 3.2 s, i.e. less than one spin period, avoiding the analysis of the same                                           
+masses always in the same sector. This sensor is not used in Format 3 and is in a                                                 
+survey mode in Formats 1 and 2/1.                                                                                                 
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Table 3. RPA-Copernic measurements in telemetry Format 3                                                                          
+                                                                                                                                  
+Detector       Data output       Parameters        Time resolution (s)  Bit rate (bit/s)                                          
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+RPA 1-EESA     Pitch-angle       8 alpha x 10 E          2                 388                                                    
+               distribution      7E> 80 eV*                                                                                       
+                                 3E<80eV                                                                                          
+                                                                                                                                  
+               Omnidirectional   16E> 80 eV              2                  64                                                    
+               energy spectrum                                                                                                    
+               low-energy        13e(E<80 eV)**                                                                                   
+               distribution      x 16 phi**          Snapshot 4 s          104                                                    
+               Distribution                          every 16 s                                                                   
+               function          6E x 89 Omega       Snapshot 2 s          267                                                    
+               Six maxima and                        every 16 s                                                                   
+               positions for six                         2                  72                                                    
+               integrated                                                                                                         
+               energy bands***                                                                                                    
+                                                                                                                                  
+RPA2-PICCA                       No use                                                                                           
+                                                                                                                                  
+                                                                                                                                  
+Housekeeping                                                                 9.5                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Total                                                                      904.5                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+E = Energy  alpha = Pitch angle  Omega = Solid angle sector  phi = Azimuthal angle                                                
+                                                                                                                                  
+Remarks                                                                                                                           
+                                                                                                                                  
+* The B-direction is calculated for the 2E bands. In 2 s, the total number of words is (8 alpha x 10E)                            
++ (6 pressure tensor elements) x (2E bands) + (B direction (2 words)) x (2E bands) + (1 HK word) = 97 words.                      
+** One snapshot with the first half of the MCP, the following one with the second half of the MCP.                                
+*** Giving the energy (1 word) of each maximum (1 word) and its angular position (1 word) for 6                                   
+energy bands, i.e. 18 words.                                                                                                      
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Table 4. RPA-Copernic measurements in high bit rate (HBR)* telemetry Format 1                                                     
+                                                                                                                                  
+Detector       Data output       Parameters         Time resolution (s)  Bit rate (bit/s)                                         
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+RPAl-EESA      Pitch-angle       8 alpha x 16 E         2                 580                                                     
+               distribution      12E>80 eV                                                                                        
+                                 4E<80eV                                                                                          
+               Omnidirectional   11E>80 eV              2                  92                                                     
+               energy spectrum   12E< 80 eV                                                                                       
+               Low energy        12E(E<80 eV)           Snapshot 4 s       96                                                     
+               distribution      x16 phi                every 16 s                                                                
+               Distribution      15E x 89 Omega         Snapshot 2 s     1335                                                     
+               tunction                                 every 8 s                                                                 
+               39 maxima and     23E>80eV               2                 312                                                     
+               positions for     l6E<80 eV                                                                                        
+               39E**                                                                                                              
+                                                                                                                                  
+RPA2-PICCA     l0- 50 amu        Delta M=0.4(101 steps) 182 steps          90                                                     
+               51-129 amu        Delta M=l (79 steps)   in 16 s***         +6****                                                 
+                                                                                                                                  
+Housekeeping   Includes MCP                                                17.5                                                   
+               current                                                                                                            
+               measurements                                                                                                       
+               16E in 16 s                                                                                                        
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Total                                                                    2528.5                                                   
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+* The same data are produced in LBR, but from every other spin only.                                                              
+** Energy information transmission as in Format 3 not needed.                                                                     
+*** Spin-segment clock: 16 384 pulses/spin. Integrated measurement each 360 pulses, i.e. Delta t ~/= 88 ms                        
+**** 6 bit/s for status. ADC. high-voltage steps, references of RPA2-PICCA where only large CEM                                   
+used.                                                                                                                             
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Table 5. RPA-Copernic measurenients in HBR* telemetry Format 2 (Format 2/1)                                                       
+                                                                                                                                  
+Detector       Data output       Parameters              Time resolution (3)  Bit rate (bit/s)                                    
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+RPA1-EESA      Pitch-angle       8 alpha x 16 E          2                      580                                               
+               distribution      1 2E > 80 eV                                                                                     
+                                 4E<80eV                                                                                          
+               Omnidirectional   11E>80 eV               2                       92                                               
+               encrgy spectrum   12E <80 eV                                                                                       
+               Low energy        12E(E<80 eV)            Snapshot 4 s           192                                               
+               distribution      x 16 phi                every 8 s                                                                
+               Distribution      8Ex89 Omega             Snapshot 2 s           7l2                                               
+               function                                  every 8 s                                                                
+               Seven maxima and                          2                       84                                               
+               positions for                                                                                                      
+               seven integrated                                                                                                   
+               energy bands                                                                                                       
+               Ram direction     32 energy steps         8                       32                                               
+                                 10 eV - 5 keV                                                                                    
+                                                                                                                                  
+RPA2-PlCCA    10- 50 amu        Delta M=0.4 (101 steps) 182 steps                90                                               
+              51-129 amu         Delta M=1 (79 steps)    in 16 s                 +6                                               
+                                                                                                                                  
+Housekeeping   Includes MCP                                                      17.5                                             
+               current measurements                                                                                               
+               16E in 16 s                                                                                                        
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Total                                                                          1805.5                                             
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+* The same data are produced in LBR, but from every other spin only                                                               
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Table 6. RPA-Copernic measurements in HBR* telemetry Format 2 (Format 2/2)                                                        
+                                                                                                                                  
+Detector       Data output       Parameters         Time resolution (s)  Bit rate (bit/s)                                         
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+RPA1-EESA      Pitch-angle       8 alpha x 10 E           2                   388                                                 
+               distribution                                                                                                       
+               Omnidirectional   16E>80 eV                2                   116                                                 
+               energy spectrum   13E< 80 eV                                                                                       
+               Energy            12E(E< 8 eV) x 16 phi    Snapshot  4 s       304                                                 
+               distribution      7E(E>80 eV) x l6 phi     every 8 s                                                               
+               Seven maxima and                           2                    84                                                 
+               positions for                                                                                                      
+               Seven integrated                                                                                                   
+               energy bands                                                                                                       
+               Ram direction     33 adjacent              2 s                 132                                                 
+                                 energy steps                                                                                     
+                                 1O eV -6 keV                                                                                     
+                                                                                                                                  
+               10- 50 amu        Delta M=0.4 (101 steps   262 steps           760                                                 
+RPA2-P1CCA     51-203 amu        with 50 meas.            in 3.2 s**                                                              
+                                 with small CEM                                +6                                                 
+                                 in parallel)                                                                                     
+                                 Delta M=1 (153 steps)                                                                            
+                                                                                                                                  
+Housekeeping   Including MCP                                                   17.5                                               
+               current                                                                                                            
+               measurements                                                                                                       
+               16E in 16 s                                                                                                        
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Total                                                                        1807.5                                               
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+* The same data are produced in LBR, but from every other spin only                                                               
+** Integrated measurement each 50 pulses of the spin segment clock, i.e. 1520 measurements during                                 
+four spins (Delta t ~/= 12.2 ms).                                                                                                 
+In four spins we have five measurement sequences; in every sequence we have 262 intervals: 8 are                                  
+used for resetting the high voltage, 254 with the large channeltron (from 10 to 203 amu) and 50 with                              
+the small channeltron (from 10 to 29.6 amu) in parallel.                                                                          
+                                                                                                                                  
+                                                                                                                                  
+5. Conclusion                                                                                                                     
+                                                                                                                                  
+  The main characteristics of the two sensors of the Giotto RPA-Copernic experiment                                               
+are summarized in Table 7. The experiment operated successfully for the first time                                                
+in September 1985. RPA2-PICCA is working well, but is not designed to study solar-                                                
+wind ions, and is therefore not useful during the cruise phase prior to encounter with                                            
+Comet Halley. RPA1-EESA is regularly providing fine data on the electrons in the                                                  
+interplanetary medium. Figures 14 and 15 show examples of results obtained on day                                                 
+289 in 1985. Figure 14 contains 5 h of measurements of the interplanetary B-field                                                 
+direction and of the electron density. Figure 15 is an example of the electron Low                                                
+Energy Distribution (LED) obtained over one spacecraft spin period (4 s).                                                         
+  Hence, these two sensors, specially designed for the Giotto mission, are ready to                                               
+study the solar wind - Comet Halley interaction and the environment of the comet                                                  
+nucleus on 13 March 1986. The electron and ion measurements should help to define                                                 
+the basic structure of the cometary plasma, and provide a sensitive diagnosis of the                                              
+interactions between the various components of the cometary environment: solar                                                    
+wind, cometary plasma, micrometeoroids, cometary dust, the nucleus, neutral gas,                                                  
+electrons and ions.                                                                                                               
+ In addition, important information on the composition of comets should be obtained                                               
+which, in combination with that from other experiments, should help us to define the                                              
+chemical and physical nature of comets.                                                                                           
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Table 7. Main characteristics of the two sensors of the RPA-Copernic experiment                                                   
+                                                                                                                                  
+                                                               RPA2-PICAA                                                         
+                           RPA1-EESA                          (Positive thermal ion composition                                   
+Function                   (Suprathermal electron analyzer)    analyzer)                                                          
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Instrumentation                                                                                                                   
+Analyser                   Symmetrical quadrispherical         Hemispherical                                                      
+Detectors                  Microchannel plates                 Two channeltrons (one for high                                     
+                                                               count rates)                                                       
+Energy range               10 eV - 30 keV                                                                                         
+Mass range                                                     10 - 203 amu                                                       
+Energy resolution          10%                                                                                                    
+Mass resolution                                                Delta M=0.4 if M<50 amu                                            
+                                                               Delta M=1   if M>50 amu                                            
+Geometrical factor         2.5x 10**-3                         Between 5.3 x 10**-4 and 3.4 x 10**-5                              
+                           xE (keV) cm**2 . ster . keV         cm**2 for a parallel incidence                                     
+                                                              (Table 2)                                                           
+Field of view              360deg x4deg (FWHM)                 60x6deg                                                            
+Best angular resolution    22.5deg x4deg (FWHM)                                                                                   
+Dynamic range              (4x10**3x10**9)/E (keV)             10**-3 - 10**3 cm**-3                                              
+                           (cm**2.sec.ster.keV)**-1                                                                               
+Background rejection       Fly-through source - UV rejection   Fly-through source - UV rejection                                  
+Best time resolution       1/2 spin (2 s) for a complete 3D    3.2 s for an ion mass spectrum                                     
+                           distribution with 39 energy steps                                                                      
+Onboard data processing    Pitch-angle sorting                                                                                    
+                                                                                                                                  
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Physical Characteristics                                                                                                          
+Weight                     2.3 kg  + 0.2 kg (harness from     0.78 kg                                                             
+                           RPA1 to RPA2)                                                                                          
+Power                      3.IW                               0.6W                                                                
+Telemetry (high bit rate)  Format 1: 2430 bit/s,              Format 1: 98 bic/s,                                                 
+(divided by 2 in low bit   Format  2/1: 1709 bit/s            Format 2/1: 98 bit/s                                                
+rate in Format 1,          Format 2/2: 1039 bit/s.            Format 2/2: 768 bit/s:                                              
+2/1 and 2/2)               Format 3: 903 bit/s                not used in Format 3                                                
+---------------------------------------------------------------------------------------                                           
+                                                                                                                                  
+Figure 14. Results of the calculation of the B-                                                                                   
+field direction on day 289 in 1985 over a 5 h                                                                                     
+period: B(theta) is given in the lower part and B(phi) in                                                                         
+the centre. The electron density is given in the                                                                                  
+upper sector                                                                                                                      
+                                                                                                                                  
+Figure 15. Example of the electron low-energy                                                                                     
+distribution obtained during one spin of the                                                                                      
+spacecraft on day 289 in 1985 at 08.00:01 UT                                                                                      
+                                                                                                                                  
+Acknowledgements                                                                                                                  
+                                                                                                                                  
+  The design, development, fabrication, testing and calibration of the RPA in-                                                    
+struments would have been impossible without the ingenuity and dedicated efforts of                                               
+many individuals in the three cooperating institutions.                                                                           
+  The development and fabrication of the RPA1-EESA instrument were accomplished                                                   
+in the Centre d'Etude Spatiale des Rayonnements. Thanks are due to C. Aoustin,                                                    
+J. Bouyssou, M. Cassignol, J. Coutelier, J. Rouzaud and P. Souleille for their con-                                               
+tributions. This work was supported by CNES under Grant No. 1212.                                                                 
+  The development and fabrication of the RPA2-PICCA instrument were accomplish-                                                   
+ed in the Max-Planck-Institut fur Aeronomie. The authors are especially indebted to                                               
+W.  Guttler and H. Schuddekopf for their strong personal involvement during develop-                                              
+ment, testing and calibration. This work was supported by the Max-Planck-                                                         
+Gesellschaft fur Forderung der Wissenschaften and by the Bundesminister fur                                                       
+Forschung und Technologie under Grant No. 01 OF 052.                                                                              
+  The research in the United States was supported in part by NASA Contract                                                        
+NASW-3575.                                                                                                                        
+  Thanks are also due, for their efficient support, to D. Dale, J. Credland and                                                   
+C. Berner and the ESA Giotto Project Team, and to R. Reinhard, Giotto Project                                                     
+Scientist.                                                                                                                        
+                                                                                                                                  
+References                                                                                                                        
+Anderson K A, Lin R P, McCoy J E & McGuire R E 1975, Measurement of lunar                                                         
+    and planetary magnetic fields by reflection of low energy electrons, Space Sci.                                               
+    Instr., 1,439.                                                                                                                
+Carlson C W, Curtis D W, Paschmann G & Michael W 1982, An instrument for rapidly                                                  
+    measuring plasma distribution functions with high resolution, Adv. Space Res.,                                                
+    2, 67.                                                                                                                        
+Gosling JT, Asbridge J R, Bame S J & Feldman W C 1978, Effects of a long entrance                                                 
+    aperture upon the aximuthal response of spherical section electrostatic analyzers,                                            
+    Rev. Sci. Instrum., 49, 1260.                                                                                                 
+Huebner W T & Giguere R T 1980, Model of comet coma: 2. Effects of solar                                                          
+    photodissociative ionization, Astrophys. J., 238, 753.                                                                        
+Lin R P, McGuire R E, Howe H C. Anderson K A & McCoy J E 1975, Mapping of                                                         
+    lunar surface remanent magnetic fields by electron scattering, Proc. Sixth Lunar                                              
+    Sci. Conf., 2971.                                                                                                             
+Reme H, Cotin F, d'Uston C, Sauvaud J A, Korth A, Richter A K, Anderson K A,                                                      
+    Carlson C W, Lin R P, Wekhof A, Mendis D A & Johnstone A D 1981, The                                                          
+    Copernic experiment to measure three-dimensional electron distribution and the                                                
+    composition of thermal positive ions including water clusters near Comet Halley,                                              
+    ESA SP-169, 29.                                                                                                               
+Reme H, Cotin F, Cros A, d'Uston C, Sauvaud J A, Bush R, Korth A, Loidl A,                                                        
+    Richter A K, Anderson K A, Carlson C W, Curtis D, Lin R P, Mendis D A,                                                        
+    Wekhof A & Johnstone A D 1983, An experiment to study the solar wind - Comet                                                  
+    Halley interaction and the cometary environment with 3D electron distribution                                                 
+    and thermal positive ion measurements onboard the Giotto spacecraft, Cometary                                                 
+    Exploration III, 321.                                                                                                         
+d'Uston C & Reme H 1984, Anticipated impact plasma problems for the Copernic-                                                     
+    RPA experiment in the cometary environment, ESA SP-224, 81.                                                                   
+                                                                                                                                  

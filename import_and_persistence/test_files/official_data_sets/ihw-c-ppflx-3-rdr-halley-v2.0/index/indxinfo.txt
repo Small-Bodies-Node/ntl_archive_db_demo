@@ -1,0 +1,17 @@
+PDS_VERSION_ID = PDS3                                                         
+                                                                              
+RECORD_TYPE    = "STREAM"                                                     
+                                                                              
+OBJECT     = TEXT                                                             
+  PUBLICATION_DATE = 2006-06-21                                               
+  NOTE             = "INDXINFO.TXT File"                                      
+END_OBJECT = TEXT                                                             
+END                                                                           
+                                                                              
+Index Directory                                                               
+===============                                                               
+                                                                              
+This directory contains the required PDS index for this data set:             
+                                                                              
+   index.tab      index file                                                  
+   index.lbl      PDS label                                                   
