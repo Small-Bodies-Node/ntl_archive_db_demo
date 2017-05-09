@@ -9,10 +9,9 @@ interested in using PDS data in apps for scientists, amateurs, teachers, and the
 
 Outline of directories:
 
-  front_end: Online web interface for searching the demo archive database.
-  import_and_persistence: Tools for loading the backend database from PDS3 data.
-  web_service: API for accessing the demo archive database.
-  web_service_javascript: Demo usage of the web_service API.
-  
-  
+|  front_end - Online web interface for searching the demo archive database.
+|  import_and_persistence - Tools for loading the backend database from PDS3 data.
+|  web_service - API for accessing the demo archive database.
+|  web_service_javascript - Demo usage of the web_service API.
+
 Documentation for various aspects of this code is available in the respective docs directories. 
