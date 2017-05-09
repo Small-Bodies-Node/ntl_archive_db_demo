@@ -13,6 +13,5 @@ Outline of directories:
 |  import_and_persistence - Tools for loading the backend database from PDS3 data.
 |  web_service - API for accessing the demo archive database.
 |  web_service_javascript - Demo usage of the web_service API.
-
-
-Documentation for various aspects of this code is available in the respective docs directories.
+|
+|  Documentation for various aspects of this code is available in the respective docs directories.
